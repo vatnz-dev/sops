@@ -1,0 +1,57 @@
+{% extends "main.html" %}
+{% block tabs %}
+{{ super() }}
+<link rel="stylesheet" href="assets/stylesheets/home.css">
+<!-- Hero -->
+<section class="container">
+    <div class="md-grid md-typeset">
+        <div class="hero">
+            <div class="hero-content">
+                <h1> Welcome! </h1>
+                    <p>Welcome to the information hub for VATNZ, where you can find SOPs, Local Instructions and other information pertinent to providing a high-quality service within the virtual New Zealand FIR.</p>
+                <a href="{{ page.next_page.url | url }}" title="{{ page.next_page.title | striptags }}" class="md-button md-button--primary">
+                    Let's go!
+                </a>
+                <a href="https://vatnz.net/" title="VATNZ Website" class="md-button">
+                    Go to VATNZ Website
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Page links -->
+<div class="feature-margin">
+    <div class="f-box">
+        <a href="changelog/">
+            <h2>
+                Dataset Releases
+            </h2>
+            <hr>
+            <p>We release a new version of our Controller Data for EuroScope and vatSys every 28 days in line with the AIRAC Cycles. Check out the latest changes!</p>
+        </a>
+    </div>
+
+    <div class="f-box">
+        <a href="enroute/">
+        <h2>
+            Enroute Changes
+        </h2>
+        <hr>
+        <p>We are pleased to announce changes to our Extended Sectors policy - now making it easier to extend to all of the NZZC FIR, while making it easier for our Pilots.</p>
+        </a>
+    </div>
+
+    <div class="f-box">
+        <a href="aerodromes/wellington">
+        <h2>
+            Wellington Update
+        </h2>
+        <hr>
+        <p>Amended Wellington SOPs have been released in order to account for the new <code>UPVAP</code> departures for prop aircraft.</p>
+        </a>
+    </div>
+</div>
+
+{% endblock %}
+{% block content %}{% endblock %}
