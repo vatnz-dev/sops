@@ -3,7 +3,7 @@
 # - Titles for specific pages or subdirectories
 # - Order of pages (otherwise alphabetical order)
 
-title: Development
+title: Assist Us
 nav:
-    - Overview: index.md
+    - index.md
     - ...

@@ -1,7 +1,7 @@
 # Project Information
 site_name: VATNZ Standard Operating Procedures
 site_url: https://vatnz-dev.github.io/sops/
-repo_url: https://github.com/vatnz-dev/new-zealand-dataset
+repo_url: https://github.com/vatnz-dev/sops
 repo_name: vatnz/sops
 edit_uri: "" #removes edit button and icon
 copyright: For flight simulation use only. VATNZ is in no way affiliated with Airways or CAA NZ. 
@@ -72,3 +72,5 @@ markdown_extensions:
   - pymdownx.emoji: # Allows emoji style inline embeds for icons
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
+  - abbr
+  - pymdownx.snippets

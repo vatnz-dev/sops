@@ -1,4 +1,10 @@
-# Management of our SOPs
+---
+title: How to help with these SOPs
+---
+
+--8<-- "includes/abbreviations.md"
+
+# How do I help out, you say?
 
 The Standard Operating Procedures Refresh project aims to provide easily accessible and high quality SOPs to the Community, enabling both Pilots and Controllers to excel in the New Zealand Flight Information Regions.
 
