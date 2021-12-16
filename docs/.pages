@@ -1,5 +1,5 @@
 nav:
     - Home: index.md
-    - Aerodromes: /aerodromes/
-    - Enroute: /enroute/
-    - Development: /development/
+    - Aerodromes: aerodromes
+    - Enroute: enroute
+    - Development: development
