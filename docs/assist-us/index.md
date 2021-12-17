@@ -6,17 +6,17 @@ title: How to help with these SOPs
 
 # How do I help out, you say?
 
-The Standard Operating Procedures Refresh project aims to provide easily accessible and high quality SOPs to the Community, enabling both Pilots and Controllers to excel in the New Zealand Flight Information Regions.
+The Standard Operating Procedures Refresh aims to provide easily accessible and high quality SOPs to the Community, enabling both Pilots and Controllers to excel in the New Zealand Flight Information Regions.
 
-We readily welcome collaboration from members of the Community on these SOPs, and encourage members of the Community to make these SOPs their own.
+We readily welcome collaboration from members of the Community on these SOPs.
 
 ## What we're looking for
 
-We're well aware that members of the Community flock to VATSIM for different reasons. Some want to imitate the real-world as close as possible, whereas some are here just to have fun with a different hobby.
+We're well aware that members of the Community flock to VATSIM for different reasons. Some want to imitate the real-world as close as possible, whereas some are here just to have fun with their hobby.
 
-When contributing to the SOPs Project, it's important to understand the practical limitations of the network. 
+When contributing to the SOPs Project, it's important to understand the practical limitations of the network and how it reflects on the realism versus enjoyment aspect.
 
-There are some aspects of Controlling that we might not want to implement because it adds too many unnecessary complications, such as low-visibility and noise abatement procedures. Because of this, we ask you to have a chat to the Operations Team in the [:fontawesome-brands-discord:{: .discord } - **VATNZ Discord**](https://www.vatnz.net/discord/){target=new} before you get too into it.
+There are some aspects of Controlling that we might not want to implement because it adds too many unnecessary complications, such as low-visibility and noise abatement procedures. Because of this, we ask you to have a chat to the Operations Team in the [:fontawesome-brands-discord:{: .discord } - **VATNZ Discord**](https://www.vatnz.net/discord/){target=new} before you get too into a new round of procedures.
 
 
 
@@ -89,11 +89,11 @@ There's a little bit of setup required, but these instructions will get you goin
 ## Working with MkDocs
 
 !!! hint
-    If you've got the space, have your web browser and code editor side-by-side. This means that as you make changes and save, these are immediately reflected in front of you.
+    If you've got the space on your screen, have your web browser and code editor side-by-side. This means that as you make changes and save, these are immediately reflected in front of you.
 
 You can find documentation for [MkDocs here](https://squidfunk.github.io/mkdocs-material/reference/abbreviations/){target=new}. 
 
-All of MarkDown's default syntax is supported by MkDocs, including links, images, etc. It's also got some pretty nifty features, which assist in writing documentation.
+All of Markdown's default syntax is supported by MkDocs, including links, images etc. It's also got some pretty nifty features, which assist in writing documentation.
 
 ### Links
 

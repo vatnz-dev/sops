@@ -88,5 +88,5 @@ h4 {
 }
 /* Tasklist */
  .md-typeset [type=checkbox]:checked+.task-list-indicator:before {
-    background-color: #3A7CA5;
+    background-color: #81C3D7;
 }
