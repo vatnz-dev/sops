@@ -2,7 +2,7 @@
 site_name: VATNZ Standard Operating Procedures
 site_url: https://vatnz-dev.github.io/sops/
 repo_url: https://github.com/vatnz-dev/sops
-repo_name: vatnz/sops
+repo_name: vatnz-dev/sops
 edit_uri: "" #removes edit button and icon
 copyright: For flight simulation use only. VATNZ is in no way affiliated with Airways or CAA NZ. 
 

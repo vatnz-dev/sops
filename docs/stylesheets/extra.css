@@ -77,7 +77,7 @@ h4 {
 /*Table Styling*/
 .md-typeset table:not([class]) th {
   font-weight: bold;
-  background-color: #00C2CB;
+  background-color: #81C3D7;
   color: var(--md-default-bg-color);
 }
 /* reduced table row height */
