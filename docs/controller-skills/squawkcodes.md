@@ -21,6 +21,7 @@ Typically aircraft that are flying under VFR do not transmit a discrete code; in
 | 1500                                    | Generic code for a VFR helicopter when a discrete code has not been issued.         |
 | 2200                                    | VFR aircraft operating within a Controlled Aerodrome circuit.                       |
 | 3000 - 3777                             | Discrete code range for Controlled VFR aircraft.                                    |
+| 4000 - 4777                             | Discrete code range for Controlled VFR aircraft.                                    |
 
 !!! tip
     Discrete squawk codes can be issued to VFR aircraft when operating within a Control Zone. 
@@ -44,8 +45,8 @@ Codes shall be issued to an aircraft during the Clearance Delivery process, and 
 
 All IFR traffic with their destination outside of the New Zealand Domestic FIR are required to transmit a discrete squawk code within the International IFR range. This is required to ensure that all traffic can be individually identified on the Controller's radar scope.
 
-| Code Range &nbsp; &nbsp; &nbsp; &nbsp; | Description  |
-| -------------------------------------- | ------------------------------------------------------------------------------------------------ |
+| Code Range &nbsp; &nbsp; &nbsp; &nbsp; | Description                                                                                                                                                                  |
+| -------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 0100 - 0177                            | Reserve code range for International IFR aircraft. This code range may only be used during high traffic events as authorised by the Events Director, or Operations Director. |
 | 0200 - 0277                            | Discrete code range for International IFR aircraft.                                                                                                                          |
 | 2000                                   | Generic code for IFR aircraft not actively managed by an ATC unit.                                                                                                           |
@@ -59,10 +60,10 @@ Codes shall be issued to an aircraft during the Clearance Delivery process, and 
 
 ## Military Traffic
 
-| Code Range &nbsp; &nbsp; &nbsp; &nbsp; | Description |
-| -------------------------------------- | ----------- |
-| 6000 - 6477                                       |  Discrete code range for Military fixed wing aircraft.           |
-|   6500 - 6577                                     |   Discrete code range for Military helicopters.          |
+| Code Range &nbsp; &nbsp; &nbsp; &nbsp; | Description                                           |
+| -------------------------------------- | ----------------------------------------------------- |
+| 6000 - 6477                            | Discrete code range for Military fixed wing aircraft. |
+| 6500 - 6577                            | Discrete code range for Military helicopters.         |
 
 Military aircraft shall be assigned a discrete code regardless of flight profile. This code shall be assigned when either a VFR or IFR clearance is issued.
 

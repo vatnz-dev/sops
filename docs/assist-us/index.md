@@ -1,5 +1,5 @@
 ---
-title: How to help with these SOPs
+title: How to assist us with these SOPs
 ---
 
 --8<-- "includes/abbreviations.md"
