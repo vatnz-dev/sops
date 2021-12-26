@@ -13,5 +13,5 @@
 *[FIR]: Flight Information Region
 *[SSR]: Secondary Surveillance Radar
 *[FMA]: Foreign Military Aircraft
-
+*[SOPs]: Standard Operating Procedures
 *[PR]: Pull Request

@@ -39,7 +39,7 @@ Every page starts the same way - with a title declaration and an abbreviation in
 title: Building Blocks
 ---
 
-`--8<-- "includes/abbreviations.md"`
+--8<-- "includes/abbreviations.md" 
 
 ```
 
