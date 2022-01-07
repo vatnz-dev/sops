@@ -10,7 +10,7 @@
 
 * **NZZO_FSS**: "Auckland Radio" on 8.867 (aliased as 129.000)
 * **NZZO-E_FSS**: "Auckland Radio" on 5.643 (aliased as 131.500)
-* **NZCM_FSS**: "McMurdo Radio" on 9.032 (aliased as 128.700)
+* **NZCM_FSS**: "Mac Centre" on 9.032 (aliased as 128.700)
 
 !!! info
     * **NZZO-E_FSS** is intended as an Events Only position specifically for major events involving Oceanic LoA partners, or Worldflight. NZZO-E's area of responsibility is East of the International Date Line.
@@ -53,7 +53,15 @@ None! NFTF_TWR is covered by NFTF_APP.
 
 ## Niue Positions (NI**)
 
-Only a Tower position. The only documentation I can find is that it is a Procedural Tower position, but nothing about its' lateral/vertical bounds. It has **no** airspace surrounding it. 
+Niue only has a Flight Information Service, providing only a traffic information service. This will be modelled as **NIUE_TWR**, with a standard Tower visibility range of 50nm. The Tower is to provide a traffic information service, in addition to relaying IFR clearances from NZZO_FSS.
+
+**Departing** 
+
+Departing aircraft should make contact with `NZZO_FSS` upon passing 20DME from `NU`. If unable to gain contact, they are to remain with NIUE FIS until they have positive contact.
+ 
+**Arriving** 
+
+Arriving aircraft will be given clearance to leave Controlled Airspace on descent through FL245, however should maintain a listening watch on `NZZO_FSS`. Aircraft should attempt to make contact with `NIUE_TWR` around 40 DME, and shall report that positive contact to `NZZO_FSS` before dropping that frequency. `NIUE_TWR` will report your landing back to `NZZO_FSS` in order to close your flightplan.
 
 ## Samoa Positions (NS**)
 
@@ -63,7 +71,7 @@ This section covers both Western Samoa and American Samoa.
 
 There are no real-world Enroute Sectors operating above Samoa, however due to Samoa's complex Approach sectors and large TMAs, we merge them into a single Faleolo Control Sector.
 
-![NSFA Enroute](assets/nsfa-control.png){ align=right width="350" }
+![NSFA Enroute](assets/nsfa-control.png){ align=left width="350" }
 
 * **NSFA_CTR**: "Faleolo Control" on 126.900. 
     * **Limits**: Vertical limits differ. Includes the main sector to the West, and the 'R' sector over Pago Pago.
