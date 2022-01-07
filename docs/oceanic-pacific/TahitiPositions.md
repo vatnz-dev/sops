@@ -21,13 +21,13 @@
     * Provdes an Enroute/Approach Control service for flights between NTTB (Bora Bora), NTTR (Raiatea), Huahine (NTTH) and Tupai (NTUU). 
         * NTTB and NTTR have their own Towers, operating from SFC to 1,500ft.  
             * NTTB_TWR also covers NTUU to the north.
-      * NTTH is uncontrolled, with the base of NTAA_CTR at 1,500ft.
+      * NTTH is uncontrolled, with the base of NTTT_CTR at 1,500ft.
 
 ### TMA
 
 * **NTAA_APP**: "Tahiti Approach" on 121.300
     * A 50nm radius circle centered on NTAA, with a wedge missing from the SE due to the big ass mountain.
-    * Provides a service from 2,500ft to FL195, where it would hand off to NTAA_CTR.
+    * Provides a service from 2,500ft to FL195, where it would hand off to NTTT_CTR.
 
 ### Towers
 
