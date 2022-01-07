@@ -17,7 +17,9 @@
 
 ## Other real-world Sectors
 
-![NZZO Overview](assets/nzzo-overview.png){ align=right width="350" }
+<center>
+  ![NZZO Overview](assets/nzzo-overview.png){ width="450" }
+</center>
 
 The protrusion at the top of the NZZO FIR actually has three subsectors defined by Airways - the Samoan, Tongan and Cook Sectors.
 
@@ -71,7 +73,9 @@ This section covers both Western Samoa and American Samoa.
 
 There are no real-world Enroute Sectors operating above Samoa, however due to Samoa's complex Approach sectors and large TMAs, we merge them into a single Faleolo Control Sector.
 
-![NSFA Enroute](assets/nsfa-control.png){ align=left width="350" }
+<center>
+  ![NSFA Enroute](assets/nsfa-control.png){ width="450" }
+</center>
 
 * **NSFA_CTR**: "Faleolo Control" on 126.900. 
     * **Limits**: Vertical limits differ. Includes the main sector to the West, and the 'R' sector over Pago Pago.
