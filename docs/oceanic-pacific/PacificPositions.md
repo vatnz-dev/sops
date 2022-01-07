@@ -37,7 +37,8 @@ Traffic levels on VATSIM rarely get this high, so this split is not warranted. T
 ### TMA
 
 * **NFTF_APP** "Fua'Amotu Tower" on 118.500
-    * **Limits**: There are two layers to NFTF_APP's area of responsibility:
+    * **Limits**: There are three layers to NFTF_APP's area of responsibility:
+        * A circle 23nm in diameter, centered on TBU VOR from SFC to 3,500ft.
         * A circle 75nm in diameter, centered on TBU VOR from 3,500ft to 9,500ft.
         * A circle 100nm in diameter, centered on TBH VOR from 9,500ft to 19,500ft.
     * Fua'Amotu would hand aircraft off to NZZO_FSS upon crossing the boundary.
