@@ -15,3 +15,5 @@
 *[FMA]: Foreign Military Aircraft
 *[SOPs]: Standard Operating Procedures
 *[PR]: Pull Request
+*[FSS]: Flight Service Station
+*[AFIS]: Aerodrome Flight Information Station
