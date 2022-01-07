@@ -55,15 +55,15 @@ None! NFTF_TWR is covered by NFTF_APP.
 
 ## Niue Positions (NI**)
 
-Niue only has a Flight Information Service, providing only a traffic information service. This will be modelled as **NIUE_TWR**, with a standard Tower visibility range of 50nm. The Tower is to provide a traffic information service, in addition to relaying IFR clearances from NZZO_FSS.
+Niue only has a Flight Information Service, providing only traffic information. This will be modelled as **NIUE_TWR**, with a standard Tower visibility range of 50nm. The Tower is to provide a traffic information service, in addition to relaying IFR clearances from NZZO_FSS.
 
 **Departing** 
 
-Departing aircraft should make contact with `NZZO_FSS` upon passing 20DME from `NU`. If unable to gain contact, they are to remain with NIUE FIS until they have positive contact.
+Departing aircraft should make contact with NZZO_FSS upon passing 20DME from `NU`. If unable to gain contact, they are to remain with NIUE_TWR until they have positive contact.
  
 **Arriving** 
 
-Arriving aircraft will be given clearance to leave Controlled Airspace on descent through FL245, however should maintain a listening watch on `NZZO_FSS`. Aircraft should attempt to make contact with `NIUE_TWR` around 40 DME, and shall report that positive contact to `NZZO_FSS` before dropping that frequency. `NIUE_TWR` will report your landing back to `NZZO_FSS` in order to close your flightplan.
+Arriving aircraft will be given clearance to leave Controlled Airspace on descent through FL245, however should maintain a listening watch on NZZO_FSS. Aircraft should attempt to make contact with NIUE_TWR around 40 DME, and shall report that positive contact to NZZO_FSS before dropping that frequency. NIUE_TWR will report your landing back to NZZO_FSS in order to close your flightplan.
 
 ## Samoa Positions (NS**)
 
