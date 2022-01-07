@@ -14,7 +14,7 @@ In the real-world, NTTT is operatated by the French, so there are some peculiari
 * Outside of the Tower/Approach/Enroute CTAs, the NTTT FIR is Class E from FL045 to FL195. This means that - 
     * If you're flying IFR above FL045, you're required to grab an IFR clearance and separation from NTTT_FSS.
     * If you're flying VFR above FL045, you're entitled to a traffic information service.
-    * If you're above FL045 within NTTT_CTR's 200nm arc, this service is proved by NTTT_CTR.
+    * If you're above FL045 within NTTT_CTR's 200nm arc, this service is provided by NTTT_CTR.
 * Outside of the Tower/Approach/Enroute CTAs, and between SFC and FL045, you're flying in Class G.
 
 ### FSS
