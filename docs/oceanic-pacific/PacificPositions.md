@@ -10,15 +10,10 @@
 
 * **NZZO_FSS**: "Auckland Radio" on 8.867 (aliased as 129.000)
 * **NZZO-E_FSS**: "Auckland Radio" on 5.643 (aliased as 131.500)
-* **NZZO-I_FSS**: Auckland Radio (Instructor)
 * **NZCM_FSS**: "McMurdo Radio" on 9.032 (aliased as 128.700)
 
 !!! info
     * **NZZO-E_FSS** is intended as an Events Only position specifically for major events involving Oceanic LoA partners, or Worldflight. NZZO-E's area of responsibility is East of the International Date Line.
-    * **NZZO-I_FSS** is a restricted position, specifically for VATNZ Staff Members to observe Oceanic operations. An Oceanic endorsement (/O) is **not** required to connect to this position. The following people can use this position:
-        * Oceanic Instructors actively engaging in an OTS assessment or Mentoring;
-        * Events Staff actively observing an approved Event; or
-        * A member of the Operations Team.
 
 ## Other real-world Sectors
 
