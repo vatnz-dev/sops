@@ -30,7 +30,7 @@ In the real-world, NTTT is operatated by the French, so there are some peculiari
     * Provides a radar service within the Iles Sous Le Vent sector from 1500ft to FL195.
     * Provices a procedural service **outside** of the Iles Sous Le Vent sector, up to 200nm DME TAF, from FL045 to F195. 
       * This 200nm diameter circle is Class E, where an IFR service is provided, and only a VFR traffic information service is provided.
-    * Provdes an Enroute/Approach Control service for flights between NTTB (Bora Bora), NTTR (Raiatea), Huahine (NTTH) and Tupai (NTUU). 
+    * Provides an Enroute/Approach Control service for flights between NTTB (Bora Bora), NTTR (Raiatea), Huahine (NTTH) and Tupai (NTUU). 
         * NTTB and NTTR have their own Towers, operating from SFC to 1,500ft.  
             * NTTB_TWR also covers NTUU to the north.
       * NTTH is uncontrolled, with the base of NTTT_CTR at 1,500ft.
@@ -86,7 +86,7 @@ The outer-most ring is the 200nm ring. Inside of this, the Class E service is pr
 * **NTGT_FIS**: "Takapoto Information" on 118.500
 * **NTMD_FIS**: "Nukuhiva Information" on 118.300
 * **NTMN_FIS**: "Hiva Oa Information" on 119.700
-* **NTTG_FIS**: "Rangiaroa Information" on 118.300
+* **NTTG_FIS**: "Rangiroa Information" on 118.300
 * **NTTH_FIS**: "Huahine Information" on 119.300
 * **NTTO_FIS**: "Hao Information" on 119.100
 * **NTTP_FIS**: "Maupiti Information" on 118.300
