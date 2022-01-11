@@ -6,6 +6,11 @@ title: Sector Files
 
 # Sector Files
 
+!!! warning
+    These Sector File SOPs are still a work in progress, and does not contain complete information. 
+
+    Typically as new releases are pushed to the Client, these SOPs will be updated with that information.
+
 ## Overview
 
 VATNZ Controller Client data is managed through a Sector File Generator app and a dedicated standalone SQL database; allowing for multiple outputs from a single data source. 
