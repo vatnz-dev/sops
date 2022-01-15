@@ -1,6 +1,6 @@
 # VATNZ SOPs Refresh Project
 
-[![ci](https://github.com/vatnz-dev/sops/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/vatnz-dev/sops/actions/workflows/ci.yml) [![pages-build-deployment](https://github.com/vatnz-dev/sops/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/vatnz-dev/sops/actions/workflows/pages/pages-build-deployment)
+[![ci](https://github.com/vatnz-dev/sops/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/vatnz-dev/sops/actions/workflows/ci.yml) [![pages-build-deployment](https://github.com/vatnz-dev/sops/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/vatnz-dev/sops/actions/workflows/pages/pages-build-deployment) [![wakatime](https://wakatime.com/badge/user/aee2c50b-3ced-4d92-a929-de0362daeb37/project/f9b51418-4a41-46c9-ae52-5b5b8a9600a9.svg)](https://wakatime.com/badge/user/aee2c50b-3ced-4d92-a929-de0362daeb37/project/f9b51418-4a41-46c9-ae52-5b5b8a9600a9)
 
 The VATNZ SOPs Refresh Project is an open-source collaborative project allowing members of the VATNZ community to work together to create high-quality SOPs for the virtual New Zealand FIR.
 
