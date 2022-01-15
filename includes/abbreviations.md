@@ -5,7 +5,7 @@
 *[IFR]: Instrument Flight Rules
 *[RNAV]: Area Navigation
 *[GNSS]: Global Navigation Satellite System
-*[RNP]: Required Navigation Procedure
+*[RNP]: Required Navigation Performance
 *[ANR]: Air Navigation Register   
 *[VRP]: Visual Reporting Point
 *[VRPs]: Visual Reporting Points
