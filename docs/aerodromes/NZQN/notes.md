@@ -54,5 +54,30 @@ The Missed Approach for both RNPs have the aircraft climb to 10,000 feet and ent
 
 Due to the holding point also being a STAR commencement fix, aircraft may be given a `SUNGU` based STAR for another attempt.
 
+#### Departures
+
+The assignment of departures out of Queenstown is largely governed by aircraft performance. This can be either climb performance, or navigation performance. 
+
+!!! info ""
+    Departures out of Queenstown that have a `A` or `B` suffix are RNP departure procedures. In this case, the entirety of the departure has lateral and vertical path to ensure separation from terrain.
+
+    Departures that have a `D`, `C`, `F`, `P`, `Q`, `S` or `T` suffix is a RNAV departure, with a visual initial climb segment.
+
+    Not all aircraft that fly into Queenstown are able to perform RNP procedures, so you may choose to issue a departure that is true to real life.
+    On the network, in reality, most pilots aren't going to mind whether or not their departure is accurate - so the replication of that is up to you.
+
+| Departure Direction | SID | Available Transitions | A/C Cat | Preferred Departure? | Notes |
+|---|---|---|---|---|---|
+| N | ANPOV 3B | ANPOV, SAVLA, TIMJO | A B C | Yes | RNP - Once a/c above MSA, clear direct transition |
+| N | ANPOV 4D | SAVLA, TIMJO | A B C | No | Initial circling visual segment to `ENKUV` |
+| N | ANPOV 3F | SAVLA, TIMJO | A B C | No | Identical to `ANPOV 4D`, with additional climb restrictions. |
+| N | ANPOV 3S<br>ANPOV 3T | SAVLA, TIMJO | A B C | No | 3S: Initial visual segment tracking via Rat Point, then direct `DULUL`.<br>3T: Initial visual segment tracking south via Frankton Arm, then <br>direct `DULUL` via over the airfield |
+| W | IPNOR 3B | ADKOS, LIBLA | A B C | Yes | RNP - westbound international departures |
+| W | IPNOR 3D | ADKOS, LIBLA | A B C | No | Initial circling visual segment via `ENKUV` |
+| SE | REDOL 1B | ADLUP | B | Yes | RNP - Once aircraft have passed `TUMTA` (not above 9,000 feet) <br>and climbed above area MSA (12,000 feet), they can be cleared direct `ADLUP`<br>or further |
+
+
+### RWY 05
+
 
 ## Runway Occupancy
