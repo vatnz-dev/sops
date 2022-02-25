@@ -99,6 +99,19 @@
     padding-top: 0em;
 }
 
+.fsDisc {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: .64rem;
+}
+
+.fsDisc .container {
+    padding: 0.5rem 0.5rem;
+    max-width: 1464px;
+    margin: 0 auto;
+    background: none;
+    
+}
+
 /* Additional Responsive Styling */
 
 @media screen and (max-width:480px) {

@@ -25,7 +25,7 @@
     background-color: var(--md-footer-bg-color--dark);
     color: var(--md-footer-fg-color);
     overflow: auto;
-    text-align: center;
+    text-align: left;
 }
 .md-typeset img, .md-typeset svg {
     height: auto;

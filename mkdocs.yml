@@ -4,7 +4,7 @@ site_url: https://vatnz-dev.github.io/sops/
 repo_url: https://github.com/vatnz-dev/sops
 repo_name: vatnz-dev/sops
 edit_uri: "" #removes edit button and icon
-copyright: For flight simulation use only. VATNZ is in no way affiliated with Airways or CAA NZ. 
+copyright: ""
 
 # Configuration
 theme:
@@ -24,6 +24,8 @@ theme:
     - search.highlight
     - search.share
   favicon: assets/images/vatnz-ops.png
+  icon:
+    repo: fontawesome/brands/github
 
 # Plugins
 plugins:

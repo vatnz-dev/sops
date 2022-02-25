@@ -8,12 +8,9 @@
   --md-primary-fg-color--dark:  #16425B;
   --md-primary-fg-color--light: #6096BA;
   --md-accent-fg-color:         #6096BA;
+  --md-footer-fg-color:         #6096BA;
+  --md-footer-bg-color--dark:   #16425B;
 }
-/* Color Notes
-light hsla(216,32%,17%,1)
-dark rgba(20,30,48,1)
-diff rgba(27,36,52,1)
-*/
 
 [data-md-color-scheme="slate"] {
   --md-default-bg-color: #16425B;
