@@ -12,7 +12,7 @@ theme:
   custom_dir: overrides
   logo: assets/images/vatnz-ops.png
   font:
-    text: Nunito Sans
+    text: Maven Pro
   palette:
     scheme: slate
   features:

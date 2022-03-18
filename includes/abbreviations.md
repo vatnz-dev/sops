@@ -17,3 +17,4 @@
 *[PR]: Pull Request
 *[FSS]: Flight Service Station
 *[AFIS]: Aerodrome Flight Information Station
+*[AIP]: Aeronautical Information Publication

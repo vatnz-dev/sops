@@ -25,7 +25,7 @@ Prior to installing the SFG app, you will need to set up the following:
 *  [**XAMPP**](https://www.apachefriends.org/index.html){target=new} - XAMPP is an Apache distribution that contains a MySQL server, replicating a live server on your local machine.
 *  [**GitHub Desktop**](https://desktop.github.com/){target=new} - Needed in order to manage the EuroScope releases, vatSys Datasets and database.
 
-When setting up WAMP and MySQL, you have the option to set a username and password for the root user. If you set your own, you're able to set this under `Export > User Options`.
+When setting up XAMPP and MySQL, you have the option to set a username and password for the root user. If you set your own, you're able to set this under `Export > User Options`.
 
 ### Updating of the Database Local Repository
 
@@ -50,3 +50,6 @@ This feature requires you to set the `mysqld.exe` locations in the User Options 
 2. In your GitHub Desktop client, review the differences. If these look OK, the add your commit summary and description if applicable
 3. Commit your changes
 4. Inform the other uses of the database that an update has been made
+
+!!! attention
+    You should update the database repository whenever changes have been made to the database.
