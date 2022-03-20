@@ -18,3 +18,4 @@
 *[FSS]: Flight Service Station
 *[AFIS]: Aerodrome Flight Information Station
 *[AIP]: Aeronautical Information Publication
+*[ProcEd]: Procedure Editor
