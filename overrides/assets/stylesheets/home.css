@@ -63,54 +63,51 @@
 
 /* Features below hero */
 
-.feature-margin {
-    margin-top: 30px;
+.lowerSection {
 }
 
-.f-box {
+.feature {
+    margin-top: 30px;
     font-family: 'Maven Pro';
     font-weight: 300;
     box-sizing: border-box;
-    padding: 0 15px;
-    margin-bottom: 1.6rem;
 }
 
-.f-box h2 {
+.feature h2 {
     color: #81C3D7;
     font-weight: 400;
     font-size: 25px;
     line-height: normal;
     margin-top: 20px;
     margin-bottom: 0px;
+    display: inline-block;
+    border-bottom: 1px solid #81C3D7;
 }
 
-.f-box p {
-    font-size: 16px;
-    line-height: 2em;
-    color: #D9DCD6;
-    margin: 0 0 10px;
+.feature .cards {
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+}
+
+.feature .cards .card {
+    margin: 20px 5px 0px;    
+}
+
+.feature .card a {
     display: block;
+    background:rgba(0, 0, 0, 0.2);
+    transition: background-color 0.2s ease;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
 }
 
-.f-box hr {
-    border-top: 1px;
-    border-color: #81C3D7;
-    border-style: solid;
-    padding-top: 0em;
+.feature .card a:hover {
+    background-color: rgba(0,0,0,0.4);
 }
 
-.fsDisc {
-    color: rgba(255, 255, 255, 0.7);
-    font-size: .64rem;
-}
-
-.fsDisc .container {
-    padding: 0.5rem 0.5rem;
-    max-width: 1464px;
-    margin: 0 auto;
-    background: none;
+.feature .card a h3 { margin-top: 8px; }
     
-}
 
 /* Additional Responsive Styling */
 
@@ -125,12 +122,14 @@
     }
 
     .hero h1 {
-        font-size: 2rem
+        font-size: 2rem;
     }
 
-    .f-box:hover {
-        background-color: #3D6575;
-        border-radius: 3px;
+    .feature h2 { margin-left: 20px; }
+
+    .feature cards {
+        flex: 1;
+        min-width: 0;
     }
 }
 
@@ -153,9 +152,8 @@
         align-items: center;
     }
 
-    .f-box:hover {
-        background-color: #3D6575;
-        border-radius: 3px;
+    .feature h2 {
+        margin-left: 10px;
     }
 }
 
@@ -164,22 +162,7 @@
         display: none
     }
 
-    .feature-margin {
-        width: 100%;
-        display: flex;
-        max-width: 80rem;
-        margin-right: auto;
-        margin-left: auto;
-        padding: 0 .5rem;
-    }
-
-    .f-box {
-        flex: 1;
-        min-width: 0;
-    }
-
-    .f-box:hover {
-        background-color: #3D6575;
-        border-radius: 3px;
+    .feature h2 {
+        margin-left: 20px; 
     }
 }
