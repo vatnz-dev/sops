@@ -82,6 +82,8 @@ Assign VFR aircraft a departure procedure appropriate for the direction of fligh
 
 VFR departures from NZAA require ATC approval to start engines.
 
+See more about VFR departures here: [Auckland VFR Procedures](../NZAA/index.md#vfr-procedures)
+
 All VFR Procedures can be found on the [New Zealand AIP](https://www.aip.net.nz/assets/AIP/Aerodrome-Charts/Auckland-NZAA/NZAA_64.1.pdf) 
 
 ### General Rules of Thumb:
@@ -128,6 +130,7 @@ OGO released
 **Released OGO thank you**
 
 **OGO AIRBORNE CONTACT AUCKLAND APPROACH 124.3 RUNWAY 23L CLEARED FOR TAKE-OFF**
+
 
 
 

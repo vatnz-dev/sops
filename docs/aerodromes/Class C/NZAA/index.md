@@ -1,5 +1,5 @@
 ---
-  title: Auckland Notes
+  title: Position Notes
 ---
 
 --8<-- "includes/abbreviations.md"
@@ -29,21 +29,87 @@
 
 ---
 
-## Ground Movements
+## Auckland Tower
 
-Auckland Ground is responsible for issuing taxi instructions and providing separation to all aircraft on the taxiways at Auckland Airport (NZAA)
+Auckland Tower is responsible for all aircraft operating within the `AA CTR/C`, from ++"SFC-1500ft"++ and all runways at Auckland Airport 
+
+The Tower is responsible for selecting the most suitable duty runway and the ATIS.
+
+The duty runway will be the into-wind runway in most cases. However, other factors such as sunstrike may require an alternative take-off and landing direction. The Tower controller balances out the aspects before deciding on the duty runway.
+
+### VFR Procedures
+
+Auckland Tower is resposible for VFR aircraft in the North or South sector (as depicted in the Auckland VFR Arrivals/Departures page in the AIP) ensuring they are separated from IFR traffic on long final for an instrument approach. This does not include aircraft on some RNP approaches.
+
+Assign VFR arrivals from the northwest, from north to the northeast, the MANGERE BRIDGE arrival. For traffic from other directions, give instructions in plain language. 
+
+Assign northbound VFR departures the MANGERE BRIDGE departure. Since flights to the west, north, and northeast require a turn against the circuit direction, give a specific instruction to turn using the phrase **Turn RIGHT/LEFT after departure, cleared for takeoff," etc**
+
+### Transfer of Communication & Control
+
+#### Communications should be handed over;
+
+Arrivals  - once vacated the runway
+
+Departures - once airborne.
+
+#### Control should be relinquished;
+
+Departures - airborne, unless otherwise coordinated
+
+Arrivals on a straight-in approach - at LENGU or EMRAG
+
+Arrivals on a visual approach  - by 15 AA DME
+
+Arrivals on an RNP approach, not straight-in - at ATAMA or NIPAS (RWY05R), ESNAX, ESMON, TEGIK, or TUSLO (RWY23L).
+
+---
+
+## Auckland Ground
+
+Auckland Ground is responsible for issuing taxi instructions within the movement area and providing separation to all aircraft on the taxiways at Auckland Airport.
+
+### Pushback & Movement Areas
+
+Auckland Ground issues pushback and start-up advice/clearances to all departures. 
+
+Ground uses positive control to ensure that no other aircraft passes directly behind an aircraft pushing back, even when the aircraft concerned are not on the controlled movement area, this includes the `C` marked aprons.
+
+### Transfer of Communication
+
+Once Auckland Ground has issued all necessary instructions to the pilot, they advise the pilot to monitor Auckland Tower on ++"118.700 MHz"++
 
 ### Use of Holding Points
 
 | Type        | Runway 23L | Runway 05R |
-| ----------- | ---------- | ---------- |
+| ----------- | :--------: | :--------: |
 | Large Jets  | A1 / A1A   | A10        |
 | Medium Jets | A2 / A3    | A9         |
 | Turboprops  | A3 / A3A   | A9         |
 
 
+Auckland Ground may assign the following reduced length holding points for departure without the approval of the pilot ("medium" refers to the wake turbulence category). 
 
-Auckland Ground may assign the following reduced length holding points for departure without the approval of the pilot ("medium" refers to the wake turbulence category). Note that A3 and A8 holds are not used because pilots cannot visually check the approaches are clear before entering the runway.
+Note that `A3` and `A8` holds are not used because pilots cannot visually check the approaches are clear before entering the runway.
 
+---
+
+## Auckland Delivery
+
+### Responsibilites
+
+Auckland Delivery is responsible for the pre-departure issuing of IFR route clearances and VFR departure instructions at Auckland Airport.
+
+Auckland Delivery should also attempt to update the aircraft tags as much as possible to enable any information regarding the aircraft to be transferred to the next controller.
+
+### Route Clearances
+
+The SIDs are highlighted in the table on the [Departues Page](../NZAA/Departures.md). 
+
+Controllers should consider aircraft performance before assigning a SID. If in doubt, issue the AUCKLAND non-RNAV departures as these only require the default 3.3% climb gradient, or whatever vatSys assigns.
+
+The notes on the SID table should assist in the SID assignment and streamline the process. On rare occasions the default SID may not be preferred - pilots may request any available alternative, including instructions in plain language. Requests not to fly the default SID require coordination closer to take-off time,  so inform pilots requesting an alternative they will get amended departure instructions from TWR at the holding point.
+
+All SIDs require RNAV/GNSS unless otherwise stated. 
 
 
