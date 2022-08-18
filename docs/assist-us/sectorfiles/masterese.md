@@ -98,3 +98,7 @@ These are typically discrete sections of airspace, that can be added together to
 ### Sector Definitions
 
 The Sector definitions then add all of the Sectorlines together to form an outline of the airspace. These are fairly straightforward, and the current examples in the Sector Files should be used as a guide.
+
+## FIR_COPX (Coordination Points)
+
+These are a list of all manual co-ordination points in EuroScope. These are 
