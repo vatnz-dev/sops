@@ -21,12 +21,14 @@ The Controller Data is updated in line with the AIRAC cycles, however the ANR is
 
 The SFG app can perform the following functions:
 
-*  One-click download **all** data from the Air Navigation Register, and input into `nzsectorfiles.sql`,
+*  One-click download **all** data from the Air Navigation Register, or one-click import for a provided advance copy, and input into `nzsectorfiles.sql`,
 *  Allow for the importing of manual airspace definitions, such as Enroute and TMAs,
-*  Allow for the conversion of various formats. For example from eAIP draw format to Sector File/Sector Line/vatSys Airspace Map and Volume/vatSpy boundary,
+*  Allow for the conversion of various formats. For example from eAIP draw format to Sector File/Sector Line/vatSys Airspace Map, Volume/vatSpy boundary and GeoJSON,
 *  Allow for the merging of airspace, through eAIP definitions (albeit with some limitations),
 *  Allow for the manual import and mapping of different procedures (STARs, SIDs, VFR arrival/departures, GNSS and RNP approaches),
+*  Allow for the export of individual procedures to an independant map for Documentation,
 *  Conversion between different coordinate types (SCT/eAIP/Dec. Degrees/ISO Deg, DegMins, DegMinsSecs),
+*  Generate an eAIP output from a vatSys airspace map,
 *  Various vatSpy utilities.
 
 The SFG can export to both vatSys and EuroScope. The App runs various export routines that produce the various necessary outputs - `XML` for vatSys and `SCT2 / ESE` for EuroScope.

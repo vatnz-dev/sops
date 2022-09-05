@@ -29,6 +29,8 @@ After an aerodrome has been added to either of the required tables, it will show
 
 For procedures that have transitions (SIDs, STARs and approaches), you are required to add the base procedure, and then the various transition routings. This is further defined in the various procedure sections.
 
+We have chosen not to model helicopter procedures in New Zealand, due to there are not many helicopter procedures in use around the country; and where helicopter procedures *do* exist, they are relatively short.
+
 ## What happens on export?
 
 On export, the ProcEd largely performs the same actions for both the vatSys and EuroScope releases, but performs and exports them slightly differently. 
