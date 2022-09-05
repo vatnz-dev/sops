@@ -50,6 +50,18 @@ A few points:
 * The ++"Export vatSys"++ button also exports the Combined Oceanic Dataset at the same time.
 * After you export the dataset, it can be found in the `Documents/AIRAC Testing/XXXX Updates/` folder, and then under the `Vatsys-NZ` folder. You will have to copy this into your vatSys directory to test the dataset. If you make any changes afterwards, you will then have to copy the changes from the export folder to your vatSys folder again.
 
+#### Updating the Profile file
+
+You will also need to update the `Profile.xml` file prior to release. This is the file that vatSys reads to ascertain the current release, and dictates whether the user is prompted to update their dataset or not.
+
+``` XML title="Profile.xml"
+
+<Version AIRAC="2208" Revision="a" PublishDate="20220811" UpdateURL="https://vatsys.sawbe.com/downloads/data/New%20Zealand/" />
+
+```
+
+The `Version` line should be updated, with the `AIRAC` field updated for the version you are releasing, as well as annotating the effective date in the `PublishDate` attribute. The `Revision` attribute should always be `a`, unless you are releasing a correction to the data outside of the scheduled release timetable.
+
 ### Pushing your changes to GitHub
 
 !!! danger

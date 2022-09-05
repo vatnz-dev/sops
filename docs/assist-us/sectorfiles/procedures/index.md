@@ -55,3 +55,13 @@ They usually follow the format of `XXYYT` - where `XX` is the two letter ICAO ab
 Where a runway has a R/L designation, the designator will replace the `T`. For example, `AA23L` and `AA05R` denote the thresholds for Auckland.
 
 These are mostly used in SIDs, where an origination point is required. These used to be used for approach procedures, but are now appended automatically by the SFG upon dataset export.
+
+## Exporting a discrete map for a Procedure
+
+It is possible to export a separate map layer for a single procedure. This can be helpful for when you want to illustrate changes in procedures to the Dataset's users, and exports the procedure exactly how it would normally be seen within an aerodrome's ACU map layer.
+
+To do this, navigate to the procedure you wish to export in the Procedure Editor, and click on the yellow ++"Create map for selected procedure"++ button. You will then be prompted that the file has been exported, and you will be alerted to this file's location.
+
+!!! important
+    When exporting the procedure, the file name will be set to the procedure's name, **however** the map layer's name is not. You will need to manually edit all `Name` attributes within the file to another name, such as the procedure name. 
+
