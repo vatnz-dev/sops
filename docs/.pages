@@ -1,6 +1,6 @@
 nav:
     - Home: index.md
-    - Oceanic and Pacific: oceanic-pacific
+    - Oceanic: oceanic
     - Enroute: enroute
     - Aerodromes: aerodromes
     - Controller Skills: controller-skills
