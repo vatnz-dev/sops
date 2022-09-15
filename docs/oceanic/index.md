@@ -7,6 +7,11 @@
 !!! important "Pacific Oceanic Partnership"
     The pages contained within the Oceanic section of this website act as the Local Instructions, as required under Section 2.3(3) of the Pacific Oceanic Letter of Agreement.
 
+!!! important "Supported Controller Clients for Oceanic Positions"
+    At the moment, VATNZ only supports vatSys for oceanic operations. The "Auckland Radio" dataset is the current preferred profile for Auckland Radio operation, whereas the "South Pacific" dataset is the current preferred profile for NTTT, NCRG or NSFA operations.
+
+    A new profile is currently being developed to merge all of these datasets into one.
+
 !!! danger "Heads up!"
 
     VATNZ's Oceanic and Pacific sectors are currently undergoing a refresh project, aimed at overhauling how our Pacific sectors operate, in addition to providing additional information to Controllers.

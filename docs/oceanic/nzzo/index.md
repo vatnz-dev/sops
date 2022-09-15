@@ -1,15 +1,14 @@
 ---
-  title: Auckland Radio (NZZO)
+  title: Position Overview
 ---
 
 --8<-- "includes/abbreviations.md"
 
-
-Auckland Radio is an Oceanic Control station that covers the entirety of the NZZO FIR, except where intersected by the NZZC and NZCM FIRs. In the real-world, radar coverage over this large area over the ocean is not possible - therefore "non-radar" procedures are used to ensure the separation of aircraft.
+Auckland Radio is an oceanic control station that covers the entirely of the NZZO FIR from FL245 to FL600, except where intersected by the NZZC and NZCM FIRs. In the real-world, radar coverage over this large area over the ocean is not possible - therefore non-radar procedures are used to ensure the separation of aircraft.
 
 ## Positions
 
-There are two approved positions that can be staffed within the NZZO FIR. 
+There are three approved positions that can be staffed within the NZZO FIR. 
 
 | Callsign   | Position Name         | RTF Designator | Frequency                    | Notes               |
 | ---------- | --------------------- | -------------- | ---------------------------- | ------------------- |
@@ -20,9 +19,9 @@ There are two approved positions that can be staffed within the NZZO FIR.
 
 ## Airspace Overview
 
-![Airspace](assets/nzzo-area.png){ align=right width="40%"}
+![Airspace](../assets/nzzo-area.png){ align=right width="40%"}
 
-An overview of Auckland Radio's airspace can be seen to the right. The NZZO FIR borders the following FIRs:
+Auckland Radio is airspace begins at FL245, and tops-out at FL600. The lateral boundaries of NZZO can be seen to the right, as is bounded by:
 
   - **West:** Brisbane Radio - Indian South, Tasman and Lord Howe Island sectors.
   - **North West**: Nadi Oceanic
@@ -36,6 +35,6 @@ It is important to note that NZZO **does not** provide coverage over, or within 
 Below is an overview of the various classes of airspace that can be found within the NZZO. 
 
 <figure markdown> 
-  ![SID Screen](assets/nzzo-airspace.png){ width="100%" }
+  ![NZZO Airspace Layer Diagram](../assets/nzzo-airspace.png){ width="100%" }
 </figure>
 
