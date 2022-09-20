@@ -14,9 +14,13 @@ We'll kick off by setting up your local development environment.
 To contribute, you'll need the following -
 
   * A basic code editor or IDE. 
-    * We recommend [VS Code](https://code.visualstudio.com/){target=blank} with a Markdown helper plugin.
-  * A GitHub account, and a local Git environment - [GitHub Quickstart Guide](https://docs.github.com/en/get-started/quickstart){target=blank}.
+    * We recommend [VS Code](https://code.visualstudio.com/){target=blank} with the Markdown All in One plugin.
+  * A GitHub account - [GitHub Quickstart Guide](https://docs.github.com/en/get-started/quickstart){target=blank}.
+  * A local Git environment. This can be done by [downloading the latest version of Git](https://git-scm.com/download/win){ target=blank } that is applicable for your system.
   * Python - [Install Python](https://www.python.org/downloads/){target=blank}
+
+!!! caution 
+    You will need to restart your computer after installing Git and Python.
 
 ## Lets get cracking!
 
@@ -38,6 +42,15 @@ To contribute, you'll need the following -
 ```
 mkdocs serve
 ```
+??? Tip "Help, I get a weird error when I run this!"
+    Sometimes the above command will throw some errors - this is due to Windows not being able to find the correct location of the Python MkDocs module. If this is the case, the following command should be used instead:
+
+    ``` python
+      python -m mkdocs serve
+    ```
+
+    If you need to use any other MkDocs command line instructions, you should add `python -m` to the start of it, so that it can locate the Python module correctly.
+
 
 - You'll see the command line performing some magic, eventually displaying `Serving on http://127.0.0.1:8000`. Open up your web browser, and navigate to that address.
 

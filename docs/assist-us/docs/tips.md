@@ -16,6 +16,13 @@ Links that navigate a user through the SOPs site can follow the normal Markdown 
     [Internal Link](enroute.md)
     ```
 
+!!! tip
+    You can also link to discrete headers within pages, too. All you need to do is append the anchor to the end of the link, like so:
+
+    ``` md
+      [Internal Link to a Section header](buildingblocks.md#single-page)
+    ```
+
 === "External Link"
 
     ``` md
