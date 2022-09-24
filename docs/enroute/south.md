@@ -1,5 +1,5 @@
 ---
-  title: Taranaki Sector
+  title: South
 
 ---
 

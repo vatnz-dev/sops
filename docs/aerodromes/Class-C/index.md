@@ -5,12 +5,12 @@
 --8<-- "includes/abbreviations.md"
 
 
-Class C airspace is applied to: CTRs at large
+Class C airspace is applied to CTRs at large
 international aerodromes, associated CTAs,
 and en‑route airspace covering principal
 domestic air routes.
 
-In this airspace, IFR and
+In this airspace IFR and
 VFR traffic are separated from each other at all
 times. Within a CTR, IFR aircraft are separated
 from special VFR (operating below visual

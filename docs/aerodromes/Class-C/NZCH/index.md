@@ -1,5 +1,5 @@
 ---
-  title: Christchurch Notes
+  title: General Notes
 ---
 
 --8<-- "includes/abbreviations.md"

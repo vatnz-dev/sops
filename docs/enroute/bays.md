@@ -1,5 +1,5 @@
 ---
-  title: Kaikoura Sector
+  title: Bays
 
 ---
 

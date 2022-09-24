@@ -1,6 +1,5 @@
 ---
-  title: Ohakea Sector
-
+  title: Ohakea
 ---
 
 --8<-- "includes/abbreviations.md"

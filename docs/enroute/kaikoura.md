@@ -1,6 +1,5 @@
 ---
-  title: South Sector
-
+  title: Kaikoura
 ---
 
 --8<-- "includes/abbreviations.md"

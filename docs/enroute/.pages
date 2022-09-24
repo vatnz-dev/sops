@@ -1,4 +1,4 @@
 title: Enroute
 nav:
-    - "Airspace": index.md
+    - index.md
     - ...
