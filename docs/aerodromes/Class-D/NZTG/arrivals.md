@@ -26,7 +26,7 @@
 
 All arrivals terminate at `RUSTA` or `MORTA`, which are the IAF for the RNAV approach.
 
-If aircraft are visual they can report "`Callsign, IAF, inbound, visual RNAV 07`". It is then up to the Controllers discretion whether the aircraft is cleared visual or not. 
+If aircraft are visual they can report "Callsign, IAF, inbound, visual RNAV 07". It is then up to the Controllers discretion whether the aircraft is cleared visual or not. 
 
 ### Missed Approach
 
@@ -48,9 +48,9 @@ In the event of a missed approach, aicraft should be instructed to carry out the
 
 ### Approaches
 
-All Arrivals Terminate at `UBSET ` or `TODAN`, which are the IAF for the RNAV approach.
+All arrivals terminate at `UBSET ` or `TODAN`, which are the IAF for the RNAV approach.
 
-If aircraft are visual they can report "`Callsign, IAF, inbound, visual RNAV 25`". It is then up to the Controllers discretion whether the aircraft is cleared visual or not. 
+If aircraft are visual they can report "Callsign, IAF, inbound, visual RNAV 25". It is then up to the Controllers discretion whether the aircraft is cleared visual or not. 
 
 ### Missed Approach
 

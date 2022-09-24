@@ -1,3 +1,10 @@
 title: Enroute
 nav:
-    - "Overview": index.md
+    - index.md
+    - auckland.md
+    - bays.md
+    - raglan.md
+    - ohakea.md
+    - taranaki.md
+    - kaikoura.md
+    - south.md
