@@ -11,7 +11,7 @@
 .container {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
-    background: url("../../assets/hero-image.png"), rgba(0,0,0,0.35);
+    background: url("../../assets/hero-image.png") #1d1e26;
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: overlay;
@@ -19,9 +19,9 @@
 }
 
 .img hero-image {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
 }
 
 .hero {
@@ -31,20 +31,21 @@
 }
 
 .hero h1 {
+    font-family: var(--header-font), sans-serif;
     margin-bottom: 1.15rem;
-    color: currentColor;
     font-weight: 650;
     text-transform: none;
 }
 
 .hero-content {
-    padding-bottom: 0.5rem;
+    padding-bottom: 1rem;
     margin: 0 auto;
 }
 
 .hero .md-button {
     margin-top: .5rem;
     margin-right: .5rem;
+    border-radius: .2rem;
     color: var(--md-primary-bg-color)
 }
 
@@ -57,57 +58,48 @@
 .hero .md-button:focus,
 .hero .md-button:hover {
     background-color: var(--md-accent-fg-color);
-    color: #ffffff;
+    color: black;
     border-color: var(--md-accent-fg-color)
 }
 
 /* Features below hero */
 
-.lowerSection {
+.feature-margin {
+    margin-top: 30px;
 }
 
-.feature {
-    margin-top: 30px;
-    font-family: 'Maven Pro';
+.f-box {
     font-weight: 300;
     box-sizing: border-box;
+    padding: 0 15px;
+    margin-bottom: 1.6rem;
 }
 
-.feature h2 {
-    color: #81C3D7;
+.f-box h2 {
+    font-family: var(--header-font), sans-serif;
+    color: rgba(191, 219, 254, 0.6);
     font-weight: 400;
     font-size: 25px;
     line-height: normal;
     margin-top: 20px;
     margin-bottom: 0px;
-    display: inline-block;
-    border-bottom: 1px solid #81C3D7;
 }
 
-.feature .cards {
-    display: flex;
-    flex-direction: row;
-    padding: 5px;
-}
-
-.feature .cards .card {
-    margin: 20px 5px 0px;    
-}
-
-.feature .card a {
+.f-box p {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    line-height: 2em;
+    color: #ffffff;
+    margin: 0 0 10px;
     display: block;
-    background:rgba(0, 0, 0, 0.2);
-    transition: background-color 0.2s ease;
-    padding: 0.5rem 1rem;
-    border-radius: 5px;
 }
 
-.feature .card a:hover {
-    background-color: rgba(0,0,0,0.4);
+.f-box hr {
+    border-top: 1px;
+    border-color: rgba(191, 219, 254, 0.6);
+    border-style: solid;
+    padding-top: 0em;
 }
-
-.feature .card a h3 { margin-top: 8px; }
-    
 
 /* Additional Responsive Styling */
 
@@ -122,14 +114,12 @@
     }
 
     .hero h1 {
-        font-size: 2rem;
+        font-size: 2rem
     }
 
-    .feature h2 { margin-left: 20px; }
-
-    .feature cards {
-        flex: 1;
-        min-width: 0;
+    .f-box:hover {
+        background-color: #3D6575;
+        border-radius: 3px;
     }
 }
 
@@ -152,8 +142,9 @@
         align-items: center;
     }
 
-    .feature h2 {
-        margin-left: 10px;
+    .f-box:hover {
+        background-color: #3D6575;
+        border-radius: 3px;
     }
 }
 
@@ -162,7 +153,22 @@
         display: none
     }
 
-    .feature h2 {
-        margin-left: 20px; 
+    .feature-margin {
+        width: 100%;
+        display: flex;
+        max-width: 80rem;
+        margin-right: auto;
+        margin-left: auto;
+        padding: 0 .5rem;
+    }
+
+    .f-box {
+        flex: 1;
+        min-width: 0;
+    }
+
+    .f-box:hover {
+        background-color: #3D6575;
+        border-radius: 3px;
     }
 }
