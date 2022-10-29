@@ -1,7 +1,8 @@
 nav:
     - Home: index.md
-    - Oceanic: oceanic
-    - Enroute: enroute
-    - Aerodromes: aerodromes
-    - Controller Skills: controller-skills
-    - Assist Us: assist-us
+    - oceanic
+    - enroute
+    - aerodromes
+    - controller-skills
+    - assist-us
+    - changelog
