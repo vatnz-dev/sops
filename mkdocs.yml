@@ -35,6 +35,7 @@ plugins:
   - awesome-pages
   - git-revision-date-localized:
       type: date
+  - external-markdown
 
 # Styling Front-end
 extra_css:

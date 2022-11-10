@@ -1,10 +1,6 @@
 /* Navigation Modifications */
 .md-header {
-  background: #3A7CA5;
-}
-
-.md-header__topic:first-child {
-  font-weight: 300;
+  background: rgba(30, 41, 59, 1.0);
 }
 
 .md-nav--primary .md-nav__title[for=__drawer] {
@@ -13,7 +9,7 @@
 }
 
 .md-tabs {
-  background: #2F6690;
+  background: rgba(51, 65, 85, 1.0);
 }
 
 .md-top {
@@ -27,7 +23,7 @@
 .md-tabs__link--active,
 .md-tabs__link:focus,
 .md-tabs__link:hover {
-  border-bottom: 1.5px solid #D9DCD6;
+  border-bottom: 1.5px solid rgba(191, 219, 254, 0.6);
   height: -webkit-fill-available;
 }
 
@@ -39,14 +35,14 @@
 /*Announcement Bar*/
 .md-banner {
   background-color: var(--md-footer-bg-color--dark);
-  color: #ffffff;
   overflow: auto;
   text-align: center;
 }
 
-.md-typeset img,
-.md-typeset svg {
-  height: auto;
-  max-width: 100%;
-  vertical-align: text-bottom;
-}
+
+/*8.1.1 compatibility*/
+/*.md-typeset img, .md-typeset svg {*/
+/*    height: auto;*/
+/*    max-width: 100%;*/
+/*    vertical-align: text-bottom;*/
+/*}*/
