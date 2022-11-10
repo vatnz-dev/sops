@@ -1,6 +1,7 @@
 # Project Information
 site_name: VATNZ Standard Operating Procedures
-site_url: https://vatnz-dev.github.io/sops/
+site_description: Helpful information for people flying within the virtual New Zealand FIRs.
+site_url: http://sops.vatnz.net/
 repo_url: https://github.com/vatnz-dev/sops
 repo_name: vatnz-dev/sops
 edit_uri: "" #removes edit button and icon
