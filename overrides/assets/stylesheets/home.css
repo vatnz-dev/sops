@@ -11,7 +11,7 @@
 .container {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
-    background: url("../../assets/hero-image.png"), rgba(0,0,0,0.35);
+    background: url("../../assets/hero-image.png") #1d1e26;
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: overlay;
@@ -19,9 +19,9 @@
 }
 
 .img hero-image {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
 }
 
 .hero {
@@ -31,20 +31,21 @@
 }
 
 .hero h1 {
+    font-family: var(--header-font), sans-serif;
     margin-bottom: 1.15rem;
-    color: currentColor;
     font-weight: 650;
     text-transform: none;
 }
 
 .hero-content {
-    padding-bottom: 0.5rem;
+    padding-bottom: 1rem;
     margin: 0 auto;
 }
 
 .hero .md-button {
     margin-top: .5rem;
     margin-right: .5rem;
+    border-radius: .2rem;
     color: var(--md-primary-bg-color)
 }
 
@@ -57,7 +58,7 @@
 .hero .md-button:focus,
 .hero .md-button:hover {
     background-color: var(--md-accent-fg-color);
-    color: #ffffff;
+    color: black;
     border-color: var(--md-accent-fg-color)
 }
 
@@ -68,7 +69,6 @@
 }
 
 .f-box {
-    font-family: 'Maven Pro';
     font-weight: 300;
     box-sizing: border-box;
     padding: 0 15px;
@@ -76,7 +76,8 @@
 }
 
 .f-box h2 {
-    color: #81C3D7;
+    font-family: var(--header-font), sans-serif;
+    color: rgba(191, 219, 254, 0.6);
     font-weight: 400;
     font-size: 25px;
     line-height: normal;
@@ -85,31 +86,19 @@
 }
 
 .f-box p {
+    font-family: 'Inter', sans-serif;
     font-size: 16px;
     line-height: 2em;
-    color: #D9DCD6;
+    color: #ffffff;
     margin: 0 0 10px;
     display: block;
 }
 
 .f-box hr {
     border-top: 1px;
-    border-color: #81C3D7;
+    border-color: rgba(191, 219, 254, 0.6);
     border-style: solid;
     padding-top: 0em;
-}
-
-.fsDisc {
-    color: rgba(255, 255, 255, 0.7);
-    font-size: .64rem;
-}
-
-.fsDisc .container {
-    padding: 0.5rem 0.5rem;
-    max-width: 1464px;
-    margin: 0 auto;
-    background: none;
-    
 }
 
 /* Additional Responsive Styling */

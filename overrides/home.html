@@ -2,14 +2,17 @@
 {% block tabs %}
 {{ super() }}
 <link rel="stylesheet" href="assets/stylesheets/home.css">
+
 <!-- Hero -->
 <section class="container">
     <div class="md-grid md-typeset">
         <div class="hero">
             <div class="hero-content">
-                <h1> Welcome! </h1>
-                    <p>Welcome to the information hub for VATNZ, where you can find SOPs, Local Instructions and other information pertinent to providing a high-quality service within the virtual New Zealand FIR.</p>
-                <a href="{{ page.next_page.url | url }}" title="{{ page.next_page.title | striptags }}" class="md-button md-button--primary">
+                <h1>VATNZ Standard Operating Procedures</h1>
+                <p>Welcome to the information hub for VATNZ, where you can find SOPs, Local Instructions and other
+                    information pertinent to providing a high-quality service within the virtual New Zealand FIRs.</p>
+                <a href="{{ page.next_page.url | url }}" title="{{ page.next_page.title | striptags }}"
+                    class="md-button md-button--primary">
                     Let's go!
                 </a>
                 <a href="https://vatnz.net/" title="VATNZ Website" class="md-button">
@@ -21,44 +24,41 @@
 </section>
 
 <!-- Page links -->
+
 <div class="feature-margin">
     <div class="f-box">
-        <a href="roadmap/">
-            <h2>
-                Dataset Releases
-            </h2>
+        <a href="assist-us/docs/">
+            <h2>Help build these SOPs!</h2>
             <hr>
-            <p>PLACEHOLDER</p>
+            <p>This SOPs website is designed to let our Community have a say in the procedures they use. Anybody can
+                contribute to these SOPs through GitHub. Click here to see how!</p>
+        </a>
+    </div>
+
+    <div class="f-box">
+        <a href="changelog/" target="_blank">
+            <h2>Dataset Changelog</h2>
+            <hr>
+            <p>Check out all of the latest changes to our vatSys and EuroScope files!
+            </p>
         </a>
     </div>
 
     <div class="f-box">
         <a href="enroute/">
-        <h2>
-            Enroute Changes
-        </h2>
-        <hr>
-        <p>PLACEHOLDER</p>
+            <h2>Enroute Positions</h2>
+            <hr>
+            <p>Check out our guides to running an effective Enroute service within the NZZC FIR. This includes
+                information about how to also extend your sectors!</p>
         </a>
     </div>
 
     <div class="f-box">
-        <a href="aerodromes/Class%20C/NZAA/">
-        <h2>
-            Auckland Update
-        </h2>
-        <hr>
-        <p>See the Latest SOPs for Auckland (NZAA) here</p>
-        </a>
-    </div>
-
-    <div class="f-box">
-        <a href="aerodromes/Class%20C/NZWN/">
-        <h2>
-            Wellington (NZWN)
-        </h2>
-        <hr>
-        <p>PLACEHOLDER</p>
+        <a href="aerodromes/Class-C">
+            <h2>Auckland Spotlight</h2>
+            <hr>
+            <p>Auckland is New Zealand's busiest airport by passenger volume, catering from small-carrier Caravans, all
+                the way up to Airbus A380s. Check out how to run this aerodrome here!</p>
         </a>
     </div>
 </div>
