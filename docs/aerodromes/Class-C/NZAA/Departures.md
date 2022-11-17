@@ -17,11 +17,11 @@
 | S         | BROOK2Q | KAPAI, KARRL                      | Turboprops only, Jets on request |
 | W         | EMRAG2B | EMRAG                             |                                  |
 | N         | KADMA2Q | DUGAN, ELNOS                      | Initial climb FL250              |
-| E         | PAGLA3Q | KAPAI, KARRL, NUTRA, PELBU, VELMO |                                  |
-| S         | POLIS2Q | KAPAI, KARRL, LAKES, TULMI        |                                  |
+| E         | PAGLA3Q | KAPAI, KARRL, NUTRA, PELBU, VELMO | Default Medium Jet               |
+| S         | POLIS2Q | KAPAI, KARRL, LAKES, TULMI        | Default Heavy Jet                |
 | NE        | RAXIN2Q | AGREX, KALAG, SELKA, TARIB        | Initial climb FL250              |
-| S         | REKIS3Q | KAPAI, KARRL, LAKES, NUTRA, TULMI |                                  |
-| E         | SATLA2Q | AGEDU, AKLOM, DABAS, IDSEM, OLBEX | Initial climb Fl250              |
+| S         | REKIS3Q | KAPAI, KARRL, LAKES, NUTRA, TULMI | Defualt Turboprop                |
+| E         | SATLA2Q | AGEDU, AKLOM, DABAS, IDSEM, OLBEX | Initial climb FL250              |
 
 ---
 
@@ -33,7 +33,7 @@
 | N         | ELSAB1P | BOVRU, KOPPA, KYPRA, OTATA, WP    | Turboprops only                  |
 | E         | FIRTH2P | AGEDU, AKLOM, DABAS, IDSEM, OLBEX | Initial climb FL250              |
 | W         | LENGU2A | LENGU                             | If Oceanic, Initial climb FL250  |
-| S         | LEVR1P  | KAPAI, KARRL, LAKES, TULMI        |                                  |
+| S         | LEVR1P  | KAPAI, KARRL, LAKES, TULMI        | Jets only   (Default Jet)        |
 | NE        | MEMOR2P | AGREX, KALAG, SELKA, TARIB        | Initial climb FL250              |
 | W         | OSRAP1P | GULUT, MADEP, PEBLU, UPLAR, VELMO | Initial climb FL250              |
 | S         | STEAL1P | KARRL, LAKES, NUTRA, TULMI        | Turboprops only, Jets on request |
@@ -65,7 +65,7 @@ There are three types of SID transition used where flights join their enroute ph
 
 ##### Examples
 
-> Air New Zealand 8, cleared to Sydney via flight planned route. OSRAP1P departure, MADEP transition. Squawk 0214.
+> New Zealand 8, cleared to Sydney flight planned route. OSRAP1P departure, MADEP transition. Squawk 0214.
 
 ### Issuing STARs for short-routes
 

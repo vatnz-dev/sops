@@ -52,7 +52,7 @@ Tower is to assign northbound VFR departures the MANGERE BRIDGE departure. As fl
 Arrivals  - once vacated the runway
 
 IFR Departures - once airborne.
-VFR Departures - once vacated your CTA.
+VFR Departures - once vacated your CTR.
 
 #### Control should be relinquished
 
@@ -85,8 +85,8 @@ Once Auckland Ground has issued all necessary instructions to the pilot, they ad
 | Type        | Runway 23L | Runway 05R |
 | ----------- | :--------: | :--------: |
 | Large Jets  |  A1 / A1A  |    A10     |
-| Medium Jets |  A2 / A3   |     A9     |
-| Turboprops  |  A3 / A3A  |     A9     |
+| Medium Jets |  A2 / A1   |     A9     |
+| Turboprops  |  A3A / A2  |     A9     |
 
 
 Auckland Ground may assign the following reduced length holding points for departure without the approval of the pilot ("medium" refers to the wake turbulence category). 
