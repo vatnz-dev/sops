@@ -73,9 +73,9 @@ Due to to the short flight distance from Auckland to Tauranga and Hamilton, airc
 
 ##### Examples
 
-> Cleared AATG3 with the URBUX1A arrival, 12000 feet, REKIS3Q departure..
+> Cleared AATG3 the URBUX1A arrival, 12000 feet, REKIS3Q departure..
 
-> Cleared AAHN1 with the YOGIT1B arrival, 8000 feet..
+> Cleared AAHN1 the YOGIT1B arrival, 8000 feet..
 
 #### VFR Departures:
 
@@ -131,5 +131,25 @@ For pilots that have requested an alternative departure procedure, co-ordinate w
 
 
 
+The Approach Controller may assign aircraft alternative departure instructions where traffic permits and without the request of the pilot. Such as assigned headings. For example: 
 
+
+**NZAA_TWR**: Auckland Tower, Auckland Approach, New Zealand 563 assigned passing 500 feet left heading 180 climbing FL380 
+
+**NZAA_APP**: Roger, New Zealand 563 passing 500 feet left heading 180 climbing FL380 
+
+**ANZ563**: Auckland Tower g'day New Zealand 563 ready A2
+
+**NZAA_TWR**: New Zealand 563, Auckland Tower, new departure instructions when ready to copy
+
+**ANZ563**: Go ahead
+
+**NZAA_TWR**: New Zealand 563, passing 500ft turn left heading 180 climbing unrestricted FL380 
+
+**ANZ563**: Thanks, passing 500ft turn left heading 180 climbing unrestricted FL380 
+
+**NZAA_TWR**: New Zealand 563, correct runway 23L cleared for takeoff
+
+
+Note: Approach Controllers may add `Hold` onto the end of the assigned heading during coordination for sequencing etc. This requires the Tower Controller to hold an aircraft on the ground till the Radar Controller tells you to `Released`. This refers to the cancellation of auto-release and as stated will require permission from the Approach Controller for the aircraft to be able to takeoff. 
 
