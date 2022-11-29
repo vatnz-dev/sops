@@ -93,6 +93,8 @@ Auckland Ground may assign the following reduced length holding points for depar
 
 Note that `A3` and `A8` holds are not used because pilots cannot visually check the approaches are clear before entering the runway.
 
+For sequencing or wake turblence purposes Auckland Ground may assign domestic turboprops/jets different holding points to what is stated above. Ground may assign holding points A1A, A1, and A2 where they see necessary. But should refer to the above as standard practice in low levels of traffic. 
+
 ---
 
 ## Auckland Delivery
