@@ -24,7 +24,7 @@
 | --------------------- | ---------- | ----------- | ------------------- |
 | Auckland Control      | NZAA-R_CTR | 126.000 MHz | Traffic Management  |
 | Christchurch Director | NZCH-D_CTR | 129.200 MHz | Staff Only Position |
-| Auckland Finals       | NZAA-F_APP | 129.600 MHz | Traffic Management  |
+| Auckland Approach (Finals)  | NZAA-F_APP | 129.600 MHz | Traffic Management  |
 | Auckland Departures   | NZAA_DEP   | 118.000 MHz | Traffic Management  |
 
 ---
@@ -60,7 +60,7 @@ Departures - airborne, unless otherwise coordinated
 
 Arrivals on a straight-in approach - at LENGU or EMRAG
 
-Arrivals on a visual approach  - by 15 AA DME
+Arrivals on a visual approach  - prior to entering the CTR or at ESNAX, ATAMA, UDUMO, NOKIT, ESNAX. Whichever is earlier
 
 Arrivals on an RNP approach, not straight-in - at ATAMA or NIPAS (RWY05R), ESNAX, ESMON, TEGIK, or TUSLO (RWY23L).
 
@@ -78,7 +78,7 @@ Ground uses positive control to ensure that no other aircraft passes directly be
 
 ### Transfer of Communication
 
-Once Auckland Ground has issued all necessary instructions to the pilot, they advise the pilot to monitor Auckland Tower on `118.700 MHz`.
+Once Auckland Ground has issued all necessary instructions to the pilot, they advise the pilot to contact Auckland Tower on `118.700 MHz`. 
 
 ### Use of Holding Points
 
