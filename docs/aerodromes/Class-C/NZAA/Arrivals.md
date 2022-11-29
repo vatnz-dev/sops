@@ -29,7 +29,15 @@ vatSys and EuroScope will usually assign the most appropriate arrival for that a
 
 | Arrival Direction | Transition Fix | STAR                  | Notes                                       |
 | ----------------- | -------------- | --------------------- | ------------------------------------------- |
-
+| NE                | EXOPI          | EXOPI1B / EXOPI7D     | Oceanic Traffic                             |
+| NW                | BASIV          | BASIV9B               | Oceanic Traffic                             |
+| W                 | ARADI          | ARADI7B               | Oceanic Traffic                             | 
+| S                 | DAVEE          | DAVEE7B / DAVEE7D     | South Jets                                  |
+| S                 | PEPPE          | PEPPE6B / PEPPE9D     | South Props                                 | 
+| S                 | SCARY          | SCARY3B / SCARY3D     | South Props (HN)                            | 
+| SE                | NOBAR          | NOBAR9B / NOBAR9D     | Props (NR, RO, TG, GS)                      |
+| NE                | RIKDI          | RIKDI1N               | Oceanic Traffic (Noise Abatment)            |
+| N                 | UKAPA          | UKAPA3B / UKAPA3D     | WR / KK / KT Traffic                        |
 
 ### Approaches
 
