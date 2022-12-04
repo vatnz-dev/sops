@@ -6,11 +6,11 @@
 
 ## Control Positions and Navaids
 
-| Position Name  | Callsign   | Usage   |
-| -------------- | ---------- | ------- |
-| Bay Approach   | NZCH-B_CTR | Primary |
-| Tauranga Tower | NZTG_TWR   | Primary |
-| D-ATIS         | NZTG_ATIS  | ATIS    |
+| Position Name  | Callsign   | Usage   | Frequency |
+| -------------- | ---------- | ------- | --------- |
+| Bay Approach   | NZCH-B_CTR | Primary | 119.500   |  
+| Tauranga Tower | NZTG_TWR   | Primary | 118.300   |
+| D-ATIS         | NZTG_ATIS  | ATIS    | 126.600   |
  
 
 ## Usage
