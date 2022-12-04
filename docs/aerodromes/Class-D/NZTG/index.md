@@ -71,6 +71,34 @@ There are various intermediate holding points specifically for the grass runways
 !!! info 
     When grass 04/22 is in use, aircraft using Taxiway W should hold short at W2 to prevent an incursion.
 
+## Procedure Assignment
+
+vatSys and ES will usually assign the most suitable departure for that aircraft's flight plan, although is is important to check these before verbally issuing the clearance.
+
+### Approaches
+
+#### Runway 25
+
+All arrivals terminate at `RUSTA` or `MORTA`, which are the IAF for the RNAV approach.
+
+If aircraft are visual they can report "Callsign, IAF, inbound, visual RNAV 07". It is then up to the Controllers discretion whether the aircraft is cleared visual or not. 
+
+### Missed Approach
+
+In the event of a missed approach, aicraft should be instructed to carry out the published missed approach procedure. This will have the aircraft climbing to 2000 feet, turning left direct to `LETGU`, before holding at `RUSTA` 5000 feet or above. Aircrft can then be re-cleared for the RNAV approach, or cleared a visual approach, should the conditions be suitable.
+
+#### Runway 07
+
+### Approaches
+
+All arrivals terminate at `UBSET ` or `TODAN`, which are the IAF for the RNAV approach.
+
+If aircraft are visual they can report "Callsign, IAF, inbound, visual RNAV 25". It is then up to the Controllers discretion whether the aircraft is cleared visual or not. 
+
+### Missed Approach
+
+In the event of a missed approach, aicraft should be instructed to carry out the published missed approach procedure. This will have the aircraft climbing to 2000 feet, turning right direct to `LETGU`, before holding at `UBSET` at 4000 feet or above. Aircrft can then be re-cleared for the RNAV approach, or cleared a visual approach, should the conditions be suitable.
+
 
 ## General Rules of Thumb
 
@@ -84,9 +112,29 @@ Aircraft who require taxi to the fuel pumps from any of the eastern hangars or A
 
 If both the sealed and grass runways are occupied, and both aircraft are ready for departure, the aircraft on the grass runway should be instructed to takeoff first. This avoids the need to wait two or three minutes due to wake turbulence separation. The aircraft who departs first should be instructed to make an early turn to allow successive departure of the waiting aircraft.
 
-### Crane Operation
+## VFR Operations
 
-!!! danger
-    Tauranga Port is Adjacent to Tauranga Airport and operates Multiple cranes up to 361 ft AMSL at 1.5 to 2.0 NM from Runway 07 Threshold.
-                
-    VFR Aircraft tracking Hunters Creek or Mt. Harbour Entrance should not commence their turn until 500ft AGL.
+### Rule Of Thumb
+
+All arriving aircraft should keep seawards of the coastline, allowing for departing aircraft to pass on the land-side of the coast. This general rule is a safe way to keep traffic flowing efficiently in and out of the aerodrome.
+
+
+### Arrivals
+
+All arriving VFR aircraft should reference the preferred VFR arrival procedures [as listed in the NZ AIP](https://www.aip.net.nz/assets/AIP/Aerodrome-Charts/Tauranga-NZTG/NZTG_35.1_35.2.pdf){ target=blank }.
+
+These standard VFR departures should be issued where possible, to ensure the safe and efficient flow of traffic is maintained.
+
+### VFR Departures
+
+| Procedure Name          | Direction | Runway |
+| ----------------------- | --------- | ------ |
+| Hunters Creek Departure | SW        | 25     |
+| Hospital Departure      | S         | 25     |
+| Te Puke Departure       | E         | 25     |
+| Main Beach Departure    | W         | 07     |
+| East Departure          | E         | 07     |
+| Baldy Departure         | W         | 07     |
+
+
+All departure traffic should be advised to remain 1500 feet or below, unless otherwise stated on the departure plate.
