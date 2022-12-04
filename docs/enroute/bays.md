@@ -1,5 +1,5 @@
 ---
-  title: Bays
+  title: Christchurch (Bays)
 
 ---
 

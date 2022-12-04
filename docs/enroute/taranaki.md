@@ -1,5 +1,5 @@
 ---
-  title: Taranaki
+  title: Christchurch (NAK)
 
 ---
 

@@ -1,5 +1,5 @@
 ---
-  title: Kaikoura
+  title: Christchurch (KAI)
 ---
 
 --8<-- "includes/abbreviations.md"

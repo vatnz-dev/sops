@@ -1,5 +1,5 @@
 ---
-  title: Ohakea
+  title: Ohakea (OHA)
 ---
 
 --8<-- "includes/abbreviations.md"

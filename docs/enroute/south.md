@@ -1,5 +1,5 @@
 ---
-  title: South
+  title: Christchurch (STH)
 
 ---
 
