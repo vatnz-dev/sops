@@ -1,5 +1,6 @@
 ---
-  title: Christchurch (KAI)
+  title: Christchurch - South (STH)
+
 ---
 
 --8<-- "includes/abbreviations.md"

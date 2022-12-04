@@ -1,5 +1,5 @@
 ---
-  title: Christchurch (STH)
+  title: Auckland - Raglan (RAN)
 
 ---
 

@@ -1,5 +1,5 @@
 ---
-  title: Christchurch (Bays)
+  title: Christchurch - Taranaki (NAK)
 
 ---
 
