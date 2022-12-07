@@ -1,5 +1,5 @@
 ---
-  title: Christchurch - Taranaki (NAK)
+  title: South
 
 ---
 
