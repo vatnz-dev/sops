@@ -3,7 +3,8 @@
 
 ---
 
---8<-- "includes/abbreviations.md"
+## Positions
 
-!!! info
-    This segment is not finished yet, please come back at a later date.
+| Sector Name    | Shortcode | Callsign       | Frequency | Login ID |
+| -------------- | --------- | -------------- | --------- | -------- |
+| Ohakea Control | OHA       | Ohakea Control | 126.200   | NZOH_CTR |
