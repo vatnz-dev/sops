@@ -1,10 +1,19 @@
 ---
-  title: Tahiti Positions
+  title: Tahiti
 ---
 
 --8<-- "includes/abbreviations.md"
 
-# Tahiti Positions
+
+| Name            | Callsign        | Frequency | Login    | Notes |
+| --------------- | --------------- | --------- | -------- | ----- |
+| Tahiti Control  | Tahiti Control  | 134.700   | NTTC_CTR |       |
+| Tahiti Approach | Tahiti Approach | 121.300   | NTAA_APP |       |
+| Tahiti Tower    | Tahiti Tower    | 118.100   | NTAA_TWR |       |
+| Moorea Tower    | Moorea Tower    | 118.100   | NTTM_TWR |       |
+| Bora Bora Tower | Bora Tower      | 118.900   | NTTB_TWR |       |
+| Raiatea Tower   | Raiatea Tower   | 118.500   | NTTR_TWR |       |
+
 
 ## Tahiti
 
@@ -17,14 +26,7 @@ In the real-world, NTTT is operatated by the French, so there are some peculiari
     * If you're above FL045 within NTTT_CTR's 200nm arc, this service is provided by NTTT_CTR.
 * Outside of the Tower/Approach/Enroute CTAs, and between SFC and FL045, you're flying in Class G.
 
-### FSS
-
-* **NTTT_FSS**: "Tahiti Control" on 9.116 (aliased as 125.500)
-    * Other RW frequencies: 3.467, 5.643, 8.867, 13.261, 17.904 (SELCAL), 5680 (no SELCAL).
-    * Provides an Oceanic FSS service above FL195.
-    * Provides a Class E IFR and Traffic service to aircraft above FL045, outside of any other CTA airspace such as Tower/Approach/Enroute.
-
-### Enroute
+## Enroute
 
 * **NTTT_CTR**: "Tahiti Control" on 134.700
     * Provides a radar service within the Iles Sous Le Vent sector from 1500ft to FL195.
@@ -36,7 +38,7 @@ In the real-world, NTTT is operatated by the French, so there are some peculiari
       * NTTH is uncontrolled, with the base of NTTT_CTR at 1,500ft.
 
 <figure markdown> 
-  ![Tahiti Airspace](assets/nttt-ctr.png){ width="550" }
+  ![Tahiti Airspace](../oceanic/assets/nttt-ctr.png){ width="550" }
   <figcaption>
   </figcaption>
 </figure>
