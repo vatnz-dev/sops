@@ -1,5 +1,5 @@
 ---
-  title: Tahiti Positions
+  title: Tahiti
 ---
 
 --8<-- "includes/abbreviations.md"
