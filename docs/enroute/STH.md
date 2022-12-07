@@ -1,5 +1,5 @@
 ---
-  title: Auckland Oceanic Radar
+  title: Christchurch - South (STH)
 
 ---
 

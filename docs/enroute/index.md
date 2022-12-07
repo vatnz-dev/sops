@@ -2,8 +2,6 @@
   title: Overview
 ---
 
-## Enroute Sectors
-
 New Zealand's Airspace is split up into many sectors, mainly to help with traffic levels. This means that if you are flying from the top of the country to the bottom, you may speak to 3 or more controllers along the way, all with different frequencies.
 
 
