@@ -12,15 +12,18 @@
 
 ## Positions
 
-| Sector Name       | Shortcode | Callsign         | Frequency | Login ID   |
-| ----------------- | --------- | ---------------- | --------- | ---------- |
-| Auckland - Raglan | RAN       | Auckland Control | 126.000   | NZAA-R_CTR |
+| Sector Name               | Shortcode | Callsign         | Frequency | Login ID   |
+| ------------------------- | --------- | ---------------- | --------- | ---------- |
+| Auckland Control (Raglan) | RAN       | Auckland Control | 126.000   | NZAA-R_CTR |
 
 ## Airspace
 
 RAN covers all airspace within the lateral bounds as found below, with the only exception being the airspace that has been delegated to HN TMA. The lower limit for RAN airspace is `A065`, except overhead HN TMA, where the lower limit is `A110`.
 
 When NP TWR is offline, RAN automatically inherits the TWR and Procedural Approach services provided by NP TWR. See [the responsibilities section on NP TWR](#np-twr).
+
+!!! error
+    Add Airspace diagram for RAN
 
 ## Sector Responsibilities
 
@@ -41,6 +44,8 @@ RAN shall ensure that an efficient arrival flow is maintained into AA TMA.
 ### HN TMA
 
 Due to the relatively small lateral boundaries of HN TMA, RAN shall ensure that any aircraft descending into NZHN are a standard 5nm spacing, preferably greater.
+
+As the easten section of the HN TMA does not perfectly align with the RAN/BAY sector boundary, RAN may choose to delegate control of this airspace to either BAY or HN TMA with coordination.
 
 ### NP TWR
 

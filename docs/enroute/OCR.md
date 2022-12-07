@@ -28,6 +28,8 @@ OCR is responsible for initial sequencing, issuing STAR clearances, and issuing 
 
 OCR is also responsible for the initial sequencing of aircraft on the `T46` airway between `NUTRA` and `ELKIG`.
 
+BAY shall also manage the arrivals and departures into and out of any controlled or uncontrolled IFR aerodromes in its sector. This shall include issuing STARs and providing a top-down service where appropriate.
+
 ## Coordination
 
 ### Handovers
