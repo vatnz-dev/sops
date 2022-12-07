@@ -6,15 +6,21 @@
 
 ## Positions
 
-| Name          | Shortcode | Callsign         | Frequency | Login ID |
+| Sector Name   | Shortcode | Callsign         | Frequency | Login ID |
 | ------------- | --------- | ---------------- | --------- | -------- |
 | Oceanic Radar | OCR       | Auckland Control | 123.900   | NZAA_CTR |
 
 ## Airspace
 
-OCR covers all airspace within the lateral bounds as found below.
+OCR covers all airspace within the lateral bounds as found below. The lower limit for OCR is:
 
-When **RAN**, **BAY** or **AA TMA** are offline, OCR automatically inherits and assumes all responsibility for that sector. 
+  - Within 100nm AA VOR: `A095`
+  - Between 100 to 200nm AA VOR: `A135`
+
+When **RAN**, **BAY** or **AA TMA** are offline, OCR automatically inherits and assumes all responsibility for those sectors. 
+
+!!! error
+    Add Airspace diagram for OCR
 
 ## Sector Responsibilities
 
@@ -30,7 +36,7 @@ Aircraft shall be handed over as per the [Standard Coordination Procedures](../c
 
 ### AA TMA
 
-OCR may issue STAR clearances to aircraft bound for AA without coordination with AA TMA for the nominated runway and approach type as stated in the ATIS. A request for use of a non-nominated approach requires agreement from both the TMA and ADC Controller.
+OCR may issue STAR clearances to aircraft bound for any aerdrome within AA TMA without coordination, provided it is for the nominated runway and approach type as stated in the ATIS. A request for use of a non-nominated approach requires agreement from both the TMA and ADC Controller.
 
 OCR may descend aircraft to `A110` without coordination from the AA TMA.
 
