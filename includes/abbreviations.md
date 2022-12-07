@@ -19,10 +19,3 @@
 *[AFIS]: Aerodrome Flight Information Station
 *[AIP]: Aeronautical Information Publication
 *[ProcEd]: Procedure Editor
-*[OCR]: Auckland Control
-*[RAN]: Auckland Control (Raglan) 
-*[BAY]: Christchurch Control (Bay)
-*[OHA]: Ohakea Control
-*[NAK]: Christchurch Control (Taranaki)
-*[STH]: Christchurch Control (South)
-*[KAI]: Christchurch Control (Kaikoura)
