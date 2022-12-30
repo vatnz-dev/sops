@@ -25,7 +25,7 @@ The SFG app can perform the following functions:
 *  Allow for the importing of manual airspace definitions, such as Enroute and TMAs,
 *  Allow for the conversion of various formats. For example from eAIP draw format to Sector File/Sector Line/vatSys Airspace Map, Volume/vatSpy boundary and GeoJSON,
 *  Allow for the merging of airspace, through eAIP definitions (albeit with some limitations),
-*  Allow for the manual import and mapping of different procedures (STARs, SIDs, VFR arrival/departures, GNSS and RNP approaches),
+*  Allow for the manual import and mapping of different procedures (STARs, SIDs, VFR arrival/departures, GNSS and RNP approaches), as well as the cross-checking between AIP promulgated procedures and the procedure database,
 *  Allow for the export of individual procedures to an independant map for Documentation,
 *  Conversion between different coordinate types (SCT/eAIP/Dec. Degrees/ISO Deg, DegMins, DegMinsSecs),
 *  Generate an eAIP output from a vatSys airspace map,
