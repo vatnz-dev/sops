@@ -41,12 +41,6 @@ RAN shall assign STARs to any aircraft that have their destination within either
 
 RAN shall ensure that an efficient arrival flow is maintained into AA TMA. 
 
-### HN TMA
-
-Due to the relatively small lateral boundaries of HN TMA, RAN shall ensure that any aircraft descending into NZHN are a standard 5nm spacing, preferably greater.
-
-As the easten section of the HN TMA does not perfectly align with the RAN/BAY sector boundary, RAN may choose to delegate control of this airspace to either BAY or HN TMA with coordination.
-
 ### NP TWR
 
 When NP TWR is offline, RAN is responsible for all functions of NP TWR, including the Procedural Tower service. 
@@ -58,6 +52,8 @@ When responsible for NP TWR, RAN may opt to provide a radar approach service, ra
 ### NAK
 
 RAN shall assign STARs to any aircraft where the destination is within the lateral bounds of NAK without coordination.
+
+RAN shall assign STARs to any aircraft bound for NZWN without coordination, provided it is for the nominated runway and approach type as stated in the ATIS. A request for use of a non-nominated approach requires coordination from NAK, who will liaise with WN TMA and ADC.
 
 RAN shall ensure that any aircraft crossing the RAN/NAK boundary is established on an airway. RAN may clear aircraft direct to a boundary fix, provided it is established on an airway once it reaches the direct-to fix.
 
@@ -77,5 +73,8 @@ RAN may clear aircraft direct to the STAR's AA TMA boundary fix without coordina
 
 ### HN TMA
 
-RAN may descend aircraft bound for NZHN to `A080` without coordination from HN TMA, and may descend lower than this with coordination.
+Due to the relatively small lateral boundaries of HN TMA, RAN shall ensure that any aircraft descending into NZHN are a standard 5nm spacing, preferably greater.
 
+As the easten section of the HN TMA does not perfectly align with the RAN/BAY sector boundary, RAN may choose to delegate control of this airspace to either BAY or HN TMA with coordination.
+
+RAN may descend aircraft bound for NZHN to `A080` without coordination from HN TMA, and may descend lower than this with coordination.

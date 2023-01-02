@@ -13,7 +13,7 @@
 
 ## Airspace
 
-BAY covers all aircraft within the lateral bounds as found below. The lower limit for `A065`, except surrounding NZTG and NZRO, where it drops to `A035`.
+BAY covers all airspace within the lateral bounds as found below. The lower limit is `A065`, except surrounding NZTG and NZRO, where it drops to `A035`.
 
 When HN TMA is offline, BAY automatically inherits and assumes all responsibility for that sector up to the lower limit of RAN airspace, which is `A110`.
 
