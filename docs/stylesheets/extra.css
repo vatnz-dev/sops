@@ -1,81 +1,66 @@
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600&display=swap');
+/* Theme Adaptation */
+
+
 
 /*Primary Thematic Colors*/
-:root {
-  --md-primary-fg-color: rgba(191, 219, 254, 0.7);
-  --md-primary-fg-color--dark: rgb(23, 30, 44);
-  --md-primary-fg-color--light: rgba(191, 219, 254, 0.7);
-  --md-accent-fg-color: rgba(191, 219, 254, 0.7);
-  --header-font: Manrope;
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color: rgb(23, 30, 44);
+  --md-accent-fg-color: rgb(23, 30, 44);
+  --md-footer-fg-color: rgb(23, 30, 44);
+  --md-card-a: rgba(209, 213, 218, 0.6);
+  --md-card-a-hover: rgb(209, 213, 218);
+  --md-default-table-header-text: #fff;
+  --md-top: var(--md-default-bg-color);
+  --md-typeset-link: rgb(81, 90, 109);
+  --md-typeset-link-hover: rgb(23, 30, 44);
+  --md-typeset-a-color: rgb(89, 147, 170);
+  --hotline: #fff820a1;
+  --coldline: #35b9ff66;
 }
 
 [data-md-color-scheme="slate"] {
-  --md-default-bg-color: rgb(23, 30, 44);
+  --md-default-bg-color: #171e2c;
+  --md-accent-fg-color: rgba(69, 88, 110, 0.9);
+  --md-primary-fg-color: #fff;
+  --md-card-a: #1b253b;
+  --md-card-a-hover: #293858;
+  --md-default-table-header-text: #fff;
+  --md-top: #1b253b;
+  --md-typeset-link: rgb(146, 190, 245);
+  --md-typeset-link-hover: rgba(146, 190, 245, 0.7);
+  --md-typeset-a-color: rgb(146, 190, 245);
+  --hotline: #b7b10291;
+  --coldline: #16aeff6e;
 }
 
 /*Header Modifications*/
 .md-typeset h1 {
-  color: rgba(191, 219, 254, 0.9);
-  font-family: var(--header-font), sans-serif;
-  font-weight: 550;
-  size: 2em;
+  color: var(--md-primary-fg-color);
 }
 
-.md-typeset h2,
-.md-typeset h3,
-.md-typeset h4 {
-  font-family: var(--header-font), sans-serif;
-  font-weight: 400;
-  size: 2em;
-}
-
-/*Specific Header Modifications*/
-.md-typeset h2 {
-  color: rgba(191, 219, 254, 0.7);
-  /*Cyan*/
+h2 {
+  color: var(--md-primary-fg-color);
   /*text-transform: uppercase;*/
   padding-bottom: 0.5em;
 }
 
-.md-typeset h3 {
-  color: rgba(191, 219, 254, 0.7);
+h3 {
+  color: var(--md-primary-fg-color);
 }
 
-.md-typeset h4 {
+h4 {
   padding-top: 1em;
-  text-decoration: underline;
-  font-weight: bold;
+  color: var(--md-primary-fg-color);
 }
 
 .md-typeset h5 {
-  text-transform: capitalize;
-  color: #FFFFFF;
-  font-weight: bold;
-}
-
-.md-typeset h6 {
-  text-transform: capitalize;
-  color: #FFFFFF;
-}
-
-.md-ellipsis {
-  font-family: var(--header-font), sans-serif;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-
-/* Button Hover State */
-.md-typeset .md-button:is(:focus, :hover) {
-  background-color: var(--md-accent-fg-color);
-  border-color: var(--md-accent-fg-color);
-  color: black;
+  color: var(--md-primary-fg-color);
 }
 
 /* highlighting */
 .md-typeset mark {
   /* ==text== */
-  background-color: #244559;
+  background-color: #06b6d4;
   color: white;
   text-decoration: none;
 }
@@ -87,19 +72,27 @@
 /*}*/
 .md-typeset del {
   /* ~~text~~ */
-  background-color: #47324d;
+  background-color: #271b2b;
   color: white;
   text-decoration: none;
 }
 
 .md-typeset code {
-  background-color: hsl(232, 7%, 28%);
-  border-radius: .1rem;
+  background-color: #7a7a7a82;
+  border-radius: 0.25rem;
   -webkit-box-decoration-break: clone;
   box-decoration-break: clone;
-  font-size: .95em;
+  font-size: .90em;
   padding: 0 .2941176471em;
   word-break: break-word;
+}
+
+.md-typeset a {
+  color: var(--md-typeset-link)
+}
+
+.md-typeset a:hover {
+  color: var(--md-typeset-link-hover)
 }
 
 /*Standardize Font Awesome CSS Styling*/
@@ -114,8 +107,8 @@
 /*Table Styling*/
 .md-typeset table:not([class]) th {
   font-weight: bold;
-  background-color: rgba(191, 219, 254, 0.7);
-  color: var(--md-default-bg-color);
+  background-color: #344767;
+  color: var(--md-default-table-header-text);
 }
 
 /* reduced table row height */
@@ -127,5 +120,14 @@
 
 /* Tasklist */
 .md-typeset [type=checkbox]:checked+.task-list-indicator:before {
-  background-color: rgba(191, 219, 254, 0.7);
+  background-color: #81C3D7;
+}
+
+/* Coord Examples */
+.hotline {
+  background-color: var(--hotline);
+}
+
+.coldline {
+  background-color: var(--coldline);
 }
