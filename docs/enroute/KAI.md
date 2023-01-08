@@ -18,6 +18,8 @@
 
 KAI covers all airspace within the lateral bounds as found below, with the only exception being the airspace delegated to CH TMA. The lower limit for most airspace is `A075`. 
 
+As CH TMA has an upper limit of `A095`, KAI provides control for any aircraft overflying the CH TMA up to its' boundary with STH.
+
 When CH TMA is offline, KAI automatically inherits and assumes responsibility for that sector.
 
 !!! error
@@ -66,11 +68,13 @@ KAI shall issue STARs without coordination to aircraft bound for an aerodrome wi
 
 KAI shall ensure that aircraft have been cleared to their RFL on crossing the boundary, with the exception of descending traffic.
 
+KAI shall ensure that any aircraft crossing the KAI/STH boundary is established on an airway. KAI may clear aircraft direct to a boundary fix, provided it is established on an airway once it reaches the direct-to fix.
+
 ### CH TMA
 
 KAI may issue STAR clearances to aircraft bound for NZCH without coordination, provided that the STAR links with the nominated runway and approach type as stated in the ATIS. A request for the use of a non-nominated approach requires agreement from both the TMA and ADC Controller.
 
-KAI may descend aircraft to `A110` without coordination from CH TMA.
+KAI may descend aircraft to `A095` without coordination from CH TMA.
 
 If a sequencing conflict is to occur, KAI shall coordinate with CH TMA as to an ideal arrival order.
 
@@ -80,6 +84,8 @@ KAI may clear aircraft direct to the STAR's CH TMA boundary fix without coordina
     **KAI**: *New Zealand 677, track direct KABGO to rejoin the STAR. When ready descend A080*.
 
     **Note**: As `KABGO` sits within CH TMA's airspace, co-ordination would be required.
+
+KAI shall ensure that aircraft overflying the CH TMA are no lower than `A110` without coordination.
 
 ### WN TMA
 
