@@ -1,5 +1,5 @@
 ---
-  title: Auckland - OCR (OCR)
+  title: Auckland - Oceanic Radar (OCR)
 ---
 
 --8<-- "includes/abbreviations.md"
