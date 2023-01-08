@@ -75,6 +75,4 @@ RAN may clear aircraft direct to the STAR's AA TMA boundary fix without coordina
 
 Due to the relatively small lateral boundaries of HN TMA, RAN shall ensure that any aircraft descending into NZHN are a standard 5nm spacing, preferably greater.
 
-As the easten section of the HN TMA does not perfectly align with the RAN/BAY sector boundary, RAN may choose to delegate control of this airspace to either BAY or HN TMA with coordination.
-
 RAN may descend aircraft bound for NZHN to `A080` without coordination from HN TMA, and may descend lower than this with coordination.
