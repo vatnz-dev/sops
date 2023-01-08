@@ -58,7 +58,7 @@ OHA shall give ARO a **10 minute warning** of the aircraft's crossing of the FIR
 When traffic crosses into the NZZC FIR from NZCI, they shall be identified in the normal manner, and provided with a domestic squawk code. 
 
 !!! hint "RTF for NZCI-bound traffic"
-    Traffic bound for NZCI be advised that they will be uncontrolled, and that ARO is proving a limited monitoring service.
+    Traffic bound for NZCI shall be advised that they will be uncontrolled, and that ARO is proving a limited monitoring service.
 
     Aircraft bound for NZCI typically remain at flight levels under the Lower Limit of Oceanic airspace, and shall be handed over to UNICOM when crossing the FIR boundary. BAY shall advise ARO in the same manner as a reqular Oceanic flight, as Oceanic will maintain a limited monitoring service.
 
