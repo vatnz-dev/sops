@@ -18,6 +18,8 @@
 
 OHA covers all airspace within the lateral bounds as found below. The lower limit is `A065` west of Mount Ruapehu, and `A095` to the east.
 
+As OH TMA has an upper limit of `A095`, OHA provides control for any aircraft overflying the OH TMA.
+
 When OH TMA is offline, OHA automatically inherits and assumes all responsibility for that sector.
 
 When NR TWR is offline, OHA automatically inherits the TWR and Procedural Approach services provided by NR TWR. See [the responsibilities section on NR TWR](#nr-twr).
@@ -34,6 +36,8 @@ OHA is also responsible for the management of a large volume of military traffic
 ### OH TMA
 
 OHA also manages traffic into and out of OH TMA. When OH TMA is offline, OHA automatically inherits OH TMA's airspace. 
+
+OHA shall ensure that aircraft overflying the OH TMA are no lower that `A110` without coordination.
 
 ### WN TMA
 

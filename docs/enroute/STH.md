@@ -18,9 +18,9 @@
 
 STH covers all airspce within the lateral bounds as found below, with the only exception being the airspace delegated to CH TMA, QN TMA, and the NV and DN Procedural Towers. The lower limit for most airspace is `A135`.
 
-As CH TMA has an upper limit of `A095`, STH provides control for any aircraft overflying the CH TMA up to its' boundary with KAI.
+As CH TMA has an upper limit of `A095`, STH provides control for any aircraft overflying the CH TMA up to its boundary with KAI.
 
-As QN TMA has an upper limit of `FL175`, STH provides control for any aircraft overflying the QN TMA.s
+As QN TMA has an upper limit of `FL175`, STH provides control for any aircraft overflying the QN TMA.
 
 When KAI, QN TMA, DN TWR or NV TWR is offline, STH automatically inherits and assumes responsibility for those sectors.
 
@@ -44,9 +44,13 @@ STH shall ensure that an efficient arrival flow is managed into QN TMA.
 
 When QN TMA is offline, STH automatically inherits QN TMA's airspace.
 
+STH shall ensure that aircraft overflying the CH TMA are no lower than `FL190` without coordination.
+
 ### CH TMA
 
 STH shall ensure that an efficient flow is managed into CH TMA from the West.
+
+STH shall ensure that aircraft overflying the CH TMA are no lower than `A110` without coordination.
 
 ### DN TWR
 
@@ -106,8 +110,6 @@ STH may descend aircraft to `A095` without coordination from CH TMA.
 If a sequencing conflict is to occur, STH shall coordinate with CH TMA as to an ideal arrival order.
 
 STH may clear aircraft direct to the STAR's CH TMA boundary without coordination, provided that they have been cleared to rejoin the STAR thereafter. Aircraft may be cleared to track direct to a fix within CH TMA's boundary with coordination, subject to the same condition.
-
-STH shall ensure that aircraft overflying the CH TMA are no lower than `A110` without coordination.
 
 ### DN TWR
 

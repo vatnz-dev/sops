@@ -18,7 +18,7 @@
 
 KAI covers all airspace within the lateral bounds as found below, with the only exception being the airspace delegated to CH TMA. The lower limit for most airspace is `A075`. 
 
-As CH TMA has an upper limit of `A095`, KAI provides control for any aircraft overflying the CH TMA up to its' boundary with STH.
+As CH TMA has an upper limit of `A095`, KAI provides control for any aircraft overflying the CH TMA up to its boundary with STH.
 
 When CH TMA is offline, KAI automatically inherits and assumes responsibility for that sector.
 
@@ -32,6 +32,8 @@ KAI is responsible for the management of southbound NZCH arrivals, in addition t
 ### CH TMA
 
 KAI shall ensure that an efficient arrival flow is managed into CH TMA from the North. 
+
+KAI shall ensure that aircraft overflying the CH TMA are no lower than `FL190` without coordination.
 
 ### WN TMA
 
@@ -84,8 +86,6 @@ KAI may clear aircraft direct to the STAR's CH TMA boundary fix without coordina
     **KAI**: *New Zealand 677, track direct KABGO to rejoin the STAR. When ready descend A080*.
 
     **Note**: As `KABGO` sits within CH TMA's airspace, co-ordination would be required.
-
-KAI shall ensure that aircraft overflying the CH TMA are no lower than `A110` without coordination.
 
 ### WN TMA
 
