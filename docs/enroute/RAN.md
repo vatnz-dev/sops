@@ -22,8 +22,10 @@ RAN covers all airspace within the lateral bounds as found below, with the only 
 
 When NP TWR is offline, RAN automatically inherits the TWR and Procedural Approach services provided by NP TWR. See [the responsibilities section on NP TWR](#np-twr).
 
-!!! error
-    Add Airspace diagram for RAN
+<figure markdown> 
+  ![Raglan's Airspace](assets/RAN.png)
+  <figcaption>Raglan's Lateral Bounds</figcaption>
+</figure>
 
 ## Sector Responsibilities
 

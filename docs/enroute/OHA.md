@@ -4,10 +4,7 @@
 
 --8<-- "includes/abbreviations.md"
 
-!!! info
-    This segment is not finished yet, please come back at a later date.
 
-    
 ## Positions
 
 | Sector Name    | Shortcode | Callsign       | Frequency | Login ID |
@@ -24,8 +21,10 @@ When OH TMA is offline, OHA automatically inherits and assumes all responsibilit
 
 When NR TWR is offline, OHA automatically inherits the TWR and Procedural Approach services provided by NR TWR. See [the responsibilities section on NR TWR](#nr-twr).
 
-!!! error
-    Add Airspace diagram for OHA
+<figure markdown> 
+  ![Ohakea's Airspace](assets/OHA.png)
+  <figcaption>Ohakea's Lateral Bounds</figcaption>
+</figure>
 
 ## Sector Responsibilities
 

@@ -19,8 +19,10 @@ When HN TMA is offline, BAY automatically inherits and assumes all responsibilit
 
 When GS TWR is offline, BAY automatically inherits the TWR and Procedural Approach services provided by GS TWR. See [the responsibilities section on GS TWR](#gs-twr).
 
-!!! error
-    Add Airspace diagram for BAY
+<figure markdown> 
+  ![Bay Approach's Airspace](assets/BAY.png)
+  <figcaption>Bay Approach's Lateral Bounds</figcaption>
+</figure>
 
 ## Sector Responsibilities
 

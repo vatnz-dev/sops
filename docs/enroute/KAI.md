@@ -22,8 +22,10 @@ As CH TMA has an upper limit of `A095`, KAI provides control for any aircraft ov
 
 When CH TMA is offline, KAI automatically inherits and assumes responsibility for that sector.
 
-!!! error
-    Add Airspace diagram for KAI
+<figure markdown> 
+  ![Kaikoura's Airspace](assets/KAI.png)
+  <figcaption>Kaikoura's Lateral Bounds</figcaption>
+</figure>
 
 ## Sector Responsibilities
 

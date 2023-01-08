@@ -19,8 +19,10 @@ OCR covers all airspace within the lateral bounds as found below. The lower limi
 
 When RAN, BAY or AA TMA are offline, OCR automatically inherits and assumes all responsibility for those sectors. 
 
-!!! error
-    Add Airspace diagram for OCR
+<figure markdown> 
+  ![Auckland's Airspace](assets/OCR.png)
+  <figcaption>Auckland's Lateral Bounds</figcaption>
+</figure>
 
 ## Sector Responsibilities
 

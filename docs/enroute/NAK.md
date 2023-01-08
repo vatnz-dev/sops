@@ -19,8 +19,10 @@ When NS TWR is offline, NAK automatically inherits the TWR and Procedural Approa
 
 When NP TWR is offline, NAK **does not** assume this position, as this is provided by RAN. See [the responsibilities section on NP TWR](#np-twr).
 
-!!! error
-    Add Airspace diagram for NAK
+<figure markdown> 
+  ![Taranaki's Airspace](assets/NAK.png)
+  <figcaption>Taranaki's Lateral Bounds</figcaption>
+</figure>
 
 ## Sector Responsibilities
 

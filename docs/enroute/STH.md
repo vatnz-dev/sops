@@ -4,9 +4,6 @@
 
 --8<-- "includes/abbreviations.md"
 
-!!! info
-    This segment is not finished yet, please come back at a later date.
-
     
 ## Positions
 
@@ -26,8 +23,10 @@ When KAI, QN TMA, DN TWR or NV TWR is offline, STH automatically inherits and as
 
 When CH TMA is offline, that position is inherited by KAI. If KAI is also offline, STH automatically assumes responsibility for KAI, and therefore for CH TMA also.
 
-!!! error
-    Add Airspace diagram for STH
+<figure markdown> 
+  ![South's Airspace](assets/STH.png)
+  <figcaption>South's Lateral Bounds</figcaption>
+</figure>
 
 !!! info "Oceanic airspace delegated to STH"
     STH has been delegated airspace on NZZC FIR's western boundary to ensure smooth operations in and out of NZQN. This airspace consists of a 130nm QN VOR arc, where the overlap is then delegated to STH. Four IFR waypoints exist on this boundary - `BEBOB`, `DADLU`, `MADOK` and `EKODA`. These waypoints are all considered oceanic boundary fixes.
