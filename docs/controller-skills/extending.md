@@ -10,7 +10,7 @@ New Zealand airspace is unique in that we have seven sectors in fairly close pro
 
 When providing an extended service, it's important to realise that traffic levels can build quickly, and New Zealand's unique level of GA aircraft in such a small area can cause increased difficulty. Therefore, if you notice your quality of service degrading, you should cease extending to other sectors so that you can provide a quality service. Quality, not quantity is paramount.
 
-!!! warning "Controllers shall not to change Airspace Classes"
+!!! warning "Controllers shall not change Airspace Classes"
     Controllers are not authorised to change the classes of airspaces under their control in order to alleviate traffic concerns.
 
     **Example** - If you are providing an Extended Enroute service with multiple aircraft in the circuit pattern at Woodbourne, you are obligated to provide a service to them under the VATSIM top-down controlling methodology. A Controller shall not revert that airspace to Class G in order to redirect their attention to other aircraft. In this case, you would amend the extend of your extended sectors.
