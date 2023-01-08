@@ -11,11 +11,13 @@
 
 ## Airspace
 
-NAK covers all airspace within the lateral bounds as found below, with the only exception being the airspace that has been delegated to WN TMA and OH TMA. The lower limit for most airspace is `A095`, dropping to `A065` in areas surrounding Mt Ruapehu and Nelson.
+NAK covers all airspace within the lateral bounds as found below, with the only exception being the airspace that has been delegated to WN TMA and OH TMA. The lower limit for most airspace is `A095`, dropping to `A065` in areas surrounding Mt Taranaki and Nelson.
 
 When WN TMA is offline, NAK automatically inherits and assumes responsibility for that sector. 
 
 When NS TWR is offline, NAK automatically inherits the TWR and Procedural Approach services provided by NS TWR. See [the responsibilities section on NS TWR](#ns-twr). 
+
+When NP TWR is offline, NAK **does not** assume this position, as this is provided by RAN. See [the responsibilities section on NP TWR](#np-twr).
 
 !!! error
     Add Airspace diagram for NAK
@@ -36,7 +38,7 @@ When responsible for NS TWR, RAN may opt to provide a radar approach service, ra
 
 ### NP TWR
 
-When online, the NP Procedural Tower service shall be provided by RAN or OCR. If these sectors are offline, NAK may elect to provide the same service, although not mandatory. 
+When NP TWR is offline, the NP Procedural Tower service shall be provided by RAN or OCR. If these sectors are offline, NAK may elect to provide the same service, although not mandatory. 
 
 When responsible for NP TWR, RAN may opt to provide a radar approach service, rather than a procedural approach service.
 
@@ -53,7 +55,7 @@ NAK shall give ARO a **10 minute warning** of the aircraft's crossing of the FIR
 
 ### OCR
 
-NAK shall assign STARs to any aircraft where the destination is within the lateral bounds of OCR without coordination.
+NAK shall assign STARs without coordination to any aircraft where the destination is within the lateral bounds of OCR.
 
 NAK shall ensure that any aircraft crossing the OCR/NAK boundary is established on an airway. NAK may clear aircraft direct to a boundary fix, provided it is established on an airway once it reaches the direct-to fix.
 
@@ -63,7 +65,7 @@ If necessary, NAK may descend OCR bound aircraft to `FL200` without coordination
 
 NAK shall assign STARs to any aircraft bound for NZAA without coordination, provided it is for the nominated runway and approach type as stated in the ATIS. A request for use of a non-nominated approach requires coordination from RAN, who will liaise with AA TMA and ADC.
 
-While descent is normally provided by RAN, NAK may descend aircraft to `FL180` without coordination from RAN.
+While descent is normally provided by RAN, NAK may descend aircraft to `FL200` without coordination from RAN.
 
 ### OHA
 
@@ -92,7 +94,7 @@ If further descent is required, NAK shall clear the aircraft to leave controlled
     **NAK**: *LDM inbound Hokitika on BOSLA arrival requests further descent. Request descent below CTA and transfer radar monitoring your frequency.*  
     **STH**: *LDM is cleared below CTA and I accept radar monitoring on this frequency.*
 
-    **NAK**: *LDM, cleared to leave controlled airspace on descent through 13,500 feet. No reported traffic in the area. Christchurch Control accepts radar monitoring on their frequency, 129.400. Report on their frequency for IFR cancellation.*
+    **NAK**: *LDM, cleared to leave controlled airspace on descent through 13,500 feet. No reported traffic in the area. Christchurch Control accepts radar monitoring on their frequency, 129.400. Report on the ground their frequency for IFR cancellation.*
 
 
 ### OH TMA
@@ -107,9 +109,9 @@ NAK may issue STAR clearances to aircraft bound for any aerodrome within WN TMAs
 
 NAK may descend aircraft to `A110` without coordination from WN TMA.
 
-If a sequencing conflict is to occur, NAK shall coordinate with AA TMA as to an ideal arrival order. 
+If a sequencing conflict is to occur, NAK shall coordinate with WN TMA as to an ideal arrival order. 
 
-NAK may clear aircraft direct to the STAR's WN TMA boundary fix without coordination, provided that they have been cleared to rejoin the STAR at that point. Aircraft may be cleared to track direct to a fix within WN TMA's boundary with co-ordination, subject to the same condition.
+NAK may clear aircraft direct to the STAR's WN TMA boundary fix without coordination, provided that they have been cleared to rejoin the STAR after that point. Aircraft may be cleared to track direct to a fix within WN TMA's boundary with co-ordination, subject to the same condition.
 
 !!! hint "RTF for rejoining a STAR"
     **NAK**: *New Zealand 677, track direct RIPPA to rejoin the STAR. When ready descend A080*.

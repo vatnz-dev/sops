@@ -17,7 +17,7 @@ OCR covers all airspace within the lateral bounds as found below. The lower limi
   - Within 100nm AA VOR: `A095`
   - Between 100 to 200nm AA VOR: `A135`
 
-When **RAN**, **BAY** or **AA TMA** are offline, OCR automatically inherits and assumes all responsibility for those sectors. 
+When RAN, BAY or AA TMA are offline, OCR automatically inherits and assumes all responsibility for those sectors. 
 
 !!! error
     Add Airspace diagram for OCR
@@ -38,9 +38,9 @@ Aircraft shall be handed over as per the [Standard Coordination Procedures](../c
 
 ### AA TMA
 
-OCR may issue STAR clearances to aircraft bound for any aerdrome within AA TMA without coordination, provided it is for the nominated runway and approach type as stated in the ATIS. A request for use of a non-nominated approach requires agreement from both the TMA and ADC Controller.
+OCR may issue STAR clearances to aircraft bound for any aerodrome within AA TMA without coordination, provided it is for the nominated runway and approach type as stated in the ATIS. A request for use of a non-nominated approach requires agreement from both the TMA and ADC Controller.
 
-OCR may descend aircraft to `A110` without coordination from the AA TMA.
+OCR may descend aircraft to `A110` without coordination from AA TMA.
 
 If a sequencing conflict is to occur, OCR shall coordinate with AA TMA as to an ideal arrival order. 
 

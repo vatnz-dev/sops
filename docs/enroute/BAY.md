@@ -51,11 +51,11 @@ Oceanic-bound aircraft are to required to cross the FIR boundary overhead a defi
 
 BAY shall give ARO a **10 minute warning** of an aircrafts crossing of the FIR boundary.
 
-### NAK
+### OHA
 
-BAY shall ensure any aircraft crossing into NAK have been cleared to their RFL.  
+BAY shall ensure any aircraft crossing into OHA have been cleared to their RFL.  
 
-BAY shall issue STARs to aircraft bound for NZPM and NZOH with coordination, and may descend NAK-bound aircraft to `FL200` without coordination.
+BAY shall issue STARs to aircraft bound for NZPM and NZOH with coordination, and may descend OHA-bound aircraft to `FL190` without coordination.
 
 ### RAN
 
@@ -73,7 +73,7 @@ BAY shall ensure that IFR aircraft crossing into AA TMA bound for NZAA are estab
 
 ### HN TMA
 
-BAY shall issue NZHN-bound aircraft STAR clearances, and descend aircraft to `A080`, without coordination from HN TMA. BAY may descend lower with coordination.
+BAY shall issue NZHN-bound aircraft STAR clearances, and descend aircraft to `A080` without coordination from HN TMA. BAY may descend lower with coordination.
 
 ### GS TWR
 
