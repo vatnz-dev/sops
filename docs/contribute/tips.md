@@ -6,32 +6,6 @@
 
 All of Markdown's default syntax is supported by MkDocs - including links, images, etc. MkDocs also has some other additional features which are pretty nifty.
 
-### Links
-
-Links that navigate a user through the SOPs site can follow the normal Markdown syntax. All links that navigate a user away from the SOPs site should have `{target=new}` appended - this opens the link in a new tab.
-
-=== "Internal Link"
-
-    ``` md
-    [Internal Link](enroute.md)
-    ```
-
-!!! tip
-    You can also link to discrete headers within pages, too. All you need to do is append the anchor to the end of the link, like so:
-
-    ``` md
-      [Internal Link to a Section header](buildingblocks.md#single-page)
-    ```
-
-=== "External Link"
-
-    ``` md
-    [External Link](https://vatnz.net){target=new}
-    ```
-
-!!! warning
-    All external links should use the `https` protocol.
-
 ### Buttons
 
 Buttons should be used sparingly, if at all. Inline text hyperlinks are the preferred method of user interaction.
