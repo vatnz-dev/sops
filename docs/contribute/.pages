@@ -1,7 +1,8 @@
-title: Contributing to these SOPs
+title: Contributing
 nav:
   - index.md
   - contributing.md
   - changes.md
+  - best-practices.md
   - tips.md
   - ...

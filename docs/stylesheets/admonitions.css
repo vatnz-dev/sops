@@ -1,4 +1,5 @@
-/*Admonition Modifications*/
+/*Additional Modifications*/
+/*Admonition Question Variant*/
 /*Upper Section*/
 .md-typeset .question>.admonition-title,
 .md-typeset .question>summary,
@@ -6,7 +7,7 @@
 .md-typeset .faq>summary,
 .md-typeset .help>.admonition-title,
 .md-typeset .help>summary {
-  border-color: rgba(191, 219, 254, 0.6);
+  border-color: #00C2CB;
   background-color: rgba(0, 184, 212, .1);
   font-size: 0.8rem;
 }
@@ -17,7 +18,7 @@
 .md-typeset .faq>summary::before,
 .md-typeset .help>.admonition-title::before,
 .md-typeset .help>summary::before {
-  background-color: rgba(191, 219, 254, 0.6);
+  background-color: #00C2CB;
   top: 0.5rem;
 }
 
@@ -32,8 +33,12 @@
 .md-typeset details.faq,
 .md-typeset .admonition.help,
 .md-typeset details.help {
-  border-color: rgba(191, 219, 254, 0.6);
+  border-color: #00C2CB;
   font-size: 0.8rem;
+}
+
+.md-typeset .admonition.information {
+  border-color: #448aff;
 }
 
 /* for aligning image left or right with control over which text flows around */
@@ -61,45 +66,4 @@
 .md-typeset .block>.admonition-title::before,
 .md-typeset .block>summary::before {
   height: 0rem;
-}
-
-/*Established Admonitions Changes*/
-/*Info*/
-.md-typeset :is(.admonition, details):is(.info) {
-  border-color: rgba(191, 219, 254, 0.6);
-}
-
-.md-typeset :is(.info)>:is(.admonition-title, summary) {
-  border-color: rgba(191, 219, 254, 0.6);
-  background-color: rgba(0, 224, 254, .1);
-}
-
-.md-typeset :is(.info, .todo)>:is(.admonition-title, summary):before {
-  background-color: rgba(191, 219, 254, 0.6);
-  -webkit-mask-image: var(--md-admonition-icon--info);
-  mask-image: var(--md-admonition-icon--info);
-  -webkit-mask-repeat: no-repeat;
-  mask-repeat: no-repeat;
-  -webkit-mask-size: contain;
-  mask-size: contain;
-}
-
-/*Note*/
-.md-typeset :is(.admonition, details):is(.note) {
-  border-color: rgba(191, 219, 254, 0.6);
-}
-
-.md-typeset :is(.note)>:is(.admonition-title, summary) {
-  border-color: rgba(191, 219, 254, 0.6);
-  background-color: rgba(0, 224, 254, .1);
-}
-
-.md-typeset :is(.note)>:is(.admonition-title, summary):before {
-  background-color: rgba(191, 219, 254, 0.6);
-  -webkit-mask-image: var(--md-admonition-icon--note);
-  mask-image: var(--md-admonition-icon--note);
-  -webkit-mask-repeat: no-repeat;
-  mask-repeat: no-repeat;
-  -webkit-mask-size: contain;
-  mask-size: contain;
 }
