@@ -53,7 +53,7 @@ Pushback and Start up clearances are managed by the Ground Controller. Pilots ca
 
 ### Domestic 
 
-Aircraft pushing back from gates 20-22 normally will push back onto D1/D2 depending on other movements or incases onto B. Aircraft on 24 can be pushed back to whereever the controller sees suitable at the time. Aircraft on 28-33 shall generally be pushed facing the direction of the active runway, although given the layout that can change. 
+Aircraft pushing back from gates 20-22 normally will push back onto D1/D2 depending on other movements or in some cases onto B. Aircraft on 24 can be pushed back to wherever the controller sees suitable at the time. Aircraft on 28-33 shall generally be pushed facing the direction of the active runway although, given the layout, that can change. 
 
 For stands 28-33 there may be multiple aircraft pushing at once and along with arriving traffic, taxiways like B4, B5 and B6 tend to be kept clear for other aircraft. This means a tail facing direction should be given to ensure positive control. Aircraft can also be told to push clear of a taxiway eg. B5 to facilitate another aircraft arriving or departing. For example and aircraft may push off 30 and tail to the west clear of B5, while an aircraft of 31 may push tail east clear of B5. Therefore there is equal room for either aircraft to get out. Aircraft of 32 and 33 may be pushed down to the east side of B4 to facilitate other traffic at the regional gates etc. 
 
