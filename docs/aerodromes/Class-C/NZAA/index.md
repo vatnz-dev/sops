@@ -32,7 +32,7 @@
 
 ## Layout
 
-Auckland Airport has one runway 05R/23L, and it home to around 100 gates located around the airport. Auckland is New Zealand's largest international airport serving over 57 airports with 24 airlines. 
+Auckland Airport has one runway, 05R/23L, and is home to around 100 gates located around the airport. Auckland is New Zealand's largest international airport serving over 57 airports with 24 airlines. 
 
 ADD AD LAYOUT IMAGE HERE
 
