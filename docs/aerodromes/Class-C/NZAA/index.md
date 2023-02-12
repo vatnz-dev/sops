@@ -65,7 +65,7 @@ At international gates things are simpler. Aircraft pushing off of any gate at i
 
 ## Taxiing 
 
-With the way the taxiways are layed out at Auckland, controllers avoid using taxiway A where needed. When RWY 23L is active, domestic aircraft may be taxied where they need as they dont interat with rapid exits like A6/A8. In high traffic loads or to aliviate delays international aircraft are taxied down via B and B6 instead of all the way along A. 
+With the way the taxiways are laid out at Auckland, controllers avoid using taxiway A where needed. When RWY 23L is active, domestic aircraft may be taxied where they need as they don't interact with rapid exits like A6/A8. In high traffic loads or to alleviate delays international aircraft are taxied down via B and B6 instead of all the way along A. 
 
 When RWY 05R is active any domestic aircraft or aircraft past domestic will be given taxi via B and L or aliviate the possiblilty of departures mixing with arrivals. Taxiway M may be utilized by contollers to get aircraft to A10 while there is an aircraft taxiing to A9. 
 
