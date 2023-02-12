@@ -74,8 +74,8 @@ When RWY 05R is active any domestic aircraft or aircraft past domestic will be g
 | Type        | Runway 23L | Runway 05R |
 | ----------- | :--------: | :--------: |
 | Large Jets  |  A1 / A1A  |    A10     |
-| Medium Jets |  A2 / A3   |     A9     |
-| Turboprops  |  A3 / A3A  |     A9     |
+| Medium Jets |     A2     |     A9     |
+| Turboprops  |  A2 / A3A  |     A9     |
 
 
 Auckland Ground may assign the following reduced length holding points for departure without the approval of the pilot ("medium" refers to the wake turbulence category). 
