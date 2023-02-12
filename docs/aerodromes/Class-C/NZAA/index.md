@@ -34,17 +34,7 @@
 
 Auckland Airport has one runway, 05R/23L, and is home to around 100 gates located around the airport. Auckland is New Zealand's largest international airport serving over 57 airports with 24 airlines. 
 
-ADD AD LAYOUT IMAGE HERE
-
-## VFR Procedures
-
-The MANGERE BRIDGE departure and arrival is to be used as much as possible and any other joining instructions should be avoided where possible. Helicopters have an execption depending on where they are going. 
-
-As flights to the west, north, and northeast require a turn against the circuit direction, Tower is to issue a specific instruction to turn using the phrase "**turn RIGHT/LEFT after departure, cleared for takeoff"**.
-
-VFR Helicopter Operations are frequent within the Auckland CTR/C, with "Eagle" the police helicopter frequenting the control zone the most. Auckland Tower may clear an aircraft to operation in on of the three sectors within the CTR/C, but for each arrival and departure must ensure the instrument sector is kept clear. Also note that aircraft transiting the CTR/C usually track via the active runway's threshold to ensure seperation from other aircraft. 
-
-Inbound VFR aircraft from the north will usually be give an instruction to hold over Mangere Town to facilitate an IFR arrival until there is room for the VFR aircraft to land. 
+![NZAA Ground Movements](/assets/nzaa-ad.png) Auckland Ground Movements
 
 
 ## Pushback
@@ -81,6 +71,16 @@ When RWY 05R is active any domestic aircraft or aircraft past domestic will be g
 Auckland Ground may assign the following reduced length holding points for departure without the approval of the pilot ("medium" refers to the wake turbulence category). Ground may also assign any of the above holding points to any aircraft for the purpose of wake turbulence and/or sequencing. 
 
 Note that `A3` and `A8` holds are not used because pilots cannot visually check the approaches are clear before entering the runway.
+
+## VFR Procedures
+
+The MANGERE BRIDGE departure and arrival is to be used as much as possible and any other joining instructions should be avoided where possible. Helicopters have an execption depending on where they are going. Refer here: **https://www.aip.net.nz/assets/AIP/Aerodrome-Charts/Auckland-NZAA/NZAA_35.1_35.2.pdf**
+
+As flights to the west, north, and northeast require a turn against the circuit direction, Tower is to issue a specific instruction to turn using the phrase "**turn RIGHT/LEFT after departure, cleared for takeoff"**.
+
+VFR Helicopter Operations are frequent within the Auckland CTR/C, with "Eagle" the police helicopter frequenting the control zone the most. Auckland Tower may clear an aircraft to operation in on of the three sectors within the CTR/C, but for each arrival and departure must ensure the instrument sector is kept clear. Also note that aircraft transiting the CTR/C usually track via the active runway's threshold to ensure seperation from other aircraft. 
+
+Inbound VFR aircraft from the north will usually be give an instruction to hold over Mangere Town to facilitate an IFR arrival until there is room for the VFR aircraft to land. 
 
 ## Divergent Departures 
 
