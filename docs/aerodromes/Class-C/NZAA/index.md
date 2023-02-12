@@ -61,7 +61,7 @@ Aicraft on C5 requiring a push clearance will be given a "push Charlie five your
 
 ### International 
 
-At international gates things are more simple, aircraft pushing off of any gate at international are given a tail facing direction and a start location. For example: "Push tail north start abeam stand 15". Aircraft tend to be towed forward but we will ignore this. 
+At international gates things are simpler. Aircraft pushing off of any gate at international are given a tail facing direction and a start location. For example: "Push tail north start abeam stand 15". Aircraft tend to be towed forward but we will ignore this. 
 
 ## Taxiing 
 
