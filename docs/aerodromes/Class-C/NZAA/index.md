@@ -4,81 +4,70 @@
 
 --8<-- "includes/abbreviations.md"
 
-## Available Positions
+## Positions
 
-| RTF Designator    | Callsign | Frequency   | Special Use        |
-| ----------------- | -------- | ----------- | ------------------ |
-| Auckland Delivery | NZAA_DEL | 128.200 MHz | Secondary Position |
-| Auckland Ground   | NZAA_GND | 121.900 MHz | Secondary Position |
-| Auckland Tower    | NZAA_TWR | 118.700 MHz |                    |
-| Auckland Approach | NZAA_APP | 124.300 MHz |                    |
-| Auckland Control  | NZAA_CTR | 123.900 MHz |                    |
+| Position Name     | Callsign | Usage      |
+| ----------------- | -------- | ---------- |
+| Auckland Delivery | NZAA_DEL | Secondary  |
+| Auckland Ground   | NZAA_GND | Secondary  |
+| Auckland Tower    | NZAA_TWR | Primary    |
+| Auckland Approach | NZAA_APP | Primary    |
+| Auckland Control  | NZAA_CTR | Primary    |
+
+
+## Event Only Positions
+
+| RTF Designator        | Callsign   | Usage               |
+| --------------------- | ---------- | ------------------- |
+| Auckland Control      | NZAA-R_CTR | Traffic Management  |
+| Christchurch Director | NZCH-D_CTR | Staff Only Position |
+| Auckland Finals       | NZAA-F_APP | Traffic Management  |
+| Auckland Departures   | NZAA_DEP   | Traffic Management  |
 
 
 !!! Danger
-    The following positions require the approval of either the VATNZ Events Director or Operations Director
-
-### Event Only Positions
-
-| RTF Designator        | Callsign   | Frequency   | Special Use         |
-| --------------------- | ---------- | ----------- | ------------------- |
-| Auckland Control      | NZAA-R_CTR | 126.000 MHz | Traffic Management  |
-| Christchurch Director | NZCH-D_CTR | 129.200 MHz | Staff Only Position |
-| Auckland Finals       | NZAA-F_APP | 129.600 MHz | Traffic Management  |
-| Auckland Departures   | NZAA_DEP   | 118.000 MHz | Traffic Management  |
+    The above positions require the approval of either the VATNZ Events Director or Operations Director to be staffed
 
 ---
 
-## Auckland Tower
+## Layout
 
-Auckland Tower is responsible for all aircraft operating within the AA CTR/C, from SFC - 1500ft and on all movement areas at Auckland Airport.
+Auckland Airport has one runway 05R/23L, and it home to around 100 gates located around the airport. Auckland is New Zealand's largest international airport serving over 57 airports with 24 airlines. 
 
-Auckland Tower is responsible for selecting the most suitable duty runway and the ATIS.
+ADD AD LAYOUT IMAGE HERE
 
-The duty runway will be the into-wind runway in most cases. However, other factors such as sunstrike may require an alternative take-off and landing direction. The Tower controller shall balance out these factors before deciding on the duty runway.
+## VFR Procedures
 
-### VFR Procedures
+The MANGERE BRIDGE departure and arrival is to be used as much as possible and any other joining instructions should be avoided where possible. Helicopters have an execption depending on where they are going. 
 
-Auckland Tower is resposible for VFR aircraft in the North or South sector (as depicted in the Auckland VFR Arrivals/Departures page in the AIP) ensuring they are separated from IFR traffic whilst on long final for an instrument approach. This does not include aircraft on some RNP approaches.
+As flights to the west, north, and northeast require a turn against the circuit direction, Tower is to issue a specific instruction to turn using the phrase "**turn RIGHT/LEFT after departure, cleared for takeoff"**.
 
-Tower is to assign VFR arrivals from the northwest to the northeast, the MANGERE BRIDGE arrival. For traffic from other directions, give joining instructions in plain language, using established VRPs or circuit procedures.
+VFR Helicopter Operations are frequent within the Auckland CTR/C, with "Eagle" the police helicopter frequenting the control zone the most. Auckland Tower may clear an aircraft to operation in on of the three sectors within the CTR/C, but for each arrival and departure must ensure the instrument sector is kept clear. Also note that aircraft transiting the CTR/C usually track via the active runway's threshold to ensure seperation from other aircraft. 
 
-Tower is to assign northbound VFR departures the MANGERE BRIDGE departure. As flights to the west, north, and northeast require a turn against the circuit direction, Tower is to issue a specific instruction to turn using the phrase "**turn RIGHT/LEFT after departure, cleared for takeoff"**.
+Inbound VFR aircraft from the north will usually be give an instruction to hold over Mangere Town to facilitate an IFR arrival until there is room for the VFR aircraft to land. 
 
-### Transfer of Communication & Control
 
-#### Communication should be handed over
+## Pushback
 
-Arrivals  - once vacated the runway
+Pushback and Start up clearances are managed by the Ground Controller. Pilots can expect to recive a "Tail Facing" direction with a pushback clearance (doesnt normally include aircraft from regional gates). This can be to facilitate other departures or arrivals, with the layout of the taxiways, pilots are generally assumed to not block other taxiways.
 
-IFR Departures - once airborne.
-VFR Departures - once vacated your CTA.
+### Domestic 
 
-#### Control should be relinquished
+Aircraft pushing back from gates 20-22 normally will push back onto D1/D2 depending on other movements or incases onto B. Aircraft on 24 can be pushed back to whereever the controller sees suitable at the time. Aircraft on 28-33 shall generally be pushed facing the direction of the active runway, although given the layout that can change. 
 
-Departures - airborne, unless otherwise coordinated
+For stands 28-33 there may be multiple aircraft pushing at once and along with arriving traffic, taxiways like B4, B5 and B6 tend to be kept clear for other aircraft. This means a tail facing direction should be given to ensure positive control. Aircraft can also be told to push clear of a taxiway eg. B5 to facilitate another aircraft arriving or departing. For example and aircraft may push off 30 and tail to the west clear of B5, while an aircraft of 31 may push tail east clear of B5. Therefore there is equal room for either aircraft to get out. Aircraft of 32 and 33 may be pushed down to the east side of B4 to facilitate other traffic at the regional gates etc. 
 
-Arrivals on a straight-in approach - at LENGU or EMRAG
+Aicraft on C5 requiring a push clearance will be given a "push Charlie five your discretion" clearance since it is not apart of the manourvering area, but still requires a clearance to push. 
 
-Arrivals on a visual approach  - by 15 AA DME
+### International 
 
-Arrivals on an RNP approach, not straight-in - at ATAMA or NIPAS (RWY05R), ESNAX, ESMON, TEGIK, or TUSLO (RWY23L).
+At international gates things are more simple, aircraft pushing off of any gate at international are given a tail facing direction and a start location. For example: "Push tail north start abeam stand 15". Aircraft tend to be towed forward but we will ignore this. 
 
----
+## Taxiing 
 
-## Auckland Ground
+With the way the taxiways are layed out at Auckland, controllers avoid using taxiway A where needed. When RWY 23L is active, domestic aircraft may be taxied where they need as they dont interat with rapid exits like A6/A8. In high traffic loads or to aliviate delays international aircraft are taxied down via B and B6 instead of all the way along A. 
 
-Auckland Ground is responsible for issuing taxi instructions within the movement area and providing separation to all aircraft on the taxiways at Auckland Airport.
-
-### Pushback & Movement Areas
-
-Auckland Ground issues pushback and start-up advice/clearances to all departures. 
-
-Ground uses positive control to ensure that no other aircraft passes directly behind an aircraft pushing back, even when the aircraft concerned are not on the controlled movement area, this includes the C aprons, such as C5.
-
-### Transfer of Communication
-
-Once Auckland Ground has issued all necessary instructions to the pilot, they advise the pilot to monitor Auckland Tower on `118.700 MHz`.
+When RWY 05R is active any domestic aircraft or aircraft past domestic will be given taxi via B and L or aliviate the possiblilty of departures mixing with arrivals. Taxiway M may be utilized by contollers to get aircraft to A10 while there is an aircraft taxiing to A9. 
 
 ### Use of Holding Points
 
@@ -93,24 +82,9 @@ Auckland Ground may assign the following reduced length holding points for depar
 
 Note that `A3` and `A8` holds are not used because pilots cannot visually check the approaches are clear before entering the runway.
 
----
 
-## Auckland Delivery
 
-### Responsibilites
 
-Auckland Delivery is responsible for the pre-departure issuing of IFR route clearances and VFR departure instructions at Auckland Airport.
 
-Auckland Delivery shall also attempt to update the aircraft tags as much as possible to enable any information regarding the aircraft to be transferred to the next controller.
-
-### Route Clearances
-
-The SIDs are detailed in the table on the [Departures Page](../NZAA/Departures.md). 
-
-Controllers should consider aircraft performance before assigning a SID. If in doubt, issue the AUCKLAND non-RNAV departures as these only require the default 3.3% climb gradient, or whatever vatSys assigns.
-
-The notes on the SID table should assist in the SID assignment and streamline the process. On rare occasions the default SID may not be preferred - pilots may request any available alternative, including instructions in plain language. Requests not to fly the default SID require coordination closer to take-off time,  so inform pilots requesting an alternative they will get amended departure instructions from TWR at the holding point.
-
-All SIDs require RNAV/GNSS unless otherwise stated. 
 
 
