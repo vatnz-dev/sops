@@ -78,11 +78,13 @@ When RWY 05R is active any domestic aircraft or aircraft past domestic will be g
 | Turboprops  |  A2 / A3A  |     A9     |
 
 
-Auckland Ground may assign the following reduced length holding points for departure without the approval of the pilot ("medium" refers to the wake turbulence category). 
+Auckland Ground may assign the following reduced length holding points for departure without the approval of the pilot ("medium" refers to the wake turbulence category). Ground may also assign any of the above holding points to any aircraft for the purpose of wake turbulence and/or sequencing. 
 
 Note that `A3` and `A8` holds are not used because pilots cannot visually check the approaches are clear before entering the runway.
 
+## Divergent Departures 
 
+It is a regular occurance in Auckland for aircraft to get assigned headings. For seperation aircraft are assigned heading 30 degrees or more off of the centerline. For most aircraft they are assigned headings between 150 and 190. These are only ever given to domestic aircraft, and it is the Tower Controllers resposiblity to issue that clearance and ensure it is readback correctly. 
 
 
 
