@@ -6,37 +6,70 @@
 
 ## Positions
 
-| Position Name     | Shortcode | Callsign          | Login ID | Usage     |
-| ----------------- | --------- | ----------------- | -------- | --------- |
-| Auckland Delivery | DAA       | Auckland Delivery | NZAA_DEL | Secondary |
-| Auckland SMC      | GAA       | Auckland Ground   | NZAA_GND | Secondary |
-| Auckland ADC      | TAA       | Auckland Tower    | NZAA_TWR | Primary   |
-| Auckland TMA      | ATMA      | Auckland Approach | NZAA_APP | Primary   |
+| Position Name | Shortcode | Callsign          | Login ID | Usage     |
+| ------------- | --------- | ----------------- | -------- | --------- |
+| Auckland DLV  | DAA       | Auckland Delivery | NZAA_DEL | Secondary |
+| Auckland SMC  | GAA       | Auckland Ground   | NZAA_GND | Secondary |
+| Auckland ADC  | TAA       | Auckland Tower    | NZAA_TWR | Primary   |
+| Auckland TMA  | ATMA      | Auckland Approach | NZAA_APP | Primary   |
 
 
-## Event Only Positions
+### Event Only Positions
 
 !!! Danger
     The following are designated as Event Only positions, and may only be staffed during a VATNZ event where approved, or if explicitly authorised by the Operations Director.
-
 
 | Position Name           | Shortcode | Callsign            | Login ID   | Usage                       |
 | ----------------------- | --------- | ------------------- | ---------- | --------------------------- |
 | Auckland Finals         | AARR      | Auckland Finals     | NZAA-F_APP | Events - Traffic Management |
 | Auckland Terminal Radar | ADEP      | Auckland Departures | NZAA_DEP   | Events - Traffic Management |
 
----
+## Airspace
 
-## Layout
+The Auckland CTR/C follows the lateral boundaries as shown below from `SFC` to `A015`. The CTR/C comprises of three sectors - the North, Instrument and South Sectors. 
 
-Auckland Airport has one runway -  05R/23L, and is home to around 100 gates. Auckland is New Zealand's largest international aerodrome serving over 57 airports with 24 airlines. 
 
 <figure markdown>
-  ![NZAA Ground Movements](/assets/nzaa-ad.png) 
-  <figcaption>Auckland Ground Movements</figcaption>
+  ![Auckland Control Zone](./assets/nzaa-airspace.png) 
+  <figcaption>Auckland Control Zone (CTR/C)</figcaption>
 </figure>
 
-## Pushback
+## Areas of Responsibility
+
+The areas of responsibility are as depicted below. The Transfer of Control Points are as listed in the below table.
+
+<figure markdown>
+  ![Auckland Areas of Responsibility](./assets/nzaa-resp.png) 
+  <figcaption>Auckland Areas of Responsibility</figcaption>
+</figure>
+
+### Transfer of Control points
+
+| Transfer Flow      | Requirements                                                                         | Notes                                                                                  |
+| ------------------ | ------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------- |
+| Delivery -> Ground | Once PDC has been issued either through Voice or DCL.                                |                                                                                        |
+| Ground -> Tower    | Prior to arriving at their assigned hold, once clear of other traffic.               |                                                                                        |
+| Tower -> Ground    | Once clear of the active runway.                                                     | Tower may turn an aircraft off the rapid exit, onto `A` if necessary for traffic flow. |
+| Tower -> Approach  | For Airline traffic, once airborne. For GA, when leaving the zone, if applicable.    |                                                                                        |
+| Approach -> Tower  | When established on an instrument final, or if on an RNP approach, overhead the IAF. |                                                                                        |
+
+## Clearance Delivery
+
+Clearances shall be issued by the Delivery position, and may be given via DCL or voice.
+
+### International Traffic with a domestic SID transition
+
+Aircraft departing for South American destinations are not given an Oceanic transition as a part of their clearance - they shall be issues a domestic transition instead. These aircraft shall be cleared to their destination via their FPR at their RFL.
+
+!!! example 
+    For example, LAN800 is a service between NZAA and SCEL, usually filing the following routing -  
+    `H372 RO H328 GS DCT GOKAG ...`. 
+    
+    This aircraft would be issued either the `POLIS #Q/TULMI` or the `LEVRA #P/TULMI` departures depending on active runway.
+
+## Ground
+
+### Pushback
 
 Pushback and start up clearances are managed by the Ground Controller. Controllers should make use of the "tail facing" instruction to ensure that aircraft do not block apron entry and exit points. 
 
@@ -61,7 +94,7 @@ All aircraft pushing from the International apron shall be given a tail facing i
 !!! info
     The start instruction is only utilised in the real-world to ensure tha the jet wash doesn't interfere with the aircraft stands on the opposite side of the taxiway. As this isn't an issue within the Simulator, it is up to Controller discretion.
 
-## Taxiing 
+### Taxiing 
 
 As the runway utilises high-speed exits from the runway, the Controller shall avoid using taxiway `A` when there is a potential for conflict between the taxiway and any vacating traffic. 
 
@@ -81,6 +114,52 @@ Departures may occur from any runway intersection, providing that it does not in
 
 !!! important "Usage of the A3 and A8 Holding Points"
     The `A3` and `A8` holds are not to be used, as Pilots cannot visually check the approaches are clear before entering the runway.
+
+## Tower
+
+The Tower shall ensure that all VFR traffic within the Auckland CTR/C does not conflict with any IFR operations. IFR operations shall take precedence over VFR.
+
+Unless established within the Aerodrome circuit, Tower must ensure that no VFR aircraft are present within the Instrument Sector when an aircraft is either turning onto, or established on an approach. VFR aircraft are not authorised to operate under any approach path, or within 3nm laterally of the approach path.
+
+Aircraft operating cleared to operate within the North or South sectors are deemed to be separated from IFR arrivals on the ILS or RNP Z approaches, but not from RNP (AR) departures.
+
+## Departures
+
+Aircraft departures shall be managed in-line with the [Runway Operations section](../../controller-skills/seperation#runway-operations). 
+
+Some departures have immediate divergent turns once the aircraft passes `A005`, taking the aircraft away from the centreline, allowing for another aircraft to follow soon after.
+
+### SID Assignment
+
+International SIDs are straight-forward, in that all of them have a shallow climb gradient, suitable for most aircraft types. The Controller shall issue the SID that is suggested by their Controller Client.
+
+For Domestic aircraft that are departing to the North or Northeast, the Controller shall issue the SID that is suggested by the Controller Client. If the aircraft is departing to the South, the following rules shall be applied:
+
+| Runway | Procedure  | Allowed A/C Categories | Is divergent?                  | Notes                                                                                                                       |
+| ------ | ---------- | ---------------------- | ------------------------------ | --------------------------------------------------------------------------------------------------------------------------- |
+| 05R    | `BROOK #Q` | Cat A to C             | Yes - >30° turn passing `A005` | Available to Cat C Jets for noise-abatement. AA TMR approval required.                                                      |
+| 05R    | `PAGLA #Q` | Cat A to D             | No                             | **Preferred departure for Cat C Jets**. Steep climb gradient - aircraft unable to meet this shall be given the `POLIS #Q`.  |
+| 05R    | `POLIS #Q` | Cat A to D             | No                             | **Preferred departure for Cat D Jets, or heavies**. Shallower climb gradient.                                               |
+| 05R    | `REKIS #Q` | Cat A to D             | Yes - >30° turn passing `A005` | **Preferred departure for Props**. May be given to jets provided they are comfortable with the 180kt limitation at `VINOD`. |
+| 05R    | `EMRAG #B` | Cat A to D             | No                             | Least preferred departure due to manual vectoring required.                                                                 |
+
+
+| Runway | Procedure  | Allowed A/C Categories | Is divergent?                  | Notes                                                                                                     |
+| ------ | ---------- | ---------------------- | ------------------------------ | --------------------------------------------------------------------------------------------------------- |
+| 23L    | `LENGU #A` | Cat A to D             | No                             | Least preferred departure due to manual vectoring required.                                               |
+| 23L    | `LENGU #P` | Cat A to D             | No                             |                                                                                                           |
+| 23L    | `LEVRA #P` | Cat A to D             | No                             | **Preferred departure for Jets**.                                                                         |
+| 23L    | `STEAL #P` | Cat A to D             | Yes - >30° turn passing `A005` | **Preferred departure for Props**. Shall not be initially issued to Jets, but may be issued if requested. |
+
+### Assigned Headings
+
+To ensure a divergent departure occurs due to traffic, AA TMA may request an aircraft be assigned a heading to fly once passing `A005`. This ensures a 30 degree offset from the centreline exists, and therefore another aircraft may then depart. These will usually be issued when an aircraft is at the holding point, and will be given to the Tower as a part of AA TMA's release of the aircraft.
+
+!!! example "Issuing a departure heading"
+    **Auckland Tower**: *"JST203, additional departure instructions, report ready to copy"*  
+    **JST203**: *"JST203, ready to copy"*  
+    **Auckland Tower**: *"JST203, on departure turn right heading 170, climb four thousand"*
+    **JST203**: *"JST203, on departure turn right heading 170, climb four thousand"*  
 
 ## VFR Procedures
 
@@ -104,41 +183,3 @@ As flights to the West, North, and Northeast require a turn against the circuit 
 ### Helicopters
 
 Helicopter operations are frequent within Auckland CTR/C, usually operating within one of the three sectors. Tower must ensure that no VFR aircraft are present within the Instrument Sector when an aircraft is either turning onto, or established on an approach. VFR aircraft are not authorised to operate under any approach path, or within 3nm laterally of the approach path.
-
-## Departures
-
-Aircraft departures shall be managed in-line with the [Runway Operations section](../../controller-skills/seperation#runway-operations). 
-
-Some departures have immediate divergent turns once the aircraft passes `A005`, taking the aircraft away from the centreline, allowing for another aircraft to follow soon after.
-
-### SID Assignment
-
-International SIDs are straight-forward, in that all of them have a shallow climb gradient, suitable for most aircraft types. The Controller shall issue the SID that is suggested by their Controller Client.
-
-For Domestic aircraft that are departing to the North or Northeast, the Controller shall issue the SID that is suggested by the Controller Client. If the aircraft is departing to the South, the following rules shall be applied:
-
-| Runway | Procedure  | Allowed A/C Categories | Is divergent?                  | Notes                                                                                                                |
-| ------ | ---------- | ---------------------- | ------------------------------ | -------------------------------------------------------------------------------------------------------------------- |
-| 05R    | `BROOK #Q` | Cat A to C             | Yes - >30° turn passing `A005` | **Preferred departure for Props**. May be given to Jets without request.                                             |
-| 05R    | `PAGLA #Q` | Cat A to D             | No                             | **Preferred departure for Jets**. Steep climb gradient - aircraft unable to meet this shall be given the `POLIS #Q`. |
-| 05R    | `POLIS #Q` | Cat A to D             | No                             | Shallower climb gradient.                                                                                            |
-| 05R    | `REKIS #Q` | Cat A to D             | Yes - >30° turn passing `A005` | May be given to jets provided they are comfortable with the 180kt limitation at `VINOD`.                             |
-| 05R    | `EMRAG #B` | Cat A to D             | No                             | Least preferred departure due to manual vectoring required.                                                          |
-
-
-| Runway | Procedure  | Allowed A/C Categories | Is divergent?                  | Notes                                                                                                     |
-| ------ | ---------- | ---------------------- | ------------------------------ | --------------------------------------------------------------------------------------------------------- |
-| 23L    | `LENGU #A` | Cat A to D             | No                             | Least preferred departure due to manual vectoring required.                                               |
-| 23L    | `LENGU #P` | Cat A to D             | No                             |                                                                                                           |
-| 23L    | `LEVRA #P` | Cat A to D             | No                             | **Preferred departure for Jets**.                                                                         |
-| 23L    | `STEAL #P` | Cat A to D             | Yes - >30° turn passing `A005` | **Preferred departure for Props**. Shall not be initially issued to Jets, but may be issued if requested. |
-
-### Assigned Headings
-
-To ensure a divergent departure occurs due to traffic, AA TMA may request an aircraft be assigned a heading to fly once passing `A005`. This ensures a 30 degree offset from the centreline exists, and therefore another aircraft may then depart. These will usually be issued when an aircraft is at the holding point, and will be given to the Tower as a part of AA TMA's release of the aircraft.
-
-!!! example "Issuing a departure heading"
-    **Auckland Tower**: *"JST203, additional departure instructions, report ready to copy"*  
-    **JST203**: *"JST203, ready to copy"*  
-    **Auckland Tower**: *"JST203, on departure turn right heading 170, climb four thousand"*
-    **JST203**: *"JST203, on departure turn right heading 170, climb four thousand"*  
