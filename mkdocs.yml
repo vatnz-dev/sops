@@ -43,6 +43,16 @@ plugins:
   - git-revision-date-localized:
       type: date
   - external-markdown
+  - glightbox:
+       touchNavigation: true
+       effect: zoom
+       width: 100%
+       height: auto
+       zoomable: false
+       draggable: false
+       skip_classes:
+         - custom-skip-class-name
+    
 
 # Styling Front-end
 extra_css:
