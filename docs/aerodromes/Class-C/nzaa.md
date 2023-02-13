@@ -6,12 +6,12 @@
 
 ## Positions
 
-| Position Name | Shortcode | Callsign          | Login ID | Usage     |
-| ------------- | --------- | ----------------- | -------- | --------- |
-| Auckland DLV  | DAA       | Auckland Delivery | NZAA_DEL | Secondary |
-| Auckland SMC  | GAA       | Auckland Ground   | NZAA_GND | Secondary |
-| Auckland ADC  | TAA       | Auckland Tower    | NZAA_TWR | Primary   |
-| Auckland TMA  | ATMA      | Auckland Approach | NZAA_APP | Primary   |
+| Position Name | Shortcode | Callsign          | Frequency | Login ID | Usage     |
+| ------------- | --------- | ----------------- | --------- | -------- | --------- |
+| Auckland DLV  | DAA       | Auckland Delivery | 128.200   | NZAA_DEL | Secondary |
+| Auckland SMC  | GAA       | Auckland Ground   | 121.900   | NZAA_GND | Secondary |
+| Auckland ADC  | TAA       | Auckland Tower    | 118.700   | NZAA_TWR | Primary   |
+| Auckland TMA  | ATMA      | Auckland Approach | 124.300   | NZAA_APP | Primary   |
 
 
 ### Event Only Positions
@@ -19,10 +19,10 @@
 !!! Danger
     The following are designated as Event Only positions, and may only be staffed during a VATNZ event where approved, or if explicitly authorised by the Operations Director.
 
-| Position Name           | Shortcode | Callsign            | Login ID   | Usage                       |
-| ----------------------- | --------- | ------------------- | ---------- | --------------------------- |
-| Auckland Finals         | AARR      | Auckland Finals     | NZAA-F_APP | Events - Traffic Management |
-| Auckland Terminal Radar | ADEP      | Auckland Departures | NZAA_DEP   | Events - Traffic Management |
+| Position Name           | Shortcode | Callsign            | Frequency | Login ID   | Usage                       |
+| ----------------------- | --------- | ------------------- | --------- | ---------- | --------------------------- |
+| Auckland Finals         | AARR      | Auckland Finals     | 129.600   | NZAA-F_APP | Events - Traffic Management |
+| Auckland Terminal Radar | ADEP      | Auckland Departures | 118.000   | NZAA_DEP   | Events - Traffic Management |
 
 ## Airspace
 
