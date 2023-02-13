@@ -19,3 +19,7 @@
 *[AFIS]: Aerodrome Flight Information Station
 *[AIP]: Aeronautical Information Publication
 *[ProcEd]: Procedure Editor
+*[SMC]: Surface Movement Control
+*[ADC]: Aerodrome Control
+*[DCL]: Departure Clearance
+*[PDC]: Pre Departure Clearance 
