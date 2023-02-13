@@ -21,5 +21,5 @@
 *[ProcEd]: Procedure Editor
 *[SMC]: Surface Movement Control
 *[ADC]: Aerodrome Control
-*[DCL]: Departure Clearance
+*[DCL]: Digital Clearance Delivery
 *[PDC]: Pre Departure Clearance 
