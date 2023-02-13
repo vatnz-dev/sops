@@ -6,12 +6,12 @@
 
 ## Positions
 
-| Position Name     | Callsign | Usage     |
-| ----------------- | -------- | --------- |
-| Auckland Delivery | NZAA_DEL | Secondary |
-| Auckland Ground   | NZAA_GND | Secondary |
-| Auckland Tower    | NZAA_TWR | Primary   |
-| Auckland Approach | NZAA_APP | Primary   |
+| Position Name     | Shortcode | Callsign          | Login ID | Usage     |
+| ----------------- | --------- | ----------------- | -------- | --------- |
+| Auckland Delivery | DAA       | Auckland Delivery | NZAA_DEL | Secondary |
+| Auckland SMC      | GAA       | Auckland Ground   | NZAA_GND | Secondary |
+| Auckland ADC      | TAA       | Auckland Tower    | NZAA_TWR | Primary   |
+| Auckland TMA      | ATMA      | Auckland Approach | NZAA_APP | Primary   |
 
 
 ## Event Only Positions
@@ -20,12 +20,10 @@
     The following are designated as Event Only positions, and may only be staffed during a VATNZ event where approved, or if explicitly authorised by the Operations Director.
 
 
-| RTF Designator      | Callsign   | Usage              |
-| ------------------- | ---------- | ------------------ |
-| Auckland Finals     | NZAA-F_APP | Traffic Management |
-| Auckland Departures | NZAA_DEP   | Traffic Management |
-
-
+| Position Name   | Shortcode | Callsign            | Login ID   | Usage                       |
+| --------------- | --------- | ------------------- | ---------- | --------------------------- |
+| Auckland Finals | AARR      | Auckland Finals     | NZAA-F_APP | Events - Traffic Management |
+| Auckland Radar  | ADEP      | Auckland Departures | NZAA_DEP   | Events - Traffic Management |
 
 ---
 
