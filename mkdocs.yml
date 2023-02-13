@@ -15,7 +15,13 @@ theme:
   font:
     text: Maven Pro
   palette:
-    scheme: slate
+    - scheme: default
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-night
   features:
     - navigation.tabs
     - navigation.tabs.sticky
@@ -24,6 +30,7 @@ theme:
     - search.suggest
     - search.highlight
     - search.share
+    - content.code.copy
   favicon: assets/images/vatnz-ops.png
   icon:
     repo: fontawesome/brands/github

@@ -6,7 +6,10 @@ title: Interface Overview
 
 This section will run through the buttons on each interface screen, and link to the respective page within the SFG guide.
 
-![SFG Main Screen](assets/mainScreen.png){ align=right width="350"} 
+<figure markdown> 
+  ![SFG Main Screen](assets/mainScreen.png){ width="350"} 
+  <figcaption>Main Screen</figcaption>
+</figure>
 
 ### Export Tab
 
@@ -22,9 +25,22 @@ This section will run through the buttons on each interface screen, and link to 
 
 * ++"Export vatSys"++ and ++"Export Euroscope"++ do exactly that - export the NZZC and Pacific datasets to the current working directory.
 
+### Check Data Tab
+
+<figure markdown> 
+  ![Data Check Tab](assets/dataCheckScreen.png){ width="350" }
+  <figcaption>Data Check Tab</figcaption>
+</figure>
+
+* ++"Check SID/STAR Names"++ checks all of the procedures in the database against the AIP-supplied Part 95 Procedure sheets. The "Supported Categories" tickboxes dictate what category of procedures are checked - [more information](datamanagement/procedurecheck.md)
+
 ### DB Update Tab
 
-![SFG Database Screen](assets/dbScreen.png){ align=right width="350"}
+<figure markdown> 
+  ![Database Screen](assets/dbScreen.png){ align=right width="350"}
+  <figcaption>Database Screen</figcaption>
+</figure>
+
 
 * ++"Procedure Editor"++ opens the Procedure Editor screen - [more information](DataManagement/ProcedureEditor.md){ target=blank }
 
@@ -44,7 +60,10 @@ This section will run through the buttons on each interface screen, and link to 
 
 ### Utilities Tab
 
-![SFG Utilities Screen](assets/UtilitiesScreen.png){ align=right width="350"}
+<figure markdown> 
+  ![Utilities Screen](assets/UtilitiesScreen.png){ width="350"}
+  <figcaption>Utilities Screen</figcaption>
+</figure>
 
 * ++"Convert PDF to Text"++ allows for the manual conversion of ANR files from PDF to text.
 
@@ -58,9 +77,13 @@ This section will run through the buttons on each interface screen, and link to 
 
 * The various coastline functions are [explained here](DataManagement/UpdatingCoastlines.md){ target=blank }.
 
-### DMS Conversion Tab
+### DMS Conversion
 
-![SFG Conversions Screen](assets/DMSConvScreen.png){ align=right width="350"}
+<figure markdown> 
+  ![Conversions Screen](assets/DMSConvScreen.png){ width="350"}
+  <figcaption>Conversions Screen</figcaption>
+</figure>
+
 
 This tab allows for the conversion between SCT/eAIP/Decimal and ISO coordinate formats.
 
