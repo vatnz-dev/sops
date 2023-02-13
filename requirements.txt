@@ -4,3 +4,4 @@ mkdocs-awesome-pages-plugin
 mkdocs-git-revision-date-localized-plugin
 mkdocs-redirects
 mkdocs-embed-external-markdown
+mkdocs-glightbox

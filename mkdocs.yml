@@ -48,10 +48,8 @@ plugins:
        effect: zoom
        width: 100%
        height: auto
-       zoomable: false
+       zoomable: true
        draggable: false
-       skip_classes:
-         - custom-skip-class-name
     
 
 # Styling Front-end
