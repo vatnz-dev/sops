@@ -1,32 +1,31 @@
 ---
-  title: General Notes
+  title: NZAA - Auckland
 ---
 
 --8<-- "includes/abbreviations.md"
 
 ## Positions
 
-| Position Name     | Callsign | Usage      |
-| ----------------- | -------- | ---------- |
-| Auckland Delivery | NZAA_DEL | Secondary  |
-| Auckland Ground   | NZAA_GND | Secondary  |
-| Auckland Tower    | NZAA_TWR | Primary    |
-| Auckland Approach | NZAA_APP | Primary    |
-| Auckland Control  | NZAA_CTR | Primary    |
+| Position Name     | Callsign | Usage     |
+| ----------------- | -------- | --------- |
+| Auckland Delivery | NZAA_DEL | Secondary |
+| Auckland Ground   | NZAA_GND | Secondary |
+| Auckland Tower    | NZAA_TWR | Primary   |
+| Auckland Approach | NZAA_APP | Primary   |
 
 
 ## Event Only Positions
 
-| RTF Designator        | Callsign   | Usage               |
-| --------------------- | ---------- | ------------------- |
-| Auckland Control      | NZAA-R_CTR | Traffic Management  |
-| Christchurch Director | NZCH-D_CTR | Staff Only Position |
-| Auckland Finals       | NZAA-F_APP | Traffic Management  |
-| Auckland Departures   | NZAA_DEP   | Traffic Management  |
-
-
 !!! Danger
-    The above positions require the approval of either the VATNZ Events Director or Operations Director to be staffed
+    The following are designated as Event Only positions, and may only be staffed during a VATNZ event where approved, or if explicitly authorised by the Operations Director.
+
+
+| RTF Designator      | Callsign   | Usage              |
+| ------------------- | ---------- | ------------------ |
+| Auckland Finals     | NZAA-F_APP | Traffic Management |
+| Auckland Departures | NZAA_DEP   | Traffic Management |
+
+
 
 ---
 
