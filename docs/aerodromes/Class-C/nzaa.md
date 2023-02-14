@@ -96,7 +96,7 @@ All aircraft pushing from the International apron shall be given a tail facing i
 
 ### Taxiing 
 
-As the runway utilises high-speed exits from the runway, the Controller shall avoid using taxiway `A` when there is a potential for conflict between the taxiway and any vacating traffic. 
+As the runway utilises high-speed exits, the Controller shall avoid using taxiway `A` when there is a potential for conflict between the taxiway and any vacating traffic. 
 
 When Runway 23L is in operation aircraft will vacate at either `A6` or `A8`, and `A7`, `A5` or `A3` when 05R is in use.
 
@@ -119,9 +119,9 @@ Departures may occur from any runway intersection, providing that it does not in
 
 The Tower shall ensure that all VFR traffic within the Auckland CTR/C does not conflict with any IFR operations. IFR operations shall take precedence over VFR.
 
-Unless established within the Aerodrome circuit, Tower must ensure that no VFR aircraft are present within the Instrument Sector when an aircraft is either turning onto, or established on an approach. VFR aircraft are not authorised to operate under any approach path, or within 3nm laterally of the approach path.
+Unless established within the aerodrome circuit, Tower must ensure that no VFR aircraft are present within the Instrument Sector when an aircraft is either turning onto, or established on an approach. VFR aircraft are not authorised to operate under any approach path, or within 3nm laterally of the approach path.
 
-Aircraft operating cleared to operate within the North or South sectors are deemed to be separated from IFR arrivals on the ILS or RNP Z approaches, but not from RNP (AR) departures.
+Aircraft that have been cleared to operate within the North or South sectors are deemed to be separated from IFR arrivals on the ILS or RNP Z approaches, but not from RNP (AR) departures.
 
 ## Departures
 
