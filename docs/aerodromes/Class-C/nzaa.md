@@ -49,9 +49,9 @@ The areas of responsibility are as depicted below. The Transfer of Control Point
 | ------------------ | ------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------- |
 | Delivery -> Ground | Once PDC has been issued either through Voice or DCL.                                |                                                                                        |
 | Ground -> Tower    | Prior to arriving at their assigned hold, once clear of other traffic.               |                                                                                        |
-| Tower -> Ground    | Once clear of the active runway.                                                     | Tower may turn an aircraft off the rapid exit, onto `A` if necessary for traffic flow. |
 | Tower -> Approach  | For Airline traffic, once airborne. For GA, when leaving the zone, if applicable.    |                                                                                        |
 | Approach -> Tower  | When established on an instrument final, or if on an RNP approach, overhead the IAF. |                                                                                        |
+| Tower -> Ground    | Once clear of the active runway.                                                     | Tower may turn an aircraft off the rapid exit, onto `A` if necessary for traffic flow. |
 
 ## Clearance Delivery
 
@@ -59,7 +59,7 @@ Clearances shall be issued by the Delivery position, and may be given via DCL or
 
 ### International Traffic with a domestic SID transition
 
-Aircraft departing for South American destinations are not given an Oceanic transition as a part of their clearance - they shall be issues a domestic transition instead. These aircraft shall be cleared to their destination via their FPR at their RFL.
+Aircraft departing for South American destinations are not given an Oceanic transition as a part of their clearance - they shall be issued a domestic transition instead. These aircraft shall be cleared to their destination via their FPR at their RFL.
 
 !!! example 
     For example, LAN800 is a service between NZAA and SCEL, usually filing the following routing -  
@@ -92,13 +92,13 @@ All aircraft pushing from the International apron shall be given a tail facing i
     **Auckland Ground**: *"ANZ26, cleared push and start with the tail facing North"*
 
 !!! info
-    The start instruction is only utilised in the real-world to ensure tha the jet wash doesn't interfere with the aircraft stands on the opposite side of the taxiway. As this isn't an issue within the Simulator, it is up to Controller discretion.
+    The start instruction is only utilised in the real-world to ensure that the jet wash doesn't interfere with the aircraft stands on the opposite side of the taxiway. As this isn't an issue within the Simulator, it is up to Controller discretion.
 
 ### Taxiing 
 
 As the runway utilises high-speed exits, the Controller shall avoid using taxiway `A` when there is a potential for conflict between the taxiway and any vacating traffic. 
 
-When Runway 23L is in operation aircraft will vacate at either `A6` or `A8`, and `A7`, `A5` or `A3` when 05R is in use.
+When Runway 23L is in operation aircraft will vacate at either `A4`, `A6` or `A8`, and `A7`, `A5` or `A3` when 05R is in use.
 
 When RWY 05R is active any domestic aircraft shall be given taxi instructions via `B` and `L`. Taxiway `M` may be utilized by controllers in order to get aircraft past any queues at holding point `A9`.
 
@@ -137,7 +137,7 @@ For Domestic aircraft that are departing to the North or Northeast, the Controll
 
 | Runway | Procedure  | Allowed A/C Categories | Is divergent?                  | Notes                                                                                                                       |
 | ------ | ---------- | ---------------------- | ------------------------------ | --------------------------------------------------------------------------------------------------------------------------- |
-| 05R    | `BROOK #Q` | Cat A to C             | Yes - >30° turn passing `A005` | Available to Cat C Jets for noise-abatement. AA TMR approval required.                                                      |
+| 05R    | `BROOK #Q` | Cat A to C             | Yes - >30° turn passing `A005` | Available to Cat C Jets for noise-abatement. AA TMA approval required.                                                      |
 | 05R    | `PAGLA #Q` | Cat A to D             | No                             | **Preferred departure for Cat C Jets**. Steep climb gradient - aircraft unable to meet this shall be given the `POLIS #Q`.  |
 | 05R    | `POLIS #Q` | Cat A to D             | No                             | **Preferred departure for Cat D Jets, or heavies**. Shallower climb gradient.                                               |
 | 05R    | `REKIS #Q` | Cat A to D             | Yes - >30° turn passing `A005` | **Preferred departure for Props**. May be given to jets provided they are comfortable with the 180kt limitation at `VINOD`. |
