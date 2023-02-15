@@ -72,7 +72,7 @@ Military traffic remaining within a controlled aerodrome's circuit should contin
 All foreign military aircraft with their flight originating within New Zealand should also be assigned a code within the military range. If the FMA is crossing into the New Zealand FIR, it is up to the Controller's discretion whether to assign a military squawk or not.
 
 !!! Tip
-    Military traffic is relatively common on VATSIM. Because of this, Controllers should familiarize themselves with routinely used callsigns, which can be found under [Controller Skills](callsigns.md).
+    Military traffic is relatively common on VATSIM. Because of this, Controllers should familiarize themselves with [routinely used callsigns](callsigns.md), which can be found under Controller Skills.
 
 ## Formation Flights 
 
