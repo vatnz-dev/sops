@@ -48,7 +48,7 @@ If a sequencing conflict is to occur, OCR shall coordinate with AA TMA as to an 
 
 OCR may clear aircraft direct to the STAR's AA TMA boundary fix without coordination, provided that they have been cleared to rejoin the STAR at that point. Aircraft may be cleared to track direct to a fix within AA TMA's boundary with co-ordination, subject to the same condition.
 
-??? hint "RTF for rejoining a STAR"
+!!! hint "RTF for rejoining a STAR"
     **OCR**: *New Zealand 677, track direct TAZEY to rejoin the STAR. When ready descend FL150*.
 
     **Note**: As `TAZEY` sits within AA TMA's airspace, co-ordination would be required.

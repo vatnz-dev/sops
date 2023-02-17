@@ -92,7 +92,7 @@ NAK shall not normally descend aircraft into STH sector unless bound for an airc
 
 If further descent is required, NAK shall clear the aircraft to leave controlled airspace on descent through `A135`, report to STH when on the ground, and hand the tag to STH. This shall be coordinated beforehand.
 
-??? hint "RTF for leaving CTA and transferring radar monitoring"
+!!! hint "RTF for leaving CTA and transferring radar monitoring"
     **NAK**: *LDM inbound Hokitika on BOSLA arrival requests further descent. Request descent below CTA and transfer radar monitoring your frequency.*  
     **STH**: *LDM is cleared below CTA and I accept radar monitoring on this frequency.*
 
@@ -115,7 +115,7 @@ If a sequencing conflict is to occur, NAK shall coordinate with WN TMA as to an 
 
 NAK may clear aircraft direct to the STAR's WN TMA boundary fix without coordination, provided that they have been cleared to rejoin the STAR after that point. Aircraft may be cleared to track direct to a fix within WN TMA's boundary with co-ordination, subject to the same condition.
 
-??? hint "RTF for rejoining a STAR"
+!!! hint "RTF for rejoining a STAR"
     **NAK**: *New Zealand 677, track direct RIPPA to rejoin the STAR. When ready descend A080*.
 
     **Note**: As `RIPPA` sits within WN TMA's airspace, co-ordination would be required.

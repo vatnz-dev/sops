@@ -60,7 +60,7 @@ OHA shall give ARO a **10 minute warning** of the aircraft's crossing of the FIR
 
 When traffic crosses into the NZZC FIR from NZCI, they shall be identified in the normal manner, and provided with a domestic squawk code. 
 
-??? hint "RTF for NZCI-bound traffic"
+!!! hint "RTF for NZCI-bound traffic"
     Traffic bound for NZCI shall be advised that they will be uncontrolled, and that ARO is proving a limited monitoring service.
 
     Aircraft bound for NZCI typically remain at flight levels under the Lower Limit of Oceanic airspace, and shall be handed over to UNICOM when crossing the FIR boundary. BAY shall advise ARO in the same manner as a reqular Oceanic flight, as Oceanic will maintain a limited monitoring service.
@@ -103,7 +103,7 @@ If a sequencing conflict is to occur, OHA shall coordinate with WN TMA as to an 
 
 OHA may clear aircraft direct to the STAR's WN TMA boundary fix without coordination, provided that they have been cleared to rejoin the STAR after that point. Aircraft may be cleared to track direct to a fix within WN TMA's boundary with co-ordination, subject to the same condition.
 
-??? hint "RTF for rejoining a STAR"
+!!! hint "RTF for rejoining a STAR"
     **NAK**: *New Zealand 677, track direct LADIT to rejoin the STAR. When ready descend A080*.
 
     **Note**: As `LADIT` sits within WN TMA's airspace, co-ordination would be required. 
