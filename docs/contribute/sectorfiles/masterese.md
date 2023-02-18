@@ -56,7 +56,7 @@ All aerodrome ATIS' should be entered in the `[POSITION]` register. The start of
 
 ### Adjacent Sectors
 
-It's good pratice to also include adjacent sectors in our `[POSITIONS]` definition. This makes sure that they are shown in the online sectors list, and any handover or co-ordination pop-ups. 
+It's good pratice to also include adjacent sectors in our `[POSITIONS]` definition. This makes sure that they are shown in the online sectors list, and any handover or coordination pop-ups. 
 
 These follow the same format as shown above, but should have `#` appended to the name of the position. This makes sure that that sector is **not** included in the vatSpy testing dialog box.
 
@@ -101,4 +101,4 @@ The Sector definitions then add all of the Sectorlines together to form an outli
 
 ## FIR_COPX (Coordination Points)
 
-These are a list of all manual co-ordination points in EuroScope. These are 
+These are a list of all manual coordination points in EuroScope. These are 

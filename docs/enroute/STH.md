@@ -43,7 +43,7 @@ STH shall ensure that an efficient arrival flow is managed into QN TMA.
 
 When QN TMA is offline, STH automatically inherits QN TMA's airspace.
 
-STH shall ensure that aircraft overflying the CH TMA are no lower than `FL190` without coordination.
+STH shall ensure that aircraft overflying the QN TMA are no lower than `FL190` without coordination.
 
 ### CH TMA
 
@@ -55,13 +55,13 @@ STH shall ensure that aircraft overflying the CH TMA are no lower than `A110` wi
 
 STH shall ensure that an efficient arrival flow is managed into DN TWR's airspace. 
 
-When DN TWR is offline, the DN Procedural Tower service shall be provided by STH. When responsible for DN TWR,  STH may opt to provide a radar approach service, rather than a procedural approach service.
+When DN TWR is offline, the DN Procedural Tower service shall be provided by STH. When responsible for DN TWR, STH may opt to provide a radar approach service, rather than a procedural approach service.
 
 ### NV TWR
 
 STH shall ensure that an efficient arrival flow is managed into NV TWR's airspace. 
 
-When NV TWR is offline, the NV Procedural Tower service shall be provided by STH. When responsible for NV TWR,  STH may opt to provide a radar approach service, rather than a procedural approach service.
+When NV TWR is offline, the NV Procedural Tower service shall be provided by STH. When responsible for NV TWR, STH may opt to provide a radar approach service, rather than a procedural approach service.
 
 
 ## Coordination
