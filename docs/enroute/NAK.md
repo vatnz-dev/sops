@@ -49,7 +49,7 @@ When responsible for NP TWR, NAK may opt to provide a radar approach service, ra
 
 ### Oceanic
 
-Oceanic-bound aircraft are required to cross the FIR boundary at their CFL and via a defined waypoint. 
+Oceanic-bound aircraft are required to cross the FIR boundary at their RFL and via a defined waypoint. 
 
 NAK may clear Oceanic bound aircraft direct to their boundary crossing fix without coordination from ARO. If aircraft request an amendment to their RFL, this shall be coordinated with ARO.
 
