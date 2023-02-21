@@ -65,7 +65,7 @@ BAY shall issue STARs to aircraft bound for NZNP with coordination, and may desc
 
 ### AA TMA
 
-BAY shall issue STAR clearances to aircraft bound for any of NZAA, NZAR or NZWP without coordination, provided it is for the nominated duty runway and approach type as stated in the ATIS. A request for use of a non-nominated approach (such as an RNP) requires agreement from both the TMA and ADC Controller.
+BAY shall issue STAR clearances to aircraft bound for NZAA, NZAR or NZWP without coordination, provided it is for the nominated duty runway and approach type as stated in the ATIS. A request for use of a non-nominated approach (such as an RNP) requires agreement from both the TMA and ADC Controller.
 
 BAY may descend aircraft to `A110` without coordination from AA TMA.
 
