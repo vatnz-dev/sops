@@ -19,10 +19,10 @@
 !!! Danger
     The following are designated as Event Only positions, and may only be staffed during a VATNZ event where approved, or if explicitly authorised by the Operations Director.
 
-| Position Name           | Shortcode | Callsign            | Frequency | Login ID   | Usage                       |
-| ----------------------- | --------- | ------------------- | --------- | ---------- | --------------------------- |
-| Auckland Finals         | AARR      | Auckland Finals     | 129.600   | NZAA-F_APP | Events - Traffic Management |
-| Auckland Terminal Radar | ADEP      | Auckland Departures | 118.000   | NZAA_DEP   | Events - Traffic Management |
+| Position Name       | Shortcode | Callsign          | Frequency | Login ID | Usage                       |
+| ------------------- | --------- | ----------------- | --------- | -------- | --------------------------- |
+| Auckland Departures | ADEP      | Auckland Approach | 129.600   | NZAA_DEP | Events - Traffic Management |
+
 
 ## Airspace
 
