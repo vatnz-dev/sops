@@ -23,3 +23,6 @@
 *[ADC]: Aerodrome Control
 *[DCL]: Digital Clearance Delivery
 *[PDC]: Pre Departure Clearance 
+*[RFL]: Requested Flight Level
+*[CFL]: Cleared Flight Level
+*[FPR]: Flight Plan Route

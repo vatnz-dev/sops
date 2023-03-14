@@ -71,7 +71,7 @@ RAN may re-clear any aircraft on a short STAR to a long STAR without coordinatio
 
 RAN may descend aircraft no lower than `A110` without coordination from AA TMA. The only exception being for NZAR bound aircraft, where they may be descended to `A060` with an awareness coordination message.
 
-RAN may clear aircraft direct to the STAR's AA TMA boundary fix without coordination, provided that they have been cleared to rejoin the STAR at that point. Aircraft may be cleared to track direct to a fix within AA TMA's boundary with co-ordination, subject to the same condition.
+RAN may clear aircraft direct to the STAR's AA TMA boundary fix without coordination, provided that they have been cleared to rejoin the STAR at that point. Aircraft may be cleared to track direct to a fix within AA TMA's boundary with coordination, subject to the same condition.
 
 ### HN TMA
 

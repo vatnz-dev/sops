@@ -4,22 +4,22 @@
 
 New Zealand has seven Enroute Sectors, six of which can be staffed routinely on the network. This section provides detailed information on how to run each sector's operations, and lists some nuances that may be associated with them. 
 
-VATNZ Controllers are able to staff all six permanent Enroute Sectors at one, in a situation known as Extended Services. [You can find out more about Extended Services here](../controller-skills/extending.md).
+VATNZ Controllers are able to staff all six permanent Enroute Sectors at once, in a situation known as Extended Services. [You can find out more about Extended Services here](../controller-skills/extending.md).
 
 
 ![NZ FIR Airspace Sectors](../assets/nz-fir-airspace.png){width="100%"}
 
 ## General Rules of Thumb for ENR
 
-These section outlines some general rules for Enroute Controllers. More specific rules for each sector can be found on the individual sector pages.
+This section outlines some general rules for Enroute Controllers. More specific rules for each sector can be found on the individual sector pages.
 
 ### STARs
 
-Generally, if an aircraft's destination is in a bordering sector, you should ensure that a STAR clearance has been issued. In most cases a STAR clearance will be issued by the sector immediately before its' destination sector.
+Generally, if an aircraft's destination is in a bordering sector, you should ensure that a STAR clearance has been issued. In most cases a STAR clearance will be issued by the sector immediately before it's destination sector.
 
 ### Altitude Management
 
-In most cases, aircraft should cross an ENR border either at their RFL, or in climb to their RFL.
+In most cases aircraft should cross an ENR border either at their RFL, or in climb to their RFL.
 
 If an aircraft requires a descent into an **ENR** sector, they can be descended to `FL200` if northbound, or `FL190` if southbound without coordination from the next sector.
 

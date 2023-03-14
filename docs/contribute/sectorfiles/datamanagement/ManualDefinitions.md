@@ -190,7 +190,7 @@ For TMA:
 
 ```
 
-??? hint "Importing and Delete in the same file"
+!!! hint "Importing and Delete in the same file"
     Follow this example!
 
     ```
