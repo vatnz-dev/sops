@@ -101,7 +101,11 @@ The Antarctic Apron is used for all military traffic, but may also be used for l
 
 #### Traffic Crossing Rwy
 
+Traffic crossing any runway must be given clearance, this can be included in the initial taxi clearance. The controller shall instruct aircraft to taxi to hold short of a runway if traffic exists on that runway.
+
 #### Backtrack via Rwy 29
+
+Traffic taxiing to the Dakota Apron can be given backtrack via Runway 29, This is common practice during busy periods to avoid extra movements on taxiway `F`
 
 ### Tower
 
