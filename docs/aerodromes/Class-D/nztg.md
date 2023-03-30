@@ -1,5 +1,5 @@
 ---
-  title: General Notes
+  title: NZTG - Tauranga
 ---
 
 --8<-- "includes/abbreviations.md"
