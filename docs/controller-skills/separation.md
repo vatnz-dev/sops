@@ -20,7 +20,7 @@ This technique is useful for situations such as:
 
 - Procedural towers processing aircraft at altitudes below usable surveillance
 - Making more efficient use of runways at major aerodromes by allowing departures to roll with aircraft on final
-- Processing VFR aircraft arriving or departing during a busy established sequence (e.g. helicopter operations at Sydney)
+- Processing VFR aircraft arriving or departing during a busy established sequence (e.g. VFR operations at Auckland or Wellington)
 
 ### Pilot Responsibility
 
@@ -62,7 +62,7 @@ The vertical standard depends on various parameters -
 
 In AA, OH, WN, CH and QN TMAs the lateral limit is 3nm, and the vertical limit is 1000ft.
 
-In the HN TMA, the limit is 5nm.
+In the HN TMA, the lateral limit is 5nm, and the vertical limit remains at 1000ft.
 
 ### Aerodrome
 
@@ -78,12 +78,12 @@ A runway may be occupied by more than one aircraft provided that a conditional c
 
 An aircraft may only be issued a landing or takeoff clearance when -
 
-| Situation                                                                     | Controller must ensure..                                                                                                      | Additional Information to be passed to the aircraft |
-| ----------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------- |
-| Runway completely unoccupied, and no a/c on the recipcrocal runway centreline |                                                                                                                               | None.                                               |
-| A preceding arrival begins to vacate the runway                               | The vacating a/c will be clear when the arriving a/c is at the DA                                                             | "Aircraft vacates `left / right` on `TWY / RWY`"    |
-| An a/c is departing ahead                                                     | Meets the [Divergent Procedures criteria](#divergent-procedures), or the a/c is 1.5nm upwind of the reciprocal RWY threshold. | None.                                               |
-| An a/c is departing ahead on the same SID                                     | The aircraft ahead must have a higher approach rating, and be 1.5nm upwind of the reciprocal RWY threshold                    | None.                                               |
+| Situation                                                                     | Controller must ensure..                                                                                                    | Additional Information to be passed to the aircraft |
+| ----------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------- |
+| Runway completely unoccupied, and no a/c on the recipcrocal runway centreline |                                                                                                                             | None.                                               |
+| A preceding arrival begins to vacate the runway                               | The vacating a/c will be clear when the arriving a/c is at the final approach fix for the procedure being flown.            | "Aircraft vacates `left / right` on `TWY / RWY`"    |
+| An a/c is departing ahead                                                     | Meets the [Divergent Procedures criteria](#divergent-procedures), or the a/c is 1nm upwind of the reciprocal RWY threshold. | None.                                               |
+| An a/c is departing ahead on the same SID                                     | The aircraft ahead must be a faster aircraft type, and be 3nm upwind of the reciprocal runway threshold.                    | None.                                               |
 
 !!! warning "Protecting the Missed Approach"
     Controllers must ensure that the Missed Approach is protected whenever an aircraft is cleared to land.
@@ -138,7 +138,7 @@ Due to the lack of assured surveillence within a Control Zone, that zone may be 
 There are four types of procedural separation - lateral, longitudinal, vertical and visual. The first three you can apply by using position reports from Pilots, whereas visual separation can be used in line with the [Visual Separation section](#visual-separation).
 
 !!! information
-    The following information on Procedural Separation has been sourced from [VATPAC's SOPs](http://sops.vatpac.org/controller-skills/SepStandards/).
+    Some of the following information on Procedural Separation has been sourced from [VATPAC's SOPs](http://sops.vatpac.org/controller-skills/SepStandards/).
 
 ### Longitudinal
 
