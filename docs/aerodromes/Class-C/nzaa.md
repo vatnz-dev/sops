@@ -49,9 +49,9 @@ The areas of responsibility are as depicted below. The Transfer of Control Point
 | ------------------ | ------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------- |
 | Delivery -> Ground | Once PDC has been issued either through Voice or DCL.                                |                                                                                        |
 | Ground -> Tower    | Prior to arriving at their assigned hold, once clear of other traffic.               |                                                                                        |
-| Tower -> Ground    | Once clear of the active runway.                                                     | Tower may turn an aircraft off the rapid exit, onto `A` if necessary for traffic flow. |
 | Tower -> Approach  | For Airline traffic, once airborne. For GA, when leaving the zone, if applicable.    |                                                                                        |
 | Approach -> Tower  | When established on an instrument final, or if on an RNP approach, overhead the IAF. |                                                                                        |
+| Tower -> Ground    | Once clear of the active runway.                                                     | Tower may turn an aircraft off the rapid exit, onto `A` if necessary for traffic flow. |
 
 ## Clearance Delivery
 
