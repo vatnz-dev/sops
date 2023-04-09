@@ -53,6 +53,10 @@ OCR may clear aircraft direct to the STAR's AA TMA boundary fix without coordina
 
     **Note**: As `TAZEY` sits within AA TMA's airspace, co-ordination would be required.
 
+#### Auckland Night STARs
+
+For Noise Abatement Procedures, see the [Auckland Aerodrome page](../aerodromes/Class-C/nzaa.md#noise-abatement).
+
 ### Oceanic
 
 Oceanic-bound aircraft are required to cross the FIR boundary at their CFL and via a defined waypoint. 
