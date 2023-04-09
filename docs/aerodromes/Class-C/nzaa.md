@@ -141,7 +141,7 @@ For Domestic aircraft that are departing to the North or Northeast, the Controll
 | 05R    | `PAGLA #Q` | Cat A to D             | No                             | **Preferred departure for Cat C Jets**. Steep climb gradient - aircraft unable to meet this shall be given the `POLIS #Q`.  |
 | 05R    | `POLIS #Q` | Cat A to D             | No                             | **Preferred departure for Cat D Jets, or heavies**. Shallower climb gradient.                                               |
 | 05R    | `REKIS #Q` | Cat A to D             | Yes - >30° turn passing `A005` | **Preferred departure for Props**. May be given to jets provided they are comfortable with the 180kt limitation at `VINOD`. |
-| 05R    | `EMRAG #B` | Cat A to D             | No                             | Least preferred departure due to manual vectoring required.                                                                 |
+| 05R    | `EMRAG #Q` | Cat A to D             | No                             | Least preferred departure due to manual vectoring required.                                                                 |
 
 
 | Runway | Procedure  | Allowed A/C Categories | Is divergent?                  | Notes                                                                                                     |
