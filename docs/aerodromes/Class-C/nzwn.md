@@ -19,14 +19,14 @@
 !!! Danger
     The following are designated as Event Only positions, and may only be staffed during a VATNZ event where approved, or if explicitly authorised by the Operations Director.
 
-| Position Name             | Shortcode | Callsign              | Frequency | Login ID   | Usage                       |
-| ------------------------- | --------- | --------------------- | --------- | ---------- | --------------------------- |
-| Wellington Terminal Radar | WDEP      | Wellington Departures | 122.300   | NZWN_DEP   | Events - Traffic Management |    
+| Position Name             | Shortcode | Callsign              | Frequency | Login ID | Usage                       |
+| ------------------------- | --------- | --------------------- | --------- | -------- | --------------------------- |
+| Wellington Terminal Radar | WDEP      | Wellington Departures | 122.300   | NZWN_DEP | Events - Traffic Management |
 
 
 ## Airspace
 
-The Wellington CTR/C follows the lateral boundaries as shown below from `SFC` to `A025`. The CTR/C compreises of seven sectors - Kelburn, West, Sinclar, South East, East, Somes and Instrument Sectors. 
+The Wellington CTR/C follows the lateral boundaries as shown below from `SFC` to `A025`. The CTR/C comprises of seven sectors - Kelburn, West, Sinclar, South East, East, Somes and Instrument Sectors. 
 
 <figure markdown>
   ![Wellington Control Zone](./assets/nzwn-airspace.png)
@@ -44,13 +44,13 @@ The areas of responsiblility are as depicted below.
 
 ### Transfer of Control Points 
 
-| Transfer Flow      | Requirements                                                                         | Notes                                                                                  |
-| ------------------ | ------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------- |
-| Delivery -> Ground | Once PDC has been issued either through Voice or DCL.                                |                                                                                        |
-| Ground -> Tower    | Prior to arriving at their assigned hold, once clear of other traffic.               | Aircraft operating on the Western Apron are not rquired to contact Ground or Tower until reaching either `M4` or `M5`                                                                                       |
-| Tower -> Ground    | Once clear of the active runway.                                                     | Aircraft operating on the Western Apron are not required to contact Ground after vacating the runway. |
-| Tower -> Approach  | For Airline traffic, once airborne. For GA, when leaving the zone, if applicable.    |                                                                                        |
-| Approach -> Tower  | When established on an instrument final, or if on an RNP approach, overhead the IAF. |                                                                                        |
+| Transfer Flow      | Requirements                                                                           | Notes                                                                                                                                                                                                                     |
+| ------------------ | -------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Delivery -> Ground | Once PDC has been issued either through Voice or DCL.                                  |                                                                                                                                                                                                                           |
+| Ground -> Tower    | Prior to arriving at their assigned hold, once clear of other traffic.                 | Aircraft operating on the Western Apron are not required to contact Ground or Tower until reaching one of the `M5 Lima` holds, or holding short of `M4`.                                                                  |
+| Tower -> Ground    | Once clear of the active runway.                                                       | Aircraft vacating to the Western Apron may stay with Tower, provided there is no conflicting traffic.                                                                                                                     |
+| Tower -> Approach  | For most airline traffic, when airborne. For GA, when leaving the zone, if applicable. | Aircraft assigned a SID with a visual segment, such as the `IDVAL #U` or `IPKEP #T` may be retained by Tower until clear of other aircraft, once established inbound to their IDF, or if requested by TMA for separation. |
+| Approach -> Tower  | When established on an instrument final, or if on an RNP approach, overhead the IAF.   |                                                                                                                                                                                                                           |
 
 ## Clearance Delivery
 
@@ -58,10 +58,12 @@ Clearances shall be issued by the Delivery position, and may be given via DCL or
 
 ### STAR Clearance for NZNS & NZWB
 
-As the flight time between Wellington, Nelson and Woodbourne (Blenheim) is so short, and to reduce pilot and controller workload, the controller shall issue aircraft a clearance with their STAR included.
+As the flight time between Wellington, Nelson and Woodbourne (Blenheim) is so short, and to reduce pilot and controller workload, the controller shall include a STAR clearance for their destination in their departure clearance.
+
+If online, Delivery shall confirm the STAR with Wellington TMA prior to passing to aircraft.
 
 !!! example "Clearance to Nelson"
-    **Wellington Delivery**: *"SDA333 Cleared Nelson 1 via LUBS2A arrival at 11,000ft, IVDA1Q departure, Sqauwk 5021"*
+    **Wellington Delivery**: *"SDA333, Cleared Nelson 1 via LUBSI 2A arrival at 11,000ft, IVDAL 1Q departure, Sqauwk 5021"*
 
 ## Ground
 
@@ -70,9 +72,11 @@ As the flight time between Wellington, Nelson and Woodbourne (Blenheim) is so sh
 Pushback and start up clearances are managed by the Ground Controller. For pushbacks on apron areas the phraseology “Pushback at your discretion” is used to indicate that the pushback
 is contained within an uncontrolled portion of the movement area and that ATC may not be aware of all apron activity.
 
+During periods of high-traffic, the Ground Controller may issue explicit push and start directions to deconflict and prioritise traffic flow.
+
 #### International Gates
 
-The international gates only have capacity for one pushback at any time, should a second aircraft pushback, they should be asked to push to `Z1` or as required by the controller, as not all users have the `Z` holding points programmed, this is at the discretion of the controller.
+The international gates only have capacity for one pushback at a time. Should a second aircraft request pushback, they should be instructed to push to a remote push point, such as `Z1`. Not all pilots are aware of these remote push locations, so the Ground Controller may issue plain English push directions at their discretion.
 
 #### Night Pushback Operations
 
@@ -80,31 +84,37 @@ Wellington has two marked pushback holding zones, `Z1` & `Z2`. These zones are u
 
 ### Taxiing
 
-As there is only a single main taxiway, the Controller shall feed aircraft onto taxiway `A` using the taxilanes and `B` intersections as required. Aircraft taxiing from the eastern pier shall be instructed to taxi via one of the taxilanes or directly via `B8` , `B9` and `B10` when Runway 34 is in use, or `B9` , `B8` and `B7` when Runway 16 is in use. 
+As there is only a single main taxiway, the Controller shall feed aircraft onto taxiway `A` using the `R, S, T or U` taxiways and `B` intersections as required. Aircraft taxiing from the Eastern Pier shall be instructed to taxi via one of the `R, S, T or U` taxiways or directly via `B8`, `B9` or `B10` when Runway 34 is in use - or `B9` , `B8` and `B7` when Runway 16 is in use. 
 
 This frees up `B6` and `B5` for traffic taxiing from the main apron and international gates.
 
 ### Use of Holding Points
 
-| Type        |  Runway 34    |  Runway 16   |
+| Type        |   Runway 34   |  Runway 16   |
 | ----------- | :-----------: | :----------: |
 | Large Jets  |     `A11`     |     `A1`     |
 | Medium Jets |     `A10`     | `A1` or `A2` |
 | Turboprops  | `A9` or `A10` | `A2` or `A3` |
 
+!!! note "Use of Holding Point A10
+    The use of the `A10` hold is only authorised during day hours. During night operations, aircraft shall be directed to `A11`.
+
 ## Tower
 
 The Tower shall ensure that all VFR traffic within the Wellington CTR/C does not conflict with any IFR operations. IFR operations shall take precedence over VFR.
 
-Unless established within the aerodrome circuit, VFR aircraft are not authorised to operate under any approach path, or within 3nm laterally of the approach path, unless explicitly authorised by the Tower or Approach controller.
+Unless established within the aerodrome circuit, VFR aircraft are not authorised to operate under any approach path, or within 3nm laterally of the approach path, unless explicitly authorised by the Tower or Approach Controller.
 
-Aircraft that have been cleared to operate within the Kelburn Sector, Somes Sector, East Sector, Sinclair Sector or East Sector are deemed to be separated from IFR arrivals on the ILS or RNP approaches.
+Aircraft that have been cleared to operate within the Kelburn, Somes, East, Sinclair or East Sectors are deemed to be separated from IFR arrivals operating on straight-in approaches in the Instrument Sector. When RNP-AR approaches are in use, the Tower Controller is to ensure that the RNP path has a lateral buffer of at least 3nm.
 
 ## Departures
 
 Aircraft departures shall be managed in-line with the [Runway Operations section](../../controller-skills/seperation#runway-operations). 
 
-None of the departures have immediate divergent turns, however Tower can request that the TMA controller issues the aircraft with a direct to, after departure, assuming the aircraft can meet the mnimum climb gradient.
+Where possible, and where weather permits, the SIDs with visual departure segements shall be issued to small Approach Category A and B aircraft (C208, PC12), to ensure an immediate turn to their departure's IDF.
+
+!!! warning "Golden Bay Air BN-2 Aircraft"
+    For the purposes of traffic separation, the Britten Norman Islander shall be classed as a Category A aircraft.
 
 ### SID Assignment
 
@@ -112,19 +122,23 @@ Most of Wellington's SIDs are straight-forward, however there are a few consider
 
 For Domestic aircraft the Controller shall issue the SID that is suggested by the Controller Client.
 
-| Runway | Procedure  | Allowed A/C Categories | Is it divergent?           | Notes                                                       |
-| ------ | ---------- | ---------------------- | -------------------------- | ----------------------------------------------------------- |
-|   16   | `AVTEV #Q` |       Cat A to D       |            No              | **Preferred departure for Jets and Southbound Props**       |
-|   16   | `IVDAL #U` |       Cat A to C       |    Yes - > 30° at `A005`   | Divergent departure for NZNS/NZWB traffic, turn at 500ft    |
-|   16   | `UPROG #Q` |       Cat A to C       |            No              | **Preferred departure for Props**                           |
-|   16   | `NZWN  #C` |       Cat A to D       |            No              | Least preffered, radar departure requiring manual vectoring |
+| Runway | Procedure  | Allowed A/C Categories | Is it divergent?         | Notes                                                                                 |
+| ------ | ---------- | ---------------------- | ------------------------ | ------------------------------------------------------------------------------------- |
+| 16     | `ATVEV #Q` | Cat A to D             | Yes -> 20° after `URBEM` | **Preferred departure for Jets**                                                      |
+| 16     | `AGROR #Q` | Cat A to C             | Yes -> 40° after `URBEM` | **Preferred departure for southern-bound Props via `VENAM`**                          |
+| 16     | `UPROG #Q` | Cat A to C             | Yes -> 40° after `URBEM` | **Preferred departure for northern-bound Props**                                      |
+| 16     | `IVDAL #Q` | Cat A to C             | Yes -> 50° after `URBEM` | Preferred departure for NZNS/NZWB traffic.                                            |
+| 16     | `IVDAL #U` | Cat A to C             | Yes -> 30° at `A005`     | Same as `IDVAL #Q`, but with a visual segment to IDF. Turns divergent passing `A005`. |
+| 16     | `NZWN  #C` | Cat A to D             | No                       | Least preferred departure due to manual vectoring required.                           |
 
-| Runway | Procedure  | Allowed A/C Categories | Is it divergent?           | Notes                                                             |
-| ------ | ---------- | ---------------------- | -------------------------- | ----------------------------------------------------------------- |
-|   34   | `UPLUD #P` |       Cat C Only       |            No              | **Preferred departure for domestic and international Jets**       |
-|   34   | `UPLUD #R` |       Cat A to D       |            No              | RNP (AR) Departure Designed for NZ Domestic Jets                  |
-|   34   | `IPKEP #P` |       Cat A to C       |            No              | **Preferred departure for Props**                                 |
-|   34   | `IPKEP #T` |       Cat A to C       |            No              | Visual segment to IAF, only to be used when VMC conditions exist  |
+| Runway | Procedure  | Allowed A/C Categories | Is it divergent?         | Notes                                                                                     |
+| ------ | ---------- | ---------------------- | ------------------------ | ----------------------------------------------------------------------------------------- |
+| 34     | `UPLUD #R` | Cat A to D             | Yes                      | **Preferred departure for Air NZ Jets**. Has an RNP segment until `UPLUD`, thence RNAV 1. |
+| 34     | `UPLUD #P` | Cat C Only             | Yes -> 18° after `COUBY` | **Preferred departure for all other domestic and international Jets**                     |
+| 34     | `IPKEP #P` | Cat A to C             | No                       | **Preferred departure for western-bound Props**                                           |
+| 34     | `URGEV #P` | Cat A to C             | Yes -> 42° after `GANJI` | **Preferred departure for northern, southern and eastern-bound Props**                    |
+| 34     | `IPKEP #T` | Cat A to C             | Yes -> Passing `A015`    | Same as `IDVAL #Q`, but with a visual segment to IDF. Turns divergent passing `A015`.     |
+| 16     | `NZWN  #D` | Cat A to D             | No                       | Least preferred departure due to manual vectoring required.                               |
 
 ### Assigned Headings
 
@@ -162,10 +176,10 @@ All Helicopters operating in or out of Wellington tend to operate from the *West
 !!! info "Helicopter Departure Clearance"
     **CFL10**: *"Wellington Tower, CFL10 at the western apron, request lift to operate in the city sector"* 
 
-    **Wellington Tower**: *"CFL10 Cleared to lift own discretion to operate in the city sector, cleared to cross the runway 16 threshold, report clear"*
+    **Wellington Tower**: *"CFL10, Cleared to lift at own discretion to operate in the city sector, cleared to cross the runway 16 threshold, report clear"*
 
-    !!! danger "if runway or instrument sector are not clear:"
+    !!! danger "If runway or instrument sector are not clear:"
 
-    **Wellington Tower**: *"CFL10 hold position, due traffic remain on the ground, expect lift in x minutes"*
+    **Wellington Tower**: *"CFL10 hold position due traffic. Remain on the ground, you can expect a lift in `x` minutes"*
 
   

@@ -23,3 +23,4 @@
 *[ADC]: Aerodrome Control
 *[DCL]: Digital Clearance Delivery
 *[PDC]: Pre Departure Clearance 
+*[IDF]: Initial Departure Fix
