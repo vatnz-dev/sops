@@ -96,7 +96,7 @@ This frees up `B6` and `B5` for traffic taxiing from the main apron and internat
 | Medium Jets |     `A10`     | `A1` or `A2` |
 | Turboprops  | `A9` or `A10` | `A2` or `A3` |
 
-!!! note "Use of Holding Point A10
+!!! info "Use of Holding Point A10"
     The use of the `A10` hold is only authorised during day hours. During night operations, aircraft shall be directed to `A11`.
 
 ## Tower
