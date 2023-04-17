@@ -19,10 +19,10 @@
 !!! Danger
     The following are designated as Event Only positions, and may only be staffed during a VATNZ event where approved, or if explicitly authorised by the Operations Director.
 
-| Position Name           | Shortcode | Callsign            | Frequency | Login ID   | Usage                       |
-| ----------------------- | --------- | ------------------- | --------- | ---------- | --------------------------- |
-| Auckland Finals         | AARR      | Auckland Finals     | 129.600   | NZAA-F_APP | Events - Traffic Management |
-| Auckland Terminal Radar | ADEP      | Auckland Departures | 118.000   | NZAA_DEP   | Events - Traffic Management |
+| Position Name       | Shortcode | Callsign          | Frequency | Login ID | Usage                       |
+| ------------------- | --------- | ----------------- | --------- | -------- | --------------------------- |
+| Auckland Departures | ADEP      | Auckland Approach | 129.600   | NZAA_DEP | Events - Traffic Management |
+
 
 ## Airspace
 
@@ -49,9 +49,9 @@ The areas of responsibility are as depicted below. The Transfer of Control Point
 | ------------------ | ------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------- |
 | Delivery -> Ground | Once PDC has been issued either through Voice or DCL.                                |                                                                                        |
 | Ground -> Tower    | Prior to arriving at their assigned hold, once clear of other traffic.               |                                                                                        |
-| Tower -> Ground    | Once clear of the active runway.                                                     | Tower may turn an aircraft off the rapid exit, onto `A` if necessary for traffic flow. |
 | Tower -> Approach  | For Airline traffic, once airborne. For GA, when leaving the zone, if applicable.    |                                                                                        |
 | Approach -> Tower  | When established on an instrument final, or if on an RNP approach, overhead the IAF. |                                                                                        |
+| Tower -> Ground    | Once clear of the active runway.                                                     | Tower may turn an aircraft off the rapid exit, onto `A` if necessary for traffic flow. |
 
 ## Clearance Delivery
 
@@ -59,7 +59,7 @@ Clearances shall be issued by the Delivery position, and may be given via DCL or
 
 ### International Traffic with a domestic SID transition
 
-Aircraft departing for South American destinations are not given an Oceanic transition as a part of their clearance - they shall be issues a domestic transition instead. These aircraft shall be cleared to their destination via their FPR at their RFL.
+Aircraft departing for South American destinations are not given an Oceanic transition as a part of their clearance - they shall be issued a domestic transition instead. These aircraft shall be cleared to their destination via their FPR at their RFL.
 
 !!! example 
     For example, LAN800 is a service between NZAA and SCEL, usually filing the following routing -  
@@ -92,13 +92,13 @@ All aircraft pushing from the International apron shall be given a tail facing i
     **Auckland Ground**: *"ANZ26, cleared push and start with the tail facing North"*
 
 !!! info
-    The start instruction is only utilised in the real-world to ensure tha the jet wash doesn't interfere with the aircraft stands on the opposite side of the taxiway. As this isn't an issue within the Simulator, it is up to Controller discretion.
+    The start instruction is only utilised in the real-world to ensure that the jet wash doesn't interfere with the aircraft stands on the opposite side of the taxiway. As this isn't an issue within the Simulator, it is up to Controller discretion.
 
 ### Taxiing 
 
 As the runway utilises high-speed exits, the Controller shall avoid using taxiway `A` when there is a potential for conflict between the taxiway and any vacating traffic. 
 
-When Runway 23L is in operation aircraft will vacate at either `A6` or `A8`, and `A7`, `A5` or `A3` when 05R is in use.
+When Runway 23L is in operation aircraft will vacate at either `A4`, `A6` or `A8`, and `A7`, `A5` or `A3` when 05R is in use.
 
 When RWY 05R is active any domestic aircraft shall be given taxi instructions via `B` and `L`. Taxiway `M` may be utilized by controllers in order to get aircraft past any queues at holding point `A9`.
 
@@ -137,11 +137,11 @@ For Domestic aircraft that are departing to the North or Northeast, the Controll
 
 | Runway | Procedure  | Allowed A/C Categories | Is divergent?                  | Notes                                                                                                                       |
 | ------ | ---------- | ---------------------- | ------------------------------ | --------------------------------------------------------------------------------------------------------------------------- |
-| 05R    | `BROOK #Q` | Cat A to C             | Yes - >30° turn passing `A005` | Available to Cat C Jets for noise-abatement. AA TMR approval required.                                                      |
+| 05R    | `BROOK #Q` | Cat A to C             | Yes - >30° turn passing `A005` | Available to Cat C Jets for noise-abatement. AA TMA approval required.                                                      |
 | 05R    | `PAGLA #Q` | Cat A to D             | No                             | **Preferred departure for Cat C Jets**. Steep climb gradient - aircraft unable to meet this shall be given the `POLIS #Q`.  |
 | 05R    | `POLIS #Q` | Cat A to D             | No                             | **Preferred departure for Cat D Jets, or heavies**. Shallower climb gradient.                                               |
 | 05R    | `REKIS #Q` | Cat A to D             | Yes - >30° turn passing `A005` | **Preferred departure for Props**. May be given to jets provided they are comfortable with the 180kt limitation at `VINOD`. |
-| 05R    | `EMRAG #B` | Cat A to D             | No                             | Least preferred departure due to manual vectoring required.                                                                 |
+| 05R    | `EMRAG #Q` | Cat A to D             | No                             | Least preferred departure due to manual vectoring required.                                                                 |
 
 
 | Runway | Procedure  | Allowed A/C Categories | Is divergent?                  | Notes                                                                                                     |
@@ -183,3 +183,52 @@ As flights to the West, North, and Northeast require a turn against the circuit 
 ### Helicopters
 
 Helicopter operations are frequent within Auckland CTR/C, usually operating within one of the three sectors. Tower must ensure that no VFR aircraft are present within the Instrument Sector when an aircraft is either turning onto, or established on an approach. VFR aircraft are not authorised to operate under any approach path, or within 3nm laterally of the approach path.
+
+## Noise Abatement
+
+!!! warning "Use of Noise Abatement Operations"
+    The use of Noise Abatement Operations on the network is **not** mandatory, and Controllers may elect to provide a normal control service if they wish. As the primary Controller affected, the decision to implement Noise Abatement Operations sits with AA TMA.
+
+Auckland employs noise abatement procedures from 2300 until 0600 local in order to minimise disturbances over populated areas.
+
+### Use of the Preferential Runway System
+
+Use of the Preferential Runway System is not authorised and Controllers shall nominate a single runway direction for both take-off and landing.
+
+### Departures
+
+#### Rwy 05R
+
+Aircraft operating from Rwy 05R shall not be taken off the SID until passing `A030`. Aircraft shall not overfly the City lower than `A050` unless established on an approach or departure path.
+
+For all international departures the Controller shall issue the SID that is suggested by their Controller Client. For Domestic departures, Controllers shall observe the following SID assignment preferences:
+
+| Priority | Runway | Procedure      | Allowed A/C Categories | Notes                                                                                  |
+| -------- | ------ | -------------- | ---------------------- | -------------------------------------------------------------------------------------- |
+| 1        | 05R    | `BROOK #Q`     | Cat A to C             | AA TMR approval not required during Noise Abatement hours.                             |
+| 2        | 05R    | `REKIS #Q`     | Cat A to D             | **Preferred departure for Props**. Shall not be issued to Jets during Noise Abatement. |
+| 3        | 05R    | `POLIS #Q`     | Cat A to D             | **Preferred departure for Cat D Jets, or heavies**. Shallower climb gradient.          |
+| 4        | 05R    | All other SIDs |                        | Use of the `PAGLA #Q` departure shall be avoided.                                      |
+
+
+#### Rwy 23L
+
+Aircraft operating from Rwy 23L must climb to `A030` on the extended runway centreline before turning to the right on departure. Aircraft may turn left once above `A005`.
+
+There are no limits on the issuing of SIDs for Rwy 23L.
+
+### Arrivals
+
+#### Domestic
+
+There are no limitations on the assignment of STARs for Domestic traffic, however Controllers should avoid the issuing of RNP-linking STARs.
+
+#### International
+
+OCR has three Noise Abatement STARs that shall be issued as first preference. If track shortening is provided, Controllers shall ensure that aircraft do not overfly the city.
+
+| Runway | Procedure  | Transitions                                                             | Allowed A/C Categories |
+| ------ | ---------- | ----------------------------------------------------------------------- | ---------------------- |
+| 23L    | `BASIV #N` | `ELNOS` `SALAG` `UPLAR`                                                 | All                    |
+| 05R    | `RIKDI #N` | `KALAG` `AGREX` `TARIB` `SELKA` `AGEDU` `IDSEM` `DABAS` `AKLOM` `OLBEX` | All                    |
+| 23L    | `TAZEY #N` | `PEBLU` `VELMO`                                                         | All                    |

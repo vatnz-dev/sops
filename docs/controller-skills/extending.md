@@ -38,7 +38,7 @@ At the moment, most Controller Clients only allow a Controller to have one secto
 
 To alleviate this, a Controller providing an extended service shall make this known through their Controller Info text when logging on. This text shall include the active sectors being extended to, as well as any applicable frequencies. In doing this, the Controller shall ensure that a link to the relevant charts and feedback link is still provided.
 
-??? example "Examples of Controller Info for Extended Services"
+!!! example "Examples of Controller Info for Extended Services"
 
     === "NAK extending to all of NZ"
 
@@ -59,18 +59,18 @@ To alleviate this, a Controller providing an extended service shall make this kn
 
     === "BAY extending to OHA"
 
-      ```
-        Bay Approach - Extending to OHA
-        HN, TG, GS - 119.5  /  OH, PM, NR - 126.2
-        Need local charts? - vats.im/nz/charts
-        Provide Feedback - vats.im/nz/atc-fb
-      ```
+        ```
+          Bay Approach - Extending to OHA
+          HN, TG, GS - 119.5  /  OH, PM, NR - 126.2
+          Need local charts? - vats.im/nz/charts
+          Provide Feedback - vats.im/nz/atc-fb
+        ```
 
 ## Setting up vatSys
 
 To provide an extended service in vatSys, you will need to assume control of the relevant sectors, prime their frequency, and ensure your visibility range is set correctly.
 
-??? info "How to set up vatSys for Extended Services"
+!!! info "How to set up vatSys for Extended Services"
 
     === "Sectors"
 

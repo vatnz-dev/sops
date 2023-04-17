@@ -1,15 +1,15 @@
 ---
-  title: General Notes
+  title: NZTG - Tauranga
 ---
 
 --8<-- "includes/abbreviations.md"
 
 ## Control Positions and Navaids
 
-| Position Name  | Callsign   | Usage   |
-| -------------- | ---------- | ------- |
-| Tauranga Tower | NZTG_TWR   | Primary |
-| D-ATIS         | NZTG_ATIS  | ATIS    |
+| Position Name  | Shortcode  | Callsign        | Frequency   | Login ID       | Usage      |
+| -------------- | ---------- | --------------- | ----------- | ---------------| ---------- |
+| Tauranga ADC   | TTG        | Tauranga Tower  | 118.300     | NZTG_TWR       | Primary    |
+
  
 
 ## Layout

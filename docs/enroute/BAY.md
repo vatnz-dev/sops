@@ -49,7 +49,7 @@ When responsible for GS TWR, RAN may opt to provide a radar approach service, ra
 
 ### Oceanic
 
-Oceanic-bound aircraft are to required to cross the FIR boundary overhead a defined waypoint at their final flight level. BAY shall coordinate with ARO if an aircraft is unable.
+Oceanic-bound aircraft are required to cross the FIR boundary overhead a defined waypoint at their final flight level. BAY shall coordinate with ARO if an aircraft is unable.
 
 BAY shall give ARO a **10 minute warning** of an aircrafts crossing of the FIR boundary.
 
@@ -65,7 +65,7 @@ BAY shall issue STARs to aircraft bound for NZNP with coordination, and may desc
 
 ### AA TMA
 
-BAY shall issue STAR clearances to aircraft bound for any NZAA, NZAR or NZWP without coordination, provided it is for the nominated duty runway and approach type as stated in the ATIS. A request for use of a non-nominated approach (such as an RNP) requires agreement from both the TMA and ADC Controller.
+BAY shall issue STAR clearances to aircraft bound for NZAA, NZAR or NZWP without coordination, provided it is for the nominated duty runway and approach type as stated in the ATIS. A request for use of a non-nominated approach (such as an RNP) requires agreement from both the TMA and ADC Controller.
 
 BAY may descend aircraft to `A110` without coordination from AA TMA.
 

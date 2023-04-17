@@ -1,5 +1,5 @@
 ---
-  title: Class C Airspace
+  title: Class C
 ---
 
 --8<-- "includes/abbreviations.md"
