@@ -45,4 +45,22 @@ The areas of responsiblility are as depicted below.
 | Transfer Flow       | Requirements                                                                             | Notes                                                                                    |
 | ------------------- | ---------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
 | Delivery -> Ground  | Once PDC has been issued either through Voice or DCL.                                    | This is only effective if Ground is online otherwise the aircraft is transfered to Tower | 
-| Ground -> Tower     | Prior to arriving at their assigned hold, once clear of other traffic.
+| Ground -> Tower     | Prior to arriving at their assigned hold, once clear of other traffic.                   | This is only effective if Ground is online                                               |
+| Tower -> Ground     | Once clear of the active runway.                                                         | This is only effective if Ground is online otherwise aircraft remain with Tower          |
+| Tower -> Approach   | For airline traffic, when airborne. For GA, when leaving the zone, if applicable.        |                                                                                          |
+| Approach -> Tower   | When established on an instrument final, or if on an RNP approach, overhead the IAF.     |                                                                                          |
+
+## Clearance Delivery
+
+Clearances shall be ssued by the Delivery position (if online), and may be given via DCL or voice.
+
+## Ground 
+
+The following only applies if Ground is online, otherwise these operations will be managed by the Tower. 
+
+### Pushback
+
+Pushback and start up clearances are managed by the Ground Controller. For pushbacks on apron areas the phraseology “Pushback at your discretion” is used to indicate that the pushback
+is contained within an uncontrolled portion of the movement area and that ATC may not be aware of all apron activity.
+
+### Taxiing
