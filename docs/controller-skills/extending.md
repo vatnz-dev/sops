@@ -8,12 +8,12 @@ New Zealand airspace is unique in that we have seven sectors in fairly close pro
 
 ##  Workload
 
-When providing an extended service, it's important to realise that traffic levels can build quickly, and New Zealand's unique level of GA aircraft in such a small area can cause increased difficulty. Therefore, if you notice your quality of service degrading, you should cease extending to other sectors so that you can provide a quality service. Quality, not quantity is paramount.
+When providing an extended service, it's important to realise that traffic levels can build quickly, and New Zealand's unique level of GA aircraft in such a small area can cause increased difficulty. Therefore, if you notice your quality of service degrading, you should cease extending to other sectors so that you can provide a quality service. Quality, not quantity, is paramount.
 
 !!! warning "Controllers shall not change Airspace Classes"
     Controllers are not authorised to change the classes of airspaces under their control in order to alleviate traffic concerns.
 
-    **Example** - If you are providing an Extended Enroute service with multiple aircraft in the circuit pattern at Woodbourne, you are obligated to provide a service to them under the VATSIM top-down controlling methodology. A Controller shall not revert that airspace to Class G in order to redirect their attention to other aircraft. In this case, you would amend the extend of your extended sectors.
+    **Example** - If you are providing an Extended Enroute service with multiple aircraft in the circuit pattern at Woodbourne, you are obligated to provide a service to them under the VATSIM top-down controlling methodology. A Controller shall not revert that airspace to Class G in order to redirect their attention to other aircraft. In this case, you would amend the extent of your extended sectors.
 
 !!! warning "Controllers shall not extend into an Event Only position"
     When providing an extended service, Controllers shall not extend into an Event Only position. This inlcludes the use of either their callsign or frequency.
@@ -26,17 +26,17 @@ As Controllers are providing a lateral extension of coverage, Controllers shall 
 
 ### Frequency Management
 
-When providing extended services, Controllers must cross-couple all primary frequencies of the sectors they are extended into. 
+When providing extended services, Controllers must cross-couple all primary frequencies of the sectors they are extending into. 
 
-While most frequencies are still able to be heard at high-levels, when an aircraft crossed a sector boundary, the Controller shall also transfer the aircraft to that frequency. 
+While most frequencies are still able to be heard at altitude, when an aircraft crosses a sector boundary the Controller shall also transfer the aircraft to the respective frequency for that area.
 
-It is also a good idea to annotate the current frequency in the aircraft's data block using its' three letter designator - `NAK` or `OCR` for example.
+It is also a good idea to annotate the current frequency in the aircraft's data block using its three letter designator - `NAK` or `OCR` for example.
 
 ## Technical Limitations
 
-At the moment, most Controller Clients only allow a Controller to have one sector as their primary. This means that if you provide an extended service, only your primary sector will show as online to Pilots through their pilot clients, and other mapping services such as vPilot or Volanta.
+At the moment, most Controller Clients only allow a Controller to have one sector as their primary. This means that if you provide an extended service, only your primary sector will show as online to Pilots through their pilot clients, and other mapping services such as vatSpy or Volanta.
 
-To alleviate this, a Controller providing an extended service shall make this known through their Controller Info text when logging on. This text shall include the active sectors being extended to, as well as any applicable frequencies. In doing this, the Controller shall ensure that a link to the relevant charts and feedback link is still provided.
+To alleviate this, a Controller providing an extended service shall make this known through their Controller Information when logging on. This text shall include the active sectors being extended to, as well as any applicable frequencies. In doing this, the Controller shall ensure that a link to the relevant charts and feedback link is still provided.
 
 !!! example "Examples of Controller Info for Extended Services"
 

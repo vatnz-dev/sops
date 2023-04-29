@@ -4,6 +4,9 @@
 
 --8<-- "includes/abbreviations.md"
 
+!!! info "This is a work in progress!"
+    This page is currently being worked on by the team. It'll be here soon! If you want to help out, [have a look how you can help](../../contribute/index.md)! For the meantime, you should apply the comments made here in line with the skills taught in the VATNZ Controller Training Syllabus.
+
 | Name            | Callsign        | Frequency | Login    | Notes                       |
 | --------------- | --------------- | --------- | -------- | --------------------------- |
 | Faleolo Control | Faleolo Control | 126.900   | NSFA_CTR |                             |
