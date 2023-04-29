@@ -60,7 +60,20 @@ The following only applies if Ground is online, otherwise these operations will 
 
 ### Pushback
 
-Pushback and start up clearances are managed by the Ground Controller. For pushbacks on apron areas the phraseology “Pushback at your discretion” is used to indicate that the pushback
+Pushback and start up clearances are managed by the Ground Controller. For pushbacks on apron areas the phraseology “Push your discretion” is used to indicate that the pushback
 is contained within an uncontrolled portion of the movement area and that ATC may not be aware of all apron activity.
 
 ### Taxiing
+
+If ground is online taxi insturctions will be issued by them, otherwise it is delegated to Tower when ground is offline.  
+
+### Use of Holding Points 
+
+If `23` is the Duty Runway then `A4` hold shall be used for all departures, and for `05` `A3` hold shall be used. This is to ensure landing aircraft can backtrack and vacate, this also allows for a departing aircraft to backtrack after an arriving aircraft has passed that holding point. Increasing overall efficiency of arrivals and departures.  
+
+If `14/32` is to be used for light aircraft, then holding points are to be used as required or if specifically requested by the pilot. 
+
+## Tower
+
+The Tower Controller is responable for all arivals and departures, plus any VFR aircraft operating within the QN CTR/C. 
+
