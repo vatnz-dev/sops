@@ -42,13 +42,13 @@ The areas of responsibility are as depicted below. The areas marked in orange ha
 
 ### Transfer of Control Points
 
-| Transfer Flow      | Requirements                                                                                  | Notes                                                                                                                            |
-| ------------------ | --------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
-| Delivery -> Ground | Once PDC has been issued either through Voice or DCL                                          | Exceptions for the [Western](#western-apron) and [GCH](#gch-apron) aprons.                                                       |
-| Ground -> Tower    | Prior to arriving at their assigned hold, once clear of other traffic.                        | See conditions for [traffic crossing a Rwy](#traffic-crossing-rwy) and [traffic backtracking via Rwy 29](#backtrack-via-rwy-29). |
-| Tower -> Ground    | Once clear of the active Rwy.                                                                 | Tower may taxi aircraft vacating via `A4` to `A4 Hold 1` without coordination.                                                   |
-| Tower -> Approach  | For Airline traffic, once airborne. For GA traffic, prior to leaving the zone, if applicable. |                                                                                                                                  |
-| Approach -> Tower  | Once established on an instrument final, or overhead the IAF if on an RNP approach.           |                                                                                                                                  |
+| Transfer Flow      | Requirements                                                                                  | Notes                                                                                                                                            |
+| ------------------ | --------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Delivery -> Ground | Once PDC has been issued either through Voice or DCL                                          | Exceptions for the [Western](#western-apron) and [GCH](#gch-apron) aprons.                                                                       |
+| Ground -> Tower    | Prior to arriving at their assigned hold, once clear of other traffic.                        | See conditions for [traffic crossing a Rwy](#traffic-crossing-intersecting-runway) and [traffic backtracking via Rwy 29](#backtrack-via-rwy-29). |
+| Tower -> Ground    | Once clear of the active Rwy.                                                                 | Tower may taxi aircraft vacating via `A4` to `A4 Hold 1` without coordination.                                                                   |
+| Tower -> Approach  | For Airline traffic, once airborne. For GA traffic, prior to leaving the zone, if applicable. |                                                                                                                                                  |
+| Approach -> Tower  | Once established on an instrument final, or overhead the IAF if on an RNP approach.           |                                                                                                                                                  |
 
 
 ## Control Positions
@@ -79,11 +79,32 @@ Pushback and startup clearances are managed by the Ground Controller. Due to the
 | 26 to 28          | Jets                | No               | Twy `A`           | If Rwy 02 is active, Stand 28 shall be pushed clear of `A4`, or may be pushed on `A15` |
 | 29 to 35          | Jets                | No               | Twy `A15`         | International Stands                                                                   |
 
+#### Use of Holding Points
+
+Departures may occur from any intersection, providing that it does not interfere with the use of normal exits. 
+
+##### RWY 02
+
+When Runway 02 is in use, domestic jet traffic shall be issued `A6`, and international traffic issued `A7`. Domestic jet traffic may be re-issued `A7` if requested from the Pilot.
+
+Departing prop traffic is usually able to take a mid-field departure via `A5` or RWY 29. Arriving prop traffic will usually vacate via `A5`, so traffic may be instructed to hold short of RWY 02/20 on RWY 29, provided that Tower has [delegated the use of Runway 29 to Ground](#backtrack-via-rwy-29).
+
+##### RWY 20
+
+When Runway 20 is in use, domestic jet traffic shall be issued `A3`, and international traffic issued `A2`. Domestic jet traffic may be re-issued `A2` if requested by the Pilot.
+
+Departing prop traffic shall be issued `A4`, but may be re-issued `A3` if required for performance.
+
+##### High Performance Aircraft
+
+High performance aircraft, such as private jets or King Airs, may be issued any holding point, provided that it does not interfere with landing traffic. If a high performance aircraft is using a usual vacate route, any aircraft on approach shall be notified and instructed to roll out to the next runway vacate point.
+
+
 #### Dakota Apron
 
-Dakota Apron is used exclusively by Parcel Air (APK) and Airwork (AWK). Aircraft utilising this apron may be instructed to start at their discretion.
+Dakota Apron is used exclusively by Parcel Air (APK), Airwork (AWK) and Texel Air (XLR). Aircraft utilising this apron may be instructed to start at their discretion and report for taxi.
 
-When ready for taxi, aircraft may be given taxi instructions via Taxiway `F` if Runway 20 is active, or may be given a [backtrack via Runway 29](#backtrack-via-rwy-29) if Runway 02 is active.
+When ready for taxi, aircraft taxiing from the Dakota Apron may be instructed to cross Runway 29 and taxi via `F`, or may be given a [backtrack via Runway 29](#backtrack-via-rwy-29). A backtrack via Runway 29 is usually preferred, as it allows the Domestic ramp to continue to flow.
 
 #### Post Apron
 
@@ -91,7 +112,7 @@ The Post Apron is on the northern side of `A4`, and is used by DHL, Qantas Freig
 
 #### Romeo Apron
 
-The Romeo Apron is also a freight apron, although may be used for smaller Jets not parking at the GCH Apron. 
+The Romeo Apron is a transitional apron, and is commonly used by aircraft arriving at the aerodrome without a contracted parking location, or for overflow or long-term parking. 
 
 Aircraft utilising Stands R1A, R1B, and R3A stands may start on stand. Aircraft utilising Stands R1, R2 or R3 must be pushed onto `A15`.
 
@@ -99,19 +120,85 @@ Aircraft utilising Stands R1A, R1B, and R3A stands may start on stand. Aircraft 
 
 The Antarctic Apron is used for all military traffic, but may also be used for larger private traffic. Stands are not issued on this apron, and aircraft may start on stand.
 
-#### Traffic Crossing Rwy
+#### West of RWY 02/20
 
-Traffic crossing any runway must be given clearance, this can be included in the initial taxi clearance. The controller shall instruct aircraft to taxi to hold short of a runway if traffic exists on that runway.
+Aircraft operating within the bounds of the Western Apron shall be controlled in line with [the Western Apron special conditions](#western-apron). 
 
-#### Backtrack via Rwy 29
+#### Use of RWY 29/11 as a Taxiway
 
-Traffic taxiing to the Dakota Apron can be given backtrack via Runway 29, This is common practice during busy periods to avoid extra movements on taxiway `F`
+When RWY 29/11 is not in use Tower may delegate the use of RWY 29, south of the RWY 02/20 intersection, to Ground as a taxiway.
+
+##### Traffic crossing intersecting Runway
+
+When delegated RWY 29, the Ground Controller may authorise the aircraft to cross RWY 29 without seeking permission, or transferring that aircraft to Tower.
+
+!!! warning "When Runway 29/11 is in use"
+    The Ground Controller shall not assume crossing authority for the intersecting runway when Runway 29/11 is in use.
+
+!!! example "RTF for crossing a Runway"
+    **Christchurch Ground**: *"ANZ218, taxi holding point A6, Runway 02, via A. Cross Runway 29"*
+
+##### Backtrack via Rwy 29
+
+When delegated RWY 29, aircraft taxiing to or from the Dakota apron may be instructed to backtrack via RWY 29, avoiding taxiway `F`. Domestic prop traffic taxiing to or from the Domestic apron may also be instructed to backtrack via RWY 29 in order to avoid congestion on taxiway `F`.
 
 ### Tower
 
+In normal operation, RWY 02/20 shall be used. The use of RWY 29/11 is detailed in [the special conditions section](#use-of-rwy-2911-as-the-duty-rwy).
+
+The Tower shall ensure that all VFR traffic within the Christchurch CTR/C does not conflict with any IFR operations. IFR operations shall take precedence over VFR.
+
+Unless established within the aerodrome circuit, Tower must ensure that no VFR aircraft are present within the Instrument Sector when an aircraft is either turning onto, or established on an approach. VFR aircraft are not authorised to operate under any approach path, or within 3nm laterally of the approach path.
+
+When RWY 02/20 is in use, aircraft that have been cleared to operate within the West or East sectors are deemed to be separated from IFR arrivals on the ILS or RNP Z approaches, but not from RNP (AR) approaches. When RWY 29/11 is in use, VFR aircraft shall not be authorised to operate within the West, East or Instrument sectors.
+
+#### Simultaneous use of Grass and Sealed 02/20
+
+The simultaneous use of Grass and Sealed 02/20 is authorised, except that:
+
+  - Aircraft in the grass circuit must be informed of the arriving sealed traffic, and instructed to remain clear of the sealed runway.  
+  - Aircraft on approach for the sealed runway must be informed of the grass traffic.  
+  - When an aircraft using the sealed is under `A010`, no grass traffic shall be authorised to turn base leg, and must be instructed to hold in the downwind until the sealed traffic has landed.  
+  - There shall be no simultaneous use of the grass and sealed when sealed traffic is departing. In this case, grass traffic shall be instructed to hold in the downwind.  
+
+### Departures
+
+Aircraft departures shall be managed in-line with the [Runway Operations section](../../controller-skills/separation/#runway-operations).
+
+For the purposes of arrival and departure management, all Christchurch departures shall be treated as divergent - providing that the aircraft on approach is at the same, or lower approach category. 
+
+#### SID Assignment
+
+There are no discrete prop or jet SIDs at Christchurch, and the Controller shall issue the departure suggested by the Controller Client.
+
+#### Assigned Headings for PEDMI departures
+
+Where multiple departures have been assigned the `PEDMI #Q` SID, the Tower Controller may, with coordination with CH TMA, instruct the aircraft to fly a heading of 160°M and climb to `A050`. 
+
+Where a prop and jet have both been assigned the `PEDMI #Q`, the jet shall be issued the assigned heading due to its capacily to climb faster above the city.
+
+!!! example "RTF and coordination for Assigned Heading departure"
+    <span class="coldline">**CH TWR** -> **CH TMA**</span>: "Successive PEDMI departures. Request ANZ631 assigned heading 160°M climbing five thousand then yours for vectors. Second in queue."  
+    <span class="coldline">**CH TMR** -> **CH TWR**</span>: "ANZ631 approved heading 160 climbing five thousand then my vectors. Copy second in line."
+
+    **Christchurch Tower**: *"ANZ631, additional departure instructions, report ready to copy"*  
+    **ANZ631**: *"ANZ631, ready to copy"*  
+    **Christchurch Tower**: *"ANZ631, on departure turn left heading 160, climb five thousand."*  
+    **ANZ631**: *"On departure turn left heading 160, climbing five thousand. ANZ631."*
+
+<figure markdown>
+  ![Runway 20 manually assigned heading to the south upon takeoff](./assets/nzch-rwy20-assignedheading.png)
+  <figcaption>Manually assigned heading of 160°M, climbing to <code>A050</code>. Visualization in LittleNavMap and accurate as of AIRAC 2304.</figcaption>
+</figure>
+
 ## Special Conditions
 
+### Use of RWY 29/11 as the Duty RWY
+
 ### Western Apron
+
+Arriving / departing traffic from 11/29
+
 
 ### GCH Apron
 
