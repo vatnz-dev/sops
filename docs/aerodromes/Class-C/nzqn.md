@@ -65,7 +65,7 @@ is contained within an uncontrolled portion of the movement area and that ATC ma
 
 ### Taxiing
 
-If ground is online taxi insturctions will be issued by them, otherwise it is delegated to Tower when ground is offline.  
+If Ground is online taxi instructions will be issued by them, otherwise it is delegated to Tower.  
 
 ### Use of Holding Points 
 
