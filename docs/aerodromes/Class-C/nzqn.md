@@ -54,6 +54,19 @@ The areas of responsiblility are as depicted below.
 
 Clearances shall be issued by the Delivery position (if online) and may be given via DCL or voice.
 
+### SID Assignment 
+
+| Runway | Procedure  | Allowed Aircraft Catagories | RNP-AR Required | Notes                           |
+| ------ | ---------- | --------------------------- | ----------------|-------------------------------- |
+|   05   | `ANPOV #A` | Cat A to C                  | Yes             | **Preffered Jet Northbound**    |
+|   05   | `IPNOR #A` | Cat A to C                  | Yes             | **Preffered Jet International** | 
+|   05   | `DOVMA #A` | Cat B only                  | Yes             |                                 |
+|   05   | `GIXEL #`  | Cat A to C                  | No              | Contains a visual segment       |
+|   23   | `ANPOV #B` | Cat A to C                  | Yes             | **Preffered Jet Northbound**    |
+|   23   | `IPNOR #B` | Cat A to C                  | Yes             | **Preffered Jet International** | 
+|   23   | `REDOL #B` | Cat B only                  | Yes             |                                 | 
+|   23   | `VAPLI #`  | Cat A to C                  | No              | Contains a visual segment       |
+
 ## Ground 
 
 The following only applies if Ground is online, otherwise these operations will be managed by the Tower. 
@@ -76,4 +89,6 @@ If `14/32` is to be used for light aircraft, then holding points are to be used 
 ## Tower
 
 The Tower Controller is responsible for all arrivals and departures, plus any VFR aircraft operating within the QN CTR/C. 
+
+
 
