@@ -75,5 +75,5 @@ If `14/32` is to be used for light aircraft, then holding points are to be used 
 
 ## Tower
 
-The Tower Controller is responable for all arivals and departures, plus any VFR aircraft operating within the QN CTR/C. 
+The Tower Controller is responsible for all arrivals and departures, plus any VFR aircraft operating within the QN CTR/C. 
 
