@@ -69,7 +69,7 @@ If Ground is online taxi instructions will be issued by them, otherwise it is de
 
 ### Use of Holding Points 
 
-If `23` is the Duty Runway then `A4` hold shall be used for all departures, and for `05` `A3` hold shall be used. This is to ensure landing aircraft can backtrack and vacate, this also allows for a departing aircraft to backtrack after an arriving aircraft has passed that holding point. Increasing overall efficiency of arrivals and departures.  
+If `23` is the Duty Runway then `A4` hold shall be used for all departures, and for `05` `A3` hold shall be used. This is to ensure landing aircraft can backtrack and vacate and also allows for a departing aircraft to backtrack after an arriving aircraft has passed that holding point increasing overall efficiency of arrivals and departures.  
 
 If `14/32` is to be used for light aircraft, then holding points are to be used as required or if specifically requested by the pilot. 
 
