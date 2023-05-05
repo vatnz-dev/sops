@@ -46,9 +46,9 @@ The areas of responsiblility are as depicted below.
 | ------------------- | ---------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
 | Delivery -> Ground  | Once PDC has been issued either through Voice or DCL.                                    | This is only effective if Ground is online otherwise the aircraft is transfered to Tower | 
 | Ground -> Tower     | Prior to arriving at their assigned hold, once clear of other traffic.                   | This is only effective if Ground is online                                               |
-| Tower -> Ground     | Once clear of the active runway.                                                         | This is only effective if Ground is online otherwise aircraft remain with Tower          |
 | Tower -> Approach   | For airline traffic, when airborne. For GA, when leaving the zone, if applicable.        |                                                                                          |
-| Approach -> Tower   | When established on an instrument final, or if on an RNP approach, overhead the IAF.     |                                                                                          |
+| Approach -> Tower   | When established on an instrument final, or if on an RNP approach, overhead the IAF.     |  
+| Tower -> Ground     | Once clear of the active runway.                                                         | This is only effective if Ground is online otherwise aircraft remain with Tower          |                                                                                        |
 
 ## Clearance Delivery
 
