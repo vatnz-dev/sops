@@ -52,7 +52,7 @@ The areas of responsiblility are as depicted below.
 
 ## Clearance Delivery
 
-Clearances shall be ssued by the Delivery position (if online), and may be given via DCL or voice.
+Clearances shall be issued by the Delivery position (if online) and may be given via DCL or voice.
 
 ## Ground 
 
