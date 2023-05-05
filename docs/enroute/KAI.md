@@ -9,7 +9,7 @@
 
 | Sector Name                     | Shortcode | Callsign             | Frequency | Login ID   |
 | ------------------------------- | --------- | -------------------- | --------- | ---------- |
-| Christchurch Control (Kaikoura) | KAI       | Christchurch Control | 129.3     | NZCH-K_CTR |
+| Christchurch Control (Kaikoura) | KAI       | Christchurch Control | 129.4     | NZCH-K_CTR |
 
 ## Airspace
 
@@ -75,7 +75,7 @@ KAI shall ensure that any aircraft crossing the KAI/STH boundary is established 
 
 KAI may issue STAR clearances to aircraft bound for NZCH without coordination, provided that the STAR links with the nominated runway and approach type as stated in the ATIS. A request for the use of a non-nominated approach requires agreement from both the TMA and ADC Controller.
 
-KAI may descend aircraft to `A095` without coordination from CH TMA.
+KAI may descend aircraft to `A095` without coordination from CH TMA. But should assign `A110` as the standard descent level. 
 
 If a sequencing conflict is to occur, KAI shall coordinate with CH TMA as to an ideal arrival order.
 
