@@ -56,12 +56,15 @@ Clearances shall be issued by the Delivery position (if online) and may be given
 
 ### SID Assignment 
 
-| Runway | Procedure  | Allowed Aircraft Catagories | RNP-AR Required | Notes                           |
+| Runway | Procedure  | Allowed A/C Catagories      | RNP-AR Required | Notes                           |
 | ------ | ---------- | --------------------------- | ----------------|-------------------------------- |
 |   05   | `ANPOV #A` | Cat A to C                  | Yes             | **Preffered Jet Northbound**    |
 |   05   | `IPNOR #A` | Cat A to C                  | Yes             | **Preffered Jet International** | 
 |   05   | `DOVMA #A` | Cat B only                  | Yes             |                                 |
 |   05   | `GIXEL #`  | Cat A to C                  | No              | Contains a visual segment       |
+
+| Runway | Procedure  | Allowed A/C Catagories      | RNP-AR Required | Notes                           |
+| ------ | ---------- | --------------------------- | ----------------|-------------------------------- |
 |   23   | `ANPOV #B` | Cat A to C                  | Yes             | **Preffered Jet Northbound**    |
 |   23   | `IPNOR #B` | Cat A to C                  | Yes             | **Preffered Jet International** | 
 |   23   | `REDOL #B` | Cat B only                  | Yes             |                                 | 
