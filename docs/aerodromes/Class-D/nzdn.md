@@ -16,16 +16,16 @@ The Dunedin CTR/D follows the inner lateral boundries shown below from `SFC` to 
 
 
 <figure markdown>
-  ![Dunedin Control Zone](/assets/nzdn-airspace.png) 
+  ![Dunedin Control Zone](./assets/nzdn-airspace.png) 
   <figcaption>Dunedin Control Zone (CTR/D) and Control Area (CTA/D)</figcaption>
 </figure>
 
-## Areas of Responsibility (placeholder)
+## Areas of Responsibility
 
 The areas of responsibility are as depicted below.
 
 <figure markdown>
-  ![Dunedin Areas of Responsibility](./assets/nzaa-resp.png) 
+  ![Dunedin Areas of Responsibility](./assets/nzdn-resp.png) 
   <figcaption>Dunedin Areas of Responsibility</figcaption>
 </figure>
 
