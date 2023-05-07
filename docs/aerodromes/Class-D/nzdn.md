@@ -37,10 +37,10 @@ Clearances shall be issued by TDN, and may be given via DCL or voice.
 | Runway | Procedure  | Allowed A/C Categories | Notes                                                                                                                                     |
 | ------ | ---------- | ---------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
 | 21     | `BIDEL #Q` | Cat A to C             | **Preferred departure for northern-bound aircraft via `BIDEL`.**                                                                          |
-| 21     | `BIDEL #S` | Cat A to D             | More track miles to `BIDEL`, can be issued in the event of consecutive departures via `BIDEL`.                                             |
-| 21     | `BASOS #Q` | Cat A to D             | **Preferred departure for `QN` and western-bound international traffic.**                                                               |
-| 21     | `AKPIN #Q` | Cat A to D             | **Preferred departure for `NV` traffic.**                                                                                               |
-| 21     | `ALBOX #Q` | Cat A to D             | `NV` traffic.                                                                                                                                          |
+| 21     | `BIDEL #S` | Cat A to D             | More track miles to `BIDEL`, can be issued in the event of consecutive departures via `BIDEL`.                                            |
+| 21     | `BASOS #Q` | Cat A to D             | **Preferred departure for `QN` and western-bound international traffic.**                                                                 |
+| 21     | `AKPIN #Q` | Cat A to D             | **Preferred departure for `NV` traffic.**                                                                                                 |
+| 21     | `ALBOX #Q` | Cat A to D             | `NV` traffic.                                                                                                                             |
 | 21     | `OCEAN #`  | Cat A to D             | To `OREXI` and `SW`. Non-RNAV.                                                                                                            |
 | 21     | `BE #A`    | Cat A to D             | To `OREXI`. Non-RNAV.                                                                                                                     |
 | 21     | `BE #B`    | Cat A to D             | To `PORUT`. Non-RNAV.                                                                                                                     |
@@ -49,9 +49,9 @@ Clearances shall be issued by TDN, and may be given via DCL or voice.
 | Runway | Procedure  | Allowed A/C Categories | Notes                                                                                                                                     |
 | ------ | ---------- | ---------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
 | 03     | `BIDEL #P` | Cat A to D             | **Preferred departure for northern-bound aircraft via `BIDEL`.**                                                                          |
-| 03     | `BIDEL #R` | Cat A to D             | More track miles to `BIDEL`, can be issued in the event of consecutive departures via `BIDEL`.                                             |
-| 03     | `BASOS #P` | Cat A to D             | **Preferred departure for `QN` and western-bound international traffic.**                                                               |
-| 03     | `AKPIN #P` | Cat A to D             | **Preferred departure for `NV` traffic.**                                                                                               |
+| 03     | `BIDEL #R` | Cat A to D             | More track miles to `BIDEL`, can be issued in the event of consecutive departures via `BIDEL`.                                            |
+| 03     | `BASOS #P` | Cat A to D             | **Preferred departure for `QN` and western-bound international traffic.**                                                                 |
+| 03     | `AKPIN #P` | Cat A to D             | **Preferred departure for `NV` traffic.**                                                                                                 |
 | 03     | `SOUTH #`  | Cat A to D             | To `OREXI` and `PORUT`. Non-RNAV.                                                                                                         |
 | 03     | `SW #`     | Cat A to D             | To `BIDEL`, `MEGUG` `MIPAK`, `PORUT` and `QN`. Non-RNAV.                                                                                  |
 
