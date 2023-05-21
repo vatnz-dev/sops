@@ -32,7 +32,7 @@ KAI is responsible for the management of southbound NZCH arrivals, in addition t
 
 KAI shall ensure that an efficient arrival flow is managed into CH TMA from the North. 
 
-KAI shall ensure that aircraft overflying the CH TMA are no lower than `FL190` without coordination.
+KAI shall ensure that aircraft overflying the CH TMA are no lower than `A110` without coordination.
 
 ### WN TMA
 
@@ -75,7 +75,7 @@ KAI shall ensure that any aircraft crossing the KAI/STH boundary is established 
 
 KAI may issue STAR clearances to aircraft bound for NZCH without coordination, provided that the STAR links with the nominated runway and approach type as stated in the ATIS. A request for the use of a non-nominated approach requires agreement from both the TMA and ADC Controller.
 
-KAI may descend aircraft to `A095` without coordination from CH TMA. But should assign `A110` as the standard descent level. 
+KAI may descend aircraft to `A095` without coordination from CH TMA, but should assign `A110` as the standard descent level. 
 
 If a sequencing conflict is to occur, KAI shall coordinate with CH TMA as to an ideal arrival order.
 
