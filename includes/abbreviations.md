@@ -27,3 +27,11 @@
 *[RFL]: Requested Flight Level
 *[CFL]: Cleared Flight Level
 *[FPR]: Flight Plan Route
+*[OCR]: Oceanic Control Radar
+*[RAN]: Auckland Control (Raglan Sector)
+*[BAY]: Christchurch Control (Bay Sector)
+*[NAK]: Christchurch Control (Taranaki Sector)
+*[OHA]: Ohakea Control
+*[STH]: Christchurch Control (South Sector)
+*[KAI]: Christchurch Control (Kaikoura Sector)
+*[ARO]: Auckland Radio (Oceanic)
