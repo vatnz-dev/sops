@@ -38,7 +38,6 @@ theme:
 
 # Plugins
 plugins:
-  - social
   - search:
       lang: en
   - awesome-pages
