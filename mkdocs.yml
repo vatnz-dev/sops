@@ -18,10 +18,11 @@ theme:
     - scheme: default
       toggle:
         icon: material/weather-sunny
-        name: Switch to dark mode
+        name: Go to the dark side..
     - scheme: slate
       toggle:
         icon: material/weather-night
+        name: Shine some light on this!
   features:
     - navigation.tabs
     - navigation.tabs.sticky
