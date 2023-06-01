@@ -5,3 +5,5 @@ mkdocs-git-revision-date-localized-plugin
 mkdocs-redirects
 mkdocs-embed-external-markdown
 mkdocs-glightbox
+pillow
+cairosvg

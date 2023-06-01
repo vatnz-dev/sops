@@ -1,7 +1,7 @@
 # Project Information
 site_name: VATNZ Standard Operating Procedures
-site_description: Helpful information for people flying within the virtual New Zealand FIRs.
-site_url: http://sops.vatnz.net/
+site_description: Procedures and helpful information for Controllers to use when controlling a VATNZ position on the VATSIM network.
+site_url: https://sops.vatnz.net/
 repo_url: https://github.com/vatnz-dev/sops
 repo_name: vatnz-dev/sops
 edit_uri: "" #removes edit button and icon
@@ -38,6 +38,7 @@ theme:
 
 # Plugins
 plugins:
+  - social
   - search:
       lang: en
   - awesome-pages
