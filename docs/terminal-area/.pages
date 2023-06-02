@@ -1,10 +1,4 @@
 title: Terminal Area
 nav:
-    - index.md
-    - ATMA.md
-    - WTMA.md
-    - CTMA.md
-    - OTMA.md
-    - QTMA.md
-    - HTMA.md
-    - ...
+    - Overview: index.md
+    - Auckland TMA: atma.md
