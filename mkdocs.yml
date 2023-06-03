@@ -38,19 +38,19 @@ theme:
 
 # Plugins
 plugins:
-  - search:
-      lang: en
-  - awesome-pages
-  - git-revision-date-localized:
-      type: date
-  - external-markdown
-  - glightbox:
-       touchNavigation: true
-       effect: zoom
-       width: 100%
-       height: auto
-       zoomable: true
-       draggable: false
+  search:
+    lang: en
+  awesome-pages: {}
+  git-revision-date-localized:
+    type: date
+  external-markdown: {}
+  glightbox:
+    touchNavigation: true
+    effect: zoom
+    width: 100%
+    height: auto
+    zoomable: true
+    draggable: false
     
 
 # Styling Front-end
@@ -74,23 +74,23 @@ extra:
 
 # Additional Markdown Extensions to use bundled icon sets
 markdown_extensions:
-  - meta # Add front matter to a document
-  - admonition # Makes things pretty
-  - pymdownx.superfences # Nestled code
-  - attr_list # Add HTML attributes and CSS classes to Markdown elements
-  - pymdownx.tabbed: # Content tabs
-      alternate_style: true
-  - pymdownx.details # Additional features to admonition
-  - pymdownx.caret # Formatting Extension
-  - pymdownx.critic # Alternate Formatting Extension
-  - pymdownx.mark # Formatting Extension
-  - pymdownx.tilde # Formatting Extension
-  - pymdownx.keys # Visual keyboard keys extension
-  - pymdownx.tasklist:
-      custom_checkbox: true
-  - pymdownx.emoji: # Allows emoji style inline embeds for icons
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
-  - md_in_html #enables the use of image figures
-  - abbr
-  - pymdownx.snippets
+  meta: {} # Add front matter to a document
+  admonition: {} # Makes things pretty
+  pymdownx.superfences: {} # Nestled code
+  attr_list: {} # Add HTML attributes and CSS classes to Markdown elements
+  pymdownx.tabbed: # Content tabs
+    alternate_style: true
+  pymdownx.details: {} # Additional features to admonition
+  pymdownx.caret: {} # Formatting Extension
+  pymdownx.critic: {} # Alternate Formatting Extension
+  pymdownx.mark: {} # Formatting Extension
+  pymdownx.tilde: {} # Formatting Extension
+  pymdownx.keys: {} # Visual keyboard keys extension
+  pymdownx.tasklist:
+    custom_checkbox: true
+  pymdownx.emoji: # Allows emoji style inline embeds for icons
+    emoji_index: !!python/name:materialx.emoji.twemoji
+    emoji_generator: !!python/name:materialx.emoji.to_svg
+  md_in_html: {} #enables the use of image figures
+  abbr: {}
+  pymdownx.snippets: {}
