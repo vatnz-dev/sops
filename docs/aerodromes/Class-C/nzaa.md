@@ -173,11 +173,12 @@ In order to lessen the amount of instructions given to VFR traffic, the Controll
 
 ### Departure
 
-In order to lessen the amount of instructions given to VFR traffic, the Controller shall issue the `Mangere Bridge` VFR departure at all times. Once the Pilot reaches Mangere Bridge, the aircraft shall be handed off to UNICOM or Approach where appropriate. [AIP Chart refers](https://www.aip.net.nz/assets/AIP/Aerodrome-Charts/Auckland-NZAA/NZAA_64.1.pdf){ target=new }.
+In order to lessen the amount of instructions given to VFR traffic, the Controller shall issue the `Mangere Bridge` VFR departure at all times - ([AIP Chart](https://www.aip.net.nz/assets/AIP/Aerodrome-Charts/Auckland-NZAA/NZAA_64.1.pdf){ target=new }). Once the Pilot reaches Mangere Bridge, the aircraft shall be handed off to UNICOM or Approach where appropriate. 
 
-As flights to the West, North, and Northeast require a turn against the circuit direction, the Tower shall approve a turn against the circuit direction (traffic permitting)
+If a departing VFR aircraft requests to climb into controlled airspace, this shall be coordinated with Approach. The Tower Controller may amend the clearance as they see fit while the aircraft is in their Control Zone, however must be coordinated with Approach if the ammendment changes their Control Area entry point.
 
-On inital clearance for a VFR departure (not remaining in the circuit) the delivery controller shall only issue the `Mangere Bridge` departure unless the aircraft requests to climb into controlled airspace, in which case this shall be taken on a case by case matter and shall be coordinated with ATMA (or OCR if ATMA offline). The Tower Controller is responsible for making amendments to this clearance as they see fit, and may give any instruction either to benifit the pilot, to make a sequence more managable or to avoid other aircraft. 
+As flights to the West, North, and Northeast require a turn against the circuit direction, the Tower may approve a turn against the circuit direction.
+
 
 !!! example "Turn against the Circuit direction"
     **Auckland Tower**: *"On departure a left/right turn is approved. Runway 05R/23L, cleared for takeoff"*
