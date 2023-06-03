@@ -1,6 +1,5 @@
 ---
   title: Class D 
-
 ---
 
 Class D airspace normally applies to CTRs and CTAs surrounding regional aerodromes, such as Rotorua and Nelson.
