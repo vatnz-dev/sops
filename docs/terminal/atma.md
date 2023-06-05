@@ -43,7 +43,9 @@ The Auckland CTA/C follows the lateral and vertical boundaries as shown below.
 
 Aircraft released to ATMA may be tracked direct to a fix or assigned a heading to aid with sequencing or for the benifit of the pilot. 
 
-Aircraft must climb to A030 on the extended runway centreline before turning North on departure. Aircraft may be turned south passing A005. 
+Aircraft must climb to A030 on the extended runway centreline before turning North on departure. Aircraft may be turned South passing A005. 
+
+ATMA may track aircraft direct to the following positions without coordintation to OCR, RAN and BAY. Any waypoint before or abeam NP in RAN including LAKAR. HN, TAPAT, BOGUN
 
 
 ## Arrivals 
