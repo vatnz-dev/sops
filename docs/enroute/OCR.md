@@ -55,7 +55,7 @@ OCR may clear aircraft direct to the STAR's AA TMA boundary fix without coordina
 
 #### Auckland Night STARs
 
-For Noise Abatement Procedures, see the [Auckland Aerodrome page](../aerodromes/Class-C/nzaa.md#noise-abatement).
+For Noise Abatement Procedures, see the [Auckland Terminal page](../terminal/atma.md#noise-abatement).
 
 ### Oceanic
 
