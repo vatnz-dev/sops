@@ -193,7 +193,12 @@ Where a prop and jet have both been assigned the `PEDMI #Q`, the jet shall be is
 
 ## Special Conditions
 
-### Use of RWY 29/11 as the Duty RWY
+!!! warning "Section still under development"
+    This section is still under development. 
+
+    Please note that these are special conditions that deviate away from norms. In this case, where a section links here, use your best judgement in the interim.
+
+<!-- ### Use of RWY 29/11 as the Duty RWY
 
 ### Western Apron
 
@@ -202,6 +207,4 @@ Arriving / departing traffic from 11/29
 
 ### GCH Apron
 
-## Departures
-
-## VFR Procedures
+## VFR Procedures -->
