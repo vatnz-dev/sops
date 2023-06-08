@@ -24,6 +24,9 @@
 *[DCL]: Digital Clearance Delivery
 *[PDC]: Pre Departure Clearance 
 *[IDF]: Initial Departure Fix
+*[IAF]: Initial Approach Fix
+*[FAF]: Final Approach Fix (Non-Precision Approaches)
+*[FAP]: Final Approach Point (Precision Approaches)
 *[RFL]: Requested Flight Level
 *[CFL]: Cleared Flight Level
 *[FPR]: Flight Plan Route

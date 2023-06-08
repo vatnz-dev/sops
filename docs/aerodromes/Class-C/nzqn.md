@@ -52,23 +52,7 @@ The areas of responsiblility are as depicted below.
 
 ## Clearance Delivery
 
-Clearances shall be issued by the Delivery position (if online) and may be given via DCL or voice.
-
-### SID Assignment 
-
-| Runway | Procedure  | Allowed A/C Catagories      | RNP-AR Required | Notes                           |
-| ------ | ---------- | --------------------------- | ----------------|-------------------------------- |
-|   05   | `ANPOV #A` | Cat A to C                  | Yes             | **Preffered Jet Northbound**    |
-|   05   | `IPNOR #A` | Cat A to C                  | Yes             | **Preffered Jet International** | 
-|   05   | `DOVMA #A` | Cat B only                  | Yes             |                                 |
-|   05   | `GIXEL #`  | Cat A to C                  | No              | Contains a visual segment       |
-
-| Runway | Procedure  | Allowed A/C Catagories      | RNP-AR Required | Notes                           |
-| ------ | ---------- | --------------------------- | ----------------|-------------------------------- |
-|   23   | `ANPOV #B` | Cat A to C                  | Yes             | **Preffered Jet Northbound**    |
-|   23   | `IPNOR #B` | Cat A to C                  | Yes             | **Preffered Jet International** | 
-|   23   | `REDOL #B` | Cat B only                  | Yes             |                                 | 
-|   23   | `VAPLI #`  | Cat A to C                  | No              | Contains a visual segment       |
+Clearances shall be issued by Queewnstown Delivery (if online) and may be given via DCL or voice.
 
 ## Ground 
 
@@ -99,5 +83,41 @@ If `14/32` is to be used for light aircraft, then holding points are to be used 
 
 The Tower Controller is responsible for all arrivals and departures, plus any VFR aircraft operating within the QN CTR/C. 
 
+Unless established within the aerodrome circuit, Tower must ensure that no VFR aircraft are present within the Instrument Sector when an aircraft is beyond the FAP of the active approach procedure. VFR aircraft are not authorised to operate under any approach path, or within 3nm laterally of the approach path.
 
+Aircraft that have been cleared to operate in accordance with the Northbound or Southbound visual procedures are deemed to be separated from IFR arrivals on the RNP (AR) approaches, as these run East and West.
+
+## Departures
+
+Aircraft departures shall be managed in-line with the [Runway Operations section](../../controller-skills/seperation#runway-operations). 
+
+### SID Assignment 
+
+| Runway | Procedure     | Allowed A/C Catagories      | RNP-AR Required | Notes                           |
+| ------ | ------------- | --------------------------- | ----------------|-------------------------------- |
+|   05   | `ANPOV #A`    | Cat A to C                  | Yes             | **Preffered Jet Northbound**    |
+|   05   | `BRIDGE #`    | Cat A to C                  | No              | Strictly Visual Procedure       |
+|   05   | `IPNOR #A`    | Cat A to C                  | Yes             | **Preffered Jet International** | 
+|   05   | `DOVMA #A`    | Cat B only                  | Yes             |                                 |
+|   05   | `GIXEL #`     | Cat A to C                  | No              | Contains a visual segment       |
+
+| Runway | Procedure     | Allowed A/C Catagories      | RNP-AR Required | Notes                           |
+| ------ | ------------- | --------------------------- | ----------------|-------------------------------- |
+|   23   | `ANPOV #B`    | Cat A to C                  | Yes             | **Preffered Jet Northbound**    |
+|   23   | `FRANKTON #`  | Cat A to C                  | No              | Strictly Visual Procedure       |
+|   23   | `IPNOR #B`    | Cat A to C                  | Yes             | **Preffered Jet International** | 
+|   23   | `REDOL #B`    | Cat B only                  | Yes             |                                 | 
+|   23   | `VAPLI #`     | Cat A to C                  | No              | Contains a visual segment       |
+
+### Helicopters
+
+Helicopter operations are very frequent within Queenstown CTR/C, usually operating outside Tower's airspace but must be managed with care. 
+
+!!! warning
+    A reminder that Queenstown Tower must ensure that no VFR aircraft are present within the Instrument Sector when an aircraft is beyond the FAP of the active approach procedure.
+
+
+### Use of the Preferential Runway System
+
+Use of the Preferential Runway System is not authorised and Controllers shall nominate a single runway direction for both take-off and landing.
 
