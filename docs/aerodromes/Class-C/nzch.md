@@ -33,12 +33,15 @@ The Christchurch CTR/C follows the lateral boundaries as shown below from `SFC` 
 
 ## Areas of Responsibility
 
-The areas of responsibility are as depicted below. The areas marked in orange have special condition-based rules, and can be read about here - [GCH Apron](#gch-apron) and [Western Apron](#aeroclub-apron).
+The areas of responsibility are as depicted below.
 
 <figure markdown>
   ![Christchurch Areas of Responsibility](./assets/nzch-resp.png)
   <figcaption>Christchurch Areas of Responsibility</figcaption>
 </figure>
+
+!!! Notes
+    The areas marked in orange have special condition-based rules, and can be read about here - [GCH Apron](#gch-apron) and [Western Apron](#aeroclub-apron).
 
 ### Transfer of Control Points
 
