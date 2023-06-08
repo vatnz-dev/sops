@@ -43,9 +43,9 @@ The Auckland CTA/C follows the lateral and vertical boundaries as shown below.
 
 Aircraft released to ATMA may be tracked direct to a fix or assigned a heading to aid with sequencing or for the benifit of the pilot. 
 
-ATMA shall note that all Prop SIDs out of AA contain a hold down of `A050`. ATMA shall climb the aircraft as required. Note that not all pilots will be aware of this hold down, therefore if an aircraft iS to be held down at `A050` the pilot shall be told to `Climb to A050`. It shall also be noted that the `BROOK #Q` has a altitude restriction of between `A025` and `A040`. 
+ATMA shall note that all Prop SIDs out of AA contain a hold down of `A050`. ATMA shall climb the aircraft as required. Note that not all pilots will be aware of this hold down, therefore if an aircraft is to be held down at `A050` the pilot shall be told to *"Climb to 5000"*. It shall also be noted that the `BROOK #Q` has a altitude restriction of between `A025` and `A040`. 
 
-Aircraft must climb to A030 on the extended runway centreline before turning North on departure. Aircraft may be turned South passing A005. 
+Aircraft must climb to `A030` on the extended runway centreline before turning North on departure. Aircraft may be turned South passing A005. 
 
 ATMA may track aircraft direct to the following positions without coordintation to OCR, RAN and BAY. Any waypoint before or abeam NP in RAN including LAKAR. And other waypoints such as HN, TAPAT and BOGUN. 
 
@@ -67,7 +67,7 @@ For track shortening aircraft may be tracked direct SABAV and GITUK for the ILS 
 !!! warning "Use of Noise Abatement Operations"
     The use of Noise Abatement Operations on the network is **not** mandatory, and Controllers may elect to provide a normal control service if they wish. As the primary Controller affected, the decision to implement Noise Abatement Operations sits with AA TMA.
 
-Auckland employs noise abatement procedures from 2300 until 0600 local in order to minimise disturbances over populated areas.
+      *Auckland employs noise abatement procedures from 2300 until 0600 local in order to minimise disturbances over populated areas.*
 
 ### Use of the Preferential Runway System
 
@@ -75,7 +75,7 @@ Use of the Preferential Runway System is not authorised and Controllers shall no
 
 ### Departures
 
-#### Rwy 05R
+#### Runway 05R
 
 Aircraft operating from Rwy 05R shall not be taken off the SID until passing `A030`. Aircraft shall not overfly the City lower than `A050` unless established on an approach or departure path.
 
@@ -89,7 +89,7 @@ For all international departures the Controller shall issue the SID that is sugg
 | 4        | 05R    | All other SIDs |                        | Use of the `PAGLA #Q` departure shall be avoided.                                      |
 
 
-#### Rwy 23L
+#### Runway 23L
 
 Aircraft operating from Rwy 23L must climb to `A030` on the extended runway centreline before turning to the right on departure. Aircraft may turn left once above `A005`.
 
