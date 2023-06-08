@@ -4,6 +4,7 @@ title: NZCH - Christchurch
 
 --8<-- "includes/abbreviations.md"
 
+
 ## Positions
 
 | Position Name    | Shortcode | Callsign              | Frequency | Login ID | Usage     |
@@ -211,3 +212,8 @@ Arriving / departing traffic from 11/29
 ### GCH Apron
 
 ## VFR Procedures -->
+=======
+!!! info "This is a work in progress!"
+    This page is currently being worked on by the team. It'll be here soon! If you want to help out, [have a look how you can help!](../../contribute/index.md)
+    
+

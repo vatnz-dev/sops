@@ -9,7 +9,7 @@
 
 | Sector Name                  | Shortcode | Callsign             | Frequency | Login ID   |
 | ---------------------------- | --------- | -------------------- | --------- | ---------- |
-| Christchurch Control (South) | STH       | Christchurch Control | 129.4     | NZCH-S_CTR |
+| Christchurch Control (South) | STH       | Christchurch Control | 129.3     | NZCH-S_CTR |
 
 ## Airspace
 
@@ -43,7 +43,7 @@ STH shall ensure that an efficient arrival flow is managed into QN TMA.
 
 When QN TMA is offline, STH automatically inherits QN TMA's airspace.
 
-STH shall ensure that aircraft overflying the CH TMA are no lower than `FL190` without coordination.
+STH shall ensure that aircraft overflying the QN TMA are no lower than `FL190` without coordination.
 
 ### CH TMA
 
@@ -55,13 +55,13 @@ STH shall ensure that aircraft overflying the CH TMA are no lower than `A110` wi
 
 STH shall ensure that an efficient arrival flow is managed into DN TWR's airspace. 
 
-When DN TWR is offline, the DN Procedural Tower service shall be provided by STH. When responsible for DN TWR,  STH may opt to provide a radar approach service, rather than a procedural approach service.
+When DN TWR is offline, the DN Procedural Tower service shall be provided by STH. When responsible for DN TWR, STH may opt to provide a radar approach service, rather than a procedural approach service.
 
 ### NV TWR
 
 STH shall ensure that an efficient arrival flow is managed into NV TWR's airspace. 
 
-When NV TWR is offline, the NV Procedural Tower service shall be provided by STH. When responsible for NV TWR,  STH may opt to provide a radar approach service, rather than a procedural approach service.
+When NV TWR is offline, the NV Procedural Tower service shall be provided by STH. When responsible for NV TWR, STH may opt to provide a radar approach service, rather than a procedural approach service.
 
 
 ## Coordination
@@ -92,7 +92,7 @@ STH shall ensure that any aircraft crossing the STH/KAI boundary is established 
 
 STH shall issue STARs to aircraft bound for NZQN without coordination, provided that the STAR links with either the `RNP Y (AR)` or `RNP Z (AR)` approaches. If a non-standard approach is requested, such as the `RNP F` or `VOR DME`, coordination shall occur. This requires agreement from both the TMA and ADC Controller.
 
-STH may descend aircraft to `FL175` without coordination from QN TMA.
+STH may descend aircraft to `FL175` without coordination from QN TMA, although shall assign `FL180` as standard.
 
 Due to the unique geography of NZQN, a standard sequence of at least 15nm shall be maintained between any aircraft commencing on a STAR.
 
@@ -114,7 +114,7 @@ STH may clear aircraft direct to the STAR's CH TMA boundary without coordination
 
 STH shall issue STARs to aircraft bound for NZDN without coordination from DN TWR. 
 
-STH may descend NZDN bound aircraft to `A135`, unless the aircraft has been given the `BASOS` oceanic STAR, where the following conditions apply -
+STH may descend NZDN bound aircraft to `A100`, unless the aircraft has been given the `BASOS` oceanic STAR, where the following conditions apply -
 
   -  The aircraft shall be descended no lower than `FL190` whilst overflying QN TMA airspace. If further descent is required, the aircraft shall be handed to QN TMA, who will hand the aircraft back no later that 15nm from `BASOS`. 
 

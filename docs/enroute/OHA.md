@@ -52,7 +52,7 @@ When responsible for NR TWR, OHA may opt to provide a radar approach service, ra
 
 ### Oceanic
 
-Oceanic-bound aircraft are required to cross the FIR boundary at their CFL and via a defined waypoint. 
+Oceanic-bound aircraft are required to cross the FIR boundary at their RFL and via a defined waypoint. 
 
 OHA may clear Oceanic bound aircraft direct to their boundary crossing fix without coordination from ARO. If aircraft request an amendment to their RFL, this shall be coordinated with ARO.
 
@@ -60,7 +60,7 @@ OHA shall give ARO a **10 minute warning** of the aircraft's crossing of the FIR
 
 When traffic crosses into the NZZC FIR from NZCI, they shall be identified in the normal manner, and provided with a domestic squawk code. 
 
-??? hint "RTF for NZCI-bound traffic"
+!!! hint "RTF for NZCI-bound traffic"
     Traffic bound for NZCI shall be advised that they will be uncontrolled, and that ARO is proving a limited monitoring service.
 
     Aircraft bound for NZCI typically remain at flight levels under the Lower Limit of Oceanic airspace, and shall be handed over to UNICOM when crossing the FIR boundary. BAY shall advise ARO in the same manner as a reqular Oceanic flight, as Oceanic will maintain a limited monitoring service.
@@ -71,7 +71,7 @@ When traffic crosses into the NZZC FIR from NZCI, they shall be identified in th
 
 OHA shall assign STARs to any aircraft bound for NZAA without coordination, provided it is for the nominated runway and approach type as stated in the ATIS. A request for use of a non-nominated approach requires coordination from RAN, who will liaise with AA TMA and ADC.
 
-While descent is normally provided by RAN, NAK may descend props to `FL150` and jets to `FL190` without coordination from RAN.
+While descent is normally provided by RAN, OHA may descend props to `FL150` and jets to `FL190` without coordination from RAN.
 
 ### NAK
 
@@ -101,9 +101,9 @@ OHA may descend aircraft to `A110` without coordination from WN TMA.
 
 If a sequencing conflict is to occur, OHA shall coordinate with WN TMA as to an ideal arrival order. 
 
-OHA may clear aircraft direct to the STAR's WN TMA boundary fix without coordination, provided that they have been cleared to rejoin the STAR after that point. Aircraft may be cleared to track direct to a fix within WN TMA's boundary with co-ordination, subject to the same condition.
+OHA may clear aircraft direct to the STAR's WN TMA boundary fix without coordination, provided that they have been cleared to rejoin the STAR after that point. Aircraft may be cleared to track direct to a fix within WN TMA's boundary with coordination, subject to the same condition.
 
-??? hint "RTF for rejoining a STAR"
+!!! hint "RTF for rejoining a STAR"
     **NAK**: *New Zealand 677, track direct LADIT to rejoin the STAR. When ready descend A080*.
 
-    **Note**: As `LADIT` sits within WN TMA's airspace, co-ordination would be required. 
+    **Note**: As `LADIT` sits within WN TMA's airspace, coordination would be required. 

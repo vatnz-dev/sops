@@ -17,7 +17,7 @@ When WN TMA is offline, NAK automatically inherits and assumes responsibility fo
 
 When NS TWR is offline, NAK automatically inherits the TWR and Procedural Approach services provided by NS TWR. See [the responsibilities section on NS TWR](#ns-twr). 
 
-When NP TWR is offline, NAK **does not** assume this position, as this is provided by RAN. See [the responsibilities section on NP TWR](#np-twr).
+When NP TWR is offline, NAK **does not** automatically assume this position, as this is provided by RAN. See [the responsibilities section on NP TWR](#np-twr).
 
 <figure markdown> 
   ![Taranaki's Airspace](assets/NAK.png)
@@ -34,22 +34,22 @@ NAK shall ensure that an efficient arrival flow is managed into WN TMA.
 
 ### NS TWR
 
-When NS TWR is offline, RAN is responsible for all functions of NS TWR, including the Procedural Tower service. 
+When NS TWR is offline, NAK is responsible for all functions of NS TWR, including the Procedural Tower service. 
 
-When responsible for NS TWR, RAN may opt to provide a radar approach service, rather than a procedural approach service.
+When responsible for NS TWR, NAK may opt to provide a radar approach service, rather than a procedural approach service.
 
 ### NP TWR
 
 When NP TWR is offline, the NP Procedural Tower service shall be provided by RAN or OCR. If these sectors are offline, NAK may elect to provide the same service, although not mandatory. 
 
-When responsible for NP TWR, RAN may opt to provide a radar approach service, rather than a procedural approach service.
+When responsible for NP TWR, NAK may opt to provide a radar approach service, rather than a procedural approach service.
 
 
 ## Coordination
 
 ### Oceanic
 
-Oceanic-bound aircraft are required to cross the FIR boundary at their CFL and via a defined waypoint. 
+Oceanic-bound aircraft are required to cross the FIR boundary at their RFL and via a defined waypoint. 
 
 NAK may clear Oceanic bound aircraft direct to their boundary crossing fix without coordination from ARO. If aircraft request an amendment to their RFL, this shall be coordinated with ARO.
 
@@ -92,7 +92,7 @@ NAK shall not normally descend aircraft into STH sector unless bound for an airc
 
 If further descent is required, NAK shall clear the aircraft to leave controlled airspace on descent through `A135`, report to STH when on the ground, and hand the tag to STH. This shall be coordinated beforehand.
 
-??? hint "RTF for leaving CTA and transferring radar monitoring"
+!!! hint "RTF for leaving CTA and transferring radar monitoring"
     **NAK**: *LDM inbound Hokitika on BOSLA arrival requests further descent. Request descent below CTA and transfer radar monitoring your frequency.*  
     **STH**: *LDM is cleared below CTA and I accept radar monitoring on this frequency.*
 
@@ -113,12 +113,12 @@ NAK may descend aircraft to `A110` without coordination from WN TMA.
 
 If a sequencing conflict is to occur, NAK shall coordinate with WN TMA as to an ideal arrival order. 
 
-NAK may clear aircraft direct to the STAR's WN TMA boundary fix without coordination, provided that they have been cleared to rejoin the STAR after that point. Aircraft may be cleared to track direct to a fix within WN TMA's boundary with co-ordination, subject to the same condition.
+NAK may clear aircraft direct to the STAR's WN TMA boundary fix without coordination, provided that they have been cleared to rejoin the STAR after that point. Aircraft may be cleared to track direct to a fix within WN TMA's boundary with coordination, subject to the same condition.
 
-??? hint "RTF for rejoining a STAR"
+!!! hint "RTF for rejoining a STAR"
     **NAK**: *New Zealand 677, track direct RIPPA to rejoin the STAR. When ready descend A080*.
 
-    **Note**: As `RIPPA` sits within WN TMA's airspace, co-ordination would be required.
+    **Note**: As `RIPPA` sits within WN TMA's airspace, coordination would be required.
 
 ### NP TWR
 
