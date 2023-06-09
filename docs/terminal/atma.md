@@ -58,7 +58,11 @@ ATMA is responsible for issuing STAR clearances for Hamilton and Tauranga
 
 Aircraft recivced from OCR, RAN and BAY shall be assigned the standard level of `A110`, or at time aircraft may be assigned different levels depending on the situation. 
 
-For track shortening aircraft may be tracked direct SABAV and GITUK for the ILS or ZORBA, ELBOP, and ATAMA for RNP-ARs.  
+Controllers are expected to be aware of the different STARs leading to AA and what STARs lead to what approach, therefore the following track shortening in low levels of traffic or for sequencing shall be applied. 
+
+For track shortening aircraft may be tracked direct SABAV and GITUK for the ILS or ZORBA, ELBOP, and ATAMA for RNP-ARs.  Any International arrivals shall expect mininimal track shortening as due to the layout of the STARs. 
+
+In relation to [Noise Abatement](../terminal/atma.md#noiseabatement) Controllers shall also note that the RNAV (RNP) S, U, X  for all runways and the RNP Y RWY 23L are only available between 0700 and 2200 local. However the RNAV (RNP) Y RWY 05R is available H24. 
 
 
 
