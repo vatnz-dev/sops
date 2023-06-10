@@ -59,7 +59,7 @@ Clearances shall be issued by TDN, and may be given via DCL or voice.
 
 Pushback and startup clearence from stand one to five is managed by TDN. Controllers can make use of a "tail-facing" instruction to manage direction of pushback. Aircraft on taxiway `C` must contact TDN at `C2` holding point before proceeding.
 
-Taxi instructions must include a 'backtrack' instruction, unless the pilot advises they are able to accept an intersection departure from taxiway `A`. Traffic permitting, the controller may choose to omit the taxiway to be used and simply give the backtrack instruction - example below.
+An aircraft may be taxiied to the holding point, traffic permitting the aircraft may be given backtrack as apart of the taxi clearance and also traffic permitting the controller may choose to omit the taxiway. Aircraft may advise the controller they are able to accept an intersection departure, therefore they may be taxiied to the holding point, omiting the backtrack instruction.
 
 !!! example "Taxi Instruction"
     **ANZ758M**: *"ANZ758M, request taxi."*
