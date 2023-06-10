@@ -35,7 +35,7 @@ The Auckland CTA/C follows the lateral and vertical boundaries as shown below.
 |Transfer Flow         | Requirements                                                 | Notes                                                                       | 
 | -------------------- | ------------------------------------------------------------ | --------------------------------------------------------------------------- | 
 | Tower -> Approach    | Once the aircraft becomes airborne off the runway            | Tower shall instruct all aircraft to contact ATMA airborne                  |
-| Approach -> Control  | Once the aircraft are approaching the lateral bounds         | Aircraft can be handed off when nothing further is required of the aircraft | 
+| Approach -> Control  | Once the aircraft are approaching the lateral bounds         | Aircraft may be handed off when nothing further is required of the aircraft | 
 | Control -> Approach  | Once the aircraft is appraching the cleared level by control | Aircraft may not always be cleared to A110 when handed to ATMA              | 
 | Approach -> Tower    | Once established on final (ILS/LOC) or over the IAF (RNP)    |                                                                             |
 
@@ -51,14 +51,18 @@ ATMA may track aircraft direct to the following positions without coordintation 
 
 ### STAR Clearances 
 
-ATMA is responsible for issuing STAR clearances for Hamilton and Tauranga 
+ATMA is responsible for issuing STAR clearances for aircraft bound for Hamilton and Tauranga. With coordination to BAY and HTMA (if online) on the appropriate STAR. IFR Training is popular between AR and HN so if there are any special details of an aircraft or a specific request from the pilot this shall also be passed onto HTMA (or BAY if HTMA offline). 
+
+### Assigned Headings 
+
+As per [Assigned Headings](../aerodromes/Class-C/nzaa.md#assigned-headings) ATMA shall endevour to coordinate assigned headings with TAA as soon as practical. Assigned heading shall be issued in the instance that a departing aircraft will be taking off close to an arriving aircraft. This heading ensures the missed approach path is clear for the arriving aircraft incase of a go-around. Contorllers shall note that only aircraft departing to the South may be assigned a heading, as aircraft departing north may not turn until passing `A030` therefore an assigned heading becomes impractical. 
 
 
 ## Arrivals 
 
-Aircraft recivced from OCR, RAN and BAY shall be assigned the standard level of `A110`, or at time aircraft may be assigned different levels depending on the situation. 
+Aircraft recivced from OCR, RAN and BAY shall be assigned the standard level of `A110`, or at times aircraft may be assigned different levels depending on the traffic levels etc. 
 
-Controllers are expected to be aware of the different STARs leading to AA and what STARs lead to what approach, therefore the following track shortening in low levels of traffic or for sequencing shall be applied. 
+Controllers are expected to be aware of the different STARs leading into AA, AR and WP and what STARs lead to what approach, therefore the following track shortening in low levels of traffic or for sequencing shall be applied. 
 
 For track shortening aircraft may be tracked direct SABAV and GITUK for the ILS or ZORBA, ELBOP, and ATAMA for RNP-ARs.  Any International arrivals shall expect mininimal track shortening as due to the layout of the STARs. 
 
@@ -115,12 +119,22 @@ OCR has three Noise Abatement STARs that shall be issued as first preference. If
 | 05R    | `RIKDI #N` | `KALAG` `AGREX` `TARIB` `SELKA` `AGEDU` `IDSEM` `DABAS` `AKLOM` `OLBEX` | All                    |
 | 23L    | `TAZEY #N` | `PEBLU` `VELMO`                                                         | All                    |
 
+## Ardmore Uncontrolled IFR 
+
+### Departures 
+
+IFR aircraft on the ground at AR shall call ATMA prior to taxi to obtain IFR clearance. Aircraft shall be issued the most appropirate SID for thier route and after a correct readback shall be told to report at the holding point for validation of their IFR clearance. Aircraft are then advised to report prior to entering controlled airspace (In this case AR is surrounded by a `A025` Lower Limit). 
+
+### Arrivals
+
+For arriving IFR aircraft into AR, ATMA shall issue the most appropriate STAR. ATMA 
+
 
 ## Coordination
 
 ### TAA
 
-ATMA shall coordinated with TAA as seen fit. Including for CVFR requesting climb into CTA. ATMA shall also coordinate any request for the non-nominated approach. 
+ATMA shall coordinated with TAA and OCR/RAN/BAY as seen fit including any request for the non-nominated approach. 
 
 ### OCR, RAN and BAY
 
