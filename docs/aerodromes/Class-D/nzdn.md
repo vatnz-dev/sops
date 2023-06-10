@@ -59,25 +59,48 @@ Clearances shall be issued by TDN, and may be given via DCL or voice.
 
 Pushback and startup clearence from stand one to five is managed by TDN. Controllers can make use of a "tail-facing" instruction to manage direction of pushback. Aircraft on taxiway `C` must contact TDN at `C2` holding point before proceeding.
 
-Taxi instructions must include a 'backtrack' instruction unless the pilot advises they are able to accept an intersection departure from taxiway `A`. Usually this will only be possible if the duty runway is 21. Traffic permitting, the controller may choose to omit the taxiway to be used and simply give the backtrack instruction - example below.
+Taxi instructions must include a 'backtrack' instruction, unless the pilot advises they are able to accept an intersection departure from taxiway `A`. Traffic permitting, the controller may choose to omit the taxiway to be used and simply give the backtrack instruction - example below.
 
 !!! example "Taxi Instruction"
     **ANZ758M**: *"ANZ758M, request taxi."*
 
     **Dunedin Tower**: *"ANZ758M, backtrack lineup, runway 21."*
 
+!!! example "Taxi Instruction"
+    **ZK-ELT**: *"ELT, request taxi."*
+
+    **Dunedin Tower**: *"ELT, via `B` and `A`, backtrack lineup, runway 21."*
+
 
 ## Departures
 
 IFR traffic departing via BIDEL shall be handed off to STH either crossing BIDEL or passing `A095`. Other IFR departures shall be handed off either crossing the lateral boundary of the airspace or passing the upper limit of `A095` or `A135` - whichever comes first.
 
+### Visual Departures
+When either runway is in use, TDN may issue northern-bound aircraft a visual departure direct to `BIDEL` on pilot's request, traffic permitting. Alternatively, when Runway 21 is in use, TDN may issue northern-bound aircraft on the `BIDEL #Q`or `BIDEL #S` a visual departure to `ATGUB` or `IDLIK` on pilot's request ([Refer to AIP chart for `BIDEL #Q` and `BIDEL #S`](https://www.aip.net.nz/assets/AIP/Aerodrome-Charts/Dunedin-NZDN/NZDN_62.7_62.8.pdf)).
+
+!!! example "Visual Departure Direct to `BIDEL`"
+    **Dunedin Tower**: *"ANZ676, recleared visual deaprture direct `BIDEL`."*
+
+!!! example "Runway 21 Visual Departure"
+    **Dunedin Tower**: *"ANZ758M, recleared left visual deaprture direct `ATGUB` to rejoin the SID."*
+
+
 ## Arrivals
 placeholder
+
+## VFR Procedures
+
+### Arrivals
+In order to lessen the amount of instructions given to VFR traffic, the Controller shall issue a published VFR arrival where possible. Once the Pilot reports overhead the respective VRP, TDN shall issue circuit joining insturctions. [Refer to AIP chart for NZDN arrivals](https://www.aip.net.nz/assets/AIP/Aerodrome-Charts/Dunedin-NZDN/NZDN_35.1_35.2.pdf){ target=new }.
+
+### Departures
+In order to lessen the amount of instructions given to VFR traffic, the Controller shall issue one of the VFR Departure Procedures where possible. [Refer to AIP chart for NZDN departures](https://www.aip.net.nz/assets/AIP/Aerodrome-Charts/Dunedin-NZDN/NZDN_64.1_64.2.pdf){ target=new }.
 
 
 ## NZTI - Taieri
 
-Taieri is a small GA aerodrome located 8nm Northeast of NZDN (Dunedin). ATC Clearence is not required for operations within 3nm of the aerodrome below `A011`. 
+Taieri is a small GA aerodrome located 8nm Northeast of NZDN (Dunedin). Aircraft may operate within the TI circuit and within 3nm of the aerodrome below `A011` without reference to ATC. Aircraft departing TI shall recieve clearence and departure instructions from TDN prior to departure.
 
 !!! info
     VFR aircraft bound for NZTI are to be handed off to Unicom approaching the aerodrome. A good rule of thumb for aircraft coming from the North, South or the city is to hand them off as they enter the Taieri Plains valley.
