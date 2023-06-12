@@ -14,8 +14,8 @@
 
 OCR covers all airspace within the lateral bounds as found below. The lower limit for OCR is:
 
-  - Within 100nm AA VOR: `A095`
-  - Between 100 to 200nm AA VOR: `A135`
+  - Within 100 nm AA VOR: `A095`
+  - Between 100 and 200 nm AA VOR: `A135`
 
 When RAN, BAY or AA TMA are offline, OCR automatically inherits and assumes all responsibility for those sectors. 
 
