@@ -19,7 +19,9 @@ As CH TMA has an upper limit of `A095`, STH provides control for any aircraft ov
 
 As QN TMA has an upper limit of `FL175`, STH provides control for any aircraft overflying the QN TMA.
 
-When KAI, QN TMA, DN TWR or NV TWR is offline, STH automatically inherits and assumes responsibility for those sectors.
+When KAI or QN TMA is offline, STH automatically inherits and assumes responsibility for those sectors.
+
+When DN TWR or NV TWR is offline, STH automatically inherits the TWR and Procedural Approach services provided by those sectors. See the responsibilities sections on [DN TWR](#dn-twr) and [NV TWR](#nv-twr).
 
 When CH TMA is offline, that position is inherited by KAI. If KAI is also offline, STH automatically assumes responsibility for KAI, and therefore for CH TMA also.
 
@@ -55,13 +57,17 @@ STH shall ensure that aircraft overflying the CH TMA are no lower than `A110` wi
 
 STH shall ensure that an efficient arrival flow is managed into DN TWR's airspace. 
 
-When DN TWR is offline, the DN Procedural Tower service shall be provided by STH. When responsible for DN TWR, STH may opt to provide a radar approach service, rather than a procedural approach service.
+When DN TWR is offline, the DN Procedural Tower service shall be provided by STH. 
+
+When responsible for DN TWR, STH may opt to provide a radar approach service, rather than a procedural approach service.
 
 ### NV TWR
 
 STH shall ensure that an efficient arrival flow is managed into NV TWR's airspace. 
 
-When NV TWR is offline, the NV Procedural Tower service shall be provided by STH. When responsible for NV TWR, STH may opt to provide a radar approach service, rather than a procedural approach service.
+When NV TWR is offline, the NV Procedural Tower service shall be provided by STH. 
+
+When responsible for NV TWR, STH may opt to provide a radar approach service, rather than a procedural approach service.
 
 
 ## Coordination
@@ -82,7 +88,7 @@ STH shall ensure that aircraft have been cleared to their RFL on crossing the bo
 
 ### KAI
 
-While mostly not needed, KAI may descend aircraft to `FL190` if necessary.
+While mostly not needed, STH may descend aircraft to `FL190` if necessary.
 
 STH shall ensure that aircraft have been cleared to their RFL on crossing the boundary, with the exception of any descending traffic.
 
