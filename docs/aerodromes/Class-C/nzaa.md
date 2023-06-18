@@ -235,3 +235,4 @@ OCR has three Noise Abatement STARs that shall be issued as first preference. If
 | 23L    | `BASIV #N` | `ELNOS` `SALAG` `UPLAR`                                                 | All                    |
 | 05R    | `RIKDI #N` | `KALAG` `AGREX` `TARIB` `SELKA` `AGEDU` `IDSEM` `DABAS` `AKLOM` `OLBEX` | All                    |
 | 23L    | `TAZEY #N` | `PEBLU` `VELMO`                                                         | All                    |
+| 23L    | `LUNBI #N` | `LUNBI`                                                                 | All                    |
