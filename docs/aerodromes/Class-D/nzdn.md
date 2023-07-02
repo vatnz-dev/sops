@@ -38,12 +38,12 @@ An aircraft may be taxiied to the holding point, traffic permitting the aircraft
 !!! example "Taxi Instruction"
     **ANZ758M**: *"ANZ758M, request taxi."*
 
-    **Dunedin Tower**: *"ANZ758M, backtrack lineup, runway 21."*
+    **Dunedin Tower**: *"ANZ758M, taxi backtrack, lineup runway 21."*
 
 !!! example "Taxi Instruction"
     **ZK-ELT**: *"ELT, request taxi."*
 
-    **Dunedin Tower**: *"ELT, via `B` and `A`, backtrack lineup, runway 21."*
+    **Dunedin Tower**: *"ELT, via `B` and `A`, taxi backtrack, lineup runway 21."*
 
 # Departures
 IFR traffic departing via BIDEL shall be handed off to STH either crossing BIDEL or passing `A095`. Other IFR departures shall be handed off either crossing the lateral boundary of the airspace or passing the upper limit of `A095` or `A135` - whichever comes first.
