@@ -48,7 +48,7 @@ An aircraft may be taxiied to the holding point, traffic permitting the aircraft
 # Departures
 IFR traffic departing via BIDEL shall be handed off to STH either crossing BIDEL or passing `A095`. Other IFR departures shall be handed off either crossing the lateral boundary of the airspace or passing the upper limit of `A095` or `A135` - whichever comes first.
 
-## Sid Assignment
+## SID Assignment
 
 | Runway | Procedure  | Allowed A/C Categories | Notes                                                                                                                                     |
 | ------ | ---------- | ---------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
@@ -82,7 +82,7 @@ When either runway is in use, TDN may issue northern-bound aircraft a visual dep
 
 
 # Arrivals
-STH shall issue STARs to arrivals without coordination with TDN. The `MIPAK #C` arrival for runway 03 may be used when requested by the pilot or when the prevailing wind above `A015` is from the Northwest. TDN may choose to coordinate with STH or amend the arrival on first contact.
+STH shall issue STARs to arrivals without coordination with TDN. The `MIPAK #C` arrival for runway 03 may be used when requested by the pilot. TDN may choose to coordinate with STH or amend the arrival on first contact.
 
 ## Runway 21
 All arrivals terminate at `ESKAT`, which is the IAF for the RNAV and ILS approach. 
@@ -102,7 +102,7 @@ In the event of a missed approach, aicraft should be instructed to carry out the
 In order to lessen the amount of instructions given to VFR traffic, the Controller shall issue a published VFR arrival where possible. Once the Pilot reports overhead the respective VRP, TDN shall issue circuit joining insturctions. [Refer to AIP chart for NZDN arrivals](https://www.aip.net.nz/assets/AIP/Aerodrome-Charts/Dunedin-NZDN/NZDN_35.1_35.2.pdf){ target=new }.
 
 ### Departures
-In order to lessen the amount of instructions given to VFR traffic, the Controller shall issue one of the VFR Departure Procedures where possible. [Refer to AIP chart for NZDN departures](https://www.aip.net.nz/assets/AIP/Aerodrome-Charts/Dunedin-NZDN/NZDN_64.1_64.2.pdf){ target=new }.
+In order to lessen the amount of instructions given to VFR traffic, the Controller shall issue one of the VFR Departure Procedures where possible, otherwise a more plain language clearance will be issued. [Refer to AIP chart for NZDN departures](https://www.aip.net.nz/assets/AIP/Aerodrome-Charts/Dunedin-NZDN/NZDN_64.1_64.2.pdf){ target=new }.
 
 
 ## NZTI - Taieri
@@ -113,4 +113,4 @@ Taieri is a small, uncontrolled GA aerodrome located 8nm Northeast of NZDN (Dune
     VFR aircraft bound for NZTI are to be handed off to Unicom approaching the aerodrome. A good rule of thumb for aircraft coming from the North, South or the city is to hand them off as they enter the Taieri Plains valley.
 
 ## Coordination
-placeholder
+
