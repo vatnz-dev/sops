@@ -5,4 +5,5 @@
 
 title: Class C
 nav:
+    - Overview: index.md
     - ...
