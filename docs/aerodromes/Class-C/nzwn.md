@@ -52,11 +52,13 @@ The areas of responsiblility are as depicted below.
 | Tower -> Approach  | For most airline traffic, when airborne. For GA, when leaving the zone, if applicable. | Aircraft assigned a SID with a visual segment, such as the `IDVAL #U` or `IPKEP #T` may be retained by Tower until clear of other aircraft, once established inbound to their IDF, or if requested by TMA for separation. |
 | Approach -> Tower  | When established on an instrument final, or if on an RNP approach, overhead the IAF.   |                                                                                                                                                                                                                           |
 
-## Clearance Delivery
+## Control Positions
+
+### Clearance Delivery
 
 Clearances shall be issued by the Delivery position, and may be given via DCL or voice.
 
-### STAR Clearance for NZNS & NZWB
+#### STAR Clearance for NZNS & NZWB
 
 As the flight time between Wellington, Nelson and Woodbourne (Blenheim) is so short, and to reduce pilot and controller workload, the controller shall include a STAR clearance for their destination in their departure clearance.
 
@@ -65,30 +67,30 @@ If online, Delivery shall confirm the STAR with Wellington TMA prior to passing 
 !!! example "Clearance to Nelson"
     **Wellington Delivery**: *"SDA333, Cleared Nelson 1 via LUBSI 2A arrival at 11,000ft, IVDAL 1Q departure, Sqauwk 5021"*
 
-## Ground
+### Ground
 
-### Pushback
+#### Pushback
 
 Pushback and start up clearances are managed by the Ground Controller. For pushbacks on apron areas the phraseology “Pushback at your discretion” is used to indicate that the pushback
 is contained within an uncontrolled portion of the movement area and that ATC may not be aware of all apron activity.
 
 During periods of high-traffic, the Ground Controller may issue explicit push and start directions to deconflict and prioritise traffic flow.
 
-#### International Gates
+##### International Gates
 
 The international gates only have capacity for one pushback at a time. Should a second aircraft request pushback, they should be instructed to push to a remote push point, such as `Z1`. Not all pilots are aware of these remote push locations, so the Ground Controller may issue plain English push directions at their discretion.
 
-#### Night Pushback Operations
+##### Night Pushback Operations
 
 Wellington has two marked pushback holding zones, `Z1` & `Z2`. These zones are used during busy periods or at night to avoid blocking entry and exit points to the rest of the gates. 
 
-### Taxiing
+#### Taxiing
 
 As there is only a single main taxiway, the Controller shall feed aircraft onto taxiway `A` using the `R, S, T or U` taxiways and `B` intersections as required. Aircraft taxiing from the Eastern Pier shall be instructed to taxi via one of the `R, S, T or U` taxiways or directly via `B8`, `B9` or `B10` when Runway 34 is in use - or `B9` , `B8` and `B7` when Runway 16 is in use. 
 
 This frees up `B6` and `B5` for traffic taxiing from the main apron and international gates.
 
-### Use of Holding Points
+#### Use of Holding Points
 
 | Type        |   Runway 34   |  Runway 16   |
 | ----------- | :-----------: | :----------: |
@@ -99,7 +101,7 @@ This frees up `B6` and `B5` for traffic taxiing from the main apron and internat
 !!! info "Use of Holding Point A10"
     The use of the `A10` hold is only authorised during day hours. During night operations, aircraft shall be directed to `A11`.
 
-## Tower
+### Tower
 
 The Tower shall ensure that all VFR traffic within the Wellington CTR/C does not conflict with any IFR operations. IFR operations shall take precedence over VFR.
 
@@ -107,7 +109,7 @@ Unless established within the aerodrome circuit, VFR aircraft are not authorised
 
 Aircraft that have been cleared to operate within the Kelburn, Somes, East, Sinclair or East Sectors are deemed to be separated from IFR arrivals operating on straight-in approaches in the Instrument Sector. When RNP-AR approaches are in use, the Tower Controller is to ensure that the RNP path has a lateral buffer of at least 3nm.
 
-## Departures
+### Departures
 
 Aircraft departures shall be managed in-line with the [Runway Operations section](../../controller-skills/seperation#runway-operations). 
 
@@ -116,7 +118,7 @@ Where possible, and where weather permits, the SIDs with visual departure segeme
 !!! warning "Golden Bay Air BN-2 Aircraft"
     For the purposes of traffic separation, the Britten Norman Islander shall be classed as a Category A aircraft.
 
-### SID Assignment
+#### SID Assignment
 
 Most of Wellington's SIDs are straight-forward, however there are a few considerations that must be made when issuing an aircraft with their clearance.
 
@@ -140,7 +142,7 @@ For Domestic aircraft the Controller shall issue the SID that is suggested by th
 | 34     | `IPKEP #T` | Cat A to C             | Yes -> Passing `A015`    | Same as `IDVAL #Q`, but with a visual segment to IDF. Turns divergent passing `A015`.     |
 | 16     | `NZWN  #D` | Cat A to D             | No                       | Least preferred departure due to manual vectoring required.                               |
 
-### Assigned Headings
+#### Assigned Headings
 
 To ensure a divergent departure occurs due to traffic, WN TMA may request an aircraft be assigned a heading to fly once passing `A005`. This ensures a 30 degree offset from the centreline exists, and therefore another aircraft may then depart. These will usually be issued when an aircraft is at the holding point, and will be given to the Tower as a part of WN TMA's release of the aircraft.
 
