@@ -7,3 +7,4 @@ mkdocs-embed-external-markdown==2.3.0
 mkdocs-glightbox
 pillow
 cairosvg
+urllib3==1.26.15
