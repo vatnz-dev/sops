@@ -33,7 +33,7 @@ Pilots will continue to follow ATC instructions but the controller will no longe
 
 Where an aircraft is instructed to maintain own separation with an IFR aircraft, traffic information shall be passed to the IFR aircraft, including advice of assignment of separation responsibility to the other aircraft. 
 
-!!! Example "Visual Separation Phraseology"
+??? example "Visual Separation Phraseology"
     ZKFML is a prop that is operating in the Southern Instrument Sector at NZAA, while a Jetstar A320 is inbound on the RNP Y 23L.
 
     **NZAA_TWR**: "FML, report sighting a Jetstar A320 inbound for the RNP Y. Traffic is to your four o'clock, five miles, descending through 6,000ft"  
@@ -150,7 +150,7 @@ Longitudinal separation shall only be applied between aircraft on same or recipr
 
 Longitudinal time separation must be established by using pilot estimates and ensuring that the time between two aircraft is equal or greater than the longitudinal time separation minimum.  
 
-!!! Example "Longitudinal Separation Phraseology"
+!!! Example
     "ABC, Cross ALPHA at time 1051 or later"  
     "DEF, Hold at BRAVO to leave BRAVO at time 2215 or later"
 

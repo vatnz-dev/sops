@@ -40,6 +40,8 @@
 
 h2 {
   color: var(--md-primary-fg-color);
+  /*text-transform: uppercase;*/
+  padding-bottom: 0.5em;
 }
 
 h3 {
@@ -47,26 +49,12 @@ h3 {
 }
 
 h4 {
+  padding-top: 1em;
   color: var(--md-primary-fg-color);
-}
-
-.md-typeset h2 {
-  font-size: 1.6em;
-}
-
-.md-typeset h3 {
-  font-size: 1.4em;
-}
-
-.md-typeset h4 {
-  font-weight: normal;
-  font-size: 1.15em;
 }
 
 .md-typeset h5 {
   color: var(--md-primary-fg-color);
-  font-size: 0.9em;
-  text-transform: none;
 }
 
 /* highlighting */
