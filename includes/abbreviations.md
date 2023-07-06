@@ -35,3 +35,4 @@
 *[STH]: Christchurch Control (South Sector)
 *[KAI]: Christchurch Control (Kaikoura Sector)
 *[ARO]: Auckland Radio (Oceanic)
+*[TWR]: Tower
