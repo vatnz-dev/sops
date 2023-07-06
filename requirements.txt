@@ -1,9 +1,9 @@
 mkdocs
-mkdocs-material==9.1.15
+mkdocs-material==9.1.18
 mkdocs-awesome-pages-plugin
 mkdocs-git-revision-date-localized-plugin
 mkdocs-redirects
-mkdocs-embed-external-markdown==2.3.0
+mkdocs-embed-external-markdown
 mkdocs-glightbox
 pillow
 cairosvg
