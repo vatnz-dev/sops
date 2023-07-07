@@ -94,7 +94,7 @@ In the event of a missed approach, aicraft should be instructed to carry out the
 All arrivals terminate at `AKLAR`, which is the IAF for the RNAV and ILS approach.
 
 ### Missed Approach
-In the event of a missed approach, aicraft should be instructed to carry out the published missed approach procedure. For the ILS and NDB procedures, this will take the aircraft straight out to `MI` NDB, then a right turn to `BE` NDB holding at `A040`. For the RNAV procedure, it will take the aircraft to `DABCA` holding at `A040`. The aircraft can then be issued the approprite arrival procedure from `DABCA` to commence the approach again.
+In the event of a missed approach, aircraft should be instructed to carry out the published missed approach procedure. For the ILS and NDB procedures, this will take the aircraft straight out to `MI` NDB, then a right turn to `BE` NDB holding at `A040`. For the RNAV procedure, it will take the aircraft to `DABCA` holding at `A040`. The aircraft can then be issued the appropriate arrival procedure from `DABCA` to commence the approach again.
 
 ## VFR Procedures
 
