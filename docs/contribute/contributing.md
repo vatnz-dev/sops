@@ -20,15 +20,27 @@ To contribute, you'll need the following -
 ## Lets do it!
 
 * Fork and clone the [:fontawesome-brands-github:{: .github } -  **SOPs Project**](https://github.com/vatnz-dev/sops){target=new} - [Guide](https://docs.github.com/en/get-started/quickstart/fork-a-repo){target=new}
-* Install the following Python packages: `mkdocs-material`, `mkdocs-awesome-pages-plugin`, `mkdocs-git-revision-date-localized-plugin`, `mkdocs-redirect` and `mkdocs-glightbox`.
+* Install the following Python packages: 
+    * `mkdocs-material`
+    * `mkdocs-awesome-pages-plugin`
+    * `mkdocs-git-revision-date-localized-plugin`
+    * `mkdocs-redirect`
+    * `mkdocs-glightbox`
+    * `cairosvg`
+    * `pillow`
+* Install with this single command:
 
-!!! info
-    These packages can be installed easily through a single command:
+``` py title="Run in Command Line / Terminal"
+  pip install -r requirements.txt
+```
 
-    ``` python
-      pip install -r requirements.txt
-    ```
 
+!!! info "Cairo and Pillow dependency"
+    As a part of the social card feature, the [Pillow](https://pillow.readthedocs.io/){ target=_blank } and [Cairo Graphics](https://www.cairographics.org/){ target=_blank } dependencies were added. We bundle these into our `requirements.txt` to ensure the dependencies are installed when attempting to [test social card generation]() locally.
+
+    If you encounter any trouble:
+
+      * Install a [GTK+ runtime](https://github.com/tschoonj/GTK-for-Windows-Runtime-Environment-Installer/releases){ target=_blank } for Windows.
 
 
 * Once you've installed those, open a command line terminal, `cd` into the cloned repository folder and enter start the MkDocs service:
@@ -52,5 +64,19 @@ To contribute, you'll need the following -
     `mkdocs serve --dirtyreload`
 
 
+## Social Cards
 
+!!! warning "You do not need to test this feature!"
+    In general use, you will not need to test or utilize this feature, unless you are actively developing or changing the configuration. It is tedious to set up, and will be automatically run during the deploy workflow. 
 
+    If you **need** to test this feature, you can follow these instructions.
+
+The SOPs site uses the Social Cards feature provided by Material for MkDocs. When generating these cards locally, these cards are generated and stored in `/.cache/plugin/social`.
+
+The normal `mkdocs.yml` that maintainers will run when testing locally does not include this feature by default, and must be manually included when either building, or needing to test the plugin.
+
+* To test the plugin when testing locally: `mkdocs serve --config-file production.yml`
+
+* To include the plugin during a deploy build: `mkdocs build --config-file production.yml`
+
+`production.yml` includes an `INHERIT` function, which essentially merges the two files together for a build deployment.

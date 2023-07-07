@@ -40,9 +40,9 @@ BAY also manages traffic into and out of HN TMA to the east. When HN TMA is offl
 
 ### GS TWR
 
-When GS TWR is offline, RAN is responsible for all functions of GS TWR, including the Procedural Tower service. 
+When GS TWR is offline, BAY is responsible for all functions of GS TWR, including the Procedural Tower service. 
 
-When responsible for GS TWR, RAN may opt to provide a radar approach service, rather than a procedural approach service. 
+When responsible for GS TWR, BAY may opt to provide a radar approach service, rather than a procedural approach service. 
 
 
 ## Coordination

@@ -9,7 +9,7 @@
 
 | Sector Name                     | Shortcode | Callsign             | Frequency | Login ID   |
 | ------------------------------- | --------- | -------------------- | --------- | ---------- |
-| Christchurch Control (Kaikoura) | KAI       | Christchurch Control | 129.3     | NZCH-K_CTR |
+| Christchurch Control (Kaikoura) | KAI       | Christchurch Control | 129.4     | NZCH-K_CTR |
 
 ## Airspace
 
@@ -32,7 +32,7 @@ KAI is responsible for the management of southbound NZCH arrivals, in addition t
 
 KAI shall ensure that an efficient arrival flow is managed into CH TMA from the North. 
 
-KAI shall ensure that aircraft overflying the CH TMA are no lower than `FL190` without coordination.
+KAI shall ensure that aircraft overflying the CH TMA are no lower than `A110` without coordination.
 
 ### WN TMA
 
@@ -75,7 +75,7 @@ KAI shall ensure that any aircraft crossing the KAI/STH boundary is established 
 
 KAI may issue STAR clearances to aircraft bound for NZCH without coordination, provided that the STAR links with the nominated runway and approach type as stated in the ATIS. A request for the use of a non-nominated approach requires agreement from both the TMA and ADC Controller.
 
-KAI may descend aircraft to `A095` without coordination from CH TMA.
+KAI may descend aircraft to `A095` without coordination from CH TMA, but should assign `A110` as the standard descent level. 
 
 If a sequencing conflict is to occur, KAI shall coordinate with CH TMA as to an ideal arrival order.
 
@@ -105,7 +105,7 @@ KAI may clear aircraft direct to the STAR's WN TMA boundary fix without coordina
 
 #### NZWB
 
-Provided that there is no conflicting KAI traffic, KAI may clear NZWB bound aircraft direct to the `ELPIT` or `OMDOX` fixes on the `JAMIE #J or #K` STARs without coordination.
+Provided that there is no conflicting NAK traffic, KAI may clear NZWB bound aircraft direct to the `ELPIT` or `OMDOX` fixes on the `JAMIE #J or #K` STARs without coordination.
 
 KAI may descend aircraft bound for NZWB to `A080` without coordination from WN TMA.
 

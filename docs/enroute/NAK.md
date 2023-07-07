@@ -3,6 +3,8 @@
 
 ---
 
+--8<-- "includes/abbreviations.md"
+
 ## Positions
 
 | Sector Name                     | Shortcode | Callsign             | Frequency | Login ID   |
