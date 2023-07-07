@@ -105,7 +105,7 @@ KAI may clear aircraft direct to the STAR's WN TMA boundary fix without coordina
 
 #### NZWB
 
-Provided that there is no conflicting KAI traffic, KAI may clear NZWB bound aircraft direct to the `ELPIT` or `OMDOX` fixes on the `JAMIE #J or #K` STARs without coordination.
+Provided that there is no conflicting NAK traffic, KAI may clear NZWB bound aircraft direct to the `ELPIT` or `OMDOX` fixes on the `JAMIE #J or #K` STARs without coordination.
 
 KAI may descend aircraft bound for NZWB to `A080` without coordination from WN TMA.
 
