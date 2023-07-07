@@ -61,17 +61,21 @@ STH shall issue STARs to arrivals without coordination with Invercargill Tower. 
 ### Runway 22
 All RNAV arrivals terminate at either `LALEV` or `DOTLU`, which are the IAF for the RNP approach. Aircraft for the VOR approach will track direct to the `NV` VOR. Aircraft for the VOR DME approach will either track to the `NV` VOR, direct to `PEBLY`, or join the 10 `NV` DME Arc depending on the aircraft's position.
 
-### Missed Approach
+#### Missed Approach
 In the event of a missed approach, aicraft should be instructed to carry out the published missed approach procedure. Aircraft on the RNP approach will track straight out to `AMVIX` holding at `A030`. The aircraft can then be issued the approprite arrival procedure from `AMVIX` to commence the approach again. VOR aircraft will track to the `NV` VOR holding at `A020`. The aircraft can then be recleared for the approach from `NV` VOR. VOR DME aircraft will track to `ROCKS` holding at `A030`. The aircraft can then be cleared direct to the `NV` VOR to commence the approach again.
 
 ### Runway 04
 All RNAV arrivals terminate at `ESNUP` or `EGAMU`, which is the IAF for the RNP approach. Aircraft for the VOR approach will track direct to the `NV` VOR. Aircraft for the VOR DME approach will either track to the `NV` VOR, direct to `PEBLY`, or join the `NV` 10 DME Arc depending on the aircraft's position.
 
-### Missed Approach
+#### Missed Approach
 In the event of a missed approach, aicraft should be instructed to carry out the published missed approach procedure. Aircraft on the RNP approach will track straight out to `AMVIX` holding at `A030`.  The aircraft can then be issued the approprite arrival procedure from `AMVIX` to commence the approach again. Aircraft on the VOR or VOR DME approaches will track to the `NV` VOR holding at `A020`. The aircraft can then be recleared for the approach from `NV` VOR.
 
 ## VFR Procedures
 NZNV has no published VFR procedures. VFR traffic shall be issued plain language instructions.
+
+## Coordination
+
+STH and QTMA shall ensure at least a 10 min warning call is given to TNV for any arriving aircraft, TNV shall advise STH, QMTA, or TDN of any departing traffic that is entering their CTA prior to that traffic getting airborne. 
 
 ## Ryans Creek Uncontrolled IFR
 Ryans Creek (NZRC) is a small uncontrolled GA aerodrome 30 nm south of Invercargill.
