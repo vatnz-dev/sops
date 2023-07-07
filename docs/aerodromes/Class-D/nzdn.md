@@ -107,7 +107,7 @@ In order to lessen the amount of instructions given to VFR traffic, the Controll
 
 ## NZTI - Taieri
 
-Taieri is a small, uncontrolled GA aerodrome located 8nm Northeast of NZDN (Dunedin). Aircraft may operate within the TI circuit and within 3nm of the aerodrome below `A011` without reference to ATC. Aircraft departing TI shall recieve clearence and departure instructions from TDN prior to departure.
+Taieri is a small, uncontrolled GA aerodrome located 8nm Northeast of NZDN (Dunedin). Aircraft may operate within the TI circuit and within 3nm of the aerodrome below `A011` without reference to ATC. Aircraft departing TI shall receive clearance and departure instructions from TDN prior to departure.
 
 !!! info
     VFR aircraft bound for NZTI are to be handed off to Unicom approaching the aerodrome. A good rule of thumb for aircraft coming from the North, South or the city is to hand them off as they enter the Taieri Plains valley.
