@@ -72,7 +72,7 @@ IFR traffic departing via BIDEL shall be handed off to STH either crossing BIDEL
 | 03     | `SW #`     | Cat A to D             | To `BIDEL`, `MEGUG` `MIPAK`, `PORUT` and `QN`. Non-RNAV.                                                                                  |
 
 ## Visual Departures
-When either runway is in use, TDN may issue northern-bound aircraft a visual departure direct to `BIDEL` on pilot's request, traffic permitting. Alternatively, when Runway 21 is in use, TDN may issue northern-bound aircraft on the `BIDEL #Q`or `BIDEL #S` a visual departure to `ATGUB` or `IDLIK` on pilot's request ([Refer to AIP chart for `BIDEL #Q` and `BIDEL #S`](https://www.aip.net.nz/assets/AIP/Aerodrome-Charts/Dunedin-NZDN/NZDN_62.7_62.8.pdf)).
+When either runway is in use, Tower may issue northern-bound aircraft a visual departure direct to `BIDEL` on pilot's request, traffic permitting. Alternatively, when Runway 21 is in use, Tower may issue northern-bound aircraft on the `BIDEL #Q`or `BIDEL #S` a visual departure to `ATGUB` or `IDLIK` on pilot's request ([Refer to AIP chart for `BIDEL #Q` and `BIDEL #S`](https://www.aip.net.nz/assets/AIP/Aerodrome-Charts/Dunedin-NZDN/NZDN_62.7_62.8.pdf)).
 
 !!! example "Visual Departure Direct to `BIDEL`"
     **Dunedin Tower**: *"ANZ676, recleared visual deaprture direct `BIDEL`."*
