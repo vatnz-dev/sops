@@ -51,11 +51,11 @@ ATMA may track aircraft direct to the following positions without coordintation 
 
 ### STAR Clearances 
 
-ATMA is responsible for issuing STAR clearances for aircraft bound for Hamilton and Tauranga. With coordination to BAY and HTMA (if online) on the appropriate STAR. IFR Training is popular between AR and HN so if there are any special details of an aircraft or a specific request from the pilot this shall also be passed onto HTMA (or BAY if HTMA offline). 
+ATMA is responsible for issuing STAR clearances for aircraft bound for Hamilton and Tauranga. With coordination to BAY and/or HTMA (if online) on the appropriate STAR. IFR Training is popular between AR and HN so if there are any special details of an aircraft or a specific request from the pilot this shall also be passed onto HTMA (or BAY if HTMA offline). 
 
 ### Assigned Headings 
 
-As per [Assigned Headings](../aerodromes/Class-C/nzaa.md#assigned-headings) ATMA shall endevour to coordinate assigned headings with TAA as soon as practical. Assigned heading shall be issued in the instance that a departing aircraft will be taking off close to an arriving aircraft. This heading ensures the missed approach path is clear for the arriving aircraft incase of a go-around. Contorllers shall note that only aircraft departing to the South may be assigned a heading, as aircraft departing north may not turn until passing `A030` therefore an assigned heading becomes impractical. 
+As per [Assigned Headings](../aerodromes/Class-C/nzaa.md#assigned-headings) ATMA shall endevour to coordinate assigned headings with TAA as soon as practical. Assigned heading shall be issued in the instance that a departing aircraft will be taking off close to an arriving aircraft, or for track shortening. This heading ensures the missed approach path is clear for the arriving aircraft incase of a go-around. Controllers shall note that only aircraft departing to the South may be assigned a heading, as aircraft departing north may not turn until passing `A030` therefore an assigned heading becomes impractical. 
 
 
 ## Arrivals 
@@ -85,7 +85,7 @@ Use of the Preferential Runway System is not authorised and Controllers shall no
 
 #### Runway 05R
 
-Aircraft operating from Rwy 05R shall not be taken off the SID until passing `A030`. Aircraft shall not overfly the City lower than `A050` unless established on an approach or departure path.
+Aircraft operating from RWY 05R shall not be taken off the SID until passing `A030`. Aircraft shall not overfly the City lower than `A050` unless established on an approach or departure path.
 
 For all international departures the Controller shall issue the SID that is suggested by their Controller Client. For Domestic departures, Controllers shall observe the following SID assignment preferences:
 
@@ -119,15 +119,15 @@ OCR has three Noise Abatement STARs that shall be issued as first preference. If
 | 05R    | `RIKDI #N` | `KALAG` `AGREX` `TARIB` `SELKA` `AGEDU` `IDSEM` `DABAS` `AKLOM` `OLBEX` | All                    |
 | 23L    | `TAZEY #N` | `PEBLU` `VELMO`                                                         | All                    |
 
-## Ardmore Uncontrolled IFR 
+## Uncontrolled IFR 
 
 ### Departures 
 
-IFR aircraft on the ground at AR shall call ATMA prior to taxi to obtain IFR clearance. Aircraft shall be issued the most appropirate SID for thier route and after a correct readback shall be told to report at the holding point for validation of their IFR clearance. Aircraft are then advised to report prior to entering controlled airspace (In this case AR is surrounded by a `A025` Lower Limit). 
+IFR aircraft on the ground shall call ATMA prior to taxi to obtain IFR clearance. After a correct readback shall be told to report at the holding point for validation of their IFR clearance, and are cleared to enter controlled airspace on a SID and are advised to report prior to entering controlled airspace (Will normally be `A025` out of both North Shore and Ardmore). 
 
 ### Arrivals
 
-For arriving IFR aircraft into AR, ATMA shall issue the most appropriate STAR. ATMA 
+For arriving IFR aircraft, ATMA shall issue the most appropriate STAR, and shall ask what approach they are antcipating. ATMA shall clear aircraft to leave controlled airspace via an approach, and get them to report on the ground to terminate thier flight plan
 
 
 ## Coordination
@@ -138,4 +138,4 @@ ATMA shall coordinated with TAA and OCR/RAN/BAY as seen fit including any reques
 
 ### OCR, RAN and BAY
 
-ATMA shall coordinate any track shortening not stated in [Departures](../terminal/atma.md#departures) with the above sectors. 
+ATMA shall coordinate any track shortening not stated in [Departures](../terminal/atma.md#departures). 
