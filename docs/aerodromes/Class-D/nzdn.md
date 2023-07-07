@@ -114,3 +114,4 @@ Taieri is a small, uncontrolled GA aerodrome located 8nm Northeast of NZDN (Dune
 
 ## Coordination
 
+STH shall ensure at least a 10 min warning call is given to TDN for any arriving aircraft, TDN shall advise STH of any departing traffic that is entering their CTA prior to that traffic getting airborne. 
