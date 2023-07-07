@@ -33,7 +33,7 @@ Dunedin's main apron has five stands, two of those with jetways. Taxiway `C` lea
 
 Pushback and startup clearance from stand one to five is managed by Tower. Controllers can make use of a "tail-facing" instruction to manage direction of pushback. Aircraft on taxiway `C` must contact Tower at `C2` holding point before proceeding.
 
-An aircraft may be taxiied to the holding point, traffic permitting the aircraft may be given backtrack as apart of the taxi clearance and also traffic permitting the controller may choose to omit the taxiway. Aircraft may advise the controller they are able to accept an intersection departure, therefore they may be taxiied to the holding point, omiting the backtrack instruction.
+An aircraft may be taxiied to the holding point and, traffic permitting the aircraft may be given backtrack as apart of the taxi clearance. Traffic permitting, the controller may also choose to omit the taxiway. Aircraft may advise the controller they are able to accept an intersection departure, therefore they may be taxiied to the holding point, omiting the backtrack instruction.
 
 !!! example "Taxi Instruction"
     **ANZ758M**: *"ANZ758M, request taxi."*
