@@ -71,6 +71,9 @@ extra:
     - icon: fontawesome/brands/discord
       link: https://vatnz.net/discord
       name: VATNZ on Discord
+  analytics:
+    provider: google
+    property: ${{ secrets.SOPS_ANALYTICS_GOOGLE }}
 
 # Additional Markdown Extensions to use bundled icon sets
 markdown_extensions:
