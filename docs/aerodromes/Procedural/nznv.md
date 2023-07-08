@@ -12,7 +12,11 @@
 
 ## Airspace
 
-The Invercargill CTR/D follows the inner lateral boundries shown below from `SFC` to `A015`. The CTR/D is comprised of three sectors - North, South and Instrument. The Invercargill CTA/D follows the outer lateral boundary as shown below. Within 15 nm `NV` VOR the lower limit is `A015`, to the south the lower limit is `A025` except to the south east where it is `A045`, to the north it steps between `A035`, `A055`, and `A065`, and to the east it is `A035`. The upper limit is `A095` for the entire CTA as seen in the diagram below.
+The Invercargill CTR/D follows the inner lateral boundries shown below from `SFC` to `A015`. The CTR/D is comprised of three sectors - North, South and Instrument. 
+
+The wider Invercargill CTA/D follows the outer boundaries as shown below, with the vertical boundaries also listed in their respective sector. Invercargill's airspace tops out at `A095`.
+
+Invercargill Tower provides a Procedural Approach service for the wider CTA/D and an uncontrolled service into Ryans Creek.
 
 <figure markdown>
   ![Invercargill Control Zone](./assets/NZNV-airspace.png) 
@@ -53,29 +57,39 @@ The controller shall assign the SID that is suggested by their Controller Client
 
 ### STAR Clearances 
 
-TNV is responsible for issuing STAR clearances for aircraft bound for Dunedin and Queenstown. With coordination to TDN and QTMA on the appropriate STARs.
+Tower is responsible for issuing STAR clearances for aircraft bound for Dunedin and Queenstown with reference to the QN and DN ATIS for the appropriate STARs.
 
 ## Arrivals
-STH shall issue STARs to arrivals without coordination with Invercargill Tower. Invercargill Tower may choose to coordinate with STH or amend the arrival on first contact.
-
-### Runway 22
-All RNAV arrivals terminate at either `LALEV` or `DOTLU`, which are the IAF for the RNP approach. Aircraft for the VOR approach will track direct to the `NV` VOR. Aircraft for the VOR DME approach will either track to the `NV` VOR, direct to `PEBLY`, or join the 10 `NV` DME Arc depending on the aircraft's position.
-
-#### Missed Approach
-In the event of a missed approach, aicraft should be instructed to carry out the published missed approach procedure. Aircraft on the RNP approach will track straight out to `AMVIX` holding at `A030`. The aircraft can then be issued the approprite arrival procedure from `AMVIX` to commence the approach again. VOR aircraft will track to the `NV` VOR holding at `A020`. The aircraft can then be recleared for the approach from `NV` VOR. VOR DME aircraft will track to `ROCKS` holding at `A030`. The aircraft can then be cleared direct to the `NV` VOR to commence the approach again.
+STH, QTMA, and TDN shall issue STARs to arrivals without coordination with Invercargill Tower. Invercargill Tower may choose to coordinate with the adjacent sectors or amend the arrival on first contact.
 
 ### Runway 04
 All RNAV arrivals terminate at `ESNUP` or `EGAMU`, which is the IAF for the RNP approach. Aircraft for the VOR approach will track direct to the `NV` VOR. Aircraft for the VOR DME approach will either track to the `NV` VOR, direct to `PEBLY`, or join the `NV` 10 DME Arc depending on the aircraft's position.
 
-#### Missed Approach
-In the event of a missed approach, aicraft should be instructed to carry out the published missed approach procedure. Aircraft on the RNP approach will track straight out to `AMVIX` holding at `A030`.  The aircraft can then be issued the approprite arrival procedure from `AMVIX` to commence the approach again. Aircraft on the VOR or VOR DME approaches will track to the `NV` VOR holding at `A020`. The aircraft can then be recleared for the approach from `NV` VOR.
+The prefered order of approaches are RNP RWY 04, VOR DME RWY 04, VOR RWY 04.
+
+### Runway 22
+All RNAV arrivals terminate at either `LALEV` or `DOTLU`, which are the IAF for the RNP approach. Aircraft for the VOR approach will track direct to the `NV` VOR. Aircraft for the VOR DME approach will either track to the `NV` VOR, direct to `PEBLY`, or join the 10 `NV` DME Arc depending on the aircraft's position.
+
+The prefered order of approaches are RNP RWY 22, VOR DME RWY 22, VOR RWY 22.
 
 ## VFR Procedures
 NZNV has no published VFR procedures. VFR traffic shall be issued plain language instructions.
 
 ## Coordination
 
-STH and QTMA shall ensure at least a 10 min warning call is given to TNV for any arriving aircraft, TNV shall advise STH, QMTA, or TDN of any departing traffic that is entering their CTA prior to that traffic getting airborne. 
+### STH
+
+Tower is normally not required to advise STH of any departing IFR traffic, and may conduct a silent handover when aircraft crosses the common boundary, or when approaching the top of Tower's CTA. Except where previously coordinated, IFR aircraft shall cross the common airspace boundary overhead an IFR waypoint, or established on an airway.
+
+All VFR traffic handovers shall be coordinated with STH. 
+
+### QTMA
+Tower is normally not required to advise QTMA of any departing IFR traffic, and may conduct a silent handover when aircraft crosses the common boundary, or when approaching the top of Tower's CTA. Except where previously coordinated, IFR aircraft shall cross the common airspace boundary overhead an IFR waypoint, or established on an airway.
+
+All VFR traffic handovers shall be coordinated with STH. 
+### NV TWR
+
+Tower shall coordinate all traffic handovers with NV TWR, and shall advise the aircraft's current and cleared altitude, and estimated time that they will be crossing the common airspace boundary. 
 
 ## Ryans Creek Uncontrolled IFR
 Ryans Creek (NZRC) is a small uncontrolled GA aerodrome 30 nm south of Invercargill.
