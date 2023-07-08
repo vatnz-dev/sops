@@ -12,17 +12,23 @@
 
 ## Airspace
 
-The Dunedin CTR/D follows the inner lateral boundries shown below from `SFC` to `A035`. The CTR/D is comprised of three sectors - West, East and Instrument. The Dunedin CTA/D follows the outer lateral boundary as shown below. To the North, South and East, the airspace is from `A035` to `A095`. To the West the airspace is from `A045` to `A095` then `A075` to `A135` as seen in the diagram below.
+The Dunedin CTR/D follows the inner lateral boundaries shown below from `SFC` to `A035`. The CTR/D is comprised of three sectors - the West, East and Instrument sectors. 
+
+The wider Dunedin CTA/D follows the outer boundaries as shown below, with the vertical boundaries also listed in their respective sector. Dunedin's airspace tops out at `A095`, except for the western portion of CTA/D, which tops out at `A135`. 
+
+Dunedin Tower provides a Procedural Approach service for the wider CTA/D.
 
 
 <figure markdown>
-  ![Dunedin Control Zone](./assets/nzdn-airspace.png) 
+  ![Dunedin Control Area](./assets/nzdn-airspace.png) 
   <figcaption>Dunedin Control Zone (CTR/D) and Control Area (CTA/D)</figcaption>
 </figure>
 
 ## Areas of Responsibility
 
-Dunedin's main apron has five stands, two of those with jetways. Taxiway `C` leads to the Mainland Air and Flightline Aviation hangars operating flight training and charter services. The areas of responsibility are as depicted below.
+Dunedin's main apron has five stands, two of those with jetways. TWY `C` leads to the Mainland Air and Flightline Aviation hangars. 
+
+In addition to all taxiways and runways, Dunedin Tower has responsibility for the main apron, with the exception of the taxiway east of the Mainland Air hangar.
 
 <figure markdown>
   ![Dunedin Areas of Responsibility](./assets/nzdn-resp.png) 
@@ -31,22 +37,25 @@ Dunedin's main apron has five stands, two of those with jetways. Taxiway `C` lea
 
 ## Pushback and Taxi
 
-Pushback and startup clearance from stand one to five is managed by Tower. Controllers can make use of a "tail-facing" instruction to manage direction of pushback. Aircraft on taxiway `C` must contact Tower at `C2` holding point before proceeding.
+Pushback and start-up clearance from stand one to five is managed by Tower. Controllers can make use of a "tail-facing" instruction to manage direction of pushback. Aircraft operating east of the Mainland Air hangar are required to contact Tower prior to passing the `C2` hold for taxi instructions.
 
-An aircraft may be given a combined taxi/backtrack instruction, Traffic permitting. Aircraft may advise the controller they are able to accept an intersection departure, therefore they may be taxiied to the holding point, omiting the backtrack instruction.
+Aircraft may be given a combined taxi/backtrack instruction. When RWY 21 is in use, an intersection departure is available.
 
-!!! example "Taxi Backtrack Instruction"
+Controllers should make use of the holding point on TWY `B` to allow for multiple runway movements.
+
+!!! example "Enter and Backtrack Instruction"
     **ANZ758M**: *"ANZ758M, request taxi."*
 
-    **Dunedin Tower**: *"ANZ758M, taxi backtrack, lineup runway 21."*
+    **Dunedin Tower**: *"ANZ758M, enter backtrack and lineup RWY 21."*
 
-!!! example "Taxi Instruction"
+!!! example "Taxi Instruction using the `B` hold"
     **ZK-ELT**: *"ELT, request taxi."*
 
-    **Dunedin Tower**: *"ELT, via `B` and `A`, enter backtrack, lineup runway 21."*
+    **Dunedin Tower**: *"ELT, taxi and hold on `B` for arriving A320. Once passed, enter backtrack and linup RWY 21"*
 
 ## Departures
-IFR traffic departing via BIDEL shall be handed off to STH either crossing BIDEL or passing `A095`. Other IFR departures shall be handed off either crossing the lateral boundary of the airspace or passing the upper limit of `A095` or `A135` - whichever comes first.
+
+IFR traffic departing via BIDEL shall be handed off to STH either crossing BIDEL or passing `A095`. Other IFR departures shall be handed off either crossing the lateral boundary of the airspace or when passing the upper limit of `A095` or `A135`.
 
 ### SID Assignment
 
@@ -72,46 +81,53 @@ IFR traffic departing via BIDEL shall be handed off to STH either crossing BIDEL
 | 03     | `SWAMPY #` | Cat A to D             | To `BIDEL`, `MEGUG` `MIPAK`, `PORUT` and `QN`. Non-RNAV.                                                                                  |
 
 ### Visual Departures
-When either runway is in use, Tower may issue northern-bound aircraft a visual departure direct to `BIDEL` on pilot's request, traffic permitting. Alternatively, when Runway 21 is in use, Tower may issue northern-bound aircraft on the `BIDEL #Q`or `BIDEL #S` a visual departure to `ATGUB` or `IDLIK` on pilot's request ([Refer to AIP chart for `BIDEL #Q` and `BIDEL #S`](https://www.aip.net.nz/assets/AIP/Aerodrome-Charts/Dunedin-NZDN/NZDN_62.7_62.8.pdf)).
 
-!!! example "Visual Departure Direct to BIDEL"
-    **Dunedin Tower**: *"ANZ676, recleared visual deaprture direct `BIDEL`."*
+When RWY 03 is in use, Tower may issue northern-bound aircraft a visual departure direct to `BIDEL` at pilot's request. 
 
-!!! example "Runway 21 Visual Departure"
-    **Dunedin Tower**: *"ANZ758M, recleared left visual deaprture direct `ATGUB` to rejoin the SID."*
+When RWY 21 is in use, Tower may issue aircraft cleared the `BIDEL #Q`or `BIDEL #S` a visual departure to `ATGUB` or `IDLIK` at pilot's request.
+
+!!! example "Visual Departure"
+    **Dunedin Tower**: *"ANZ758M, re-cleared a visual departure, left turn direct `ATGUB` to re-join the SID."*
 
 
 ## Arrivals
-STH shall issue STARs to arrivals without coordination with Dunedin Tower. The `MIPAK #C` arrival for runway 03 may be used when requested by the pilot. Dunedin Tower may choose to coordinate with STH or amend the arrival on first contact.
+
+STH will issue STARs without coordination with Dunedin Tower. 
+
+Dunedin Tower may request aircraft be issued the `MIPAK #C` arrival for RWY 03 when prevailing winds are from the north-west, or when requested by the pilot. This may be changed on initial contact.
 
 ### Runway 21
+
 All arrivals terminate at `ESKAT`, which is the IAF for the RNAV and ILS approach. 
 
-### Missed Approach
-In the event of a missed approach, aicraft should be instructed to carry out the published missed approach procedure. For the ILS and NDB procedures, this will take the aircraft straight out to `BE` NDB holding at `A040`. For the RNAV procedure, it will take the aircraft straight out to `AKLAR` holding at `A040`. The aircraft can then be issued the approprite arrival procedure from `AKLAR` to commence the approach again.
-
 ### Runway 03
-All arrivals terminate at `AKLAR`, which is the IAF for the RNAV and ILS approach.
 
-### Missed Approach
-In the event of a missed approach, aircraft should be instructed to carry out the published missed approach procedure. For the ILS and NDB procedures, this will take the aircraft straight out to `MI` NDB, then a right turn to `BE` NDB holding at `A040`. For the RNAV procedure, it will take the aircraft to `DABCA` holding at `A040`. The aircraft can then be issued the appropriate arrival procedure from `DABCA` to commence the approach again.
+All arrivals terminate at `AKLAR`, which is the IAF for the RNAV and ILS approach.
 
 ## VFR Procedures
 
 ### Arrivals
-In order to lessen the amount of instructions given to VFR traffic, the Controller shall issue a published VFR arrival where possible. Once the Pilot reports overhead the respective VRP, Dunedin Tower shall issue circuit joining insturctions. [Refer to AIP chart for NZDN arrivals](https://www.aip.net.nz/assets/AIP/Aerodrome-Charts/Dunedin-NZDN/NZDN_35.1_35.2.pdf){ target=new }.
+In order to lessen the amount of instructions given to VFR traffic, the Controller shall issue a published VFR arrival where possible. Once the Pilot reports overhead the respective VRP, Dunedin Tower shall issue circuit joining instructions. [Refer to AIP chart for VFR arrivals](https://www.aip.net.nz/assets/AIP/Aerodrome-Charts/Dunedin-NZDN/NZDN_35.1_35.2.pdf){ target=new }.
 
 ### Departures
-In order to lessen the amount of instructions given to VFR traffic, the Controller shall issue one of the VFR Departure Procedures where possible, otherwise a more plain language clearance will be issued. [Refer to AIP chart for NZDN departures](https://www.aip.net.nz/assets/AIP/Aerodrome-Charts/Dunedin-NZDN/NZDN_64.1_64.2.pdf){ target=new }.
+In order to lessen the amount of instructions given to VFR traffic, the Controller shall issue one of the VFR Departure Procedures where possible, otherwise a more plain language clearance may be issued. [Refer to AIP chart for VFR departures](https://www.aip.net.nz/assets/AIP/Aerodrome-Charts/Dunedin-NZDN/NZDN_64.1_64.2.pdf){ target=new }.
 
 
 ## NZTI - Taieri
 
-Taieri is a small, uncontrolled GA aerodrome located 8nm Northeast of NZDN (Dunedin). Aircraft may operate within the TI circuit and within 3nm of the aerodrome below `A011` without reference to ATC. Aircraft departing TI shall receive clearance and departure instructions from Dunedin Tower prior to departure.
+Taieri is a small, uncontrolled GA aerodrome located 8nm Northeast of NZDN. Aircraft may operate within the Taieri circuit and within 3nm of the aerodrome below `A011` without reference to ATC. Aircraft departing Taieri shall receive clearance and departure instructions from Dunedin Tower prior to departure.
 
 !!! info
-    VFR aircraft bound for NZTI are to be handed off to Unicom approaching the aerodrome. A good rule of thumb for aircraft coming from the North, South or the city is to hand them off as they enter the Taieri Plains valley.
+    VFR aircraft bound for Taieri are to be handed off to UNICOM approaching the aerodrome. A good rule of thumb for aircraft coming from the North, South or the city is to hand them off as they enter the Taieri Plains valley.
 
 ## Coordination
 
-STH shall ensure at least a 10 min warning call is given to TDN for any arriving aircraft, TDN shall advise STH of any departing traffic that is entering their CTA prior to that traffic getting airborne. 
+### STH
+
+Tower is normally not required to advise STH of any departing IFR traffic, and may conduct a silent handover when aircraft crosses the common boundary, or when approaching the top of Tower's CTA. Except where previously coordinated, IFR aircraft shall cross the common airspace boundary overhead an IFR waypoint, or established on an airway.
+
+All VFR traffic handovers shall be coordinated with STH. 
+
+### NV TWR
+
+Tower shall coordinate all traffic handovers with NV TWR, and shall advise the aircraft's current and cleared altitude, and estimated time that they will be crossing the common airspace boundary. 
