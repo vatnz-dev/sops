@@ -163,6 +163,55 @@ To ensure a divergent departure occurs due to traffic, AA TMA may request an air
     **Auckland Tower**: *"JST203, on departure turn right heading 170, climb four thousand"*
     **JST203**: *"JST203, on departure turn right heading 170, climb four thousand"*  
 
+## Noise Abatement
+
+!!! warning "Use of Noise Abatement Operations"
+    The use of Noise Abatement Operations on the network is **not** mandatory, and Controllers may elect to provide a normal control service if they wish. As the primary Controller affected, the decision to implement Noise Abatement Operations sits with AA TMA.
+
+      *Auckland employs noise abatement procedures from 2300 until 0600 local in order to minimise disturbances over populated areas.*
+
+### Use of the Preferential Runway System
+
+Use of the Preferential Runway System is not authorised and Controllers shall nominate a single runway direction for both take-off and landing.
+
+### Departures
+
+#### Runway 05R
+
+Aircraft operating from RWY 05R shall not be taken off the SID until passing `A030`. Aircraft shall not overfly the City lower than `A050` unless established on an approach or departure path.
+
+For all international departures the Controller shall issue the SID that is suggested by their Controller Client. For Domestic departures, Controllers shall observe the following SID assignment preferences:
+
+| Priority | Runway | Procedure      | Allowed A/C Categories | Notes                                                                                  |
+| -------- | ------ | -------------- | ---------------------- | -------------------------------------------------------------------------------------- |
+| 1        | 05R    | `BROOK #Q`     | Cat A to C             | AA TMR approval not required during Noise Abatement hours.                             |
+| 2        | 05R    | `REKIS #Q`     | Cat A to D             | **Preferred departure for Props**. Shall not be issued to Jets during Noise Abatement. |
+| 3        | 05R    | `POLIS #Q`     | Cat A to D             | **Preferred departure for Cat D Jets, or heavies**. Shallower climb gradient.          |
+| 4        | 05R    | All other SIDs |                        | Use of the `PAGLA #Q` departure shall be avoided.                                      |
+
+
+#### Runway 23L
+
+Aircraft operating from Rwy 23L must climb to `A030` on the extended runway centreline before turning to the right on departure. Aircraft may turn left once above `A005`.
+
+There are no limits on the issuing of SIDs for Rwy 23L.
+
+### Arrivals
+
+#### Domestic
+
+There are no limitations on the assignment of STARs for Domestic traffic, however Controllers should avoid the issuing of RNP-linking STARs.
+
+#### International
+
+OCR has three Noise Abatement STARs that shall be issued as first preference. If track shortening is provided, Controllers shall ensure that aircraft do not overfly the city.
+
+| Runway | Procedure  | Transitions                                                             | Allowed A/C Categories |
+| ------ | ---------- | ----------------------------------------------------------------------- | ---------------------- |
+| 23L    | `BASIV #N` | `ELNOS` `SALAG` `UPLAR`                                                 | All                    |
+| 05R    | `RIKDI #N` | `KALAG` `AGREX` `TARIB` `SELKA` `AGEDU` `IDSEM` `DABAS` `AKLOM` `OLBEX` | All                    |
+| 23L    | `TAZEY #N` | `PEBLU` `VELMO`                                                         | All                    |
+
 ## VFR Procedures
 
 ### Arrival
