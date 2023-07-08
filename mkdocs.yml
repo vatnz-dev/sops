@@ -74,6 +74,7 @@ extra:
   analytics:
     provider: google
     property: G-TH1T6E4KK6
+# google analytics tag to be rotated during airac cycle workflow
 
 # Additional Markdown Extensions to use bundled icon sets
 markdown_extensions:
