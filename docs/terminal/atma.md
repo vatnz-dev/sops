@@ -39,7 +39,7 @@ The Auckland CTA/C follows the lateral and vertical boundaries as shown below.
 | -------------------- | ------------------------------------------------------------ | --------------------------------------------------------------------------- | 
 | Tower -> Approach    | Once the aircraft becomes airborne off the runway            | Tower shall instruct all aircraft to contact ATMA airborne                  |
 | Approach -> Control  | Once the aircraft are approaching the lateral bounds         | Aircraft may be handed off when nothing further is required of the aircraft | 
-| Control -> Approach  | Once the aircraft is appraching the cleared level by control | Aircraft may not always be cleared to A110 when handed to ATMA              | 
+| Control -> Approach  | Once the aircraft is approaching the cleared level by control | Aircraft may not always be cleared to A110 when handed to ATMA              | 
 | Approach -> Tower    | Once established on final (ILS/LOC) or over the IAF (RNP)    |                                                                             |
 
 ## Departures
@@ -99,7 +99,7 @@ Provided the separation allows, aircraft may be tracked direct `SABAV` and `GITU
 
 NZAA runs noise abatement from 2300 until 0600L, and the procedures contained in [NZAA - Noise Abatement](../aerodromes/Class-C/nzaa.md#noise-abatement) may be applied within this time.
 
-Controllers shall note that only the RNP Y Rwy 05R (AR) approach is authorised for use during noise abatement hours.
+Controllers shall note that only the RNP Y RWY 05R (AR) approach is authorised for use during noise abatement hours.
 
 ## Uncontrolled IFR 
 
