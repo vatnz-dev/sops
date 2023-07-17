@@ -4,6 +4,9 @@
 
 --8<-- "includes/abbreviations.md"
 
+!!! note "Auckland Procedures"
+    The ATMA procedures build upon information already contained in the [NZAA Aerodrome Procedures](../aerodromes/Class-C/nzaa.md), and any Controller logged on to ATMA should be familiar with those procedures.
+
 ## Positions
 
 | Position Name | Shortcode | Callsign          | Frequency | Login ID | Usage     |
@@ -41,54 +44,79 @@ The Auckland CTA/C follows the lateral and vertical boundaries as shown below.
 
 ## Departures
 
-Aircraft released to ATMA may be tracked direct to a fix or assigned a heading to aid with sequencing or for the benifit of the pilot. 
+Departures will be assigned by Auckland Controllers in accordance with the [SID Assignment guide](../aerodromes/Class-C/nzaa.md). 
 
-ATMA shall note that all Prop SIDs out of AA contain a hold down of `A050`. ATMA shall climb the aircraft as required. Note that not all pilots will be aware of this hold down, therefore if an aircraft is to be held down at `A050` the pilot shall be told to *"Climb to 5000"*. It shall also be noted that the `BROOK #Q` has a altitude restriction of between `A025` and `A040`. 
+ATMA may climb departing aircraft as necessary to maintain separation and traffic flow up to their requested flight level. International aircraft shall be instructed to climb to `FL250`, if further climb is requested, they shall be handed to OCR.
 
-Aircraft must climb to `A030` on the extended runway centreline before turning North on departure. Aircraft may be turned South passing A005. 
+!!! hint "RTF for re-joining a SID"
+    Where an aircraft has been taken off their assigned SID, and is required to then re-join at a later point, the following RTF must be used:
 
-ATMA may track aircraft direct to the following positions without coordintation to OCR, RAN and BAY. Any waypoint before or abeam NP in RAN including LAKAR. And other waypoints such as HN, TAPAT and BOGUN. 
+    **ATMA**: *New Zealand 677, track direct LAKES to rejoin the SID*.
 
-### STAR Clearances 
+    **Note**: This RTF is not valid when track-shortening on a SID, and the standard "track direct" RTF shall be used.
 
-ATMA is responsible for issuing STAR clearances for aircraft bound for Hamilton and Tauranga. With coordination to BAY and/or HTMA (if online) on the appropriate STAR. IFR Training is popular between AR and HN so if there are any special details of an aircraft or a specific request from the pilot this shall also be passed onto HTMA (or BAY if HTMA offline). 
+### Prop Departures
 
-### Assigned Headings 
+ATMA should note that all prop-preferential SIDs have a hold-down altitude restriction during their initial departure leg. Most Pilots are not aware of these limitations, therefore ATMA should be aware of the limitations, particularly on the `BROOK 3Q`, `REKIS #Q` and `STEAL #P`. ATMA can use a stepped climb methodology to ensure that these limitations are met.
 
-As per [Assigned Headings](../aerodromes/Class-C/nzaa.md#assigned-headings) ATMA shall endevour to coordinate assigned headings with TAA as soon as practical. Assigned heading shall be issued in the instance that a departing aircraft will be taking off close to an arriving aircraft, or for track shortening. This heading ensures the missed approach path is clear for the arriving aircraft incase of a go-around. Controllers shall note that only aircraft departing to the South may be assigned a heading, as aircraft departing north may not turn until passing `A030` therefore an assigned heading becomes impractical. 
 
+### Track Shortening
+
+Aircraft under the jurisdiction of ATMA may be track-shortened or assigned a heading to assist with sequencing or for separation. 
+
+ATMA may track-shorten where practical within their sector. ATMA may track-shorten aircraft direct to `KARRL` without coordination, provided that it their flight plan has been amended.
+
+As track-shortening direct to `TAPAT` or `BOGUN` can interfere with arrivals within OCR, these shall be co-ordinated.
+
+### Short-Sector STARs
+
+ATMA is responsible for issuing STAR clearances for aircraft bound for NZHN, NZTG, NZRO and NZNP, and shall do so without coordination. 
+
+### Assigned Heading Departures
+
+Assigned Heading departures may be requested by Tower or ATMA in order to allow for more efficient traffic flow from the runway. Controllers can use this method to ensure that a 30° divergence exists between tracks - either keeping the go-around path clear, or by moving an aircraft away from another aircraft's departure path. These shall be issued in accordance with [NZAA - Assigned Headings](../aerodromes/Class-C/nzaa.md#assigned-headings).
+
+Due to the early turn required, assigned heading departures shall be given to prop aircraft only.
+
+!!! example "RTF and coordination for Assigned Heading departure"
+    <span class="coldline">**AA TWR** -> **AA TMA**</span>: "Successive departures. Request ANZ631 assigned heading 190 degrees climbing five thousand then yours for vectors. Second in queue."  
+    <span class="coldline">**AA TMR** -> **AA TWR**</span>: "ANZ631 approved heading 190 degrees climbing five thousand then my vectors. Copy second in line."
 
 ## Arrivals 
 
-Aircraft recivced from OCR, RAN and BAY shall be assigned the standard level of `A110`, or at times aircraft may be assigned different levels depending on the traffic levels etc. 
+OCR, RAN or BAY will hand aircraft to ATMA no lower than `A110`, unless co-ordinated.
 
-Controllers are expected to be aware of the different STARs leading into AA, AR and WP and what STARs lead to what approach, therefore the following track shortening in low levels of traffic or for sequencing shall be applied. 
+### Track Shortening
 
-For track shortening aircraft may be tracked direct SABAV and GITUK for the ILS or ZORBA, ELBOP, and ATAMA for RNP-ARs.  Any International arrivals shall expect mininimal track shortening as due to the layout of the STARs. 
+ATMA should make use of track-shortening on STARs to allow for an efficient sequence to be applied. Where an aircraft has been taken away from the STAR and are subsequently required to re-join and follow the STAR, the following RTF shall be used:
 
-In relation to [Noise Abatement](../aerodromes/Class-C/nzaa.md#noise-abatement) Controllers shall also note that the RNAV (RNP) S, U, X  for all runways and the RNP Y RWY 23L are only available between 0700 and 2200 local. However the RNAV (RNP) Y RWY 05R is available H24. 
+!!! hint "RTF for re-joining a STAR"
+    **ATMA**: *New Zealand 677, track direct VINCE to re-join the STAR. When ready descend A050*.
 
-## Noise Abatment
+Provided the separation allows, aircraft may be tracked direct `SABAV` and `GITUK` for their respective ILS, or to `ZORBA`, `ELBOP` or `ATAMA` their respective RNP (AR) approach. Due to the routing of international STARs, minimal track shortening shall be applied.
 
-For Noise Abatment refer to [Auckland Aerodrome Page](../aerodromes/Class-C/nzaa.md#noise-abatement)
+### Noise Abatement
+
+NZAA runs noise abatement from 2300 until 0600L, and the procedures contained in [NZAA - Noise Abatement](../aerodromes/Class-C/nzaa.md#noise-abatement) may be applied within this time.
+
+Controllers shall note that only the RNP Y Rwy 05R (AR) approach is authorised for use during noise abatement hours.
 
 ## Uncontrolled IFR 
 
 ### Departures 
 
-IFR aircraft on the ground shall call ATMA prior to taxi to obtain IFR clearance. After a correct readback shall be told to report at the holding point for validation of their IFR clearance, and are cleared to enter controlled airspace on a SID and are advised to report prior to entering controlled airspace (Will normally be `A025` out of both North Shore and Ardmore). 
+For aircraft departing NZNE and NZAR, they shall be issued an Uncontrolled IFR clearance. Depending on traffic levels outside controlled airspace, they can either be required to validate their clearance before departure, or prior to entering controlled airspace.
 
-### Arrivals
+For Uncontrolled IFR aircraft leaving the ATMA control area, ATMA shall issue the appropriate STAR for that aerodrome, and clear the aircraft to leave controlled airspace on descent. 
 
-For arriving IFR aircraft, ATMA shall issue the most appropriate STAR, and shall ask what approach they are antcipating. ATMA shall clear aircraft to leave controlled airspace via an approach, and get them to report on the ground to terminate thier flight plan
-
+If the aircraft is terminating underneath the ATMA control area, they shall be instructed to contact you on the ground to cancel their IFR flight plan. If their flight is terminating underneath another sector, such as OCR, they shall be instructed to contact that sector. This shall be coordinated.
 
 ## Coordination
 
-### TAA
+### Auckland Tower
 
-ATMA shall coordinated with TAA and OCR/RAN/BAY as seen fit including any request for the non-nominated approach. 
+ATMA shall coordinate with TAA the use of any approach that is not nominated in the ATIS.
 
 ### OCR, RAN and BAY
 
-ATMA shall coordinate any track shortening not stated in [Departures](../terminal/atma.md#departures). 
+ATMA shall coordinate any track shortening outside of their control area that is not stated in [Departures - Track Shortening](../terminal/atma.md#departures). 
