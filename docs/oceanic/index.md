@@ -43,10 +43,15 @@ The following Divisions are party to the agreement:
 
 ### Control Positions
 
-| Sector Name              | Callsign            | Frequency        | Logon ID   | Division | Notes                    |
-| ------------------------ | ------------------- | ---------------- | ---------- | -------- | ------------------------ |
-| KZAK - Oakland Oceanic   | San Francisco Radio | 11.282 (129.400) | ZAK_FSS    | VATUSA   |                          |
-| YBBB - Brisbane Oceanic  | Brisbane Radio      | 17.904 (124.650) | BN-TSN_FSS | VATPAC   | Also controls AGGG, ANAU |
-| YMMM - Melbourne Oceanic | Melbourne Radio     | 17.904 (124.650) | ML-IND_FSS | VATPAC   |                          |
-| NZZO - Auckland Oceanic  | Auckland Radio      | 8.867 (129.000)  | NZZO_FSS   | VATNZ    |                          |
-| NZZO- |                     |                  |            |          |                          |
+| Sector Name                          | Callsign            | Frequency        | Logon ID     | Division | Notes                       |
+| ------------------------------------ | ------------------- | ---------------- | ------------ | -------- | --------------------------- |
+| KZAK - Oakland Oceanic               | San Francisco Radio | 11.282 (129.400) | ZAK_FSS      | VATUSA   |                             |
+| YBBB - Brisbane Oceanic              | Brisbane Radio      | 17.904 (124.650) | BN-TSN_FSS   | VATPAC   | Also controls AGGG, ANAU    |
+| YMMM - Melbourne Oceanic             | Melbourne Radio     | 17.904 (124.650) | ML-IND_FSS   | VATPAC   |                             |
+| NZZO - Auckland Oceanic              | Auckland Radio      | 8.867 (129.000)  | NZZO_FSS     | VATNZ    | Can be split into -E sector |
+| NZZO-TSN - Auckland Oceanic (Tasman) | Auckland Radio      | 5.567 (129.500)  | NZZO-TSN_FSS | VATNZ    |                             |
+| NZCM - McMurdo Oceanic               | McMurdo Radio       | 9.032 (128.700)  | NZCM_FSS     | VATNZ    |                             |
+| NFFF - Nadi Oceanic                  | Nadi Radio          | 8.846 (123.600)  | NFFF_FSS     | VATPAC   |                             |
+| NTTT - Tahiti Oceanic                | Tahiti Radio        | 9.116 (125.500)  | NTTT_FSS     | VATPAC   |                             |
+| RJTG - Tokyo Oceanic                 | Tokyo Radio         |                  |              | VATJPN   |                             |
+| MMFO - Mexico                                |  |                  |              |          |                             |
