@@ -7,15 +7,46 @@
 !!! important "Pacific Oceanic Partnership"
     The pages contained within the Oceanic section of this website act as the Local Instructions, as required under Section 2.3(3) of the Pacific Oceanic Letter of Agreement.
 
-!!! important "Supported Controller Clients for Oceanic Positions"
-    At the moment, VATNZ only supports vatSys for oceanic operations. The "Auckland Radio" dataset is the current preferred profile for Auckland Radio operation, whereas the "South Pacific" dataset is the current preferred profile for NTTT, NCRG or NSFA operations.
+## Airspace
 
-    A new profile is currently being developed to merge all of these datasets into one.
+VATNZ is responsible for three Oceanic FIRs in the Pacific area, and can be logged onto by anybody who possesses an [Oceanic Endorsement](https://www.vatnz.net/members/oceanic){ target=_blank }:
 
-!!! danger "Heads up!"
+- **NZZO** - Auckland Oceanic
+- **NZCM** - McMurdo Oceanic
+- **NTTT** - Tahiti Oceanic
 
-    VATNZ's Oceanic and Pacific sectors are currently undergoing a refresh project, aimed at overhauling how our Pacific sectors operate, in addition to providing additional information to Controllers.
+VATNZ is responsible for maintaining these sectors, as well as any aerodromes or services that fall within them. 
 
-    This project is still underway, and elements of this Oceanic section **may not** be reflective of the current state of the network. This is annotated where appropriate.
+## Pacific Oceanic Agreement
 
-VATNZ has responsibility for not only the NZZC sector, but also the NZZO and NTTT FIRs. These FIRs cover a variety of areas - ranging from the tropical paradise of French Polynesia, to the bitter cold of Antarctica.
+VATNZ is party to the [Pacific Oceanic Letter of Agreement](https://www.vatnz.net/vatnz/policies/LOAs/pacific-oceanic-letter-agreement-v1-1-1/){ target=_blank } - allowing any Oceanic Controller from a participating Division to control any of the participating FIR's Oceanic positions. 
+
+!!! important "VATNZ and VATPAC Reciprocal Controller Rights"
+    You should note that the Pacific Oceanic LOA and the Inter-Division Visiting Controller Policy are different, although achieving largely the same outcome. 
+
+    The Visiting Controller Policy allows any VATPAC Controller to control within any VATNZ FIR as if it were their Home Division, providing they're controlling in line with their rating or endorsements. 
+    
+    The Pacific Oceanic Agreement specifically authorises **only** Oceanic Endorsed Controllers to control only Oceanic Positions in any FIR - this does not authorise them to control any other position, such as a Tower or Enroute.
+
+<figure markdown>
+  ![Oceanic Control FIRs in the Pacific](./assets/POCA.png) 
+  <figcaption>Oceanic Control FIRs in the Pacific. Not shown are VATMEX's Oceanic FIRs.</figcaption>
+</figure>
+
+The following Divisions are party to the agreement:
+
+- VATNZ (NZZO, NZCM and NTTT)
+- VATPAC (YMMM, YBBB, NFFF, AGGG, ANAU)
+- VATUSA (KZAK)
+- VATJPN (RJTG)
+- VATMEX (MMFO)
+
+### Control Positions
+
+| Sector Name              | Callsign            | Frequency        | Logon ID   | Division | Notes                    |
+| ------------------------ | ------------------- | ---------------- | ---------- | -------- | ------------------------ |
+| KZAK - Oakland Oceanic   | San Francisco Radio | 11.282 (129.400) | ZAK_FSS    | VATUSA   |                          |
+| YBBB - Brisbane Oceanic  | Brisbane Radio      | 17.904 (124.650) | BN-TSN_FSS | VATPAC   | Also controls AGGG, ANAU |
+| YMMM - Melbourne Oceanic | Melbourne Radio     | 17.904 (124.650) | ML-IND_FSS | VATPAC   |                          |
+| NZZO - Auckland Oceanic  | Auckland Radio      | 8.867 (129.000)  | NZZO_FSS   | VATNZ    |                          |
+| NZZO- |                     |                  |            |          |                          |
