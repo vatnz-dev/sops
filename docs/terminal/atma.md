@@ -35,16 +35,16 @@ The Auckland CTA/C follows the lateral and vertical boundaries as shown below.
 
 ### Transfer of Control Points
 
-|Transfer Flow         | Requirements                                                 | Notes                                                                       | 
-| -------------------- | ------------------------------------------------------------ | --------------------------------------------------------------------------- | 
-| Tower -> Approach    | Once the aircraft becomes airborne off the runway            | Tower shall instruct all aircraft to contact ATMA airborne                  |
-| Approach -> Control  | Once the aircraft are approaching the lateral bounds         | Aircraft may be handed off when nothing further is required of the aircraft | 
+|Transfer Flow         | Requirements                                                  | Notes                                                                       | 
+| -------------------- | ------------------------------------------------------------- | --------------------------------------------------------------------------- | 
+| Tower -> Approach    | Once the aircraft becomes airborne off the runway             | Tower shall instruct all aircraft to contact ATMA airborne                  |
+| Approach -> Control  | Once the aircraft are approaching the lateral bounds          | Aircraft may be handed off when nothing further is required of the aircraft | 
 | Control -> Approach  | Once the aircraft is approaching the cleared level by control | Aircraft may not always be cleared to A110 when handed to ATMA              | 
-| Approach -> Tower    | Once established on final (ILS/LOC) or over the IAF (RNP)    |                                                                             |
+| Approach -> Tower    | Once established on final (ILS/LOC) or over the IAF (RNP)     |                                                                             |
 
 ## Departures
 
-Departures will be assigned by Auckland Controllers in accordance with the [SID Assignment guide](../aerodromes/Class-C/nzaa.md). 
+Departures will be assigned by Auckland Controllers in accordance with the [SID Assignment guide](../aerodromes/Class-C/nzaa.md#sid-assignment). 
 
 ATMA may climb departing aircraft as necessary to maintain separation and traffic flow up to their requested flight level. International aircraft shall be instructed to climb to `FL250`, if further climb is requested, they shall be handed to OCR.
 
@@ -70,17 +70,17 @@ As track-shortening direct to `TAPAT` or `BOGUN` can interfere with arrivals wit
 
 ### Short-Sector STARs
 
-ATMA is responsible for issuing STAR clearances for aircraft bound for NZHN, NZTG, NZRO and NZNP, and shall do so without coordination. 
+ATMA is responsible for issuing STAR clearances for aircraft bound for NZHN and NZTG and shall do so without coordination. 
 
 ### Assigned Heading Departures
 
 Assigned Heading departures may be requested by Tower or ATMA in order to allow for more efficient traffic flow from the runway. Controllers can use this method to ensure that a 30° divergence exists between tracks - either keeping the go-around path clear, or by moving an aircraft away from another aircraft's departure path. These shall be issued in accordance with [NZAA - Assigned Headings](../aerodromes/Class-C/nzaa.md#assigned-headings).
 
-Due to the early turn required, assigned heading departures shall be given to prop aircraft only.
 
 !!! example "RTF and coordination for Assigned Heading departure"
-    <span class="coldline">**AA TWR** -> **AA TMA**</span>: "Successive departures. Request ANZ631 assigned heading 190 degrees climbing five thousand then yours for vectors. Second in queue."  
-    <span class="coldline">**AA TMR** -> **AA TWR**</span>: "ANZ631 approved heading 190 degrees climbing five thousand then my vectors. Copy second in line."
+    <span class="coldline">**AA TMA** -> **AA TWR**</span>: "New departure instructions for ANZ631, assigned heading 190 degrees climbing FL360, released"  
+    <span class="coldline">**AA TWR** -> **AA TMA**</span>: "Copy, ANZ631  heading 190 degrees climbing FL360, released"
+    
 
 ## Arrivals 
 
@@ -91,19 +91,17 @@ OCR, RAN or BAY will hand aircraft to ATMA no lower than `A110`, unless co-ordin
 ATMA should make use of track-shortening on STARs to allow for an efficient sequence to be applied. Where an aircraft has been taken away from the STAR and are subsequently required to re-join and follow the STAR, the following RTF shall be used:
 
 !!! hint "RTF for re-joining a STAR"
-    **ATMA**: *New Zealand 677, track direct VINCE to re-join the STAR. When ready descend A050*.
+    **ATMA**: *New Zealand 677, track direct VINCE to re-join the STAR. Descend A050*.
 
 Provided the separation allows, aircraft may be tracked direct `SABAV` and `GITUK` for their respective ILS, or to `ZORBA`, `ELBOP` or `ATAMA` their respective RNP (AR) approach. Due to the routing of international STARs, minimal track shortening shall be applied.
 
 ### Noise Abatement
 
-NZAA runs noise abatement from 2300 until 0600L, and the procedures contained in [NZAA - Noise Abatement](../aerodromes/Class-C/nzaa.md#noise-abatement) may be applied within this time.
+NZAA runs noise abatement from 2300L until 0600L, and the procedures contained in [NZAA - Noise Abatement](../aerodromes/Class-C/nzaa.md#noise-abatement) may be applied within this time.
 
 Controllers shall note that only the RNP Y RWY 05R (AR) approach is authorised for use during noise abatement hours.
 
 ## Uncontrolled IFR 
-
-### Departures 
 
 For aircraft departing NZNE and NZAR, they shall be issued an Uncontrolled IFR clearance. Depending on traffic levels outside controlled airspace, they can either be required to validate their clearance before departure, or prior to entering controlled airspace.
 
@@ -115,7 +113,7 @@ If the aircraft is terminating underneath the ATMA control area, they shall be i
 
 ### Auckland Tower
 
-ATMA shall coordinate with TAA the use of any approach that is not nominated in the ATIS.
+ATMA shall coordinate with TAA on any requested approach that is not nominated in the ATIS. 
 
 ### OCR, RAN and BAY
 
