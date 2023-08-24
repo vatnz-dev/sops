@@ -160,9 +160,8 @@ To ensure a divergent departure occurs due to traffic, AA TMA may request an air
 !!! example "Issuing a departure heading"
     **Auckland Tower**: *"JST203, additional departure instructions, report ready to copy"*  
     **JST203**: *"JST203, ready to copy"*  
-    **Auckland Tower**: *"JST203, on departure turn right heading 170, climb FL360"*
-    **JST203**: *"JST203, on departure turn right heading 170, climb FL360"*  
-
+    **Auckland Tower**: *"JST203, on departure turn right heading 170, climb four thousand"*
+    **JST203**: *"JST203, on departure turn right heading 170, climb four thousand"* 
 ## Noise Abatement
 
 !!! warning "Use of Noise Abatement Operations"

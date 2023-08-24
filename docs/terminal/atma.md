@@ -76,10 +76,11 @@ ATMA is responsible for issuing STAR clearances for aircraft bound for NZHN and 
 
 Assigned Heading departures may be requested by Tower or ATMA in order to allow for more efficient traffic flow from the runway. Controllers can use this method to ensure that a 30° divergence exists between tracks - either keeping the go-around path clear, or by moving an aircraft away from another aircraft's departure path. These shall be issued in accordance with [NZAA - Assigned Headings](../aerodromes/Class-C/nzaa.md#assigned-headings).
 
+- Due to the early turn required, assigned heading departures shall be given to prop aircraft only.
 
 !!! example "RTF and coordination for Assigned Heading departure"
-    <span class="coldline">**AA TMA** -> **AA TWR**</span>: "New departure instructions for ANZ631, assigned heading 190 degrees climbing FL360, released"  
-    <span class="coldline">**AA TWR** -> **AA TMA**</span>: "Copy, ANZ631  heading 190 degrees climbing FL360, released"
+    <span class="coldline">**AA TWR** -> **AA TMA**</span>: "Successive departures. Request ANZ631 assigned heading 190 degrees climbing five thousand then yours for vectors. Second in queue."  
+    <span class="coldline">**AA TMA** -> **AA TWR**</span>: "ANZ631 approved heading 190 degrees climbing five thousand then my vectors. Copy second in line."
     
 
 ## Arrivals 
@@ -91,7 +92,7 @@ OCR, RAN or BAY will hand aircraft to ATMA no lower than `A110`, unless co-ordin
 ATMA should make use of track-shortening on STARs to allow for an efficient sequence to be applied. Where an aircraft has been taken away from the STAR and are subsequently required to re-join and follow the STAR, the following RTF shall be used:
 
 !!! hint "RTF for re-joining a STAR"
-    **ATMA**: *New Zealand 677, track direct VINCE to re-join the STAR. Descend A050*.
+    **ATMA**: *New Zealand 677, track direct VINCE to re-join the STAR. Descend to A050, Radar terrain*.
 
 Provided the separation allows, aircraft may be tracked direct `SABAV` and `GITUK` for their respective ILS, or to `ZORBA`, `ELBOP` or `ATAMA` their respective RNP (AR) approach. Due to the routing of international STARs, minimal track shortening shall be applied.
 
