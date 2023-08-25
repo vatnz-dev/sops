@@ -1,6 +1,7 @@
 nav:
     - Home: index.md
     - aerodromes
+    - terminal
     - enroute
     - oceanic
     - pacific
