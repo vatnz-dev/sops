@@ -22,6 +22,14 @@ IFR aircraft are separated from other IFR aircraft, but VFR aircraft are not sep
 
 Pilots of VFR and IFR aircraft operating within Class D airspace must use a good lookout to separate themselves from each other as ATC separation is not provided. 
 
+## Procedural 
+
+Procedural airspace is only found at a few airports around the country, theses are Towers without radar and rely on reports from pilots on thier position. 
+
+Our procedural towers are: Gisborne, Napier, New Plymouth, Nelson, Dunedin and Invercargill. 
+
+They are all Class D therefore the above statement about Class D applies to them aswell. 
+
 --8<-- "includes/abbreviations.md"
 
 
