@@ -2,8 +2,6 @@
   title: Oceanic Overview
 ---
 
---8<-- "includes/abbreviations.md"
-
 !!! important "Pacific Oceanic Partnership"
     The pages contained within the Oceanic section of this website act as the Local Instructions, as required under Section 2.3(3) of the Pacific Oceanic Letter of Agreement.
 
@@ -54,4 +52,25 @@ The following Divisions are party to the agreement:
 | NFFF - Nadi Oceanic                  | Nadi Radio          | 8.846 (123.600)  | NFFF_FSS     | VATPAC   |                             |
 | NTTT - Tahiti Oceanic                | Tahiti Radio        | 9.116 (125.500)  | NTTT_FSS     | VATPAC   |                             |
 | RJTG - Tokyo Oceanic                 | Tokyo Radio         |                  |              | VATJPN   |                             |
-| MMFO - Mexico                                |  |                  |              |          |                             |
+| MMFO - Mexico                        |                     |                  |              |          |                             |
+
+### Currency Requirements
+
+In order to utilize your Oceanic Endorsement, and by extension, exersize your rights under the Pacific Oceanic Agreement, you must meet the following criteria:
+
+- A Participating Organisation must require a permitted controller to log 1 hour on a permitted oceanic position, within the previous 3 months, for them to be considered active, and
+- A permitted controller who does not meet the hour requirement specified above, will be considered inactive; and
+- An inactive permitted controller may become active again, by performing a buddy session with a permitted controller who is approved to do so by that PO; and
+- Any additional currency or activity requirements imposed by a PO on local or visiting controllers do not apply to permitted controllers.
+
+### Procedures for participating Oceanic Sectors
+
+Procedures for Divisions that are participating in the Pacific Oceanic Agreement can be found in the following table.
+
+| Sectors    | Divison | Procedures Link                                                                                                                      |
+| ---------- | ------- | ------------------------------------------------------------------------------------------------------------------------------------ |
+| YBBB, YMMM | VATPAC  | [VATPAC SOPs](http://sops.vatpac.org/oceanic/)                                                                                       |
+| NFFF       | VATPAC  | [VATPAC SOPs](http://sops.vatpac.org/pacific/)                                                                                       |
+| RJTG       | VATJPN  | To be added                                                                                                                          |
+| MMFO       | VATMEX  | To be added                                                                                                                          |
+| KZAK       | VATUSA  | [ZAK Standard Operating Procedure](https://oakartcc.org/web/viewer.html?file=/controllers/file/e8a98e09-1c16-11ec-9430-2a32edb55910) |
