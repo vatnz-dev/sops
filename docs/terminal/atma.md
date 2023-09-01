@@ -64,13 +64,24 @@ ATMA should note that all prop-preferential SIDs have a hold-down altitude restr
 
 Aircraft under the jurisdiction of ATMA may be track-shortened or assigned a heading to assist with sequencing or for separation. 
 
-ATMA may track-shorten where practical within their sector. ATMA may track-shorten aircraft direct to `KARRL` without coordination, provided that it their flight plan has been amended.
+If a SID is cancelled or the aircraft is given a shortcut ATMA shall note in the tag where the departing aircraft is tracking. 
 
-As track-shortening direct to `TAPAT` or `BOGUN` can interfere with arrivals within OCR, these shall be co-ordinated.
+ATMA shall instruct any aircraft on a radar heading to `report heading` to the next sector. 
 
-### Short-Sector STARs
+#### OCR 
 
-ATMA is responsible for issuing STAR clearances for aircraft bound for NZHN and NZTG and shall do so without coordination. 
+ATMA shall manually hand departing international flights to OCR as soon as practicable ensuring that aircraft are; on the SID, tracking to the SID endpoint, thence SID transition or on a vector and will remain clear of all aircraft under control. **Exceptions to the above are:**
+
+- Aircraft to PEBLU, VELMO, GULUT, DUGAN, ELNOS may be tracked direct to these points by TMA
+- Aircraft to MADEP/UPLAR may be tracked to BOGUN/TAPAT respectivly
+
+#### RAN
+
+ATMA may track aircraft to the following without coordination: NP/KARRL/LAKAR, NS (Provided aircraft are west of KARRL, is a jet and DEST is CHC), HN, DROPT, and SILVO (Provided West of KARRL).
+
+#### BAY
+
+ATMA may track aircraft to the following without coordination: TG (Provided DEST is not TG and is below A100) and TULMI.
 
 ### Assigned Heading Departures
 
@@ -82,6 +93,10 @@ Assigned Heading departures may be requested by Tower or ATMA in order to allow 
     <span class="coldline">**AA TWR** -> **AA TMA**</span>: "Successive departures. Request ANZ631 assigned heading 190 degrees climbing five thousand then yours for vectors. Second in queue."  
     <span class="coldline">**AA TMA** -> **AA TWR**</span>: "ANZ631 approved heading 190 degrees climbing five thousand then my vectors. Copy second in line."
     
+
+### Short-Sector STARs
+
+ATMA is responsible for issuing STAR clearances for aircraft bound for NZHN and NZTG and shall do so without coordination. 
 
 ## Arrivals 
 
@@ -118,4 +133,4 @@ ATMA shall coordinate with TAA on any requested approach that is not nominated i
 
 ### OCR, RAN and BAY
 
-ATMA shall coordinate any track shortening outside of their control area that is not stated in [Departures - Track Shortening](../terminal/atma.md#departures). 
+ATMA shall coordinate any track shortening outside of their control area that is not stated in [Departures - Track Shortening](atma.md#track-shortening). 
