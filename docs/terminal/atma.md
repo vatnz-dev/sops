@@ -77,11 +77,19 @@ ATMA shall manually hand departing international flights to OCR as soon as pract
 
 #### RAN
 
-ATMA may track aircraft to the following without coordination: NP/KARRL/LAKAR, NS (Provided aircraft are west of KARRL, is a jet and DEST is CHC), HN, DROPT, and SILVO (Provided West of KARRL).
+Prior coordination or advise is not required for the following flights:
+
+|Flights From... | may be cleared...             | provided that....                                                    | 
+| ---------------| ----------------------------- | -------------------------------------------------------------------- | 
+| ATMA           | Direct to: KARRL/NP/LAKAR     | DEST is not NZNP                                                     |
+| ATMA           | Direct to NS                  | Aircraft is west of KARRL, DEST is NZCH and is a jet                 | 
+| ATMA           | Direct to HN                  | Aircraft may not always be cleared to A110 when handed to ATMA       |
+| ATMA           | Direct to DROPT               | Aircraft Enters RAN sector east of LAKES-DROPT track and west of HN  |
+| ATMA           | Direct to SILVO               | Aircraft enters RAN sector west of KARRL                             |
 
 #### BAY
 
-ATMA may track aircraft to the following without coordination: TG (Provided DEST is not TG and is below A100) and TULMI.
+ATMA may track aircraft to the following without coordination: TG (Provided DEST is not TG and is below A100) and TULMI (no restrictions).
 
 ### Assigned Heading Departures
 
