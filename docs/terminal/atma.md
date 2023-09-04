@@ -81,22 +81,24 @@ ATMA shall manually hand departing international flights to OCR as soon as pract
 
 Prior coordination or notification is not required for the following flights:
 
-|Flights From... | may be cleared...               | provided that....                                                    | 
-| ---------------| ------------------------------- | -------------------------------------------------------------------- | 
-| ATMA           | Direct to: KARRL/NP/LAKAR       | DEST is not NZNP                                                     |
-| ATMA           | Direct to NS                    | Aircraft is west of KARRL, DEST is NZCH and is a jet                 | 
-| ATMA           | Direct to HN                    | DEST is not NZHN                                                     |
-| ATMA           | Direct to DROPT                 | Aircraft Enters RAN sector east of LAKES-DROPT track and west of HN  |
-| ATMA           | Direct to SILVO                 | Aircraft enters RAN sector west of KARRL                             |
-| ATMA           | via FPR on non-standard routes  | Level is `A100` and below                                          |
+| provided that...                                                     | may be cleared...               |
+| -------------------------------------------------------------------- | ------------------------------- |
+| DEST is not NZNP                                                     | Direct to: KARRL/NP/LAKAR       |
+| Aircraft is west of KARRL, DEST is NZCH and is a jet                 | Direct to NS                    |
+| DEST is not NZHN                                                     | Direct to HN                    |
+| Aircraft Enters RAN sector east of LAKES-DROPT track and west of HN  | Direct to DROPT                 |
+| Aircraft enters RAN sector west of KARRL                             | Direct to SILVO                 |
+| Level is `A100` and below                                            | via FPR on non-standard routes  |
 
 #### BAY
 
-|Flights From... | may be cleared...               | provided that....                                                    | 
-| ---------------| ------------------------------- | -------------------------------------------------------------------- | 
-| ATMA           | Direct to: TG                   | Level is `A100` and below and DEST is not NZTG                       |
-| ATMA           | Direct to TULMI                 | Aircraft is west of KARRL, DEST is NZCH and is a jet                 | 
-| ATMA           | via FPR on non-standard routes  | Level is `A100` and below                                            |
+Prior coordination or notification is not required for the following flights:
+
+| provided that....                                                    | may be cleared...               |
+| -------------------------------------------------------------------- | ------------------------------- |
+| Level is `A100` and below and DEST is not NZTG                       | Direct to: TG                   |
+| Aircraft is west of KARRL, DEST is NZCH and is a jet                 | Direct to TULMI                 |
+| Level is `A100` and below                                            | via FPR on non-standard routes  |
 
 
 ### Assigned Heading Departures
