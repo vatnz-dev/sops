@@ -37,9 +37,9 @@ The Wellington CTA/C follows the lateral and vertical boundaries as shown below.
 
 |Transfer Flow         | Requirements                                                  | Notes                                                                       | 
 | -------------------- | ------------------------------------------------------------- | --------------------------------------------------------------------------- | 
-| Tower -> Approach    | Once the aircraft becomes airborne off the runway             | Tower shall instruct all aircraft to contact ATMA airborne                  |
+| Tower -> Approach    | Once the aircraft becomes airborne off the runway             | Tower shall instruct all aircraft to contact WTMA airborne                  |
 | Approach -> Control  | Once the aircraft are approaching the lateral bounds          | Aircraft may be handed off when nothing further is required of the aircraft | 
-| Control -> Approach  | Once the aircraft is approaching the cleared level by control | Aircraft may not always be cleared to A110 when handed to ATMA              | 
+| Control -> Approach  | Once the aircraft is approaching the cleared level by control | Aircraft may not always be cleared to A110 when handed to WTMA              | 
 | Approach -> Tower    | Once established on final (ILS/LOC) or over the IAF (RNP)     |                                                                             |
 
 ## Departures
@@ -51,11 +51,14 @@ WTMA may climb departing aircraft as necessary to maintain separation and traffi
 For terrain clearance purposes unless the aircraft is departing from RWY 16 to the South, any track shortening shall be done above A025 to keep aircraft clear of associated terrain 
 
 
+!!! Note
+    When the duty runway is runway `34` - in low levels of traffic or to suit the sequence WTMA may turn aircraft departing to the south through the harbour (eg `H180`).
+
 ### Track Shortening
 
 Aircraft under the jurisdiction of WTMA may be track-shortened or assigned a heading to assist with sequencing or for separation. 
 
-ATMA may track-shorten where practical within their sector. Anything outside of thier sector must be coordinated with the appropriate sector.
+WTMA may track-shorten where practical within their sector. Anything outside of thier sector must be coordinated with the appropriate sector.
 
 ### Short-Sector STARs
 
@@ -77,21 +80,23 @@ When Woodborne Tower is offline WTMA will provide top down services.
 
 ## Paraparaumu Procedures
 
-When PP FIS on watch, any IFR departures shall be coordinated. As PP is only a FIS, WTMA shall issue to the clearance to PP FIS and they shall pass it onto the aircraft. And aircraft will be instructed to `Passing 2,500ft Contact Wellington 119.3` during the inital clearance or during takeoff/becoming airborne. 
+When PP FIS on watch, any IFR departures shall be coordinated. As PP is only a FIS, WTMA shall issue to the clearance to PP FIS and they shall pass it onto the aircraft. And aircraft will be instructed to `Passing 2,500ft Contact Wellington 119.3` or `Passing 2,500ft Contact Ohakea 125.1` this shall be done during the inital clearance or during takeoff/becoming airborne. 
 
 For aircraft departing NZPP, they shall be issued an Uncontrolled IFR clearance. Depending on traffic levels outside controlled airspace, they can either be required to validate their clearance before departure, or prior to entering controlled airspace.
+
+When PP FIS offine WTMA shall issue that clearance directly to the aircraft. 
 
 ## Uncontrolled IFR 
 
 For Uncontrolled IFR aircraft leaving the WTMA control area, WTMA shall issue the appropriate STAR for that aerodrome, and clear the aircraft to leave controlled airspace on descent. 
 
-If the aircraft is terminating underneath the WTMA control area, they shall be instructed to contact you on the ground to cancel their IFR flight plan. If their flight is terminating underneath another sector, such as OHA, they shall be instructed to contact that sector. This shall be coordinated.
+If the aircraft is terminating underneath the WTMA control area, they shall be instructed to contact you on the ground to cancel their IFR flight plan. If their flight is terminating underneath another sector, such as OHA, they shall be instructed to contact that sector. **This shall be coordinated.**
 
 ## Coordination
 
 ### Wellington/Woodbourne Tower
 
-WTMA shall coordinate with TAA on any requested approach that is not nominated in the ATIS. 
+WTMA shall coordinate with TWN/TWB on any requested approach that is not nominated in the ATIS.
 
 ### NAK, OHA/OTMA and KAI
 
