@@ -60,7 +60,7 @@ ATMA may climb departing aircraft as necessary to maintain separation and traffi
 ATMA should note that all prop-preferential SIDs have a hold-down altitude restriction during their initial departure leg. Most Pilots are not aware of these limitations, therefore ATMA should be aware of the limitations, particularly on the `BROOK 3Q`, `REKIS #Q` and `STEAL #P`. ATMA can use a stepped climb methodology to ensure that these limitations are met.
 
 
-### Track Shortening
+### Track Shortening SIDs
 
 Aircraft under the jurisdiction of ATMA may be track-shortened or assigned a heading to assist with sequencing or for separation. 
 
@@ -77,28 +77,30 @@ ATMA shall manually hand departing international flights to OCR as soon as pract
 - Aircraft to PEBLU, VELMO, GULUT, DUGAN, ELNOS may be tracked direct to these points by TMA
 - Aircraft to MADEP/UPLAR may be tracked to BOGUN/TAPAT respectivly
 
+**Aircraft tracking direct these points shall have it noted in their tag**
+
 #### RAN
 
 Prior coordination or notification is not required for the following flights:
 
-| provided that...                                                     | may be cleared...               |
-| -------------------------------------------------------------------- | ------------------------------- |
-| DEST is not NZNP                                                     | Direct to: KARRL/NP/LAKAR       |
-| Aircraft is west of KARRL, DEST is NZCH and is a jet                 | Direct to NS                    |
-| DEST is not NZHN                                                     | Direct to HN                    |
-| Aircraft Enters RAN sector east of LAKES-DROPT track and west of HN  | Direct to DROPT                 |
-| Aircraft enters RAN sector west of KARRL                             | Direct to SILVO                 |
-| Level is `A100` and below                                            | via FPR on non-standard routes  |
+| provided that...                                                     | aircraft may be cleared...               |
+| -------------------------------------------------------------------- | ---------------------------------------- |
+| DEST is not NZNP                                                     | Direct to: KARRL/NP/LAKAR                |
+| Aircraft is west of KARRL, DEST is NZCH and is a jet                 | Direct to NS                             |
+| DEST is not NZHN                                                     | Direct to HN                             |
+| Aircraft Enters RAN sector east of LAKES-DROPT track and west of HN  | Direct to DROPT                          |
+| Aircraft enters RAN sector west of KARRL                             | Direct to SILVO                          |
+| Level is `A100` and below                                            | via FPR on non-standard routes           |
 
 #### BAY
 
 Prior coordination or notification is not required for the following flights:
 
-| provided that....                                                    | may be cleared...               |
-| -------------------------------------------------------------------- | ------------------------------- |
-| Level is `A100` and below and DEST is not NZTG                       | Direct to: TG                   |
-| Aircraft is west of KARRL, DEST is NZCH and is a jet                 | Direct to TULMI                 |
-| Level is `A100` and below                                            | via FPR on non-standard routes  |
+| provided that....                                                    | aircraft may be cleared...               |
+| -------------------------------------------------------------------- | ---------------------------------------- |
+| Level is `A100` and below and DEST is not NZTG                       | Direct to: TG                            |
+| Aircraft is west of KARRL, DEST is NZCH and is a jet                 | Direct to TULMI                          |
+| Level is `A100` and below                                            | via FPR on non-standard routes           |
 
 
 ### Assigned Heading Departures
@@ -120,7 +122,7 @@ ATMA is responsible for issuing STAR clearances for aircraft bound for NZHN and 
 
 OCR, RAN or BAY will hand aircraft to ATMA no lower than `A110`, unless co-ordinated.
 
-### Track Shortening
+### Track Shortening STARs
 
 ATMA should make use of track-shortening on STARs to allow for an efficient sequence to be applied. Where an aircraft has been taken away from the STAR and are subsequently required to re-join and follow the STAR, the following RTF shall be used:
 
