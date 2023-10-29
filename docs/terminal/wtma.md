@@ -54,7 +54,7 @@ For terrain clearance purposes unless the aircraft is departing from RWY 16 to t
 !!! Note
     When the duty runway is runway `34` - in low levels of traffic or to suit the sequence WTMA may turn aircraft departing to the south through the harbour (eg `H180`).
 
-### Track Shortening
+### Track Shortening SIDs
 
 Aircraft under the jurisdiction of WTMA may be track-shortened or assigned a heading to assist with sequencing or for separation. 
 
@@ -68,7 +68,7 @@ Refer to [Short Sector STARs](../aerodromes/Class-C/nzwn.md#star-clearance-for-n
 
 NAK, OHA or KAI will hand aircraft to WTMA no lower than `A110`, unless co-ordinated.
 
-### Track Shortening
+### Track Shortening STARs
 
 WTMA should make use of track-shortening on STARs to allow for an efficient sequence to be applied.
 
