@@ -1,6 +1,8 @@
 *[SFG]: Sector File Generator 
-*[STARs]: Standard Terminal Arrival Route
-*[SIDs]: Standard Instrument Departure
+*[STARs]: Standard Terminal Arrival Routes
+*[SIDs]: Standard Instrument Departures
+*[STAR]: Standard Terminal Arrival Route
+*[SID]: Standard Instrument Departure
 *[VFR]: Visual Flight Rules
 *[IFR]: Instrument Flight Rules
 *[RNAV]: Area Navigation
@@ -36,3 +38,6 @@
 *[KAI]: Christchurch Control (Kaikoura Sector)
 *[ARO]: Auckland Radio (Oceanic)
 *[TWR]: Tower
+*[PBN]: Performance Based Navigation
+*[RNP]: Required Navigation Performance
+*[5LNC]: 5 Letter Name Code (an issued and named waypoint by ICAO)
