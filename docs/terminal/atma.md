@@ -46,29 +46,27 @@ The Auckland CTA/C follows the lateral and vertical boundaries as shown below.
 
 Departures will be assigned by Auckland Controllers in accordance with the [SID Assignment guide](../aerodromes/Class-C/nzaa.md#sid-assignment). 
 
-ATMA may climb departing aircraft as necessary to maintain separation and traffic flow up to their requested flight level. International aircraft shall be instructed to climb to `FL250`, if further climb is requested, they shall be handed to OCR.
+ATMA may climb departing aircraft as necessary to maintain separation and traffic flow up to their requested flight level. International aircraft shall be instructed to climb to `FL250`, and shall get further climb once handed to OCR. 
 
 !!! hint "RTF for re-joining a SID"
     Where an aircraft has been taken off their assigned SID, and is required to then re-join at a later point, the following RTF must be used:
 
     **ATMA**: *New Zealand 677, track direct LAKES to rejoin the SID*.
 
-    **Note**: This RTF is not valid when track-shortening on a SID, and the standard "track direct" RTF shall be used.
+    
 
 ### Prop Departures
 
-ATMA should note that all prop-preferential SIDs have a hold-down altitude restriction during their initial departure leg. Most Pilots are not aware of these limitations, therefore ATMA should be aware of the limitations, particularly on the `BROOK 3Q`, `REKIS #Q` and `STEAL #P`. ATMA can use a stepped climb methodology to ensure that these limitations are met.
+ATMA should note that all prop-preferential SIDs have a hold-down altitude restriction during their initial departure leg. Most Pilots are not aware of these limitations, therefore ATMA should be aware of the limitations, particularly on the  `BROOK Q`, `REKIS #Q`, `AVDAT #Q`, `DOVON #Q`, `STEAL #P` and `ELSAP #P`. ATMA can use a stepped climb methodology to ensure that these limitations are met.
 
 
 ### Track Shortening SIDs
 
 Aircraft under the jurisdiction of ATMA may be track-shortened or assigned a heading to assist with sequencing or for separation. 
 
-If a SID is cancelled or the aircraft is given a shortcut ATMA shall note in the tag where the departing aircraft is tracking. 
+**Note If a SID is cancelled or the aircraft is given a shortcut ATMA shall note in the tag where the departing aircraft is tracking.** 
 
-ATMA shall instruct any aircraft on a radar heading to `report heading` to the next sector. 
-
-!!!!
+ATMA shall instruct any aircraft on a radar heading to `Report heading` to the next sector. 
 
 #### OCR 
 
@@ -76,8 +74,6 @@ ATMA shall manually hand departing international flights to OCR as soon as pract
 
 - Aircraft to PEBLU, VELMO, GULUT, DUGAN, ELNOS may be tracked direct to these points by TMA
 - Aircraft to MADEP/UPLAR may be tracked to BOGUN/TAPAT respectivly
-
-**Aircraft tracking direct these points shall have it noted in their tag**
 
 #### RAN
 
@@ -102,6 +98,7 @@ Prior coordination or notification is not required for the following flights:
 | Aircraft is west of KARRL, DEST is NZCH and is a jet                 | Direct to TULMI                          |
 | Level is `A100` and below                                            | via FPR on non-standard routes           |
 
+**For all the above or any coordinated directs, controllers shall have it noted in the aircraft's tag.**
 
 ### Assigned Heading Departures
 
@@ -139,7 +136,7 @@ Controllers shall note that only the RNP Y RWY 05R (AR) approach is authorised f
 
 ## Uncontrolled IFR 
 
-For aircraft departing NZNE and NZAR, they shall be issued an Uncontrolled IFR clearance. Depending on traffic levels outside controlled airspace, they can either be required to validate their clearance before departure, or prior to entering controlled airspace.
+For aircraft departing NZNE and NZAR, they shall be issued an Uncontrolled IFR clearance. Depending on traffic levels outside controlled airspace, the controller may validate the clearance with the readback or on the taxi. 
 
 For Uncontrolled IFR aircraft leaving the ATMA control area, ATMA shall issue the appropriate STAR for that aerodrome, and clear the aircraft to leave controlled airspace on descent. 
 
@@ -153,4 +150,4 @@ ATMA shall coordinate with TAA on any requested approach that is not nominated i
 
 ### OCR, RAN and BAY
 
-ATMA shall coordinate any track shortening outside of their control area that is not stated in [Departures - Track Shortening](atma.md#track-shortening). 
+ATMA shall coordinate any track shortening outside of their control area that is not stated in [Departures - Track Shortening](#track-shortening-sids). 
