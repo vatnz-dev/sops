@@ -36,3 +36,5 @@
 *[KAI]: Christchurch Control (Kaikoura Sector)
 *[ARO]: Auckland Radio (Oceanic)
 *[TWR]: Tower
+*[ATIS]: Automatic Terminal Information Service
+<!-- ADD Aerodrome Codes -->
