@@ -44,7 +44,7 @@ The Auckland CTA/C follows the lateral and vertical boundaries as shown below.
 
 ## Departures
 
-Departures will be assigned by ATMA in accordance with the [SID Assignment guide](../aerodromes/Class-C/nzaa.md#sid-assignment). 
+Departures should be assigned in accordance with the [SID Assignment guide](../aerodromes/Class-C/nzaa.md#sid-assignment). 
 
 ATMA may climb departing aircraft as necessary to maintain separation and traffic flow, up to their requested flight level. International aircraft shall be instructed to climb to `FL250`, and shall get further climb once handed to OCR. 
 
