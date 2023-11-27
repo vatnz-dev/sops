@@ -157,11 +157,23 @@ For Domestic aircraft that are departing to the North or Northeast, the Controll
 
 To ensure a divergent departure occurs due to traffic, AA TMA may request an aircraft be assigned a heading to fly once passing `A005`. This ensures a 30 degree offset from the centreline exists, and therefore another aircraft may then depart. These will usually be issued when an aircraft is at the holding point, and will be given to the Tower as a part of AA TMA's release of the aircraft.
 
-!!! example "Issuing a departure heading"
-    **Auckland Tower**: *"JST203, additional departure instructions, report ready to copy"*  
-    **JST203**: *"JST203, ready to copy"*  
-    **Auckland Tower**: *"JST203, on departure turn right heading 170, climb four thousand"*
-    **JST203**: *"JST203, on departure turn right heading 170, climb four thousand"* 
+As the aircraft is off an evaluated procedure, there is a potential that an assigned heading departure may conflict with an arriving aircraft. In this case, ATMA may request a hold-down altitude to maintain separation.
+
+!!! danger "Propellor Aircraft Only"
+    Due to the early turn required, assigned heading departures shall be given to prop aircraft only.
+
+!!! example "Coordination for an assigned heading departure"
+    <span class="coldline">**AA TWR** -> **AA TMA**</span>: "Successive departures. Request ANZ631 assigned heading 190 degrees climbing five thousand then yours for vectors. Second in queue."  
+    <span class="coldline">**AA TMA** -> **AA TWR**</span>: "ANZ631 approved heading 190 degrees climbing five thousand then my vectors. Copy second in line."
+
+
+!!! example "Issuing a departure heading to an Aircraft"
+    **Auckland Tower**: *"ANZ631, additional departure instructions, report ready to copy"*  
+    **ANZ631**: *"ANZ631, ready to copy"*  
+    **Auckland Tower**: *"ANZ631, on departure turn right heading 190, climb five thousand"*  
+    **ANZ631**: *"ANZ631, on departure turn right heading 190, climb five thousand"* 
+
+
 ## Noise Abatement
 
 !!! warning "Use of Noise Abatement Operations"
