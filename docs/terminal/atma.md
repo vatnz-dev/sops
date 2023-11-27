@@ -44,7 +44,7 @@ The Auckland CTA/C follows the lateral and vertical boundaries as shown below.
 
 ## Departures
 
-Departures will be assigned by ATMA in accordance with the [SID Assignment guide](../aerodromes/Class-C/nzaa.md#sid-assignment). 
+Departures should be assigned in accordance with the [SID Assignment guide](../aerodromes/Class-C/nzaa.md#sid-assignment). 
 
 ATMA may climb departing aircraft as necessary to maintain separation and traffic flow, up to their requested flight level. International aircraft shall be instructed to climb to `FL250`, and shall get further climb once handed to OCR. 
 
@@ -153,6 +153,16 @@ For aircraft departing NZNE and NZAR, they shall be issued an uncontrolled IFR c
 For uncontrolled IFR aircraft leaving the ATMA control area, ATMA shall issue the appropriate STAR for that aerodrome, and clear the aircraft to leave controlled airspace on descent. 
 
 If the aircraft is terminating underneath the ATMA control area, they shall be instructed to contact you on the ground to cancel their IFR flight plan. If their flight is terminating underneath another sector, such as OCR, they shall be instructed to contact that sector. This shall be coordinated.
+
+!!! Example Clearance 
+**ATMA**: *EAM Cleared to Rotorua via LAKES direct ESKER at 8,000ft, Squawk 5623*
+**EAM**: *Cleared to Rotorua via LAKES direct ESKER at 8,000ft, Squawk 5623, EAM* 
+**ATMA**: *EAM, Readback correct, clearance not vaild report on the taxi, Northland QNH 1015*
+**EAM**: *Wilco, copy 1015, EAM*
+**EAM**: *Auckland Approach, EAM taxis Runway 21 Ardmore*
+**ATMA**: *EAM thanks your clearance now vaild cleared to enter controlled airspace on the REKIS1T departure climbing to 3,000ft, no reported IFR traffic outside of controlled airspace, report passing 2,500ft*
+**EAM**: *Clearance vaild, cleared to enter controlled airspace on the REKIS1T departure climbing to 3,000ft, copy traffic, report passing 2,500ft, EAM*
+
 
 ## Coordination
 
