@@ -73,7 +73,8 @@ extra:
       name: VATNZ on Discord
   analytics:
     provider: google
-    property: ${{ secrets.SOPS_ANALYTICS_GOOGLE }}
+    property: G-TH1T6E4KK6
+# google analytics tag to be rotated during airac cycle workflow
 
 # Additional Markdown Extensions to use bundled icon sets
 markdown_extensions:
