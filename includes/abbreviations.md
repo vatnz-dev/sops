@@ -38,6 +38,8 @@
 *[KAI]: Christchurch Control (Kaikoura Sector)
 *[ARO]: Auckland Radio (Oceanic)
 *[TWR]: Tower
+*[ATIS]: Automatic Terminal Information Service
 *[PBN]: Performance Based Navigation
 *[RNP]: Required Navigation Performance
 *[5LNC]: 5 Letter Name Code (an issued and named waypoint by ICAO)
+<!-- ADD Aerodrome Codes -->
