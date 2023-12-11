@@ -57,6 +57,10 @@ Controllers should make use of the holding point on TWY `B` to allow for multipl
 
 IFR traffic departing via BIDEL shall be handed off to STH either crossing BIDEL or passing `A095`. Other IFR departures shall be handed off either crossing the lateral boundary of the airspace or when passing the upper limit of `A095` or `A135`.
 
+### DCL
+
+Dunedin Tower may issue a clearance via DCL for any departing jets. All prop aircraft shall automatically revert to voice.
+
 ### SID Assignment
 
 | Runway | Procedure  | Allowed A/C Categories | Notes                                                                                                                                     |

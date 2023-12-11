@@ -30,6 +30,9 @@ Typically aircraft that are flying under VFR do not transmit a discrete code; in
 
     Aircraft remaining within a Controlled Aerodrome's circuit should squawk 2200. This aids in easy distinction between generic traffic and circuit traffic.
 
+!!! warning "Use of the 1600 SSR Code"
+    The use of the 1600 SSR code within VATNZ airspace is prohibited. In the real-world this code is designated for use by approved large-scale UAV operators like Wisk. These operations are not permitted on the VATSIM network.
+
 ## Domestic IFR 
 
 All IFR traffic within the New Zealand FIR is required to transmit a discrete squawk code. This is required to ensure that all traffic can be individually identified on the Controller's radar scope.
