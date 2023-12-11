@@ -34,7 +34,6 @@
 .md-tabs__link:hover {
   border-bottom: 1.5px solid #3447679f;
   color: var(--md-primary-fg-color);
-  height: -webkit-fill-available;
 }
 
 /*Announcement Bar*/
