@@ -97,6 +97,7 @@
     margin-bottom: 0px;
     display: inline-block;
     border-bottom: 1px solid #f1f5f9;
+    padding-bottom: 5px;
 }
 
 .feature .cards {
@@ -142,7 +143,6 @@
 
     .hero h1 {
         font-size: 2rem;
-        background-color: red;
     }
 
     .hero .hero-items {
@@ -167,9 +167,6 @@
 @media screen and (min-width: 481px) and (max-width: 899px) {
     .container {
         background-color: rgba(29, 30, 38, 0.5)
-    }
-
-    .hero h1 {
     }
 
     .hero .hero-items {
