@@ -17,7 +17,7 @@
 }
 
 .md-tabs__link {
-  color: var(--md-primary-fg-color);
+  color: var(--md-primary-fg-color)!important;
 }
 
 .md-top {

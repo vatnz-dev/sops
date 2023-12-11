@@ -9,37 +9,48 @@
 }
 
 .container {
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
-    background: url("../../assets/hero-image.png"), rgba(0, 0, 0, 0.35);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-image: url("../../assets/hero-image.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: overlay;
     background-position-y: center;
-}
-
-.img hero-image {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
+    background-position-x: center;
 }
 
 .hero {
-    margin: 15px 1.5rem;
     color: var(--md-primary-bg-color);
-    justify-content: center;
+    display: flex;
+    align-items: end;
 }
 
-.hero h1 {
-    margin-bottom: 1.15rem;
+.hero .hero-items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-items .left {
+    width: 60%;
+}
+
+.hero-items .right {
+    display: flex;
+    align-items: end;
+}
+
+.hero .hero-items h1 {
     color: currentColor;
-    font-weight: 650;
-    text-transform: none;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0 0 0.25rem;
 }
 
-.hero-content {
-    padding-bottom: 0.5rem;
-    margin: 0 auto;
+.hero .hero-items p {
+    margin: 0;
 }
 
 .hero .md-button {
@@ -61,12 +72,17 @@
     border-color: var(--md-accent-fg-color)
 }
 
+/* Tom Additions */
+
+.hero-items {
+}
+
+
 /* Features below hero */
 
 .lowerSection {}
 
 .feature {
-    margin-top: 30px;
     font-family: 'Maven Pro';
     font-weight: 300;
     box-sizing: border-box;
@@ -117,7 +133,7 @@
 @media screen and (max-width:480px) {
     .container {
         padding-top: 1.5rem;
-        background: url("../../assets/hero-image.png"), #1d1e26;
+        background: url("../../assets/hero-image.png"), rgba(29, 30, 38, 0.5);
         background-repeat: no-repeat;
         background-size: cover;
         background-blend-mode: overlay;
@@ -126,15 +142,50 @@
 
     .hero h1 {
         font-size: 2rem;
+        background-color: red;
     }
+
+    .hero .hero-items {
+        display: block;
+        padding: 1.5rem;
+    }
+
+    .hero-items .left { display: block; width: 100%; }
+    .hero-items .right a { margin-top: 1rem;}
 
     .feature h2 {
         margin-left: 20px;
     }
 
-    .feature cards {
-        flex: 1;
-        min-width: 0;
+    .feature .cards {
+        flex-direction: column;
+    }
+
+    
+}
+
+@media screen and (min-width: 481px) and (max-width: 899px) {
+    .container {
+        background-color: rgba(29, 30, 38, 0.5)
+    }
+
+    .hero h1 {
+    }
+
+    .hero .hero-items {
+        display: block;
+        padding: 1.5rem;
+    }
+
+    .hero-items .left { display: block; width: 100%; }
+    .hero-items .right a { margin-top: 1rem;}
+
+    .lowerSection {
+        padding: 0 1.5rem;
+    }
+
+    .feature .cards {
+        flex-direction: column;
     }
 }
 
@@ -144,9 +195,11 @@
     }
 
     .hero {
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        min-height: 600px;
+    }
+
+    .hero-items {
+        padding: 0 2rem;
     }
 
     .hero-content {
