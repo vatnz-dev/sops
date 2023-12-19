@@ -4,7 +4,7 @@
 
 --8<-- "includes/abbreviations.md"
 
-## Control Positions and Navaids
+## Positions
 
 | Position Name  | Shortcode  | Callsign        | Frequency   | Login ID       | Usage      |
 | -------------- | ---------- | --------------- | ----------- | ---------------| ---------- |
@@ -87,16 +87,17 @@ All VFR traffic handovers shall be coordinated with STH.
 Tower is normally not required to advise QTMA of any departing IFR traffic, and may conduct a silent handover when aircraft crosses the common boundary, or when approaching the top of Tower's CTA. Except where previously coordinated, IFR aircraft shall cross the common airspace boundary overhead an IFR waypoint, or established on an airway.
 
 All VFR traffic handovers shall be coordinated with STH. 
-### NV TWR
 
-Tower shall coordinate all traffic handovers with NV TWR, and shall advise the aircraft's current and cleared altitude, and estimated time that they will be crossing the common airspace boundary. 
+### DN TWR
+
+Tower shall coordinate all traffic handovers with DN TWR, and shall advise the aircraft's current and cleared altitude, and estimated time that they will be crossing the common airspace boundary. 
 
 ## Ryans Creek Uncontrolled IFR
 Ryans Creek (NZRC) is a small uncontrolled GA aerodrome 30 nm south of Invercargill.
 
 ### Departures
 
-IFR aircraft on the ground at RC shall call TNV prior to taxi to obtain IFR clearance. After a correct readback aircraft shall cleared to enter controlled airspace via `SEBSA 1` departure shall. Aircraft are then advised to report prior to entering controlled airspace. 
+IFR aircraft on the ground at RC shall call TNV prior to taxi to obtain IFR clearance. After a correct readback aircraft shall be cleared to enter controlled airspace via `SEBSA 1` departure. Aircraft are then advised to report prior to entering controlled airspace. 
 
 ### Arrivals
 
