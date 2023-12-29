@@ -1,12 +1,31 @@
 ---
-  title: Extended Services
+  title: Sector Inheritance and Extended Services
 ---
 
 --8<-- "includes/abbreviations.md"
 
 New Zealand airspace is unique in that we have seven sectors in fairly close proximity to each other, covering a relatively small area. In normal operation, some sectors will automatically inherit neighbouring sectors, but Enroute Controllers also have the ability to extend to the entirety of the country, providing an extended service.
 
-##  Workload
+## Automatic Sector Inheritance
+
+In normal operation, some sectors automatically inherit neighbouring sectors. This is feasible due to the relatively low traffic levels of the sectors that are being inherited. 
+
+It is important to note that sector inheritance is different to extended services. In Sector Inheritance, the primary sector automatically inherits the neighbouring sector - changing the sector's bounds. Whereas in Extended Sectors, the Controller assumes control of non-inheritance sectors. 
+
+| Primary Sector | Automatically inherits.. |
+| -------------- | ------------------------ |
+| OCR            | RAN and BAY              |
+| NAK            | OHA                      |
+| STH            | KAI                      |
+
+Further information can be found in the [Enroute section](../enroute/index.md).
+
+!!! info "Enroute Solo Endorsements"
+    Any Controller on an Enroute Solo Endorsement shall also follow the automatic sector inheritance rules, **however**, they shall not provide an extended service outside of that inheritance.
+
+## Extended Services
+
+###  Workload
 
 When providing an extended service, it's important to realise that traffic levels can build quickly, and New Zealand's unique level of GA aircraft in such a small area can cause increased difficulty. Therefore, if you notice your quality of service degrading, you should cease extending to other sectors so that you can provide a quality service. Quality, not quantity, is paramount.
 
@@ -18,9 +37,9 @@ When providing an extended service, it's important to realise that traffic level
 !!! warning "Controllers shall not extend into an Event Only position"
     When providing an extended service, Controllers shall not extend into an Event Only position. This inlcludes the use of either their callsign or frequency.
 
-    **Example** - If NAK elects to extend their services to include OCR, they are not permitted to use the RAN callsign or frequency unless approved by the Operations or Events Director. It is important to note that in this case, OCR automatically inherits the airspace normally delegated to RAN, instead of inheriting the RAN position. [See the OCR page for more information](OCR.md#airspace).
+    **Example** - If NAK elects to extend their services to include OCR, they are not permitted to use the RAN callsign or frequency unless approved by the Operations or Events Director. It is important to note that in this case, OCR automatically inherits the airspace normally delegated to RAN, instead of inheriting the RAN position. [See the OCR page for more information](../enroute/OCR.md#airspace).
 
-## Frequencies and Callsigns
+### Frequencies and Callsigns
 
 As Controllers are providing a lateral extension of coverage, Controllers shall only use the Enroute Sector callsign in any RTF transmissions. Whilst an aircraft might physically be in aircraft normally delegated to Wellington Approach, for example, the control service is still being provided by Christchurch Control. 
 
@@ -32,7 +51,7 @@ While most frequencies are still able to be heard at altitude, when an aircraft 
 
 It is also a good idea to annotate the current frequency in the aircraft's data block using its three letter designator - `NAK` or `OCR` for example.
 
-## Technical Limitations
+### Technical Limitations
 
 At the moment, most Controller Clients only allow a Controller to have one sector as their primary. This means that if you provide an extended service, only your primary sector will show as online to Pilots through their pilot clients, and other mapping services such as vatSpy or Volanta.
 
@@ -66,7 +85,7 @@ To alleviate this, a Controller providing an extended service shall make this kn
           Provide Feedback - vats.im/nz/atc-fb
         ```
 
-## Setting up vatSys
+### Setting up vatSys
 
 To provide an extended service in vatSys, you will need to assume control of the relevant sectors, prime their frequency, and ensure your visibility range is set correctly.
 
