@@ -13,7 +13,7 @@ title: NZPM - Palmerston North
 
 ## Areas of Responsibility
 
-The areas of responsibilty are as depicted below. The areas of Taxiways `B`, `C` and `D` that fall under Tower's responsibility only apply if Grass 07/25 is in use. If not in use, this area shall be delegated to Ground. 
+The areas of responsibilty are as depicted below. The areas of Taxiways `B`, `C` and `D` that fall under Tower's responsibility only apply if Grass 07/25 is in use. If not in use, this area shall be delegated to Ground.
 
 If Grass 07/25 is in use, aircraft taxiing for the sealed must be handed off before reaching the `B3`, `C3` or `D3` holds.
 
@@ -26,7 +26,7 @@ Tower shall hand off all aircraft once clear of the sealed runway. If the grass 
 
 ## Taxiways
 
-Taxiways `D` and `H` are only suitable for light GA aircraft.
+Taxiways `D` and `H` are only suitable for light GA aircraft. B733 and B734 to use Taxiway `C` to transit between `RWY 07/25` and stand 7. A320 and B738 aircraft restricted to Taxiway `B` when transiting between RWY 07/25 and main apron.
 
 All other traffic shall enter the runway closest to the take-off roll position. For example, if Runway 25 is active, aircraft should be instructed to enter the runway via Taxiway `B`.
 
@@ -51,8 +51,8 @@ The below table outlines the prohibited procedures when the respective MOA is ac
 
 | Active MOA(s) | MOA Vertical Limits | Prohibited SIDs                  | Prohibited STARs | Reasoning                        |
 | ------------- | ------------------- | -------------------------------- | ---------------- | -------------------------------- |
-| M311 - Bulls  | `A015` - `A025`     | None                             | `BUVLI #B`      | STAR descends through active MOA |
-| M307 - Marton | `A080` - `FL200`    | `RUXOS #S` `DADLI #S` `TEROT #Q` | None             | SIDs climbs through active MOA    |
+| M311 - Bulls  | `A015` - `A025`     | None                             | `BUVLI #B`       | STAR descends through active MOA |
+| M307 - Marton | `A080` - `FL200`    | `RUXOS #S` `DADLI #S` `TEROT #Q` | None             | SIDs climbs through active MOA   |
 
 
 ### Runway 25
