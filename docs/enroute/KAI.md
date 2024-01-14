@@ -38,6 +38,10 @@ KAI shall ensure that aircraft overflying the CH TMA are no lower than `A110` wi
 
 KAI shall ensure that an efficient arrival flow is managed into WN TMA from the South.
 
+### OHA
+
+KAI shall issue STAR clearances for aircraft bound for PM and OH without coordination. 
+
 ## Coordination
 
 ### Oceanic
