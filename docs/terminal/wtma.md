@@ -80,9 +80,7 @@ When Woodborne Tower is offline WTMA will provide top down services.
 
 ## Paraparaumu Procedures
 
-When PP FIS on watch, any IFR departures shall be coordinated. As PP is only a FIS, WTMA shall issue to the clearance to PP FIS and they shall pass it onto the aircraft. And aircraft will be instructed to `Passing 2,500ft Contact Wellington 119.3` or `Ohakea 125.1` this shall be done during the inital clearance or during takeoff/becoming airborne. 
-
-For aircraft departing NZPP, they shall be issued an Uncontrolled IFR clearance. Depending on traffic levels outside controlled airspace, they can either be required to validate their clearance after a correct readback or on the taxi. This also depends on what WTMA has issued to PP FIS. 
+When PP FIS on watch, any IFR departures shall be co-ordinated. As PP is only a FIS, WTMA shall issue the clearance to PP FIS and they shall pass it onto the aircraft. And aircraft will be instructed to `Passing 2,500ft Contact Wellington 119.3` this shall be done during on vailidation of the clearance.
 
 When PP FIS offine WTMA shall issue that clearance as per a normal Uncontrolled IFR clearance
 
@@ -90,11 +88,11 @@ When PP FIS offine WTMA shall issue that clearance as per a normal Uncontrolled 
 
 For Uncontrolled IFR aircraft leaving the WTMA control area, WTMA shall issue the appropriate STAR for that aerodrome, and clear the aircraft to leave controlled airspace on descent. 
 
-If the aircraft is terminating underneath the WTMA control area, they shall be instructed to contact you on the ground to cancel their IFR flight plan. If their flight is terminating underneath another sector, such as OHA, they shall be instructed to contact that sector to terminate their FPL. **This shall be coordinated.**
+If the aircraft is terminating underneath the WTMA control area, they shall be instructed to contact you on the ground to cancel their IFR flight plan. If their flight is terminating underneath another sector, such as OHA, they shall be instructed to contact that sector to terminate their FPL. **This shall be co-ordinated.**
 
-## OHA 
+## PM/OH/WU Arrivals
 
-WTMA shall ensure that a STAR clearance has been issued by KAI for aircraft bound for PM and OH. WTMA may only descend aircraft bound for OH, PM, WU to A110 without coordination. 
+WTMA shall ensure that a STAR clearance has been issued by KAI for aircraft bound for PM and OH. WTMA may also descend aircraft bound for OH, PM, WU to A110 without coordination. 
 
 ## Coordination
 
