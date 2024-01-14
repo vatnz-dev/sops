@@ -25,7 +25,7 @@
 
 ## Airspace
 
-The Wellington CTA/C follows the lateral and vertical boundaries as shown below. 
+The Wellington CTA/C follows the lateral and vertical boundaries as shown below. Controllers shall note that WTMA has a unlimited vertical bound, therefore all overflights shall be handed to WTMA. 
 
 
 <figure markdown>
@@ -48,7 +48,7 @@ Departures will be assigned by Wellington Controllers in accordance with the [SI
 
 WTMA may climb departing aircraft as necessary to maintain separation and traffic flow up to their requested flight level. International aircraft shall be instructed to climb to `FL250`, if further climb is requested, they shall be handed to NAK.
 
-For terrain clearance purposes unless the aircraft is departing from RWY 16 to the South, any track shortening shall be done above A025 to keep aircraft clear of associated terrain 
+For terrain clearance purposes any track shortening shall be done above `A025` to keep aircraft clear of associated terrain, **unless** the aircraft is departing from RWY 16 to the South where WTMA may take the aircraft off the SID above `A005`. 
 
 
 !!! Note
@@ -70,7 +70,7 @@ NAK, OHA or KAI will hand aircraft to WTMA no lower than `A110`, unless co-ordin
 
 ### Track Shortening STARs
 
-WTMA should make use of track-shortening on STARs to allow for an efficient sequence to be applied.
+WTMA should make use of track-shortening on STARs to allow for an efficient sequence to be applied.]
 
 ## Woodbourne Procedures
 
@@ -91,6 +91,10 @@ When PP FIS offine WTMA shall issue that clearance as per a normal Uncontrolled 
 For Uncontrolled IFR aircraft leaving the WTMA control area, WTMA shall issue the appropriate STAR for that aerodrome, and clear the aircraft to leave controlled airspace on descent. 
 
 If the aircraft is terminating underneath the WTMA control area, they shall be instructed to contact you on the ground to cancel their IFR flight plan. If their flight is terminating underneath another sector, such as OHA, they shall be instructed to contact that sector to terminate their FPL. **This shall be coordinated.**
+
+## OHA 
+
+WTMA shall ensure that a STAR clearance has been issued by KAI for aircraft bound for PM and OH. WTMA may only descend aircraft bound for OH, PM, WU to A110 without coordination. 
 
 ## Coordination
 
