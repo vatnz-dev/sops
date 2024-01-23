@@ -1,6 +1,5 @@
-
 ---
-  title: NZQN - Queenstown
+title: NZQN - Queenstown
 ---
 
 --8<-- "includes/abbreviations.md"
