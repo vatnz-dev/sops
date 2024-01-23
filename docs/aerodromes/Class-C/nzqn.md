@@ -91,7 +91,7 @@ Aircraft that have been cleared to operate in accordance with the Northbound or 
 
 ## Departures
 
-Aircraft departures shall be managed in-line with the [Runway Operations section](../../controller-skills/seperation#runway-operations). 
+Aircraft departures shall be managed in-line with the [Runway Operations section](../../controller-skills/separation.md#runway-operations)
 
 ### SID Assignment 
 

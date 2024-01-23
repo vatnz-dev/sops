@@ -111,7 +111,7 @@ Aircraft that have been cleared to operate within the Kelburn, Somes, East, Sinc
 
 ### Departures
 
-Aircraft departures shall be managed in-line with the [Runway Operations section](../../controller-skills/seperation#runway-operations). 
+Aircraft departures shall be managed in-line with the [Runway Operations section](../../controller-skills/separation.md#runway-operations)
 
 Where possible, and where weather permits, the SIDs with visual departure segements shall be issued to small Approach Category A and B aircraft (C208, PC12), to ensure an immediate turn to their departure's IDF.
 
