@@ -4,7 +4,7 @@
 
 New Zealand has seven Enroute Sectors, six of which can be staffed routinely on the network. This section provides detailed information on how to run each sector's operations, and lists some nuances that may be associated with them. 
 
-VATNZ Controllers are able to staff all six permanent Enroute Sectors at once, in a situation known as Extended Services. [You can find out more about Extended Services here](../controller-skills/extending.md).
+VATNZ Controllers are able to staff all six permanent Enroute Sectors at once, in a situation known as Extended Services. [You can find out more about Sector Inheritance and Extended Services here](../controller-skills/inheritance-extending.md).
 
 
 ![NZ FIR Airspace Sectors](../assets/nz-fir-airspace.png){width="100%"}

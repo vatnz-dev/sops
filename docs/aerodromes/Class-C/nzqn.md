@@ -1,7 +1,10 @@
-title: NZQN - Queenstown
+
+---
+  title: NZQN - Queenstown
 ---
 
 --8<-- "includes/abbreviations.md"
+
 
 ## Positions
 
@@ -115,3 +118,8 @@ Helicopter operations are very frequent within Queenstown CTR/C, usually operati
 
 !!! warning
     A reminder that Queenstown Tower must ensure that no VFR aircraft are present within the Instrument Sector when an aircraft is beyond the FAP of the active approach procedure.
+=======
+!!! info "This is a work in progress!"
+    This page is currently being worked on by the team. It'll be here soon! If you want to help out, [have a look how you can help!](../../contribute/index.md)
+    
+

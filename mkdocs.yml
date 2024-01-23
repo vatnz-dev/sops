@@ -1,7 +1,7 @@
 # Project Information
 site_name: VATNZ Standard Operating Procedures
-site_description: Helpful information for people flying within the virtual New Zealand FIRs.
-site_url: http://sops.vatnz.net/
+site_description: Procedures and helpful information for Controllers to use when controlling a VATNZ position on the VATSIM network.
+site_url: https://sops.vatnz.net/
 repo_url: https://github.com/vatnz-dev/sops
 repo_name: vatnz-dev/sops
 edit_uri: "" #removes edit button and icon
@@ -18,16 +18,18 @@ theme:
     - scheme: default
       toggle:
         icon: material/weather-sunny
-        name: Switch to dark mode
+        name: Go to the dark side..
     - scheme: slate
       toggle:
         icon: material/weather-night
+        name: Shine some light on this!
   features:
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.top
     - navigation.tracking
-    - navigation.indexes
+    - navigation.instant
+    - navigation.instant.progress
     - search.suggest
     - search.highlight
     - search.share
@@ -38,19 +40,19 @@ theme:
 
 # Plugins
 plugins:
-  - search:
-      lang: en
-  - awesome-pages
-  - git-revision-date-localized:
-      type: date
-  - external-markdown
-  - glightbox:
-       touchNavigation: true
-       effect: zoom
-       width: 100%
-       height: auto
-       zoomable: true
-       draggable: false
+  search:
+    lang: en
+  awesome-pages: {}
+  git-revision-date-localized:
+    type: date
+  external-markdown: {}
+  glightbox:
+    touchNavigation: true
+    effect: zoom
+    width: 100%
+    height: auto
+    zoomable: true
+    draggable: false
     
 
 # Styling Front-end
@@ -71,26 +73,30 @@ extra:
     - icon: fontawesome/brands/discord
       link: https://vatnz.net/discord
       name: VATNZ on Discord
+  analytics:
+    provider: google
+    property: G-TH1T6E4KK6
+# google analytics tag to be rotated during airac cycle workflow
 
 # Additional Markdown Extensions to use bundled icon sets
 markdown_extensions:
-  - meta # Add front matter to a document
-  - admonition # Makes things pretty
-  - pymdownx.superfences # Nestled code
-  - attr_list # Add HTML attributes and CSS classes to Markdown elements
-  - pymdownx.tabbed: # Content tabs
-      alternate_style: true
-  - pymdownx.details # Additional features to admonition
-  - pymdownx.caret # Formatting Extension
-  - pymdownx.critic # Alternate Formatting Extension
-  - pymdownx.mark # Formatting Extension
-  - pymdownx.tilde # Formatting Extension
-  - pymdownx.keys # Visual keyboard keys extension
-  - pymdownx.tasklist:
-      custom_checkbox: true
-  - pymdownx.emoji: # Allows emoji style inline embeds for icons
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
-  - md_in_html #enables the use of image figures
-  - abbr
-  - pymdownx.snippets
+  meta: {} # Add front matter to a document
+  admonition: {} # Makes things pretty
+  pymdownx.superfences: {} # Nestled code
+  attr_list: {} # Add HTML attributes and CSS classes to Markdown elements
+  pymdownx.tabbed: # Content tabs
+    alternate_style: true
+  pymdownx.details: {} # Additional features to admonition
+  pymdownx.caret: {} # Formatting Extension
+  pymdownx.critic: {} # Alternate Formatting Extension
+  pymdownx.mark: {} # Formatting Extension
+  pymdownx.tilde: {} # Formatting Extension
+  pymdownx.keys: {} # Visual keyboard keys extension
+  pymdownx.tasklist:
+    custom_checkbox: true
+  pymdownx.emoji: # Allows emoji style inline embeds for icons
+    emoji_index: !!python/name:material.extensions.emoji.twemoji
+    emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  md_in_html: {} #enables the use of image figures
+  abbr: {}
+  pymdownx.snippets: {}

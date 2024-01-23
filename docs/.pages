@@ -1,9 +1,10 @@
 nav:
     - Home: index.md
-    - pacific
-    - oceanic
-    - enroute
     - aerodromes
+    - terminal
+    - enroute
+    - oceanic
+    - pacific
     - controller-skills
     - contribute
     - changelog
