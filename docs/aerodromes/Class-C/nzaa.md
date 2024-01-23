@@ -107,7 +107,7 @@ When RWY 05R is active any domestic aircraft shall be given taxi instructions vi
 #### Use of Holding Points
 
 Departures may occur from any runway intersection, providing that it does not interfere with the use of any high-speed exits. Controllers may apply the following rules without coordination from the Pilot:
-
+ 
 | Type        |  Runway 23L   | Runway 05R |
 | ----------- | :-----------: | :--------: |
 | Large Jets  | `A1` or `A1A` |   `A10`    |
