@@ -115,9 +115,3 @@ Helicopter operations are very frequent within Queenstown CTR/C, usually operati
 
 !!! warning
     A reminder that Queenstown Tower must ensure that no VFR aircraft are present within the Instrument Sector when an aircraft is beyond the FAP of the active approach procedure.
-
-
-### Use of the Preferential Runway System
-
-Use of the Preferential Runway System is not authorised and Controllers shall nominate a single runway direction for both take-off and landing.
-
