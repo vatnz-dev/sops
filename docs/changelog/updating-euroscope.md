@@ -9,6 +9,7 @@ AIRAC Cycle updates must be made manually for the EuroScope client. We highly su
 ## Files
 
 VATNZ has two packages available:
+
   - **SkyLine**: Contains all of the required position and frequency definitions alongside the Sector Files. 
   - **Sector Files**: Only contains the Sector Files.
 
@@ -16,7 +17,7 @@ For most cycles, Controllers will only need to replace the Sector Files. Control
 
 ## Sector Files
 
-1. [Download the latest Sector Files from the VATNZ website](https://www.vatnz.net/airspace/sector_files/){ target=blank }. This will download a file named "VATNZ-NZZC_xxyy", where `xx` is the year, and `yy` is the cycle.
+1. [Download the latest Sector Files from the VATNZ website](https://www.vatnz.net/airspace/sector_files/){ target=new }. This will download a file named "VATNZ-NZZC_xxyy", where `xx` is the year, and `yy` is the cycle.
 2. In Windows, open an explorer window for where your EuroScope files are stored. By default this is in the `Documents\EuroScope\` directory.
 3. Archive the current VATNZ NZZC files, and drag the new files into this directory.
 4. Open EuroScope. A dialogue will appear notifying you that the active sector file cannot be found. **Click No**.
@@ -31,7 +32,7 @@ For most cycles, Controllers will only need to replace the Sector Files. Control
 
     It is important that you back-up only those two files, as other files in the `/Settings/` folder would have changed.
 
-1. [Download the latest SkyLine Package from the VATNZ website](https://www.vatnz.net/airspace/sector_files/){ target=blank }. This will download a file named "VATNZ-SKYLINE_xxyy", where `xx` is the year, and `yy` is the cycle.
+1. [Download the latest SkyLine Package from the VATNZ website](https://www.vatnz.net/airspace/sector_files/){ target=new }. This will download a file named "VATNZ-SKYLINE_xxyy", where `xx` is the year, and `yy` is the cycle.
 2. In Windows, open an explorer window for where your EuroScope files are stored. By default this is in the `Documents\EuroScope\` directory.
 3. Archive your current VATNZ SkyLine files, and drag the new files into the directory - making sure to follow the note above about preserving your settings.
 4. Open EuroScope. A dialogue will appear notifying you that the active sector file cannot be found. **Click No**.
