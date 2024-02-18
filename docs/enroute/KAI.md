@@ -40,7 +40,7 @@ KAI shall ensure that an efficient arrival flow is managed into WN TMA from the 
 
 ### OHA
 
-KAI shall issue STAR clearances for aircraft bound for PM and OH without coordination. 
+KAI shall issue STAR clearances for aircraft bound for NZPM and NZOH without coordination. 
 
 ## Coordination
 
