@@ -82,7 +82,11 @@ extra:
 markdown_extensions:
   meta: {} # Add front matter to a document
   admonition: {} # Makes things pretty
-  pymdownx.superfences: {} # Nestled code
+  pymdownx.superfences: # Nestled Code
+    custom_fences:
+      - name: mermaid # MermaidJS diagrams
+        class: mermaid
+        format: !!python/name:pymdownx.superfences.fence_code_format 
   attr_list: {} # Add HTML attributes and CSS classes to Markdown elements
   pymdownx.tabbed: # Content tabs
     alternate_style: true
