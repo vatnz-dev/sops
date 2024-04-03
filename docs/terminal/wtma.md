@@ -25,7 +25,7 @@
 
 ## Airspace
 
-The Wellington CTA/C follows the lateral and vertical boundaries as shown below. Controllers shall note that WTMA has a unlimited vertical bound, therefore all overflights shall be handed to WTMA. 
+Wellington CTA/C follows the lateral and vertical boundaries as shown below. As WTMA has an unlimited vertical bound, aircraft transiting within the lateral bounds of the airspace shown below shall still be handed to WTMA.
 
 
 <figure markdown>
