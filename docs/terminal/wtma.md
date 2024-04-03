@@ -1,5 +1,5 @@
 ---
-  title: Wellington Terminal Area 
+  title: Wellington Terminal Area
 ---
 
 --8<-- "includes/abbreviations.md"
