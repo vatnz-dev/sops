@@ -79,16 +79,6 @@ KAI shall ensure that any aircraft crossing the KAI/STH boundary is established 
 
 KAI may issue STAR clearances to aircraft bound for NZCH without coordination, provided that the STAR links with the nominated runway and approach type as stated in the ATIS. A request for the use of a non-nominated approach requires agreement from both the TMA and ADC Controller.
 
-#### Short STARs
-
-`BELEE1J` and `BELEE1K` are Short STARs into CH TMA that capture ILS 02 and ILS 20 at their intermediate fixes, `IDUBU` and `DIVSU` respectively. Controllers must co-ordinate with CH TMA or CH TWR before clearing aircraft for these arrivals, as prior planning may be required to ensure flow is maintained.
-
-These STARs are flow control STARs, allowing controllers to sequence aircraft onto a shorter final approach. Controllers should utilise these STARs when a conflict exists at the IAF for the ILS 02/20 or if northbound or southbound arrival flows have already been established.
-
-These arrivals provide track shortening of **4NM** compared to the `A`/`B` arrivals.
-
-
-
 KAI may descend aircraft to `A095` without coordination from CH TMA, but should assign `A110` as the standard descent level. 
 
 If a sequencing conflict is to occur, KAI shall coordinate with CH TMA as to an ideal arrival order.
@@ -99,6 +89,15 @@ KAI may clear aircraft direct to the STAR's CH TMA boundary fix without coordina
     **KAI**: *New Zealand 677, track direct KABGO to rejoin the STAR. When ready descend A080*.
 
     **Note**: As `KABGO` sits within CH TMA's airspace, coordination would be required.
+
+#### Short STARs - NZCH
+
+`BELEE1J` and `BELEE1K` are Short STARs into CH TMA that capture ILS 02 and ILS 20 at their intermediate fixes, `IDUBU` and `DIVSU` respectively. Controllers must co-ordinate with CH TMA or CH TWR before clearing aircraft for these arrivals, as prior planning may be required to ensure flow is maintained.
+
+These STARs are flow control STARs, allowing controllers to sequence aircraft onto a shorter final approach. Controllers should utilise these STARs when a conflict exists at the IAF for the ILS 02/20 or if northbound or southbound arrival flows have already been established.
+
+These arrivals provide track shortening of **4NM** compared to the `A`/`B` arrivals.
+
 
 ### WN TMA
 
