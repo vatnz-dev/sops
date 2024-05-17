@@ -109,7 +109,7 @@ Assigned heading departures may be requested by Tower or ATMA in order to allow 
 
 These instrctions shall be issued in accordance with [NZAA - Assigned Headings](../aerodromes/Class-C/nzaa.md#assigned-headings).    
 
-### Short-Sector STARs
+### Issuing STARs for Short Sectors
 
 ATMA is responsible for issuing STAR clearances for aircraft bound for NZHN and NZTG and shall do so without coordination. 
 
