@@ -19,7 +19,7 @@ Tauranga has four gates on the main apron and is home to over 20 private hangars
 Tauranga has six Runways in total. While only four are regularly used, the remainder are used when required or when special operations are in place.
 
 <figure markdown>
-![NZTG Ground Movements](/assets/nztg-ad.png)
+![NZTG Ground Movements](../../assets/nztg-ad.png)
 <figurecaption>Tauranga Ground Movements</figurecaption>
 </figure markdown>
 

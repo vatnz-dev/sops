@@ -10,7 +10,7 @@ This section will outline some of the tables within the database, and what they 
 
 All discreet portions of defined airspace are found in this table. These are only airspace definitions and not boundary definitions - those can be found in the `airspaceboundary` table.
 
-More information on this table can be found on the [Manual Airspace Definitions](ManualDefintions.md) page.
+More information on this table can be found on the [Manual Airspace Definitions](ManualDefinitions.md) page.
 
 ### airspaceboundary
 
