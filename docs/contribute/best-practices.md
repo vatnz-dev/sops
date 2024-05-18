@@ -31,6 +31,12 @@ Links that navigate a user away from the SOPs site should have `{ target=new }` 
 !!! warning
     All external links should use the `https` protocol.
 
+## Terminology
+
+It is important that, for important bits of terminology, care is taken to ensure there is no ambiguity.
+
+!!! example
+    `Track Shortening STARs` could be easily confused with `Short STARs`. Therefore it is better to write it a bit more verbosely e.g. `Track Shortening on STARs` to avoid any potential confusion.
 
 ## Sector Names
 
