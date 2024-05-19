@@ -96,7 +96,7 @@ KAI may clear aircraft direct to the STAR's CH TMA boundary fix without coordina
 
 These STARs are flow control STARs, allowing controllers to sequence aircraft onto a shorter final approach. Controllers should utilise these STARs when a conflict exists at the IAF for the ILS 02/20 or if northbound or southbound arrival flows have already been established.
 
-These arrivals provide track shortening of **4NM** compared to the `A`/`B` arrivals.
+These arrivals provide track shortening of **4nm** compared to the `BELEE #A`/`BELEE #B` arrivals.
 
 
 ### WN TMA
