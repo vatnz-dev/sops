@@ -77,14 +77,30 @@ NZNV has no published VFR procedures. VFR traffic shall be issued plain language
 
 ## Coordination
 
+### Handovers
+
+Due to the nature of procedural airspace the TWR controller shall note the following positions where aircraft are transferred. 
+
+For Arrivals:
+
+NV-DN-NV via H402 track: 51 NV DME, 
+DN-NV via H264 track: OREXI, 
+DN-NV via AKPIN: AKPIN, 
+Via DUKOP: UKETA
+
+For Departures:
+W118 North: KELSO, 
+Q787 North: 20nm prior to SUNGU
+
+
 ### STH
 
-Tower is normally not required to advise STH of any departing IFR traffic, and may conduct a silent handover when aircraft crosses the common boundary, or when approaching the top of Tower's CTA. Except where previously coordinated, IFR aircraft shall cross the common airspace boundary overhead an IFR waypoint, or established on an airway.
+Tower is normally not required to advise STH of any departing IFR traffic, and may conduct a silent handover per the list above, IFR aircraft shall cross the common airspace boundary overhead an IFR waypoint, or established on an airway.
 
 All VFR traffic handovers shall be coordinated with STH. 
 
 ### QTMA
-Tower is normally not required to advise QTMA of any departing IFR traffic, and may conduct a silent handover when aircraft crosses the common boundary, or when approaching the top of Tower's CTA. Except where previously coordinated, IFR aircraft shall cross the common airspace boundary overhead an IFR waypoint, or established on an airway.
+Tower is normally not required to advise QTMA of any departing IFR traffic, and may conduct a silent handover as per the list above. Except where previously coordinated, IFR aircraft shall cross the common airspace boundary overhead an IFR waypoint, or established on an airway.
 
 All VFR traffic handovers shall be coordinated with STH. 
 
