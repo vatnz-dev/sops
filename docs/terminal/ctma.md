@@ -53,10 +53,6 @@ Aircraft under the jurisdiction of CTMA may be track-shortened or assigned a hea
 
 CTMA may track-shorten where practical within their sector. Anything outside of their sector must be coordinated with the appropriate sector.
 
-### Issuing STARs for Short Sectors
-
-CTMA is responsible for issuing STAR clearances for aircraft bound for NZTU shall do so without coordination. 
-
 ## Arrivals 
 
 KAI or STH will hand aircraft to CTMA no lower than `A095`, unless co-ordinated, but should hand aircraft to CTMA at `A110` as a standard descent level.
