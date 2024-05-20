@@ -51,11 +51,20 @@ CTMA may climb departing aircraft as necessary to maintain separation and traffi
 
 Aircraft under the jurisdiction of CTMA may be track-shortened or assigned a heading to assist with sequencing or for separation. 
 
-CTMA may track-shorten where practical within their sector. Anything outside of their sector must be coordinated with the appropriate sector.
+CTMA may track-shorten where practical within their sector.
+
+Prior coordination or notification is not required for the following flights:
+
+| Criteria to be met                                                                   | Clearance Limit                         |
+| ------------------------------------------------------------------------------------ | --------------------------------------- |
+|Aircraft entering KAI at or above A110 and DEST NS                                    | DCT `RIVTA`                             |
+|Aircraft with a filed flight plan routing via GULOV and entering KAI at or above A110 | DCT `GULOV`                             |
+
+Aircraft entering STH at or above A110 are to be routed via: `PEHRR`, `IDARA`, `ELDAK`, `GUPUT`, `AVOCA`, `DAMPI`, `VETEV`, `ABAXO`.
 
 ## Arrivals 
 
-KAI or STH will hand aircraft to CTMA no lower than `A095`, unless co-ordinated, but should hand aircraft to CTMA at `A110` as a standard descent level.
+KAI or STH will hand aircraft to CTMA no lower than `A095`, unless co-ordinated, but should note the standard descent level is `A110`.
 
 ### Short STARs
 
