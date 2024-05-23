@@ -13,7 +13,6 @@
 | --------------- | --------- | ------------------- | --------- | -------- | --------- |
 | Wellington TMA  | WTMA      | Wellington Approach | 119.300   | NZWN_APP | Primary   |
 
-
 ### Event Only Positions
 
 !!! Danger
@@ -26,7 +25,6 @@
 ## Airspace
 
 Wellington CTA/C follows the lateral and vertical boundaries as shown below. As WTMA has an unlimited vertical bound, aircraft transiting within the lateral bounds of the airspace shown below shall still be handed to WTMA.
-
 
 <figure markdown>
   ![Wellington TMA](./assets/wntma-airspace.png) 
@@ -46,43 +44,42 @@ Wellington CTA/C follows the lateral and vertical boundaries as shown below. As 
 
 Departures will be assigned by Wellington Controllers in accordance with the [SID Assignment guide](../aerodromes/Class-C/nzwn.md#sid-assignment). 
 
-WTMA may climb departing aircraft as necessary to maintain separation and traffic flow up to their requested flight level. International aircraft shall be instructed to climb to `FL250`, if further climb is requested, they shall be handed to NAK.
+WTMA may climb departing aircraft as necessary to maintain separation and traffic flow up to their requested flight level. International aircraft shall be instructed to climb to `FL250`. If further climb is requested they shall be handed to NAK.
 
 For terrain clearance purposes any track shortening shall be done above `A025` to keep aircraft clear of associated terrain, **unless** the aircraft is departing from RWY 16 to the South where WTMA may take the aircraft off the SID above `A005`. 
-
 
 !!! Note
     When the duty runway is runway `34` - in low levels of traffic or to suit the sequence WTMA may turn aircraft departing to the south through the harbour (eg `H180`).
 
-### Track Shortening SIDs
+### Track Shortening on SIDs
 
 Aircraft under the jurisdiction of WTMA may be track-shortened or assigned a heading to assist with sequencing or for separation. 
 
-WTMA may track-shorten where practical within their sector. Anything outside of thier sector must be coordinated with the appropriate sector.
+WTMA may track-shorten where practical within their sector. Anything outside of their sector must be coordinated with the appropriate sector.
 
-### Short-Sector STARs
+### Issuing STARs for Short Sectors
 
-Refer to [Short Sector STARs](../aerodromes/Class-C/nzwn.md#star-clearance-for-nzns--nzwb)
+Refer to [STAR Clearance for NZNS & NZWB](../aerodromes/Class-C/nzwn.md#star-clearance-for-nzns--nzwb)
 
 ## Arrivals 
 
 NAK, OHA or KAI will hand aircraft to WTMA no lower than `A110`, unless co-ordinated.
 
-### Track Shortening STARs
+### Track Shortening on STARs
 
 WTMA should make use of track-shortening on STARs to allow for an efficient sequence to be applied.
 
 ## Woodbourne Procedures
 
-WTMA will issue the appropriate STAR into WB unless already issued, and will descend aircraft and clear them for the nominated approach, once established inbound WTMA will hand aircraft to WB Tower
+WTMA will issue the appropriate STAR into WB unless already issued, and will descend aircraft and clear them for the nominated approach. Once established inbound WTMA will hand aircraft to WB Tower.
 
-When Woodborne Tower is offline WTMA will provide top down services. 
+When Woodbourne Tower is offline WTMA will provide top down services.
 
 ## Paraparaumu Procedures
 
-When Paraparaumu Flight Service on watch, any IFR departures shall be co-ordinated. As Paraparaumu is only a Flight Service, WTMA shall issue the clearance to Flight Service and they shall pass it onto the aircraft. And aircraft will be instructed to `Passing 2,500ft Contact Wellington 119.3` this shall be done during on vailidation of the clearance.
+When Paraparaumu Flight Service on watch, any IFR departures shall be co-ordinated. As Paraparaumu is only a Flight Service, WTMA shall issue the clearance to Flight Service and they shall pass it onto the aircraft. And aircraft will be instructed `Passing 2,500ft Contact Wellington 119.3`. This shall be done on validation of the clearance.
 
-When Paraparaumu Flight Service offine WTMA shall issue that clearance as per a normal Uncontrolled IFR clearance
+When Paraparaumu Flight Service is offline WTMA shall issue clearances as per a normal Uncontrolled IFR clearance.
 
 ## Uncontrolled IFR 
 

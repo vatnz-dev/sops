@@ -76,7 +76,7 @@ No recorded changes.
 
 1. Ownership parameters of ACU positions. All TMA positions owned by default. Thanks to Zain.
 
-2. Initial release of [GitHub Contribution Guidelines](CONTRIBUTING.md).
+2. Initial release of [GitHub Contribution Guidelines](../contribute/contributing.md).
 
 ## AIRAC 2101
 
@@ -110,7 +110,7 @@ No recorded changes.
 
 #### Usability Changes
 
-* Change to `README.md` to link to [CONTRIBUTING.md](CONTRIBUTING.md). Thanks to Tom.
+* Change to `README.md` to link to [CONTRIBUTING.md](../contribute/contributing.md). Thanks to Tom.
 
 * Updated Map file structure to for easier navigation. `_NZ/` folder deleted, with files moved to `Maps/`. ASMGCS files moved to individual folders, sorted by ICAO code. Thanks to Tom.
 
