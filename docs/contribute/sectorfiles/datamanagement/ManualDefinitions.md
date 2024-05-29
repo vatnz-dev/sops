@@ -58,7 +58,7 @@ Each piece of airspace is tagged with one of the following `ExportID`, dictating
 
 ## Format Overview
 
-Each file has a header line defining the type of airspace, before a name and limits line. The header line will be covered in the examples, as they're self explanatory.
+Each file has a header line defining the type of airspace, before a name and limits line. The header line will be covered in the examples, as they're self-explanatory.
 
 ### Limits Line
 
@@ -98,7 +98,7 @@ NZT001 6 394745.20S 1744603.20E CWA 401234.58S 1752331.05E 38.00 NM
 
 * `Ident` - Must match the ident used in the Name and Limits Line.
 * `SequenceNum` - A unique line identifier. Starts at 0.
-* `Lattitude` - Lattitude in eAIP format.
+* `Lattitude` - Latitude in eAIP format.
 * `Longitude` - Longitude in eAIP format.
 * `LineType` - Either `GRC`, `CCA`, `CIR`, `CWA`, `RHL` or `FNT`.
 * `ArcDef` - As needed to define an arc or circle.
@@ -190,7 +190,7 @@ For TMA:
 
 ```
 
-!!! hint "Importing and Delete in the same file"
+??? hint "Importing and Delete in the same file"
     Follow this example!
 
     ```
@@ -206,8 +206,28 @@ For TMA:
     ```
 
 
-## Merging Airspace
+## Manual IFR Waypoint Definitions
 
-I'll write this soon.
+!!! note ""
+    Refer to [Procedure Editor / Overview](../procedures/index.md#procedural-waypoints).
+
+To manually import waypoints into the SFG database:
+
+1. Find the coordinates of the waypoint in DMS format: `Sxxx.xx.xx.xxx Exxx.xx.xx.xxx`
+2. Create a `.txt` document, and create your waypoint definition.
+3. Import this file into the SFG database by clicking ++"Import Manual IFR Fix"++ on the DB Update page, and then selecting the created text file.
 
 
+``` title="IFR Import File Format"
+    [WAYPOINT NAME] [COORD LAT] [COORD LONG]
+
+    // Example:
+    KM563 S041.11.34.000 E172.03.10.000
+    HT518 S043.49.01.000 E168.59.30.000
+```
+
+It is important to note that:
+
+* Ordinarily, you should never need to import NZZC non-procedural waypoints. These should be in the ANR.
+* You should never import Pacific fixes, as these are imported using Navigraph as a data source.
+* A lot of procedural waypoint coordinates can be sourced through a third-party mapping provider, such as LittleNavMap.

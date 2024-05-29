@@ -55,7 +55,7 @@ Aircraft shall leave the ATMA tracking a waypoint. Where aircraft are vacating o
 All prop-preferred SIDs have a hold-down altitude restriction during their initial departure segment. Most Pilots are unaware of these limitations, therefore ATMA should be aware of the limitations, particularly on the  `BROOK #Q`, `REKIS #Q`, `AVDAT #Q`, `DOVON #Q`, `STEAL #P` and `ELSAB #P`. Controllers may use a stepped climb methodology to ensure that these limitations are met.
 
 
-### Track Shortening SIDs
+### Track Shortening on SIDs
 
 TMA may utilise SID track-shortening where necessary. Where an aircraft is issued a direct to another point on the SID, they shall be instructed to then rejoin the procedure.
 
@@ -109,7 +109,7 @@ Assigned heading departures may be requested by Tower or ATMA in order to allow 
 
 These instrctions shall be issued in accordance with [NZAA - Assigned Headings](../aerodromes/Class-C/nzaa.md#assigned-headings).    
 
-### Short-Sector STARs
+### Issuing STARs for Short Sectors
 
 ATMA is responsible for issuing STAR clearances for aircraft bound for NZHN and NZTG and shall do so without coordination. 
 

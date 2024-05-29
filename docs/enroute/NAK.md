@@ -15,11 +15,13 @@
 
 NAK covers all airspace within the lateral bounds as found below, with the only exception being the airspace that has been delegated to WN TMA and OH TMA. The lower limit for most airspace is `A095`, dropping to `A065` in areas surrounding Mt Taranaki and Nelson.
 
+When OHA is offline, NAK automatically inherits and assumes all responsibility for that sector.
+
 When WN TMA is offline, NAK automatically inherits and assumes responsibility for that sector. 
 
 When NS TWR is offline, NAK automatically inherits the TWR and Procedural Approach services provided by NS TWR. See [the responsibilities section on NS TWR](#ns-twr). 
 
-When NP TWR is offline, NAK **does not** automatically assume this position, as this is provided by RAN. See [the responsibilities section on NP TWR](#np-twr).
+When NP TWR is offline, NAK **does not** automatically assume this position, as this is inherited by RAN. See [the responsibilities section on NP TWR](#np-twr).
 
 <figure markdown> 
   ![Taranaki's Airspace](assets/NAK.png)

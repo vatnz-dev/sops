@@ -98,38 +98,46 @@ Some SIDs at NZAA, NZQN and NZWN have a 30 degree turn baked into the procedure 
 
 ### Wake Turbulence
 
-Controllers shall ensure that aircraft are protected against the effects of wake turbulence during take-off or landing by applying the following rules:
+Controllers shall ensure that aircraft are protected against the effects of wake turbulence during take-off landing, or during cruise by applying the following rules:
 
 
 #### Distance-based Wake Turbulence
 
-| Lead Aircraft | Following Aircraft | Distance (NM) |
-| ------------- | ------------------ | ------------- |
-| Super (A380)  | Super              | -             |
-|               | Heavy              | 6             |
-|               | Medium             | 7             |
-|               | Light              | 8             |
-| Heavy         | Heavy              | 4             |
-|               | Medium             | 5             |
-|               | Light              | 6             |
-| Medium        | Heavy              | -             |
-|               | Medium             | -             |
-|               | Light              | 5             |
+This criteria is applicable in the following circumstances:
 
-#### Time-based Wake Turbulence
+- In all phases of flight when an aircraft is operating directly behind (1/2 NM laterally) another aircraft at the same level or less than 1000 ft below;
+- In all phases of flight when an aircraft is crossing behind another aircraft at the same level or less than 1000 ft below;
+- When both aircraft are on an approach to or departure from the same runway, or parallel runways separated by less than 1 NM.
 
-| Lead Aircraft | Following Aircraft | Time (min) |
-| ------------- | ------------------ | ---------- |
-| Super (A380)  | Super              | -          |
-|               | Heavy              | 2          |
-|               | Medium             | 3          |
-|               | Light              | 3          |
-| Heavy         | Heavy              | -          |
-|               | Medium             | 2          |
-|               | Light              | 2          |
-| Medium        | Heavy              | -          |
-|               | Medium             | -          |
-|               | Light              | 2          |
+
+| Leading Aircraft | Following or Crossing Aircraft | Distance (NM) |
+| ---------------- | ------------------------------ | ------------- |
+| Super (A380)     | Heavy                          | 5             |
+|                  | Medium                         | 7             |
+|                  | Light                          | 8             |
+| Heavy            | Heavy                          | 4             |
+|                  | Medium                         | 5             |
+|                  | Light                          | 6             |
+| Medium           | Light                          | 5             |
+
+#### Time-based Wake Turbulence between arriving Flights
+
+This criteria shall be applied to arriving aircraft:
+
+- For the same runway;
+- For parallel runways;
+- If the projected flight paths are expected to cross at the same altitude or less than 1000 ft below
+
+| Leadin Aircraft | Following or Crossing Aircraft | Minimum Time |
+| --------------- | ------------------------------ | ------------ |
+| Super (A380)    | Super                          | 2 minutes    |
+|                 | Heavy                          | 2 minutes    |
+|                 | Medium                         | 3 minutes    |
+|                 | Light                          | 4 minutes    |
+| Heavy           | Heavy                          | 2 minutes    |
+|                 | Medium                         | 2 minutes    |
+|                 | Light                          | 3 minutes    |
+| Medium          | Light                          | 3 minutes    |
 
 ## Procedural Separation
 
