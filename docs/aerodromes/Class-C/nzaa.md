@@ -174,12 +174,14 @@ As the aircraft is off an evaluated procedure, there is a potential that an assi
     **ANZ631**: *"ANZ631, on departure turn right heading 190, climb five thousand"* 
 
 
-## Noise Abatement
+## Noise Abatement (Night STARs)
 
 !!! warning "Use of Noise Abatement Operations"
-    The use of Noise Abatement Operations on the network is **not** mandatory, and Controllers may elect to provide a normal control service if they wish. As the primary Controller affected, the decision to implement Noise Abatement Operations sits with AA TMA.
+    In the real world, Auckland uses noise abatement procedures from 2300 until 0600 local in order to minimise disturbances over populated areas.
 
-      *Auckland employs noise abatement procedures from 2300 until 0600 local in order to minimise disturbances over populated areas.*
+    The use of Noise Abatement procedures (Night STARs) on the network is **not** mandatory, and Controllers may elect to provide a normal control service if they wish. As the primary Controller affected, the decision to implement Noise Abatement Operations sits with AA TMA.
+
+    These STARs **shall not** be used during high-traffic volumes due to the lack of separation against other routine procedures.
 
 ### Use of the Preferential Runway System
 
