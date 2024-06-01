@@ -6,9 +6,9 @@
 
 ## Positions
 
-| Position Name  | Shortcode  | Callsign        | Frequency   | Login ID       | Usage      |
-| -------------- | ---------- | --------------- | ----------- | ---------------| ---------- |
-| Invercargill ADC    | TNV        | Invercargill Tower   | 118.500     | NZNV_TWR       | Primary    |
+| Position Name    | Shortcode | Callsign           | Frequency | Login ID | Usage   |
+| ---------------- | --------- | ------------------ | --------- | -------- | ------- |
+| Invercargill ADC | TNV       | Invercargill Tower | 118.500   | NZNV_TWR | Primary |
 
 ## Airspace
 
@@ -63,14 +63,22 @@ Tower is responsible for issuing STAR clearances for aircraft bound for Dunedin 
 STH, QTMA, and DN TWR shall issue STARs to arrivals without coordination with Invercargill Tower. Invercargill Tower may choose to coordinate with the adjacent sectors or amend the arrival on first contact.
 
 ### Runway 04
-All RNAV arrivals terminate at `ESNUP` or `EGAMU`, which is the IAF for the RNP approach. Aircraft for the VOR approach will track direct to the `NV` VOR. Aircraft for the VOR DME approach will either track to the `NV` VOR, direct to `PEBLY`, or join the `NV` 10 DME Arc depending on the aircraft's position.
+All RNAV arrivals terminate at `ESNUP` or `EGAMU`, which is the IAF for the RNP approach. Aircraft for the VOR approach will track direct to the `NV VOR`. Aircraft for the VOR DME approach will either track to the `NV VOR` , direct to `PEBLY`, or join the `NV DME` 10 DME arc depending on the aircraft's position.
 
-The prefered order of approaches are RNP RWY 04, VOR DME RWY 04, VOR RWY 04.
+| Preference | Approach |
+| ---------- | -------- |
+| 1          | RNP RWY  |
+| 2          | VOR DME  |
+| 3          | VOR      |
 
 ### Runway 22
-All RNAV arrivals terminate at either `LALEV` or `DOTLU`, which are the IAF for the RNP approach. Aircraft for the VOR approach will track direct to the `NV` VOR. Aircraft for the VOR DME approach will either track to the `NV` VOR, direct to `PEBLY`, or join the 10 `NV` DME Arc depending on the aircraft's position.
+All RNAV arrivals terminate at either `LALEV` or `DOTLU`, which are the IAF for the RNP approach. Aircraft for the VOR approach will track direct to the `NV VOR`. Aircraft for the VOR DME approach will either track to the `NV VOR`, direct to `PEBLY`, or join the `NV DME` 10 DME arc depending on the aircraft's position.
 
-The prefered order of approaches are RNP RWY 22, VOR DME RWY 22, VOR RWY 22.
+| Preference | Approach |
+| ---------- | -------- |
+| 1          | RNP RWY  |
+| 2          | VOR DME  |
+| 3          | VOR      |
 
 ## VFR Procedures
 NZNV has no published VFR procedures. VFR traffic shall be issued plain language instructions.
@@ -83,14 +91,19 @@ Due to the nature of procedural airspace the TWR controller shall note the follo
 
 For Arrivals:
 
-NV-DN-NV via H402 track: 51 NV DME, 
-DN-NV via H264 track: OREXI, 
-DN-NV via AKPIN: AKPIN, 
-Via DUKOP: UKETA
+| Scenario                 | Handover Point              |
+| ------------------------ | --------------------------- |
+| NZDN to NZNV via `H402`  | 51nm outbound from `NV DME` |
+| NZDN to NZNV via `H234`  | `OREXI`                     |
+| NZDN to NZNV via `AKPIN` | `AKPIN`                     |
+| via `DUKOP`              | `DUKOP`                     |
 
 For Departures:
-W118 North: KELSO, 
-Q787 North: 20nm prior to SUNGU
+
+| Scenario            | Handover Point        |
+| ------------------- | --------------------- |
+| `W118` to the North | `KELSO`               |
+| `Q787` to the North | 20nm prior to `SUNGU` |
 
 
 ### STH
@@ -102,11 +115,11 @@ All VFR traffic handovers shall be coordinated with STH.
 ### QTMA
 Tower is normally not required to advise QTMA of any departing IFR traffic, and may conduct a silent handover as per the list above. Except where previously coordinated, IFR aircraft shall cross the common airspace boundary overhead an IFR waypoint, or established on an airway.
 
-All VFR traffic handovers shall be coordinated with STH. 
+All VFR traffic handovers shall be coordinated with QTMA. 
 
 ### DN TWR
 
-Tower shall coordinate all traffic handovers with DN TWR, and shall advise the aircraft's current and cleared altitude, and estimated time that they will be crossing the common airspace boundary. 
+Tower shall coordinate all traffic handovers with DN TWR, and shall advise the aircraft's current and cleared altitude, and estimated time that they will be crossing the common airspace boundary, or handover point as defined in the [handover table](#handovers).
 
 ## Ryans Creek Uncontrolled IFR
 Ryans Creek (NZRC) is a small uncontrolled aerodrome 30 nm south of Invercargill.
