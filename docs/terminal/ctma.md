@@ -60,7 +60,7 @@ Prior coordination or notification is not required for the following flights:
 |Aircraft entering KAI at or above A110 and DEST NS                                    | DCT `RIVTA`                             |
 |Aircraft with a filed flight plan routing via GULOV and entering KAI at or above A110 | DCT `GULOV`                             |
 
-Aircraft entering STH at or above A110 are to be routed via: `PEHRR`, `IDARA`, `ELDAK`, `GUPUT`, `AVOCA`, `DAMPI`, `VETEV`, `ABAXO`.
+Aircraft entering STH at or above A110 are to be routed via: `PEHRR`, `IDARA`, `ELDAK`, `GUPUT`, `AVOCA`, `DAMPI`, `VETEV` or `ABAXO`.
 
 ## Arrivals 
 
@@ -80,7 +80,10 @@ CTMA should make use of track-shortening on STARs to allow for an efficient sequ
 
 ## Uncontrolled IFR 
 
-For Uncontrolled IFR aircraft leaving the CTMA Control Area, CTMA shall issue the appropriate STAR for that aerodrome, and clear the aircraft to leave Controlled Airspace on descent. 
+For Uncontrolled IFR aircraft leaving the CTMA Control Area, CTMA shall issue the appropriate STAR for that aerodrome, and clear the aircraft to leave controlled airspace on descent. 
+
+!!! note "RTF for descent into uncontrolled airspace"
+    **CTMA:** *New Zealand 199L, leave controlled airspace by descent, no reported traffic outside of controlled airspace, QNH 1011*
 
 If the aircraft is terminating underneath the CTMA Control Area, they shall be instructed to contact you on the ground to cancel their IFR flight plan. If their flight is terminating underneath another sector, such as STH, they shall be instructed to contact that sector to terminate their FPL. This shall be co-ordinated with the appropriate sector.
 
