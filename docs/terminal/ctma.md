@@ -47,7 +47,7 @@ Departures will be assigned in accordance with the [SID Assignment guide](../aer
 
 CTMA may climb departing aircraft as necessary to maintain separation and traffic flow up to their requested flight level. International aircraft shall be instructed to climb to `FL250`, if further climb is requested, they shall be handed to KAI or STH as appropriate.
 
-### Track Shortening SIDs
+### Track Shortening on SIDs
 
 Aircraft under the jurisdiction of CTMA may be track-shortened or assigned a heading to assist with sequencing or for separation. 
 
@@ -74,7 +74,7 @@ These STARs are flow control STARs, allowing controllers to sequence aircraft on
 
 These arrivals provide track shortening of **4nm** compared to the `BELEE #A`/`BELEE #B` arrivals.
 
-### Track Shortening STARs
+### Track Shortening on STARs
 
 CTMA should make use of track-shortening on STARs to allow for an efficient sequence to be applied.
 
