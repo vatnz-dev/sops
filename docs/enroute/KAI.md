@@ -90,15 +90,6 @@ KAI may clear aircraft direct to the STAR's CH TMA boundary fix without coordina
 
     **Note**: As `KABGO` sits within CH TMA's airspace, coordination would be required.
 
-#### Short STARs - NZCH
-
-`BELEE #J` and `BELEE #K` are Short STARs into CH TMA that capture ILS 02 and ILS 20 at their intermediate fixes, `IDUBU` and `DIVSU` respectively. Controllers must co-ordinate with CH TMA or CH TWR before clearing aircraft for these arrivals, as prior planning may be required to ensure flow is maintained.
-
-These STARs are flow control STARs, allowing controllers to sequence aircraft onto a shorter final approach. Controllers should utilise these STARs when a conflict exists at the IAF for the ILS 02/20 or if northbound or southbound arrival flows have already been established.
-
-These arrivals provide track shortening of **4nm** compared to the `BELEE #A`/`BELEE #B` arrivals.
-
-
 ### WN TMA
 
 KAI shall issue STAR clearances for NZWB and NZWN bound aircraft without coordination, provided that the NZWN STAR issued links with the nominated runway and approach type as stated in the ATIS. A request for use of the non-nominated approach requires agreement from both the TMA and ADC Controller.
