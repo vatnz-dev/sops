@@ -97,7 +97,7 @@ Prior coordination or notification is not required for the following flights:
 | Criteria to be met                                     | Clearance Limit                    |
 | ------------------------------------------------------ | ---------------------------------- |
 | Level is `A100` or below, and DEST is not NZTG         | Direct to: `TG VOR`                |
-| Route Enters BAY Sector                                | Direct to `TULMI`                  |
+| Aircraft enters BAY sector via TULMI                   | Direct to `TULMI`                  |
 | Level is `A100` and below                              | via FPR on **non-standard** routes |
 
 !!! note "Silent Coordination"
