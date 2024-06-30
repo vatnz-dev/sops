@@ -24,7 +24,7 @@ Pilots of VFR and IFR aircraft operating within Class D airspace must use a good
 
 ## Procedural 
 
-Procedural airspace is only found at a few airports around the country, theses are Towers without radar and rely on reports from pilots on thier position. 
+Procedural airspace is only found at a few airports around the country. These are Towers without radar and rely on reports from pilots on their position. 
 
 Our procedural towers are: Gisborne, Napier, New Plymouth, Nelson, Dunedin and Invercargill. 
 
