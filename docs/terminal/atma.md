@@ -94,11 +94,11 @@ Prior coordination or notification is not required for the following flights:
 
 Prior coordination or notification is not required for the following flights:
 
-| Criteria to be met                                     | Clearance Limit                |
-| ------------------------------------------------------ | ------------------------------ |
-| Level is `A100` or below, and DEST is not NZTG         | Direct to: `TG VOR`            |
-| Aircraft is west of `KARRL`, DEST is NZCH and is a jet | Direct to `TULMI`              |
-| Level is `A100` and below                              | via FPR on non-standard routes |
+| Criteria to be met                                     | Clearance Limit                    |
+| ------------------------------------------------------ | ---------------------------------- |
+| Level is `A100` or below, and DEST is not NZTG         | Direct to: `TG VOR`                |
+| Aircraft enters BAY sector via TULMI                   | Direct to `TULMI`                  |
+| Level is `A100` and below                              | via FPR on **non-standard** routes |
 
 !!! note "Silent Coordination"
     For any coordinated track shortening, Controllers shall note the instruction given in the aircraft's tag.
