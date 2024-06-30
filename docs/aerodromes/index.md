@@ -28,7 +28,7 @@ Procedural airspace is only found at a few airports around the country. These ar
 
 Our procedural towers are: Gisborne, Napier, New Plymouth, Nelson, Dunedin and Invercargill. 
 
-They are all Class D therefore the above statement about Class D applies to them aswell. 
+They are all Class D therefore the all Class D rules apply to these aerodromes as well. 
 
 --8<-- "includes/abbreviations.md"
 
