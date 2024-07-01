@@ -5,7 +5,7 @@
 --8<-- "includes/abbreviations.md"
 
 !!! note "Christchurch Procedures"
-    The CTMA procedures build upon information already contained in the [NZCH Aerodrome Procedures](../aerodromes/Class-C/nzch.md), and any Controller logged on to CTMA should be familiar with those procedures.
+    The CTMA procedures build upon information already contained in the [NZCH Aerodrome Procedures](../aerodromes/Class-C/nzch.md), and any Controller logged on to CTMA shall be familiar with those procedures.
 
 ## Positions
 
@@ -43,9 +43,9 @@ Christchurch CTA/C follows the lateral and vertical boundaries as shown below. C
 
 ## Departures
 
-Departures will be assigned in accordance with the [SID Assignment guide](../aerodromes/Class-C/nzch.md#sid-assignment). 
+Departures shall be assigned in accordance with the [SID Assignment guide](../aerodromes/Class-C/nzch.md#sid-assignment). 
 
-CTMA may climb departing aircraft as necessary to maintain separation and traffic flow up to their requested flight level. International aircraft shall be instructed to climb to `FL250`, if further climb is requested, they shall be handed to KAI or STH as appropriate.
+CTMA may climb departing aircraft as necessary to maintain separation and traffic flow up to their RFL. International departures may be instructed to climb to `FL250`, with further available on coordination from KAI or STH.
 
 ### Track Shortening on SIDs
 
@@ -57,14 +57,18 @@ Prior coordination or notification is not required for the following flights:
 
 | Criteria to be met                                                                   | Clearance Limit                         |
 | ------------------------------------------------------------------------------------ | --------------------------------------- |
-|Aircraft entering KAI at or above A110 and DEST NS                                    | DCT `RIVTA`                             |
-|Aircraft with a filed flight plan routing via GULOV and entering KAI at or above A110 | DCT `GULOV`                             |
+|Aircraft entering KAI at or above `A110` and DEST NS                                    | DCT `RIVTA`                             |
+|Aircraft with a filed flight plan routing via GULOV and entering KAI at or above `A110` | DCT `GULOV`                             |
 
-Aircraft entering STH at or above A110 are to be routed via: `PEHRR`, `IDARA`, `ELDAK`, `GUPUT`, `AVOCA`, `DAMPI`, `VETEV` or `ABAXO`.
+Aircraft entering STH at or above `A110` are to be routed via `PEHRR`, `IDARA`, `ELDAK`, `GUPUT`, `AVOCA`, `DAMPI`, `VETEV` or `ABAXO`.
+
+### Assigned Heading Departures
+
+Assigned heading deparures may be requested by Tower or CTMA in order to allow for a more efficient traffic flow from the runway. Assigned heading departures shall be issued in accordance with [NZCH - Assigned Headings for PEDMI departures](../aerodromes/Class-C/nzch.md#assigned-headings-for-pedmi-departures).
 
 ## Arrivals 
 
-KAI or STH will hand aircraft to CTMA no lower than `A095`, unless co-ordinated, but should note the standard descent level is `A110`.
+KAI or STH will hand aircraft to CTMA no lower than `A095`, unless coordinated otherwise. However, note that the standard descent level is `A110`.
 
 ### Short STARs
 
@@ -76,16 +80,23 @@ These arrivals provide track shortening of **4nm** compared to the `BELEE #A`/`B
 
 ### Track Shortening on STARs
 
-CTMA should make use of track-shortening on STARs to allow for an efficient sequence to be applied.
+CTMA may make use of track-shortening on STARs to allow for an efficient sequence to be applied. Where an aircraft has been taken away from the STAR and are subsequently required to re-join and follow the STAR, the following RTF shall be used:
+
+!!! hint "RTF for re-joining a STAR"
+    **ATMA**: *New Zealand 677, track direct UPVES to re-join the STAR. Descend to 7000ft, radar terrain*.
+
 
 ## Uncontrolled IFR 
 
-For Uncontrolled IFR aircraft leaving the CTMA Control Area, CTMA shall issue the appropriate STAR for that aerodrome, and clear the aircraft to leave controlled airspace on descent. 
+For uncontrolled IFR aircraft, if CTMA is the final controlling sector, CTMA shall issue the appropriate STAR for the destination aerodrome.
+
+If the aircraft is terminating beneath the CTMA Control Area, they shall be instructed to contact you on the ground to cancel their IFR flight plan. If their flight is terminating beneath another sector, such as STH, they shall be instructed to contact that sector to terminate their FPL. This shall be coordinated with the appropriate sector.
 
 !!! note "RTF for descent into uncontrolled airspace"
-    **CTMA:** *New Zealand 199L, leave controlled airspace by descent, no reported traffic outside of controlled airspace, QNH 1011*
+    **Situation**: An aircraft is flying from NZCH to NZTU, which sits under STH's boundaries.
 
-If the aircraft is terminating underneath the CTMA Control Area, they shall be instructed to contact you on the ground to cancel their IFR flight plan. If their flight is terminating underneath another sector, such as STH, they shall be instructed to contact that sector to terminate their FPL. This shall be co-ordinated with the appropriate sector.
+    **CTMA:** *FIS, leave controlled airspace by descent, no reported traffic outside of controlled airspace, QNH 1011. On the ground contact Christchurch Control on 129.3 for IFR cancellation.*
+
 
 ## Coordination
 
