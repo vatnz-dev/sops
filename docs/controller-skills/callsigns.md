@@ -18,9 +18,9 @@ This page lists some of the less-known aircraft callsigns that are routinely use
 | AWK  | Airwork           | Airwork                | Yes                   |
 | CAC  | Canterbury        | Canterbury Aero Club   | Unsure                |
 | CAP  | Capital           | Helilink               | Yes                   |
-| CFL  | Careflight        | Unsure                 | Yes                   |
+| CFL  | Careflight        | Helicopter Services    | Yes                   |
 | CGD  | Coast Guard       | Coast Guard            | Yes                   |
-| CVA  | Chathams          | Air Chathams           | Yes                   |
+| CVA  | Chatham           | Air Chathams           | Yes                   |
 | FDC  | Fly Doc           | GCH Aviation           | Yes                   |
 | GBA  | Barrier           | Barrier Air            | Yes                   |
 | GBY  | Golden Bay        | Golden Bay Air         | Yes                   |
@@ -75,14 +75,14 @@ This page lists some of the less-known aircraft callsigns that are routinely use
 | ICE  | Ice                | Various  |
 | ASY  | Aussie             | RAAF     |
 
-### Military Formation
-These can be use as an extention of the above callsigns when formation flights take place eg. TEXGLD or MAKBLU. 
+### Military Formation/Tasking
+These can be used as an extention of the above callsigns when formation flights take place or for specific missions eg. TEXGLD or MAKBLU. 
 
 | Code | RTF Designator |
 | -----| ---------------|
 | GLD  | Gold           |
 | SIL  | Silver         | 
-| BNZ  | Bronze         | 
+| BRZ  | Bronze         | 
 | BLK  | Black          |
 | BLU  | Blue           | 
 
