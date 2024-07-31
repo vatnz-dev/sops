@@ -143,9 +143,7 @@ For Domestic aircraft that are departing to the North or Northeast, the Controll
 | 05R    | `PAGLA #Q` | Cat A to D             | No                             | **Preferred departure for Cat C Jets**. Steep climb gradient - aircraft unable to meet this shall be given the `POLIS #Q`.        |
 | 05R    | `POLIS #Q` | Cat A to D             | No                             | **Preferred departure for Cat D Jets, or heavies**. Shallower climb gradient.                                                     |
 | 05R    | `REKIS #Q` | Cat A to D             | Yes - >30° turn passing `A005` | **Preferred departure for Props South**. May be given to jets provided they are comfortable with the 180kt limitation at `VINOD`. |
-| 05R    | `EMRAG #Q` | Cat A to D             | No                             | Least preferred departure due to manual vectoring required.                                                                       |
-| 05R    | `DOVON #Q` | Cat A to C             | Yes - >30° turn passing `A005` | **Preferred departure for Props to Great Barrier**                                                                                |
-| 05R    | `AVDAT #Q` | Cat A to C             | Yes - >30° turn passing `A005` | **Preferred departure for Props North**                                                                                           |
+| 05R    | `EMRAG #Q` | Cat A to D             | No                             | Least preferred departure due to manual vectoring required.                                                                                         |
 
 
 | Runway | Procedure  | Allowed A/C Categories | Is divergent?                  | Notes                                                                                                     |
@@ -224,9 +222,9 @@ OCR has three Noise Abatement STARs that shall be issued as first preference. If
 | Runway | Procedure  | Transitions                                                             | Allowed A/C Categories |
 |--------|------------|-------------------------------------------------------------------------|------------------------|
 | 23L    | `BASIV #N` | `ELNOS` `SALAG` `UPLAR`                                                 | All                    |
-| 05R    | `RIKDI #N` | `KALAG` `AGREX` `TARIB` `SELKA` `AGEDU` `IDSEM` `DABAS` `AKLOM` `OLBEX` | All                    |
+| 05R    | `RIKDI #N` | `KALAG` `AGREX` `TARIB` `ELPAK` `AGEDU` `IDSEM` `DABAS` `AKLOM` `OLBEX` | All                    |
 | 23L    | `TAZEY #N` | `PEBLU` `VELMO`                                                         | All                    |
-
+| 23L    | `LUNBI #N` |                                                                         | All                    |
 ## VFR Procedures
 
 ### Arrival
