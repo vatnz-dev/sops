@@ -68,7 +68,7 @@ KAI or STH will hand aircraft to CTMA no lower than `A095`, unless co-ordinated,
 
 ### Short STARs
 
-`BELEE #J` and `BELEE #K` are Short STARs into CH TMA that capture ILS 02 and ILS 20 at their intermediate fixes, `IDUBU` and `DIVSU` respectively. KAI and STH must co-ordinate with CH TMA before clearing aircraft for these arrivals, as prior planning may be required to ensure flow is maintained.
+`BELEE #J` and `BELEE #K` are Short STARs into CH TMA that capture ILS 02 and ILS 20 at their intermediate fixes, `ALBAD` and `DIVSU` respectively. KAI and STH must co-ordinate with CH TMA before clearing aircraft for these arrivals, as prior planning may be required to ensure flow is maintained.
 
 These STARs are flow control STARs, allowing controllers to sequence aircraft onto a shorter final approach. Controllers should utilise these STARs when a conflict exists at the IAF for the ILS 02/20 or if northbound or southbound arrival flows have already been established.
 
