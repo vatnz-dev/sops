@@ -27,7 +27,7 @@ Nelson Tower provides a Procedural Approach service for the wider CTA/D.
 
 ## Areas of Responsibility
 
-Nelson's main apron has eleven stands, two of those with jetways. TWY `A` connects the main apron to the rest of the aerodrome.
+Nelson's main apron has eleven stands. TWY `A` connects the main apron to the rest of the aerodrome.
 
 The majority of General Aviation aircraft will spawn down TWY `B` or TWY `C`. These areas are outside the controlled movement area, meaning aircraft will often taxi up to `B1` or `C1` prior to contacting you.
 
