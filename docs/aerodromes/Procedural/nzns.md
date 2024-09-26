@@ -60,7 +60,7 @@ TWY A north of holding point `A3` does not have any taxiway lighting. Due to thi
 
 ## IFR Departures
 
-IFR traffic departing via NESTA shall be handed off to NAK either crossing NESTA or passing `A095`. Other IFR departures may be handed off to NAK or KAI (dependent on direction) at either their transition waypoint or passing `A095`. With coordination, aircraft may be handed off early passing `A070`.
+IFR traffic departing via NESTA shall be handed off to KAI either crossing NESTA or passing `A095`. Other IFR departures may be handed off to NAK or KAI (dependent on direction) at either their transition waypoint or passing `A095`. With coordination, aircraft may be handed off early passing `A070`.
 
 Many of the Nelson SIDs contain various altitude restrictions to prevent departures from conflicting with any arriving aircraft. If there is no reported traffic, these restrictions may be cancelled.
 
@@ -120,7 +120,7 @@ If online, Delivery or Tower shall confirm the STAR with Wellington TMA prior to
 
 ## IFR Arrivals
 
-NAK and KAI will issue STARs without coordination with Nelson Tower, however Nelson Tower can request certain STARs to be used over others. Aircraft will ideally be handed over to Nelson Tower prior to the initial STAR waypoint, however aircraft should be handed over by `A095` at the latest.
+NAK and KAI will issue STARs without coordination with Nelson Tower, however Nelson Tower can request certain STARs to be used over others. Aircraft will ideally be handed over to Nelson Tower prior to the initial STAR waypoint, however aircraft should be handed over by `A095` at the latest. Wherever possible, it is preferred for handovers to occur passing a waypoint, however this may not always be the best option when altitude restrictions have been cancelled. Controllers are to use their discretion to determine when to hand an aircraft off.
 
 ### Runway 20
 
