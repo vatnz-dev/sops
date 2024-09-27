@@ -15,7 +15,7 @@
 
 The Nelson CTR/D follows the inner lateral boundaries shown below from `SFC` to `A035`. The CTR/D is comprised of three sectors - the West, East and Instrument sectors. 
 
-The wider Nelson CTA/D follows the outer boundaries as shown below, with the vertical boundaries also listed in their respective sector. Nelson's airspace tops out at `A095`, however the lower level varies depending on the location.
+The wider Nelson CTA/D follows the boundaries as shown below, with the vertical boundaries listed in their respective sector. Nelson Tower's airspace has an upper limit of `A095`. 
 
 Nelson Tower provides a Procedural Approach service for the wider CTA/D.
 
@@ -60,7 +60,7 @@ TWY A north of holding point `A3` does not have any taxiway lighting. Due to thi
 
 ## IFR Departures
 
-IFR traffic departing via NESTA shall be handed off to KAI either crossing NESTA or passing `A095`. Other IFR departures may be handed off to NAK or KAI (dependent on direction) at either their transition waypoint or passing `A095`. With coordination, aircraft may be handed off early passing `A070`.
+IFR departures may be handed off to NAK or KAI (dependent on direction) at either their transition waypoint or passing `A095`. With coordination, aircraft may be handed off early passing `A070`.
 
 Many of the Nelson SIDs contain various altitude restrictions to prevent departures from conflicting with any arriving aircraft. If there is no reported traffic, these restrictions may be cancelled.
 
@@ -104,7 +104,7 @@ Nelson Tower may issue track-shortening on SIDs within their airspace without co
 
 ### Visual Departures
 
-Tower may issue a visual departure to an aircraft at the pilot's request. In this instance, for terrain avoidance, aircraft are often advised to track as required prior to proceeding direct to their initial waypoint. Information may also be found on the relevant charts for each departure.
+Tower may issue a visual departure to an aircraft at the pilot's request. In this instance, for terrain avoidance, aircraft are advised to track as required prior to proceeding direct to their initial waypoint. Information may also be found on the relevant charts for each departure.
 
 !!! example "Visual Departure"
     **Nelson Tower**: *"ANZ524L, re-cleared a visual departure, track as required direct `LUSRA` to re-join the SID."*
@@ -116,39 +116,39 @@ As the flight time between Wellington, Nelson and Woodbourne (Blenheim) is so sh
 If online, Delivery or Tower shall confirm the STAR with Wellington TMA prior to passing it on to aircraft.
 
 !!! example "Clearance to Wellington"
-    **Nelson Tower**: *"ANZ524L, Cleared Wellington 2 via SIMZI 4C arrival at 11,000ft, LUSRA 2P departure, Squawk 5021"*
+    **Nelson Tower**: *"ANZ524L, Cleared Wellington 2 via SIMZI8A arrival at 11,000ft, LUSRA 2P departure, Squawk 5021"*
 
 ## IFR Arrivals
 
-NAK and KAI will issue STARs without coordination with Nelson Tower, however Nelson Tower can request certain STARs to be used over others. Aircraft will ideally be handed over to Nelson Tower prior to the initial STAR waypoint, however aircraft should be handed over by `A095` at the latest. Wherever possible, it is preferred for handovers to occur passing a waypoint, however this may not always be the best option when altitude restrictions have been cancelled. Controllers are to use their discretion to determine when to hand an aircraft off.
+NAK and KAI will issue STARs without coordination with Nelson Tower, however Nelson Tower can request a specific STAR to be issued. Aircraft will ideally be handed over to Nelson Tower prior to the initial STAR waypoint, however aircraft should be handed over by `A095` at the latest. Wherever possible, it is preferred for handovers to occur passing a waypoint, however this may not always be the best option when altitude restrictions have been cancelled. Controllers are to use their discretion to determine when to hand an aircraft off.
 
 ### Runway 20
 
-All arrivals for runway 20 terminate at `KAPUA`, `ELMAX` and `LIKMA`, which are the IAFs for the RNP B approach. These aircraft shall be descended to `A035` in order to meet the altitude for the RNP B approach.
+All arrivals for runway 20 terminate at `KAPUA`, `ELMAX` and `LIKMA`, which are the IAFs for the RNP B approach. These aircraft shall be descended to `A035` before being cleared for the approach
 
 ### Runway 02
 
-All arrivals for runway 02 terminate at `ESNED` for the RNP Z, as well as `ENKIN` and `MIBEV` for the RNP Y. Aircraft for the RNP Z shall be descended to `A033`, and aircraft for the RNP Z shall be descended to `A039` in order to meet the altitude for the RNP Y approach.
+Arrivals for runway 02 terminate at `ESNED` for the RNP Z and well as `ENKIN` and `MIBEV` for the RNP Y. Aircraft for the RNP Z shall be descended to `A033`, and aircraft for the RNP Z shall be descended to `A039` for the RNP Y approach.
 
 ## VFR Procedures
 
 ### Departures
 In order to lessen the amount of instructions given to VFR traffic, the Controller shall issue one of the VFR Departure Procedures where possible, otherwise a more plain language clearance may be issued. 
 
-VFR aircraft will commonly depart Nelson to the west. In this case, aircraft should be issued the Bridge Departure when runway 20 is in use, and the Bay Departure when runway 02 is in use. For other departures, [refer to AIP chart for VFR departures](https://www.aip.net.nz/assets/AIP/Aerodrome-Charts/Nelson-NZNS/NZNS_64.1_64.2.pdf){ target=new }.
+VFR aircraft will commonly depart Nelson to the West. In this case, aircraft should be issued the Bridge Departure when Runway 20 is in use, and the Bay Departure when Runway 02 is in use. For other departures, [refer to AIP chart for VFR departures](https://www.aip.net.nz/assets/AIP/Aerodrome-Charts/Nelson-NZNS/NZNS_64.1_64.2.pdf){ target=new }.
 
 ### Arrivals
-VFR aircraft arriving into Nelson should call Nelson Tower prior to entering controlled airspace. These aircraft shall be issued a circuit joining and descent instruction at or below `A015`. This altitude may change depending on the aircraft's location.
+VFR aircraft arriving into Nelson should call Nelson Tower prior to entering the CTR/D. These aircraft shall be issued joining instructions as appropriate. 
 
 !!! example "VFR Arrival Clearance"
-    **ETR**: *"Echo Tango Romeo, Cessna 152, overhead Mapau at 1,500ft, request instructions to join, alpha 1013."*                                                                  
-    **Nelson Tower**: *"Echo Tango Romeo, join left base runway 02, 1,500ft or below."*                                                                                                 
+    **ETR**: *"Nelson Tower, Echo Tango Romeo, Cessna 152, overhead Mapau at 1,500ft, request instructions to join, Alpha 1013."*                                                                  
+    **Nelson Tower**: *"Echo Tango Romeo, Nelson Tower, join left base runway 02, 1,500ft or below."*                                                                                                 
     **ETR**: *"Join left base runway 02, 1,500ft or below, Echo Tango Romeo."*                                                                                                                                                
 
 ## Coordination
 
 ### NAK and KAI
 
-Tower is normally not required to advise the NAK or KAI sectors of any departing IFR traffic, and may conduct a silent handover when aircraft crosses the common boundary, or when approaching the top of Tower's CTA. Except where previously coordinated, IFR aircraft shall cross the common airspace boundary overhead an IFR waypoint, or established on an airway. Aircraft may be handed over earlier, near `A070`, with prior coordination.
+Tower is normally not required to advise the NAK or KAI sectors of any departing IFR traffic, and may conduct a silent handover when aircraft crosses the common boundary, or when approaching the top of Tower's CTA. Except where previously coordinated, IFR aircraft shall cross the common airspace boundary overhead an IFR waypoint, or established on an airway. Aircraft may be handed over earlier, at `A070`, with prior coordination.
 
 All VFR traffic handovers shall be coordinated with NAK and KAI. 
