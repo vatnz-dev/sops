@@ -56,9 +56,9 @@ The following Divisions are party to the agreement:
 
 ### Currency Requirements
 
-In order to utilise your Oceanic Endorsement, and by extension, exersize your rights under the Pacific Oceanic Agreement, you must meet the following criteria:
+In order to utilise your Oceanic Endorsement, and by extension, exersise your rights under the Pacific Oceanic Agreement, you must meet the following criteria:
 
-- A Participating Organisation must require a permitted controller to log 1 hour on a permitted oceanic position, within the previous 3 months, for them to be considered active, and
+- A Participating Organisation must require a permitted controller to log 1 hour on a permitted oceanic position, within the previous 3 months, for them to be considered active; and
 - A permitted controller who does not meet the hour requirement specified above, will be considered inactive; and
 - An inactive permitted controller may become active again, by performing a buddy session with a permitted controller who is approved to do so by that PO; and
 - Any additional currency or activity requirements imposed by a PO on local or visiting controllers do not apply to permitted controllers.

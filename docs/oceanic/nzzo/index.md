@@ -4,7 +4,7 @@
 
 --8<-- "includes/abbreviations.md"
 
-Auckland Radio is responsible for managing oceanic air traffic control within the NZZO FIR, covering FL245 to FL600. This vast area spans much of the open ocean, where radar coverage is unavailable, necessitating the use of non-radar procedural control to ensure safe separation of aircraft. Auckland Radio works in close coordination with neighboring FIRs, including NZZC and NZCM, to maintain efficient and safe operations across these boundaries.
+Auckland Radio is responsible for managing oceanic air traffic control within the NZZO FIR. This vast area spans much of the open ocean, where radar coverage is unavailable, necessitating the use of non-radar procedural control to ensure safe separation of aircraft. Auckland Radio works in close coordination with neighbouring FIRs, including NZZC and NZCM, to maintain efficient and safe operations across these boundaries.
 
 ## Positions
 

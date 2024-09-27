@@ -92,7 +92,7 @@ For flights that include an additional waypoint within the NZZO sector, contact 
     **Auckland Radio**: *"ANZ204, pass position report"*      
     **ANZ204**: *"ANZ204 is position PEBLU time 1832. Estimating SASRO at 1911. MIKEG next."*  
     **Auckland Radio**: *"ANZ204, Auckland Radio copies position report. Standby SELCAL check."*    
-    Aircraft waits for the SELCAL chime before replying.
+    Aircraft waits for the SELCAL chime before replying. <br />
     **ANZ204**: *"Auckland Radio, ANZ204 on SELCAL."*  
     **Auckland Radio**: *"ANZ204, Auckland Radio accepts primary guard on 129.000, negative secondary. At SASRO, contact Brisbane Radio on primary 124.650."*  
     **ANZ204**: *"Auckland Radio, ANZ204 primary guard on 129.000, negative secondary. At SASRO, contact Brisbane Radio on primary 124.650."*  
