@@ -167,7 +167,7 @@ The simultaneous use of Grass and Sealed 02/20 is authorised, except that:
 
 ### Departures
 
-Aircraft departures shall be managed in-line with the [Runway Operations section](../../controller-skills/separation/#runway-operations).
+Aircraft departures shall be managed in-line with the [Runway Operations section](../../controller-skills/separation.md#runway-operations)
 
 For the purposes of arrival and departure management, all Christchurch departures shall be treated as divergent - providing that the aircraft on approach is at the same, or lower approach category. 
 

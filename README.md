@@ -7,7 +7,7 @@ The VATNZ SOPs Refresh Project is an open-source collaborative project allowing 
 
 ## Contributing
 
-Contribution guidelines can be found within the project under [Assist Us](https://vatnz-dev.github.io/sops/assist-us/). 
+Contribution guidelines can be found within the project under [Assist Us](https://sops.vatnz.net/contribute/). 
 
 **Before contributing** you should liaise with the VATNZ Operations Team to ascertain whether that particular SOP is needed. There is a fine-line between enabling a realistic service, and making our SOPs easy to navigate and understand.
 
