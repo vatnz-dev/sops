@@ -18,17 +18,15 @@ All aircraft require an ATC clearance to be in Class C airspace.
 
 Class D airspace normally applies to CTRs and CTAs surrounding regional aerodromes, such as Rotorua and Nelson.
 
-IFR aircraft are separated from other IFR aircraft, but VFR aircraft are not separated from any IFR or other VFR aircraft. Within a CTR only, during special VFR conditions, IFR aircraft are separated from special VFR aircraft, and pecial VFR aircraft are separated from other special VFR aircraft when visibility is less than 5 km.
+IFR aircraft are separated from other IFR aircraft, but VFR aircraft are not separated from any IFR or other VFR aircraft. Within a CTR only, during special VFR conditions, IFR aircraft are separated from special VFR aircraft, and special VFR aircraft are separated from other special VFR aircraft when visibility is less than 5 km.
 
 Pilots of VFR and IFR aircraft operating within Class D airspace must use a good lookout to separate themselves from each other as ATC separation is not provided. 
 
 ## Tier 2 (Procedural Tower) Positions 
 
-Procedural airspace is only found at a few airports around the country. These are Towers without radar and rely on reports from pilots on their position. 
+As per the [VATSIM Global Controller Administration Policy](https://vatsim.net/docs/policy/global-controller-administration-policy), the positions within VATNZ FIRs that are of a procedural nature fall under the Tier 2 Designation. In order to staff these positions, VATNZ controllers must undergo a Procedural Tower endorsement through the training department. More information on this course can be found on the [VATNZ Webiste](https://www.vatnz.net/training/courses/procedural-tower/)
 
-Our procedural towers are: Gisborne, Napier, New Plymouth, Nelson, Dunedin and Invercargill. 
-
-They are all Class D therefore the all Class D rules apply to these aerodromes as well. 
+Our procedural Aerodromes are: Gisborne (NZGS), Napier (NZNR), New Plymouth (NZNP), Nelson (NZNS), Dunedin (NZDN) and Invercargill (NZNV) These aerodromes are all Class D, therefore Class D airspace rules apply to these aerodromes. 
 
 --8<-- "includes/abbreviations.md"
 
