@@ -225,6 +225,7 @@ OCR has three Noise Abatement STARs that shall be issued as first preference. If
 | 05R    | `RIKDI #N` | `KALAG` `AGREX` `TARIB` `ELPAK` `AGEDU` `IDSEM` `DABAS` `AKLOM` `OLBEX` | All                    |
 | 23L    | `TAZEY #N` | `PEBLU` `VELMO`                                                         | All                    |
 | 23L    | `LUNBI #N` |                                                                         | All                    |
+
 ## VFR Procedures
 
 ### Arrival
