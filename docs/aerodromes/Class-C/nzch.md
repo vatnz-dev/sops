@@ -72,16 +72,16 @@ Pushback and startup clearances are managed by the Ground Controller. Due to the
 !!! info "Starting on Stand at the Terminal"
     Christchurch utilises W/E stands to allow for Props to park into the wind. Aircraft utilising these stands do not require a push-back, and may start on stand.
 
-| Stands / Gates    | Usage               | Has a W/E stand? | Pushback required? | Pushback Location | Notes                                                                 |
-| ----------------- | ------------------- | ---------------- | ------------------ | ----------------- |---------------------------------------------------------------------- |
-| 3 and 4           | Cat B Props         | Yes, only        | No                 | N/A               | Designed for C208 or PC12 type aircraft                               |
-| 5 to 8            | Turboprops          | Yes              | No                 | Twy `F`           | Both Nose-in, and W/E                                                 |
-| 9, 11, 12, 13, 15 | Turboprops          | Yes              | No                 | Twy `F`           | Both Nose-in, and W/E                                                 |
-| 10, 14            | Turboprops          | No               | No                 | Twy `F`           |                                                                       |
-| 16                | Turboprops and Jets | No               | No                 | Twy `F`           |                                                                       |
-| 17 to 22          | Turboprops and Jets | No               | **Yes**            | Twy `A`           | Primarily for Jets, but turboprop capable                             |
-| 26 to 28          | Jets                | No               | **Yes**            | Twy `A`           | If Rwy 02 is active, Stand 28 shall be pushed clear of `A4`           |
-| 29 to 35          | Jets                | No               | **Yes**            | Twy `A15`         | International Stands                                                  |
+| Stands / Gates    | Usage               | Has a W/E stand? | Pushback Location | Notes                                                                                  |
+| ----------------- | ------------------- | ---------------- | ----------------- | -------------------------------------------------------------------------------------- |
+| 3 and 4           | Cat B Props         | Yes, only        | N/A               | Designed for C208 or PC12 type aircraft                                                |
+| 5 to 8            | Turboprops          | Yes              | Twy `F`           | Both Nose-in, and W/E                                                                  |
+| 9, 11, 12, 13, 15 | Turboprops          | Yes              | Twy `F`           | Both Nose-in, and W/E                                                                  |
+| 10, 14            | Turboprops          | No               | Twy `F`           |                                                                                        |
+| 16                | Turboprops and Jets | No               | Twy `F`           |                                                                                        |
+| 17 to 22          | Turboprops and Jets | No               | Twy `A`           | Primarily for Jets, but turboprop capable                                              |
+| 26 to 28          | Jets                | No               | Twy `A`           | If Rwy 02 is active, Stand 28 shall be pushed clear of `A4`, or may be pushed on `A15` |
+| 29 to 35          | Jets                | No               | Twy `A15`         | International Stands                                                                   |
 
 #### Use of Holding Points
 
@@ -118,8 +118,7 @@ The Post Apron is on the northern side of `A4`, and is used by DHL, Qantas Freig
 
 The Romeo Apron is a transitional apron, and is commonly used by aircraft arriving at the aerodrome without a contracted parking location, or for overflow or long-term parking. 
 
-!!! info
-    Aircraft utilising Stands R1A, R1B, and R3A stands may start on stand. Aircraft utilising Stands R1, R2 or R3 must be pushed onto `A15`.
+Aircraft utilising Stands R1A, R1B, and R3A stands may start on stand. Aircraft utilising Stands R1, R2 or R3 must be pushed onto `A15`.
 
 #### Antarctic Apron
 

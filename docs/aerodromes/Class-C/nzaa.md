@@ -140,7 +140,7 @@ For Domestic aircraft that are departing to the North or Northeast, the Controll
 | Runway | Procedure  | Allowed A/C Categories | Is divergent?                  | Notes                                                                                                                             |
 |--------|------------|------------------------|--------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
 | 05R    | `BROOK #Q` | Cat A to C             | Yes - >30° turn passing `A005` | Available to Cat C Jets for noise-abatement. AA TMA approval required.                                                            |
-| 05R    | `AVNAR #Q` | Cat A to D             | No                             | **Preferred departure for Cat C Jets**. Steep climb gradient - aircraft unable to meet this shall be given the `POLIS #Q`.        |
+| 05R    | `PAGLA #Q` | Cat A to D             | No                             | **Preferred departure for Cat C Jets**. Steep climb gradient - aircraft unable to meet this shall be given the `POLIS #Q`.        |
 | 05R    | `POLIS #Q` | Cat A to D             | No                             | **Preferred departure for Cat D Jets, or heavies**. Shallower climb gradient.                                                     |
 | 05R    | `REKIS #Q` | Cat A to D             | Yes - >30° turn passing `A005` | **Preferred departure for Props South**. May be given to jets provided they are comfortable with the 180kt limitation at `VINOD`. |
 | 05R    | `EMRAG #Q` | Cat A to D             | No                             | Least preferred departure due to manual vectoring required.                                                                                         |
@@ -200,7 +200,7 @@ For all international departures the Controller shall issue the SID that is sugg
 | 1        | 05R    | `BROOK #Q`     | Cat A to C             | AA TMR approval not required during Noise Abatement hours.                             |
 | 2        | 05R    | `REKIS #Q`     | Cat A to D             | **Preferred departure for Props**. Shall not be issued to Jets during Noise Abatement. |
 | 3        | 05R    | `POLIS #Q`     | Cat A to D             | **Preferred departure for Cat D Jets, or heavies**. Shallower climb gradient.          |
-| 4        | 05R    | All other SIDs |                        | Use of the `AVNAR #Q` departure shall be avoided.                                      |
+| 4        | 05R    | All other SIDs |                        | Use of the `PAGLA #Q` departure shall be avoided.                                      |
 
 
 #### Runway 23L
@@ -230,7 +230,7 @@ OCR has three Noise Abatement STARs that shall be issued as first preference. If
 
 ### Arrival
 
-In order to lessen the amount of instructions given to VFR traffic, the Controller shall issue the `Ambury` VFR arrival where possible. Once the Pilot reports overhead Ambury Park, the Controller shall integrate them with the circuit. [AIP Chart refers](https://www.aip.net.nz/assets/AIP/Aerodrome-Charts/Auckland-NZAA/NZAA_35.1_35.2.pdf){ target=new }.
+In order to lessen the amount of instructions given to VFR traffic, the Controller shall issue the `Mangere Bridge` VFR arrival where possible. Once the Pilot reports overhead Mangere Town, the Controller shall integrate them with the circuit. [AIP Chart refers](https://www.aip.net.nz/assets/AIP/Aerodrome-Charts/Auckland-NZAA/NZAA_35.1_35.2.pdf){ target=new }.
 
 !!! important
     If instructed to join via the overhead, it is the Controller's responsibilty to ensure that the missed approach is protected. A non-circuit side join may be given instead.
@@ -238,7 +238,7 @@ In order to lessen the amount of instructions given to VFR traffic, the Controll
 
 ### Departure
 
-In order to lessen the amount of instructions given to VFR traffic, the Controller shall issue the `Ambury` VFR departure at all times - ([AIP Chart](https://www.aip.net.nz/assets/AIP/Aerodrome-Charts/Auckland-NZAA/NZAA_64.1.pdf){ target=new }). Once the Pilot reaches Ambury Park, the aircraft shall be handed off to UNICOM or Approach where appropriate. 
+In order to lessen the amount of instructions given to VFR traffic, the Controller shall issue the `Mangere Bridge` VFR departure at all times - ([AIP Chart](https://www.aip.net.nz/assets/AIP/Aerodrome-Charts/Auckland-NZAA/NZAA_64.1.pdf){ target=new }). Once the Pilot reaches Mangere Bridge, the aircraft shall be handed off to UNICOM or Approach where appropriate. 
 
 If a departing VFR aircraft requests to climb into controlled airspace, this shall be coordinated with Approach. The Tower Controller may amend the clearance as they see fit while the aircraft is in their Control Zone, however must be coordinated with Approach if the ammendment changes their Control Area entry point.
 
