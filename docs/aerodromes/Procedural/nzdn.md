@@ -126,6 +126,8 @@ Taieri is a small, uncontrolled GA aerodrome located 8nm Northeast of NZDN. Airc
 
 ## Coordination
 
+Dunedin may only climb aircraft to a maximum altitude of `FL250`. Aircraft requiring higher must seek further climb from a neigbouring surveillance sector, usually in their direction of travel.
+
 ### STH
 
 Tower is normally not required to advise STH of any departing IFR traffic, and may conduct a silent handover when aircraft crosses the common boundary, or when approaching the top of Tower's CTA. Except where previously coordinated, IFR aircraft shall cross the common airspace boundary overhead an IFR waypoint, or established on an airway.
