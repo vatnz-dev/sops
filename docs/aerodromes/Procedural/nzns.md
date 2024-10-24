@@ -56,7 +56,7 @@ Aircraft may depart from any holding point that a pilot deems suitable, however 
 
 ### Usage of TWY A at Night
 
-TWY A north of holding point `A3` does not have any taxiway lighting. Due to this, aircraft usually backtrack runway 02/20 during night hours, vacating and entering via `A3`. Backtrack instructions may be given with taxi instructions. It is at the controller's discretion if they wish to use this procedure.
+TWY `A` north of holding point `A3` does not have any taxiway lighting. Due to this, aircraft usually backtrack runway 02/20 during night hours, vacating and entering via `A3`. Backtrack instructions may be given with taxi instructions. It is at the controller's discretion if they wish to use this procedure.
 
 ## IFR Departures
 
