@@ -104,6 +104,18 @@ When Runway 23L is in operation aircraft will vacate at either `A4`, `A6` or `A8
 
 When RWY 05R is active any domestic aircraft shall be given taxi instructions via `B` and `L`. Taxiway `M` may be utilized by controllers in order to get aircraft past any queues at holding point `A9`.
 
+#### Code F Stand Information 
+- Contact stands for Code F aircraft are 10, 15, 16, 17 and 18. These stands are equipped with dual airbridges, ground power, air conditioning and NIGS.
+- Remote stands for code F aircraft are 19, 74, 75, 78 and 79.
+
+#### Code F Taxi Information
+
+-  Rapid exits A7 to A4 inclusive are not approved for Code F use.
+-  TWY A2, A3 and A8 are available for approved A380 operators. 
+- Outer engines may overhang the grass on TWY A1, A9 and B between B1 and B2.
+- Code F aircraft cannot taxi behind a code D, E or F aircraft holding on TWY A1A to TWY A10 inclusive.
+- When a code F aircraft is on TWY A between B2 and J a code E aircraft can operate on TWY B.
+
 #### Use of Holding Points
 
 Departures may occur from any runway intersection, providing that it does not interfere with the use of any high-speed exits. Controllers may apply the following rules without coordination from the Pilot:
