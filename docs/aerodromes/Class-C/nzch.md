@@ -103,6 +103,12 @@ Departing prop traffic shall be issued `A4`, but may be re-issued `A3` if requir
 
 High performance aircraft, such as private jets or King Airs, may be issued any holding point, provided that it does not interfere with landing traffic. If a high performance aircraft is using a usual vacate route, any aircraft on approach shall be notified and instructed to roll out to the next runway vacate point.
 
+## Code F
+
+ICAO has classified the B747-800 and A-380 aircraft as code F aircraft (wingspan from 65 to 80 meters and a width of the main fuselage from 14 to 16 meters)
+
+Special rules apply to Code F aircraft, such as taxiway and gate restrictions.
+
 #### Code F Information 
 
 Code F aircraft may only use Stand 30. For taxi Code F aircraft must use TWY `A` and shall be given full length either `A2` or `A7`. 
