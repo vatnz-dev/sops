@@ -115,11 +115,11 @@ When RWY 05R is active any domestic aircraft shall be given taxi instructions vi
 - Code F aircraft cannot taxi behind a code D, E or F aircraft holding on TWY `A1A` to TWY `A10` inclusive.
 - When a code F aircraft is on TWY `A` between `B2` and `J` a code E aircraft can operate on TWY `B`.
 - Code F aircraft may not use TWY `B` between `B2` and `B6`.
-- When 05R in use Code F aircraft may vacate at TWY `A3` or `A2`. 
-- When 23L in use Code F aircraft may vacate at TWY `A8` or `A9`. 
+- When 05R is in use, Code F aircraft may vacate at TWY `A3` or `A2`. 
+- When 23L is in use, Code F aircraft may vacate at TWY `A8` or `A9`. 
 
-!!! Note 
-    For arriving Code F aircraft, on first contact with Tower. Tower shall ask where the pilot is planning to vacate. TMA shall apply adequate seperation for any trailing aircraft. 
+!!! Note "Code F Arrivals"
+    Tower shall ask where the pilot is planning to vacate. TMA shall apply adequate seperation for any trailing aircraft. 
 
 #### Use of Holding Points
 
