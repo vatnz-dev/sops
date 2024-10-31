@@ -104,6 +104,12 @@ When Runway 23L is in operation aircraft will vacate at either `A4`, `A6` or `A8
 
 When RWY 05R is active any domestic aircraft shall be given taxi instructions via `B` and `L`. Taxiway `M` may be utilized by controllers in order to get aircraft past any queues at holding point `A9`.
 
+## Code F
+
+ICAO has classified the B747-800 and A-380 aircraft as code F aircraft (wingspan from 65 to 80 meters and a width of the main fuselage from 14 to 16 meters)
+
+Special rules apply to Code F aircraft, such as taxiway and gate restrictions.
+
 #### Code F Stand Information 
 - Contact stands for Code F aircraft are 10, 15, 16, 17 and 18.
 - Remote stands for code F aircraft are 19, 74, 75, 78 and 79.
