@@ -119,7 +119,7 @@ When RWY 05R is active any domestic aircraft shall be given taxi instructions vi
 - When 23L in use Code F aircraft may vacate at TWY `A8` or `A9`. 
 
 !!! Note 
-    For arriving Code F aircraft, on first contact with Tower. Tower shall ask where the pilot is planning to vacate. TMA shall apply adequite seperation for any trailing aircraft. 
+    For arriving Code F aircraft, on first contact with Tower. Tower shall ask where the pilot is planning to vacate. TMA shall apply adequate seperation for any trailing aircraft. 
 
 #### Use of Holding Points
 
