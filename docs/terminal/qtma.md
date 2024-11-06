@@ -11,7 +11,7 @@
 
 | Position Name   | Shortcode | Callsign             | Frequency | Login ID | Usage   |
 | --------------- | --------- | -------------------- | --------- | -------- | ------- |
-| Queenstown TMA  | QTMA      | Queensotown Approach | 125.750   | NZQN_APP | Primary |
+| Queenstown TMA  | QTMA      | Queenstown Approach  | 125.750   | NZQN_APP | Primary |
 
 
 ## Airspace
@@ -31,7 +31,7 @@ The Queenstown CTA/C follows the lateral and vertical boundaries as shown below.
 | Tower -> Approach   | Once the aircraft becomes airborne off the runway                        | Tower shall instruct all aircraft to contact ATMA airborne|
 | Approach -> Control | Once the aircraft are approaching the lateral or vertical bounds of QTMA | Aircraft may also be handed off when clear of all conflicts, provided the next sector accepts the early handover.|
 | Control -> Approach | Aircraft is approaching the vertical and lateral bounds of the TMA       | Aircraft may be handed off early, provided that QTMA is happy to accept. |
-| Approach -> Tower   | Once established on approach, or within QN TWR's CTA/D.                  | Aircraft cleared for a visual approach may be cleared to contact sooner for separation against circuit traffic.|
+| Approach -> Tower   | Once established on approach, or within QN TWR's CTR/C.                  | Aircraft cleared for a visual approach may be cleared to contact sooner for separation against circuit traffic.|
 
 ## Departures
 
@@ -42,26 +42,49 @@ QTMA may climb aircraft as necessary up to their RFL. International departures m
 ### Track Shortening on SIDs
 
 
+Typically aircraft are given track shortening instructions as they climb through `A080` to track direct to a waypoint upon passing `A100`. Typically `TIMJO` and `SAVLA` for domestic flights and boundary fixes for Oceanic bound aircraft. This shall be coordinated with STH. 
+
 ## Arrivals 
 
 STH will hand aircraft to QTMA no lower than `FL180`, unless coordinated.
 
-Aircraft shall be issued either the `RNP Y (AR)` or `RNP Z (AR)` approaches. If a non-standard approach is requested, such as the RNP F/G/H or VOR DME, coordination shall occur. This requires agreement from the ADC Controller and QTMA. 
+Aircraft shall be issued either the `RNP Y (AR)` or `RNP Z (AR)` approaches. If a non-standard approach is requested, such as the RNP F/G/H or VOR DME, coordination shall occur. This requires agreement from the QTWR and QTMA. 
 
-Once in QTMA airspace arrivals may be descend to `FL150` and then `A100` to commence the approach or straight down to `A100` where traffic permits. 
+Once in QTMA airspace arrivals may be descend to `FL150` and then `A100` to commence the approach. QTMA may clear aircraft straight down to `A100` where traffic permits.
 
-**Note** Aircraft should not be track shortened on the STAR into Queenstown due to the high mountainous terrain. 
+!!! Note
+    Due to high mountainous terrain controllers shall avoid track shorten aircraft on the STAR.
+
+QTMA usually elects to retain aircraft on the RNPs until they're assured separation exists at the threshold (with respect to backtracking aircraft). Down to about `A050`. This requires coordination with QTWR.
+
+### Time Seperation on Approach
+
+When RWY 05 is in use aircraft on the `RNP Y/Z` shall be seperated by a minimum 7 minutes at `MOPGA`, the same applies to aircraft on the `RNP F` at `LETPO`.
+
+When RWY 23 is in use aircraft on the `RNP Y/Z` shall be seperated by a minimum of 5 minutes at `ATVUP`, the same applies to aircraft on the `RNP G/H` at `GIVAK`.
 
 
-## Milford Sound
+### Missed Approaches
 
+Aircraft that go missed that do **not** join the visual circuit will be instructed to contact QTMA passing `A040` and shall be tracked via the published missed approach to `SUNGU` to hold. Should the aircraft want to attempt another approach they shall be issued a `SUNGU` STAR for the respective runway. 
 
-
-## Wanaka
-
+!!! Note
+    Aircraft unable to reach `A092` by `SUNGU` shall be tracked further south via the missed approach track to `NV VOR` until terrain seperation can be achieved. 
 
 ## Coordination
 
 ### STH
 
+Any track shortening shall be coordinated with STH.
+
 ### QN TWR
+
+With reference to [Arrivals](../terminal/qtma.md#arrivals) QTMA shall coordinated with QTWR. 
+
+### NV TWR
+
+QTMA shall coordinate any NV arrivals via `SUNGU` with NV TWR. 
+
+### DN TWR
+
+QTMA shall coordinate any oceanic arrivals bound for DN with DN TWR. 
