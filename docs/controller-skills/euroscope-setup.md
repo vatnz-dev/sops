@@ -1,5 +1,5 @@
 ---
-title: Euroscope Setup
+title: EuroScope Setup
 ---
 
 --8<-- "includes/abbreviations.md"
@@ -11,7 +11,7 @@ VATNZ has two packages available:
   - **SkyLine**: Contains all of the required position and frequency definitions alongside the Sector Files. 
   - **Sector Files**: Contains only the Sector Files.
 
-This page covers how to install the VATNZ Skyline Package, and how to update the sector files. For a detailed guide on installation of the client itself, refer to the [Euroscope documentation](https://www.euroscope.hu/wp/installation/){target=new}
+This page covers how to install the VATNZ Skyline Package, and how to update the sector files. For a detailed guide on installation of the client itself, refer to the [EuroScope documentation](https://www.euroscope.hu/wp/installation/){target=new}
 
 For most cycles, Controllers will only need to replace the Sector Files. Controllers will be explicitly instructed in the Changelogs should they need to replace the entire SkyLine package.
 
@@ -28,7 +28,7 @@ The Skyline package is intended for initial setup of the client, or for larger c
 
     ![VATNZ Skyline Package](./assets/skyline-dl.png)
 
-2. In Windows, open an explorer window and navigate to your EuroScope files. By default this is in the `AppData\Roaming\EuroScope` directory. Note: This may be in the `Documents\EuroScope\` directory for older installations of Euroscope.
+2. In Windows, open an explorer window and navigate to your EuroScope files. By default this is in the `AppData\Roaming\EuroScope` directory. Note: This may be in the `Documents\EuroScope\` directory for older installations of EuroScope.
 3. Create a new folder in this directory for your VATNZ files, the name of this folder does not matter.
 4. Ensure you archive your current Skyline files if present, then drag the new files into this new folder.
 
@@ -37,7 +37,7 @@ The Skyline package is intended for initial setup of the client, or for larger c
       <figcaption>It should look something like this</figcaption>
     </figure>
 
-5. Open Euroscope. If prompted to select a profile file, select `VATNZ.PRF`
+5. Open EuroScope. If prompted to select a profile file, select `VATNZ.PRF`
 6. A dialogue may appear notifying you that the active sector file cannot be found. **Click No**.
 7. A file selection dialogue will appear. Select the new `.sct2` file, and click 'Open'.
 8. Another dialogue box will appear, notifying you that the file has been loaded. **Click Yes** to make this the new active sector file.
@@ -49,7 +49,7 @@ The Skyline package is intended for initial setup of the client, or for larger c
 
     ![Sector Files](./assets/sector-files-dl.png)
 
-2. In Windows, open an explorer window and navigate to your EuroScope files. By default this is in the `AppData\Roaming\EuroScope` directory. Note: This may be in the `Documents\EuroScope\` directory for older installations of Euroscope.
+2. In Windows, open an explorer window and navigate to your EuroScope files. By default this is in the `AppData\Roaming\EuroScope` directory. Note: This may be in the `Documents\EuroScope\` directory for older installations of EuroScope.
 3. Archive the current `VATNZ-NZZC_xxyy` files, and drag the new files into this directory.
 
     ![Sector Files](./assets/sector-files.png)
