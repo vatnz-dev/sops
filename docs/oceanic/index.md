@@ -17,10 +17,10 @@ VATNZ is responsible for maintaining these sectors, as well as any aerodromes or
 
 ## Pacific Oceanic Agreement
 
-VATNZ is party to the [Pacific Oceanic Letter of Agreement](https://www.vatnz.net/vatnz/policies/LOAs/pacific-oceanic-letter-agreement-v1-1-1/){ target=_blank } - allowing any Oceanic Controller from a participating Division to control any of the participating FIR's Oceanic positions. 
+VATNZ is party to the [Pacific Oceanic Letter of Agreement](https://www.vatnz.net/vatnz/policies/LOAs/pacific-oceanic-letter-agreement-v1-1-1/){ target=_blank } - allowing any Oceanic Controller from a participating organisation to control any of the participating FIR's Oceanic positions. 
 
 !!! important "VATNZ and VATPAC Reciprocal Controller Rights"
-    You should note that the Pacific Oceanic LOA and the Inter-Division Visiting Controller Policy are different, although achieving largely the same outcome. 
+    You should note that the Pacific Oceanic LOA and the VATNZ/VATPAC Inter-Division Visiting Controller LoAs are different, although achieving largely the same outcome. 
 
     The Visiting Controller Policy allows any VATPAC Controller to control within any VATNZ FIR as if it were their Home Division, providing they're controlling in line with their rating or endorsements. 
     
@@ -31,7 +31,7 @@ VATNZ is party to the [Pacific Oceanic Letter of Agreement](https://www.vatnz.ne
   <figcaption>Oceanic Control FIRs in the Pacific. Not shown are VATMEX's Oceanic FIRs.</figcaption>
 </figure>
 
-The following Divisions are party to the agreement:
+The following Divisions are participants to the agreement:
 
 - VATNZ (NZZO, NZCM and NTTT)
 - VATPAC (YMMM, YBBB, NFFF, AGGG, ANAU)
@@ -53,6 +53,9 @@ The following Divisions are party to the agreement:
 | NTTT - Tahiti Oceanic                | Tahiti Radio        | 9.116 (125.500)  | NTTT_FSS     | VATPAC   |                             |
 | RJTG - Tokyo Oceanic                 | Tokyo Radio         |                  |              | VATJPN   |                             |
 | MMFO - Mexico                        |                     |                  |              |          |                             |
+
+!!! warning "Use of the /O Suffix"
+    Controllers are no longer required to use the `/O` suffix when logging onto Oceanic positions. This is due to the Division Controller Roster fulfilling the requirements for publishing a Controller's right to control Oceanic positions.
 
 ### Currency Requirements
 
