@@ -57,6 +57,9 @@ ATC shall acknowledge a position report by using the aircraft's callsign. A read
     **UAE412**: *"UAE412 is position TATAS time 1853. Estimating SAMAD at 1953. OSUGA next."*  
     **Auckland Radio**: *"UAE412, Auckland Radio copies position report."*  
 
+!!! tip "Position Report Formatting Tool"
+    If pilots in your airspace are struggling to provide accurate position reports, you can send them the [Oceanic Report Tool](https://www.vatnz.net/pilots/oceanic-report-tool/){ target=_blank } to help them out.
+
 ## Transfer of Control Point
 
 ### NZZC Enroutes to ARO
@@ -97,7 +100,9 @@ For flights that include an additional waypoint within the NZZO sector, contact 
     **Auckland Radio**: *"ANZ204, Auckland Radio accepts primary guard on 129.000, negative secondary. At SASRO, contact Brisbane Radio on primary 124.650."*  
     **ANZ204**: *"Auckland Radio, ANZ204 primary guard on 129.000, negative secondary. At SASRO, contact Brisbane Radio on primary 124.650."*  
 
-## NZCI to NZZC below FL245
+## NZCI to NZZC
+
+### Below FL245
 
 ARO shall not pass IFR clearances to aircraft requesting to operate below FL245 whilst on the ground or following departure from the Chatham Islands. ARO shall not accept radio guard for aircraft operating below FL245.
 
@@ -106,5 +111,14 @@ ARO shall not pass IFR clearances to aircraft requesting to operate below FL245 
 
 Before reaching the NZZO boundary, the aircraft shall be instructed to contact the NZZC sector for clearance into controlled airspace.
 
-!!! example "RTF Example for NZZC clearance instructions"   
+!!! example "RTF Example for NZZC entry instructions"   
     **Auckland Radio**: *"CVA554, prior to position ATABU, contact Ohakea Control on 126.200 for clearance into controlled airspace."* 
+
+### Above FL245
+
+Aircraft operating above FL245 shall be handed between NZZO and NZZC controllers in accordance with standard handover requirements. 
+
+For requiring descent below FL245, the aircraft shall be instructed to leave controlled airspace by descent, as well as the traffic status at NZCI, if known.
+
+!!! example "RTF Example for descent below FL245"
+    **Auckland Radio**: *"TNZ123 (when ready | at/after time/position) leave controlled airspace by descent. Report passing FL240. (Traffic is.. | No reported IFR traffic)"*
