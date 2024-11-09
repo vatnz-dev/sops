@@ -25,9 +25,18 @@ The Skyline package is intended for initial setup of the client, or for larger c
     It is important that you back-up only those two files, as other files in the `/Settings/` folder would have changed.
   
 1. [Download the latest SkyLine Package from the VATNZ website](https://www.vatnz.net/airspace/sector_files/){ target=new }. This will download a `.zip` file named "VATNZ-SKYLINE_xxyy", where `xx` is the year, and `yy` is the cycle.
+
+    ![VATNZ Skyline Package](./assets/skyline-dl.png)
+
 2. In Windows, open an explorer window and navigate to your EuroScope files. By default this is in the `AppData\Roaming\EuroScope` directory. Note: This may be in the `Documents\EuroScope\` directory for older installations of Euroscope.
 3. Create a new folder in this directory for your VATNZ files, the name of this folder does not matter.
 4. Ensure you archive your current Skyline files if present, then drag the new files into this new folder.
+
+    <figure markdown>
+      ![Euroscope VATNZ Folder](./assets/es-folder.png) 
+      <figcaption>It should look something like this</figcaption>
+    </figure>
+
 5. Open Euroscope. If prompted to select a profile file, select `VATNZ.PRF`
 6. A dialogue may appear notifying you that the active sector file cannot be found. **Click No**.
 7. A file selection dialogue will appear. Select the new `.sct2` file, and click 'Open'.
@@ -37,8 +46,14 @@ The Skyline package is intended for initial setup of the client, or for larger c
 ## Updating Sector Files
 
 1. [Download the latest Sector Files from the VATNZ website](https://www.vatnz.net/airspace/sector_files/){ target=new }. This will download a file named "VATNZ-NZZC_xxyy", where `xx` is the year, and `yy` is the cycle.
+
+    ![Sector Files](./assets/sector-files-dl.png)
+
 2. In Windows, open an explorer window and navigate to your EuroScope files. By default this is in the `AppData\Roaming\EuroScope` directory. Note: This may be in the `Documents\EuroScope\` directory for older installations of Euroscope.
-3. Archive the current VATNZ NZZC files, and drag the new files into this directory.
+3. Archive the current `VATNZ-NZZC_xxyy` files, and drag the new files into this directory.
+
+    ![Sector Files](./assets/sector-files.png)
+
 4. Open EuroScope. A dialogue will appear notifying you that the active sector file cannot be found. **Click No**.
 5. A file selection dialogue will appear. Select the new `.sct2` file, and click 'Open'.
 6. Another dialogue box will appear, notifying you that the file has been loaded. **Click Yes** to make this the new active sector file.
