@@ -26,21 +26,20 @@ The Queenstown CTA/C follows the lateral and vertical boundaries as shown below.
 
 ### Transfer of Control Points
 
-| Transfer Flow       | Requirements                                                             | Notes                                                                                         |
-|---------------------|--------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
-| Tower -> Approach   | Once the aircraft becomes airborne off the runway                        | Tower shall instruct all aircraft to contact ATMA airborne|
+| Transfer Flow       | Requirements                                                             | Notes                                                                                                            |
+|---------------------|--------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|
+| Tower -> Approach   | Once the aircraft becomes airborne off the runway                        | Tower shall instruct all aircraft to contact QTMA airborne                                                       |
 | Approach -> Control | Once the aircraft are approaching the lateral or vertical bounds of QTMA | Aircraft may also be handed off when clear of all conflicts, provided the next sector accepts the early handover.|
-| Control -> Approach | Aircraft is approaching the vertical and lateral bounds of the TMA       | Aircraft may be handed off early, provided that QTMA is happy to accept. |
-| Approach -> Tower   | Once established on approach, or within QN TWR's CTR/C.                  | Aircraft cleared for a visual approach may be cleared to contact sooner for separation against circuit traffic.|
+| Control -> Approach | Aircraft is approaching the vertical and lateral bounds of the TMA       | Aircraft may be handed off early, provided that QTMA is happy to accept.                                         |
+| Approach -> Tower   | Once established on approach, or within QN TWR's CTR/C.                  | QTMA may hold onto aircraft till `A050` with reference to [Arrivals](#retaining-aircraft-on-the-approach).                                 |
 
 ## Departures
 
 Departures shall be assigned in accordance with the [SID Assignment guide](../aerodromes/Class-C/nzqn.md#sid-assignment). 
 
-QTMA may climb aircraft as necessary up to their RFL. International departures may be cleared up to a maximum of `FL250`, with further available when handed to STH.
+QTMA may climb aircraft up to a maximum of `FL250`, with further available when handed to STH.
 
 ### Track Shortening on SIDs
-
 
 Typically aircraft are given track shortening instructions as they climb through `A080` to track direct to a waypoint upon passing `A100`. Typically `TIMJO` and `SAVLA` for domestic flights and boundary fixes for Oceanic bound aircraft. This shall be coordinated with STH. 
 
@@ -48,16 +47,18 @@ Typically aircraft are given track shortening instructions as they climb through
 
 STH will hand aircraft to QTMA no lower than `FL180`, unless coordinated.
 
-Aircraft shall be issued either the `RNP Y (AR)` or `RNP Z (AR)` approaches. If a non-standard approach is requested, such as the RNP F/G/H or VOR DME, coordination shall occur. This requires agreement from the QTWR and QTMA. 
+Aircraft shall be issued either the `RNP Y (AR)` or `RNP Z (AR)` approaches. If a non-standard approach is requested, such as the `RNP F/G/H` or `VOR DME`, coordination shall occur. This requires agreement from the QTWR and QTMA. 
 
 Once in QTMA airspace arrivals may be descend to `FL150` and then `A100` to commence the approach. QTMA may clear aircraft straight down to `A100` where traffic permits.
 
 !!! Note
-    Due to high mountainous terrain controllers shall avoid track shorten aircraft on the STAR.
+    Due to high mountainous terrain controllers shall avoid track shorten aircraft on the STAR. But may do so where needed for seperation with other traffic. 
+
+### Retaining Aircraft on the Approach
 
 QTMA usually elects to retain aircraft on the RNPs until they're assured separation exists at the threshold (with respect to backtracking aircraft). Down to about `A050`. This requires coordination with QTWR.
 
-### Time Seperation on Approach
+### Time Seperation on the Approach
 
 When RWY 05 is in use aircraft on the `RNP Y/Z` shall be seperated by a minimum 7 minutes at `MOPGA`, the same applies to aircraft on the `RNP F` at `LETPO`.
 
@@ -79,7 +80,7 @@ Any track shortening shall be coordinated with STH.
 
 ### QN TWR
 
-With reference to [Arrivals](../terminal/qtma.md#arrivals) QTMA shall coordinated with QTWR. 
+QTMA shall coordinate any non-nominated approaches with QTWR. QTMA shall also coordinate when retaining aircraft to a lower altitude on the approach, reference [Arrivals Section](#retaining-aircraft-on-the-approach). 
 
 ### NV TWR
 
