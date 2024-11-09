@@ -47,4 +47,5 @@
 *[5LNC]: 5 Letter Name Code (an issued and named waypoint by ICAO)
 *[QTMA]: Queenstown Terminal Area (Queenstown Approach)
 *[RTF]: Radio Telephony
+*[DMAPS]: Divergent Missed Approach Procedures
 <!-- ADD Aerodrome Codes -->
