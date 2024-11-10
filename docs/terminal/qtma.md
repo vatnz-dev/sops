@@ -49,7 +49,7 @@ STH will hand aircraft to QTMA no lower than `FL180`, unless coordinated.
 
 Aircraft shall be issued either the `RNP Y (AR)` or `RNP Z (AR)` approaches. If a non-standard approach is requested, such as the `RNP F/G/H` or `VOR DME`, coordination shall occur with agreement required between QTWR and QTMA. 
 
-Once in QTMA airspace arrivals may be descend to `FL150` and then `A100` to commence the approach. QTMA may clear aircraft straight down to `A100` where traffic permits.
+Once in QTMA airspace, arrivals may be descended to `FL150` and then `A100` to commence the approach. QTMA may clear aircraft straight down to `A100` where traffic permits.
 
 !!! Note
     Due to high mountainous terrain controllers shall avoid track shorten aircraft on the STAR. But may do so where needed for seperation with other traffic. 
