@@ -62,7 +62,7 @@ QTMA usually elects to retain aircraft on the RNPs down to about `A050` until th
 
 When RWY 05 is in use, aircraft on the `RNP Y/Z` shall be separated by a minimum of 7 minutes at `MOPGA`, or `LETPO` for aircraft on the `RNP F`.
 
-When RWY 23 is in use aircraft on the `RNP Y/Z` shall be seperated by a minimum of 5 minutes at `ATVUP`, the same applies to aircraft on the `RNP G/H` at `GIVAK`.
+When RWY 23 is in use, aircraft on the `RNP Y/Z` shall be separated by a minimum of 5 minutes at `ATVUP`, or `GIVAK` for aircraft on the `RNP G/H`.
 
 
 ### Missed Approaches
