@@ -70,7 +70,7 @@ When RWY 23 is in use, aircraft on the `RNP Y/Z` shall be separated by a minimum
 Aircraft that go missed that do **not** join the visual circuit will be instructed to contact QTMA passing `A040` and shall be tracked via the published missed approach to `SUNGU` to hold. Should the aircraft want to attempt another approach they shall be issued a `SUNGU` STAR for the respective runway. 
 
 !!! Note
-    Aircraft unable to reach `A092` by `SUNGU` shall be tracked further south via the missed approach track to `NV VOR` until terrain seperation can be achieved. 
+    Aircraft unable to reach `A092` by `SUNGU` shall be tracked further south via the missed approach track to `NV VOR` until terrain separation can be achieved. 
 
 ## Coordination
 
