@@ -31,7 +31,7 @@ The Queenstown CTA/C follows the lateral and vertical boundaries as shown below.
 | Tower -> Approach   | Once the aircraft becomes airborne off the runway                        | Tower shall instruct all aircraft to contact QTMA airborne                                                       |
 | Approach -> Control | Once the aircraft are approaching the lateral or vertical bounds of QTMA | Aircraft may also be handed off when clear of all conflicts, provided the next sector accepts the early handover.|
 | Control -> Approach | Aircraft is approaching the vertical and lateral bounds of the TMA       | Aircraft may be handed off early, provided that QTMA is happy to accept.                                         |
-| Approach -> Tower   | Once established on approach, or within QN TWR's CTR/C.                  | QTMA may hold onto aircraft till `A050` with reference to [Arrivals](#retaining-aircraft-on-the-approach).                                 |
+| Approach -> Tower   | Once established on approach, or within QN TWR's CTR/C.                  | QTMA may hold onto aircraft till `A050` with reference to [Arrivals](#retaining-aircraft-on-the-approach).       |
 
 ## Departures
 
