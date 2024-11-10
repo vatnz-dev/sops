@@ -56,7 +56,7 @@ Once in QTMA airspace, arrivals may be descended to `FL150` and then `A100` to c
 
 ### Retaining Aircraft on the Approach
 
-QTMA usually elects to retain aircraft on the RNPs until they're assured separation exists at the threshold (with respect to backtracking aircraft). Down to about `A050`. This requires coordination with QTWR.
+QTMA usually elects to retain aircraft on the RNPs down to about `A050` until they are assured separation exists at the threshold (with respect to backtracking aircraft). This requires coordination with QTWR.
 
 ### Time Seperation on the Approach
 
