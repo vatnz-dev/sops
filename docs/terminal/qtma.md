@@ -52,7 +52,7 @@ Aircraft shall be issued either the `RNP Y (AR)` or `RNP Z (AR)` approaches. If 
 Once in QTMA airspace, arrivals may be descended to `FL150` and then `A100` to commence the approach. QTMA may clear aircraft straight down to `A100` where traffic permits.
 
 !!! Note
-    Due to high mountainous terrain controllers shall avoid track shorten aircraft on the STAR. But may do so where needed for seperation with other traffic. 
+    Due to high mountainous terrain, controllers shall avoid track shortening aircraft on the STAR but may do so where needed for separation with other traffic. 
 
 ### Retaining Aircraft on the Approach
 
