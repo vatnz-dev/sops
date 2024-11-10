@@ -41,7 +41,7 @@ QTMA may climb aircraft up to a maximum of `FL250`, with further available when 
 
 ### Track Shortening on SIDs
 
-Typically aircraft are given track shortening instructions as they climb through `A080` to track direct to a waypoint upon passing `A100`. Typically `TIMJO` and `SAVLA` for domestic flights and boundary fixes for Oceanic bound aircraft. This shall be coordinated with STH. 
+Typically aircraft are given track shortening instructions as they climb through `A080` to track direct to a waypoint upon passing `A100`. This waypoint is typically `TIMJO` and `SAVLA` for domestic flights, and boundary fixes for Oceanic bound aircraft. This shall be coordinated with STH. 
 
 ## Arrivals 
 
