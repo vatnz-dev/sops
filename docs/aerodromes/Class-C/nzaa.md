@@ -135,16 +135,16 @@ Divergent Missed Approach Procedures have been implemented at Auckland, ensuring
 
 International SIDs are straight-forward, in that all of them have a shallow climb gradient, suitable for most aircraft types. The Controller shall issue the SID that is suggested by their Controller Client.
 
-!!! note "International use of the `AVNAR` and `POLIS` Departures"
+!!! note "International use of the `AVNAR` and `AKELA` Departures"
     For international departures from Runway 05R with a transition point at `PEBLU` or `VELMO`, the preferred SID is `AVNAR #Q`.
-    For heavier aircraft departing via `PEBLU` or `VELMO`, controllers should assign the `POLIS #Q` SID due to the lower climb gradient.
+    For heavier aircraft departing via `PEBLU` or `VELMO`, controllers should assign the `AKELA #Q` SID due to the lower climb gradient.
 
 For Domestic aircraft that are departing to the North or Northeast, the Controller shall issue the SID that is suggested by the Controller Client. If the aircraft is departing to the South, the following rules shall be applied:
 
 | Runway | Procedure  | Allowed A/C Categories | Is divergent? | Notes                                                                                                                             |
 | ------ | ---------- | ---------------------- | ------------- | --------------------------------------------------------------------------------------------------------------------------------- |
 | 05R    | `BROOK #Q` | Cat A to C             | Yes           | Available to Cat C Jets for noise-abatement. AA TMA approval required.                                                            |
-| 05R    | `AVNAR #Q` | Cat A to D             | Yes           | **Preferred departure for Cat C Jets**. Steep climb gradient - aircraft unable to meet this shall be given the `POLIS #Q`.        |
+| 05R    | `AVNAR #Q` | Cat A to D             | Yes           | **Preferred departure for Cat C Jets**. Steep climb gradient - aircraft unable to meet this shall be given the `AKELA #Q`.        |
 | 05R    | `POLIS #Q` | Cat A to D             | Yes           | **Preferred departure for Cat D Jets, or heavies**. Shallower climb gradient.                                                     |
 | 05R    | `REKIS #Q` | Cat A to D             | Yes           | **Preferred departure for Props South**. May be given to jets provided they are comfortable with the 180kt limitation at `VINOD`. |
 | 05R    | `EMRAG #Q` | Cat A to D             | Yes           | Least preferred departure due to manual vectoring required.                                                                       |
