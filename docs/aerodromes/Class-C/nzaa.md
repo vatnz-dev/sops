@@ -139,15 +139,15 @@ International SIDs are straight-forward, in that all of them have a shallow clim
     For international departures from Runway 05R with a transition point at `PEBLU` or `VELMO`, the preferred SID is `AVNAR #Q`.
     For heavier aircraft departing via `PEBLU` or `VELMO`, controllers should assign the `AKELA #Q` SID due to the lower climb gradient.
 
-For Domestic aircraft that are departing to the North or Northeast, the Controller shall issue the SID that is suggested by the Controller Client. If the aircraft is departing to the South, the following rules shall be applied:
+For Domestic aircraft that are departing to the North or Northeast, the Controller shall issue the SID that is suggested by the Controller Client. If the aircraft is departing to the East or South, the following rules shall be applied:
 
-| Runway | Procedure  | Allowed A/C Categories | Is divergent? | Notes                                                                                                                             |
-| ------ | ---------- | ---------------------- | ------------- | --------------------------------------------------------------------------------------------------------------------------------- |
-| 05R    | `BROOK #Q` | Cat A to C             | Yes           | Available to Cat C Jets for noise-abatement. AA TMA approval required.                                                            |
-| 05R    | `AVNAR #Q` | Cat A to D             | Yes           | **Preferred departure for Cat C Jets**. Steep climb gradient - aircraft unable to meet this shall be given the `AKELA #Q`.        |
-| 05R    | `POLIS #Q` | Cat A to D             | Yes           | **Preferred departure for Cat D Jets, or heavies**. Shallower climb gradient.                                                     |
-| 05R    | `REKIS #Q` | Cat A to D             | Yes           | **Preferred departure for Props South**. May be given to jets provided they are comfortable with the 180kt limitation at `VINOD`. |
-| 05R    | `EMRAG #Q` | Cat A to D             | Yes           | Least preferred departure due to manual vectoring required.                                                                       |
+| Runway | Procedure  | Allowed A/C Categories | Is divergent? | Notes                                                                                                                                                |
+| ------ | ---------- | ---------------------- | ------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 05R    | `BROOK #Q` | Cat A to C             | Yes           | Available to Cat C Jets for noise-abatement. AA TMA approval required.                                                                               |
+| 05R    | `AVNAR #Q` | Cat A to D             | Yes           | **Preferred departure for Cat C Jets**. Steep climb gradient - aircraft unable to meet this shall be given the `POLIS #Q (DOM)` or `AKELA #Q (INTL)`.|
+| 05R    | `POLIS #Q` | Cat A to D             | Yes           | **Preferred departure for Cat D Jets, or heavies**. Shallower climb gradient.                                                                        |
+| 05R    | `REKIS #Q` | Cat A to D             | Yes           | **Preferred departure for Props South**. May be given to jets provided they are comfortable with the 180kt limitation at `VINOD`.                    |
+| 05R    | `EMRAG #Q` | Cat A to D             | Yes           | Least preferred departure due to manual vectoring required.                                                                                          |
 
 
 | Runway | Procedure  | Allowed A/C Categories | Is divergent? | Notes                                                                                                     |
