@@ -4,7 +4,7 @@
 
 --8<-- "includes/abbreviations.md"
 
-Our vatSys dataset comes pre-loaded with everything the controller needs to get connected to the network, and no external software is required to be updated or modified before the controller can log on to the VATSIM network.
+Our vatSys dataset comes pre-loaded with everything a controller needs to get connected, and no external software is required to be updated or modified before the controller can log on to the VATSIM network.
 
 ### Plugins
 
