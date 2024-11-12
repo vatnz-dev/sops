@@ -11,14 +11,14 @@ Our vatSys dataset comes pre-loaded with everything a controller needs to get co
 Our vatSys dataset currently ships with one plugin, the VATNZ Standard Route Tool. You can find this under `Tools > Standard Route Tool`
 
 <figure markdown>
-  ![vatSys Tools Menu](../controller-skills/assets/vatSys-tools.png) 
+  ![vatSys Tools Menu](../assets/vatSys-tools.png) 
   <figcaption>vatSys Tools Menu</figcaption>
 </figure>
 
 To check what plugins are currently installed with your client, go to `Info > About` 
 
 <figure markdown>
-  ![vatSys Info Menu](../controller-skills/assets/vatSys-info.png) 
+  ![vatSys Info Menu](../assets/vatSys-info.png) 
   <figcaption>vatSys Info Menu</figcaption>
 </figure>
 

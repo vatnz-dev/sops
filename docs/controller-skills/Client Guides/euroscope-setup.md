@@ -26,14 +26,14 @@ The Skyline package is intended for initial setup of the client, or for larger c
   
 1. [Download the latest SkyLine Package from the VATNZ website](https://www.vatnz.net/airspace/sector_files/){ target=new }. This will download a `.zip` file named "VATNZ-SKYLINE_xxyy", where `xx` is the year, and `yy` is the cycle.
 
-    ![VATNZ Skyline Package](./assets/skyline-dl.png)
+    ![VATNZ Skyline Package](../assets/skyline-dl.png)
 
 2. In Windows, open an explorer window and navigate to your EuroScope files. By default this is in the `AppData\Roaming\EuroScope` directory. Note: This may be in the `Documents\EuroScope\` directory for older installations of EuroScope.
 3. Create a new folder in this directory for your VATNZ files, the name of this folder does not matter.
 4. Ensure you archive your current Skyline files if present, then drag the new files into this new folder.
 
     <figure markdown>
-      ![Euroscope VATNZ Folder](./assets/es-folder.png) 
+      ![Euroscope VATNZ Folder](../assets/es-folder.png) 
       <figcaption>It should look something like this</figcaption>
     </figure>
 
@@ -47,12 +47,12 @@ The Skyline package is intended for initial setup of the client, or for larger c
 
 1. [Download the latest Sector Files from the VATNZ website](https://www.vatnz.net/airspace/sector_files/){ target=new }. This will download a file named "VATNZ-NZZC_xxyy", where `xx` is the year, and `yy` is the cycle.
 
-    ![Sector Files](./assets/sector-files-dl.png)
+    ![Sector Files](../assets/sector-files-dl.png)
 
 2. In Windows, open an explorer window and navigate to your EuroScope files. By default this is in the `AppData\Roaming\EuroScope` directory. Note: This may be in the `Documents\EuroScope\` directory for older installations of EuroScope.
 3. Archive the current `VATNZ-NZZC_xxyy` files, and drag the new files into this directory.
 
-    ![Sector Files](./assets/sector-files.png)
+    ![Sector Files](../assets/sector-files.png)
 
 4. Open EuroScope. A dialogue will appear notifying you that the active sector file cannot be found. **Click No**.
 5. A file selection dialogue will appear. Select the new `.sct2` file, and click 'Open'.
