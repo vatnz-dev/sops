@@ -1,4 +1,5 @@
 title: Controller Skills
 nav:
     - "Overview": index.md
+    - "vatSys Client Guide": vatSys-setup.md
     - ...
