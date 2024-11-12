@@ -40,11 +40,11 @@ Nelson Tower has responsibility for all operations to the west of TWY `A`. Anyth
 
 ## Start-up and Taxi
 
-Start-up clearance on the main apron is managed by Nelson Tower. Pushback is not required for any stands at Nelson, however depending on scenery some pilots may still call up. Aircraft operating on TWY `B` and TWY `C` are required to contact Nelson Tower prior to reaching `B1` and `C1` respectively.
+Start-up clearance on the main apron is managed by Nelson Tower. Pushback is not required for any stands at Nelson, however, depending on scenery, some pilots may still request it. Aircraft operating on TWY `B` and TWY `C` are required to contact Nelson Tower prior to reaching `B1` and `C1` respectively.
 
 ## Use of Holding Points
 
-Aircraft may depart from any holding point that a pilot deems suitable, however the following may be assigned without coordination:
+Aircraft may depart from any runway intersection that the Pilot deems suitable. Controllers may apply the following rules without coordination from the Pilot.
 
 | Type             | Runway 02 | Runway 20 |
 |------------------|:---------:|:---------:|
@@ -56,7 +56,7 @@ Aircraft may depart from any holding point that a pilot deems suitable, however 
 
 ### Usage of TWY A at Night
 
-TWY `A` north of holding point `A3` does not have any taxiway lighting. Due to this, aircraft usually backtrack runway 02/20 during night hours, vacating and entering via `A3`. Backtrack instructions may be given with taxi instructions. It is at the controller's discretion if they wish to use this procedure.
+TWY `A` north of holding point `A3` does not have any taxiway lighting. Due to this, aircraft usually backtrack runway 02/20 during night hours, vacating the runway via `A3`. Backtrack instructions may be given with taxi instructions. It is at the controller's discretion if they wish to use this procedure.
 
 ## IFR Departures
 
@@ -97,7 +97,7 @@ Many of the Nelson SIDs contain various altitude restrictions to prevent departu
 
 ### Track Shortening on SIDs
 
-Nelson Tower may issue track-shortening on SIDs within their airspace without coordination with NAK or KAI. Aircraft can either be instructed to track to a different waypoint on the SID, or their initial enroute waypoint. It is important to ensure that separation and terrain avoidance are kept, so this should only be done above the relevant MSA for the routing. The aircraft's tag must also be updated to ensure situational awareness for all controllers.
+Nelson Tower may issue track-shortening on SIDs within their airspace without coordination with NAK or KAI. Aircraft can either be instructed to track to a different waypoint on the SID, or their initial enroute waypoint. It is important to ensure that separation and terrain avoidance are maintained, so this should only be done above the relevant MSA for the routing. The aircraft's tag must also be updated to ensure situational awareness for all controllers.
 
 !!! example "Track-shortening on a SID"
     **Nelson Tower**: *"ANZ524L, passing `A047` track direct `NESTA` to rejoin the SID"*
@@ -111,9 +111,9 @@ Tower may issue a visual departure to an aircraft at the pilot's request. In thi
 
 ### STAR Clearance for NZWN & NZWB
 
-As the flight time between Wellington, Nelson and Woodbourne (Blenheim) is so short, and to reduce pilot and controller workload, the controller shall include a STAR clearance for their destination in their departure clearance.
+As the flight time from Nelson to Wellington and Woodbourne (Blenheim) is so short, and to reduce pilot and controller workload, the controller shall include a STAR clearance for their destination in their departure clearance.
 
-If online, Delivery or Tower shall confirm the STAR with Wellington TMA prior to passing it on to aircraft.
+If online, Delivery or Tower shall coordinate with Wellington TMA to confirm the STAR prior to passing it on to aircraft.
 
 !!! example "Clearance to Wellington"
     **Nelson Tower**: *"ANZ524L, Cleared Wellington 2 via SIMZI8A arrival at 11,000ft, LUSRA 2P departure, Squawk 5021"*
@@ -128,7 +128,7 @@ All arrivals for runway 20 terminate at `KAPUA`, `ELMAX` and `LIKMA`, which are 
 
 ### Runway 02
 
-Arrivals for runway 02 terminate at `ESNED` for the RNP Z and well as `ENKIN` and `MIBEV` for the RNP Y. Aircraft for the RNP Z shall be descended to `A033`, and aircraft for the RNP Z shall be descended to `A039` for the RNP Y approach.
+Arrivals for the RNP Z approach terminate at `ESNED`, and arrivals for the RNP Y approach terminate at `ENKIN` and `MIBEV`. Aircraft for the RNP Z shall be descended to `A033`, and aircraft for the RNP Y shall be descended to `A039`.
 
 ## VFR Procedures
 
