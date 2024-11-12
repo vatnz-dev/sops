@@ -6,6 +6,9 @@
 
 Our vatSys dataset comes pre-loaded with everything a controller needs to get connected, and no external software is required to be updated or modified before the controller can log on to the VATSIM network.
 
+!!! note
+    While a Navigraph Subscription is not required, you can update your Nav-data by going to: `Settings > Navigraph > Link Navigraph Account`
+
 ### Plugins
 
 Our vatSys dataset currently ships with one plugin, the VATNZ Standard Route Tool. You can find this under `Tools > Standard Route Tool`
