@@ -96,7 +96,7 @@ Divergence, and therefore separation, is **deemed to exist when an aircraft is 3
 
 Some SIDs at NZAA, NZQN and NZWN have a 30 degree turn baked into the procedure to ensure divergence as soon as possible. Controllers may also achieve this by assigning a manual heading on departure. 
 
-#### Successive Departures
+#### Successive Departures to the Same Destination
 
 For successive departures on the same SID and bound for the same destination, allow a minimum of four minutes between them to avoid en-route and arrival sequencing problems down the track. For longer sector lengths, such sequenced departures should not be necessary.
 
