@@ -1,0 +1,4 @@
+title: Client Guides
+nav:
+    - "vatSys Client Guide": vatSys-setup.md
+    - ...
