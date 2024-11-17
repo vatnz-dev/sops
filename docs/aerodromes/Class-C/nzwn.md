@@ -26,7 +26,7 @@
 
 ## Airspace
 
-The Wellington CTR/C follows the lateral boundaries as shown below from `SFC` to `A025`. The CTR/C comprises of seven sectors - Kelburn, West, Sinclar, South East, East, Somes and Instrument Sectors. 
+The Wellington CTR/C follows the lateral boundaries as shown below from `SFC` to `A025`. The CTR/C comprises of seven sectors - Kelburn, West, Sinclar, Turakirae, East, Somes and Instrument Sectors. 
 
 <figure markdown>
   ![Wellington Control Zone](./assets/nzwn-airspace.png)
