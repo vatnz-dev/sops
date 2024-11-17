@@ -57,8 +57,6 @@ STH shall ensure that aircraft overflying the CH TMA are no lower than `A110` wi
 
 STH shall ensure that an efficient arrival flow is managed into DN TWR's airspace. 
 
-DN TWR is only authorised to climb aircraft to a maximum of `FL250`. On handover, STH shall clear the aircraft to its RFL.
-
 When DN TWR is offline, the DN Procedural Tower service shall be provided by STH. 
 
 When responsible for DN TWR, STH may opt to provide a radar approach service, rather than a procedural approach service.
@@ -129,8 +127,6 @@ These arrivals provide track shortening of **4NM** compared to the `A`/`B` arriv
 ### DN TWR
 
 STH shall issue STARs to aircraft bound for NZDN without coordination from DN TWR. 
-
-DN TWR is only authorised to climb aircraft to a maximum of `FL250`. On handover, STH shall clear the aircraft to its RFL.
 
 STH may descend NZDN bound aircraft to `A100`, unless the aircraft has been given the `BASOS` oceanic STAR, where the following conditions apply -
 
