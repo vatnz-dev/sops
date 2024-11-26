@@ -7,7 +7,7 @@
 ## Positions
 
 | Position Name | Shortcode | Callsign          | Frequency | Login ID | Usage     |
-|---------------|-----------|-------------------|-----------|----------|-----------|
+| ------------- | --------- | ----------------- | --------- | -------- | --------- |
 | Auckland DLV  | DAA       | Auckland Delivery | 128.200   | NZAA_DEL | Secondary |
 | Auckland SMC  | GAA       | Auckland Ground   | 121.900   | NZAA_GND | Secondary |
 | Auckland ADC  | TAA       | Auckland Tower    | 118.700   | NZAA_TWR | Primary   |
@@ -20,7 +20,7 @@
     The following are designated as Event Only positions, and may only be staffed during a VATNZ event where approved, or if explicitly authorised by the Operations Director.
 
 | Position Name       | Shortcode | Callsign          | Frequency | Login ID | Usage                       |
-|---------------------|-----------|-------------------|-----------|----------|-----------------------------|
+| ------------------- | --------- | ----------------- | --------- | -------- | --------------------------- |
 | Auckland Departures | ADEP      | Auckland Approach | 129.600   | NZAA_DEP | Events - Traffic Management |
 
 
@@ -46,7 +46,7 @@ The areas of responsibility are as depicted below. The Transfer of Control Point
 ### Transfer of Control points
 
 | Transfer Flow      | Requirements                                                                         | Notes                                                                                  |
-|--------------------|--------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
+| ------------------ | ------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------- |
 | Delivery -> Ground | Once PDC has been issued either through Voice or DCL.                                |                                                                                        |
 | Ground -> Tower    | Prior to arriving at their assigned hold, once clear of other traffic.               |                                                                                        |
 | Tower -> Approach  | For Airline traffic, once airborne. For GA, when leaving the zone, if applicable.    |                                                                                        |
@@ -132,7 +132,7 @@ Special rules apply to Code F aircraft, such as taxiway and gate restrictions.
 Departures may occur from any runway intersection, providing that it does not interfere with the use of any high-speed exits. Controllers may apply the following rules without coordination from the Pilot:
  
 | Type        |  Runway 23L   | Runway 05R |
-|-------------|:-------------:|:----------:|
+| ----------- | :-----------: | :--------: |
 | Large Jets  | `A1` or `A1A` |   `A10`    |
 | Medium Jets |     `A2`      |    `A9`    |
 | Turboprops  | `A2` or `A3A` |    `A9`    |
@@ -152,29 +152,33 @@ Aircraft that have been cleared to operate within the North or South sectors are
 
 Aircraft departures shall be managed in-line with the [Runway Operations section](../../controller-skills/separation.md#runway-operations). 
 
-Some departures have immediate divergent turns once the aircraft passes `A005`, taking the aircraft away from the centreline, allowing for another aircraft to follow soon after.
+Divergent Missed Approach Procedures have been implemented at Auckland, ensuring that departure tracks and missed approach tracks are divergent from each other. This ensures that the missed approach is protected, and allows a higher rate of departures to occur.
 
 #### SID Assignment
 
 International SIDs are straight-forward, in that all of them have a shallow climb gradient, suitable for most aircraft types. The Controller shall issue the SID that is suggested by their Controller Client.
 
-For Domestic aircraft that are departing to the North or Northeast, the Controller shall issue the SID that is suggested by the Controller Client. If the aircraft is departing to the South, the following rules shall be applied:
+!!! note "International use of the `AVNAR` and `AKELA` Departures"
+    For international departures from Runway 05R with a transition point at `PEBLU` or `VELMO`, the preferred SID is `AVNAR #Q`.
+    For heavier aircraft departing via `PEBLU` or `VELMO`, controllers should assign the `AKELA #Q` SID due to the lower climb gradient.
 
-| Runway | Procedure  | Allowed A/C Categories | Is divergent?                  | Notes                                                                                                                             |
-|--------|------------|------------------------|--------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
-| 05R    | `BROOK #Q` | Cat A to C             | Yes - >30° turn passing `A005` | Available to Cat C Jets for noise-abatement. AA TMA approval required.                                                            |
-| 05R    | `PAGLA #Q` | Cat A to D             | No                             | **Preferred departure for Cat C Jets**. Steep climb gradient - aircraft unable to meet this shall be given the `POLIS #Q`.        |
-| 05R    | `POLIS #Q` | Cat A to D             | No                             | **Preferred departure for Cat D Jets, or heavies**. Shallower climb gradient.                                                     |
-| 05R    | `REKIS #Q` | Cat A to D             | Yes - >30° turn passing `A005` | **Preferred departure for Props South**. May be given to jets provided they are comfortable with the 180kt limitation at `VINOD`. |
-| 05R    | `EMRAG #Q` | Cat A to D             | No                             | Least preferred departure due to manual vectoring required.                                                                                         |
+For Domestic aircraft that are departing to the North or Northeast, the Controller shall issue the SID that is suggested by the Controller Client. If the aircraft is departing to the East or South, the following rules shall be applied:
+
+| Runway | Procedure  | Allowed A/C Categories | Is divergent? | Notes                                                                                                                                                |
+| ------ | ---------- | ---------------------- | ------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 05R    | `BROOK #Q` | Cat A to C             | Yes           | Available to Cat C Jets for noise-abatement. AA TMA approval required.                                                                               |
+| 05R    | `AVNAR #Q` | Cat A to D             | Yes           | **Preferred departure for Cat C Jets**. Steep climb gradient - aircraft unable to meet this shall be given the `POLIS #Q (DOM)` or `AKELA #Q (INTL)`.|
+| 05R    | `POLIS #Q` | Cat A to D             | Yes           | **Preferred departure for Cat D Jets, or heavies**. Shallower climb gradient.                                                                        |
+| 05R    | `REKIS #Q` | Cat A to D             | Yes           | **Preferred departure for Props South**. May be given to jets provided they are comfortable with the 180kt limitation at `VINOD`.                    |
+| 05R    | `EMRAG #Q` | Cat A to D             | Yes           | Least preferred departure due to manual vectoring required.                                                                                          |
 
 
-| Runway | Procedure  | Allowed A/C Categories | Is divergent?                  | Notes                                                                                                     |
-|--------|------------|------------------------|--------------------------------|-----------------------------------------------------------------------------------------------------------|
-| 23L    | `LENGU #A` | Cat A to D             | No                             | Least preferred departure due to manual vectoring required.                                               |
-| 23L    | `LENGU #P` | Cat A to D             | No                             |                                                                                                           |
-| 23L    | `LEVRA #P` | Cat A to D             | No                             | **Preferred departure for Jets**.                                                                         |
-| 23L    | `STEAL #P` | Cat A to D             | Yes - >30° turn passing `A005` | **Preferred departure for Props**. Shall not be initially issued to Jets, but may be issued if requested. |
+| Runway | Procedure  | Allowed A/C Categories | Is divergent? | Notes                                                                                                     |
+| ------ | ---------- | ---------------------- | ------------- | --------------------------------------------------------------------------------------------------------- |
+| 23L    | `LENGU #A` | Cat A to D             | Yes           | Least preferred departure due to manual vectoring required.                                               |
+| 23L    | `LENGU #P` | Cat A to D             | Yes           |                                                                                                           |
+| 23L    | `LEVRA #P` | Cat A to D             | Yes           | **Preferred departure for Jets**.                                                                         |
+| 23L    | `STEAL #P` | Cat A to D             | Yes           | **Preferred departure for Props**. Shall not be initially issued to Jets, but may be issued if requested. |
 
 #### Assigned Headings
 
@@ -219,11 +223,11 @@ Aircraft operating from RWY 05R shall not be taken off the SID until passing `A0
 For all international departures the Controller shall issue the SID that is suggested by their Controller Client. For Domestic departures, Controllers shall observe the following SID assignment preferences:
 
 | Priority | Runway | Procedure      | Allowed A/C Categories | Notes                                                                                  |
-|----------|--------|----------------|------------------------|----------------------------------------------------------------------------------------|
+| -------- | ------ | -------------- | ---------------------- | -------------------------------------------------------------------------------------- |
 | 1        | 05R    | `BROOK #Q`     | Cat A to C             | AA TMR approval not required during Noise Abatement hours.                             |
 | 2        | 05R    | `REKIS #Q`     | Cat A to D             | **Preferred departure for Props**. Shall not be issued to Jets during Noise Abatement. |
 | 3        | 05R    | `POLIS #Q`     | Cat A to D             | **Preferred departure for Cat D Jets, or heavies**. Shallower climb gradient.          |
-| 4        | 05R    | All other SIDs |                        | Use of the `PAGLA #Q` departure shall be avoided.                                      |
+| 4        | 05R    | All other SIDs |                        | Use of the `AVNAR #Q` departure shall be avoided.                                      |
 
 
 #### Runway 23L
@@ -243,7 +247,7 @@ There are no limitations on the assignment of STARs for Domestic traffic, howeve
 OCR has three Noise Abatement STARs that shall be issued as first preference. If track shortening is provided, Controllers shall ensure that aircraft do not overfly the city.
 
 | Runway | Procedure  | Transitions                                                             | Allowed A/C Categories |
-|--------|------------|-------------------------------------------------------------------------|------------------------|
+| ------ | ---------- | ----------------------------------------------------------------------- | ---------------------- |
 | 23L    | `BASIV #N` | `ELNOS` `SALAG` `UPLAR`                                                 | All                    |
 | 05R    | `RIKDI #N` | `KALAG` `AGREX` `TARIB` `ELPAK` `AGEDU` `IDSEM` `DABAS` `AKLOM` `OLBEX` | All                    |
 | 23L    | `TAZEY #N` | `PEBLU` `VELMO`                                                         | All                    |
@@ -253,7 +257,7 @@ OCR has three Noise Abatement STARs that shall be issued as first preference. If
 
 ### Arrival
 
-In order to lessen the amount of instructions given to VFR traffic, the Controller shall issue the `Mangere Bridge` VFR arrival where possible. Once the Pilot reports overhead Mangere Town, the Controller shall integrate them with the circuit. [AIP Chart refers](https://www.aip.net.nz/assets/AIP/Aerodrome-Charts/Auckland-NZAA/NZAA_35.1_35.2.pdf){ target=new }.
+In order to lessen the amount of instructions given to VFR traffic, the Controller shall issue the `Ambury` VFR arrival where possible. Once the Pilot reports overhead `Little Creek`., the Controller shall integrate them with the circuit. [AIP Chart refers](https://www.aip.net.nz/assets/AIP/Aerodrome-Charts/Auckland-NZAA/NZAA_35.1_35.2.pdf){ target=new }.
 
 !!! important
     If instructed to join via the overhead, it is the Controller's responsibilty to ensure that the missed approach is protected. A non-circuit side join may be given instead.
@@ -261,7 +265,7 @@ In order to lessen the amount of instructions given to VFR traffic, the Controll
 
 ### Departure
 
-In order to lessen the amount of instructions given to VFR traffic, the Controller shall issue the `Mangere Bridge` VFR departure at all times - ([AIP Chart](https://www.aip.net.nz/assets/AIP/Aerodrome-Charts/Auckland-NZAA/NZAA_64.1.pdf){ target=new }). Once the Pilot reaches Mangere Bridge, the aircraft shall be handed off to UNICOM or Approach where appropriate. 
+In order to lessen the amount of instructions given to VFR traffic, the Controller shall issue the `Ambury` VFR departure at all times - ([AIP Chart](https://www.aip.net.nz/assets/AIP/Aerodrome-Charts/Auckland-NZAA/NZAA_64.1.pdf){ target=new }). Once the Pilot reaches `Ambury Park`, the aircraft shall be handed off to UNICOM or Approach where appropriate. 
 
 If a departing VFR aircraft requests to climb into controlled airspace, this shall be coordinated with Approach. The Tower Controller may amend the clearance as they see fit while the aircraft is in their Control Zone, however must be coordinated with Approach if the ammendment changes their Control Area entry point.
 
