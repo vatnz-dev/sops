@@ -51,7 +51,7 @@ Controllers should make use of the holding point on TWY `B` to allow for multipl
 !!! example "Taxi Instruction using the `B` hold"
     **ZK-ELT**: *"ELT, request taxi."*
 
-    **Dunedin Tower**: *"ELT, taxi and hold on `B` for arriving A320. Once passed, enter backtrack and linup RWY 21"*
+    **Dunedin Tower**: *"ELT, taxi and hold on `B` for arriving A320. Once passed, enter backtrack and lineup RWY 21"*
 
 ## Departures
 

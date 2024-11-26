@@ -73,7 +73,10 @@ Aircraft departing for South American destinations are not given an Oceanic tran
 
 #### Pushback
 
-Pushback and start up clearances are managed by the Ground Controller. Controllers should make use of the "tail facing" instruction to ensure that aircraft do not block apron entry and exit points. 
+Pushback and start up clearances are managed by the Ground Controller. Controllers should make use of the "tail-facing" instruction to ensure that aircraft do not block apron entry and exit points. 
+
+!!! example "Regional Apron: Push and Start"
+    **Auckland Ground**: *"ANZ141M, push and start approved onto `B`, tail East"*
 
 #### Domestic 
 
@@ -88,10 +91,10 @@ Aircraft on the `C5` apron shall be instructed to push and start at their discre
 
 #### International 
 
-All aircraft pushing from the International apron shall be given a tail facing instruction, and *may* be given a start location.
+All aircraft pushing from the International apron shall be given a tail direction instruction, and *may* be given a start location.
 
 !!! example "International Apron: Push and Start"
-    **Auckland Ground**: *"ANZ26, cleared push and start with the tail facing North"*
+    **Auckland Ground**: *"ANZ26, push and start approved, tail North"*
 
 !!! info
     The start instruction is only utilised in the real-world to ensure that the jet wash doesn't interfere with the aircraft stands on the opposite side of the taxiway. As this isn't an issue within the Simulator, it is up to Controller discretion.
