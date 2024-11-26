@@ -26,7 +26,7 @@
 
 ## Airspace
 
-The Auckland CTR/C follows the lateral boundaries as shown below from `SFC` to `A015`. The CTR/C comprises of three sectors - the North, Instrument and South Sectors. 
+The Auckland CTR/C follows the lateral boundaries as shown below from `SFC` to `A015`. The CTR/C comprises of six sectors - the Northwest, North, Northeast, Southwest, Southeast and Instrument Sectors.
 
 
 <figure markdown>
@@ -149,7 +149,7 @@ The Tower shall ensure that all VFR traffic within the Auckland CTR/C does not c
 
 Unless established within the aerodrome circuit, Tower must ensure that no VFR aircraft are present within the Instrument Sector when an aircraft is either turning onto, or established on an approach. VFR aircraft are not authorised to operate under any approach path, or within 3nm laterally of the approach path.
 
-Aircraft that have been cleared to operate within the North or South sectors are deemed to be separated from IFR arrivals on the ILS or RNP Z approaches, but not from RNP (AR) approaches.
+Aircraft that have been cleared to operate within the collective North or South Sectors are deemed to be separated from IFR arrivals on the ILS or RNP Z approaches, but not from RNP (AR) approaches.
 
 ### Departures
 
@@ -279,6 +279,6 @@ As flights to the West, North, and Northeast require a turn against the circuit 
 
 ### Helicopters
 
-Helicopter operations are frequent within Auckland CTR/C, usually operating within one of the three sectors. Tower must ensure that no VFR aircraft are present within the Instrument Sector when an aircraft is either turning onto, or established on an approach. VFR aircraft are not authorised to operate under any approach path, or within 3nm laterally of the approach path.
+Helicopter operations are frequent within Auckland CTR/C, usually operating within one of the five sectors. Tower must ensure that no VFR aircraft are present within the Instrument Sector when an aircraft is either turning onto, or established on an approach. VFR aircraft are not authorised to operate under any approach path, or within 3nm laterally of the approach path.
 
 
