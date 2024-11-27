@@ -51,11 +51,20 @@ Controllers should make use of the holding point on TWY `B` to allow for multipl
 !!! example "Taxi Instruction using the `B` hold"
     **ZK-ELT**: *"ELT, request taxi."*
 
-    **Dunedin Tower**: *"ELT, taxi and hold on `B` for arriving A320. Once passed, enter backtrack and linup RWY 21"*
+    **Dunedin Tower**: *"ELT, taxi and hold on `B` for arriving A320. Once passed, enter backtrack and lineup RWY 21"*
 
 ## Departures
 
 IFR traffic departing via BIDEL shall be handed off to STH either crossing BIDEL or passing `A095`. Other IFR departures shall be handed off either crossing the lateral boundary of the airspace or when passing the upper limit of `A095` or `A135`.
+
+### Initial Climb Level
+
+Dunedin Tower shall only climb aircraft to a maximum altitude of `FL250`. Aircraft with an RFL higher than `FL250` can expect higher climb once handed over.
+
+!!! example "Intermediate Climb"
+    **ANZ622**: *"ANZ622, airborne passing 1,300 feet"*
+
+    **Dunedin Tower**: *"ANZ622, climb via the SID, intermediate flight level 250"*
 
 ### DCL
 
