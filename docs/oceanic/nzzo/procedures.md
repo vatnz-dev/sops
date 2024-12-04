@@ -25,13 +25,14 @@ Controllers must check each aircraft’s flight plan for a discrete SELCAL code.
 
 !!! example "RTF Example for readback of a Position Report"
     **Auckland Radio**: *"UAE412, standby SELCAL check."*  
-    Aircraft awaits the SELCAL chime before replying. 
-    **UAE412**: *"SELCAL check OK, ANZ254."*    
+    Aircraft awaits the SELCAL chime before replying.  
+    **UAE412**: *"SELCAL check OK, UAE412."*    
     Then continue with routine communications.
 
 ### CPDLC
 
 !!! info "Not yet supported in NZZO"
+    These procedures will be produced when CPDLC is supported in NZZO.
 
 
 ## Position Reports
@@ -118,7 +119,7 @@ Before reaching the NZZO boundary, the aircraft shall be instructed to contact t
 
 Aircraft operating above FL245 shall be handed between NZZO and NZZC controllers in accordance with standard handover requirements. 
 
-For requiring descent below FL245, the aircraft shall be instructed to leave controlled airspace by descent, as well as the traffic status at NZCI, if known.
+For aircraft requiring descent below FL245, the aircraft shall be instructed to leave controlled airspace by descent, as well as the traffic status at NZCI, if known.
 
 !!! example "RTF Example for descent below FL245"
     **Auckland Radio**: *"TNZ123 (when ready | at/after time/position) leave controlled airspace by descent. Report passing FL240. (Traffic is.. | No reported IFR traffic)"*
