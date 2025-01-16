@@ -16,7 +16,7 @@ title: NZCH - Christchurch
 
 ### Event Only Positions
 
-!!! Danger "Event Only Positions"
+!!! Danger "Important"
     The following are designated as Event Only positions, and may only be staffed during a VATNZ event where approved, or if explicitly authorised by the Operations Director.
 
 | Position Name               | Shortcode | Callsign                | Frequency | Login ID | Usage                       |
@@ -83,6 +83,51 @@ Pushback and startup clearances are managed by the Ground Controller. Due to the
 | 26 to 28          | Jets                | No               | **Yes**            | Twy `A`           | If Rwy 02 is active, Stand 28 shall be pushed clear of `A4`           |
 | 29 to 35          | Jets                | No               | **Yes**            | Twy `A15`         | International Stands                                                  |
 
+#### Taxiing
+
+##### Dakota Apron
+
+Dakota Apron is used exclusively by Parcel Air (APK), Airwork (AWK) and Texel Air (XLR). Aircraft utilising this apron may be instructed to start at their discretion and report for taxi.
+
+When ready for taxi, aircraft taxiing from the Dakota Apron may be instructed to cross Runway 29 and taxi via `F`, or may be given a [backtrack via Runway 29](#backtrack-via-rwy-29). A backtrack via Runway 29 is usually preferred, as it allows the Domestic ramp to continue to flow.
+
+##### Post Apron
+
+The Post Apron is on the northern side of `A4`, and is used by DHL, Qantas Freight and other freight traffic. Aircraft utilising this apron may be instructed to start at their discretion.
+
+##### Romeo Apron
+
+The Romeo Apron is a transitional apron, and is commonly used by aircraft arriving at the aerodrome without a contracted parking location, or for overflow or long-term parking. 
+
+!!! info
+    Aircraft utilising Stands R1A, R1B, and R3A stands may start on stand. Aircraft utilising Stands R1, R2 or R3 must be pushed onto `A15`.
+
+##### Antarctic Apron
+
+The Antarctic Apron is used for all military traffic, but may also be used for larger private traffic. Stands are not issued on this apron, and aircraft may start on stand.
+
+##### West of RWY 02/20
+
+Aircraft operating within the bounds of the Western Apron shall be controlled in line with [the Western Apron special conditions](#western-apron). 
+
+##### Use of RWY 29/11 as a Taxiway
+
+When RWY 29/11 is not in use Tower may delegate the use of RWY 29, south of the RWY 02/20 intersection, to Ground as a taxiway.
+
+###### Traffic crossing intersecting Runway
+
+When delegated RWY 29, the Ground Controller may authorise the aircraft to cross RWY 29 without seeking permission, or transferring that aircraft to Tower.
+
+!!! warning "When Runway 29/11 is in use"
+    The Ground Controller shall not assume crossing authority for the intersecting runway when Runway 29/11 is in use.
+
+!!! example "RTF for crossing a Runway"
+    **Christchurch Ground**: *"ANZ218, taxi holding point A6, Runway 02, via A. Cross Runway 29"*
+
+###### Backtrack via Rwy 29
+
+When delegated RWY 29, aircraft taxiing to or from the Dakota apron may be instructed to backtrack via RWY 29, avoiding taxiway `F`. Domestic prop traffic taxiing to or from the Domestic apron may also be instructed to backtrack via RWY 29 in order to avoid congestion on taxiway `F`.
+
 #### Use of Holding Points
 
 Departures may occur from any intersection, providing that it does not interfere with the use of normal exits. 
@@ -102,59 +147,6 @@ Departing prop traffic shall be issued `A4`, but may be re-issued `A3` if requir
 ##### High Performance Aircraft
 
 High performance aircraft, such as private jets or King Airs, may be issued any holding point, provided that it does not interfere with landing traffic. If a high performance aircraft is using a usual vacate route, any aircraft on approach shall be notified and instructed to roll out to the next runway vacate point.
-
-## Code F
-
-ICAO has classified the B747-800 and A-380 aircraft as code F aircraft (wingspan from 65 to 80 meters and a width of the main fuselage from 14 to 16 meters)
-
-Special rules apply to Code F aircraft, such as taxiway and gate restrictions.
-
-#### Code F Information 
-
-Code F aircraft may only use Stand 30. For taxi Code F aircraft must use TWY `A` and shall be given full length either `A2` or `A7`. 
-
-#### Dakota Apron
-
-Dakota Apron is used exclusively by Parcel Air (APK), Airwork (AWK) and Texel Air (XLR). Aircraft utilising this apron may be instructed to start at their discretion and report for taxi.
-
-When ready for taxi, aircraft taxiing from the Dakota Apron may be instructed to cross Runway 29 and taxi via `F`, or may be given a [backtrack via Runway 29](#backtrack-via-rwy-29). A backtrack via Runway 29 is usually preferred, as it allows the Domestic ramp to continue to flow.
-
-#### Post Apron
-
-The Post Apron is on the northern side of `A4`, and is used by DHL, Qantas Freight and other freight traffic. Aircraft utilising this apron may be instructed to start at their discretion.
-
-#### Romeo Apron
-
-The Romeo Apron is a transitional apron, and is commonly used by aircraft arriving at the aerodrome without a contracted parking location, or for overflow or long-term parking. 
-
-!!! info
-    Aircraft utilising Stands R1A, R1B, and R3A stands may start on stand. Aircraft utilising Stands R1, R2 or R3 must be pushed onto `A15`.
-
-#### Antarctic Apron
-
-The Antarctic Apron is used for all military traffic, but may also be used for larger private traffic. Stands are not issued on this apron, and aircraft may start on stand.
-
-#### West of RWY 02/20
-
-Aircraft operating within the bounds of the Western Apron shall be controlled in line with [the Western Apron special conditions](#western-apron). 
-
-#### Use of RWY 29/11 as a Taxiway
-
-When RWY 29/11 is not in use Tower may delegate the use of RWY 29, south of the RWY 02/20 intersection, to Ground as a taxiway.
-
-##### Traffic crossing intersecting Runway
-
-When delegated RWY 29, the Ground Controller may authorise the aircraft to cross RWY 29 without seeking permission, or transferring that aircraft to Tower.
-
-!!! warning "When Runway 29/11 is in use"
-    The Ground Controller shall not assume crossing authority for the intersecting runway when Runway 29/11 is in use.
-
-!!! example "RTF for crossing a Runway"
-    **Christchurch Ground**: *"ANZ218, taxi holding point A6, Runway 02, via A. Cross Runway 29"*
-
-##### Backtrack via Rwy 29
-
-When delegated RWY 29, aircraft taxiing to or from the Dakota apron may be instructed to backtrack via RWY 29, avoiding taxiway `F`. Domestic prop traffic taxiing to or from the Domestic apron may also be instructed to backtrack via RWY 29 in order to avoid congestion on taxiway `F`.
 
 ### Tower
 
@@ -189,7 +181,7 @@ There are no discrete prop or jet SIDs at Christchurch, and the Controller shall
 
 Where multiple departures have been assigned the `PEDMI #Q` SID, the Tower Controller may, with coordination with CH TMA, instruct the aircraft to fly a heading of 160°M and climb to `A050`. 
 
-Where a prop and jet have both been assigned the `PEDMI #Q`, the jet shall be issued the assigned heading due to its capacily to climb faster above the city.
+Where a prop and jet have both been assigned the `PEDMI #Q`, the jet shall be issued the assigned heading due to its capability to climb faster above the city.
 
 !!! example "RTF and coordination for Assigned Heading departure"
     <span class="coldline">**CH TWR** -> **CH TMA**</span>: "Successive PEDMI departures. Request ANZ631 assigned heading 160°M climbing five thousand then yours for vectors. Second in queue."  
@@ -202,8 +194,20 @@ Where a prop and jet have both been assigned the `PEDMI #Q`, the jet shall be is
 
 <figure markdown>
   ![Runway 20 manually assigned heading to the south upon takeoff](./assets/nzch-rwy20-assignedheading.png)
-  <figcaption>Manually assigned heading of 160°M, climbing to <code>A050</code>. Visualization in LittleNavMap and accurate as of AIRAC 2304.</figcaption>
+  <figcaption>Manually assigned heading of 160°M, climbing to <code>A050</code>. Visualisation in LittleNavMap and accurate as of AIRAC 2304.</figcaption>
 </figure>
+
+## Special Requirements
+
+### Code F
+
+ICAO has classified the B747-800 and A-380 aircraft as code F aircraft (wingspan from 65 to 80 meters and a width of the main fuselage from 14 to 16 meters)
+
+Special rules apply to Code F aircraft, such as taxiway and gate restrictions.
+
+##### Code F Information
+
+Code F aircraft may only use Stand 30. For taxi Code F aircraft must use TWY `A` and shall be given full length either `A2` or `A7`.
 
 ## Special Conditions
 
