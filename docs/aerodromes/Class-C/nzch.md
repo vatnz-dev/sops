@@ -209,13 +209,6 @@ Special rules apply to Code F aircraft, such as taxiway and gate restrictions.
 
 Code F aircraft may only use Stand 30. For taxi Code F aircraft must use TWY `A` and shall be given full length either `A2` or `A7`.
 
-## Special Conditions
-
-!!! warning "Section still under development"
-    This section is still under development. 
-
-    Please note that these are special conditions that deviate away from norms. In this case, where a section links here, use your best judgement in the interim.
-
 <!-- ### Use of RWY 29/11 as the Duty RWY
 
 ### Western Apron
@@ -226,8 +219,5 @@ Arriving / departing traffic from 11/29
 ### GCH Apron
 
 ## VFR Procedures -->
-=======
-!!! info "This is a work in progress!"
-    This page is currently being worked on by the team. It'll be here soon! If you want to help out, [have a look how you can help!](../../contribute/index.md)
     
 
