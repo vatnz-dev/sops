@@ -247,10 +247,11 @@ There are no limitations on the assignment of STARs for Domestic traffic, howeve
 
 #### International
 
-OCR has three Noise Abatement STARs that shall be issued as first preference. If track shortening is provided, Controllers shall ensure that aircraft do not overfly the city.
+OCR has five Noise Abatement STARs that shall be issued as first preference. If track shortening is provided, Controllers shall ensure that aircraft do not overfly the city.
 
 | Runway | Procedure  | Transitions                                                             | Allowed A/C Categories |
 | ------ | ---------- | ----------------------------------------------------------------------- | ---------------------- |
+| 23L    | `ARADI #N` | `LUNBI`                                                                 | All                    |
 | 23L    | `BASIV #N` | `ELNOS` `SALAG` `UPLAR`                                                 | All                    |
 | 05R    | `RIKDI #N` | `KALAG` `AGREX` `TARIB` `ELPAK` `AGEDU` `IDSEM` `DABAS` `AKLOM` `OLBEX` | All                    |
 | 23L    | `TAZEY #N` | `PEBLU` `VELMO`                                                         | All                    |
