@@ -41,7 +41,7 @@
 
 .hero .hero-items h1 {
     color: currentColor;
-    font-family: Inter;
+    font-family: Inter, Helvetica, Arial, sans-serif;
     font-size: 40px;
     font-style: normal;
     font-weight: 600;
