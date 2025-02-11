@@ -54,6 +54,9 @@ The Skyline package is intended for initial setup of the client, or for larger c
 
     ![Sector Files](../assets/sector-files.png)
 
+!!! warning 
+    Users should archive the current `VATNZ.prf` file and keep it along with the   previous cycle `ESE` and `SCT2` files.
+
 4. Open EuroScope. A dialogue will appear notifying you that the active sector file cannot be found. **Click No**.
 5. A file selection dialogue will appear. Select the new `.sct2` file, and click 'Open'.
 6. Another dialogue box will appear, notifying you that the file has been loaded. **Click Yes** to make this the new active sector file.
