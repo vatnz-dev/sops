@@ -5,10 +5,10 @@ title: NZOH - Ohakea
 
 ## Positions
 
-| Position Name | Shortcode | Callsign | Frequency | Login ID | Usage     |
-| ------------- | --------- | -------- | --------- | -------- | --------- |
-| Ohakea SMC    | GOH       | NZOH_GND | 122.100   | NZOH_GND | Secondary |
-| Ohakea ADC    | TOH       | NZOH_TWR | 134.500   | NZOH_TWR | Primary   |
+| Position Name | Shortcode | Callsign      | Frequency | Login ID | Usage     |
+| ------------- | --------- | ------------- | --------- | -------- | --------- |
+| Ohakea SMC    | GOH       | Ohakea Ground | 122.100   | NZOH_GND | Secondary |
+| Ohakea ADC    | TOH       | Ohakea Tower  | 134.500   | NZOH_TWR | Primary   |
 
 ## Airspace
 
@@ -32,20 +32,18 @@ The Ohakea CTR follows the lateral boundaries as shown below from `SFC` to `A025
 
 #### IFR Clearances
 
-Controllers shall asign SIDs as suggested by the client. Where an aircraft requests the `OH#S` or `OH#R` departures these may be issued. An assigned heading shall be coordinated with OTMA.
+Controllers shall assign SIDs as suggested by the client. Where an aircraft requests the `OH#S` or `OH#R` departures these may be issued. An assigned heading shall be coordinated with OTMA.
 
 
-#### Start up and Taxiing
+#### Start up and Taxi
 
-All departing aircraft require start clearance, weather VFR or IFR.
+All departing VFR and IFR aircraft require start clearance.
 
-All fixed wing aircraft shall be taxiied to the full length holding point at all times unless an intersection departure is requested by the pilot.
+All fixed wing aircraft shall be issued taxi clearance to a full length holding point, unless an intersection departure is requested by the pilot.
 
 ## Tower
 
-For all circuit traffic - Jet shall fly the circuit at 1700 feet AMSL and all other aircraft shally fly the circuit at 1200 feet. Military aircraft **usually** report on base instead of downwind, however a base or downwind call shall surfice for all aircraft.
-
-Military aircraft are required to report "gear down" before a landing clearance may be issued (this includes touch and goes etc).
+For all circuit traffic - Jet shall fly the circuit at 1700 feet AMSL and all other aircraft shally fly the circuit at 1200 feet.
 
 ## VFR Procedures
 
