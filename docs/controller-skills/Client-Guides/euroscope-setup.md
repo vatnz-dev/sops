@@ -68,3 +68,7 @@ You can access the dialog box for all ATIS connections on the top bar, next to y
 ![ATIS Letters](../assets/EuroScope-multi-atis.png)
 
 The process is simple, just select one of the four ATIS dialogs and set it up as you usually would, then repeat as desired for up to four connections. The current ATIS letter for each connection will display in the box as it did in previous versions.
+
+``` { .yaml .copy }
+https://vatatis.nz/gen?arr=$arrrwy($atisairport)&dep=$deprwy($atisairport)&info=$atiscode&metar=$metar($atisairport)
+```
