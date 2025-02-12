@@ -61,4 +61,4 @@ Helicopter traffic may operate in Southfield at any time.
 
 OTMA shall coordinate any non-nominated approaches with TOH. Note - Military aircraft will often fly an approach for a non-nominated runway, then circle to land the nominated runway.
 
-TOH shall coordinate any IFR departure with OTMA for a radar release. And assigned heading where appliciable.
+TOH shall coordinate all IFR departures with OTMA for a radar release, as well as an assigned heading where applicable.
