@@ -32,7 +32,7 @@ The Ohakea CTR follows the lateral boundaries as shown below from `SFC` to `A025
 
 #### IFR Clearances
 
-Controllers shall assign SIDs as suggested by the client. Where an aircraft requests the `OH#S` or `OH#R` departures these may be issued. An assigned heading shall be coordinated with OTMA.
+Controllers shall assign SIDs as suggested by the client. The `OH#S` and `OH#R` departures may be issued on request from an aircraft. An assigned heading shall be coordinated with OTMA where applicable.
 
 
 #### Start up and Taxi
