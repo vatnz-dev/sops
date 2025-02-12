@@ -43,7 +43,7 @@ All fixed wing aircraft shall be issued taxi clearance to a full length holding 
 
 ## Tower
 
-For all circuit traffic - Jet shall fly the circuit at 1700 feet AMSL and all other aircraft shally fly the circuit at 1200 feet.
+For all circuit traffic - jet aircraft shall fly the circuit at `A017`, and all other aircraft shall fly the circuit at `A012`.
 
 ## VFR Procedures
 
