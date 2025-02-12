@@ -53,7 +53,7 @@ Miliary VFR flights arriving or departing the CTR/D shall be cleared via [Transi
 
 ### Helicopters
 
-VFR Helicopter traffic shall be issued a [Helo Departure](https://www.aip.net.nz/assets/AIP/Aerodrome-Charts/Ohakea-NZOH/NZOH_52.3_52.4.pdf) based on their direction of flight and where they are located on the aerodrome.
+VFR Helicopter traffic shall be issued a [Helo Departure](https://www.aip.net.nz/assets/AIP/Aerodrome-Charts/Ohakea-NZOH/NZOH_52.3_52.4.pdf){ target=new } based on their direction of flight and where they are located on the aerodrome.
 
 Helicopter traffic may operate in Southfield at any time.
 
