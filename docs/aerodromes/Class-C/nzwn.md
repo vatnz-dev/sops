@@ -16,7 +16,7 @@
 
 ### Event Only Positions
 
-!!! Danger
+!!! Danger "Important"
     The following are designated as Event Only positions, and may only be staffed during a VATNZ event where approved, or if explicitly authorised by the Operations Director.
 
 | Position Name             | Shortcode | Callsign              | Frequency | Login ID | Usage                       |
@@ -35,7 +35,7 @@ The Wellington CTR/C follows the lateral boundaries as shown below from `SFC` to
 
 ## Areas of Responsibility 
 
-The areas of responsiblility are as depicted below. 
+The areas of responsibility are as depicted below. 
 
 <figure markdown>
   ![Wellington Areas of Responsibility](./assets/nzwn-resp.png) 
@@ -65,7 +65,7 @@ As the flight time between Wellington, Nelson and Woodbourne (Blenheim) is so sh
 If online, Delivery shall confirm the STAR with Wellington TMA prior to passing to aircraft.
 
 !!! example "Clearance to Nelson"
-    **Wellington Delivery**: *"SDA333, Cleared Nelson 1 via LUBSI 2A arrival at 11,000ft, IVDAL 1Q departure, Sqauwk 5021"*
+    **Wellington Delivery**: *"SDA333, Cleared Nelson 1 via LUBSI 2A arrival at 11,000ft, IVDAL 1Q departure, Squawk 5021"*
 
 ### Ground
 
@@ -113,7 +113,7 @@ Aircraft that have been cleared to operate within the Kelburn, Somes, East, Sinc
 
 Aircraft departures shall be managed in-line with the [Runway Operations section](../../controller-skills/separation.md#runway-operations)
 
-Where possible, and where weather permits, the SIDs with visual departure segements shall be issued to small Approach Category A and B aircraft (C208, PC12), to ensure an immediate turn to their departure's IDF.
+Where possible, and where weather permits, the SIDs with visual departure segments shall be issued to small Approach Category A and B aircraft (C208, PC12), to ensure an immediate turn to their departure's IDF.
 
 !!! warning "Golden Bay Air BN-2 Aircraft"
     For the purposes of traffic separation, the Britten Norman Islander shall be classed as a Category A aircraft.
@@ -159,7 +159,7 @@ To ensure a divergent departure occurs due to traffic, WN TMA may request an air
 In order to lessen the amount of instructions given to VFR traffic, the Controller shall issue a published VFR arrival where possible. Once the Pilot reports overhead the respective VRP, the Controller shall integrate them with the circuit. [AIP Chart refers NZWN arrivals](https://www.aip.net.nz/assets/AIP/Aerodrome-Charts/Wellington-NZWN/NZWN_35.1_35.2.pdf){ target=new }.
 
 !!! important
-    If instructed to join via the overhead, it is the Controller's responsibilty to ensure that the missed approach is protected. A non-circuit side join may be given instead.
+    If instructed to join via the overhead, it is the Controller's responsibility to ensure that the missed approach is protected. A non-circuit side join may be given instead.
 
 
 ### Departure

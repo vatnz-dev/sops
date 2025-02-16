@@ -60,6 +60,10 @@ extra_css:
   - stylesheets/extra.css
   - stylesheets/admonitions.css
   - stylesheets/navigation.css
+  - stylesheets/custom-toc.css
+
+toc:
+  - toc_class: custom-toc
 
 # Extra Functions / Customizations
 extra:
@@ -100,3 +104,6 @@ markdown_extensions:
   md_in_html: {} #enables the use of image figures
   abbr: {}
   pymdownx.snippets: {}
+  toc:
+    toc_depth: 4
+
