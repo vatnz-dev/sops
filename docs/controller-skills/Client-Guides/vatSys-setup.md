@@ -33,14 +33,14 @@ A full user manual for this plugin can be found [**here**](https://www.vatnz.net
 
 ### Multiple ATIS Editor
 
-The Multiple ATIS Editor replaces the default vatSys ATIS editor and allows controllers to have up to four (4) ATIS connections whilst controlling.
+The Multiple ATIS Editor replaces the default vatSys ATIS editor and allows controllers to have up to four ATIS connections whilst controlling.
 
 <figure markdown>
   ![vatSys Tools Menu](../assets/vatSys-multi-atis-menu.png) 
   <figcaption>vatSys Multiple ATIS Editor</figcaption>
 </figure>
 
-This plugin follows the same color scheme as our domestic dataset and also has the same functions as the vatSys ATIS editor.
+This plugin follows the same colour scheme as our domestic dataset and also has the same functions as the vatSys ATIS editor.
 
 When a new METAR is issued, fields highlighted in yellow indicate a change that needs to be reviewed and updated.
 

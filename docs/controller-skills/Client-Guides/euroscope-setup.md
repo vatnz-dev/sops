@@ -30,7 +30,7 @@ The Skyline package is intended for initial setup of the client, or for larger c
 
 2. In Windows, open an explorer window and navigate to your EuroScope files. By default this is in the `AppData\Roaming\EuroScope` directory. Note: This may be in the `Documents\EuroScope\` directory for older installations of EuroScope.
 3. Create a new folder in this directory for your VATNZ files, the name of this folder does not matter.
-4.* Ensure you archive your current Skyline files if present, then drag the new files into this new folder.
+4. Ensure you archive your current Skyline files if present, then drag the new files into this new folder.
 
     <figure markdown>
       ![Euroscope VATNZ Folder](../assets/es-folder.png) 
