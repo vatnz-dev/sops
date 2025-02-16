@@ -42,7 +42,7 @@ The Multiple ATIS Editor replaces the default vatSys ATIS editor and allows cont
 
 This plugin follows the same color scheme as our domestic dataset and also has the same functions as the vatSys ATIS editor.
 
-Fields in yellow have changed and need to be reviewed and updated.
+When a new METAR is issued, fields highlighted in yellow indicate a change that needs to be reviewed and updated.
 
 <figure markdown>
   ![vatSys Tools Menu](../assets/vatSys-multi-atis-menu1.png) 
@@ -53,7 +53,7 @@ The new ATIS editor can be found under `Windows > ATIS Editor`
 
 <figure markdown>
   ![vatSys Tools Menu](../assets/vatSys-atis-menu.png) 
-  <figcaption>Updated Fields</figcaption>
+  <figcaption>vatSys Windows Menu</figcaption>
 </figure>
 
 !!! note
