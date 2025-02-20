@@ -45,11 +45,11 @@ This page lists some of the less-known aircraft callsigns that are routinely use
 | SAV  | Sunair            | Sunair                 | Yes                   |
 | SDA  | Sounds Air        | Sounds Air             | Yes                   |
 | SKL  | Sky               | SkyLine Aviation       | Yes                   |
-| TNZ  | Texel             | Texel Air              | Yes                   |
+| TNZ  | Texel Cargo       | Texel Air              | Yes                   |
 | VAL  | Vincent           | Vincent Aviation       | No                    |
 | VOZ  | Velocity          | Virgin Australia       | Yes                   |
 | WPR  | Westpac Rescue    | Westpac Rescue         | Yes                   |
-| XFX  | Aircorp           | Airways Corporation    | Yes |
+| XFX  | Aircorp           | Airways Corporation    | Yes                   |
 
 ## Military
 
