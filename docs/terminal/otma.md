@@ -5,7 +5,7 @@
 --8<-- "includes/abbreviations.md"
 
 !!! note "Ohakea Procedures"
-    The OTMA procedures build upon information already contained in the [NZOH Aerodrome Procedures](../aerodromes/Class-C/nzoh.md) and [NZPM Aerodrome Procedures](../aerodromes/Class-C/nzpm.md), any Controller logged on to OTMA should be familiar with those procedures.
+    The OTMA procedures build upon information already contained in the [NZOH Aerodrome Procedures](../aerodromes/Class-D/nzoh.md) and [NZPM Aerodrome Procedures](../aerodromes/Class-D/nzpm.md), any Controller logged on to OTMA should be familiar with those procedures.
 
 ## Positions
 
@@ -44,10 +44,9 @@ Ohakea CTA/C follows the lateral and vertical boundaries as shown below. Control
 
 ## Departures 
 
-
 ### Track Shortening on SIDs
 
-
+Controllers shall use their own discretion when using track shortening, keeping in mind an active MOAs. 
 
 ## Arrivals
 
@@ -55,6 +54,26 @@ OHA shall hand aircraft to OTMA no lower then `A110` unless coordinated.
 
 ### Palmerston North
 
-
+Controllers shall note that the following STARs lead to a visual approach or the `RNP X 25` and are least preffered unless requested by the pilot: `IDLUR#A`, `LUNBA#E` and`TUTSI#E`. 
 
 ### Ohakea
+
+Controllers shall note that all Ohakea STARs lead to RNP approaches, therefore manual vectoring will be required for aircraft on the ILS or VOR approach. 
+
+## WTMA Arrivals
+
+OHA may issue STAR clearances to aircraft bound for any aerodrome within WN TMAs airspace without coordination, provided that the STAR links with the nominated runway and approach type as stated in the ATIS. A request for use of a non-nominated approach requires agreement from both the TMA and ADC Controller. **This applies to aircraft crusing at `A110` or below only.**
+
+## Coordination
+
+### OHA
+
+OTMA shall coordinate any track shortening outside of their control area. 
+
+### OH TWR
+
+Any approach not nominated in the ATIS shall be coordinated with TOH.
+
+### PM TWR
+
+Any approach not nominated in the ATIS shall be coordinated with TPM.
