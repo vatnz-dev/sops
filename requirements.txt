@@ -1,9 +1,0 @@
-mkdocs-material==9.5.17
-mkdocs-awesome-pages-plugin
-mkdocs-git-revision-date-localized-plugin
-mkdocs-redirects
-mkdocs-embed-external-markdown
-mkdocs-glightbox
-pillow
-cairosvg
-urllib3<2.0
