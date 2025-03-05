@@ -13,6 +13,22 @@ VATNZ Controllers are able to staff all six permanent Enroute Sectors at once, i
 
 This section outlines some general rules for Enroute Controllers. More specific rules for each sector can be found on the individual sector pages.
 
+### ATIS Connections
+
+Controllers are permitted to create up to 4 ATIS connections on the network, controllers should adhere to the following guidance when creating ATIS connections;
+
+| Position                   | Primary ATIS Aerodromes    | Secondary ATIS Aerodromes (Inherited Sectors)  |
+| -------------------------- | -------------------------- | ---------------------------------------------- |
+| NZAA_CTR (OCR)             | NZAA, NZWP                 | NZNP (RAN) NZHN, NZTG, NZRO, NZGS (BAY)        |
+| NZCH-B_CTR (BAY)           | NZTG, NZRO, NZGS           | NZHN (RAN)                                     |
+| NZOH_CTR (OHA)             | NZPM, NZOH, NZNR           | None                                           |
+| NZCH-T_CTR (NAK)           | NZWN, NZNS, NZWB           | NZPM, NZOH, NZNR (OHA)                         |
+| NZCH-K_CTR (KAI)           | NZCH                       | None                                           |
+| NZCH-S_CTR (STH)           | NZDN, NZQN, NZNV           | NZCH (KAI)                                     |
+
+!!! note
+  Controllers should create ATIS connections for their position's primary aerodromes before secondary aerodromes within inherited or extended sectors. Should a controller find that an ATIS has already been created by a controller below them, they should attempt to satisfy the requirements of the above logic table before moving on to other aerodromes outside of their primary sector.
+
 ### STARs
 
 Generally, if an aircraft's destination is in a bordering sector, you should ensure that a STAR clearance has been issued. In most cases a STAR clearance will be issued by the sector immediately before it's destination sector.
