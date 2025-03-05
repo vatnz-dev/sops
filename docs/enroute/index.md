@@ -27,7 +27,7 @@ Controllers are permitted to create up to 4 ATIS connections on the network, con
 | NZCH-S_CTR (STH)           | NZDN, NZQN, NZNV           | NZCH (KAI)                                     |
 
 !!! note
-  Controllers should create ATIS connections for their position's primary aerodromes before secondary aerodromes within inherited or extended sectors. Should a controller find that an ATIS has already been created by a controller below them, they should attempt to satisfy the requirements of the above logic table before moving on to other aerodromes outside of their primary sector.
+    Controllers should create ATIS connections for aerodromes within their primary sector before secondary aerodromes within inherited or extended sectors. Should a controller find that an ATIS has already been created by a controller below them, they should attempt to satisfy the requirements of the above logic table before moving on to other aerodromes outside of their primary sector.
 
 ### STARs
 
