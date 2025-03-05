@@ -22,6 +22,12 @@ IFR aircraft are separated from other IFR aircraft, but VFR aircraft are not sep
 
 Pilots of VFR and IFR aircraft operating within Class D airspace must use a good lookout to separate themselves from each other as ATC separation is not provided. 
 
+## Tier 2 (Procedural Tower) Positions 
+
+As per the [VATSIM Global Controller Administration Policy](https://vatsim.net/docs/policy/global-controller-administration-policy), the positions within VATNZ FIRs that are of a procedural nature fall under the Tier 2 Designation. In order to staff these positions, VATNZ controllers must undergo a Procedural Tower endorsement through the training department. More information on this course can be found on the [VATNZ Website](https://www.vatnz.net/training/courses/procedural-tower/)
+
+Our procedural aerodromes are Gisborne (NZGS), Napier (NZNR), New Plymouth (NZNP), Nelson (NZNS), Dunedin (NZDN) and Invercargill (NZNV). These aerodromes are all Class D, therefore Class D airspace rules apply to these aerodromes. 
+
 --8<-- "includes/abbreviations.md"
 
 
