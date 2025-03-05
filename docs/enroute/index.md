@@ -31,7 +31,7 @@ Controllers are permitted to create up to 4 ATIS connections on the network, con
     
     Should a controller find that an ATIS has already been created by a controller below them, they should attempt to satisfy the requirements of the above logic table before moving on to other aerodromes outside of their primary sector.
 
-    ATIS connections within extended or inherited sectors should be surrendered if another controller logs onto that position, unless this has been co-ordinated.
+    ATIS connections within extended or inherited sectors should be surrendered if another controller logs onto that position, unless prior co-ordination has been made.
 
 
 
