@@ -13,6 +13,8 @@ Our vatSys dataset comes pre-loaded with everything a controller needs to get co
 
 Our vatSys dataset currently ships with two plugins, the VATNZ Standard Route Tool and the Multiple ATIS Editor.
 
+Both Plugins can be downloaded from the [VATNZ Website](https://www.vatnz.net/vatnz/resources/)
+
 ### VATNZ Standard Route Tool
 
 The VATNZ Standard Route Tool allows controllers to quickly look up standard routes that aircraft have filed, as well as issue pilots with a standard route on request.
@@ -58,6 +60,8 @@ The new ATIS editor can be found under `Windows > ATIS Editor`
 
 !!! note
     The default ATIS request function is still present in the menu bar, this is the native function built in to view other ATIS connections.
+
+Many thanks to AJ (badvectors) for creating this plugin, and sharing this plugin with us.    
 
 To check what plugins are currently installed with your client, go to `Info > About` 
 
