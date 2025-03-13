@@ -15,7 +15,7 @@ This section outlines some general rules for Enroute Controllers. More specific 
 
 ### ATIS Connection Management
 
-Controllers are permitted to create up to 4 ATIS connections on the network, controllers should adhere to the following guidance when creating ATIS connections;
+Controllers are permitted to create up to 4 ATIS connections on the network and they should adhere to the following guidance when creating ATIS connections;
 
 | Position                   | Primary ATIS Aerodromes    | Additional ATIS Aerodromes (Inherited Sectors) |
 | -------------------------- | -------------------------- | ---------------------------------------------- |

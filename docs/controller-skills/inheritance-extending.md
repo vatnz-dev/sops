@@ -42,7 +42,7 @@ When providing an extended service, it's important to realise that traffic level
 
 ### ATIS Management
 
-Controllers are permitted to make up to 4 ATIS connections on the network, guidance on which ATIS stations should be created can be found in the [Enroute Section](../enroute/index.md//#atis-connections)
+Controllers are permitted to make up to 4 ATIS connections on the network. Guidance on which ATIS stations should be created can be found in the [Enroute Section](../enroute/index.md//#atis-connections)
 
 ### Frequencies and Callsigns
 
