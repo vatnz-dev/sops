@@ -209,15 +209,30 @@ Special rules apply to Code F aircraft, such as taxiway and gate restrictions.
 
 Code F aircraft may only use Stand 30. For taxi Code F aircraft must use TWY `A` and shall be given full length either `A2` or `A7`.
 
-<!-- ### Use of RWY 29/11 as the Duty RWY
+### Use of RWY 29/11 as the Duty RWY
+
+During the use of RWY 29/11 as the duty runway controllers shall note that the only instrument approaches are the `RNP RWY 11` and the `RNP Y RWY 29 (AR)`. There for the nomiated approach in the ATIS shall be `RNP`. Visual approaches may still be used. 
+
+Tower may release `RWY 02/20` to GND. 
+
+All aircraft shall use full length unless requested otherwise. 
 
 ### Western Apron
 
-Arriving / departing traffic from 11/29
+When `RWY 02/20` is in use, aircraft shall call Delivery for clearance and Ground for start and taxi. When `RWY 11/29` is in use aircraft shall call Delivery for clearance, start and taxi. 
 
+When `RWY 11/29` is in use aircraft shall contact Ground when vacating the runway. When `RWY 02/20` is in use, aircraft shall remain on Tower when vacating the runway. 
+
+### Holding Points
+
+When `RWY 02/20` is in use aircraft shall be taxiied to `Hold 1 E` and handed over to Tower. Tower shall then taxi them down `D` for `Grass 20`, `Hold 3 E` for sealed `RWY 02/20`, or when traffic permits depart them off `Grass 02`. 
+
+Aircraft departing `RWY 11` shall be taxiied to either `E1` or `E2` before being handed to Tower. For aircraft departing `RWY29`, the same rules shall apply as using sealed `RWY 02/20`. 
 
 ### GCH Apron
 
-## VFR Procedures -->
+
+
+## VFR Procedures
     
 
