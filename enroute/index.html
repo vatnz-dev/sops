@@ -1127,6 +1127,15 @@ If the content you're looking for isn't available, please refer to the
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
+  <a href="#atis-connection-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      ATIS Connection Management
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#stars" class="md-nav__link">
     <span class="md-ellipsis">
       STARs
@@ -1884,7 +1893,7 @@ If the content you're looking for isn't available, please refer to the
         
   
   <span class="md-ellipsis">
-    EuroScope Setup
+    EuroScope Client Guide
   </span>
   
 
@@ -2869,6 +2878,15 @@ If the content you're looking for isn't available, please refer to the
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
+  <a href="#atis-connection-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      ATIS Connection Management
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#stars" class="md-nav__link">
     <span class="md-ellipsis">
       STARs
@@ -2922,6 +2940,59 @@ If the content you're looking for isn't available, please refer to the
 <p><a class="glightbox" href="../assets/nz-fir-airspace.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="NZ FIR Airspace Sectors" src="../assets/nz-fir-airspace.png" width="100%" /></a></p>
 <h2 id="general-rules-of-thumb-for-enr">General Rules of Thumb for ENR</h2>
 <p>This section outlines some general rules for Enroute Controllers. More specific rules for each sector can be found on the individual sector pages.</p>
+<h3 id="atis-connection-management">ATIS Connection Management</h3>
+<p>Controllers are permitted to create up to 4 ATIS connections on the network and they should adhere to the following guidance when creating ATIS connections;</p>
+<table>
+<thead>
+<tr>
+<th>Position</th>
+<th>Primary ATIS Aerodromes</th>
+<th>Additional ATIS Aerodromes (Inherited Sectors)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>NZAA_CTR (OCR)</td>
+<td>NZAA, NZWP</td>
+<td>NZNP (RAN) NZHN, NZTG, NZRO, NZGS (BAY)</td>
+</tr>
+<tr>
+<td>NZCH-B_CTR (BAY)</td>
+<td>NZTG, NZRO, NZGS</td>
+<td>NZHN (RAN)</td>
+</tr>
+<tr>
+<td>NZOH_CTR (OHA)</td>
+<td>NZPM, NZOH, NZNR</td>
+<td>None</td>
+</tr>
+<tr>
+<td>NZCH-T_CTR (NAK)</td>
+<td>NZWN, NZNS, NZWB</td>
+<td>NZPM, NZOH, NZNR (OHA)</td>
+</tr>
+<tr>
+<td>NZCH-K_CTR (KAI)</td>
+<td>NZCH</td>
+<td>None</td>
+</tr>
+<tr>
+<td>NZCH-S_CTR (STH)</td>
+<td>NZDN, NZQN, NZNV</td>
+<td>NZCH (KAI)</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition important">
+<p class="admonition-title">Important</p>
+<p>Controllers should create <strong>at least one</strong> ATIS connection for aerodromes within their primary sector before aerodromes within inherited or extended sectors.</p>
+<p>Controllers may create an ATIS connection at an aerodrome with high levels of traffic if that aerodrome falls within an inherited or extended sector.</p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Should a controller find that an ATIS has already been created by a controller below them, they should attempt to satisfy the requirements of the above logic table. </p>
+<p>ATIS connections within extended or inherited sectors should be surrendered if another controller logs onto that position, unless prior co-ordination has been made.</p>
+</div>
 <h3 id="stars">STARs</h3>
 <p>Generally, if an aircraft's destination is in a bordering sector, you should ensure that a STAR clearance has been issued. In most cases a STAR clearance will be issued by the sector immediately before it's destination sector.</p>
 <h3 id="altitude-management">Altitude Management</h3>
@@ -2952,7 +3023,7 @@ If the content you're looking for isn't available, please refer to the
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="January 6, 2024 07:50:01">January 6, 2024</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="March 14, 2025 08:11:48">March 14, 2025</span>
   </span>
 
     

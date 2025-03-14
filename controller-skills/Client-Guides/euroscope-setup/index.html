@@ -24,7 +24,7 @@
     
     
       
-        <title>EuroScope Setup - VATNZ Standard Operating Procedures</title>
+        <title>EuroScope Client Guide - VATNZ Standard Operating Procedures</title>
       
     
     
@@ -77,7 +77,7 @@
       
         <meta  property="og:type"  content="website" >
       
-        <meta  property="og:title"  content="EuroScope Setup - VATNZ Standard Operating Procedures" >
+        <meta  property="og:title"  content="EuroScope Client Guide - VATNZ Standard Operating Procedures" >
       
         <meta  property="og:description"  content="Procedures and helpful information for Controllers to use when controlling a VATNZ position on the VATSIM network." >
       
@@ -93,7 +93,7 @@
       
         <meta  name="twitter:card"  content="summary_large_image" >
       
-        <meta  name="twitter:title"  content="EuroScope Setup - VATNZ Standard Operating Procedures" >
+        <meta  name="twitter:title"  content="EuroScope Client Guide - VATNZ Standard Operating Procedures" >
       
         <meta  name="twitter:description"  content="Procedures and helpful information for Controllers to use when controlling a VATNZ position on the VATSIM network." >
       
@@ -179,7 +179,7 @@ If the content you're looking for isn't available, please refer to the
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              EuroScope Setup
+              EuroScope Client Guide
             
           </span>
         </div>
@@ -1815,7 +1815,7 @@ If the content you're looking for isn't available, please refer to the
           
   
   <span class="md-ellipsis">
-    EuroScope Setup
+    EuroScope Client Guide
   </span>
   
 
@@ -1826,7 +1826,7 @@ If the content you're looking for isn't available, please refer to the
         
   
   <span class="md-ellipsis">
-    EuroScope Setup
+    EuroScope Client Guide
   </span>
   
 
@@ -1860,6 +1860,30 @@ If the content you're looking for isn't available, please refer to the
       Updating Sector Files
     </span>
   </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#atis-editor-v323" class="md-nav__link">
+    <span class="md-ellipsis">
+      ATIS Editor (v3.2.3+)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="ATIS Editor (v3.2.3+)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#vat-atis-link-for-multiple-connections" class="md-nav__link">
+    <span class="md-ellipsis">
+      VAT-ATIS Link for Multiple Connections:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -2854,6 +2878,30 @@ If the content you're looking for isn't available, please refer to the
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#atis-editor-v323" class="md-nav__link">
+    <span class="md-ellipsis">
+      ATIS Editor (v3.2.3+)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="ATIS Editor (v3.2.3+)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#vat-atis-link-for-multiple-connections" class="md-nav__link">
+    <span class="md-ellipsis">
+      VAT-ATIS Link for Multiple Connections:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -2869,7 +2917,7 @@ If the content you're looking for isn't available, please refer to the
                   
 
 
-  <h1>EuroScope Setup</h1>
+  <h1>EuroScope Client Guide</h1>
 
 <!-- ADD Aerodrome Codes -->
 
@@ -2936,6 +2984,14 @@ If the content you're looking for isn't available, please refer to the
 <li>Another dialogue box will appear, notifying you that the file has been loaded. <strong>Click Yes</strong> to make this the new active sector file.</li>
 <li>When EuroScope loads, ensure that no error messages appear in the System box.</li>
 </ol>
+<h2 id="atis-editor-v323"><abbr title="Automatic Terminal Information Service">ATIS</abbr> Editor (v3.2.3+)</h2>
+<p>EuroScope version 3.2.3 adds support for multiple <abbr title="Automatic Terminal Information Service">ATIS</abbr> connections, allowing controllers to publish <abbr title="Automatic Terminal Information Service">ATIS</abbr> information for up to four aerodromes within their area of responsiblity.</p>
+<p>You can access the dialog box for all <abbr title="Automatic Terminal Information Service">ATIS</abbr> connections on the top bar, next to your primary frequency.</p>
+<p><a class="glightbox" href="../../assets/EuroScope-multi-atis.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img alt="ATIS Letters" src="../../assets/EuroScope-multi-atis.png" /></a></p>
+<p>Just select one of the four <abbr title="Automatic Terminal Information Service">ATIS</abbr> dialogs and set it up as you usually would, then repeat as desired for up to four connections. The current <abbr title="Automatic Terminal Information Service">ATIS</abbr> letter for each connection will display in the box, as it did in previous versions.</p>
+<h3 id="vat-atis-link-for-multiple-connections">VAT-<abbr title="Automatic Terminal Information Service">ATIS</abbr> Link for Multiple Connections:</h3>
+<div class="copy highlight"><pre><span></span><code><span class="l l-Scalar l-Scalar-Plain">https://vatatis.nz/gen?arr=$arrrwy($atisairport)&amp;dep=$deprwy($atisairport)&amp;info=$atiscode&amp;metar=$metar($atisairport)</span>
+</code></pre></div>
 
 
 
@@ -2956,7 +3012,7 @@ If the content you're looking for isn't available, please refer to the
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="February 18, 2025 21:40:38">February 18, 2025</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="March 14, 2025 08:11:48">March 14, 2025</span>
   </span>
 
     
