@@ -1,5 +1,5 @@
 ---
-title: EuroScope Setup
+title: EuroScope Client Guide
 ---
 
 --8<-- "includes/abbreviations.md"
@@ -61,3 +61,19 @@ The Skyline package is intended for initial setup of the client, or for larger c
 5. A file selection dialogue will appear. Select the new `.sct2` file, and click 'Open'.
 6. Another dialogue box will appear, notifying you that the file has been loaded. **Click Yes** to make this the new active sector file.
 7. When EuroScope loads, ensure that no error messages appear in the System box.
+
+## ATIS Editor (v3.2.3+)
+
+EuroScope version 3.2.3 adds support for multiple ATIS connections, allowing controllers to publish ATIS information for up to four aerodromes within their area of responsiblity.
+
+You can access the dialog box for all ATIS connections on the top bar, next to your primary frequency.
+
+![ATIS Letters](../assets/EuroScope-multi-atis.png)
+
+Just select one of the four ATIS dialogs and set it up as you usually would, then repeat as desired for up to four connections. The current ATIS letter for each connection will display in the box, as it did in previous versions.
+
+### VAT-ATIS Link for Multiple Connections:
+
+``` { .yaml .copy }
+https://vatatis.nz/gen?arr=$arrrwy($atisairport)&dep=$deprwy($atisairport)&info=$atiscode&metar=$metar($atisairport)
+```

@@ -13,6 +13,30 @@ VATNZ Controllers are able to staff all six permanent Enroute Sectors at once, i
 
 This section outlines some general rules for Enroute Controllers. More specific rules for each sector can be found on the individual sector pages.
 
+### ATIS Connection Management
+
+Controllers are permitted to create up to 4 ATIS connections on the network and they should adhere to the following guidance when creating ATIS connections;
+
+| Position                   | Primary ATIS Aerodromes    | Additional ATIS Aerodromes (Inherited Sectors) |
+| -------------------------- | -------------------------- | ---------------------------------------------- |
+| NZAA_CTR (OCR)             | NZAA, NZWP                 | NZNP (RAN) NZHN, NZTG, NZRO, NZGS (BAY)        |
+| NZCH-B_CTR (BAY)           | NZTG, NZRO, NZGS           | NZHN (RAN)                                     |
+| NZOH_CTR (OHA)             | NZPM, NZOH, NZNR           | None                                           |
+| NZCH-T_CTR (NAK)           | NZWN, NZNS, NZWB           | NZPM, NZOH, NZNR (OHA)                         |
+| NZCH-K_CTR (KAI)           | NZCH                       | None                                           |
+| NZCH-S_CTR (STH)           | NZDN, NZQN, NZNV           | NZCH (KAI)                                     |
+
+!!! important
+    Controllers should create **at least one** ATIS connection for aerodromes within their primary sector before aerodromes within inherited or extended sectors.
+
+    Controllers may create an ATIS connection at an aerodrome with high levels of traffic if that aerodrome falls within an inherited or extended sector.
+    
+
+!!! note
+    Should a controller find that an ATIS has already been created by a controller below them, they should attempt to satisfy the requirements of the above logic table. 
+    
+    ATIS connections within extended or inherited sectors should be surrendered if another controller logs onto that position, unless prior co-ordination has been made.
+
 ### STARs
 
 Generally, if an aircraft's destination is in a bordering sector, you should ensure that a STAR clearance has been issued. In most cases a STAR clearance will be issued by the sector immediately before it's destination sector.

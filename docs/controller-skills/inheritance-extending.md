@@ -39,6 +39,11 @@ When providing an extended service, it's important to realise that traffic level
 
     **Example** - If NAK elects to extend their services to include OCR, they are not permitted to use the RAN callsign or frequency unless approved by the Operations or Events Director. It is important to note that in this case, OCR automatically inherits the airspace normally delegated to RAN, instead of inheriting the RAN position. [See the OCR page for more information](../enroute/OCR.md#airspace).
 
+
+### ATIS Management
+
+Controllers are permitted to make up to 4 ATIS connections on the network. Guidance on which ATIS stations should be created can be found in the [Enroute Section](../enroute/index.md//#atis-connections)
+
 ### Frequencies and Callsigns
 
 As Controllers are providing a lateral extension of coverage, Controllers shall only use the Enroute Sector callsign in any RTF transmissions. Whilst an aircraft might physically be in aircraft normally delegated to Wellington Approach, for example, the control service is still being provided by Christchurch Control. 
