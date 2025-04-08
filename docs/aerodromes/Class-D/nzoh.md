@@ -15,14 +15,14 @@ title: NZOH - Ohakea
 The Ohakea CTR follows the lateral boundaries as shown below from `SFC` to `A025`, and is designated as `Class D` airspace.
 
 <figure markdown> 
-  ![Ohakea Tower Control Zone](./assets/nzoh-airspace.png)
+  ![Ohakea Tower Control Zone](../Class-D/Assets/nzoh-airspace.png)
   <figcaption>Ohakea Control Zone (CTR)</figcaption>
 </figure>
 
 ## Areas of Resposibility
 
 <figure markdown> 
-  ![Ohakea areas of responsibility](./assets/nzoh-resp.png)
+  ![Ohakea areas of responsibility](../Class-D/Assets/nzoh-resp.png)
   <figcaption>Ohakea Areas of Responsibility</figcaption>
 </figure>
 
@@ -45,11 +45,15 @@ All fixed wing aircraft shall be issued taxi clearance to a full length holding 
 
 For all circuit traffic - jet aircraft shall fly the circuit at `A017`, and all other aircraft shall fly the circuit at `A012`.
 
+## IFR Approaches
+
+As default for `RWY 27/09` the ILS shall be the nominated approach. For `RWY 15/33` as there is no ILS, `RNP` shall be the nominated appraoch. For any non-nominated approaches refer to [Coordination](#coordination)
+
 ## VFR Procedures
 
 ### Departures and Arrivals
 
-Miliary VFR flights arriving or departing the CTR/D shall be cleared via [Transit South, or Transit North.](https://www.aip.net.nz/assets/AIP/Aerodrome-Charts/Ohakea-NZOH/NZOH_35.1_35.2.pdf){ target=new } Plain language may be issued to Military VFR aircraft where needed and shall be issued to all civillian aircraft.
+Military VFR flights arriving or departing the CTR/D shall be cleared via [Transit South, or Transit North.](https://www.aip.net.nz/assets/AIP/Aerodrome-Charts/Ohakea-NZOH/NZOH_35.1_35.2.pdf){ target=new } Plain language may be issued to Military VFR aircraft where needed and shall be issued to all civilian aircraft.
 
 ### Helicopters
 
