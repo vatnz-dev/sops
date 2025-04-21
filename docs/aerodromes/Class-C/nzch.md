@@ -72,16 +72,16 @@ Pushback and startup clearances are managed by the Ground Controller. Due to the
 !!! info "Starting on Stand at the Terminal"
     Christchurch utilises W/E stands to allow for Props to park into the wind. Aircraft utilising these stands do not require a push-back, and may start on stand.
 
-| Stands / Gates    | Usage               | Has a W/E stand? | Pushback required? | Pushback Location | Notes                                                                 |
-| ----------------- | ------------------- | ---------------- | ------------------ | ----------------- |---------------------------------------------------------------------- |
-| 3 and 4           | Cat B Props         | Yes, only        | No                 | N/A               | Designed for C208 or PC12 type aircraft                               |
-| 5 to 8            | Turboprops          | Yes              | No                 | Twy `F`           | Both Nose-in, and W/E                                                 |
-| 9, 11, 12, 13, 15 | Turboprops          | Yes              | No                 | Twy `F`           | Both Nose-in, and W/E                                                 |
-| 10, 14            | Turboprops          | No               | No                 | Twy `F`           |                                                                       |
-| 16                | Turboprops and Jets | No               | No                 | Twy `F`           |                                                                       |
-| 17 to 22          | Turboprops and Jets | No               | **Yes**            | Twy `A`           | Primarily for Jets, but turboprop capable                             |
-| 26 to 28          | Jets                | No               | **Yes**            | Twy `A`           | If Rwy 02 is active, Stand 28 shall be pushed clear of `A4`           |
-| 29 to 35          | Jets                | No               | **Yes**            | Twy `A15`         | International Stands                                                  |
+| Stands / Gates    | Usage               | Has a W/E stand? | Pushback required? | Pushback Location | Notes                                                                                                 |
+| ----------------- | ------------------- | ---------------- | ------------------ | ----------------- |------------------------------------------------------------------------------------------------------ |
+| 3 and 4           | Cat B Props         | Yes, only        | No                 | N/A               | Designed for C208 or PC12 type aircraft                                                               |
+| 5 to 8            | Turboprops          | Yes              | No                 | N/A               | Only W/E                                                                                              |
+| 9, 11, 12, 13, 15 | Turboprops          | Yes              | No                 | N/A               | Both Nose-in, and W/E                                                                                 |
+| 10, 14            | Turboprops          | No               | No                 | Twy `F`           |                                                                                                       |
+| 16                | Turboprops and Jets | No               | No                 | Twy `F`           |                                                                                                       |
+| 17 to 22          | Turboprops and Jets | No               | **Yes**            | Twy `A`           | Primarily for Jets, but turboprop capable. May push straight back to allow multiple pushbacks onto `A`|
+| 26 to 28          | Jets                | No               | **Yes**            | Twy `A`           | If Rwy 02 is active, Stand 28 shall be pushed clear of `A4`                                           |
+| 29 to 35          | Jets                | No               | **Yes**            | Twy `A15`         | International Stands                                                                                  |
 
 #### Taxiing
 
