@@ -110,16 +110,16 @@ The Antarctic Apron is used for all military traffic, but may also be used for l
 
 Aircraft operating within the bounds of the Western Apron shall be controlled in line with [the Western Apron special conditions](#western-apron). 
 
-##### Use of RWY 29/11 as a Taxiway
+##### Use of RWY 11/29 as a Taxiway
 
-When RWY 29/11 is not in use Tower may delegate the use of RWY 29, south of the RWY 02/20 intersection, to Ground as a taxiway.
+When RWY 11/29 is not in use Tower may delegate the use of RWY 29, south of the RWY 02/20 intersection, to Ground as a taxiway.
 
 ###### Traffic crossing intersecting Runway
 
 When delegated RWY 29, the Ground Controller may authorise the aircraft to cross RWY 29 without seeking permission, or transferring that aircraft to Tower.
 
-!!! warning "When Runway 29/11 is in use"
-    The Ground Controller shall not assume crossing authority for the intersecting runway when Runway 29/11 is in use.
+!!! warning "When Runway 11/29 is in use"
+    The Ground Controller shall not assume crossing authority for the intersecting runway when Runway 11/29 is in use.
 
 !!! example "RTF for crossing a Runway"
     **Christchurch Ground**: *"ANZ218, taxi holding point A6, Runway 02, via A. Cross Runway 29"*
@@ -150,13 +150,13 @@ High performance aircraft, such as private jets or King Airs, may be issued any 
 
 ### Tower
 
-In normal operation, RWY 02/20 shall be used. The use of RWY 29/11 is detailed in [the special conditions section](#use-of-rwy-2911-as-the-duty-rwy).
+In normal operation, RWY 02/20 shall be used. The use of RWY 11/29 is detailed in [the special conditions section](#use-of-rwy-2911-as-the-duty-rwy).
 
 The Tower shall ensure that all VFR traffic within the Christchurch CTR/C does not conflict with any IFR operations. IFR operations shall take precedence over VFR.
 
 Unless established within the aerodrome circuit, Tower must ensure that no VFR aircraft are present within the Instrument Sector when an aircraft is either turning onto, or established on an approach. VFR aircraft are not authorised to operate under any approach path, or within 3nm laterally of the approach path.
 
-When RWY 02/20 is in use, aircraft that have been cleared to operate within the West or East sectors are deemed to be separated from IFR arrivals on the ILS or RNP Z approaches, but not from RNP (AR) approaches. When RWY 29/11 is in use, VFR aircraft shall not be authorised to operate within the West, East or Instrument sectors.
+When RWY 02/20 is in use, aircraft that have been cleared to operate within the West or East sectors are deemed to be separated from IFR arrivals on the ILS or RNP Z approaches, but not from RNP (AR) approaches. When RWY 11/29 is in use, VFR aircraft shall not be authorised to operate within the West, East or Instrument sectors.
 
 #### Simultaneous use of Grass and Sealed 02/20
 
@@ -209,9 +209,9 @@ Special rules apply to Code F aircraft, such as taxiway and gate restrictions.
 
 Code F aircraft may only use Stand 30. For taxi Code F aircraft must use TWY `A` and shall be given full length either `A2` or `A7`.
 
-### Use of RWY 29/11 as the Duty RWY
+### Use of RWY 11/29 as the Duty RWY
 
-During the use of RWY 29/11 as the duty runway controllers shall note that the only instrument approaches are the `RNP RWY 11` and the `RNP Y RWY 29 (AR)`. There for the nomiated approach in the ATIS shall be `RNP`. Visual approaches may still be used. 
+During the use of RWY 11/29 as the duty runway controllers shall note that the only instrument approaches are the `RNP RWY 11` and the `RNP Y RWY 29 (AR)`. Therefore the nominated approach shall be RNP, Visual approaches may still be used. 
 
 Tower may release `RWY 02/20` to GND. 
 
@@ -225,9 +225,9 @@ When `RWY 11/29` is in use aircraft shall contact Ground when vacating the runwa
 
 ### Holding Points
 
-When `RWY 02/20` is in use aircraft shall be taxiied to `Hold 1 E` and handed over to Tower. Tower shall then taxi them down `D` for `Grass 20`, `Hold 3 E` for sealed `RWY 02/20`, or when traffic permits depart them off `Grass 02`. 
+When `RWY 02/20` is in use aircraft shall be issued taxi clearance to `Hold 1 E` and handed over to Tower. Tower shall then issue taxi clearance to `D` for `Grass 20`, `Hold 3 E` for sealed `RWY 02/20`, or when traffic permits depart them off `Grass 02`. 
 
-Aircraft departing `RWY 11` shall be taxiied to either `E1` or `E2` before being handed to Tower. For aircraft departing `RWY29`, the same rules shall apply as using sealed `RWY 02/20`. 
+Aircraft departing `RWY 11` shall be issued taxi clearance to either `E1` or `E2` before being handed to Tower. For aircraft departing `RWY29`, the same rules shall apply as using sealed `RWY 02/20`. 
 
 ### GCH Apron
 
