@@ -219,13 +219,13 @@ All aircraft shall use full length unless requested otherwise.
 
 ### Western Apron
 
-When `RWY 02/20` is in use, aircraft shall call Delivery for clearance and Ground for start and taxi. When `RWY 11/29` is in use aircraft shall call Delivery for clearance, start and taxi. 
+When `RWY 02/20` is in use, aircraft shall call Delivery for clearance and Ground for start and taxi. When `RWY 11/29` is in use, aircraft shall call Delivery for clearance, start and taxi. 
 
-When `RWY 11/29` is in use aircraft shall contact Ground when vacating the runway. When `RWY 02/20` is in use, aircraft shall remain on Tower when vacating the runway. 
+When `RWY 11/29` is in use, aircraft shall contact Ground when vacating the runway. When `RWY 02/20` is in use, aircraft shall remain on Tower when vacating the runway. 
 
 ### Holding Points
 
-When `RWY 02/20` is in use aircraft shall be issued taxi clearance to `Hold 1 E` and handed over to Tower. Tower shall then issue taxi clearance to `D` for `Grass 20`, `Hold 3 E` for sealed `RWY 02/20`, or when traffic permits depart them off `Grass 02`. 
+When `RWY 02/20` is in use, aircraft shall be issued taxi clearance to `Hold 1 E` and handed over to Tower. Tower shall then issue taxi clearance to `D` for `Grass 20`, `Hold 3 E` for sealed `RWY 02/20`, or when traffic permits depart them off `Grass 02`. 
 
 Aircraft departing `RWY 11` shall be issued taxi clearance to either `E1` or `E2` before being handed to Tower. For aircraft departing `RWY29`, the same rules shall apply as using sealed `RWY 02/20`. 
 
@@ -233,8 +233,8 @@ Aircraft departing `RWY 11` shall be issued taxi clearance to either `E1` or `E2
 
 Fixed wing aircraft on the GCH Apron shall call Delivery for clearance and then Ground for start and taxi. However when `RWY 02` is in use, Delivery shall issue taxi instructions and hand aircraft to Tower, given the short taxi required. Controllers shall note that the GCH Apron **is** within the manouvering area. 
 
-Helicopters departing from the GCH shall call Tower prior to lift off for clearance. Tower shall issue the `Copter North/South/West` Departure depending on the requested direction of travel, an issue of the clearance implies take off clearance. Therefore should the helicopter need to hold on the ground, a instruction to "Hold on the ground" shall be issued until a time at which a departure can be facilitated. 
+Helicopters departing from the GCH shall call Tower prior to lift off for clearance. Tower shall issue the `Copter North/South/West` Departure depending on the requested direction of travel, an issue of the clearance implies take off clearance. Therefore, should the helicopter need to hold on the ground, a instruction to "Hold on the ground" shall be issued until a time at which a departure can be facilitated. 
 
 ## VFR Procedures
     
-Where possible it is preffered that controllers issue one of the published VFR Departures as stated on the [VFR Departure Procedures RWY 02/20](https://www.aip.net.nz/assets/AIP/Aerodrome-Charts/Christchurch-NZCH/NZCH_64.1_64.2.pdf){target=new} and the [VFR Departure Procedures RWY 29](https://www.aip.net.nz/assets/AIP/Aerodrome-Charts/Christchurch-NZCH/NZCH_64.3_64.4.pdf){target=new} charts. Where a miss understanding may occur or in low levels of traffic more plain langauge clearances may be issued.
+Where possible it is preffered that controllers issue one of the published VFR Departures as stated on the [VFR Departure Procedures RWY 02/20](https://www.aip.net.nz/assets/AIP/Aerodrome-Charts/Christchurch-NZCH/NZCH_64.1_64.2.pdf){target=new} and the [VFR Departure Procedures RWY 29](https://www.aip.net.nz/assets/AIP/Aerodrome-Charts/Christchurch-NZCH/NZCH_64.3_64.4.pdf){target=new} charts. Where a misunderstanding may occur, or in low levels of traffic, more plain langauge clearances may be issued.
