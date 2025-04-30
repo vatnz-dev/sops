@@ -46,7 +46,7 @@ Ohakea CTA/C follows the lateral and vertical boundaries as shown below. Control
 
 ### Track Shortening on SIDs
 
-Controllers shall use their own discretion when using track shortening, keeping in mind an active MOAs. 
+Controllers shall use their own discretion when using track shortening.
 
 ## Arrivals
 
@@ -54,7 +54,7 @@ OHA shall hand aircraft to OTMA no lower then `A110` unless coordinated.
 
 ### Palmerston North
 
-Controllers shall note that the following STARs lead to a visual approach or the `RNP X 25` and are least preffered unless requested by the pilot: `IDLUR#A`, `LUNBA#E` and`TUTSI#E`. 
+Controllers shall note that the following STARs lead to a visual approach or the `RNP X 25` and are least preffered unless requested by the pilot: `IDLUR#A`, `LUNBA#E` and `TUTSI#E`. 
 
 ### Ohakea
 
@@ -64,16 +64,21 @@ Controllers shall note that all Ohakea STARs lead to RNP approaches, therefore m
 
 OHA may issue STAR clearances to aircraft bound for any aerodrome within WN TMAs airspace without coordination, provided that the STAR links with the nominated runway and approach type as stated in the ATIS. A request for use of a non-nominated approach requires agreement from both the TMA and ADC Controller. **This applies to aircraft crusing at `A110` or below only.**
 
+
+## MOAs
+
+Controllers shall note that since there are no current VSOAs within VATNZ. MOAs shall not be used at anytime and therefore aircraft may fly through what would usually be restricted airspace. 
+
 ## Coordination
 
 ### OHA
 
 OTMA shall coordinate any track shortening outside of their control area. 
 
-### OH TWR
+### OH/PM TWR
 
-Any approach not nominated in the ATIS shall be coordinated with TOH.
+Any approach not nominated in the ATIS shall be coordinated with TOH or TPM as required.
 
-### PM TWR
+### WTMA
 
-Any approach not nominated in the ATIS shall be coordinated with TPM.
+Aircraft cruising at `A110` or below shall be handed directly from OTMA to WTMA. OTMA is responsible for issuing a STAR ([See WTMA Arrivals above](#wtma-arrivals)). Also, any approach not nominated in the ATIS shall be coordinated with WTMA prior to a STAR clearance being issued to the aircraft. 
