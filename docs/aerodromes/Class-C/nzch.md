@@ -42,17 +42,18 @@ The areas of responsibility are as depicted below.
 </figure>
 
 !!! Notes
-    The areas marked in orange have special condition-based rules, and can be read about here - [GCH Apron](#gch-apron) and [Western Apron](#aeroclub-apron).
+    The areas marked in orange have special condition-based rules, and can be read about here - [GCH Apron](#gch-apron-garden-city-helicopters) and [Western Apron](#western-apron).
 
 ### Transfer of Control Points
+                                                                                                                                                                                                  
+| Transfer Flow      | Requirements                                                          | Notes                                                                                             |
+| ------------------ | --------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
+| Delivery -> Ground | Once PDC has been issued either through Voice or DCL                  | Exceptions for the [Western](#western-apron) and [GCH](#gch-apron-garden-city-helicopters) aprons.|
+| Ground -> Tower    | Prior to arriving at their assigned hold, once clear of other traffic.| See conditions for [traffic crossing a Rwy](#traffic-crossing-intersecting-runway) and [traffic backtracking via Rwy 29](#backtrack-via-rwy-29).                                             |                                                                                                   |
+| Tower -> Ground    | Once clear of the active Rwy.                                         | Tower may taxi aircraft vacating via `A4` to `A4 Hold 1` without coordination.                    |
+| Tower -> Approach  | Once airborne, for airline traffic.                                   | VFR aircraft can expect to be handed over after vacating the zone                                 |
+| Approach -> Tower  | Once established on an ILS approach, or at the IAF on an RNP approach |                                                                                                   |
 
-| Transfer Flow      | Requirements                                                                                  | Notes                                                                                                                                            |
-| ------------------ | --------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Delivery -> Ground | Once PDC has been issued either through Voice or DCL                                          | Exceptions for the [Western](#western-apron) and [GCH](#gch-apron) aprons.                                                                       |
-| Ground -> Tower    | Prior to arriving at their assigned hold, once clear of other traffic.                        | See conditions for [traffic crossing a Rwy](#traffic-crossing-intersecting-runway) and [traffic backtracking via Rwy 29](#backtrack-via-rwy-29). |
-| Tower -> Ground    | Once clear of the active Rwy.                                                                 | Tower may taxi aircraft vacating via `A4` to `A4 Hold 1` without coordination.                                                                   |
-| Tower -> Approach  | For Airline traffic, once airborne. For GA traffic, prior to leaving the zone, if applicable. |                                                                                                                                                  |
-| Approach -> Tower  | Once established on an instrument final, or overhead the IAF if on an RNP approach.           |                                                                                                                                                  |
 
 
 ## Control Positions
@@ -61,7 +62,7 @@ The areas of responsibility are as depicted below.
 
 Clearances shall be issued by the Delivery position, and may given via DCL or voice.
 
-When applicable, Delivery may issue taxi instructions in line with the [GCH Special Conditions](#gch-apron) or [Western Apron Special Conditions](#western-apron).
+When applicable, Delivery may issue taxi instructions in line with the [GCH Special Conditions](#gch-apron-garden-city-helicopters) or [Western Apron Special Conditions](#western-apron).
 
 ### Ground
 
@@ -72,16 +73,16 @@ Pushback and startup clearances are managed by the Ground Controller. Due to the
 !!! info "Starting on Stand at the Terminal"
     Christchurch utilises W/E stands to allow for Props to park into the wind. Aircraft utilising these stands do not require a push-back, and may start on stand.
 
-| Stands / Gates    | Usage               | Has a W/E stand? | Pushback required? | Pushback Location | Notes                                                                                                 |
-| ----------------- | ------------------- | ---------------- | ------------------ | ----------------- |------------------------------------------------------------------------------------------------------ |
-| 3 and 4           | Cat B Props         | Yes, only        | No                 | N/A               | Designed for C208 or PC12 type aircraft                                                               |
-| 5 to 8            | Turboprops          | Yes              | No                 | N/A               | Only W/E                                                                                              |
-| 9, 11, 12, 13, 15 | Turboprops          | Yes              | No                 | N/A               | Both Nose-in, and W/E                                                                                 |
-| 10, 14            | Turboprops          | No               | No                 | Twy `F`           |                                                                                                       |
-| 16                | Turboprops and Jets | No               | No                 | Twy `F`           |                                                                                                       |
-| 17 to 22          | Turboprops and Jets | No               | **Yes**            | Twy `A`           | Primarily for Jets, but turboprop capable. May push straight back to allow multiple pushbacks onto `A`|
-| 26 to 28          | Jets                | No               | **Yes**            | Twy `A`           | If Rwy 02 is active, Stand 28 shall be pushed clear of `A4`                                           |
-| 29 to 35          | Jets                | No               | **Yes**            | Twy `A15`         | International Stands                                                                                  |
+| Stands / Gates    | Usage               | Has a W/E stand? | Pushback required? | Pushback Location | Notes                                                                                  |
+| ----------------- | ------------------- | ---------------- | ------------------ | ----------------- | -------------------------------------------------------------------------------------- |
+| 3 and 4           | Cat B Props         | Yes, only        | No                 | N/A               | Designed for C208 or PC12 type aircraft                                                |
+| 5 to 8            | Turboprops          | Yes              | No                 | N/A               | Only W/E                                                                               |
+| 9, 11, 12, 13, 15 | Turboprops          | Yes              | No                 | N/A               | Both Nose-in, and W/E                                                                  |
+| 10, 14            | Turboprops          | No               | No                 | Twy `F`           |                                                                                        |
+| 16                | Turboprops and Jets | No               | No                 | Twy `F`           |                                                                                        |
+| 17 to 22          | Turboprops and Jets | No               | **Yes**            | Twy `A`           | Jets, but can be used for turboprops, straight push to allow multiple pushbacks on `A` |
+| 26 to 28          | Jets                | No               | **Yes**            | Twy `A`           | If RWY 02 is active, Stand 28 shall be pushed clear of `A4`                            |
+| 29 to 35          | Jets                | No               | **Yes**            | Twy `A15`         | International Stands                                                                   |
 
 #### Taxiing
 
@@ -136,7 +137,7 @@ Departures may occur from any intersection, providing that it does not interfere
 
 When Runway 02 is in use, domestic jet traffic shall be issued `A6`, and international traffic issued `A7`. Domestic jet traffic may be re-issued `A7` if requested from the Pilot.
 
-Departing prop traffic is usually able to take a mid-field departure via `A5` or RWY 29. Arriving prop traffic will usually vacate via `A5`, so traffic may be instructed to hold short of RWY 02/20 on RWY 29, provided that Tower has [delegated the use of Runway 29 to Ground](#backtrack-via-rwy-29).
+Departing prop traffic is usually able to take a mid-field departure via `A5` or RWY 29. Arriving prop traffic will usually vacate via `A5`, so traffic may be instructed to hold short of RWY 02/20 on RWY 29, provided that Tower has delegated the use of Runway 29 to Ground.
 
 ##### RWY 20
 
@@ -150,7 +151,7 @@ High performance aircraft, such as private jets or King Airs, may be issued any 
 
 ### Tower
 
-In normal operation, RWY 02/20 shall be used. The use of RWY 11/29 is detailed in [the special conditions section](#use-of-rwy-2911-as-the-duty-rwy).
+In normal operation, RWY 02/20 shall be used. The use of RWY 11/29 is detailed in [the special conditions section](#use-of-rwy-1129-as-the-duty-rwy)
 
 The Tower shall ensure that all VFR traffic within the Christchurch CTR/C does not conflict with any IFR operations. IFR operations shall take precedence over VFR.
 
