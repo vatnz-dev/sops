@@ -64,7 +64,6 @@ Controllers shall note that all Ohakea STARs lead to RNP approaches, therefore m
 
 OHA may issue STAR clearances to aircraft bound for any aerodrome within WN TMAs airspace without coordination, provided that the STAR links with the nominated runway and approach type as stated in the ATIS. A request for use of a non-nominated approach requires agreement from both the TMA and ADC Controller. **This applies to aircraft crusing at `A110` or below only.**
 
-
 ## MOAs
 
 Controllers shall note that since there are no current VSOAs within VATNZ. MOAs shall not be used at anytime and therefore aircraft may fly through what would usually be restricted airspace. 
@@ -73,12 +72,12 @@ Controllers shall note that since there are no current VSOAs within VATNZ. MOAs 
 
 ### OHA
 
-OTMA shall coordinate any track shortening outside of their control area. 
+OTMA shall coordinate any track shortening outside of their control area.
 
 ### OH/PM TWR
 
-Any approach not nominated in the ATIS shall be coordinated with TOH or TPM as required.
+Any approach **not** nominated in the ATIS shall be coordinated with TOH or TPM as required.
 
 ### WTMA
 
-Aircraft cruising at `A110` or below shall be handed directly from OTMA to WTMA. OTMA is responsible for issuing a STAR ([See WTMA Arrivals above](#wtma-arrivals)). Also, any approach not nominated in the ATIS shall be coordinated with WTMA prior to a STAR clearance being issued to the aircraft. 
+Aircraft cruising at `A110` or below shall be handed directly from OTMA to WTMA. OTMA is responsible for issuing a STAR ([See WTMA Arrivals above](#wtma-arrivals)). Also, any approach **not** nominated in the ATIS shall be coordinated with WTMA prior to a STAR clearance being issued to the aircraft. 
