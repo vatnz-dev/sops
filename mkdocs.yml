@@ -53,7 +53,10 @@ plugins:
     height: auto
     zoomable: true
     draggable: false
-    
+
+# Build hooks
+hooks:
+  - hooks/airspace_validation.py
 
 # Styling Front-end
 extra_css:
@@ -61,9 +64,6 @@ extra_css:
   - stylesheets/admonitions.css
   - stylesheets/navigation.css
   - stylesheets/custom-toc.css
-
-toc:
-  - toc_class: custom-toc
 
 # Extra Functions / Customizations
 extra:
@@ -80,6 +80,9 @@ extra:
   analytics:
     provider: google
     property: G-TH1T6E4KK6
+  # Uncomment to bypass validation checks
+  # error_on_validation_fail: false
+
 # google analytics tag to be rotated during airac cycle workflow
 
 # Additional Markdown Extensions to use bundled icon sets
