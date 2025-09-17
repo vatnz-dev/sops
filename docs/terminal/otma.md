@@ -26,11 +26,11 @@ Ohakea CTA/C follows the lateral and vertical boundaries as shown below. Control
 
 #### Palmerston North
 
-|Transfer Flow         | Requirements                                                  | Notes                                                                       | 
-| -------------------- | ------------------------------------------------------------- | --------------------------------------------------------------------------- | 
-| Tower -> Approach    | Once the aircraft becomes airborne off the runway             | Tower shall instruct all aircraft to contact OTMA airborne                  |
-| Approach -> Control  | Once the aircraft are approaching the lateral bounds          | Aircraft may be handed off when nothing further is required of the aircraft | 
-| Control -> Approach  | Once the aircraft is approaching the cleared level by control |                                                                             | 
+|Transfer Flow         | Requirements                                                  | Notes                                                                                                                                              | 
+| -------------------- | ------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- | 
+| Tower -> Approach    | Once the aircraft becomes airborne off the runway             | Tower shall instruct all aircraft to contact OTMA airborne                                                                                         |
+| Approach -> Control  | Once the aircraft are approaching the lateral bounds          | Aircraft may be handed off when nothing further is required of the aircraft                                                                        | 
+| Control -> Approach  | Once the aircraft is approaching the cleared level by control |                                                                                                                                                    | 
 | Approach -> Tower    | Once established on final                                     | Aircraft on the RNP W 25 shall be instructed to contact Tower at `IVREP` and aircraft on the RNP 07 shall be instructed to contact tower at `GUTNI`|
 
 #### Ohakea
@@ -62,7 +62,7 @@ Controllers shall note that all Ohakea STARs lead to RNP approaches, therefore m
 
 ## WTMA Arrivals
 
-OHA may issue STAR clearances to aircraft bound for any aerodrome within WN TMAs airspace without coordination, provided that the STAR links with the nominated runway and approach type as stated in the ATIS. A request for use of a non-nominated approach requires agreement from both the TMA and ADC Controller. **This applies to aircraft crusing at `A110` or below only.**
+OTMA may issue STAR clearances to aircraft bound for any aerodrome within WTMA's airspace without coordination, provided that the STAR links with the nominated runway and approach type as stated in the ATIS. A request for use of a non-nominated approach requires agreement from both the TMA and ADC Controller. **This applies to aircraft crusing at `A110` or below only.**
 
 ## MOAs
 
@@ -77,7 +77,3 @@ OTMA shall coordinate any track shortening outside of their control area.
 ### OH/PM TWR
 
 Any approach **not** nominated in the ATIS shall be coordinated with TOH or TPM as required.
-
-### WTMA
-
-Aircraft cruising at `A110` or below shall be handed directly from OTMA to WTMA. OTMA is responsible for issuing a STAR ([See WTMA Arrivals above](#wtma-arrivals)). Also, any approach **not** nominated in the ATIS shall be coordinated with WTMA prior to a STAR clearance being issued to the aircraft. 
