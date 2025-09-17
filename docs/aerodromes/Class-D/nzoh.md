@@ -53,7 +53,7 @@ As default for `RWY 09/27` the ILS shall be the nominated approach. For `RWY 15/
 
 #### Visual Approaches
 
-Aircraft shall be restricted to `A030` unless otherwise coordinated with TOH.
+Aircraft shall be restricted to `A030` unless otherwise coordinated with OTMA.
 
 ## VFR Procedures
 
