@@ -54,7 +54,7 @@ OHA shall hand aircraft to OTMA no lower then `A110` unless coordinated.
 
 ### Palmerston North
 
-Controllers shall note that the following STARs lead to a visual approach or the `RNP X 25` and are least preffered unless requested by the pilot: `IDLUR#A`, `LUNBA#E` and `TUTSI#E`. 
+Controllers shall note that the following STARs lead to a visual approach or the `RNP X 25` and are least preferred unless requested by the pilot: `IDLUR#A`, `LUNBA#E` and `TUTSI#E`. 
 
 ### Ohakea
 
