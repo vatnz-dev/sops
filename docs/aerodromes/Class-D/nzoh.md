@@ -72,7 +72,7 @@ Helicopter traffic may operate in Southfield at any time.
 Except in an emergency or when on an authorised instrument approach procedure under IMC conditions, departing and arriving aircraft are to avoid
 overflying Sanson (R092/1.5 NM OH VOR/DME) and Bulls (R325/2NM OH VOR/DME). To meet this requirement when operating from the most critical runways the following specific procedures are to be adhered to:
 
-**Arrival — RWY 15 and RWY 27**
+### Arrival — RWY 15 and RWY 27
 
 - VFR flights are not to overfly Sanson or Bulls
 - IFR Flights - When visual, if time permits, IFR flights are to remain visually clear of
