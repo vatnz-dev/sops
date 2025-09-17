@@ -49,7 +49,7 @@ For all circuit traffic - jet aircraft shall fly the circuit at `A017`, and all 
 
 #### Instrument Approaches
 
-As default for `RWY 27/09` the ILS shall be the nominated approach. For `RWY 15/33` as there is no ILS, `RNP` shall be the nominated appraoch. For any non-nominated approaches refer to [Coordination](#coordination)
+As default for `RWY 09/27` the ILS shall be the nominated approach. For `RWY 15/33` as there is no ILS, `RNP` shall be the nominated approach. For any non-nominated approaches refer to [Coordination](#coordination)
 
 #### Visual Approaches
 
