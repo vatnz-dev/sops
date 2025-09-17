@@ -83,7 +83,7 @@ the procedure is expected.
 
 ## Level Restrictions for Departures
 
-ATC requirement: H24 — all IFR flights cleared at 11,000 ft or above:
+All IFR flights cleared at 11,000 ft or above:
 
 - On tracks between radials 215 to 261 (inclusive) Ohakea VOR/DME — maintain 10,000 ft to 60 OH
 - On all other tracks — maintain 10,000 ft to 30 OH
