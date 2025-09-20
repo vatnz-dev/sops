@@ -16,14 +16,14 @@ title: NZOH - Ohakea
 The Ohakea CTR follows the lateral boundaries as shown below from `SFC` to `A025`, and is designated as `Class D` airspace.
 
 <figure markdown> 
-  ![Ohakea Tower Control Zone](../Class-D/Assets/nzoh-airspace.png)
+  ![Ohakea Tower Control Zone](../Class-D/assets/nzoh-airspace.png)
   <figcaption>Ohakea Control Zone (CTR)</figcaption>
 </figure>
 
 ## Areas of Resposibility
 
 <figure markdown> 
-  ![Ohakea areas of responsibility](../Class-D/Assets/nzoh-resp.png)
+  ![Ohakea areas of responsibility](../Class-D/assets/nzoh-resp.png)
   <figcaption>Ohakea Areas of Responsibility</figcaption>
 </figure>
 
