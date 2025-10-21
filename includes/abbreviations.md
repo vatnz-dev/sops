@@ -48,4 +48,5 @@
 *[QTMA]: Queenstown Terminal Area (Queenstown Approach)
 *[RTF]: Radio Telephony
 *[DMAPS]: Divergent Missed Approach Procedures System
+*[WDTMA]: Williams Terminal Area (Williams Tower)
 <!-- ADD Aerodrome Codes -->
