@@ -12,4 +12,4 @@ The World Flight Teams can be found [here](https://www.worldflight.center/offici
 
 ## Route
 
-![Worldflight Route](World+Flight+2025.webp)
+![Worldflight Route](./assets/World+Flight+2025.webp)

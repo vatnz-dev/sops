@@ -1,6 +1,8 @@
 title: Terminal Areas
 nav:
-  - index.md
-  - ...
+  - auckland.md
+  - ohakea.md
+  - christchurch.md
+  - phoenix.md
 
 order: desc

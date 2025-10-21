@@ -12,13 +12,13 @@ South is responsible for initial climb.
 
 ### Auckland Radio (ARO)
 
-ARO is responsible for ensuring the separation of aircraft in the Enroute phase of flight.
+ARO is responsible for ensuring the separation of aircraft in the enroute phase of flight.
 
 For this event ARO is operating as a surveillance sector with radar minimums (5 nm laterally) and VHF comms.
 
 ### McMurdo Centre "Mac" (MAC)
 
-MAC is responsible for ensuring the separation of aircraft in the Enroute phase of flight.
+MAC is responsible for ensuring the separation of aircraft in the enroute phase of flight.
 
 For this event MAC is operating as a surveillance sector with radar minimums (5 nm laterally) and VHF comms.
 

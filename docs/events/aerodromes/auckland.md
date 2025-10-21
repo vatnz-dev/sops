@@ -4,8 +4,6 @@ title: 1. Auckland
 
 --8<-- "includes/abbreviations.md"
 
-## Positions
-
 ## Clearance Delivery
 
 ### Flight Plan Compliance

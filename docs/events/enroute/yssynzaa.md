@@ -8,7 +8,7 @@ title: 1. YSSY to NZAA / YSSY to NZOH
 
 ### Auckland Radio (Tasman) (ART)
 
-ART is responsible for ensuring the separation of aircraft in the Enroute phase of flight.
+ART is responsible for ensuring the separation of aircraft in the enroute phase of flight.
 
 For this event ART is operating as a surveillance sector with radar minimums (5 nm laterally) and VHF comms.
 

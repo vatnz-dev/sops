@@ -4,8 +4,6 @@ title: 3. Phoenix Field
 
 --8<-- "includes/abbreviations.md"
 
-## Positions
-
 ## Clearance Delivery
 
 ### Flight Plan Compliance

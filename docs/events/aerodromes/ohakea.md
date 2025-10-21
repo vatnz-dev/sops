@@ -4,8 +4,6 @@ title: 1a. Ohakea
 
 --8<-- "includes/abbreviations.md"
 
-## Positions
-
 ## Surface Movement Control (Ground)
 
 ### Flight Plan Compliance
