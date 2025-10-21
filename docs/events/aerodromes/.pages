@@ -1,6 +1,8 @@
 title: Aerodromes
 nav:
-  - index.md
-  - ...
+  - 1. Auckland (NZAA): auckland.md
+  - 1a. Ohakea (NZOH): ohakea.md
+  - 2. Chrsitchurch (NZCH): christchurch.md
+  - 3. Phoenix Field (NZFX): phoenix.md
 
 order: desc
