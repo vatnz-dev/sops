@@ -24,7 +24,7 @@ Pilots who cannot accept a DCL can request a voice clearance as detailed in the 
 
 ### Charts
 
-All relevant charts are linked [here](https://www.vatnz.net/events/wf2501)
+All relevant charts are linked [in the VATNZ Event](https://www.vatnz.net/events/wf2501)
 
 ### Enroute
 
@@ -79,7 +79,7 @@ Once landed, vacate the runway in accordance with the "Minimum Runway Occupancy"
 
 ### Charts
 
-All relevant charts are linked [here](https://www.vatnz.net/events/wf2501)
+All relevant charts are linked [in the VATNZ Event](https://www.vatnz.net/events/wf2501)
 
 ### Diversion From Auckland
 
@@ -160,7 +160,7 @@ For planning, we recommend taking the following additional fuel.
 
 ### Charts
 
-All relevant charts are linked [here](https://www.vatnz.net/events/wf2502)
+All relevant charts are linked [in the VATNZ Event](https://www.vatnz.net/events/wf2502)
 
 ### Departure Procedures
 
@@ -272,7 +272,7 @@ For planning, we recommend taking the following additional fuel.
 
 ### Charts
 
-All relevant charts are linked [here](https://www.vatnz.net/events/wf2502)
+All relevant charts are linked [in the VATNZ Event](https://www.vatnz.net/events/wf2502)
 
 ### Departure Procedures
 
@@ -385,7 +385,7 @@ Double check your planned alternate, it usually defaults to NZCH.
 
 ### Charts
 
-All relevant charts are linked [here](https://www.vatnz.net/events/wf2503)
+All relevant charts are linked [in the VATNZ Event](https://www.vatnz.net/events/wf2503)
 
 **Note**: There are no publicly available charts for NZFX.
 
@@ -477,7 +477,7 @@ For planning, we recommend taking the following additional fuel.
 
 ### Charts
 
-All relevant charts are linked [here](https://www.vatnz.net/events/wf2502)
+There are no publicly available charts for NZFX
 
 ### Departure Procedures
 
@@ -513,10 +513,10 @@ Williams Tower (NZWD_APP) provides a surveillance approach service to Phoenix.
 There are three ways of representing a heading in Antarctica. These are:
 
 1. Magnetic - This is largely useless as due to the magnetic variation it swings widely causing you to fly a curved track if you were to follow it.
-2. True - This points towards the true south pole at S090 E180. This is what all bearings will be given in.
+2. True - This points towards the true south pole at S090 E180. This is what all bearings/headings will be given in.
 3. Grid - This is a way of getting around the issue of many directions being south. A map grid is overlayed over the south pole and "North" is defined as pointing along the prime meridian. This is what the phoenix runway is defined using, hence RWY 33T has a True bearing of 160T. You may see this as a small box in the top corner of your ND labeled "GRID".
 
-We will be using True headings for all navigation. If your aircraft does not have a switch for true bearings advise atc if you are requested to fly one and an alternate instruction will be issued.
+We will be using True headings for all navigation. If your aircraft does not have a switch for true headings advise atc if you are requested to fly one and an alternate instruction will be issued.
 
 The True headings below do not align with the grid headings used to define the runway. Additionally the Runway drawn onto your ND may not align with the scenery. The recommended scenery is correct.
 
@@ -546,7 +546,8 @@ A DCL is a departure clearance delivered using the VATSIM private messaging func
 
 Pilots receive a clearance which will look like the following example:
 
-```ANZ440
+```
+ANZ440
 
 CLEARED 210300 NZCH
 
@@ -562,6 +563,7 @@ TRANSITION: SEE SID ROUTE: AACH3
 
 ALT: 320
 ```
+
 ### Readback
 
 In New Zealand you do not readback DCLs. Ensure you are squawking the correct transponder code and contact the next station with your request, the current ATIS, and the QNH.
