@@ -385,7 +385,7 @@ Double check your planned alternate, it usually defaults to NZCH.
 
 ### Charts
 
-All relevant charts are linked [here](https://www.vatnz.net/events/wf2502)
+All relevant charts are linked [here](https://www.vatnz.net/events/wf2503)
 
 **Note**: There are no publicly available charts for NZFX.
 
@@ -456,7 +456,7 @@ On first contact with Phoenix Tower, advise your callsign only. In response you 
 2. "ANZ123, Phoenix Tower, Runway XX, cleared to land"
 3. "ANZ123, Phoenix Tower continue approach number XX, Expect late landing clearance"
 
-Once landed, vacate the runway to the left and contact ground once clear of the runway on 121.900.
+Once landed, vacate the runway to the right and contact ground once clear of the runway on 121.900.
 
 ## Leg 4 - Phoenix Field (NZFX) to Union Glacier (SCGC)
 
@@ -487,11 +487,11 @@ All aircraft can expect the following departure procedure:
 
 ### Pushback
 
-There is no pushback required.
+There is no pushback required. Request start from Ground.
 
 ### Taxi
 
-Report to ground when ready to taxi.
+Report to ground when ready to taxi. You will Taxi via the snow to the end of the runway for departure.
 
 ## Additional Information
 
@@ -546,7 +546,7 @@ A DCL is a departure clearance delivered using the VATSIM private messaging func
 
 Pilots receive a clearance which will look like the following example:
 
-ANZ440
+```ANZ440
 
 CLEARED 210300 NZCH
 
@@ -561,7 +561,7 @@ ATIS A
 TRANSITION: SEE SID ROUTE: AACH3
 
 ALT: 320
-
+```
 ### Readback
 
 In New Zealand you do not readback DCLs. Ensure you are squawking the correct transponder code and contact the next station with your request, the current ATIS, and the QNH.
