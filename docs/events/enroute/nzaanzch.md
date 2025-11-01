@@ -16,11 +16,11 @@ RAN is responsible for initial climb.
 
 ### Taranaki (NAK)
 
-NAK is responsible for ensuring the separation of aircraft in the enroute phase of flight and issuing STAR clearance .
+NAK is responsible for ensuring the separation of aircraft in the enroute phase of flight and issuing STAR clearance.
 
 ### Kaikoura (KAI)
 
-KAI is 
+KAI is responsible for creating the initial sequence into NZCH.
 
 ## Coordination
 
