@@ -14,7 +14,7 @@
 | Hamilton TMA      | HTMA      | Bay Approach          | 125.300   | NZHN_APP | Secondary |
 
 !!! note Hamilton TMA
-    Controllers shall note that HTMA is a **secondary** position there for BAY must be staffed before a controller may log on HTMA. 
+    Controllers shall note that HTMA is a **secondary** position therefore BAY must be staffed before a controller may log on HTMA. 
 
 ## Airspace
 
@@ -24,12 +24,23 @@ Hamilton CTA/C follows the lateral and vertical boundaries as shown below. HTMA 
 
 ### Transfer of Control Points
 
+|Transfer Flow         | Requirements                                                  | Notes                                                                       |
+| -------------------- | ------------------------------------------------------------- | --------------------------------------------------------------------------- |
+| Tower -> Approach    | Once the aircraft becomes airborne off the runway             | Tower shall instruct all aircraft to contact HTMA airborne                  |
+| Approach -> Control  | Once the aircraft are approaching the lateral bounds          | Aircraft may be handed off when nothing further is required of the aircraft |
+| Control -> Approach  | Once the aircraft is approaching the cleared level by control | Aircraft may not always be cleared to A110 when handed to HTMA              |
+| Approach -> Tower    | Over the IAF (RNP) or established inbound on the VOR/DME      |                                                                             |
 
 ## Departures
 
+HTMA may climb all domestic aircraft to thier RFL. International Flight may only be climbed to FL250, with further climb from ENR.
 
 ## Arrivals
 
+ All arrivals will be handed to HTMA prior to A110. HTMA may track shorten as required.
+
+ HTMA shall note the `RNP Z` is CAT A/B/C/D only. While the `RNP Y` is CAT A/B.
 
 ## Coordination
 
+HTMA shall coordinate any non-nominated approaches with HTWR. Any track shortening outside of HTMA's CTA shall be coordinated with the appropriate ENR sector.
