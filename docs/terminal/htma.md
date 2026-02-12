@@ -18,8 +18,12 @@
 
 ## Airspace
 
-Hamilton CTA/C follows the lateral and vertical boundaries as shown below. HTMA has a vertical limit of `A095`.
+Hamilton CTA/C follows the lateral and vertical boundaries as shown below. HTMA has a vertical limit of `A095`. Controllers shall be aware of which frequency to hand aircraft to, as shown on the image below.
 
+<figure markdown>
+  ![Hamilton TMA](./assets/hntma-airspace.png) 
+  <figcaption>Hamilton TMA (CTA/D)</figcaption>
+</figure>
 
 
 ### Transfer of Control Points
@@ -39,7 +43,7 @@ HTMA may climb all domestic aircraft to thier RFL. International Flight may only
 
  All arrivals will be handed to HTMA prior to A110. HTMA may track shorten as required.
 
- HTMA shall note the `RNP Z` is CAT A/B/C/D only. While the `RNP Y` is CAT A/B.
+ HTMA shall note the `RNP Z` is CAT A/B/C/D only. While the `RNP Y` is CAT A/B only.
 
 ## Coordination
 
