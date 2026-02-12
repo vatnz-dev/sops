@@ -6,16 +6,16 @@ title: NZPM - Palmerston North
 
 # NZPM - Palmerston North
 
-| Position             | Callsign                | Frequency | Login    | Type      |
-| -------------------- | ----------------------- | --------- | -------- | --------- |
-| Palmerston North ADC | Palmerston North Tower  | 120.6     | NZPM_TWR | Primary   |
-| Palmerston North SMC | Palmerston North Ground | 121.7     | NZPM_GND | Secondary |
+| Position       | Callsign          | Frequency | Login    | Type      |
+| -------------- | ----------------- | --------- | -------- | --------- |
+| Palmerston ADC | Palmerston Tower  | 120.6     | NZPM_TWR | Primary   |
+| Palmerston SMC | Palmerston Ground | 121.7     | NZPM_GND | Secondary |
 
 ## Areas of Responsibility
 
 The areas of responsibilty are as depicted below. The areas of Taxiways `B`, `C` and `D` that fall under Tower's responsibility only apply if Grass 07/25 is in use. If not in use, this area shall be delegated to Ground.
 
-If Grass 07/25 is in use, aircraft taxiing for the sealed must be handed off before reaching the `B3`, `C3` or `D3` holds.
+If Grass 07/25 is in use, aircraft taxiing for the sealed must be handed off at the `B3`, `C3` or `D3` holds.
 
 Tower shall hand off all aircraft once clear of the sealed runway. If the grass runway is in use, they shall be handed to Ground when passing `B3`, `C3` or `D3`.
 
