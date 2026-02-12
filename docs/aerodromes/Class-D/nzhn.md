@@ -33,25 +33,23 @@ VFR traffic shall be issued one of the published VFR Departures and may be issue
 
 ## Ground Movements
 
-No aircraft should requrie pushback. However a start clearance is still required by **IFR aircraft only**. VFR aircraft do not require a start clearance. 
+No aircraft should require pushback. However a start clearance is still required for IFR traffic. 
 
-For aircraft parked on the Eastern Apron, they shall be cleared to "Via A backtrack and line up runway XX".
+For aircraft parked on the Eastern Apron, they shall be cleared to backtrack (if required) on 18L. 
 
-Aircraft parked on the Western Apron 
+Aircraft parked on the Western Apron (this should usually only apply to GA aircraft) should call prior to enterting the manouvering area. Note the `D1/2/3` holds shall be treated as a crossing given the proximity to `18R/36L`. Aicraft may backtrack `18L/36R` via `D` or taxi via `C` to `G1` as required. 
 
 ## Tower 
 
 
-
 ### IFR Arrivals
+
+Shall contact HTWR established inbound on an approach. 
 
 #### Instrument Approaches
 
-
-
-#### Visual Approaches
-
-
+The nominated approach should always be the RNP for either runway. 
 
 ## Coordination
 
+Shall coordinate any non-nominated appraoches including visual approaches. 
