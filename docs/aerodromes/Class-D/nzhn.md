@@ -18,7 +18,7 @@ The Hamilton CTR follows the lateral boundaries as shown below from `SFC` to `A0
   <figcaption>Hamilton Control Zone (CTR)</figcaption>
 </figure>
 
-## Area of Responsiblilty\
+## Area of Responsibility
 
 <figure markdown> 
   ![Ohakea Areas of Responsibility](../Class-D/assets/nzhn-resp.png)
@@ -37,7 +37,7 @@ No aircraft should require pushback. However a start clearance is still required
 
 For aircraft parked on the Eastern Apron, they shall be cleared to backtrack (if required) on 18L. 
 
-Aircraft parked on the Western Apron (this should usually only apply to GA aircraft) should call prior to enterting the manouvering area. Note the `D1/2/3` holds shall be treated as a crossing given the proximity to `18R/36L`. Aicraft may backtrack `18L/36R` via `D` or taxi via `C` to `G1` as required. 
+Aircraft parked on the Western Apron (this should usually only apply to GA aircraft) should call prior to entering the manouvering area. Note the `D1/2/3` holds shall be treated as a crossing given the proximity to `18R/36L`. Aircraft may backtrack `18L/36R` via `D` or taxi via `C` to `G1` as required. 
 
 ## Tower 
 
@@ -52,4 +52,4 @@ The nominated approach should always be the RNP for either runway.
 
 ## Coordination
 
-Shall coordinate any non-nominated appraoches including visual approaches. 
+Shall coordinate any non-nominated approaches including visual approaches. 
