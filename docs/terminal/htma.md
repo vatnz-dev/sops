@@ -37,7 +37,7 @@ Hamilton CTA/C follows the lateral and vertical boundaries as shown below. HTMA 
 
 ## Departures
 
-HTMA may climb all domestic aircraft to thier RFL. International Flight may only be climbed to FL250, with further climb from ENR.
+HTMA may climb all domestic aircraft to their RFL. International Flight may only be climbed to FL250, with further climb from ENR.
 
 ## Arrivals
 
