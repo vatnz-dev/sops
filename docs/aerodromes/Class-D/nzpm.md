@@ -13,7 +13,7 @@ title: NZPM - Palmerston North
 
 ## Areas of Responsibility
 
-The areas of responsibilty are as depicted below. The areas of Taxiways `B`, `C` and `D` that fall under Tower's responsibility only apply if Grass 07/25 is in use. If not in use, this area shall be delegated to Ground.
+The areas of responsibility are as depicted below. The areas of Taxiways `B`, `C` and `D` that fall under Tower's responsibility only apply if Grass 07/25 is in use. If not in use, this area shall be delegated to Ground.
 
 If Grass 07/25 is in use, aircraft taxiing for the sealed must be handed off at the `B3`, `C3` or `D3` holds.
 
