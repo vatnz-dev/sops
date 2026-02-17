@@ -37,7 +37,11 @@ Hamilton CTA/C follows the lateral and vertical boundaries as shown below. HTMA 
 
 ## Departures
 
-HTMA may climb all domestic aircraft to their RFL. International Flight may only be climbed to FL250, with further climb from ENR.
+HTMA may climb all domestic aircraft to their RFL.
+
+## International
+
+International Flights departing to the west via `UPLAR`, `MADEP` and `PEBLU` have a restriction of `A100` at `LEKUS`, this may be cancelled with coordination to RAN. All International departures may be climbed to FL250 by HTMA, with further climb from RAN.  
 
 ## Arrivals
 
