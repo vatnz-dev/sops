@@ -85,7 +85,7 @@ In the event of a missed approach, aicraft should be instructed to carry out the
 
 ### Approaches
 
-All arrivals terminate at `UBSET ` or `TODAN`, which are the IAF(s) for the RNP approach.
+All STARs terminate at `UBSET ` or `TODAN`, which are the IAF(s) for the RNP approach.
 
 ### Missed Approach
 
