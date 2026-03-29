@@ -76,7 +76,7 @@ All STARs terminate at `RUSTA` or `MORTA`, which are the IAF(s) for the RNP appr
 
 ### Missed Approach
 
-In the event of a missed approach, aicraft should be instructed to carry out the published missed approach procedure. This will have the aircraft climbing to 3000 feet, turning direct to `TORUV`, before holding at `RUSTA` 5000 feet or above. Aircrft can then be re-cleared for the RNP approach, or cleared a visual approach, should the conditions be suitable.
+In the event of a missed approach, aircraft should be instructed to carry out the published missed approach procedure. This will have the aircraft climbing to 3000 feet, turning direct to `TORUV`, before holding at `RUSTA` 5000 feet or above. Aircrft can then be re-cleared for the RNP approach, or cleared a visual approach, should the conditions be suitable.
 
 !!! note "Arriving aircraft"
     Aircraft inbound for an approach are permitted to descend to 3000 feet, at the discretion of the controller.
@@ -89,7 +89,7 @@ All STARs terminate at `UBSET ` or `TODAN`, which are the IAF(s) for the RNP app
 
 ### Missed Approach
 
-In the event of a missed approach, aicraft should be instructed to carry out the published missed approach procedure. This will have the aircraft climbing to 2000 feet, turning direct to `OLNUG`, before holding at `UBSET` at 4000 feet or above. Aircrft can then be re-cleared for the RNP approach, or cleared a visual approach, should the conditions be suitable.
+In the event of a missed approach, aircraft should be instructed to carry out the published missed approach procedure. This will have the aircraft climbing to 2000 feet, turning direct to `OLNUG`, before holding at `UBSET` at 4000 feet or above. Aircrft can then be re-cleared for the RNP approach, or cleared a visual approach, should the conditions be suitable.
 
 !!! note "Arriving aircraft"
     Aircraft inbound for an approach are permitted to descend to 3000 feet, at the discretion of the controller.
