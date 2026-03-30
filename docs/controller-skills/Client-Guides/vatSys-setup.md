@@ -70,4 +70,23 @@ To check what plugins are currently installed with your client, go to `Info > Ab
   <figcaption>vatSys Info Menu</figcaption>
 </figure>
 
+## Sector Extensions for VATSIM Radar
 
+The New Zealand vatSys profile includes the **VATNZ Plugin** by default.  
+This plugin automatically updates your extension lines based on which frequencies you have **primed** or **de‑primed**.
+
+Because of this, vatSys controllers **do not** need to manually enter extension information.  
+Your Controller Info will update automatically as you change your primed frequencies.
+
+#### How it works
+- When you **prime** a frequency, the plugin adds the correct sector extension lines.  
+- When you **de‑prime** a frequency, the plugin removes the corresponding extension lines.  
+
+This ensures that VATSIM Radar always see accurate, real‑time sector coverage for New Zealand.
+
+#### Manual action is not required
+Unlike EuroScope, vatSys has full capability to:
+- detect your active frequency  
+- update your Controller Info automatically  
+
+As long as you are using the latest **New Zealand Profile**, the plugin will handle all extension logic for you.
