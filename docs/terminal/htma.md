@@ -41,7 +41,7 @@ HTMA may climb all domestic aircraft to their RFL.
 
 ## International
 
-International Flights departing to the west via `UPLAR`, `MADEP` and `PEBLU` have a restriction of `A100` at `LEKUS`, this may be cancelled with coordination to RAN. All International departures may be climbed to FL250 by HTMA, with further climb from RAN.  
+International Flights departing to the west via `UPLAR`, `MADEP` and `PEBLU` have a restriction of `A100` at `LEKUS`, this may be cancelled with coordination to RAN. All International departures may be climbed to `FL250` by HTMA, with further climb from RAN.  
 
 ## Arrivals
 
