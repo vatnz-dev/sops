@@ -45,7 +45,7 @@ International Flights departing to the west via `UPLAR`, `MADEP` and `PEBLU` hav
 
 ## Arrivals
 
- All arrivals will be handed to HTMA prior to A110. HTMA may track shorten as required.
+ All arrivals will be handed to HTMA prior to `A110`. HTMA may track shorten as required.
 
  HTMA shall note the `RNP Z` is CAT A/B/C/D only. While the `RNP Y` is CAT A/B only.
 
