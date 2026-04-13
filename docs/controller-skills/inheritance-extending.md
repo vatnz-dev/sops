@@ -67,25 +67,25 @@ While VATSIM Radar now supports sector extensions and can display this extended 
     === "NAK extending to all of NZ"
 
         ```
-          Christchurch Control - Feedback? - vats.im/nz-fb
-          Need local charts? - vats.im/nz/charts  
-          Extending OCR 123.9, BAY 119.5, OHA 126.2, KAI 129.4, STH 129.3
+          Christchurch Control - Extending OCR 123.9, BAY 119.5, OHA 126.2, KAI 129.4, STH 129.3
+          Need local charts? - vats.im/nz/charts 
+          Feedback? - vats.im/nz-fb 
         ```
 
     === "KAI extending to OHA and STH"
 
         ```
-          Christchurch Control - Feedback? - vats.im/nz-fb
+          Christchurch Control - Extending OHA 126.2, STH 129.3
           Need local charts? - vats.im/nz/charts  
-          Extending OHA 126.2, STH 129.3
+          Feedback? - vats.im/nz-fb
         ```
 
     === "BAY extending to OHA"
 
         ```
-          Bay Approach - Feedback? - vats.im/nz-fb
-          Need local charts? - vats.im/nz/charts  
-          Extending OHA 126.2
+          Bay Approach - Extending OHA 126.2
+          Need local charts? - vats.im/nz/charts 
+          Feedback? - vats.im/nz-fb 
         ```
 
 ### Setting up vatSys
