@@ -43,7 +43,7 @@ Use this file as a starting point for creating consistent AIRAC changelog entrie
 - For RNP procedures, use the base name only (e.g. `RNP 30`) unless the procedure's *Type* column in the source explicitly includes `(AR)`. 
     - If the Type column contains `(AR)`, append ` (AR)` to the name (e.g. `RNP 30 (AR)`).
     - In practice: check the source Type field when drafting entries and only include `(AR)` when that field lists it.
-- All SIDs, STARs, or RNP approaches should be listed on the same line. When multiple procedures share the same reason, consolidate them under one bullet point with the common reason below (e.g., "The following SIDs have been amended: `NAME1`, `NAME2`. - Procedure reviewed."). For procedure-specific reasons, list them separately or append to the names (e.g., "`NAME1`, `NAME2`: minor track changes.").
+- All SIDs, STARs, or RNP approaches should be listed on the same line. When multiple procedures share the same reason, consolidate them under one bullet point with the common reason below (e.g., "The following SIDs have been amended: `NAME1`, `NAME2`. - Procedure reviewed."). For procedure-specific reasons, list them separately or append to the names (e.g., "`NAME1`, `NAME2`: minor track changes."). If no reason is given, no short note should be added.
 
 ## Example section labels
 
