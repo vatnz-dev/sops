@@ -77,3 +77,40 @@ Just select one of the four ATIS dialogs and set it up as you usually would, the
 ``` { .yaml .copy }
 https://vatatis.nz/gen?arr=$arrrwy($atisairport)&dep=$deprwy($atisairport)&info=$atiscode&metar=$metar($atisairport)
 ```
+
+## Sector Extensions for VATSIM Radar
+
+EuroScope does **not** support automatic sector extensions.  
+Controllers must manually enter their extension lines in the **Controller Info** field.
+
+Use the standard New Zealand sector–frequency mapping:
+
+| Sector | Frequency |
+|--------|-----------|
+| **OCR** | 123.9 |
+| **BAY** | 119.5 |
+| **NAK** | 123.7 |
+| **OHA** | 126.2 |
+| **STH** | 129.3 |
+| **KAI** | 129.4 |
+
+#### Example Manual Entry
+If you are controlling **OCR** and extending the country, your Controller Info should include:
+
+`Extending BAY 119.5, NAK 123.7, OHA 126.2, KAI 129.4, STH 129.3`
+
+![Controller Infomation](../assets/es_controller_info_extending.png)
+
+---
+
+### Manual Updates Required in EuroScope
+
+EuroScope does **not** automatically update your Controller Info when:
+
+- When your primed frequencies are changed
+
+Because of this limitation:
+
+> **Controllers are expected to manually update their Controller Info whenever sector coverage changes.**
+
+This ensures VATSIM Radar has up‑to‑date extension information.
