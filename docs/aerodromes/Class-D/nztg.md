@@ -9,6 +9,7 @@
 | Position Name  | Shortcode  | Callsign        | Frequency   | Login ID       | Usage      |
 | -------------- | ---------- | --------------- | ----------- | ---------------| ---------- |
 | Tauranga ADC   | TTG        | Tauranga Tower  | 118.300     | NZTG_TWR       | Primary    |
+| Tauranga SMC   | GTG        | Tauranga Ground | 123.400     | NZTG_GND       | Secondary  |
 
  
 
@@ -22,6 +23,16 @@ Tauranga has six Runways in total. While only four are regularly used, the remai
 ![NZTG Ground Movements](../../assets/nztg-ad.png)
 <figurecaption>Tauranga Ground Movements</figurecaption>
 </figure markdown>
+
+## Ground
+
+The ground controller is responsible for all manouvering areas and taxiways excluding the runways.
+
+Arriving aircraft shall be handed to GND once they are clear of all runways.
+
+Departing aircraft shall be handed to TWR once ready at the appropriate holding point. 
+
+GND must coordinate with TWR for any aircraft requiring to cross `RWY 16`. Aircraft may remain on the GND frequency for the crossing.
 
 ### Runways
 
