@@ -21,7 +21,7 @@ The Hamilton CTR follows the lateral boundaries as shown below from `SFC` to `A0
 ## Area of Responsibility
 
 <figure markdown> 
-  ![Ohakea Areas of Responsibility](../Class-D/assets/nzhn-resp.png)
+  ![Hamilton Areas of Responsibility](../Class-D/assets/nzhn-resp.png)
   <figcaption>Hamilton Areas of Responsibility</figcaption>
 </figure>
 
@@ -44,7 +44,7 @@ Aircraft parked on the Western Apron (this should usually only apply to GA aircr
 
 ### IFR Arrivals
 
-Shall contact HTWR established inbound on an approach. 
+Shall contact HTWR established inbound on an approach or when approaching the `CTR/D` on a visual approach. 
 
 #### Instrument Approaches
 
@@ -52,4 +52,4 @@ The nominated approach should always be the RNP for either runway.
 
 ## Coordination
 
-Shall coordinate any non-nominated approaches including visual approaches. 
+HTMA shall coordinate any non-nominated approaches including visual approaches with HTWR. 
