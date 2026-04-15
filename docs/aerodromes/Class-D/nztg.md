@@ -9,12 +9,13 @@
 | Position Name  | Shortcode  | Callsign        | Frequency   | Login ID       | Usage      |
 | -------------- | ---------- | --------------- | ----------- | ---------------| ---------- |
 | Tauranga ADC   | TTG        | Tauranga Tower  | 118.300     | NZTG_TWR       | Primary    |
+| Tauranga SMC   | GTG        | Tauranga Ground | 123.400     | NZTG_GND       | Secondary  |
 
  
 
 ## Layout
 
-Tauranga has four gates on the main apron and is home to over 20 private hangars. Tauranga also hosts multiple flight training organisations, which provides training for fixed wing, helicopter and gliders.
+Tauranga has seven gates on the main apron and is home to over 20 private hangars. Tauranga also hosts multiple flight training organisations, which provides training for fixed wing, helicopter and gliders.
 
 Tauranga has six Runways in total. While only four are regularly used, the remainder are used when required or when special operations are in place.
 
@@ -23,6 +24,16 @@ Tauranga has six Runways in total. While only four are regularly used, the remai
 <figurecaption>Tauranga Ground Movements</figurecaption>
 </figure markdown>
 
+## Ground
+
+The ground controller is responsible for all manouvering areas and taxiways excluding the runways.
+
+Arriving aircraft shall be handed to GND once they are clear of all runways.
+
+Departing aircraft shall be handed to TWR once ready at the appropriate holding point. 
+
+GND must coordinate with TWR for any aircraft requiring to cross `RWY 16`. Aircraft may remain on the GND frequency for the crossing.
+
 ### Runways
 
 | Runway Designator | Length (m) | Type       |
@@ -30,12 +41,12 @@ Tauranga has six Runways in total. While only four are regularly used, the remai
 | 07 - 25           | 1825       | Bituminous |
 | 07 - 25           | 750        | Grass      |
 | 04 - 22           | 640        | Grass      |
-| 16 - 34           | 575        | Grass      |
+| 16 - 34           | 305        | Grass      |
 
 
 Sealed 07/25 is always issued to aircraft with a gross weight of 5500kg or more, and can be issued to smaller aircraft on request. Gliders & helicopters are not permitted to use the sealed runway.
 
-Grass 25/07 is always issued to light aircraft with a gross weight of 5500kg or less and cannot be issued to Category B/C/D aircraft.
+Grass 07/25 is always issued to light aircraft with a gross weight of 5500kg or less and cannot be issued to Category B/C/D aircraft.
 
 !!! info "Grass 04/22 Glider Operations Only"
         The Airport Company has an agreement with the Gliding Club prohibiting use of Grass 04/22 for aircraft other than gliders and tow planes.
@@ -72,21 +83,27 @@ With permission from Tauranga Tower, traffic are permitted to conduct a standard
 
 ## Runway 07
 
-All arrivals terminate at `RUSTA` or `MORTA`, which are the IAF(s) for the RNP approach.
+All STARs terminate at `RUSTA` or `MORTA`, which are the IAF(s) for the RNP approach.
 
 ### Missed Approach
 
-In the event of a missed approach, aicraft should be instructed to carry out the published missed approach procedure. This will have the aircraft climbing to 2000 feet, turning direct to `LETGU`, before holding at `RUSTA` 5000 feet or above. Aircrft can then be re-cleared for the RNP approach, or cleared a visual approach, should the conditions be suitable.
+In the event of a missed approach, aircraft should be instructed to carry out the published missed approach procedure. This will have the aircraft climbing to 3000 feet, turning direct to `TORUV`, before holding at `RUSTA` 5000 feet or above. Aircrft can then be re-cleared for the RNP approach, or cleared a visual approach, should the conditions be suitable.
+
+!!! note "Arriving aircraft"
+    Aircraft inbound for an approach are permitted to descend to 3000 feet, at the discretion of the controller.
 
 ## Runway 25
 
 ### Approaches
 
-All arrivals terminate at `UBSET ` or `TODAN`, which are the IAF(s) for the RNP approach.
+All STARs terminate at `UBSET ` or `TODAN`, which are the IAF(s) for the RNP approach.
 
 ### Missed Approach
 
-In the event of a missed approach, aicraft should be instructed to carry out the published missed approach procedure. This will have the aircraft climbing to 2000 feet, turning direct to `LETGU`, before holding at `UBSET` at 4000 feet or above. Aircrft can then be re-cleared for the RNP approach, or cleared a visual approach, should the conditions be suitable.
+In the event of a missed approach, aircraft should be instructed to carry out the published missed approach procedure. This will have the aircraft climbing to 2000 feet, turning direct to `OLNUG`, before holding at `UBSET` at 4000 feet or above. Aircrft can then be re-cleared for the RNP approach, or cleared a visual approach, should the conditions be suitable.
+
+!!! note "Arriving aircraft"
+    Aircraft inbound for an approach are permitted to descend to 3000 feet, at the discretion of the controller.
 
 # Departures
 
@@ -124,7 +141,9 @@ There are various intermediate holding points specifically for the grass runways
         
 #### Sealed Hold Short Points
 
-- Sealed 07/25 (from the Main Apron) - `A2` or `A3`
+- Sealed 07/25 (from the Main Apron) - `A3` or `A2`
+
+- Sealed 07/25 (to the Main Apron) - `A1` or to the gate, when explicit clearance to cross the grass runway has been given.
 
 - Sealed 07 (light aircraft) - `W1` or `W2`
 

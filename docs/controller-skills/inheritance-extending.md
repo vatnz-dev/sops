@@ -58,36 +58,34 @@ It is also a good idea to annotate the current frequency in the aircraft's data 
 
 ### Technical Limitations
 
-At the moment, most Controller Clients only allow a Controller to have one sector as their primary. This means that if you provide an extended service, only your primary sector will show as online to Pilots through their pilot clients, and other mapping services such as vatSpy or Volanta.
+At the moment, most Controller Clients only allow a Controller to have one sector as their primary. This means that only your primary sector will show as online to pilots through their pilot clients and other mapping services such as vatSpy or Volanta, even if you are providing extended coverage.
 
-To alleviate this, a Controller providing an extended service shall make this known through their Controller Information when logging on. This text shall include the active sectors being extended to, as well as any applicable frequencies. In doing this, the Controller shall ensure that a link to the relevant charts and feedback link is still provided.
+While VATSIM Radar now supports sector extensions and can display this extended coverage correctly, other platforms still do not. Controllers providing an extended service shall ensure this is reflected appropriately in their Controller Information, including the active sectors being extended to and any applicable frequencies, while still providing links to the relevant charts and feedback.
 
 !!! example "Examples of Controller Info for Extended Services"
 
     === "NAK extending to all of NZ"
 
         ```
-          Christchurch Control - Extending to OCR 123.9, BAY 119.5, OHA 126.2, KAI 129.4, STH 129.3.
-          Need local charts? - vats.im/nz/charts  
-          Provide Feedback - vats.im/nz/atc-fb
+          Christchurch Control - Extending OCR 123.9, BAY 119.5, OHA 126.2, KAI 129.4, STH 129.3
+          Need local charts? - vats.im/nz/charts 
+          Feedback? - vats.im/nz-fb 
         ```
 
     === "KAI extending to OHA and STH"
 
         ```
-          Christchurch Control - Extending to OHA and STH
-          CH 129.4 // OH/PM 126.2 // QN 129.3
-          Need local charts? - vats.im/nz/charts
-          Provide Feedback - vats.im/nz/atc-fb
+          Christchurch Control - Extending OHA 126.2, STH 129.3
+          Need local charts? - vats.im/nz/charts  
+          Feedback? - vats.im/nz-fb
         ```
 
     === "BAY extending to OHA"
 
         ```
-          Bay Approach - Extending to OHA
-          HN, TG, GS - 119.5  /  OH, PM, NR - 126.2
-          Need local charts? - vats.im/nz/charts
-          Provide Feedback - vats.im/nz/atc-fb
+          Bay Approach - Extending OHA 126.2
+          Need local charts? - vats.im/nz/charts 
+          Feedback? - vats.im/nz-fb 
         ```
 
 ### Setting up vatSys
