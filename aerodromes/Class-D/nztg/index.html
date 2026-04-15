@@ -859,7 +859,16 @@ If the content you're looking for isn't available, please refer to the
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Layout">
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ground" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ground
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Ground">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -2621,11 +2630,11 @@ If the content you're looking for isn't available, please refer to the
   
   
     <li class="md-nav__item">
-      <a href="../../../controller-skills/Client-Guides/euroscope-setup/" class="md-nav__link">
+      <a href="../../../controller-skills/client-guides/vatSys-setup/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    EuroScope Client Guide
+    vatSys Client Guide
   </span>
   
 
@@ -2642,11 +2651,11 @@ If the content you're looking for isn't available, please refer to the
   
   
     <li class="md-nav__item">
-      <a href="../../../controller-skills/Client-Guides/vatSys-setup/" class="md-nav__link">
+      <a href="../../../controller-skills/client-guides/euroscope-setup/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    vatSys Client Guide
+    EuroScope Client Guide
   </span>
   
 
@@ -2951,6 +2960,27 @@ If the content you're looking for isn't available, please refer to the
   
   <span class="md-ellipsis">
     Cycle 2603 (19 Mar)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../changelog/2026/2604/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Cycle 2604 (16 Apr)
   </span>
   
 
@@ -3921,7 +3951,16 @@ If the content you're looking for isn't available, please refer to the
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Layout">
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ground" class="md-nav__link">
+    <span class="md-ellipsis">
+      Ground
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Ground">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -4208,15 +4247,28 @@ If the content you're looking for isn't available, please refer to the
 <td>NZTG_TWR</td>
 <td>Primary</td>
 </tr>
+<tr>
+<td>Tauranga <abbr title="Surface Movement Control">SMC</abbr></td>
+<td>GTG</td>
+<td>Tauranga Ground</td>
+<td>123.400</td>
+<td>NZTG_GND</td>
+<td>Secondary</td>
+</tr>
 </tbody>
 </table>
 <h2 id="layout">Layout</h2>
-<p>Tauranga has four gates on the main apron and is home to over 20 private hangars. Tauranga also hosts multiple flight training organisations, which provides training for fixed wing, helicopter and gliders.</p>
+<p>Tauranga has seven gates on the main apron and is home to over 20 private hangars. Tauranga also hosts multiple flight training organisations, which provides training for fixed wing, helicopter and gliders.</p>
 <p>Tauranga has six Runways in total. While only four are regularly used, the remainder are used when required or when special operations are in place.</p>
 <figure>
 <p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../../../assets/nztg-ad.png" data-desc-position="bottom"><img alt="NZTG Ground Movements" src="../../../assets/nztg-ad.png"></a>
 <figurecaption>Tauranga Ground Movements</figurecaption></p>
 </figure>
+<h2 id="ground">Ground</h2>
+<p>The ground controller is responsible for all manouvering areas and taxiways excluding the runways.</p>
+<p>Arriving aircraft shall be handed to GND once they are clear of all runways.</p>
+<p>Departing aircraft shall be handed to <abbr title="Tower">TWR</abbr> once ready at the appropriate holding point. </p>
+<p>GND must coordinate with <abbr title="Tower">TWR</abbr> for any aircraft requiring to cross <code>RWY 16</code>. Aircraft may remain on the GND frequency for the crossing.</p>
 <h3 id="runways">Runways</h3>
 <table>
 <thead>
@@ -4244,13 +4296,13 @@ If the content you're looking for isn't available, please refer to the
 </tr>
 <tr>
 <td>16 - 34</td>
-<td>575</td>
+<td>305</td>
 <td>Grass</td>
 </tr>
 </tbody>
 </table>
 <p>Sealed 07/25 is always issued to aircraft with a gross weight of 5500kg or more, and can be issued to smaller aircraft on request. Gliders &amp; helicopters are not permitted to use the sealed runway.</p>
-<p>Grass 25/07 is always issued to light aircraft with a gross weight of 5500kg or less and cannot be issued to Category B/C/D aircraft.</p>
+<p>Grass 07/25 is always issued to light aircraft with a gross weight of 5500kg or less and cannot be issued to Category B/C/D aircraft.</p>
 <div class="admonition info">
 <p class="admonition-title">Grass 04/22 Glider Operations Only</p>
 <pre><code>The Airport Company has an agreement with the Gliding Club prohibiting use of Grass 04/22 for aircraft other than gliders and tow planes.
@@ -4270,14 +4322,22 @@ If the content you're looking for isn't available, please refer to the
 <p>With permission from Tauranga Tower, traffic are permitted to conduct a standard overhead join, typically beginning from the East or West.</p>
 <h1 id="approaches">Approaches</h1>
 <h2 id="runway-07">Runway 07</h2>
-<p>All arrivals terminate at <code>RUSTA</code> or <code>MORTA</code>, which are the <abbr title="Initial Approach Fix">IAF</abbr>(s) for the <abbr title="Required Navigation Performance">RNP</abbr> approach.</p>
+<p>All <abbr title="Standard Terminal Arrival Routes">STARs</abbr> terminate at <code>RUSTA</code> or <code>MORTA</code>, which are the <abbr title="Initial Approach Fix">IAF</abbr>(s) for the <abbr title="Required Navigation Performance">RNP</abbr> approach.</p>
 <h3 id="missed-approach">Missed Approach</h3>
-<p>In the event of a missed approach, aicraft should be instructed to carry out the published missed approach procedure. This will have the aircraft climbing to 2000 feet, turning direct to <code>LETGU</code>, before holding at <code>RUSTA</code> 5000 feet or above. Aircrft can then be re-cleared for the <abbr title="Required Navigation Performance">RNP</abbr> approach, or cleared a visual approach, should the conditions be suitable.</p>
+<p>In the event of a missed approach, aircraft should be instructed to carry out the published missed approach procedure. This will have the aircraft climbing to 3000 feet, turning direct to <code>TORUV</code>, before holding at <code>RUSTA</code> 5000 feet or above. Aircrft can then be re-cleared for the <abbr title="Required Navigation Performance">RNP</abbr> approach, or cleared a visual approach, should the conditions be suitable.</p>
+<div class="admonition note">
+<p class="admonition-title">Arriving aircraft</p>
+<p>Aircraft inbound for an approach are permitted to descend to 3000 feet, at the discretion of the controller.</p>
+</div>
 <h2 id="runway-25">Runway 25</h2>
 <h3 id="approaches_1">Approaches</h3>
-<p>All arrivals terminate at <code>UBSET</code> or <code>TODAN</code>, which are the <abbr title="Initial Approach Fix">IAF</abbr>(s) for the <abbr title="Required Navigation Performance">RNP</abbr> approach.</p>
+<p>All <abbr title="Standard Terminal Arrival Routes">STARs</abbr> terminate at <code>UBSET</code> or <code>TODAN</code>, which are the <abbr title="Initial Approach Fix">IAF</abbr>(s) for the <abbr title="Required Navigation Performance">RNP</abbr> approach.</p>
 <h3 id="missed-approach_1">Missed Approach</h3>
-<p>In the event of a missed approach, aicraft should be instructed to carry out the published missed approach procedure. This will have the aircraft climbing to 2000 feet, turning direct to <code>LETGU</code>, before holding at <code>UBSET</code> at 4000 feet or above. Aircrft can then be re-cleared for the <abbr title="Required Navigation Performance">RNP</abbr> approach, or cleared a visual approach, should the conditions be suitable.</p>
+<p>In the event of a missed approach, aircraft should be instructed to carry out the published missed approach procedure. This will have the aircraft climbing to 2000 feet, turning direct to <code>OLNUG</code>, before holding at <code>UBSET</code> at 4000 feet or above. Aircrft can then be re-cleared for the <abbr title="Required Navigation Performance">RNP</abbr> approach, or cleared a visual approach, should the conditions be suitable.</p>
+<div class="admonition note">
+<p class="admonition-title">Arriving aircraft</p>
+<p>Aircraft inbound for an approach are permitted to descend to 3000 feet, at the discretion of the controller.</p>
+</div>
 <h1 id="departures">Departures</h1>
 <h2 id="procedure-assignment">Procedure Assignment</h2>
 <p>Our Controller Clients will usually assign the most suitable departure for that aircraft's flight plan and aircraft type.</p>
@@ -4312,7 +4372,10 @@ If the content you're looking for isn't available, please refer to the
 <h4 id="sealed-hold-short-points">Sealed Hold Short Points</h4>
 <ul>
 <li>
-<p>Sealed 07/25 (from the Main Apron) - <code>A2</code> or <code>A3</code></p>
+<p>Sealed 07/25 (from the Main Apron) - <code>A3</code> or <code>A2</code></p>
+</li>
+<li>
+<p>Sealed 07/25 (to the Main Apron) - <code>A1</code> or to the gate, when explicit clearance to cross the grass runway has been given.</p>
 </li>
 <li>
 <p>Sealed 07 (light aircraft) - <code>W1</code> or <code>W2</code></p>
@@ -4352,7 +4415,7 @@ If the content you're looking for isn't available, please refer to the
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"></path></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="October 21, 2025 09:33:40 UTC">October 21, 2025</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="April 10, 2026 23:51:11 UTC">April 10, 2026</span>
   </span>
 
     

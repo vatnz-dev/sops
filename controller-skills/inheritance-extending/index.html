@@ -2430,11 +2430,11 @@ If the content you're looking for isn't available, please refer to the
   
   
     <li class="md-nav__item">
-      <a href="../Client-Guides/euroscope-setup/" class="md-nav__link">
+      <a href="../client-guides/vatSys-setup/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    EuroScope Client Guide
+    vatSys Client Guide
   </span>
   
 
@@ -2451,11 +2451,11 @@ If the content you're looking for isn't available, please refer to the
   
   
     <li class="md-nav__item">
-      <a href="../Client-Guides/vatSys-setup/" class="md-nav__link">
+      <a href="../client-guides/euroscope-setup/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    vatSys Client Guide
+    EuroScope Client Guide
   </span>
   
 
@@ -2760,6 +2760,27 @@ If the content you're looking for isn't available, please refer to the
   
   <span class="md-ellipsis">
     Cycle 2603 (19 Mar)
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../changelog/2026/2604/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Cycle 2604 (16 Apr)
   </span>
   
 
@@ -3862,30 +3883,28 @@ If the content you're looking for isn't available, please refer to the
 <p>While most frequencies are still able to be heard at altitude, when an aircraft crosses a sector boundary the Controller shall also transfer the aircraft to the respective frequency for that area.</p>
 <p>It is also a good idea to annotate the current frequency in the aircraft's data block using its three letter designator - <code>NAK</code> or <code>OCR</code> for example.</p>
 <h3 id="technical-limitations">Technical Limitations</h3>
-<p>At the moment, most Controller Clients only allow a Controller to have one sector as their primary. This means that if you provide an extended service, only your primary sector will show as online to Pilots through their pilot clients, and other mapping services such as vatSpy or Volanta.</p>
-<p>To alleviate this, a Controller providing an extended service shall make this known through their Controller Information when logging on. This text shall include the active sectors being extended to, as well as any applicable frequencies. In doing this, the Controller shall ensure that a link to the relevant charts and feedback link is still provided.</p>
+<p>At the moment, most Controller Clients only allow a Controller to have one sector as their primary. This means that only your primary sector will show as online to pilots through their pilot clients and other mapping services such as vatSpy or Volanta, even if you are providing extended coverage.</p>
+<p>While VATSIM Radar now supports sector extensions and can display this extended coverage correctly, other platforms still do not. Controllers providing an extended service shall ensure this is reflected appropriately in their Controller Information, including the active sectors being extended to and any applicable frequencies, while still providing links to the relevant charts and feedback.</p>
 <div class="admonition example">
 <p class="admonition-title">Examples of Controller Info for Extended Services</p>
 <div class="tabbed-set tabbed-alternate" data-tabs="1:3"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio"><input id="__tabbed_1_2" name="__tabbed_1" type="radio"><input id="__tabbed_1_3" name="__tabbed_1" type="radio"><div class="tabbed-labels"><label for="__tabbed_1_1"><abbr title="Christchurch Control (Taranaki Sector)">NAK</abbr> extending to all of NZ</label><label for="__tabbed_1_2"><abbr title="Christchurch Control (Kaikoura Sector)">KAI</abbr> extending to <abbr title="Ohakea Control">OHA</abbr> and <abbr title="Christchurch Control (South Sector)">STH</abbr></label><label for="__tabbed_1_3"><abbr title="Christchurch Control (Bay Sector)">BAY</abbr> extending to <abbr title="Ohakea Control">OHA</abbr></label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
-<div class="highlight"><pre><span></span><code>  Christchurch Control - Extending to OCR 123.9, BAY 119.5, OHA 126.2, KAI 129.4, STH 129.3.
+<div class="highlight"><pre><span></span><code>  Christchurch Control - Extending OCR 123.9, BAY 119.5, OHA 126.2, KAI 129.4, STH 129.3
+  Need local charts? - vats.im/nz/charts 
+  Feedback? - vats.im/nz-fb 
+</code></pre></div>
+</div>
+<div class="tabbed-block">
+<div class="highlight"><pre><span></span><code>  Christchurch Control - Extending OHA 126.2, STH 129.3
   Need local charts? - vats.im/nz/charts  
-  Provide Feedback - vats.im/nz/atc-fb
+  Feedback? - vats.im/nz-fb
 </code></pre></div>
 </div>
 <div class="tabbed-block">
-<div class="highlight"><pre><span></span><code>  Christchurch Control - Extending to OHA and STH
-  CH 129.4 // OH/PM 126.2 // QN 129.3
-  Need local charts? - vats.im/nz/charts
-  Provide Feedback - vats.im/nz/atc-fb
-</code></pre></div>
-</div>
-<div class="tabbed-block">
-<div class="highlight"><pre><span></span><code>  Bay Approach - Extending to OHA
-  HN, TG, GS - 119.5  /  OH, PM, NR - 126.2
-  Need local charts? - vats.im/nz/charts
-  Provide Feedback - vats.im/nz/atc-fb
+<div class="highlight"><pre><span></span><code>  Bay Approach - Extending OHA 126.2
+  Need local charts? - vats.im/nz/charts 
+  Feedback? - vats.im/nz-fb 
 </code></pre></div>
 </div>
 </div>
@@ -3935,7 +3954,7 @@ If the content you're looking for isn't available, please refer to the
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"></path></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="March 14, 2025 08:11:48 UTC">March 14, 2025</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="April 13, 2026 10:31:12 UTC">April 13, 2026</span>
   </span>
 
     
