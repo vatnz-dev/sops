@@ -44,13 +44,24 @@ Traffic not parked on the main apron shall be taxiied as required to the runway.
 
 ## Departures
 
-Departing IFR traffic shall be handed to OHA at the following points - 
+Departing IFR traffic shall be handed to OHA passing `A080` if cruising at `A100` or above, using the following phraseology `Passing 8000 contact Ohakea 126.2`. For aircraft crusing at `A100` or below shall be instructed to contact OHA at 30 NR DME....`At 30 miles contact OHA 126.2`.  
 
 SIDs shall be assigned as suggested by the controller client or by pilot request. Visual departures may be issued as requested too. 
 
 ## Arrivals
 
 OHA shall issues STARs without coordination. 
+
+Aicraft shall be handed from OHA at the STAR originating waypoint. Ie. `BITIL`. Or if Non-RNAV then at 30 NR DME. 
+
+OHA shall hand aircraft over at the following waypoints if issued and RNAV STAR. 
+
+| Handover Waypoint | STAR Origin Waypoint    | 
+| ----------------- | ------------------------|
+| OBDEV             | GENDA                   | 
+| RIDLA             | OPAPA                   | 
+| SELDU             | BITIL                   | 
+| DOMON             | POTEX                   |
 
 
 ## VFR Procedures
