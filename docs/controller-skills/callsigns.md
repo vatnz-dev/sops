@@ -18,7 +18,7 @@ This page lists some of the less-known aircraft callsigns that are routinely use
 | AWK  | Airwork           | Airwork                | Yes                   |
 | CAC  | Canterbury        | Canterbury Aero Club   | Unsure                |
 | CAP  | Capital           | Helilink               | Yes                   |
-| CFL  | Careflight        | Unsure                 | Unsure                |
+| CFL  | Careflight        | Helicopter Services    | Yes                   |
 | CGD  | Coast Guard       | Coast Guard            | Yes                   |
 | CVA  | Chatham           | Air Chathams           | Yes                   |
 | FDC  | Fly Doc           | GCH Aviation           | Yes                   |
@@ -58,9 +58,9 @@ This page lists some of the less-known aircraft callsigns that are routinely use
 | BOE  | Boeing             | RNZAF    |
 | KIW  | Kiwi               | RNZAF    |
 | KRC  | Kiwi Rescue        | RNZAF    |
-| POS  | Poseidon           | RNZAF    |
+| PDN  | Poseidon           | RNZAF    |
 | ORI  | Orion              | RNZAF    |
-| HER  | Hercules / Herc    | RNZAF    |
+| HER  | Herc               | RNZAF    |
 | CDT  | Cadet              | RNZAF    |
 | TEX  | Texan              | RNZAF    |
 | KAH  | Kahu               | RNZAF    |
@@ -74,6 +74,17 @@ This page lists some of the less-known aircraft callsigns that are routinely use
 | RCH  | Reach              | USAF     |
 | ICE  | Ice                | Various  |
 | ASY  | Aussie             | RAAF     |
+
+### Military Formation/Tasking
+These can be used as an extention of the above callsigns when formation flights take place or for specific missions eg. TEXGLD or MAKBLU. 
+
+| Code | RTF Designator |
+| -----| ---------------|
+| GLD  | Gold           |
+| SIL  | Silver         | 
+| BRZ  | Bronze         | 
+| BLK  | Black          |
+| BLU  | Blue           | 
 
 ## Super Wake Turbulence Category
 
