@@ -69,11 +69,11 @@ Once established within the MBZ, provide weather information and any relevant tr
 Prior to relaying an IFR clearance, Paraparaumu Flight Service shall obtain the clearance from Wellington Approach.
 
 !!! example "Coordination For Clearance"
-    <span class="coldline">**Paraparaumu Flight Service** -> **Wellington Approach**</span>: "Request clearance KVY, GUGAK6 Departure, KAMET Transition, at 5000 feet, Runway 34."
+    <span class="coldline">**Paraparaumu Flight Service** -> **Wellington Approach**</span>: "Request clearance KVY, GUGAK6 Departure, KAMET Transition, at 5000 feet, Runway 34."  
     <span class="coldline">**Wellington Approach** -> **Paraparaumu Flight Service**</span>: "KVY, Approved."
 
 !!! example "Coordination For Release" 
-    <span class="coldline">**Paraparaumu Flight Service** -> **Wellington Approach**</span>: "Request release KVY"
+    <span class="coldline">**Paraparaumu Flight Service** -> **Wellington Approach**</span>: "Request release KVY"  
     <span class="coldline">**Wellington Approach** -> **Paraparaumu Flight Service**</span>: "KVY Released"
 
 Once the clearance has been acknowledged:
