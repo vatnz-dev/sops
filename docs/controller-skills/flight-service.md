@@ -66,53 +66,37 @@ The following examples demonstrate generic AFIS phraseology. Aerodrome-specific 
 
 !!! example "Aircraft Operating Within the AFIS Area"
 
-    **Pilot:**  
-    *"[Aerodrome] Flight Service, KAL"*
+    **Pilot**: *"[Aerodrome] Flight Service, KAL"*
 
-    **AFIS:**  
-    *"KAL, [Aerodrome] Flight Service"*
+    **AFIS**: *"KAL, [Aerodrome] Flight Service"*
 
-    **Pilot:**  
-    *"KAL, [Aircraft Type], on the apron, 2 POB, to operate [area], [altitude]"*
+    **Pilot**: *"KAL, [Aircraft Type], on the apron, 2 POB, to operate [area], [altitude]"*
 
-    **AFIS:**  
-    *"KAL, preferred runway SEAL 34, surface wind 340 degrees 10 knots, QNH 1001, traffic is [traffic information]"*
+    **AFIS**: *"KAL, preferred runway SEAL 34, surface wind 340 degrees 10 knots, QNH 1001, traffic is [traffic information]"*
 
-    **Pilot:**  
-    *"Runway 34, QNH 1001, copy traffic and conditions, KAL"*
+    **Pilot**: *"Runway 34, QNH 1001, copy traffic and conditions, KAL"*
 
-    **Pilot:**  
-    *"KAL taxiing to Holding Point Alpha"*
+    **Pilot**: *"KAL taxiing to Holding Point Alpha"*
 
-    **AFIS:**  
-    *"KAL"*
+    **AFIS**: *"KAL"*
 
-    **Pilot:**  
-    *"KAL lining up SEAL 34"*
+    **Pilot**: *"KAL lining up SEAL 34"*
 
-    **AFIS:**  
-    *"KAL, [traffic] short final SEAL 34"*
+    **AFIS**: *"KAL, [traffic] short final SEAL 34"*
 
-    **Pilot:**  
-    *"KAL, roger, holding short SEAL 34"*
+    **Pilot**: *"KAL, roger, holding short SEAL 34"*
 
-    **AFIS:**  
-    *"KAL"*
+    **AFIS**: *"KAL"*
 
-    **Pilot:**  
-    *"KAL lining up SEAL 34 behind the [traffic]"*
+    **Pilot**: *"KAL lining up SEAL 34 behind the [traffic]"*
 
-    **AFIS:**  
-    *"KAL"*
+    **AFIS**: *"KAL"*
 
-    **Pilot:**  
-    *"KAL rolling SEAL 34 departing [direction]"*
+    **Pilot**: *"KAL rolling SEAL 34 departing [direction]"*
 
-    **AFIS:**  
-    *"KAL"*
+    **AFIS**: *"KAL"*
 
-    **Pilot:**  
-    *"KAL operating [area], [altitude]"*
+    **Pilot**: *"KAL operating [area], [altitude]"*
 
 !!! note "Operations Within the AFIS Area"
     Pilots should remain on the Flight Service frequency whilst operating within the AFIS area or circuit.
@@ -125,40 +109,38 @@ The following examples demonstrate generic AFIS phraseology. Aerodrome-specific 
 
 !!! example "Inbound Aircraft"
 
-    **Pilot:**  
-    *"[Aerodrome] Flight Service, TWN"*
+    **Pilot**: *"[Aerodrome] Flight Service, TWN"*
 
-    **AFIS:**  
+    **AFIS**:  
     *"TWN, [Aerodrome] Flight Service"*
 
-    **Pilot:**  
-    *"TWN, [Aircraft Type], [position], [altitude], two POB, joining, full stop"*
+    **Pilot**: *"TWN, [Aircraft Type], [position], [altitude], two POB, joining, full stop"*
 
-    **AFIS:**  
+    **AFIS**:  
     *"TWN, preferred runway SEAL 34, surface wind 340 degrees 10 knots, QNH 1001, traffic is [traffic information]"*
 
-    **Pilot:**  
+    **Pilot**:
     *"Runway 34, QNH 1001, copy traffic and conditions, TWN"*
 
-    **Pilot:**  
+    **Pilot**:  
     *"TWN joining left downwind SEAL 34"*
 
-    **AFIS:**  
+    **AFIS**:  
     *"TWN, [relevant circuit traffic]"*
 
-    **Pilot:**  
+    **Pilot**:  
     *"Copy traffic"*
 
-    **Pilot:**  
+    **Pilot**:  
     *"TWN left downwind SEAL 34, full stop"*
 
-    **AFIS:**  
+    **AFIS**:  
     *"TWN"*
 
-    **Pilot:**  
+    **Pilot**:  
     *"TWN rolling through SEAL 34 to vacate"*
 
-    **AFIS:**  
+    **AFIS**:  
     *"TWN"*
 
 ---
@@ -167,51 +149,37 @@ The following examples demonstrate generic AFIS phraseology. Aerodrome-specific 
 
 !!! example "Relaying an IFR Clearance"
 
-    **Pilot:**  
-    *"[Aerodrome] Flight Service, KVY"*
+    **Pilot**: *"[Aerodrome] Flight Service, KVY"*
 
-    **AFIS:**  
-    *"KVY, [Aerodrome] Flight Service"*
+    **AFIS**: *"KVY, [Aerodrome] Flight Service"*
 
-    **Pilot:**  
-    *"KVY at the apron, six POB, request IFR clearance to [Destination], 5000 feet"*
+    **Pilot**: *"KVY at the apron, six POB, request IFR clearance to [Destination], 5000 feet"*
 
-    **AFIS:**  
-    *"KVY, preferred runway SEAL 34, surface wind 320 degrees 10 knots, QNH 1001, clearance on request"*
+    **AFIS**: *"KVY, preferred runway SEAL 34, surface wind 320 degrees 10 knots, QNH 1001, clearance on request"*
 
     *See **Coordination with the Overlying ATS Unit** below.*
 
-    **AFIS:**  
-    *"KVY, clearance available"*
+    **AFIS**: *"KVY, clearance available"*
 
-    **Pilot:**  
-    *"KVY, ready to copy"*
+    **Pilot**: *"KVY, ready to copy"*
 
-    **AFIS:**  
-    *"[Approach] clears KVY via the published departure, [route], squawk [code]"*
+    **AFIS**: *"[Approach] clears KVY via the published departure, [route], [altitude] clearance not yet valid, remain outside of controlled airspace report ready for departure"*
 
-    **Pilot:**  
-    *"Cleared as received, KVY"*
+    **Pilot**: *"Cleared as received, KVY"*
 
-    **AFIS:**  
-    *"KVY, readback correct, clearance not yet valid"*
+    **AFIS**: *"KVY, readback correct, clearance not yet valid"*
 
     *(Once advised by the controlling ATS unit.)*
 
-    **AFIS:**  
-    *"KVY, clearance now valid, clearance expires at time [time]"*
+    **AFIS**: *"KVY, clearance now valid, clearance expires at time [time]"*
 
-    **Pilot:**  
-    *"KVY, roger, lining up SEAL 34"*
+    **Pilot**: *"KVY, roger, lining up SEAL 34"*
 
-    **AFIS:**  
-    *"KVY, passing 2000 feet contact [Approach] [frequency], no reported IFR traffic below controlled airspace"*
+    **AFIS**: *"KVY, passing 2000 feet contact [Approach] [frequency], no reported IFR traffic below controlled airspace"*
 
-    **Pilot:**  
-    *"Passing 2000 feet contact [Approach], copy traffic, KVY, rolling SEAL 34 departing [direction] climbing to 5000 feet"*
+    **Pilot**: *"Passing 2000 feet contact [Approach], copy traffic, KVY, rolling SEAL 34 departing [direction] climbing to 5000 feet"*
 
-    **AFIS:**  
-    *"KVY"*
+    **AFIS**: *"KVY"*
 
 ---
 
@@ -222,27 +190,27 @@ The following examples demonstrate generic AFIS phraseology. Aerodrome-specific 
     **Approach:**  
     *"KAL, cleared [arrival] arrival for the RNAV approach Runway 34 at [Aerodrome], when ready descend 3000 feet"*
 
-    **Pilot:**  
+    **Pilot**:  
     *"Cleared [arrival] arrival, RNAV Runway 34, when ready descend 3000 feet, KAL"*
 
     *(When established on the approach.)*
 
-    **Pilot:**  
+    **Pilot**:  
     *"KAL established RNAV Runway 34"*
 
     **Approach:**  
     *"KAL, cleared to vacate controlled airspace on the RNAV approach Runway 34, contact [Aerodrome] Flight Service on [frequency]"*
 
-    **Pilot:**  
+    **Pilot**:  
     *"Cleared to vacate controlled airspace on the RNAV approach Runway 34, contact [Aerodrome] Flight Service on [frequency], KAL"*
 
-    **Pilot:**  
+    **Pilot**:  
     *"[Aerodrome] Flight Service, KAL, [distance] [direction] of the field descending through 3500 feet on the RNAV approach to land"*
 
-    **AFIS:**  
+    **AFIS**:  
     *"KAL, [Aerodrome] Flight Service, surface wind 290 degrees 12 knots, QNH 1007, no significant traffic"*
 
-    **Pilot:**  
+    **Pilot**:  
     *"Copy traffic and conditions, QNH 1007, KAL"*
 
 !!! note "Approach Completion"

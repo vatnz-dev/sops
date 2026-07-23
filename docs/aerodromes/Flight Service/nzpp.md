@@ -48,8 +48,6 @@ VFR aircraft should use the published preferred arrival and departure routes whe
 
 Pilots should remain on the Flight Service frequency whilst taxiing, operating within the circuit and manoeuvring within the MBZ.
 
-Pilots should not broadcast to **Paraparaumu local traffic** until they have cleared the circuit.
-
 ## IFR Operations
 
 ### IFR Departures
@@ -70,11 +68,13 @@ Once established within the MBZ, provide weather information and any relevant tr
 
 Prior to relaying an IFR clearance, Paraparaumu Flight Service shall obtain the clearance from Wellington Approach.
 
-!!! example "Coordination"
-    <span class="coldline">**Paraparaumu Flight Service -> Wellington Approach**</span>: "Request clearance KVY Runway 34"
-    <span class="coldline">**Wellington Approach -> Paraparaumu Flight Service**</span>: "KVY cleared Palmerston North One at 5000 feet, enter controlled airspace via the GUGAK6 Departure, KAMET Transition, squawk 5621, hold"
-    <span class="coldline">**Paraparaumu Flight Service -> Wellington Approach**</span>: "Cleared Palmerston North One at 5000 feet, enter controlled airspace via the GUGAK6 Departure, KAMET Transition, squawk 5621, hold, KVY"
-    <span class="coldline">**Wellington Approach -> Paraparaumu Flight Service**</span>: "KVY readback correct"
+!!! example "Coordination For Clearance"
+    <span class="coldline">**Paraparaumu Flight Service -> Wellington Approach**</span>: "Request clearance KVY, GUGAK6 Departure, KAMET Transition, at 5000 feet, Runway 34"
+    <span class="coldline">**Wellington Approach -> Paraparaumu Flight Service**</span>: "KVY, Approved"
+
+!!! example "Coordination For Release" 
+    <span class="coldline">**Paraparaumu Flight Service -> Wellington Approach**</span>: "Request release KVY"
+    <span class="coldline">**Wellington Approach -> Paraparaumu Flight Service**</span>: "KVY Released"
 
 Once the clearance has been acknowledged:
 
