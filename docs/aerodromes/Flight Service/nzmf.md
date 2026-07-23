@@ -64,9 +64,9 @@ Refer to the **AFIS** [guide](../../controller-skills/flight-service.md#standard
 !!! note
     As Flight Service is an advisory service, formal handoffs are not required.
 
-    Aircraft leaving the CFZ will normally change to:
+    Aircraft leaving the CFZ will normally:
 
-    - **Queenstown Approach** when entering controlled airspace.
-    - **Area South** or the appropriate traffic frequency when leaving the CFZ outside controlled airspace.
+    - Change to the **VATSIM Advisory Frequency** when remaining outside controlled airspace.
+    - Contact the appropriate ATS unit when entering controlled airspace (CTA).
 
     If an aircraft remains on the Flight Service frequency after leaving the CFZ, remind the pilot to change to the appropriate frequency.
