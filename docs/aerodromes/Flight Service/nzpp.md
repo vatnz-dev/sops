@@ -30,7 +30,7 @@ The Flight Service Operator is responsible for providing:
 - Weather information.
 - Traffic information.
 - Relevant safety information.
-- Relaying IFR clearances issued by the overlying ATS unit.
+- Relaying IFR clearances
 
 ## Standard Phraseology
 
@@ -54,7 +54,7 @@ Pilots should remain on the Flight Service frequency whilst taxiing, operating w
 
 Paraparaumu Flight Service may relay IFR clearances issued by Wellington Approach.
 
-Clearances remain **invalid** until Wellington Approach advises that they are valid.
+Clearances remain **invalid** until Wellington Approach advises that they are released.
 
 ### IFR Arrivals
 
@@ -69,19 +69,12 @@ Once established within the MBZ, provide weather information and any relevant tr
 Prior to relaying an IFR clearance, Paraparaumu Flight Service shall obtain the clearance from Wellington Approach.
 
 !!! example "Coordination For Clearance"
-    <span class="coldline">**Paraparaumu Flight Service** -> **Wellington Approach**</span>: "Request clearance KVY, GUGAK6 Departure, KAMET Transition, at 5000 feet, Runway 34."  
+    <span class="coldline">**Paraparaumu Flight Service** -> **Wellington Approach**</span>: "Clearance Request KVY, GUGAK6 Departure, KAMET Transition, at 5000 feet, Runway 34."  
     <span class="coldline">**Wellington Approach** -> **Paraparaumu Flight Service**</span>: "KVY, Approved."
 
 !!! example "Coordination For Release" 
-    <span class="coldline">**Paraparaumu Flight Service** -> **Wellington Approach**</span>: "Request release KVY"  
+    <span class="coldline">**Paraparaumu Flight Service** -> **Wellington Approach**</span>: "Request Release KVY"  
     <span class="coldline">**Wellington Approach** -> **Paraparaumu Flight Service**</span>: "KVY Released"
-
-Once the clearance has been acknowledged:
-
-- Relay the clearance to the pilot.
-- Advise the pilot that the clearance is **not yet valid**.
-- Wait for Wellington Approach to activate the clearance.
-- Relay the clearance validity and expiry time to the pilot before departure.
 
 ## Frequency Changes
 
