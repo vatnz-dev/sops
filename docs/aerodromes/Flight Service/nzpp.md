@@ -11,7 +11,7 @@ title: NZPP - Paraparaumu Flight Service
 
 | Position Name | Shortcode | Callsign | Frequency | Login ID | Usage |
 | ------------- | --------- | -------- | --------- | -------- | ----- |
-| Paraparaumu Flight Service | FPP | Paraparaumu Traffic | 118.300 | NZPP_TWR | Event Only |
+| Paraparaumu Flight Service | PFS | Paraparaumu Traffic | 118.300 | NZPP_TWR | Event Only |
 
 !!! note "Pronunciation"
     The unofficial real-world pronunciation of **Paraparaumu** is **"Paraparam"**, and this pronunciation should be used on the network.
