@@ -48,20 +48,6 @@ An AFIS Operator should provide:
 
 ## Traffic Information
 
-Traffic information should be:
-
-- Accurate.
-- Relevant.
-- Timely.
-- Concise.
-
-Whenever practical, include:
-
-- Callsign.
-- Aircraft type.
-- Position.
-- Intentions.
-
 !!! note "Pilot Coordination"
     If pilots are already communicating directly with one another, there is generally no need to repeat traffic information they already know.
 
