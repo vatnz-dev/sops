@@ -4,7 +4,7 @@ title: Aircraft Callsigns
 
 --8<-- "includes/abbreviations.md"
 
-This page lists some of the less-known aircraft callsigns that are routinely used within the New Zealand FIR. This is not an exhaustive list, listing only New Zealand specific military or virtual airline callsigns.
+This page lists some of the aircraft callsigns that are routinely used within the New Zealand FIR. This is not an exhaustive list, listing only New Zealand specific, military or virtual airline callsigns.
 
 ## Civilian
 
@@ -14,41 +14,39 @@ This page lists some of the less-known aircraft callsigns that are routinely use
 | AHB  | Hawke             | Air Hawkes Bay         | Unsure                |
 | AMD  | Airmed            | GCH                    | Yes                   |
 | ANZ  | Air New Zealand   | Air New Zealand        | Yes                   |
-| ATT  | Air to There      | Air To There           | No                    |
 | AWK  | Airwork           | Airwork                | Yes                   |
 | CAC  | Canterbury        | Canterbury Aero Club   | Unsure                |
 | CAP  | Capital           | Helilink               | Yes                   |
 | CFL  | Careflight        | Helicopter Services    | Yes                   |
-| CGD  | Coast Guard       | Coast Guard            | Yes                   |
+| CGD  | Coast Guard       | Coast Guard            | Unsure                |
 | CVA  | Chatham           | Air Chathams           | Yes                   |
 | FDC  | Fly Doc           | GCH Aviation           | Yes                   |
 | GBA  | Barrier           | Barrier Air            | Yes                   |
 | GBY  | Golden Bay        | Golden Bay Air         | Yes                   |
 | GIS  | GISMED            | Air Gisbourne          | Yes                   |
-| KRL  | Regional          | Kiwi Regional Airlines | No                    |
 | LFT  | Life Flight       | Life Flight Rescue     | Yes                   |
 | MDK  | Medicare          | Air Whanganui          | Yes                   |
-| MDL  | Medilift          | Air Freight NZ         | Unsure                |
 | MER  | Merlin            | Merlin Labs            | Yes                   |
 | MLD  | Mainland          | Mainland Air           | Yes                   |
 | MSY  | Massey            | Massey Aviation        | Yes                   |
+| NOR  | Northern Rescue   | Northen Rescue/Westpac | Yes                   |
 | NPR  | Air Napier        | Air Napier             | Yes                   |
 | NTL  | National          | Air National           | No                    |
 | NZM  | Mount Cook        | Mount Cook Airlines    | No. Superceded by ANZ |
 | OGN  | Origin            | Origin Air             | Yes                   |
 | PLB  | Polyblue          | Polynesian Blue        | No                    |
 | PLC  | Police            | NZ Police              | Yes                   |
+| PHA  | Parsec            | ASL Australia          | Yes                   | 
 | QFA  | Qantas            | Qantas Airways         | Yes                   |
 | QNZ  | Qantas Jetconnect | Jetconnect             | No                    |
-| RAA  | Ridge Air         | Ridge Air              | Yes                   |
 | RLK  | Link              | Air Nelson             | No. Superceded by ANZ |
 | SAV  | Sunair            | Sunair                 | Yes                   |
 | SDA  | Sounds Air        | Sounds Air             | Yes                   |
 | SKL  | Sky               | SkyLine Aviation       | Yes                   |
-| TNZ  | Texel             | Texel Air              | Yes                   |
-| VAL  | Vincent           | Vincent Aviation       | No                    |
+| TNZ  | Texel Cargo       | Texel Air              | Yes                   |
+| TMN  | Tasman            | Tasman Cargo Airlines  | Yes                   | 
 | VOZ  | Velocity          | Virgin Australia       | Yes                   |
-| WPR  | Westpac Rescue    | Westpac Rescue         | Yes                   |
+| WPR  | Westpac Rescue    | Westpac Rescue         | No                    |
 | XFX  | Aircorp           | Airways Corporation    | Yes                   |
 
 ## Military
@@ -69,26 +67,16 @@ This page lists some of the less-known aircraft callsigns that are routinely use
 | STG  | Stirling           | RNZAF    |
 | MAK  | Mako               | RNZAF    |
 | WRR  | Warrior            | RNZAF    |
-| SEA  | Seasprite / Sprite | RNZAF    |
+| SEA  | Seasprite          | RNZAF    |
 | IRO  | Iroquois           | RNZAF    |
 | RCH  | Reach              | USAF     |
 | ICE  | Ice                | Various  |
 | ASY  | Aussie             | RAAF     |
 
-### Military Formation/Tasking
-These can be used as an extention of the above callsigns when formation flights take place or for specific missions eg. TEXGLD or MAKBLU. 
-
-| Code | RTF Designator |
-| -----| ---------------|
-| GLD  | Gold           |
-| SIL  | Silver         | 
-| BRZ  | Bronze         | 
-| BLK  | Black          |
-| BLU  | Blue           | 
 
 ## Super Wake Turbulence Category
 
-Aircraft that fall within the `J` or 'Super' Wake Turbulence Category **must** have the RTF "Super" appended to the callsign in every transmission.
+Aircraft that fall within the `J` or 'Super' Wake Turbulence Category **must** have the RTF "Super" appended to the callsign in **every** transmission.
 
 At present, only one aircraft falls within this category - the Airbus A380 `(A388)`.
 
