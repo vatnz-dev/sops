@@ -6,7 +6,7 @@ title: NZHN - Hamilton
 ## Positions
 | Position Name | Shortcode | Callsign          | Frequency | Login ID | Usage     |
 | ------------- | --------- | ----------------- | --------- | -------- | --------- |
-| Hamilton TWR  | HTWR      | Hamilton Tower    | 126.800   | NZHN_TWR | Primary   |
+| Hamilton TWR  | THN      | Hamilton Tower    | 126.800   | NZHN_TWR | Primary   |
 | Hamilton TMA  | HTMA      | Hamilton Approach | 125.300   | NZHN_APP | Secondary |
 
 ## Airspace
@@ -44,7 +44,7 @@ Aircraft parked on the Western Apron (this should usually only apply to GA aircr
 
 ### IFR Arrivals
 
-Shall contact HTWR established inbound on an approach or when approaching the `CTR/D` on a visual approach. 
+Shall contact THN established inbound on an approach or when approaching the `CTR/D` on a visual approach. 
 
 #### Instrument Approaches
 
@@ -52,4 +52,4 @@ The nominated approach should always be the RNP for either runway.
 
 ## Coordination
 
-HTMA shall coordinate any non-nominated approaches including visual approaches with HTWR. 
+HTMA shall coordinate any non-nominated approaches including visual approaches with THN. 
