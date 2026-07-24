@@ -22,7 +22,7 @@ Milford Flight Service provides an Aerodrome Flight Information Service (AFIS) w
   <figcaption> Milford CFZ</figcaption>
 </figure>
 
-The AFIS area extends to **11,000 ft** within the published Milford Sound CFZ.
+The AFIS area extends to `A110` within the published Milford Sound CFZ.
 
 The Flight Service Operator is responsible for providing:
 
