@@ -154,7 +154,7 @@ The following examples demonstrate generic AFIS phraseology. Aerodrome-specific 
 
     **Pilot**: *"KVY, ready to copy"*
 
-    **AFIS**: *"[Approach] clears KVY via the [] departure, [] transition, [altutide] clearance not yet valid, remain outside of controlled airspace report ready for departure"*
+    **AFIS**: *"[Approach] clears KVY via the [] departure, [] transition, [altutide], squawk [code], clearance not yet valid, remain outside of controlled airspace report ready for departure"*
 
     **Pilot**: *"Cleared... , KVY"*
 
