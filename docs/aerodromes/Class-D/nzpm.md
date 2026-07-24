@@ -48,21 +48,7 @@ Due to the surrounding MOAs, NZPM has numerous SIDs and STARs to either reroute 
 
 The preferred departure for IFR aircraft tracking via `OMBUB` is the `TEROT #Q`, due to the relatively direct nature. For other departure directions, issue the suggested SID.
 
-The below table outlines the prohibited procedures when the respective MOA is active.
-
-| Active MOA(s) | MOA Vertical Limits | Prohibited SIDs                  | Prohibited STARs | Reasoning                        |
-| ------------- | ------------------- | -------------------------------- | ---------------- | -------------------------------- |
-| M311 - Bulls  | `A015` - `A025`     | None                             | `BUVLI #B`       | STAR descends through active MOA |
-| M307 - Marton | `A080` - `FL200`    | `RUXOS #S` `DADLI #S` `TEROT #Q` | None             | SIDs climbs through active MOA   |
-
 
 ### Runway 25
 
 The preferred departure for IFR aircraft tracking via `OMBUB` is the `GUTNI #R`, due to the relatively direct nature. For other departure directions, issue the suggested SID.
-
-The below table outlines the prohibited procedures when the respective MOA is active.
-
-| Active MOA(s) | MOA Vertical Limits | Prohibited SIDs | Prohibited STARs | Reasoning                     |
-| ------------- | ------------------- | --------------- | ---------------- | ----------------------------- |
-| M311 - Bulls  | `A015` - `A025`     | `GUTNI #R`      | None             | SID climbs through active MOA |
-| M307 - Marton | `A080` - `FL200`    | `GUTNI #R`      | None             | SID climbs through active MOA |
