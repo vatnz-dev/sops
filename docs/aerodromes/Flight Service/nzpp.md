@@ -4,15 +4,22 @@ title: NZPP - Paraparaumu Flight Service
 
 --8<-- "includes/abbreviations.md"
 
-!!! Danger "Important"
-    The following are designated as Event Only positions, and may only be staffed during a VATNZ event where approved, or if explicitly authorised by the Operations Director.
 
 ## Positions
 
-| Position Name              | Shortcode | Callsign                                         | Frequency | Login ID | Usage      |
-| -------------------------- | --------- | ------------------------------------------------ | --------- | -------- | ---------- |
-| Paraparaumu FIS| PFS       | Paraparaumu Flight Service / Paraparaumu Traffic             | 118.300   | NZPP_TWR | Event Only |
-| Wellington TMA | WTMA      | Wellington Approach                                          | 119.300	| NZWN_APP | Primary |
+| Position Name  | Shortcode | Callsign             | Frequency | Login ID | Usage   |
+| -------------- | --------- | --------             | --------- | -------- | ------- |
+| Wellington TMA | WTMA      | Wellington Approach  | 119.300	| NZWN_APP | Primary |
+
+### Event Only Positions
+
+!!! Danger "Important"
+    The following are designated as Event Only positions, and may only be staffed during a VATNZ event where approved, or if explicitly authorised by the Operations Director.
+
+| Position Name   | Shortcode | Callsign                                         | Frequency | Login ID | Usage      |
+| --------------- | --------- | ------------------------------------------------ | --------- | -------- | ---------- |
+| Paraparaumu FIS | PFS       | Paraparaumu Flight Service / Paraparaumu Traffic | 118.300   | NZPP_TWR | Event Only |
+
 
 !!! note "Pronunciation"
     The unofficial real-world pronunciation of **Paraparaumu** is **"Paraparam"**, and this pronunciation should be used on the network.
