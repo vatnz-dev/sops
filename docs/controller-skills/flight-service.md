@@ -146,7 +146,7 @@ The following examples demonstrate generic AFIS phraseology. Aerodrome-specific 
 
     **Pilot**: *"KVY at the apron, six POB, request IFR clearance to [Destination], 5000 feet"*
 
-    **AFIS**: *"KVY, preferred runway SEAL 34, surface wind 320 degrees 10 knots, QNH 1001, clearance on request"*
+    **AFIS**: *"KVY, preferred runway SEAL 34, surface wind 320 degrees 10 knots, QNH 1000, clearance on request"*
 
     *See **Coordination with the Overlying ATS Unit** below.*
 
