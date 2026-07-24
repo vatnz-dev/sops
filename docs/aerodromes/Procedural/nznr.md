@@ -73,6 +73,16 @@ In order to lessen the amount of instructions given to VFR traffic, the Controll
 ### Departures
 In order to lessen the amount of instructions given to VFR traffic, the Controller shall issue one of the VFR Departure Procedures where possible, otherwise a more plain language clearance may be issued. [Refer to AIP chart for VFR departures](https://www.aip.net.nz/assets/AIP/Aerodrome-Charts/Napier-NZNR/NZNR_64.1_64.2.pdf){ target=new }.
 
+
+## RWY 07/25
+
+!!! Notice "Duty Runway"
+  Controllers shall NOT use `RWY 07/25" as the Duty Runway. 
+ 
+
+`RWY 07/25` may be used as required, controllers may use descresion on when to use the crossing runway. However controllers should use `RWY 16/34` unless there is a prevailing  crosswind, or a pilot requests it. 
+
+
 ## Coordination
 
 ### OHA
