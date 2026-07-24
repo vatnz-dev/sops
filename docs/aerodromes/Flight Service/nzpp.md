@@ -27,8 +27,8 @@ Paraparaumu Flight Service provides an Aerodrome Flight Information Service (AFI
 
 The AFIS area extends:
 
-- Below **4500 ft** north of NZPP.
-- Below **2500 ft** and **3500ft** south of NZPP (the lower limit of the Wellington CTA).
+- Below `A045` north of NZPP.
+- Below `A025` and `A035` south of NZPP (the lower limit of the Wellington CTA).
 
 The Flight Service Operator is responsible for providing:
 
