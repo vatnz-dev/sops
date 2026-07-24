@@ -18,8 +18,8 @@
 *[SOPs]: Standard Operating Procedures
 *[PR]: Pull Request
 *[FSS]: Flight Service Station
-*[AFIS]: Aerodrome Flight Information Station
-*[FIS]: Flight Information Station
+*[AFIS]: Aerodrome Flight Information Service
+*[FIS]: Flight Information Service
 *[AIP]: Aeronautical Information Publication
 *[ProcEd]: Procedure Editor
 *[SMC]: Surface Movement Control
