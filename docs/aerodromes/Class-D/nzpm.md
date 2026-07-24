@@ -6,10 +6,11 @@ title: NZPM - Palmerston North
 
 # NZPM - Palmerston North
 
-| Position       | Callsign          | Frequency | Login    | Type      |
-| -------------- | ----------------- | --------- | -------- | --------- |
-| Palmerston ADC | Palmerston Tower  | 120.6     | NZPM_TWR | Primary   |
-| Palmerston SMC | Palmerston Ground | 121.7     | NZPM_GND | Secondary |
+| Position       | Shortcode  | Callsign          | Frequency | Login    | Type      |
+| -------------- |------------| ----------------- | --------- | -------- | --------- |
+| Palmerston ADC | TPM        | Palmerston Tower  | 120.6     | NZPM_TWR | Primary   |
+| Palmerston SMC | GPM        | Palmerston Ground | 121.7     | NZPM_GND | Secondary |
+| Ohakea TMA     | OTMA       | Ohakea Approach   | 125.1     | NZOH_APP | Primary   |
 
 ## Areas of Responsibility
 
