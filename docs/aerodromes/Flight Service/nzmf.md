@@ -9,9 +9,9 @@ title: NZMF - Milford Flight Service
 
 ## Positions
 
-| Position Name | Shortcode | Callsign | Frequency | Login ID | Usage |
-| ------------- | --------- | -------- | --------- | -------- | ----- |
-| Milford Flight Service | MFS | Milford Flight Service / Milford Traffic | 118.200 | NZMF_TWR | Event Only |
+| Position Name          | Shortcode | Callsign                                 | Frequency | Login ID | Usage      |
+| ---------------------- | --------- | ---------------------------------------- | --------- | -------- | ---------- |
+| Milford Flight Service | MFS       | Milford Flight Service / Milford Traffic | 118.200   | NZMF_TWR | Event Only |
 
 ## Area of Responsibility
 

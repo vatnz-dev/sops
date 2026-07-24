@@ -62,6 +62,7 @@ An AFIS Operator should provide:
 
 The following examples demonstrate generic AFIS phraseology. Aerodrome-specific reporting points, frequencies and local procedures are published on each aerodrome's individual page.
 
+
 ### VFR Operations
 
 !!! example "Aircraft Operating Within the AFIS Area"
@@ -202,11 +203,21 @@ The following examples demonstrate generic AFIS phraseology. Aerodrome-specific 
 
     The AFIS Operator should provide updated traffic information whenever required.
 
+### Passing Traffic Info
+
+Traffic Info should be passed in the following format. 
+
+- Callsign
+- Aircraft type
+- Last reported location
+- Last reported altitude
+- Tracking/Intentions
+
 ## Coordination with the Overlying ATS Unit
 
 IFR departure clearances shall be coordinated with the appropriate overlying ATS unit before being relayed to the pilot.
 
-The pilot must **not** be advised that the clearance is valid until the overlying ATS unit has confirmed that the clearance is active.
+The pilot must **not** be advised that the clearance is valid until the overlying ATS unit has confirmed that the clearance is valid.
 
 !!! note
     See the individual aerodrome SOPs for examples of local coordination procedures.

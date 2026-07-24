@@ -9,9 +9,9 @@ title: NZPP - Paraparaumu Flight Service
 
 ## Positions
 
-| Position Name | Shortcode | Callsign | Frequency | Login ID | Usage |
-| ------------- | --------- | -------- | --------- | -------- | ----- |
-| Paraparaumu Flight Service | PFS | Paraparaumu Flight Service / Paraparaumu Traffic | 118.300 | NZPP_TWR | Event Only |
+| Position Name              | Shortcode | Callsign                                         | Frequency | Login ID | Usage      |
+| -------------------------- | --------- | ------------------------------------------------ | --------- | -------- | ---------- |
+| Paraparaumu Flight Service | PFS       | Paraparaumu Flight Service / Paraparaumu Traffic | 118.300   | NZPP_TWR | Event Only |
 
 !!! note "Pronunciation"
     The unofficial real-world pronunciation of **Paraparaumu** is **"Paraparam"**, and this pronunciation should be used on the network.
@@ -23,7 +23,7 @@ Paraparaumu Flight Service provides an Aerodrome Flight Information Service (AFI
 The AFIS area extends:
 
 - Below **4500 ft** north of NZPP.
-- Below **2500 ft** south of NZPP (the lower limit of the Wellington CTA).
+- Below **2500 ft** and **3500ft** south of NZPP (the lower limit of the Wellington CTA).
 
 The Flight Service Operator is responsible for providing:
 
