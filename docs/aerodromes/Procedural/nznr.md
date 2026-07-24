@@ -38,23 +38,21 @@ Napier tower only has responsibility from the holding points out to the runway, 
 
 Start up clearance shall be issued as per normal.
 
-Taxi clearance can be given as `Via XX backtrack and line up runway XX`. If there is a possible traffic conflict, traffic shall be held as needed. Ie B2 if there is Grass RWY traffic or B2 if there is no Grass RWY traffic. 
+Taxi clearance can be given as `Via XX backtrack and line up runway XX`. If there is a possible traffic conflict, traffic shall be held as needed. Ie. B2 if there is Grass RWY traffic or B1 if there is no Grass RWY traffic. 
 
-Traffic not parked on the main apron shall be taxiied as required to the runway. It is up to the controller to determine the intersection for the aircraft to enter the RWY on. 
+Traffic not parked on the main apron shall be taxiied as required to the runway. It is up to the controller to determine the intersection for the aircraft to enter the RWY on, they may ask the pilot on a preferred intersection. Controllers shall avoid using G1 for departing aircraft. 
 
 ## Departures
 
-Departing IFR traffic shall be handed to OHA passing `A080` if cruising at `A100` or above, using the following phraseology `Passing 8000 contact Ohakea 126.2`. For aircraft crusing at `A100` or below shall be instructed to contact OHA at 30 NR DME....`At 30 miles contact OHA 126.2`.  
+Departing IFR traffic shall be handed to OHA passing `A080` if cruising at `A100` or above, using the following phraseology - `Passing 8000 contact Ohakea 126.2`. For aircraft crusing at `A100` or below, shall be instructed to contact OHA at 30 NR DME....`At 30 Napier DME contact OHA 126.2`.  
 
-SIDs shall be assigned as suggested by the controller client or by pilot request. Visual departures may be issued as requested too. 
+SIDs shall be assigned as suggested by the controller client or by pilot request. Visual departures may be issued as requested . 
 
 ## Arrivals
 
 OHA shall issues STARs without coordination. 
 
-Aicraft shall be handed from OHA at the STAR originating waypoint. Ie. `BITIL`. Or if Non-RNAV then at 30 NR DME. 
-
-OHA shall hand aircraft over at the following waypoints if issued and RNAV STAR. 
+OHA shall hand aircraft over at the following waypoints if issued and RNAV STAR.
 
 | Handover Waypoint | STAR Origin Waypoint    | 
 | ----------------- | ------------------------|
@@ -63,10 +61,11 @@ OHA shall hand aircraft over at the following waypoints if issued and RNAV STAR.
 | SELDU             | BITIL                   | 
 | DOMON             | POTEX                   |
 
+If the aircraft is Non-RNAV then they shall be handed over at 30 NR DME. 
 
 ## VFR Procedures
 
-To help manage traffic, Seaport VRP may be used to hold aircraft out of the circuit. As well as the east and west sectors. 
+To help manage traffic, Seaport VRP may be used to hold aircraft out of the circuit. As well as the East and West Sectors. 
 
 ### Arrivals
 In order to lessen the amount of instructions given to VFR traffic, the Controller shall issue a published VFR arrival where possible. Once the Pilot reports overhead the respective VRP, Napier Tower shall issue circuit joining instructions. [Refer to AIP chart for VFR arrivals](https://www.aip.net.nz/assets/AIP/Aerodrome-Charts/Napier-NZNR/NZNR_35.1_35.2.pdf){ target=new }.
