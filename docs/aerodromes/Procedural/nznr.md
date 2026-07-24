@@ -30,7 +30,7 @@ Napier's main apron has seven stands. With Skyline hangars at the northern end.
 Napier tower only has responsibility from the holding points out to the runway, as depicted to below.
 
 <figure markdown>
-  ![Napier Areas of Responsibility](./assets/nzdn-resp.png) 
+  ![Napier Areas of Responsibility](./assets/nznr-resp.png) 
   <figcaption>Napier Areas of Responsibility</figcaption>
 </figure>
 
