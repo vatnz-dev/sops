@@ -1,5 +1,5 @@
 ---
-title: NZMF - Milford Flight Service
+title: NZMF - Milford Sound
 ---
 
 --8<-- "includes/abbreviations.md"

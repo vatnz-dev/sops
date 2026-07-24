@@ -1,5 +1,5 @@
 ---
-title: NZPP - Paraparaumu Flight Service
+title: NZPP - Paraparaumu
 ---
 
 --8<-- "includes/abbreviations.md"
