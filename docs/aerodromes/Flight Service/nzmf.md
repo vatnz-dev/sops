@@ -17,6 +17,11 @@ title: NZMF - Milford Flight Service
 
 Milford Flight Service provides an Aerodrome Flight Information Service (AFIS) within the Milford Sound Common Frequency Zone (CFZ).
 
+<figure markdown>
+  ![Milford CFZ](./assets/nzmf-airspace.png) 
+  <figcaption> Milford CFZ</figcaption>
+</figure>
+
 The AFIS area extends to **11,000 ft** within the published Milford Sound CFZ.
 
 The Flight Service Operator is responsible for providing:

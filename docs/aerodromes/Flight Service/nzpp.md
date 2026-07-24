@@ -20,6 +20,11 @@ title: NZPP - Paraparaumu Flight Service
 
 Paraparaumu Flight Service provides an Aerodrome Flight Information Service (AFIS) within the Paraparaumu MBZ.
 
+<figure markdown>
+  ![Paraparaumu MBZ](./assets/nzpp-airspace.png) 
+  <figcaption> Paraparaumu MBZ</figcaption>
+</figure>
+
 The AFIS area extends:
 
 - Below **4500 ft** north of NZPP.
