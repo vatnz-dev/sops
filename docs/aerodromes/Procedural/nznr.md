@@ -52,7 +52,7 @@ SIDs shall be assigned as suggested by the controller client or by pilot request
 
 OHA shall issues STARs without coordination. 
 
-OHA shall hand aircraft over at the following waypoints if issued and RNAV STAR.
+OHA shall hand aircraft over at the following waypoints if issued an RNAV STAR.
 
 | Handover Waypoint | STAR Origin Waypoint    | 
 | ----------------- | ------------------------|
