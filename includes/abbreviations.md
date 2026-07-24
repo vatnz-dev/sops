@@ -42,6 +42,7 @@
 *[KAI]: Christchurch Control (Kaikoura Sector)
 *[ARO]: Auckland Radio (Oceanic)
 *[TWR]: Tower
+*[DLV]: Delivery
 *[ATIS]: Automatic Terminal Information Service
 *[PBN]: Performance Based Navigation
 *[RNP]: Required Navigation Performance
