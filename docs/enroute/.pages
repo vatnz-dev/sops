@@ -1,10 +1,11 @@
 title: Enroute
 nav:
     - index.md
-    - auckland.md
-    - bays.md
-    - raglan.md
-    - ohakea.md
-    - taranaki.md
-    - kaikoura.md
-    - south.md
+    - OCR.md
+    - RAN.md
+    - BAY.md
+    - OHA.md
+    - NAK.md
+    - KAI.md
+    - STH.md
+    - ...

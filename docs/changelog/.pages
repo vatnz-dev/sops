@@ -1,6 +1,7 @@
 title: Client Changelogs
 nav:
-    - index.md
-    - 2022.md
-    - previous.md
     - ...
+    - oceanic
+    - historical.md
+
+order: desc

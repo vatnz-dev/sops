@@ -1,3 +1,6 @@
 /site/
 /.cache/
 /.vscode/
+/.idea/
+/.venv/
+/.conda/

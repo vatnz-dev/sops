@@ -1,0 +1,10 @@
+INHERIT: mkdocs.yml
+
+# Only include on production. In theory, this should only generate Cards when being deployed to GitHub pages, or when specified during development.
+plugins:
+  social:
+    cards_layout_options:
+      background_color: "#171e2c"
+      font_family: Inter
+    cards_exclude:
+      - contribute/*.md

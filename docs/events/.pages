@@ -1,0 +1,8 @@
+title: Events
+nav:
+  - index.md
+  - aerodromes
+  - terminal-areas
+  - enroute
+
+order: asc
