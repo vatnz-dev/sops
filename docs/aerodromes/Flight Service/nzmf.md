@@ -57,12 +57,11 @@ Refer to the **AFIS** [guide](../../controller-skills/flight-service.md#standard
 
     Traffic information should be passed to aircraft operating within these areas whenever appropriate.
 
-## IFR Operations
+### IFR Departures
 
-!!! warning "IFR Operations"
-    Milford Sound is primarily a VFR aerodrome. IFR procedures are not routinely provided by Milford Flight Service.
+Milford Flight Service may relay IFR clearances issued by Christchurch Control.
 
-    Where IFR operations are required, coordinate with the overlying ATS unit as appropriate and refer to the **Paraparaumu Flight Service** procedures for IFR guidance.
+Clearances remain **invalid** until Christchurch Control advises that they are released.
 
 ## Frequency Changes
 
