@@ -6,7 +6,7 @@ title: NZPM - Palmerston North
 
 # NZPM - Palmerston North
 
-| Position       | Shortcode  | Callsign          | Frequency | Login    | Type      |
+| Position       | Shortcode  | Callsign          | Frequency | Login ID | Type      |
 | -------------- |------------| ----------------- | --------- | -------- | --------- |
 | Palmerston ADC | TPM        | Palmerston Tower  | 120.6     | NZPM_TWR | Primary   |
 | Palmerston SMC | GPM        | Palmerston Ground | 121.7     | NZPM_GND | Secondary |

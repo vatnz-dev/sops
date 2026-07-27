@@ -27,7 +27,7 @@ Napier Tower provides a Procedural Approach service for the wider CTA/D.
 
 Napier's main apron has seven stands. With Skyline hangars at the northern end. 
 
-Napier tower only has responsibility from the holding points out to the runway, as depicted to below.
+Napier tower only has responsibility from the holding points out to the runway, as depicted below.
 
 <figure markdown>
   ![Napier Areas of Responsibility](./assets/nznr-resp.png) 
@@ -38,15 +38,15 @@ Napier tower only has responsibility from the holding points out to the runway, 
 
 Start up clearance shall be issued as per normal.
 
-Taxi clearance can be given as `Via XX backtrack and line up runway XX`. If there is a possible traffic conflict, traffic shall be held as needed. Ie. B2 if there is Grass RWY traffic or B1 if there is no Grass RWY traffic. 
+Taxi clearance can be given as `Via XX backtrack and line up runway XX`. If there is a possible traffic conflict, traffic shall be held as needed - `B2` if there is Grass RWY traffic or `B1` if there is no Grass RWY traffic. 
 
 Traffic not parked on the main apron shall be taxiied as required to the runway. It is up to the controller to determine the intersection for the aircraft to enter the RWY on, they may ask the pilot on a preferred intersection. Controllers shall avoid using G1 for departing aircraft. 
 
 ## Departures
 
-Departing IFR traffic shall be handed to OHA passing `A080` if cruising at `A100` or above, using the following phraseology - `Passing 8000 contact Ohakea 126.2`. For aircraft crusing at `A100` or below, shall be instructed to contact OHA at 30 NR DME....`At 30 Napier DME contact OHA 126.2`.  
+Departing IFR traffic shall be handed to OHA passing `A080` if cruising at `A100` or above, using the following phraseology - `Passing 8000 contact Ohakea 126.2`. For aircraft crusing at `A100` or below, shall be instructed to contact OHA at 30 NR DME - `At 30 Napier DME contact Ohakea 126.2`.  
 
-SIDs shall be assigned as suggested by the controller client or by pilot request. Visual departures may be issued as requested . 
+SIDs shall be assigned as suggested by the controller client or by pilot request. Visual departures may be issued as requested. 
 
 ## Arrivals
 
@@ -68,9 +68,11 @@ If the aircraft is Non-RNAV then they shall be handed over at 30 NR DME.
 To help manage traffic, Seaport VRP may be used to hold aircraft out of the circuit. As well as the East and West Sectors. 
 
 ### Arrivals
+
 In order to lessen the amount of instructions given to VFR traffic, the Controller shall issue a published VFR arrival where possible. Once the Pilot reports overhead the respective VRP, Napier Tower shall issue circuit joining instructions. [Refer to AIP chart for VFR arrivals](https://www.aip.net.nz/assets/AIP/Aerodrome-Charts/Napier-NZNR/NZNR_35.1_35.2.pdf){ target=new }.
 
 ### Departures
+
 In order to lessen the amount of instructions given to VFR traffic, the Controller shall issue one of the VFR Departure Procedures where possible, otherwise a more plain language clearance may be issued. [Refer to AIP chart for VFR departures](https://www.aip.net.nz/assets/AIP/Aerodrome-Charts/Napier-NZNR/NZNR_64.1_64.2.pdf){ target=new }.
 
 
@@ -80,7 +82,7 @@ In order to lessen the amount of instructions given to VFR traffic, the Controll
     Controllers shall NOT use `RWY 07/25` as the Duty Runway 
  
 
-`RWY 07/25` may be used as required, controllers may use descresion on when to use the crossing runway. However controllers should use `RWY 16/34` unless there is a prevailing  crosswind, or a pilot requests it. 
+`RWY 07/25` may be used if required and controllers may use discretion on when to use the crossing runway. However controllers should use `RWY 16/34` unless there is a prevailing crosswind, or a pilot requests it. 
 
 
 ## Coordination
