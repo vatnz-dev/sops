@@ -5,20 +5,14 @@ title: NZPP - Paraparaumu
 --8<-- "includes/abbreviations.md"
 
 
-## Positions
-
-| Position Name  | Shortcode | Callsign             | Frequency | Login ID | Usage   |
-| -------------- | --------- | --------             | --------- | -------- | ------- |
-| Wellington TMA | WTMA      | Wellington Approach  | 119.300	| NZWN_APP | Primary |
-
 ### Event Only Positions
 
 !!! Danger "Important"
     The following are designated as Event Only positions, and may only be staffed during a VATNZ event where approved, or if explicitly authorised by the Operations Director.
 
-| Position Name   | Shortcode | Callsign                                         | Frequency | Login ID | Usage      |
-| --------------- | --------- | ------------------------------------------------ | --------- | -------- | ---------- |
-| Paraparaumu FIS | PFS       | Paraparam Flight Service / Paraparam Traffic | 118.300   | NZPP_TWR | Event Only |
+| Position Name   | Shortcode | Callsign                 | Frequency | Login ID | Usage      |
+| --------------- | --------- | ------------------------ | --------- | -------- | ---------- |
+| Paraparaumu FIS | PFS       | Paraparam Flight Service | 118.300   | NZPP_TWR | Event Only |
 
 ## Area of Responsibility
 
@@ -78,20 +72,20 @@ Once established within the MBZ, provide weather information and any relevant tr
 Prior to relaying an IFR clearance, Paraparaumu Flight Service shall obtain the clearance from Wellington Approach.
 
 !!! example "Coordination For Clearance"
-    <span class="coldline">**Paraparam Flight Service** -> **Wellington Approach**</span>: "Clearance Request KVY, GUGAK6 Departure, KAMET Transition, at 5000 feet, Runway 34."  
-    <span class="coldline">**Wellington Approach** -> **Paraparam Flight Service**</span>: "KVY, Approved."
+    <span class="coldline">**Paraparaumu Flight Service** -> **Wellington Approach**</span>: "Clearance Request KVY, GUGAK6 Departure, KAMET Transition, at 5000 feet, Runway 34."  
+    <span class="coldline">**Wellington Approach** -> **Paraparaumu Flight Service**</span>: "KVY, Approved."
 
 !!! example "Coordination For Release" 
-    <span class="coldline">**Paraparam Flight Service** -> **Wellington Approach**</span>: "Request Release KVY"  
-    <span class="coldline">**Wellington Approach** -> **Paraparam Flight Service**</span>: "KVY Released"
-
-## Frequency Changes
+    <span class="coldline">**Paraparaumu Flight Service** -> **Wellington Approach**</span>: "Request Release KVY"  
+    <span class="coldline">**Wellington Approach** -> **Paraparaumu Flight Service**</span>: "KVY Released"
+    <span class="coldline">**Paraparaumu Flight Service** -> **Wellington Approach**</span>: "Clearance Request KVY, GUGAK6 Departure, KAMET Transition, at 5000 feet, Runway 34."  
+    <span class="coldline">**Wellington Approach** -> **Paraparaumu Flight Service**</span>: "KVY, Approved."
 
 As Flight Service is an advisory service, formal handoffs are not required.
-
+    <span class="coldline">**Paraparaumu Flight Service** -> **Wellington Approach**</span>: "Request Release KVY"  
 Aircraft leaving the MBZ will normally change to:
 
 - **Wellington Approach** when entering controlled airspace.
-- **Paraparam Traffic** or **VATSIM ADVISORY FREQUENCY** when operating outside the MBZ.
+- *VATSIM Advisory Frequency* when operating outside the MBZ.  
 
 If a aircraft remains on the Flight Service frequency after leaving the MBZ, remind the pilot to change to the appropriate frequency.

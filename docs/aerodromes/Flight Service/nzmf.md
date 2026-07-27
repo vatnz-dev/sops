@@ -26,9 +26,8 @@ The AFIS area extends to `A110` within the published Milford Sound CFZ.
 
 The Flight Service Operator is responsible for providing:
 
-- Weather information.
-- Traffic information.
-- Relevant safety information.
+- Relevant safety information.  
+- Relaying IFR clearances  
 
 !!! danger "Air Traffic Control"
     Flight Service Operators do **not** provide Air Traffic Control and shall **not** issue taxi, take-off or landing clearances.
@@ -70,7 +69,6 @@ Clearances remain **invalid** until Christchurch Control advises that they are r
 
     Aircraft leaving the CFZ will normally:
 
-    - Change to the **VATSIM Advisory Frequency** when remaining outside controlled airspace.
-    - Contact the appropriate ATS unit when entering controlled airspace (CTA).
+    - Change to the **VATSIM Advisory Frequency** when remaining outside controlled airspace or Contact the appropriate ATS unit when entering controlled airspace (CTA)
 
     If an aircraft remains on the Flight Service frequency after leaving the CFZ, remind the pilot to change to the appropriate frequency.
