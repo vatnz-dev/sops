@@ -14,7 +14,7 @@ title: Aerodrome Flight Information Service (AFIS)
 | Position Name   | Shortcode | Callsign                                           | Frequency | Login ID   | Usage |
 | --------------- | --------- | ------------------------------------------------   | --------- | --------   | ----- |
 | Paraparaumu FIS | MFS       | Paraparaumu Flight Service   | 118.300   | NZPP_TWR   | Event Only |
-| Milford FIS     | PFS       | Milford Flight Service / Milford Traffic           | 118.200   | NZMF_TWR   | Event Only |
+| Milford FIS     | PFS       | Milford Flight Service       | 118.200   | NZMF_TWR   | Event Only |
 
 ## Overview
 
@@ -23,8 +23,8 @@ An **Aerodrome Flight Information Service (AFIS)** provides pilots with informat
 !!! info "ATC vs AFIS"
     Unlike Air Traffic Control, an AFIS **does not issue clearances or provide separation**. Pilots remain responsible for the safe operation of their aircraft.
 
-!!! note "Supervised UNICOM"
-    Think of AFIS as a supervised UNICOM. The AFIS Operator provides information to improve situational awareness, while pilots remain responsible for making operational decisions.
+!!! note "Supervised Advisory"
+    Think of AFIS as a supervised Advisory. The AFIS Operator provides information to improve situational awareness, while pilots remain responsible for making operational decisions.
 
 ## AFIS Responsibilities
 
