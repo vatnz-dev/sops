@@ -13,7 +13,7 @@ title: Aerodrome Flight Information Service (AFIS)
 
 | Position Name   | Shortcode | Callsign                                           | Frequency | Login ID   | Usage |
 | --------------- | --------- | ------------------------------------------------   | --------- | --------   | ----- |
-| Paraparaumu FIS | MFS       | Paraparaumu Flight Service / Paraparaumu Traffic   | 118.300   | NZPP_TWR   | Event Only |
+| Paraparaumu FIS | MFS       | Paraparaumu Flight Service   | 118.300   | NZPP_TWR   | Event Only |
 | Milford FIS     | PFS       | Milford Flight Service / Milford Traffic           | 118.200   | NZMF_TWR   | Event Only |
 
 ## Overview
