@@ -51,23 +51,23 @@ Within Class E airspace:
 
 ### ARO
 
-The transfer of control between **ARO** and **NZCM** occurs at **60° South Latitude**.
+Aircraft leaving the McMurdo Sector for **ARO** shall be instructed to contact Auckland Radio at the designated transfer point.
 
 !!! example "Transfer to ARO"
 
-    **Mac Center**: *"ANZ123, at 60 South contact Auckland Radio on 128.700"*
+    **Mac Center**: *"ANZ123, at `WAYPOINT`, contact Auckland Radio on 129.000."*
 
-    **ANZ123**: *"At 60 South, Auckland Radio 128.700, ANZ123"*
+    **ANZ123**: *"At `WAYPOINT`, Auckland Radio 128.700, ANZ123."*
 
 ### BNE
 
-The transfer of control between **BNE** and **NZCM** occurs at the FIR boundary along **163° East Longitude**.
+Aircraft leaving the McMurdo Sector for **IND** shall be instructed to contact Melbourne Radio at the designated transfer point.
 
 !!! example "Transfer to BNE"
 
-    **Mac Center**: *"QFA27, at the FIR boundary contact Brisbane Radio on [frequency]"*
+    **Mac Center**: *"QFA27, at `WAYPOINT`, contact Melbourne Radio on 124.650."*
 
-    **QFA27**: *"At the FIR boundary, Brisbane Radio on [frequency], QFA27"*
+    **QFA27**: *"At `WAYPOINT`, Melbourne Radio on 124.650, QFA27."*
 
 ---
 
@@ -75,15 +75,15 @@ The transfer of control between **BNE** and **NZCM** occurs at the FIR boundary 
 
 ### Aerodrome Operations
 
-When **NZFX_TWR** is online, aircraft shall be transferred prior to entering Class D airspace.
+When **NZWD_APP** is online, aircraft shall be transferred prior to entering Class D airspace.
 
-When **NZWD_APP** is online, arrivals and departures should be coordinated as required.
+When **NZFX_TWR** is online, arrivals and departures should be coordinated as required.
 
 !!! example "Coordination"
 
-    <span class="coldline">**NZCM** -> **NZWD**</span>: "ANZ123, inbound Phoenix Field, FL250, estimating `PEGAS` at 0215"
+    <span class="coldline">**NZCM** -> **NZFX**</span>: "ANZ123, inbound Phoenix Field, FL250, estimating `PEGAS` at 0215"
 
-    <span class="coldline">**NZWD** -> **NZCM**</span>: "ANZ123, coordination approved"
+    <span class="coldline">**NZFX** -> **NZCM**</span>: "ANZ123, `PEGAS` 0215 FL250"
 
 ---
 
