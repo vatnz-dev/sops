@@ -4,7 +4,7 @@ title: Overview
 
 --8<-- "includes/abbreviations.md"
 
-Mac Center provides Air Traffic Services for aircraft operating within the McMurdo Sector of Antarctica. This includes enroute and oceanic air traffic control, flight following, search and rescue coordination, and non-radar approach services where applicable. Mac Center coordinates closely with Auckland Radio for flights between Antarctica and New Zealand, and Brisbane Radio for flights between Antarctica and Australia.
+Mac Center provides Air Traffic Services for aircraft operating within the McMurdo Sector of Antarctica. This includes enroute and oceanic air traffic control, flight following, search and rescue coordination, and non-radar approach services where applicable. Mac Center coordinates closely with Auckland Radio for flights between Antarctica and New Zealand, and Melbourne Radio for flights between Antarctica and Australia.
 
 ## Positions
 
