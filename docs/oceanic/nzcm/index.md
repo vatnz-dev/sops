@@ -4,7 +4,7 @@ title: Overview
 
 --8<-- "includes/abbreviations.md"
 
-Mac Center provides Air Traffic Services for aircraft operating within the McMurdo Sector of Antarctica. This includes enroute and oceanic air traffic control, flight following, search and rescue coordination, and non-radar approach services where applicable. Mac Center coordinates closely with Auckland Radio for flights between Antarctica and New Zealand, and Melbourne Radio for flights between Antarctica and Australia.
+Mac Center provides Air Traffic Services for aircraft operating within the McMurdo Sector of Antarctica. This includes enroute and oceanic air traffic control, flight following, search and rescue coordination, and non-radar approach services where applicable. Mac Center coordinates closely with Auckland Radio for flights between Antarctica and New Zealand, and Brisbane Radio for flights between Antarctica and Australia.
 
 ## Positions
 
@@ -12,10 +12,10 @@ Mac Center provides Air Traffic Services for aircraft operating within the McMur
 | -------- | ------------- | -------------- | ----------------------------- | ----- |
 | NZCM_FSS | Mac Center    | Mac Center     | 9.032 (VHF alias 128.700 MHz) |       |
 
-!!! warning "Use of 118.200 MHz (VHF)"
-    Aircraft approaching Antarctica will normally transfer from the HF frequency to **118.200 MHz (VHF)** when operating within the McMurdo Sector.
+!!! warning "Use of 118.200 MHz"
+    Aircraft approaching Antarctica will normally transfer from the HF frequency to **118.200 MHz** when operating within the McMurdo Sector.
 
-    To transmit on **118.200 MHz (VHF)**, controllers must cross-couple (`XC`) **NZCM_CTR**.
+    To transmit on **118.200 MHz**, controllers must cross-couple (`XC`) **NZCM_CTR**.
 
     **NZCM_CTR** is a utility position used **only** for cross-coupling and must **never** be staffed.
 
