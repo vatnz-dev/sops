@@ -51,7 +51,7 @@ Within Class E airspace:
 
 ### ARO
 
-Aircraft leaving the McMurdo Sector for **ARO** shall be instructed to contact Auckland Radio at the designated transfer point.
+Aircraft leaving the McMurdo Sector for **ARO** shall be instructed to contact Auckland Radio.
 
 !!! example "Transfer to ARO"
 
@@ -61,7 +61,7 @@ Aircraft leaving the McMurdo Sector for **ARO** shall be instructed to contact A
 
 ### BNE
 
-Aircraft leaving the McMurdo Sector for **IND** shall be instructed to contact Melbourne Radio at the designated transfer point.
+Aircraft leaving the McMurdo Sector for **IND** shall be instructed to contact Melbourne Radio.
 
 !!! example "Transfer to BNE"
 
