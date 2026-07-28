@@ -28,7 +28,7 @@ Mac Center is responsible for aircraft operating **south of 60° South latitude*
 Mac Center coordinates with neighbouring ATS units at the following boundaries:
 
 - **North:** Auckland Radio (60° South Latitude)
-- **North-West:** Brisbane Radio (163° East Longitude)
+- **North-West:** Melbourne Radio (163° East Longitude)
 
 !!! info "Services Provided"
     Depending on the operation, Mac Center may provide:
