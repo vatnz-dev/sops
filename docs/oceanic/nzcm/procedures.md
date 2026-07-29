@@ -95,9 +95,3 @@ When **NZFX_TWR** is online, arrivals and departures should be coordinated as re
     Mac Center shall **not** provide a control service within Class D airspace.
 
 ---
-
-## Search and Rescue
-
-Mac Center provides Search and Rescue coordination for aircraft operating within the McMurdo Sector.
-
-Controllers should maintain situational awareness of overdue or missing aircraft and coordinate with neighbouring ATS units where required.
