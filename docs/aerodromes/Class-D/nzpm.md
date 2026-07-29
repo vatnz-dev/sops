@@ -48,7 +48,6 @@ Due to the surrounding MOAs, NZPM has numerous SIDs and STARs to either reroute 
 
 The preferred departure for IFR aircraft tracking via `OMBUB` is the `TEROT #Q`, due to the relatively direct nature. For other departure directions, issue the suggested SID.
 
-
 ### Runway 25
 
 The preferred departure for IFR aircraft tracking via `OMBUB` is the `GUTNI #R`, due to the relatively direct nature. For other departure directions, issue the suggested SID.

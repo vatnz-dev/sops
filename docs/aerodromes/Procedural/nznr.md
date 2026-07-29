@@ -80,10 +80,8 @@ In order to lessen the amount of instructions given to VFR traffic, the Controll
 
 !!! Warning "Duty Runway"
     Controllers shall NOT use `RWY 07/25` as the Duty Runway 
- 
 
 `RWY 07/25` may be used if required and controllers may use discretion on when to use the crossing runway. However controllers should use `RWY 16/34` unless there is a prevailing crosswind, or a pilot requests it. 
-
 
 ## Coordination
 
