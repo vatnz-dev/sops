@@ -44,7 +44,7 @@ Aircraft parked on the Western Apron (this should usually only apply to GA aircr
 
 ### IFR Arrivals
 
-Shall contact THN established inbound on an approach or when approaching the `CTR/D` on a visual approach. 
+Arriving IFR traffic shall contact THN established inbound on an approach or when approaching the `CTR/D` on a visual approach. 
 
 #### Instrument Approaches
 
