@@ -13,13 +13,14 @@ This page lists some of the aircraft callsigns that are routinely used within th
 | ADY  | Academy           | NZ ICPA                | Yes                   |
 | AHB  | Hawke             | Air Hawkes Bay         | Unsure                |
 | AMD  | Airmed            | GCH                    | Yes                   |
-| ANZ  | Air New Zealand   | Air New Zealand        | Yes                   |
+| ANZ  | New Zealand       | Air New Zealand        | Yes                   |
 | AWK  | Airwork           | Airwork                | Yes                   |
 | CAC  | Canterbury        | Canterbury Aero Club   | Unsure                |
 | CAP  | Capital           | Helilink               | Yes                   |
 | CFL  | Careflight        | Helicopter Services    | Yes                   |
 | CGD  | Coast Guard       | Coast Guard            | Unsure                |
 | CVA  | Chatham           | Air Chathams           | Yes                   |
+| EAG  | Eagle             | Eagle Airways          | No. Superceded by ANZ |
 | FDC  | Fly Doc           | GCH Aviation           | Yes                   |
 | GBA  | Barrier           | Barrier Air            | Yes                   |
 | GBY  | Golden Bay        | Golden Bay Air         | Yes                   |
@@ -35,12 +36,14 @@ This page lists some of the aircraft callsigns that are routinely used within th
 | NZM  | Mount Cook        | Mount Cook Airlines    | No. Superceded by ANZ |
 | OGN  | Origin            | Origin Air             | Yes                   |
 | PLB  | Polyblue          | Polynesian Blue        | No                    |
+| PBN  | Bluebird          | Polynesian Pacific     | No                    |
 | PLC  | Police            | NZ Police              | Yes                   |
 | PHA  | Parsec            | ASL Australia          | Yes                   | 
 | QFA  | Qantas            | Qantas Airways         | Yes                   |
 | QNZ  | Qantas Jetconnect | Jetconnect             | No                    |
 | RLK  | Link              | Air Nelson             | No. Superceded by ANZ |
 | SAV  | Sunair            | Sunair                 | Yes                   |
+| SCR  | Southern Cross    | Jetstar                | No                    |
 | SDA  | Sounds Air        | Sounds Air             | Yes                   |
 | SKL  | Sky               | SkyLine Aviation       | Yes                   |
 | TNZ  | Texel Cargo       | Texel Air              | Yes                   |
@@ -63,7 +66,7 @@ This page lists some of the aircraft callsigns that are routinely used within th
 | TEX  | Texan              | RNZAF    |
 | KAH  | Kahu               | RNZAF    |
 | FAL  | Falcon             | RNZAF    |
-| KNG  | King               | RNZAF    |
+| KNG  | King Air           | RNZAF    |
 | STG  | Stirling           | RNZAF    |
 | MAK  | Mako               | RNZAF    |
 | WRR  | Warrior            | RNZAF    |
