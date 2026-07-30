@@ -8,7 +8,7 @@ This section covers aerodrome specific procedures, separated by airspace class.
 
 Class C airspace is applied to CTRs at large international aerodromes, associated CTAs, and en‑route airspace covering principal domestic air routes.
 
-In this airspace IFR and VFR traffic are separated from each other at all times. Within a CTR, IFR aircraft are separated from special VFR (operating below visual meteorological conditions) aircraft, and special VFR aircraft are  eparated from each other when visibility is less than 5 km.
+In this airspace IFR and VFR traffic are separated from each other at all times. Within a CTR, IFR aircraft are separated from special VFR (operating below visual meteorological conditions) aircraft, and special VFR aircraft are separated from each other when visibility is less than 5 km.
 
 Where separation is not being provided, air traffic controllers are required to pass appropriate traffic information to VFR aircraft about other VFR aircraft, or special VFR aircraft when visibility is less than 5 km. VFR aircraft, however, must maintain their own separation from each other.
 
