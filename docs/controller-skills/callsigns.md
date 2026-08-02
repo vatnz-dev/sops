@@ -8,51 +8,51 @@ This page lists some of the aircraft callsigns that are routinely used within th
 
 ## Civilian
 
-| ICAO | RTF Designator    | Operator               | In Real-world Use?    |
-| ---- | ----------------- | ---------------------- | --------------------- |
-| ADY  | Academy           | NZ ICPA                | Yes                   |
-| AHB  | Hawke             | Air Hawkes Bay         | Unsure                |
-| AMD  | Airmed            | GCH                    | Yes                   |
-| ANZ  | New Zealand       | Air New Zealand        | Yes                   |
-| AWK  | Airwork           | Airwork                | Yes                   |
-| CAC  | Canterbury        | Canterbury Aero Club   | Unsure                |
-| CAP  | Capital           | Helilink               | Yes                   |
-| CFL  | Careflight        | Helicopter Services    | Yes                   |
-| CGD  | Coast Guard       | Coast Guard            | Unsure                |
-| CGE  | College           | Nelson Aviation College| Yes                   | 
-| CVA  | Chatham           | Air Chathams           | Yes                   |
-| EAG  | Eagle             | Eagle Airways          | No. Superceded by ANZ |
-| FDC  | Fly Doc           | GCH Aviation           | Yes                   |
-| GBA  | Barrier           | Barrier Air            | Yes                   |
-| GBY  | Golden Bay        | Golden Bay Air         | Yes                   |
-| GIS  | GISMED            | Air Gisbourne          | Yes                   |
-| LFT  | Life Flight       | Air Freight NZ         | Yes                   |
-| MDK  | Medicare          | Air Whanganui          | Yes                   |
-| MER  | Merlin            | Merlin Labs            | Yes                   |
-| MLD  | Mainland          | Mainland Air           | Yes                   |
-| MSY  | Massey            | Massey Aviation        | Yes                   |
-| NOR  | Northern Rescue   | Northen Rescue/Westpac | Yes                   |
-| NPR  | Air Napier        | Air Napier             | Yes                   |
-| NTL  | National          | Air National           | No                    |
-| NZM  | Mount Cook        | Mount Cook Airlines    | No. Superceded by ANZ |
-| OGN  | Origin            | Origin Air             | Yes                   |
-| PLB  | Polyblue          | Polynesian Blue        | No                    |
-| PBN  | Bluebird          | Polynesian Pacific     | No                    |
-| PLC  | Police            | NZ Police              | Yes                   |
-| PHA  | Parsec            | ASL Australia          | Yes                   | 
-| QFA  | Qantas            | Qantas Airways         | Yes                   |
-| QNZ  | Qantas Jetconnect | Jetconnect             | No                    |
-| RLK  | Link              | Air Nelson             | No. Superceded by ANZ |
-| SAV  | Sunair            | Sunair                 | Yes                   |
-| SCR  | Southern Cross    | Jetstar                | No                    |
-| SDA  | Sounds Air        | Sounds Air             | Yes                   |
-| SKL  | Sky               | SkyLine Aviation       | Yes                   |
-| SUY  | Survey            | Aerial Surveys         | Yes                   |
-| TNZ  | Texel Cargo       | Texel Air              | Yes                   |
-| TMN  | Tasman            | Tasman Cargo Airlines  | Yes                   | 
-| VOZ  | Velocity          | Virgin Australia       | Yes                   |
-| WPR  | Westpac Rescue    | Westpac Rescue         | No. Superceded by NOR |
-| XFX  | Aircorp           | Airways Corporation    | Yes                   |
+| ICAO | RTF Designator    | Operator                |
+| ---- | ----------------- | ----------------------- |
+| ADY  | Academy           | NZ ICPA                 |
+| AHB  | Hawke             | Air Hawkes Bay          |
+| AMD  | Airmed            | GCH Aviation            |
+| ANZ  | New Zealand       | Air New Zealand         |
+| AWK  | Airwork           | Airwork                 |
+| CAP  | Capital           | Helilink*               |
+| CFL  | Careflight        | Helicopter Services     |
+| CGE  | College           | Nelson Aviation College |
+| CVA  | Chatham           | Air Chathams            |
+| EAG  | Eagle             | Eagle Airways*          |
+| FDC  | Fly Doc           | GCH Aviation            |
+| GBA  | Barrier           | Barrier Air             |
+| GBY  | Golden Bay        | Golden Bay Air          |
+| GIS  | Gismed            | Air Gisborne            |
+| LFT  | Life Flight       | Air Freight NZ          |
+| MDK  | Medicare          | Air Whanganui           |
+| MER  | Merlin            | Merlin Labs             |
+| MLD  | Mainland          | Mainland Air            |
+| MSY  | Massey            | Massey Aviation         |
+| NOR  | Northern Rescue   | Northen Rescue/Westpac  |
+| NPR  | Air Napier        | Air Napier              |
+| NTL  | National          | Air National*           |
+| NZM  | Mount Cook        | Mount Cook Airlines*    |
+| OGN  | Origin            | Origin Air              |
+| PLB  | Polyblue          | Polynesian Blue*        |
+| PBN  | Bluebird          | Polynesian Pacific*     |
+| PLC  | Police            | NZ Police               |
+| PHA  | Parsec            | ASL Australia           |
+| QFA  | Qantas            | Qantas Airways          |
+| QNZ  | Qantas Jetconnect | Jetconnect*             |
+| RLK  | Link              | Air Nelson*             |
+| SAV  | Sunair            | Sunair                  |
+| SCR  | Southern Cross    | Jetstar*                |
+| SDA  | Sounds Air        | Sounds Air              |
+| SKL  | Sky               | SkyLine Aviation        |
+| SUY  | Survey            | Aerial Surveys          |
+| TNZ  | Texel Cargo       | Texel Air               |
+| TMN  | Tasman            | Tasman Cargo Airlines   | 
+| VOZ  | Velocity          | Virgin Australia        |
+| WPR  | Westpac Rescue    | Westpac Rescue*         |
+| XFX  | Aircorp           | Airways Corporation     |
+
+*Callsign has been superseded and no longer used within NZ Airspace in real life. 
 
 ## Military
 
