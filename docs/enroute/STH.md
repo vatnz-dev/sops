@@ -57,6 +57,8 @@ STH shall ensure that aircraft overflying the CH TMA are no lower than `A110` wi
 
 STH shall ensure that an efficient arrival flow is managed into DN TWR's airspace. 
 
+DN TWR is only authorised to climb aircraft to a maximum of `FL250`. On handover, STH shall clear the aircraft to its RFL.
+
 When DN TWR is offline, the DN Procedural Tower service shall be provided by STH. 
 
 When responsible for DN TWR, STH may opt to provide a radar approach service, rather than a procedural approach service.
@@ -116,9 +118,19 @@ If a sequencing conflict is to occur, STH shall coordinate with CH TMA as to an 
 
 STH may clear aircraft direct to the STAR's CH TMA boundary without coordination, provided that they have been cleared to rejoin the STAR thereafter. Aircraft may be cleared to track direct to a fix within CH TMA's boundary with coordination, subject to the same condition.
 
+#### Short STARs - NZCH
+
+`BELEE #J` and `BELEE #K` are Short STARs into CH TMA that capture ILS 02 and ILS 20 at their intermediate fixes, `IDUBU` and `DIVSU` respectively. Controllers must co-ordinate with CH TMA before clearing aircraft for these arrivals, as prior planning may be required to ensure flow is maintained.
+
+These STARs are flow control STARs, allowing controllers to sequence aircraft onto a shorter final approach. Controllers should utilise these STARs when a conflict exists at the IAF for the ILS 02/20 or if northbound or southbound arrival flows have already been established.
+
+These arrivals provide track shortening of **4NM** compared to the `A`/`B` arrivals.
+
 ### DN TWR
 
 STH shall issue STARs to aircraft bound for NZDN without coordination from DN TWR. 
+
+DN TWR is only authorised to climb aircraft to a maximum of `FL250`. On handover, STH shall clear the aircraft to its RFL.
 
 STH may descend NZDN bound aircraft to `A100`, unless the aircraft has been given the `BASOS` oceanic STAR, where the following conditions apply -
 

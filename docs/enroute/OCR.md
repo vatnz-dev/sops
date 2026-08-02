@@ -34,10 +34,6 @@ OCR shall also manage the arrivals and departures into and out of any controlled
 
 ## Coordination
 
-### Handovers
-
-Aircraft shall be handed over as per the [Standard Coordination Procedures](../controller-skills/handover.md).
-
 ### AA TMA
 
 OCR may issue STAR clearances to aircraft bound for any aerodrome within AA TMA without coordination, provided it is for the nominated runway and approach type as stated in the ATIS. A request for use of a non-nominated approach requires agreement from both the TMA and ADC Controller.

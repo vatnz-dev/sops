@@ -18,7 +18,8 @@
 *[SOPs]: Standard Operating Procedures
 *[PR]: Pull Request
 *[FSS]: Flight Service Station
-*[AFIS]: Aerodrome Flight Information Station
+*[AFIS]: Aerodrome Flight Information Service
+*[FIS]: Flight Information Service
 *[AIP]: Aeronautical Information Publication
 *[ProcEd]: Procedure Editor
 *[SMC]: Surface Movement Control
@@ -41,9 +42,13 @@
 *[KAI]: Christchurch Control (Kaikoura Sector)
 *[ARO]: Auckland Radio (Oceanic)
 *[TWR]: Tower
+*[DLV]: Delivery
 *[ATIS]: Automatic Terminal Information Service
 *[PBN]: Performance Based Navigation
 *[RNP]: Required Navigation Performance
 *[5LNC]: 5 Letter Name Code (an issued and named waypoint by ICAO)
+*[QTMA]: Queenstown Terminal Area (Queenstown Approach)
 *[RTF]: Radio Telephony
+*[DMAPS]: Divergent Missed Approach Procedures System
+*[WDTMA]: Williams Terminal Area (Williams Tower)
 <!-- ADD Aerodrome Codes -->

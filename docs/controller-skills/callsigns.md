@@ -86,10 +86,6 @@ Aircraft that fall within the `J` or 'Super' Wake Turbulence Category **must** h
 At present, only one aircraft falls within this category - the Airbus A380 `(A388)`.
 
 !!! example "RTF Example for a Super Aircraft"
-<<<<<<< Updated upstream
-    **Christchurch Approach**: *"Emirates 412 Super, continue descent via the STAR to 8,000 feet. Christchurch Information OSCAR is current."*  
-    **UAE412**: *"Descend by the STAR to 8,000 feet. We have Information OSCAR. Emirates 412 Super."*
-=======
     **Christchurch Approach**: *"Emirates 3 Hotel Juliet Super, continue descent via the STAR to 8,000 feet. Christchurch Information OSCAR is current."*  
     **UAE3HJ**: *"Descend by the STAR to 8,000 feet. We have Information OSCAR. Emirates 3 Hotel Juliet Super."*
->>>>>>> Stashed changes
+=======

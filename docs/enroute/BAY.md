@@ -31,7 +31,7 @@ BAY is responsible for managing the flow, sequence and initial descent of East C
 BAY shall also manage the arrivals and departures into and out of any controlled or uncontrolled IFR aerodromes in its sector. This shall include issuing STARs and providing a top-down service where appropriate.
 
 !!! info
-    In the real world, BAY is heavility utilised for contingency operations when RAN sector is unavailable, with main trunk traffic overflying Lake Taupo before being sequenced for the `NOBAR` STAR into NZAA.
+    In the real world, BAY is heavility utilised for contingency operations when RAN sector is unavailable, with main trunk traffic overflying Lake Taupo before being sequenced for the `DODKU` STAR into NZAA.
 
 
 ### HN TMA
@@ -71,7 +71,7 @@ BAY may descend aircraft to `A110` without coordination from AA TMA.
 
 If a sequencing conflict is to occur, BAY shall coordinate with AA TMA as to an ideal arrival order. In the event that RAN and BAY sector traffic interfere, AA TMA shall decide the order of arrivals.
 
-BAY shall ensure that IFR aircraft crossing into AA TMA bound for NZAA are established on the `NOBAR` STAR. BAY shall not issue track shortening beyond `NOBAR` except where required by AA TMA for sequencing.
+BAY shall ensure that IFR aircraft crossing into AA TMA bound for NZAA are established on the `DODKU` STAR. BAY shall not issue track shortening beyond `DODKU` except where required by AA TMA for sequencing.
 
 ### HN TMA
 

@@ -55,7 +55,7 @@ Aircraft shall leave the ATMA tracking a waypoint. Where aircraft are vacating o
 All prop-preferred SIDs have a hold-down altitude restriction during their initial departure segment. Most Pilots are unaware of these limitations, therefore ATMA should be aware of the limitations, particularly on the  `BROOK #Q`, `REKIS #Q`, `AVDAT #Q`, `DOVON #Q`, `STEAL #P` and `ELSAB #P`. Controllers may use a stepped climb methodology to ensure that these limitations are met.
 
 
-### Track Shortening SIDs
+### Track Shortening on SIDs
 
 TMA may utilise SID track-shortening where necessary. Where an aircraft is issued a direct to another point on the SID, they shall be instructed to then rejoin the procedure.
 
@@ -65,7 +65,7 @@ TMA may utilise SID track-shortening where necessary. Where an aircraft is issue
 !!! hint "RTF for re-joining a SID"
     Where an aircraft has been taken off their assigned SID, and is required to then re-join at a later point, the following RTF must be used:
 
-    **ATMA**: *New Zealand 677, track direct LAKES to rejoin the SID/STAR*.
+    **ATMA**: *New Zealand 677, track direct ORIDI to rejoin the SID/STAR*.
 
 
 #### OCR 
@@ -83,22 +83,22 @@ Prior coordination or notification is not required for the following flights:
 
 | Criteria to be met                                                            | Clearance Limit                         |
 | ----------------------------------------------------------------------------- | --------------------------------------- |
-| DEST is not NZNP                                                              | Direct to: `KARRL`, `NP VOR` or `LAKAR` |
-| Aircraft is west of `KARRL`, DEST is NZCH and is a jet                        | Direct to `NS VOR`                      |
+| DEST is not NZNP                                                              | Direct to: `IGBAT`, `NP VOR` or `LAKAR` |
+| Aircraft is west of `IGBAT`, DEST is NZCH and is a jet                        | Direct to `NS VOR`                      |
 | DEST is not NZHN                                                              | Direct to `HN VOR`                      |
-| Aircraft Enters RAN sector east of `LAKES`-`DROPT` track and west of `HN VOR` | Direct to `DROPT`                       |
-| Aircraft enters RAN sector west of `KARRL`                                    | Direct to `SILVO`                       |
+| Aircraft Enters RAN sector east of `ORIDI`-`DROPT` track and west of `HN VOR` | Direct to `DROPT`                       |
+| Aircraft enters RAN sector west of `IGBAT`                                    | Direct to `SILVO`                       |
 | Level is `A100` or below                                                      | via FPR on non-standard routes          |
 
 #### BAY
 
 Prior coordination or notification is not required for the following flights:
 
-| Criteria to be met                                     | Clearance Limit                |
-| ------------------------------------------------------ | ------------------------------ |
-| Level is `A100` or below, and DEST is not NZTG         | Direct to: `TG VOR`            |
-| Aircraft is west of `KARRL`, DEST is NZCH and is a jet | Direct to `TULMI`              |
-| Level is `A100` and below                              | via FPR on non-standard routes |
+| Criteria to be met                                     | Clearance Limit                    |
+| ------------------------------------------------------ | ---------------------------------- |
+| Level is `A100` or below, and DEST is not NZTG         | Direct to: `TG VOR`                |
+| Aircraft enters BAY sector via TULMI                   | Direct to `TULMI`                  |
+| Level is `A100` and below                              | via FPR on **non-standard** routes |
 
 !!! note "Silent Coordination"
     For any coordinated track shortening, Controllers shall note the instruction given in the aircraft's tag.
@@ -109,7 +109,7 @@ Assigned heading departures may be requested by Tower or ATMA in order to allow 
 
 These instrctions shall be issued in accordance with [NZAA - Assigned Headings](../aerodromes/Class-C/nzaa.md#assigned-headings).    
 
-### Short-Sector STARs
+### Issuing STARs for Short Sectors
 
 ATMA is responsible for issuing STAR clearances for aircraft bound for NZHN and NZTG and shall do so without coordination. 
 
@@ -141,9 +141,9 @@ For IFR aircraft leaving ATMA and controlled airspace on descent, ATMA shall iss
 If the aircraft is terminating their FPL underneath ATMA, they shall be instructed to contact you on the ground to cancel their IFR flight plan. If their flight is terminating underneath another sector, such as OCR, they shall be instructed to contact that sector. This shall be coordinated.
 
 !!! Example Clearance 
-    **ATMA**: *EAM Cleared to Rotorua via `LAKES`, direct `ESKER` at 8,000ft, Squawk 5623*
+    **ATMA**: *EAM Cleared to Rotorua via `ORIDI`, direct `ESKER` at 8,000ft, Squawk 5623*
 
-    **EAM**: *Cleared to Rotorua via `LAKES`, direct `ESKER` at 8,000ft, Squawk 5623, EAM* 
+    **EAM**: *Cleared to Rotorua via `ORIDI`, direct `ESKER` at 8,000ft, Squawk 5623, EAM* 
 
     **ATMA**: *EAM, Readback correct, clearance not vaild, report on the taxi, Northland QNH 1015*
 

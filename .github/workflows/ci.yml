@@ -2,15 +2,23 @@ name: ci
 on:
   push:
     branches:
-      - master
       - main
+
 jobs:
   deploy:
+    name: Deploy MkDocs
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-python@v2
+      - uses: actions/checkout@v5
         with:
-          python-version: 3.x
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        name: Setup Python
+        with:
+          python-version: 3.12
       - run: pip install -r requirements.txt
-      - run: mkdocs gh-deploy --force --config-file production.yml
+
+      - name: Deploy 
+        run: mkdocs gh-deploy --force --config-file production.yml

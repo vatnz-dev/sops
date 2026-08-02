@@ -1,4 +1,6 @@
 title: Oceanic
 nav:
-    - index.md
-    - ...
+  - index.md
+  - ...
+
+order: desc

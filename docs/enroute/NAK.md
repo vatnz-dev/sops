@@ -105,7 +105,7 @@ If further descent is required, NAK shall clear the aircraft to leave controlled
 
 ### OH TMA
 
-NAK shall assign STARs without coordination to any aircraft bound for NZPM and NZOH if not already done so. NAK may issue STARs for IFR aircraft bound for NZWU or NZFI with coordination from OH TMA.
+NAK shall assign STARs without coordination to any aircraft bound for NZPM and NZOH if not already done so. NAK may issue STARs for IFR aircraft bound for NZWU with coordination from OH TMA.
 
 NAK may descend aircraft to `A095` without coordination from OH TMA.
 

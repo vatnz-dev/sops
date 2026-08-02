@@ -117,4 +117,4 @@ KAI may descend aircraft bound for NZWB to `A080` without coordination from WN T
 
 KAI shall assign STARs without coordination to any aircraft bound for NZNS.
 
-KAI may clear NZNS bound aircraft direct to `BISEB` or `GUNEL`, if those STARs have been issued. KAI may descend NZNS bound traffic to `A010` without coordination from NAK or NS TWR.
+KAI may clear NZNS bound aircraft direct to `BISEB` or `GUNEL`, if those STARs have been issued. KAI may descend NZNS bound traffic to `A110` without coordination from NAK or NS TWR.
