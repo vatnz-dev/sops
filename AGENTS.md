@@ -2,6 +2,8 @@
 
 Use this file as a starting point for creating consistent AIRAC changelog entries in `docs/changelog/YYYY/XXXX.md`.
 
+For New Zealand aerodrome ICAO code to name mapping, use `.agents/icao-reference.md` as the canonical reference.
+
 ## Required structure
 
 ```md
@@ -44,6 +46,9 @@ Use this file as a starting point for creating consistent AIRAC changelog entrie
     - If the Type column contains `(AR)`, append ` (AR)` to the name (e.g. `RNP 30 (AR)`).
     - In practice: check the source Type field when drafting entries and only include `(AR)` when that field lists it.
 - All SIDs, STARs, or RNP approaches should be listed on the same line. When multiple procedures share the same reason, consolidate them under one bullet point with the common reason below (e.g., "The following SIDs have been amended: `NAME1`, `NAME2`. - Procedure reviewed."). For procedure-specific reasons, list them separately or append to the names (e.g., "`NAME1`, `NAME2`: minor track changes."). If no reason is given, no short note should be added.
+- SID and STAR entries should show the new name. If the initial waypoint part of the name (e.g. `SCARY` from `SCARY3D`) has changed, the procedure-specific reasons should list it as renamed and include the from name in the reason otherwise this is not necessary.
+- Rows whose Type is `Standard Route` are Standard Route changes and should be placed in the appropriate location. These should be listed as a bullet-point list. It should use the word amended rather than renamed.
+- All SID, STAR, RNP, ILS, and other procedure changes remain under `## Aerodrome`, even if they involve a rename.
 
 ## Example section labels
 
