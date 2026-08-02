@@ -251,6 +251,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://sops.vatnz.net/changelog/2026/2608/</loc>
+         <lastmod>2026-08-02</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://sops.vatnz.net/changelog/oceanic/2025/2511/</loc>
          <lastmod>2026-08-02</lastmod>
          <changefreq>daily</changefreq>
