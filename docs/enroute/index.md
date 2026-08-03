@@ -6,8 +6,84 @@ New Zealand has seven Enroute Sectors, six of which can be staffed routinely on 
 
 VATNZ Controllers are able to staff all six permanent Enroute Sectors at once, in a situation known as Extended Services. [You can find out more about Sector Inheritance and Extended Services here](../controller-skills/inheritance-extending.md).
 
+<div class="enroute-map" aria-label="Interactive map of New Zealand FIR enroute sectors">
+  <div class="enroute-map__canvas">
+    <img src="../assets/nz-fir-airspace.png" alt="NZ FIR Airspace Sectors">
 
-![NZ FIR Airspace Sectors](../assets/nz-fir-airspace.png){width="100%"}
+    <a class="enroute-map__hotspot enroute-map__hotspot--ocr" href="OCR/" aria-label="Open OCR sector page">
+      <span class="enroute-map__label">OCR</span>
+    </a>
+    <span class="enroute-map__panel enroute-map__panel--ocr">
+      <strong>Auckland - Oceanic Radar (OCR)</strong>
+      <span>NZAA_CTR | Auckland Control | 123.900</span>
+      <span>Sequences NZAA and NZWP arrivals, with RAN, BAY and AA TMA inheritance when offline.</span>
+    </span>
+
+    <a class="enroute-map__hotspot enroute-map__hotspot--ran" href="RAN/" aria-label="Open RAN sector page">
+      <span class="enroute-map__label">RAN</span>
+    </a>
+    <span class="enroute-map__panel enroute-map__panel--ran">
+      <strong>Auckland - Raglan (RAN)</strong>
+      <span>NZAA-R_CTR | Auckland Control | 126.000</span>
+      <span>Event-only sector managing NZAA sequencing, departures and HN TMA traffic.</span>
+    </span>
+
+    <a class="enroute-map__hotspot enroute-map__hotspot--bay" href="BAY/" aria-label="Open BAY sector page">
+      <span class="enroute-map__label">BAY</span>
+    </a>
+    <span class="enroute-map__panel enroute-map__panel--bay">
+      <strong>Christchurch - Bays (BAY)</strong>
+      <span>NZCH-B_CTR | Bay Approach | 119.500</span>
+      <span>Manages East Coast flow into AA TMA and traffic crossing into OHA.</span>
+    </span>
+
+    <a class="enroute-map__hotspot enroute-map__hotspot--oha" href="OHA/" aria-label="Open OHA sector page">
+      <span class="enroute-map__label">OHA</span>
+    </a>
+    <span class="enroute-map__panel enroute-map__panel--oha">
+      <strong>Ohakea (OHA)</strong>
+      <span>NZOH_CTR | Ohakea Control | 126.200</span>
+      <span>Links prop and military traffic around OH TMA, NZAA and NZWN flows.</span>
+    </span>
+
+    <a class="enroute-map__hotspot enroute-map__hotspot--nak" href="NAK/" aria-label="Open NAK sector page">
+      <span class="enroute-map__label">NAK</span>
+    </a>
+    <span class="enroute-map__panel enroute-map__panel--nak">
+      <strong>Christchurch - Taranaki (NAK)</strong>
+      <span>NZCH-T_CTR | Christchurch Control | 123.700</span>
+      <span>Primary NZAA, NZCH, NZQN and NZWN flow sector, including WN TMA inheritance.</span>
+    </span>
+
+    <a class="enroute-map__hotspot enroute-map__hotspot--kai" href="KAI/" aria-label="Open KAI sector page">
+      <span class="enroute-map__label">KAI</span>
+    </a>
+    <span class="enroute-map__panel enroute-map__panel--kai">
+      <strong>Christchurch - Kaikoura (KAI)</strong>
+      <span>NZCH-K_CTR | Christchurch Control | 129.400</span>
+      <span>Manages northbound and southbound NZCH traffic, including CH TMA inheritance.</span>
+    </span>
+
+    <a class="enroute-map__hotspot enroute-map__hotspot--sth" href="STH/" aria-label="Open STH sector page">
+      <span class="enroute-map__label">STH</span>
+    </a>
+    <span class="enroute-map__panel enroute-map__panel--sth">
+      <strong>Christchurch - South (STH)</strong>
+      <span>NZCH-S_CTR | Christchurch Control | 129.300</span>
+      <span>Manages NZQN, NZDN, NZNV and western NZCH flows, with QN TMA inheritance.</span>
+    </span>
+  </div>
+
+  <div class="enroute-map__cards" aria-label="Enroute sector links">
+    <a href="OCR/"><strong>OCR</strong><span>Auckland Control | 123.900</span></a>
+    <a href="RAN/"><strong>RAN</strong><span>Auckland Control | 126.000</span></a>
+    <a href="BAY/"><strong>BAY</strong><span>Bay Approach | 119.500</span></a>
+    <a href="OHA/"><strong>OHA</strong><span>Ohakea Control | 126.200</span></a>
+    <a href="NAK/"><strong>NAK</strong><span>Christchurch Control | 123.700</span></a>
+    <a href="KAI/"><strong>KAI</strong><span>Christchurch Control | 129.400</span></a>
+    <a href="STH/"><strong>STH</strong><span>Christchurch Control | 129.300</span></a>
+  </div>
+</div>
 
 ## General Rules of Thumb for ENR
 
