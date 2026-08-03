@@ -123,10 +123,7 @@ For flights that include an additional waypoint within the NZZO sector, contact 
 
 ### Below FL245
 
-ARO shall not pass IFR clearances to aircraft requesting to operate below FL245 whilst on the ground or following departure from the Chatham Islands. ARO shall not accept radio guard for aircraft operating below FL245.
-
-- The aircraft shall broadcast their position on UNICOM, and shall monitor ARO's frequency.
-- Aircraft may be passed traffic information at their requested altitude or levels.
+ARO shall pass IFR clearances to aircraft requesting to operate below FL245 whilst on the ground or following departure from the Chatham Islands. ARO shall  accept radio guard for aircraft operating below FL245. But may only provide traffic information. 
 
 Before reaching the NZZO boundary, the aircraft shall be instructed to contact the NZZC sector for clearance into controlled airspace.
 
@@ -140,4 +137,5 @@ Aircraft operating above FL245 shall be handed between NZZO and NZZC controllers
 For aircraft requiring descent below FL245, the aircraft shall be instructed to leave controlled airspace by descent, as well as the traffic status at NZCI, if known.
 
 !!! example "RTF Example for descent below FL245"
-    **Auckland Radio**: *"TNZ123 (when ready | at/after time/position) leave controlled airspace by descent. Report passing FL240. (Traffic is.. | No reported IFR traffic)"*
+    **Auckland Radio**: *"TNZ123 (when ready | at/after time/position) leave controlled airspace by descent. Report passing FL250. (Traffic is.. | No reported IFR traffic)"*
+    
