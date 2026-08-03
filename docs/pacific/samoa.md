@@ -62,8 +62,10 @@ Since there are no published SIDs TTU shall clear the aircraft by means of a rad
 
 ## Coordination
 
-Any requests for a non-nominated approach shall be coordinated with the respective Tower as needed.
+As usual, any requests for a non-nominated approach shall be coordinated with the Towers as needed. 
+
+TTU shall request release of **ALL** IFR departures with FAL prior to departure.
 
 TFA may conduct auto-release to FAL provided the aircraft are on a RNAV SID off the Nominated Runway. 
 
-FAL shall provide a 10-minute warning to ARO before an aircraft crosses the common airspace boundary. As FAL provides a radar service, no coordination is required from ARO.
+FAL shall provide a 10-minute warning to ARO before an aircraft crosses the common airspace boundary. As FAL provides a radar service no coordination is requried from ARO. 
