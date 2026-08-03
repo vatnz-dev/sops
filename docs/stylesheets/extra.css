@@ -161,46 +161,66 @@ h4 {
   height: auto;
 }
 
-.enroute-map__hotspot {
-  --sector-color: rgba(81, 90, 109, 0.15);
-  --sector-border: rgba(255, 255, 255, 0.95);
+.enroute-map__overlay {
   position: absolute;
-  display: block;
-  border: 2px solid transparent;
-  background: transparent;
-  color: #0f172a;
-  text-decoration: none;
-  transition: background-color 160ms ease, border-color 160ms ease, filter 160ms ease;
+  inset: 0;
+  width: 100%;
+  height: 100%;
 }
 
-.enroute-map__hotspot:hover,
-.enroute-map__hotspot:focus-visible {
-  background: var(--sector-color);
-  border-color: var(--sector-border);
-  color: #0f172a;
-  filter: drop-shadow(0 0 0.45rem rgba(15, 23, 42, 0.28));
+.enroute-map__sector {
+  --sector-color: rgba(71, 85, 105, 0.28);
+  cursor: pointer;
   outline: none;
-  z-index: 5;
 }
 
-.enroute-map__hotspot:focus-visible .enroute-map__label {
-  outline: 3px solid var(--md-typeset-a-color);
-  outline-offset: 3px;
+.enroute-map__sector polygon {
+  fill: transparent;
+  pointer-events: all;
+  stroke: transparent;
+  stroke-linejoin: round;
+  stroke-width: 4px;
+  transition: fill 160ms ease, stroke 160ms ease, filter 160ms ease;
 }
 
-.enroute-map__label {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  padding: 0.18rem 0.45rem;
-  border-radius: 0.25rem;
-  background: rgba(255, 255, 255, 0.88);
-  box-shadow: 0 0.15rem 0.45rem rgba(15, 23, 42, 0.16);
-  color: #0f172a;
-  font-size: clamp(0.58rem, 1.2vw, 0.78rem);
-  font-weight: 700;
-  line-height: 1;
-  transform: translate(-50%, -50%);
+.enroute-map__sector:hover polygon,
+.enroute-map__sector:focus-visible polygon {
+  fill: var(--sector-color);
+  filter: drop-shadow(0 0 0.45rem rgba(15, 23, 42, 0.22));
+  stroke: rgba(255, 255, 255, 0.95);
+}
+
+.enroute-map__sector:focus-visible polygon {
+  stroke: var(--md-typeset-a-color);
+  stroke-width: 6px;
+}
+
+.enroute-map__sector--ocr {
+  --sector-color: rgba(71, 85, 105, 0.2);
+}
+
+.enroute-map__sector--ran {
+  --sector-color: rgba(71, 85, 105, 0.32);
+}
+
+.enroute-map__sector--bay {
+  --sector-color: rgba(71, 85, 105, 0.25);
+}
+
+.enroute-map__sector--oha {
+  --sector-color: rgba(71, 85, 105, 0.25);
+}
+
+.enroute-map__sector--nak {
+  --sector-color: rgba(71, 85, 105, 0.24);
+}
+
+.enroute-map__sector--kai {
+  --sector-color: rgba(71, 85, 105, 0.27);
+}
+
+.enroute-map__sector--sth {
+  --sector-color: rgba(71, 85, 105, 0.22);
 }
 
 .enroute-map__panel {
@@ -229,108 +249,22 @@ h4 {
   font-size: 0.74rem;
 }
 
-.enroute-map__hotspot:hover + .enroute-map__panel,
-.enroute-map__hotspot:focus-visible + .enroute-map__panel {
+.enroute-map__canvas:has(.enroute-map__sector--ocr:hover) .enroute-map__panel--ocr,
+.enroute-map__canvas:has(.enroute-map__sector--ocr:focus-visible) .enroute-map__panel--ocr,
+.enroute-map__canvas:has(.enroute-map__sector--ran:hover) .enroute-map__panel--ran,
+.enroute-map__canvas:has(.enroute-map__sector--ran:focus-visible) .enroute-map__panel--ran,
+.enroute-map__canvas:has(.enroute-map__sector--bay:hover) .enroute-map__panel--bay,
+.enroute-map__canvas:has(.enroute-map__sector--bay:focus-visible) .enroute-map__panel--bay,
+.enroute-map__canvas:has(.enroute-map__sector--oha:hover) .enroute-map__panel--oha,
+.enroute-map__canvas:has(.enroute-map__sector--oha:focus-visible) .enroute-map__panel--oha,
+.enroute-map__canvas:has(.enroute-map__sector--nak:hover) .enroute-map__panel--nak,
+.enroute-map__canvas:has(.enroute-map__sector--nak:focus-visible) .enroute-map__panel--nak,
+.enroute-map__canvas:has(.enroute-map__sector--kai:hover) .enroute-map__panel--kai,
+.enroute-map__canvas:has(.enroute-map__sector--kai:focus-visible) .enroute-map__panel--kai,
+.enroute-map__canvas:has(.enroute-map__sector--sth:hover) .enroute-map__panel--sth,
+.enroute-map__canvas:has(.enroute-map__sector--sth:focus-visible) .enroute-map__panel--sth {
   opacity: 1;
   transform: translateY(0);
-}
-
-.enroute-map__hotspot--ocr {
-  --sector-color: rgba(122, 166, 224, 0.3);
-  left: 37.5%;
-  top: 3.2%;
-  width: 49.5%;
-  height: 38.4%;
-  clip-path: polygon(30% 0, 68% 1%, 90% 15%, 100% 44%, 93% 52%, 74% 54%, 63% 66%, 57% 88%, 44% 100%, 22% 80%, 2% 58%, 0 39%, 10% 18%);
-}
-
-.enroute-map__hotspot--ran {
-  --sector-color: rgba(93, 108, 202, 0.34);
-  left: 59.4%;
-  top: 27.6%;
-  width: 14.2%;
-  height: 12.4%;
-  clip-path: polygon(0 0, 62% 16%, 100% 44%, 86% 100%, 13% 100%, 4% 64%);
-}
-
-.enroute-map__hotspot--bay {
-  --sector-color: rgba(226, 97, 194, 0.28);
-  left: 67.2%;
-  top: 20.8%;
-  width: 25.5%;
-  height: 20.4%;
-  clip-path: polygon(0 12%, 73% 0, 100% 31%, 86% 100%, 61% 74%, 23% 79%, 12% 55%);
-}
-
-.enroute-map__hotspot--oha {
-  --sector-color: rgba(128, 234, 95, 0.3);
-  left: 70.2%;
-  top: 31.6%;
-  width: 19.2%;
-  height: 22.1%;
-  clip-path: polygon(20% 12%, 64% 8%, 100% 30%, 76% 100%, 36% 86%, 22% 58%, 0 15%);
-}
-
-.enroute-map__hotspot--nak {
-  --sector-color: rgba(238, 174, 72, 0.32);
-  left: 48.2%;
-  top: 39.4%;
-  width: 32.2%;
-  height: 20.2%;
-  clip-path: polygon(10% 0, 66% 0, 83% 48%, 100% 75%, 68% 100%, 7% 100%, 0 65%, 1% 24%);
-}
-
-.enroute-map__hotspot--kai {
-  --sector-color: rgba(229, 90, 89, 0.32);
-  left: 60.9%;
-  top: 52.2%;
-  width: 21.1%;
-  height: 17.6%;
-  clip-path: polygon(0 24%, 56% 0, 100% 12%, 79% 100%, 36% 88%, 0 40%);
-}
-
-.enroute-map__hotspot--sth {
-  --sector-color: rgba(51, 217, 170, 0.3);
-  left: 36.9%;
-  top: 56.1%;
-  width: 38.5%;
-  height: 35.4%;
-  clip-path: polygon(22% 0, 57% 0, 83% 27%, 100% 34%, 61% 100%, 0 81%, 6% 58%, 0 44%, 9% 21%);
-}
-
-.enroute-map__hotspot--ocr .enroute-map__label {
-  left: 58%;
-  top: 36%;
-}
-
-.enroute-map__hotspot--ran .enroute-map__label {
-  left: 45%;
-  top: 48%;
-}
-
-.enroute-map__hotspot--bay .enroute-map__label {
-  left: 56%;
-  top: 46%;
-}
-
-.enroute-map__hotspot--oha .enroute-map__label {
-  left: 48%;
-  top: 50%;
-}
-
-.enroute-map__hotspot--nak .enroute-map__label {
-  left: 50%;
-  top: 47%;
-}
-
-.enroute-map__hotspot--kai .enroute-map__label {
-  left: 50%;
-  top: 46%;
-}
-
-.enroute-map__hotspot--sth .enroute-map__label {
-  left: 55%;
-  top: 55%;
 }
 
 .enroute-map__panel--ocr {
@@ -372,21 +306,7 @@ h4 {
   display: none;
 }
 
-[data-md-color-scheme="slate"] .enroute-map__label {
-  background: rgba(15, 23, 42, 0.88);
-  color: #fff;
-}
-
 @media screen and (max-width: 700px) {
-  .enroute-map__hotspot {
-    border: 0;
-  }
-
-  .enroute-map__label {
-    padding: 0.14rem 0.28rem;
-    font-size: 0.56rem;
-  }
-
   .enroute-map__panel {
     display: none;
   }
