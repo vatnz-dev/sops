@@ -10,63 +10,66 @@ VATNZ Controllers are able to staff all six permanent Enroute Sectors at once, i
   <div class="enroute-map__canvas">
     <img src="../assets/nz-fir-airspace.png" alt="NZ FIR Airspace Sectors">
 
-    <a class="enroute-map__hotspot enroute-map__hotspot--ocr" href="OCR/" aria-label="Open OCR sector page">
-      <span class="enroute-map__label">OCR</span>
-    </a>
+    <svg class="enroute-map__overlay" viewBox="0 0 810 1050" aria-label="Enroute sector page links" role="navigation">
+      <a class="enroute-map__sector enroute-map__sector--ocr" href="OCR/" aria-label="Open OCR sector page">
+        <polygon points="468,33 554,40 632,81 680,151 700,200 548,213 550,249 565,269 558,354 503,355 484,256 407,404 359,378 326,340 306,285 310,189 330,128 381,72" />
+      </a>
+      <a class="enroute-map__sector enroute-map__sector--ran" href="RAN/" aria-label="Open RAN sector page">
+        <polygon points="484,256 548,274 565,295 558,354 503,355 484,322" />
+      </a>
+      <a class="enroute-map__sector enroute-map__sector--bay" href="BAY/" aria-label="Open BAY sector page">
+        <polygon points="548,213 700,200 751,242 724,346 680,309 616,318 558,354 565,295 548,274" />
+      </a>
+      <a class="enroute-map__sector enroute-map__sector--oha" href="OHA/" aria-label="Open OHA sector page">
+        <polygon points="616,318 680,309 724,346 650,508 626,501 626,457 585,457 575,391 558,354" />
+      </a>
+      <a class="enroute-map__sector enroute-map__sector--nak" href="NAK/" aria-label="Open NAK sector page">
+        <polygon points="407,404 503,355 558,354 575,391 585,457 626,457 626,501 650,508 630,559 596,551 540,633 495,587 407,560 391,515 392,458" />
+      </a>
+      <a class="enroute-map__sector enroute-map__sector--kai" href="KAI/" aria-label="Open KAI sector page">
+        <polygon points="495,587 540,633 596,551 650,508 596,643 536,631" />
+      </a>
+      <a class="enroute-map__sector enroute-map__sector--sth" href="STH/" aria-label="Open STH sector page">
+        <polygon points="407,560 495,587 536,631 596,643 482,953 316,882 324,849 298,798 304,735 333,684 379,650 392,600" />
+      </a>
+    </svg>
+
     <span class="enroute-map__panel enroute-map__panel--ocr">
       <strong>Auckland - Oceanic Radar (OCR)</strong>
       <span>NZAA_CTR | Auckland Control | 123.900</span>
       <span>Sequences NZAA and NZWP arrivals, with RAN, BAY and AA TMA inheritance when offline.</span>
     </span>
 
-    <a class="enroute-map__hotspot enroute-map__hotspot--ran" href="RAN/" aria-label="Open RAN sector page">
-      <span class="enroute-map__label">RAN</span>
-    </a>
     <span class="enroute-map__panel enroute-map__panel--ran">
-      <strong>Auckland - Raglan (RAN)</strong>
+      <strong>Auckland - Raglan (RAN) | EVENT ONLY</strong>
       <span>NZAA-R_CTR | Auckland Control | 126.000</span>
       <span>Event-only sector managing NZAA sequencing, departures and HN TMA traffic.</span>
     </span>
 
-    <a class="enroute-map__hotspot enroute-map__hotspot--bay" href="BAY/" aria-label="Open BAY sector page">
-      <span class="enroute-map__label">BAY</span>
-    </a>
     <span class="enroute-map__panel enroute-map__panel--bay">
       <strong>Christchurch - Bays (BAY)</strong>
       <span>NZCH-B_CTR | Bay Approach | 119.500</span>
       <span>Manages East Coast flow into AA TMA and traffic crossing into OHA.</span>
     </span>
 
-    <a class="enroute-map__hotspot enroute-map__hotspot--oha" href="OHA/" aria-label="Open OHA sector page">
-      <span class="enroute-map__label">OHA</span>
-    </a>
     <span class="enroute-map__panel enroute-map__panel--oha">
       <strong>Ohakea (OHA)</strong>
       <span>NZOH_CTR | Ohakea Control | 126.200</span>
       <span>Links prop and military traffic around OH TMA, NZAA and NZWN flows.</span>
     </span>
 
-    <a class="enroute-map__hotspot enroute-map__hotspot--nak" href="NAK/" aria-label="Open NAK sector page">
-      <span class="enroute-map__label">NAK</span>
-    </a>
     <span class="enroute-map__panel enroute-map__panel--nak">
       <strong>Christchurch - Taranaki (NAK)</strong>
       <span>NZCH-T_CTR | Christchurch Control | 123.700</span>
       <span>Primary NZAA, NZCH, NZQN and NZWN flow sector, including WN TMA inheritance.</span>
     </span>
 
-    <a class="enroute-map__hotspot enroute-map__hotspot--kai" href="KAI/" aria-label="Open KAI sector page">
-      <span class="enroute-map__label">KAI</span>
-    </a>
     <span class="enroute-map__panel enroute-map__panel--kai">
       <strong>Christchurch - Kaikoura (KAI)</strong>
       <span>NZCH-K_CTR | Christchurch Control | 129.400</span>
       <span>Manages northbound and southbound NZCH traffic, including CH TMA inheritance.</span>
     </span>
 
-    <a class="enroute-map__hotspot enroute-map__hotspot--sth" href="STH/" aria-label="Open STH sector page">
-      <span class="enroute-map__label">STH</span>
-    </a>
     <span class="enroute-map__panel enroute-map__panel--sth">
       <strong>Christchurch - South (STH)</strong>
       <span>NZCH-S_CTR | Christchurch Control | 129.300</span>
@@ -76,7 +79,7 @@ VATNZ Controllers are able to staff all six permanent Enroute Sectors at once, i
 
   <div class="enroute-map__cards" aria-label="Enroute sector links">
     <a href="OCR/"><strong>OCR</strong><span>Auckland Control | 123.900</span></a>
-    <a href="RAN/"><strong>RAN</strong><span>Auckland Control | 126.000</span></a>
+    <a href="RAN/"><strong>RAN | EVENT ONLY</strong><span>Auckland Control | 126.000</span></a>
     <a href="BAY/"><strong>BAY</strong><span>Bay Approach | 119.500</span></a>
     <a href="OHA/"><strong>OHA</strong><span>Ohakea Control | 126.200</span></a>
     <a href="NAK/"><strong>NAK</strong><span>Christchurch Control | 123.700</span></a>
