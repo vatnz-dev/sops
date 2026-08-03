@@ -63,8 +63,6 @@ Refer to the **AFIS** [guide](../../controller-skills/flight-service.md#standard
 
 Both Flight Services shall instruct aircraft that are vacating the MBZ to contact ARO. If aircraft are unable to make contact with ARO they shall remain on the AFIS frequency until they are able to make contact with ARO. 
 
-
-
 ### Arrivals
 
 Arriving aircraft will be given clearance to leave Controlled Airspace on descent through `FL245`. Aircraft should attempt to make contact with NFS around 40 DME. If aircraft are unable to make contact with NFS, they should call ARO, who should call Nuie on the landline to attempt to make contact. NFS will report your landing back to NZZO_FSS in order to close your flightplan.

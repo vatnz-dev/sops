@@ -2,7 +2,7 @@
   title: Cook Islands
 ---
 
---8<-- "includes/abbreviations.md"
+--8<-- "includes/abbreviations.md"    
 
 ## Positions
 
