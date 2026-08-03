@@ -9,11 +9,14 @@
 
 
 
-| Name               | Callsign                  | Frequency | Login    | Notes                       |
-| ------------------ | ------------------------- | --------- | -------- | --------------------------- |
-| Rarotonga Control  | Rarotonga (Raro) Control  | 118.900   | NCRG_CTR |                             |
-| Rarotonga Approach | Rarotonga (Raro) Tower    | 118.100   | NCRG_APP |                             |
-| Rarotonga Delivery | Rarotonga (Raro) Delivery | 121.900   | NCRG_DEL | For use during Events only. |
+| Position Name      | Shortcode | Callsign              | Frequency | Login ID | Usage     |
+| ------------------ | --------- | --------------------- | --------- | -------- | --------- |
+| Fua'Amotu TMA      | TTF       | Fua'Amotu Tower       | 118.500   | NFTF_APP |           |
+| Fua'Amotu SMC      | GTF       | Fua'Amotu Ground      | 121.900   | NFTF_GND | Secondary |
+| Vava'u FIS         | VFS       | Vava'u Flight Service | 118.100   | NFTV_TWR |           |
+| Vava'u SMC         | GTV       | Vava'u Ground         | 121.900   | NFTV_GND | Secondary |
+| Niue FIS           | NFS       | Niue Flight Service   | 118.100   | NIUE_TWR |           |
+
 
 ## TMA
 
@@ -33,16 +36,19 @@ None! NFTF_TWR is covered by NFTF_APP.
 
 ## AFIS
 
-* **NFTL_FIS**: "Lifuka Radio" on 118.100.
-* **NFTV_FIS**: "Vava'u Flight Service" on 118.100
-    * This aerodrome weirdly has a Ground service on 121.900, but only an AFIS over top.
+* **NFTV_TWR**: "Vava'u Flight Service" on 118.100
 
-!!! warning
-    These are not yet modelled on the network.
+Vava'u has a Flight Information Service and weirdly has a Ground service on 121.900. The FIS provides only traffic information. This will be modelled as **NFTV_TWR**, with a standard Tower visibility range of 50nm. The Tower is to provide a traffic information service, in addition to relaying IFR clearances from NZZO_FSS.
+
+Clearances remain **invalid** until Auckland Radio advises that they are released.
+
+Refer to the **AFIS** [guide](../../controller-skills/flight-service.md#standard-phraseology).
 
 ## Niue
 
 Niue only has a Flight Information Service, providing only traffic information. This will be modelled as **NIUE_TWR**, with a standard Tower visibility range of 50nm. The Tower is to provide a traffic information service, in addition to relaying IFR clearances from NZZO_FSS.
+
+Refer to the **AFIS** [guide](../../controller-skills/flight-service.md#standard-phraseology).
 
 **Departing** 
 
