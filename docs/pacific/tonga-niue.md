@@ -36,6 +36,9 @@ Fua'Amotu TWR shall instruct aircraft to contact ARO passing `FL240`. Ie. "Passi
 
 ## AFIS NFTV/NIUE
 
+!!! warning "AFIS"
+    The following is not yet modelled on the network however we endever to get this set up within the near future 
+
 Vava'u and Niue have a Flight Information Service, while only Vava'u weirdly has a Ground service on 121.900. The FIS provides only traffic information. This will be modelled as **NFTV_TWR** or **NIUE_TWR**, with a standard Tower visibility range of 50nm. The Tower is to provide a traffic information service, in addition to relaying IFR clearances from NZZO_FSS.
 
 Clearances remain **invalid** until Auckland Radio advises that they are released.
