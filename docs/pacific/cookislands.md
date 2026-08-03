@@ -2,17 +2,14 @@
   title: Cook Islands
 ---
 
---8<-- "includes/abbreviations.md"
+--8<-- "includes/abbreviations.md"    
 
-!!! info "This is a work in progress!"
-    This page is currently being worked on by the team. It'll be here soon! If you want to help out, [have a look how you can help](../contribute/index.md)! For the meantime, you should apply the comments made here in line with the skills taught in the VATNZ Controller Training Syllabus.
-    
-
-| Name               | Callsign                  | Frequency | Login    | Notes                       |
-| ------------------ | ------------------------- | --------- | -------- | --------------------------- |
-| Rarotonga Control  | Rarotonga (Raro) Control  | 118.900   | NCRG_CTR |                             |
-| Rarotonga Approach | Rarotonga (Raro) Tower    | 118.100   | NCRG_APP |                             |
-| Rarotonga Delivery | Rarotonga (Raro) Delivery | 121.900   | NCRG_DEL | For use during Events only. |
+| Position Name      | Shortcode | Callsign                  | Frequency | Login ID | Usage                       |
+| ------------------ | --------- | ------------------------- | --------- | -------- | --------------------------- |
+| Auckland Radio     | ARO       | Auckland Radio            | 129.000   | NZZO_FSS |                             |
+| Rarotonga Control  | RAR       | Rarotonga (Raro) Control  | 118.900   | NCRG_CTR |                             |
+| Rarotonga Approach | TRA       | Rarotonga (Raro) Tower    | 118.100   | NCRG_APP |                             |
+| Rarotonga Delivery | DRA       | Rarotonga (Raro) Delivery | 121.900   | NCRG_DEL | For use during Events only. |
 
 <figure markdown> 
   ![Rarotonga Enroute](../oceanic/assets/raro-control.png){ width="700" }
@@ -24,7 +21,7 @@
 * **NCRG_CTR** "Rarotonga Control" on 118.900
     * **Limits**: 5,500ft to FL245, with the lateral bounds indicated as above. Roughly 340nm by 260nm.
     * Provides an Enroute radar service within its' lateral bounds.
-    * Additionally acts as the Enroute interface between NCRG_APP and either NTTT or NZZO FSS.
+    * Additionally acts as the Enroute interface between NCRG_APP and NZZO FSS.
     * Provides a top-down service to NCRG when NCRG_APP is offline.
 
 ## TMA
