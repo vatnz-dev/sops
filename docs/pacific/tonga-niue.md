@@ -6,12 +6,12 @@
 
 | Position Name      | Shortcode | Callsign              | Frequency | Login ID | Usage     |
 | ------------------ | --------- | --------------------- | --------- | -------- | --------- |
-| Auckland Radio     | ARO       | Auckland Radio        | 129.000   | NZZO_FSS |           | 
-| Fua'Amotu TWR      | TTF       | Fua'Amotu Tower       | 118.500   | NFTF_APP |           |
+| Auckland Radio     | ARO       | Auckland Radio        | 129.000   | NZZO_FSS | Primary   | 
+| Fua'Amotu TWR      | TTF       | Fua'Amotu Tower       | 118.500   | NFTF_APP | Primary   |
 | Fua'Amotu SMC      | GTF       | Fua'Amotu Ground      | 121.900   | NFTF_GND | Secondary |
-| Vava'u FIS         | VFS       | Vava'u Flight Service | 118.100   | NFTV_TWR |           |
+| Vava'u FIS         | VFS       | Vava'u Flight Service | 118.100   | NFTV_TWR | Primary   |
 | Vava'u SMC         | GTV       | Vava'u Ground         | 121.900   | NFTV_GND | Secondary |
-| Niue FIS           | NFS       | Niue Flight Service   | 118.100   | NIUE_TWR |           |
+| Niue FIS           | NFS       | Niue Flight Service   | 118.100   | NIUE_TWR | Primary   |
 
 
 ## Tower
