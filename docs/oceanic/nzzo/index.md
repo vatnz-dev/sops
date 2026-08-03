@@ -8,12 +8,12 @@ Auckland Radio is responsible for managing oceanic air traffic control within th
 
 ## Positions
 
-| Position Name        | Shortcode | Callsign      | Frequency                    | Login ID     | Usage                                     |
-| -------------------- | --------- | ------------- | ---------------------------- | ------------ | ----------------------------------------- |
-| Auckland Radio       | ARO       | NZZO_FSS      | 8.867 (VHF alias 129.000MHz) | NZZO_FSS     | Primary                                   |
-| Auckland Radio Tasman| ART       | NZZO-TSN_FSS  | 5.643 (VHF alias 129.500MHz) | NZZO-TSN_FSS | Secondary                                 | 
-| MacMurdo Center      | MAC       | NZCM_FSS      | 9.032 (VHF alias 128.700MHz) | NZCM_FSS     | Primary. Covered by ARO when MAC offline. | 
-|
+| Callsign     | Position Name           | RTF Designator | Frequency                    | Notes                                            |
+| ------------ | ----------------------- | -------------- | ---------------------------- | ------------------------------------------------ |
+| NZZO_FSS     | Auckland Radio          | Auckland Radio | 8.867 (VHF alias 129.000MHz) | Primary Position                                 |
+| NZZO-TSN_FSS | Auckland Radio - Tasman | Auckland Radio | 5.643 (VHF alias 129.500MHz) | Secondary Position, covering the TAS sector      |
+| NZZO-E_FSS   | Auckland Radio - East   | Auckland Radio | 5.643 (VHF alias 131.500MHz) | Event Only Position                              |
+| NZCM_FSS     | MacMurdo Center         | Mac Center     | 9.032 (VHF alias 128.700MHz) | Covered by ARO when MAC offline. Covers NZCM FIR |
 
 ### Event Only Positions
 
