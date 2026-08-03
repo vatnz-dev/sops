@@ -6,87 +6,123 @@ New Zealand has seven Enroute Sectors, six of which can be staffed routinely on 
 
 VATNZ Controllers are able to staff all six permanent Enroute Sectors at once, in a situation known as Extended Services. [You can find out more about Sector Inheritance and Extended Services here](../controller-skills/inheritance-extending.md).
 
-<div class="enroute-map" aria-label="Interactive map of New Zealand FIR enroute sectors">
-  <div class="enroute-map__canvas">
-    <img src="../assets/nz-fir-airspace.png" alt="NZ FIR Airspace Sectors">
+<svg width="100%" viewBox="0 0 810 1050" role="img" aria-labelledby="enroute-map-title enroute-map-desc">
+  <title id="enroute-map-title">NZ FIR Airspace Sectors</title>
+  <desc id="enroute-map-desc">Interactive map of New Zealand FIR enroute sectors. Select a sector to open its page.</desc>
+  <image href="../assets/nz-fir-airspace.png" width="810" height="1050" preserveAspectRatio="xMidYMid meet" />
 
-    <svg class="enroute-map__overlay" viewBox="0 0 810 1050" aria-label="Enroute sector page links" role="navigation">
-      <a class="enroute-map__sector enroute-map__sector--ocr" href="OCR/" aria-label="Open OCR sector page">
-        <polygon points="468,33 554,40 632,81 680,151 700,200 548,213 550,249 565,269 558,354 503,355 484,256 407,404 359,378 326,340 306,285 310,189 330,128 381,72" />
-      </a>
-      <a class="enroute-map__sector enroute-map__sector--ran" href="RAN/" aria-label="Open RAN sector page">
-        <polygon points="484,256 548,274 565,295 558,354 503,355 484,322" />
-      </a>
-      <a class="enroute-map__sector enroute-map__sector--bay" href="BAY/" aria-label="Open BAY sector page">
-        <polygon points="548,213 700,200 751,242 724,346 680,309 616,318 558,354 565,295 548,274" />
-      </a>
-      <a class="enroute-map__sector enroute-map__sector--oha" href="OHA/" aria-label="Open OHA sector page">
-        <polygon points="616,318 680,309 724,346 650,508 626,501 626,457 585,457 575,391 558,354" />
-      </a>
-      <a class="enroute-map__sector enroute-map__sector--nak" href="NAK/" aria-label="Open NAK sector page">
-        <polygon points="407,404 503,355 558,354 575,391 585,457 626,457 626,501 650,508 630,559 596,551 540,633 495,587 407,560 391,515 392,458" />
-      </a>
-      <a class="enroute-map__sector enroute-map__sector--kai" href="KAI/" aria-label="Open KAI sector page">
-        <polygon points="495,587 540,633 596,551 650,508 596,643 536,631" />
-      </a>
-      <a class="enroute-map__sector enroute-map__sector--sth" href="STH/" aria-label="Open STH sector page">
-        <polygon points="407,560 495,587 536,631 596,643 482,953 316,882 324,849 298,798 304,735 333,684 379,650 392,600" />
-      </a>
-    </svg>
+  <a id="ocr-link" href="OCR/" aria-label="Open OCR sector page">
+    <polygon id="ocr-shape" points="468,33 554,40 632,81 680,151 700,200 548,213 550,249 565,269 558,354 503,355 484,256 407,404 359,378 326,340 306,285 310,189 330,128 381,72" fill="#64748b" fill-opacity="0" stroke="#ffffff" stroke-opacity="0" stroke-width="4">
+      <title>Auckland - Oceanic Radar (OCR) | NZAA_CTR | Auckland Control | 123.900</title>
+      <set attributeName="fill-opacity" to="0.26" begin="mouseover;ocr-link.focusin" end="mouseout;ocr-link.focusout" />
+      <set attributeName="stroke-opacity" to="0.95" begin="mouseover;ocr-link.focusin" end="mouseout;ocr-link.focusout" />
+    </polygon>
+  </a>
 
-    <span class="enroute-map__panel enroute-map__panel--ocr">
-      <strong>Auckland - Oceanic Radar (OCR)</strong>
-      <span>NZAA_CTR | Auckland Control | 123.900</span>
-      <span>Sequences NZAA and NZWP arrivals, with RAN, BAY and AA TMA inheritance when offline.</span>
-    </span>
+  <a id="ran-link" href="RAN/" aria-label="Open RAN sector page">
+    <polygon id="ran-shape" points="484,256 548,274 565,295 558,354 503,355 484,322" fill="#64748b" fill-opacity="0" stroke="#ffffff" stroke-opacity="0" stroke-width="4">
+      <title>Auckland - Raglan (RAN) | EVENT ONLY | NZAA-R_CTR | Auckland Control | 126.000</title>
+      <set attributeName="fill-opacity" to="0.34" begin="mouseover;ran-link.focusin" end="mouseout;ran-link.focusout" />
+      <set attributeName="stroke-opacity" to="0.95" begin="mouseover;ran-link.focusin" end="mouseout;ran-link.focusout" />
+    </polygon>
+  </a>
 
-    <span class="enroute-map__panel enroute-map__panel--ran">
-      <strong>Auckland - Raglan (RAN) | EVENT ONLY</strong>
-      <span>NZAA-R_CTR | Auckland Control | 126.000</span>
-      <span>Event-only sector managing NZAA sequencing, departures and HN TMA traffic.</span>
-    </span>
+  <a id="bay-link" href="BAY/" aria-label="Open BAY sector page">
+    <polygon id="bay-shape" points="548,213 700,200 751,242 724,346 680,309 616,318 558,354 565,295 548,274" fill="#64748b" fill-opacity="0" stroke="#ffffff" stroke-opacity="0" stroke-width="4">
+      <title>Christchurch - Bays (BAY) | NZCH-B_CTR | Bay Approach | 119.500</title>
+      <set attributeName="fill-opacity" to="0.28" begin="mouseover;bay-link.focusin" end="mouseout;bay-link.focusout" />
+      <set attributeName="stroke-opacity" to="0.95" begin="mouseover;bay-link.focusin" end="mouseout;bay-link.focusout" />
+    </polygon>
+  </a>
 
-    <span class="enroute-map__panel enroute-map__panel--bay">
-      <strong>Christchurch - Bays (BAY)</strong>
-      <span>NZCH-B_CTR | Bay Approach | 119.500</span>
-      <span>Manages East Coast flow into AA TMA and traffic crossing into OHA.</span>
-    </span>
+  <a id="oha-link" href="OHA/" aria-label="Open OHA sector page">
+    <polygon id="oha-shape" points="616,318 680,309 724,346 650,508 626,501 626,457 585,457 575,391 558,354" fill="#64748b" fill-opacity="0" stroke="#ffffff" stroke-opacity="0" stroke-width="4">
+      <title>Ohakea (OHA) | NZOH_CTR | Ohakea Control | 126.200</title>
+      <set attributeName="fill-opacity" to="0.28" begin="mouseover;oha-link.focusin" end="mouseout;oha-link.focusout" />
+      <set attributeName="stroke-opacity" to="0.95" begin="mouseover;oha-link.focusin" end="mouseout;oha-link.focusout" />
+    </polygon>
+  </a>
 
-    <span class="enroute-map__panel enroute-map__panel--oha">
-      <strong>Ohakea (OHA)</strong>
-      <span>NZOH_CTR | Ohakea Control | 126.200</span>
-      <span>Links prop and military traffic around OH TMA, NZAA and NZWN flows.</span>
-    </span>
+  <a id="nak-link" href="NAK/" aria-label="Open NAK sector page">
+    <polygon id="nak-shape" points="407,404 503,355 558,354 575,391 585,457 626,457 626,501 650,508 630,559 596,551 540,633 495,587 407,560 391,515 392,458" fill="#64748b" fill-opacity="0" stroke="#ffffff" stroke-opacity="0" stroke-width="4">
+      <title>Christchurch - Taranaki (NAK) | NZCH-T_CTR | Christchurch Control | 123.700</title>
+      <set attributeName="fill-opacity" to="0.28" begin="mouseover;nak-link.focusin" end="mouseout;nak-link.focusout" />
+      <set attributeName="stroke-opacity" to="0.95" begin="mouseover;nak-link.focusin" end="mouseout;nak-link.focusout" />
+    </polygon>
+  </a>
 
-    <span class="enroute-map__panel enroute-map__panel--nak">
-      <strong>Christchurch - Taranaki (NAK)</strong>
-      <span>NZCH-T_CTR | Christchurch Control | 123.700</span>
-      <span>Primary NZAA, NZCH, NZQN and NZWN flow sector, including WN TMA inheritance.</span>
-    </span>
+  <a id="kai-link" href="KAI/" aria-label="Open KAI sector page">
+    <polygon id="kai-shape" points="495,587 540,633 596,551 650,508 596,643 536,631" fill="#64748b" fill-opacity="0" stroke="#ffffff" stroke-opacity="0" stroke-width="4">
+      <title>Christchurch - Kaikoura (KAI) | NZCH-K_CTR | Christchurch Control | 129.400</title>
+      <set attributeName="fill-opacity" to="0.3" begin="mouseover;kai-link.focusin" end="mouseout;kai-link.focusout" />
+      <set attributeName="stroke-opacity" to="0.95" begin="mouseover;kai-link.focusin" end="mouseout;kai-link.focusout" />
+    </polygon>
+  </a>
 
-    <span class="enroute-map__panel enroute-map__panel--kai">
-      <strong>Christchurch - Kaikoura (KAI)</strong>
-      <span>NZCH-K_CTR | Christchurch Control | 129.400</span>
-      <span>Manages northbound and southbound NZCH traffic, including CH TMA inheritance.</span>
-    </span>
+  <a id="sth-link" href="STH/" aria-label="Open STH sector page">
+    <polygon id="sth-shape" points="407,560 495,587 536,631 596,643 482,953 316,882 324,849 298,798 304,735 333,684 379,650 392,600" fill="#64748b" fill-opacity="0" stroke="#ffffff" stroke-opacity="0" stroke-width="4">
+      <title>Christchurch - South (STH) | NZCH-S_CTR | Christchurch Control | 129.300</title>
+      <set attributeName="fill-opacity" to="0.26" begin="mouseover;sth-link.focusin" end="mouseout;sth-link.focusout" />
+      <set attributeName="stroke-opacity" to="0.95" begin="mouseover;sth-link.focusin" end="mouseout;sth-link.focusout" />
+    </polygon>
+  </a>
 
-    <span class="enroute-map__panel enroute-map__panel--sth">
-      <strong>Christchurch - South (STH)</strong>
-      <span>NZCH-S_CTR | Christchurch Control | 129.300</span>
-      <span>Manages NZQN, NZDN, NZNV and western NZCH flows, with QN TMA inheritance.</span>
-    </span>
-  </div>
+  <g opacity="0" pointer-events="none">
+    <rect x="150" y="165" width="430" height="112" rx="8" fill="#ffffff" stroke="#cbd5e1" />
+    <text x="172" y="204" fill="#111827" font-size="22" font-weight="700">Auckland - Oceanic Radar (OCR)</text>
+    <text x="172" y="237" fill="#111827" font-size="18">NZAA_CTR | Auckland Control | 123.900</text>
+    <text x="172" y="265" fill="#111827" font-size="16">Sequences NZAA and NZWP arrivals.</text>
+    <set attributeName="opacity" to="1" begin="ocr-shape.mouseover;ocr-link.focusin" end="ocr-shape.mouseout;ocr-link.focusout" />
+  </g>
 
-  <div class="enroute-map__cards" aria-label="Enroute sector links">
-    <a href="OCR/"><strong>OCR</strong><span>Auckland Control | 123.900</span></a>
-    <a href="RAN/"><strong>RAN | EVENT ONLY</strong><span>Auckland Control | 126.000</span></a>
-    <a href="BAY/"><strong>BAY</strong><span>Bay Approach | 119.500</span></a>
-    <a href="OHA/"><strong>OHA</strong><span>Ohakea Control | 126.200</span></a>
-    <a href="NAK/"><strong>NAK</strong><span>Christchurch Control | 123.700</span></a>
-    <a href="KAI/"><strong>KAI</strong><span>Christchurch Control | 129.400</span></a>
-    <a href="STH/"><strong>STH</strong><span>Christchurch Control | 129.300</span></a>
-  </div>
-</div>
+  <g opacity="0" pointer-events="none">
+    <rect x="365" y="245" width="410" height="118" rx="8" fill="#ffffff" stroke="#cbd5e1" />
+    <text x="387" y="284" fill="#111827" font-size="22" font-weight="700">Auckland - Raglan (RAN)</text>
+    <text x="387" y="314" fill="#b91c1c" font-size="17" font-weight="700">EVENT ONLY</text>
+    <text x="387" y="340" fill="#111827" font-size="17">NZAA-R_CTR | Auckland Control | 126.000</text>
+    <set attributeName="opacity" to="1" begin="ran-shape.mouseover;ran-link.focusin" end="ran-shape.mouseout;ran-link.focusout" />
+  </g>
+
+  <g opacity="0" pointer-events="none">
+    <rect x="190" y="148" width="470" height="125" rx="8" fill="#ffffff" stroke="#cbd5e1" />
+    <text x="212" y="188" fill="#111827" font-size="22" font-weight="700">Christchurch - Bays (BAY)</text>
+    <text x="212" y="222" fill="#111827" font-size="18">NZCH-B_CTR | Bay Approach | 119.500</text>
+    <text x="212" y="250" fill="#111827" font-size="16">Manages East Coast flow into AA TMA and OHA.</text>
+    <set attributeName="opacity" to="1" begin="bay-shape.mouseover;bay-link.focusin" end="bay-shape.mouseout;bay-link.focusout" />
+  </g>
+
+  <g opacity="0" pointer-events="none">
+    <rect x="325" y="385" width="430" height="112" rx="8" fill="#ffffff" stroke="#cbd5e1" />
+    <text x="347" y="424" fill="#111827" font-size="22" font-weight="700">Ohakea (OHA)</text>
+    <text x="347" y="457" fill="#111827" font-size="18">NZOH_CTR | Ohakea Control | 126.200</text>
+    <text x="347" y="485" fill="#111827" font-size="16">Links prop and military traffic around OH TMA.</text>
+    <set attributeName="opacity" to="1" begin="oha-shape.mouseover;oha-link.focusin" end="oha-shape.mouseout;oha-link.focusout" />
+  </g>
+
+  <g opacity="0" pointer-events="none">
+    <rect x="125" y="420" width="465" height="125" rx="8" fill="#ffffff" stroke="#cbd5e1" />
+    <text x="147" y="460" fill="#111827" font-size="22" font-weight="700">Christchurch - Taranaki (NAK)</text>
+    <text x="147" y="494" fill="#111827" font-size="18">NZCH-T_CTR | Christchurch Control | 123.700</text>
+    <text x="147" y="522" fill="#111827" font-size="16">Primary NZAA, NZCH, NZQN and NZWN flow sector.</text>
+    <set attributeName="opacity" to="1" begin="nak-shape.mouseover;nak-link.focusin" end="nak-shape.mouseout;nak-link.focusout" />
+  </g>
+
+  <g opacity="0" pointer-events="none">
+    <rect x="310" y="585" width="460" height="112" rx="8" fill="#ffffff" stroke="#cbd5e1" />
+    <text x="332" y="624" fill="#111827" font-size="22" font-weight="700">Christchurch - Kaikoura (KAI)</text>
+    <text x="332" y="657" fill="#111827" font-size="18">NZCH-K_CTR | Christchurch Control | 129.400</text>
+    <text x="332" y="685" fill="#111827" font-size="16">Manages northbound and southbound NZCH traffic.</text>
+    <set attributeName="opacity" to="1" begin="kai-shape.mouseover;kai-link.focusin" end="kai-shape.mouseout;kai-link.focusout" />
+  </g>
+
+  <g opacity="0" pointer-events="none">
+    <rect x="110" y="705" width="465" height="125" rx="8" fill="#ffffff" stroke="#cbd5e1" />
+    <text x="132" y="745" fill="#111827" font-size="22" font-weight="700">Christchurch - South (STH)</text>
+    <text x="132" y="779" fill="#111827" font-size="18">NZCH-S_CTR | Christchurch Control | 129.300</text>
+    <text x="132" y="807" fill="#111827" font-size="16">Manages NZQN, NZDN, NZNV and western NZCH flows.</text>
+    <set attributeName="opacity" to="1" begin="sth-shape.mouseover;sth-link.focusin" end="sth-shape.mouseout;sth-link.focusout" />
+  </g>
+</svg>
 
 ## General Rules of Thumb for ENR
 
