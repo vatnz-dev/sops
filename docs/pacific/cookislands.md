@@ -4,17 +4,15 @@
 
 --8<-- "includes/abbreviations.md"    
 
-| Position Name      | Shortcode | Callsign                  | Frequency | Login ID | Usage                       |
-| ------------------ | --------- | ------------------------- | --------- | -------- | --------------------------- |
-| Auckland Radio     | ARO       | Auckland Radio            | 129.000   | NZZO_FSS |                             |
-| Rarotonga Control  | RAR       | Rarotonga (Raro) Control  | 118.900   | NCRG_CTR |                             |
-| Rarotonga Approach | TRA       | Rarotonga (Raro) Tower    | 118.100   | NCRG_APP |                             |
-| Rarotonga Delivery | DRA       | Rarotonga (Raro) Delivery | 121.900   | NCRG_DEL | For use during Events only. |
+| Position Name      | Shortcode | Callsign                  | Frequency | Login ID | Usage      |
+| ------------------ | --------- | ------------------------- | --------- | -------- | ---------- |
+| Auckland Radio     | ARO       | Auckland Radio            | 129.000   | NZZO_FSS |            |
+| Rarotonga Control  | RAR       | Rarotonga (Raro) Control  | 118.900   | NCRG_CTR |            |
+| Rarotonga Tower    | TRA       | Rarotonga (Raro) Tower    | 118.100   | NCRG_APP |            |
+| Rarotonga Delivery | DRA       | Rarotonga (Raro) Delivery | 121.900   | NCRG_DEL | Event only |
 
 <figure markdown> 
-  ![Rarotonga Enroute](../oceanic/assets/raro-control.png){ width="700" }
-  <figcaption>Right Click and open in a new tab to see full detail.</figcaption>
-</figure>
+  ![Rarotonga Enroute](../pacific/assets/raro-control.png)
 
 ## Enroute
 
