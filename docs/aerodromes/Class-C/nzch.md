@@ -88,17 +88,17 @@ Pushback and startup clearances are managed by the Ground Controller. Due to the
 
 ##### Dakota Apron
 
-Dakota Apron is used exclusively by Parcel Air (APK), Airwork (AWK) and Texel Air (XLR). Aircraft utilising this apron may be instructed to start at their discretion and report for taxi.
+Dakota Apron is used for all cargo operations. Aircraft utilising this apron may be instructed to start at their discretion and report ready for taxi at `J1`. Should there be inbound traffic. Departing traffic shall be told to hold on the stand till the arriving traffic is clear. 
 
-When ready for taxi, aircraft taxiing from the Dakota Apron may be instructed to cross Runway 29 and taxi via `F`, or may be given a [backtrack via Runway 29](#backtrack-via-rwy-29). A backtrack via Runway 29 is usually preferred, as it allows the Domestic ramp to continue to flow.
+When ready for taxi, aircraft taxiing from the Dakota Apron may be instructed to cross Runway 29 and taxi via `F`, or may be given [taxi via Runway 29](#taxi-via-rwy-29). Taxi via Runway 29 is usually preferred, as it allows the Domestic ramp to continue to flow.
 
 ##### Post Apron
 
-The Post Apron is on the northern side of `A4`, and is used by DHL, Qantas Freight and other freight traffic. Aircraft utilising this apron may be instructed to start at their discretion.
+The Post Apron is on the northern side of `A4`. Aircraft utilising this apron may be instructed to start at their discretion.
 
 ##### Romeo Apron
 
-The Romeo Apron is a transitional apron, and is commonly used by aircraft arriving at the aerodrome without a contracted parking location, or for overflow or long-term parking. 
+The Romeo Apron is a transitional apron, and is commonly used by aircraft arriving at the aerodrome without a contracted parking location, or for overflow or long-term parking. The controller shall confirm what stand aircraft are on before start or push instructions are given. 
 
 !!! info
     Aircraft utilising Stands R1A, R1B, and R3A stands may start on stand. Aircraft utilising Stands R1, R2 or R3 must be pushed onto `A15`.
@@ -125,7 +125,7 @@ When delegated RWY 29, the Ground Controller may authorise the aircraft to cross
 !!! example "RTF for crossing a Runway"
     **Christchurch Ground**: *"ANZ218, taxi holding point A6, Runway 02, via A. Cross Runway 29"*
 
-###### Backtrack via Rwy 29
+###### Taxi via Rwy 29
 
 When delegated RWY 29, aircraft taxiing to or from the Dakota apron may be instructed to backtrack via RWY 29, avoiding taxiway `F`. Domestic prop traffic taxiing to or from the Domestic apron may also be instructed to backtrack via RWY 29 in order to avoid congestion on taxiway `F`.
 
