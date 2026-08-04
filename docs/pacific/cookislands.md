@@ -6,10 +6,21 @@
 
 | Position Name      | Shortcode | Callsign                  | Frequency | Login ID | Usage      |
 | ------------------ | --------- | ------------------------- | --------- | -------- | ---------- |
-| Auckland Radio     | ARO       | Auckland Radio            | 129.000   | NZZO_FSS |            |
-| Rarotonga Control  | RAR       | Rarotonga (Raro) Control  | 118.900   | NCRG_CTR |            |
-| Rarotonga Tower    | TRA       | Rarotonga (Raro) Tower    | 118.100   | NCRG_APP |            |
+| Auckland Radio     | ARO       | Auckland Radio            | 129.000   | NZZO_FSS | Primary    |
+| Rarotonga Control  | RAR       | Rarotonga (Raro) Control  | 118.900   | NCRG_CTR | Primary    |
+| Rarotonga Tower    | TRA       | Rarotonga (Raro) Tower    | 118.100   | NCRG_APP | Primary    |
+
+
+
+### Event Only Positions
+
+!!! Danger "Important"
+    The following are designated as Event Only positions, and may only be staffed during a VATNZ event where approved, or if explicitly authorised by the Operations Director.
+
+| Position Name      | Shortcode | Callsign                  | Frequency | Login ID | Usage      |
+| ------------------ | --------- | ------------------------- | --------- | -------- | ---------- |
 | Rarotonga Delivery | DRA       | Rarotonga (Raro) Delivery | 121.900   | NCRG_DEL | Event only |
+
 
 <figure markdown> 
   ![Rarotonga Enroute](../pacific/assets/ncrg-control.png)
