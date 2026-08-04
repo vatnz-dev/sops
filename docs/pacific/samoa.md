@@ -4,11 +4,11 @@
 
 --8<-- "includes/abbreviations.md"
 
-| Position Name      | Shortcode | Callsign              | Frequency | Login ID | Usage       |
-| ------------------ | --------- | --------------------- | --------- | -------- | ----------- |
-| Auckland Radio     | ARO       | Auckland Radio        | 129.000   | NZZO_FSS |             |
-| Faleolo Control    | FAL       | Faleolo Control       | 126.900   | NSFA_CTR |             |
-| Faleolo Tower      | TFA       | Faleolo Tower         | 118.100   | NSFA_TWR |             |
+| Position Name      | Shortcode | Callsign              | Frequency | Login ID | Usage   |
+| ------------------ | --------- | --------------------- | --------- | -------- | ------- |
+| Auckland Radio     | ARO       | Auckland Radio        | 129.000   | NZZO_FSS | Primary |
+| Faleolo Control    | FAL       | Faleolo Control       | 126.900   | NSFA_CTR | Primary |
+| Faleolo Tower      | TFA       | Faleolo Tower         | 118.100   | NSFA_TWR | Primary |
 
 
 ### Event Only Positions
