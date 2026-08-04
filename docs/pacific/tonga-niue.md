@@ -4,13 +4,22 @@
 
 --8<-- "includes/abbreviations.md"
 
-| Position Name      | Shortcode | Callsign              | Frequency | Login ID | Usage     |
-| ------------------ | --------- | --------------------- | --------- | -------- | --------- |
-| Auckland Radio     | ARO       | Auckland Radio        | 129.000   | NZZO_FSS | Primary   | 
-| Fua'amotu TWR      | TTF       | Fua'Amotu Tower       | 118.500   | NFTF_APP | Primary   |
-| Fua'amotu SMC      | GTF       | Fua'Amotu Ground      | 121.900   | NFTF_GND | Secondary |
-| Vava'u FIS         | VFS       | Vava'u Flight Service | 118.100   | NFTV_TWR | Primary   |
-| Niue FIS           | NFS       | Niue Flight Service   | 118.100   | NIUE_TWR | Primary   |
+| Position Name      | Shortcode | Callsign         | Frequency | Login ID | Usage     |
+| ------------------ | --------- | ---------------- | --------- | -------- | --------- |
+| Auckland Radio     | ARO       | Auckland Radio   | 129.000   | NZZO_FSS | Primary   |
+| Fua'amotu TWR      | TTF       | Fua'Amotu Tower  | 118.500   | NFTF_APP | Primary   |
+| Fua'amotu SMC      | GTF       | Fua'Amotu Ground | 121.900   | NFTF_GND | Secondary |
+
+
+### Event Only Positions
+
+!!! Danger "Important"
+    The following are designated as Event Only positions, and may only be staffed during a VATNZ event where approved, or if explicitly authorised by the Operations Director.
+
+| Position Name | Shortcode | Callsign              | Frequency | Login ID | Usage      |
+| ------------- | --------- | --------------------- | --------- | -------- | ---------- |
+| Vava'u FIS    | VFS       | Vava'u Flight Service | 118.100   | NFTV_TWR | Event only |
+| Niue FIS      | NFS       | Niue Flight Service   | 118.100   | NIUE_TWR | Event only |
 
 
 ## Fua'amotu Tower
