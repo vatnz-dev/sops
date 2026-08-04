@@ -12,7 +12,7 @@
 | Rarotonga Delivery | DRA       | Rarotonga (Raro) Delivery | 121.900   | NCRG_DEL | Event only |
 
 <figure markdown> 
-  ![Rarotonga Enroute](../pacific/assets/raro-control.png)
+  ![Rarotonga Enroute](../pacific/assets/ncrg-control.png)
 
 ## Enroute
 
@@ -32,4 +32,4 @@
     *  Provides a combined Approach/Tower service for NCRG.
 
 !!! info "Wait, another Approach station with a Tower callsign?"
-    Similar to `NFTF_APP` above, we've had to implement this position with a `_APP` suffix, as the FSD restricts `_TWR` callsigns to a visibility range of 50nm. 
+    Similar to `NFTF_APP`, we've had to implement this position with a `_APP` suffix, as the FSD restricts `_TWR` callsigns to a visibility range of 50nm. 
