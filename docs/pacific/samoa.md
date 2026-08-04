@@ -9,7 +9,16 @@
 | Auckland Radio     | ARO       | Auckland Radio        | 129.000   | NZZO_FSS |             |
 | Faleolo Control    | FAL       | Faleolo Control       | 126.900   | NSFA_CTR |             |
 | Faleolo Tower      | TFA       | Faleolo Tower         | 118.100   | NSFA_TWR |             |
-| Pago Pago Tower    | TTU       | Pago Tower            | 122.900   | NSTU_TWR | Event only  |
+
+
+### Event Only Positions
+
+!!! Danger "Important"
+    The following are designated as Event Only positions, and may only be staffed during a VATNZ event where approved, or if explicitly authorised by the Operations Director.
+
+| Position Name   | Shortcode | Callsign   | Frequency | Login ID | Usage      |
+| --------------- | --------- | ---------- | --------- | -------- | ---------- |
+| Pago Pago Tower | TTU       | Pago Tower | 122.900   | NSTU_TWR | Event only |
 
 ## Faleolo Control
 
