@@ -123,7 +123,7 @@ For flights that include an additional waypoint within the NZZO sector, contact 
 
 ### Below FL245
 
-ARO shall pass IFR clearances to aircraft requesting to operate below FL245 whilst on the ground or following departure from the Chatham Islands. ARO shall  accept radio guard for aircraft operating below FL245. But may only provide traffic information. 
+ARO shall pass IFR clearances to aircraft requesting to operate below FL245 whilst on the ground or following departure from the Chatham Islands. ARO shall accept radio guard for aircraft operating below FL245. But may only provide traffic information. 
 
 Before reaching the NZZO boundary, the aircraft shall be instructed to contact the NZZC sector for clearance into controlled airspace.
 
