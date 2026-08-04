@@ -4,14 +4,17 @@
 
 --8<-- "includes/abbreviations.md"
 
-| Name            | Callsign        | Frequency | Login    | Notes |
-| --------------- | --------------- | --------- | -------- | ----- |
-| Tahiti Control  | Tahiti Control  | 134.700   | NTTC_CTR |       |
-| Tahiti Approach | Tahiti Approach | 121.300   | NTAA_APP |       |
-| Tahiti Tower    | Tahiti Tower    | 118.100   | NTAA_TWR |       |
-| Moorea Tower    | Moorea Tower    | 118.100   | NTTM_TWR |       |
-| Bora Bora Tower | Bora Tower      | 118.900   | NTTB_TWR |       |
-| Raiatea Tower   | Raiatea Tower   | 118.500   | NTTR_TWR |       |
+## Positions
+
+| Position Name   | Shortcode | Callsign        | Frequency | Login ID | Usage     |
+| --------------- | --------- | --------------- | --------- | -------- | --------- |
+| Tahiti Control  | XXX       | Tahiti Control  | 134.700   | NTTC_CTR | Primary   |
+| Tahiti Approach | TTMA      | Tahiti Approach | 121.300   | NTAA_APP | Primary   |
+| Tahiti Tower    | TAA       | Tahiti Tower    | 118.100   | NTAA_TWR | Primary   |
+| Tahiti Ground   | GAA       | Tahiti Ground   | 121.900   | NTAA_GND | Secondary |
+| Moorea Tower    | TTM       | Moorea Tower    | 118.100   | NTTM_TWR | Primary   |
+| Bora Bora Tower | TTB       | Bora Tower      | 118.900   | NTTB_TWR | Primary   |
+| Raiatea Tower   | TTR       | Raiatea Tower   | 118.500   | NTTR_TWR | Primary   |
 
 
 ## Tahiti
