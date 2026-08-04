@@ -2,7 +2,7 @@
   title: Cook Islands
 ---
 
---8<-- "includes/abbreviations.md"    
+--8<-- "includes/abbreviations.md"
 
 | Position Name      | Shortcode | Callsign                  | Frequency | Login ID | Usage      |
 | ------------------ | --------- | ------------------------- | --------- | -------- | ---------- |
@@ -22,8 +22,9 @@
 | Rarotonga Delivery | DRA       | Rarotonga (Raro) Delivery | 121.900   | NCRG_DEL | Event only |
 
 
-<figure markdown> 
+<figure markdown>
   ![Rarotonga Enroute](../pacific/assets/ncrg-control.png)
+</figure>
 
 ## Enroute
 
