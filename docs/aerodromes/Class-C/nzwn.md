@@ -94,9 +94,9 @@ This frees up `B6` and `B5` for traffic taxiing from the main apron and internat
 
 | Type        |   Runway 34   |  Runway 16   |
 | ----------- | :-----------: | :----------: |
-| Large Jets  |     `A11`     |     `A1`     |
-| Medium Jets |     `A11`     | `A1` or `A2` |
-| Turboprops  | `A9` or `A11` | `A2` or `A3` |
+| Large Jets  |     `A10`     |     `A1`     |
+| Medium Jets |     `A10`     | `A1` or `A2` |
+| Turboprops  | `A9` or `A10` | `A2` or `A3` |
 
 ### Tower
 
