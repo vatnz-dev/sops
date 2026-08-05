@@ -4,10 +4,10 @@ title: NZHN - Hamilton
 --8<-- "includes/abbreviations.md"
 
 ## Positions
-| Position Name | Shortcode | Callsign          | Frequency | Login ID | Usage     |
-| ------------- | --------- | ----------------- | --------- | -------- | --------- |
-| Hamilton TWR  | THN       | Hamilton Tower    | 126.800   | NZHN_TWR | Primary   |
-| Hamilton TMA  | HTMA      | Hamilton Approach | 125.300   | NZHN_APP | Secondary |
+| Position Name | Shortcode | Callsign       | Frequency | Login ID | Usage   |
+| ------------- | --------- | -------------- | --------- | -------- | ------- |
+| Hamilton TWR  | THN       | Hamilton Tower | 126.800   | NZHN_TWR | Primary |
+| Hamilton TMA  | HTMA      | Bay Approach   | 125.300   | NZHN_APP | Primary |
 
 ## Airspace
 

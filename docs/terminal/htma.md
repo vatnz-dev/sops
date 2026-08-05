@@ -9,12 +9,10 @@
 
 ## Positions
 
-| Position Name     | Shortcode | Callsign              | Frequency | Login ID | Usage     |
-| ----------------- | --------- | --------------------- | --------- | -------- | --------- |
-| Hamilton TMA      | HTMA      | Bay Approach          | 125.300   | NZHN_APP | Secondary |
+| Position Name | Shortcode | Callsign     | Frequency | Login ID | Usage   |
+| ------------- | --------- | ------------ | --------- | -------- | ------- |
+| Hamilton TMA  | HTMA      | Bay Approach | 125.300   | NZHN_APP | Primary |
 
-!!! note Hamilton TMA
-    Controllers shall note that HTMA is a **secondary** position therefore BAY must be staffed before a controller may log on HTMA. 
 
 ## Airspace
 
