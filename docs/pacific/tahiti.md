@@ -13,10 +13,17 @@
 | Tahiti Approach | A-TAH     | Tahiti Approach | 121.300   | NTAA_APP | Primary   |
 | Tahiti Tower    | T-TAH     | Tahiti Tower    | 118.100   | NTAA_TWR | Primary   |
 | Tahiti Ground   | G-TAH     | Tahiti Ground   | 121.900   | NTAA_GND | Secondary |
-| Moorea Tower    | TNTTM     | Moorea Tower    | 118.100   | NTTM_TWR | Primary   |
 | Bora Bora Tower | TNTTB     | Bora Tower      | 118.900   | NTTB_TWR | Primary   |
 | Raiatea Tower   | TNTTR     | Raiatea Tower   | 118.500   | NTTR_TWR | Primary   |
 
+### Event Only Positions
+
+!!! Danger "Important"
+    The following are designated as Event Only positions, and may only be staffed during a VATNZ event where approved, or if explicitly authorised by the Operations Director.
+
+| Position Name   | Shortcode | Callsign        | Frequency | Login ID | Usage      |
+| --------------- | --------- | --------------- | --------- | -------- | ---------- |
+| Moorea Tower    | TNTTM     | Moorea Tower    | 118.700   | NTTM_TWR | Event Only |
 
 ## Tahiti
 
@@ -71,30 +78,4 @@ The outer-most ring is the 200nm ring. Inside of this, the Class E service is pr
     * **TODO**: Investigate behaviour between NTTB and NTUU, as NTUU sits within NTTB's CTR.
 * **NTTR_TWR**: "Raiatea Tower" on 118.500
     * **Limits**:  SFC to 1,500ft. The Raiatea CTR is a weird bow-tie looking CTR, interfacing with Bora Bora's CTR to the NW, and extending out to the East by about 10nm. The top and bottom wedges are due to Fareura/Puurauti to the North, and Tefatoaiti to the South.
-
-### AFIS
-
-!!! warning "About Flight Information Services"
-    Flight Information Services provide a traffic advisory and weather information service. They also relay IFR clearances to aircraft on behalf of their senior sector. 
-
-    These stations **are not** a priority, and are simply "nice to have" positions that would be cool to feature in an event.
-
-
-* **NTAR_FIS**: "Rurutu Information" on 118.300
-* **NTAT_FIS**: "Tubuai Information" on 118.300
-* **NTAV_FIS**: "Raivavae Information" on 118.500
-* **NTGC_FIS**: "Tikehau Information" on 119.500
-* **NTGF_FIS**: "Fakarava Information" on 119.900
-* **NTGI_FIS**: "Manihi Information" on 124.300
-* **NTGJ_FIS**: "Totegegie Information" on 118.300
-* **NTGM_FIS**: "Makemo Information" on 121.400
-* **NTGT_FIS**: "Takapoto Information" on 118.500
-* **NTMD_FIS**: "Nukuhiva Information" on 118.300
-* **NTMN_FIS**: "Hiva Oa Information" on 119.700
-* **NTTG_FIS**: "Rangiroa Information" on 118.300
-* **NTTH_FIS**: "Huahine Information" on 119.300
-* **NTTO_FIS**: "Hao Information" on 119.100
-* **NTTP_FIS**: "Maupiti Information" on 118.300
-* **NTTR_FIS**: "Raiatea Information" on 118.500
-
-
+    
