@@ -11,9 +11,9 @@ Our vatSys dataset comes pre-loaded with everything a controller needs to get co
 
 ## Plugins
 
-Our vatSys dataset currently ships with two plugins, the VATNZ Standard Route Tool and the Multiple ATIS Editor.
+Our vatSys dataset currently ships with three plugins, the VATNZ Standard Route Tool, the Multiple ATIS Editor and the VATNZ Plugin for automatic sector extension. 
 
-Both Plugins can be downloaded from the [VATNZ Website](https://www.vatnz.net/vatnz/resources/)
+All the Plugins can be downloaded from the [VATNZ Website](https://www.vatnz.net/vatnz/resources/)
 
 ### VATNZ Standard Route Tool
 

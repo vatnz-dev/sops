@@ -23,10 +23,10 @@ Controllers must check each aircraft’s flight plan for a discrete SELCAL code.
 !!! important "Use of SELCAL"
     Where a SELCAL check has been completed successfully, all subsequent communications shall be conducted prefaced by a SELCAL chime.
 
-!!! example "RTF Example for readback of a Position Report"
-    **Auckland Radio**: *"UAE412, standby SELCAL check."*  
+!!! example "RTF Example for readback of a SELCAL check"
+    **Auckland Radio**: *"UAE3HJ, standby SELCAL check."*  
     Aircraft awaits the SELCAL chime before replying.  
-    **UAE412**: *"SELCAL check OK, UAE412."*    
+    **UAE3HJ**: *"SELCAL check OK, UAE3HJ."*
     Then continue with routine communications.
 
 ### CPDLC
@@ -48,15 +48,26 @@ A Position Report will contain the following elements:
 - Ensuing significant point
 - Specified Speed (if assigned)
 
+However on first contact with an aircraft coming from either a Radar sector or a Non-Radar sector, controllers shall follow the example below: 
+
+!!! example "RTF Example for Inital Contact"
+    **ANZ104**: *"Auckland Radio, Auckland Radio. ANZ104 position."*
+    **Auckland Radio**: *"ANZ104 Auckland go ahead."*
+    **ANZ104**: *"ANZ104 position MADEP time 2215, FL380, OLREL time 2330, AKALU next."*
+    **Auckland Radio**: *"ANZ104 Auckland roger FL380, primary guard this frequency, negative secondary. Standby SELCAL check."*
+    *"SELCAL chime"*
+    **ANZ104**: *"ANZ104 primary this frequency, negative secondary and SELCAL check good."*
+
+
 If an aircraft fails to report its position within 3 minutes of its estimated time, controllers must attempt to establish contact with that aircraft and obtain a position report.
 
 ATC shall acknowledge a position report by using the aircraft's callsign. A readback of the report is not required unless the controller needs to confirm the information provided.
 
 !!! example "RTF Example for readback of a Position Report"
-    **UAE412**: *"Auckland Radio, Auckland Radio. UAE412 with position."*  
-    **Auckland Radio**: *"UAE412, pass position report."*    
-    **UAE412**: *"UAE412 is position TATAS time 1853. Estimating SAMAD at 1953. OSUGA next."*  
-    **Auckland Radio**: *"UAE412, Auckland Radio copies position report."*  
+    **ANZ104**: *"Auckland Radio, Auckland Radio. ANZ104 position."*  
+    **Auckland Radio**: *"ANZ104 Auckland go ahead."*    
+    **ANZ104**: *"ANZ104 is position TATAS time 1853. Estimating SAMAD at 1953. OSUGA next."*  
+    **Auckland Radio**: *"ANZ104, Auckland Roger."*  
 
 !!! tip "Position Report Formatting Tool"
     If pilots in your airspace are struggling to provide accurate position reports, you can send them the [Oceanic Report Tool](https://www.vatnz.net/pilots/oceanic-report-tool/){ target=_blank } to help them out.
@@ -65,7 +76,14 @@ ATC shall acknowledge a position report by using the aircraft's callsign. A read
 
 ### NZZC Enroutes to ARO
 
-NZZC enroute sectors must provide a 10-minute warning to Auckland Radio (ARO) before an aircraft crosses the FIR boundary.
+NZZC enroute sectors must provide a 10-minute warning to Auckland Radio (ARO) before an aircraft crosses the FIR boundary, the message must contain the following:
+
+- Callsign
+- Level
+- Waypoing entering NZZO at
+- Time at said waypoint
+
+Note any change in CFL within 10 mins of the boundary must be coordinated with ARO. 
 
 ### ARO to NZZC Enroutes
 
@@ -74,8 +92,8 @@ Aircraft entering an NZZC enroute sector must do so via a named fix at their ass
 Since aircraft crossing into NZZC enter a surveillance environment, prior coordination with NZZC sectors is not required provided the aircraft meets the conditions above.
 
 !!! example "RTF Example for handing off to a NZZC sector"
-    **Auckland Radio**: *"UAE412, at position PEBLU, contact Auckland Control on 123.900."*    
-    **UAE412**: *"UAE412 at position PEBLU, contact Auckland Control on 123.900."*
+    **Auckland Radio**: *"UAE3HJ, at PEBLU, contact Auckland Control on 123.9."*    
+    **UAE3HJ**: *"UAE3HJ at PEBLU, contact Auckland Control on 123.9."*
 
 #### Oceanic Airspace delegated to STH
 
@@ -92,10 +110,10 @@ Most airways over the Tasman Sea have only two waypoints within the NZZO FIR, bo
 For flights that include an additional waypoint within the NZZO sector, contact instructions for the next sector shall be issued at the waypoint immediately preceding the boundary fix.
 
 !!! example "RTF Example for short Tasman routes"   
-    **ANZ204**: *"Auckland Radio, Auckland Radio. ANZ204 with position."*  
-    **Auckland Radio**: *"ANZ204, pass position report"*      
-    **ANZ204**: *"ANZ204 is position PEBLU time 1832. Estimating SASRO at 1911. MIKEG next."*  
-    **Auckland Radio**: *"ANZ204, Auckland Radio copies position report. Standby SELCAL check."*    
+    **ANZ204**: *"Auckland Radio, Auckland Radio. ANZ204 position."*  
+    **Auckland Radio**: *"ANZ204, Auckland go ahead"*      
+    **ANZ204**: *"ANZ204 is position PEBLU time 1832. FL380. Estimating SASRO at 1911. MIKEG next."*  
+    **Auckland Radio**: *"ANZ204, FL380. Standby SELCAL check."*    
     Aircraft waits for the SELCAL chime before replying. <br />
     **ANZ204**: *"Auckland Radio, ANZ204 on SELCAL."*  
     **Auckland Radio**: *"ANZ204, Auckland Radio accepts primary guard on 129.000, negative secondary. At SASRO, contact Brisbane Radio on primary 124.650."*  
@@ -105,10 +123,7 @@ For flights that include an additional waypoint within the NZZO sector, contact 
 
 ### Below FL245
 
-ARO shall not pass IFR clearances to aircraft requesting to operate below FL245 whilst on the ground or following departure from the Chatham Islands. ARO shall not accept radio guard for aircraft operating below FL245.
-
-- The aircraft shall broadcast their position on UNICOM, and shall monitor ARO's frequency.
-- Aircraft may be passed traffic information at their requested altitude or levels.
+ARO shall pass IFR clearances to aircraft requesting to operate below FL245 whilst on the ground or following departure from the Chatham Islands. ARO shall accept radio guard for aircraft operating below FL245. But may only provide traffic information. 
 
 Before reaching the NZZO boundary, the aircraft shall be instructed to contact the NZZC sector for clearance into controlled airspace.
 
@@ -122,4 +137,5 @@ Aircraft operating above FL245 shall be handed between NZZO and NZZC controllers
 For aircraft requiring descent below FL245, the aircraft shall be instructed to leave controlled airspace by descent, as well as the traffic status at NZCI, if known.
 
 !!! example "RTF Example for descent below FL245"
-    **Auckland Radio**: *"TNZ123 (when ready | at/after time/position) leave controlled airspace by descent. Report passing FL240. (Traffic is.. | No reported IFR traffic)"*
+    **Auckland Radio**: *"TNZ123 (when ready | at/after time/position) leave controlled airspace by descent. Report passing FL250. (Traffic is.. | No reported IFR traffic)"*
+    
