@@ -6,8 +6,8 @@ title: NZHN - Hamilton
 ## Positions
 | Position Name | Shortcode | Callsign       | Frequency | Login ID | Usage   |
 | ------------- | --------- | -------------- | --------- | -------- | ------- |
-| Hamilton TMA  | HTMA      | Bay Approach   | 125.300   | NZHN_APP | Primary |
 | Hamilton TWR  | THN       | Hamilton Tower | 126.800   | NZHN_TWR | Primary |
+| Hamilton TMA  | HTMA      | Bay Approach   | 125.300   | NZHN_APP | Primary |
 
 ## Airspace
 
