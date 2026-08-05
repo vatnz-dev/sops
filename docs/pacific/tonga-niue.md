@@ -49,24 +49,22 @@ Fua'Amotu TWR shall instruct aircraft to report passing `FL190` additionally sho
 ## AFIS NFTV/NIUE
 
 !!! warning "AFIS"
-    The following is not yet modelled on the network however we endever to get this set up within the near future 
+    NFTV AFIS is not yet modelled on the network however we endever to get this set up within the near future 
 
 Vava'u and Niue have a Flight Information Service, while only Vava'u weirdly has a Ground service on 121.900. The FIS provides only traffic information. This will be modelled as **NFTV_TWR** or **NIUE_TWR**, with a standard Tower visibility range of 50nm. The Tower is to provide a traffic information service, in addition to relaying IFR clearances from NZZO_FSS.
 
-Clearances remain **invalid** until Auckland Radio advises that they are released.
+Clearances remain **invalid** until Auckland Radio advises that they are released. Controllers shall note aircraft cruising below `FL245` shall be advised they will only get a traffic service
+
 
 Refer to the **AFIS** [guide](../../controller-skills/flight-service.md#standard-phraseology).
 
 
 ### Departures
 
-#### NIUE 
 
-NFS shall instruct aircraft that are climbing above `FL245` to contact ARO passing `FL240`, prior to aircraft vacating the MBZ. Otherwise aircraft should change to Advisory on `122.8`. 
+Both Flight Services shall instruct aircraft that are vacating the MBZ to contact ARO. If aircraft are unable to make contact with ARO they shall remain on the AFIS frequency until they are able to make contact with ARO. 
 
-#### NFTV
 
-VFS shall instruct aircraft that are climbing above `FL245` to contact ARO passing `FL240`, prior to aircraft vacating the MBZ. Otherwise aircraft should change to Advisory on `122.8`.
 
 ### Arrivals
 
@@ -74,3 +72,8 @@ Arriving aircraft will be given clearance to leave Controlled Airspace on descen
 
 ## Coordination
 
+As usual, any requests for a non-nominated approach shall be coordinated with the Tower as needed. In the unlikely case.  
+
+TTF shall provide a 10-minute warning to ARO before an aircraft crosses the common airspace boundary. ARO shall provide the same warning to TTF for arriving aircraft. 
+
+Flight Services shall call ARO to cancel Flight Plans for arriving aircraft. 
