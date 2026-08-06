@@ -118,6 +118,4 @@ NTTT_CTR provides the approach and enroute service above the NTTR CTR.
 
 Coordinate requests for non-nominated approaches with the relevant tower position as required.
 
-NTAA_TWR provides the NTTM tower service when NTTM_TWR is offline. NTTT_CTR provides the approach and enroute service for NTTB and NTTR above their respective CTRs.
-
-TAH/NTAA shall provide a 10-minute warning before an aircraft crosses the common airspace boundary.
+TAH shall provide a 10-minute warning to NTTT before an aircraft crosses the common airspace boundary.
