@@ -18,12 +18,12 @@
 
 ### Event Only Positions
 
-!!! Danger "Important"
-    The following are designated as Event Only positions, and may only be staffed during a VATNZ event where approved, or if explicitly authorised by the Operations Director.
+!!! danger "Important"
+    The following position may only be staffed during a VATNZ event where approved, or if explicitly authorised by the Operations Director.
 
-| Position Name   | Shortcode | Callsign        | Frequency | Login ID | Usage      |
-| --------------- | --------- | --------------- | --------- | -------- | ---------- |
-| Moorea Tower    | TNTTM     | Moorea Tower    | 118.700   | NTTM_TWR | Event Only |
+| Position Name | Shortcode | Callsign     | Frequency | Login ID | Usage      |
+| ------------- | --------- | ------------ | --------- | -------- | ---------- |
+| Moorea Tower  | TNTTM     | Moorea Tower | 118.700   | NTTM_TWR | Event only |
 
 !!! danger "Important"
     The following position may only be staffed during a VATNZ event where approved, or if explicitly authorised by the Operations Director.
@@ -118,4 +118,4 @@ NTTT_CTR provides the approach and enroute service above the NTTR CTR.
 
 Coordinate requests for non-nominated approaches with the relevant tower position as required.
 
-TAH shall provide a 10-minute warning to NTTT before an aircraft crosses the common airspace boundary.
+NTAA_TWR provides the NTTM tower service when NTTM_TWR is offline. NTTT_CTR provides the approach and enroute service for NTTB and NTTR above their respective CTRs.
