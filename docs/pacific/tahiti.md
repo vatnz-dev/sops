@@ -18,64 +18,95 @@
 
 ### Event Only Positions
 
-!!! Danger "Important"
-    The following are designated as Event Only positions, and may only be staffed during a VATNZ event where approved, or if explicitly authorised by the Operations Director.
+!!! danger "Important"
+    The following position may only be staffed during a VATNZ event where approved, or if explicitly authorised by the Operations Director.
 
-| Position Name   | Shortcode | Callsign        | Frequency | Login ID | Usage      |
-| --------------- | --------- | --------------- | --------- | -------- | ---------- |
-| Moorea Tower    | TNTTM     | Moorea Tower    | 118.700   | NTTM_TWR | Event Only |
+| Position Name | Shortcode | Callsign     | Frequency | Login ID | Usage      |
+| ------------- | --------- | ------------ | --------- | -------- | ---------- |
+| Moorea Tower  | TNTTM     | Moorea Tower | 118.700   | NTTM_TWR | Event only |
 
-## Tahiti
+## Tahiti Airspace
 
-In the real-world, NTTT is operatated by the French, so there are some peculiarities in NTTT.
+Tahiti's airspace has several differences from the NZZO FIR:
 
-* Oceanic airspace (Class A) starts at FL195, instead of FL245 in NZZO.
-* Outside of the Tower/Approach/Enroute CTAs, the NTTT FIR is Class E from FL045 to FL195. This means that - 
-    * If you're flying IFR above FL045, you're required to grab an IFR clearance and separation from NTTT_FSS.
-    * If you're flying VFR above FL045, you're entitled to a traffic information service.
-    * If you're above FL045 within NTTT_CTR's 200nm arc, this service is provided by NTTT_CTR.
-* Outside of the Tower/Approach/Enroute CTAs, and between SFC and FL045, you're flying in Class G.
+- Oceanic Class A airspace starts at `FL195`, rather than `FL245`.
+- Outside tower, approach and enroute CTAs, the NTTT FIR is Class E from `FL045` to `FL195`.
+    - IFR aircraft above `FL045` require an IFR clearance and separation service.
+    - VFR aircraft above `FL045` are entitled to a traffic information service.
+- Outside these CTAs, airspace from `SFC` to `FL045` is Class G.
 
-## Enroute
+## Tahiti Oceanic
 
-* **NTTT_CTR**: "Tahiti Control" on 134.700
-    * Provides a radar service within the Iles Sous Le Vent sector from 1500ft to FL195.
-    * Provices a procedural service **outside** of the Iles Sous Le Vent sector, up to 200nm DME TAF, from FL045 to F195. 
-      * This 200nm diameter circle is Class E, where an IFR service is provided, and only a VFR traffic information service is provided.
-    * Provides an Enroute/Approach Control service for flights between NTTB (Bora Bora), NTTR (Raiatea), Huahine (NTTH) and Tupai (NTUU). 
-        * NTTB and NTTR have their own Towers, operating from SFC to 1,500ft.  
-            * NTTB_TWR also covers NTUU to the north.
-      * NTTH is uncontrolled, with the base of NTTT_CTR at 1,500ft.
-
-<figure markdown> 
-  ![Tahiti Airspace](../oceanic/assets/nttt-ctr.png){ width="550" }
-  <figcaption>
-  </figcaption>
+<figure markdown>
+  ![NTTT Oceanic](assets/nttt-oceanic.png)
 </figure>
 
-The outer-most ring is the 200nm ring. Inside of this, the Class E service is provided by NTTT_CTR - outside it is provided by NTTT_FSS.
+**NTTT_FSS** "Tahiti Control" on 125.500 provides the Oceanic FSS service above `FL195`. It also provides the Class E IFR and traffic service above `FL045` outside other tower, approach and enroute CTA airspace.
 
-### TMA
+## Tahiti Control
 
-* **NTAA_APP**: "Tahiti Approach" on 121.300
-    * A 50nm radius circle centered on NTAA, with a wedge missing from the SE due to the big ass mountain.
-    * Provides a service from 2,500ft to FL195.
+<figure markdown>
+  ![Tahiti Control](assets/tah-control.png)
+</figure>
 
-### Towers
+**NTTC_CTR** "Tahiti Control" on 134.700 provides the following services:
 
-* **NTAA_TWR**: "Tahiti Tower" on 118.100
-    * **Limits:** SFC to 2,500ft. Essentially a 20nm circle centered on TAF VOR, with two wedges cut out over mainland Tahiti and the island of Moorea.
-    * NTAA provides a ground service on 121.900.
-    * Moorea Tower (NTTM) is 10nm North West of NTAA, with a small control zone from SFC to 1,500ft. This zone sits inside of NTAA_TWR's airspace, and the Tower function is provided by NTAA when NTTM is off watch.
-* **NTTM_TWR**: "Moorea Tower" on 118.700
-    * **Limits**: SFC to 1,500ft. Basically a square that sits over the North side of Moorea. Eastern lateral bound is roughly 5nm east of Moorea, and 10 miles to the North and West.
-    * The NTTM control zone sits entirely within NTAA_TWR's zone. When NTTM_TWR is off watch, the Tower function is provided by NTAA_TWR. 
-        * The Approach service is still provided by NTAA_APP from 1,500ft. NTAA_APP **does not** perform top-down services to NTTM_TWR.
-    * Care needs to be taken surrounding the assignment of SIDs/STARs at Moorea, as the extended centerline for RWY 12/30  interfaces with RWY 04/22 at NTAA. **Traffic at NTAA has priority**.
-* **NTTB_TWR**: "Bora Bora Tower" on 118.900
-    * **Limits**: SFC to 1,500ft. Bora Bora Tower's CTR is essentially a 15nm by 10nm box centered on BB NDB, with the long axis running NW to SE. There is a small wedge to the south of the AD, with the LL raised to 500ft. 
-    * The Tower CTR sits within NTTT_CTR, and can expect the Approach and Enroute service to be provided by NTTT_CTR. 
-    * **TODO**: Investigate behaviour between NTTB and NTUU, as NTUU sits within NTTB's CTR.
-* **NTTR_TWR**: "Raiatea Tower" on 118.500
-    * **Limits**:  SFC to 1,500ft. The Raiatea CTR is a weird bow-tie looking CTR, interfacing with Bora Bora's CTR to the NW, and extending out to the East by about 10nm. The top and bottom wedges are due to Fareura/Puurauti to the North, and Tefatoaiti to the South.
-    
+- A radar service within the red Iles Sous le Vent sector shown on the map, from 1,500ft to `FL195`.
+- A procedural service in the remainder of the area within 200nm of TAF, from `FL045` to `FL195`.
+- An enroute and approach control service for NTTB (Bora Bora), NTTR (Raiatea), NTTH (Huahine) and NTUU (Tupai).
+
+The red sector is the radar area; all other airspace within the 200nm boundary is procedural. Within the 200nm area, NTTT_CTR provides the Class E service above `FL045`; outside it, the service is provided by NTTT_FSS. NTTB and NTTR have tower services from `SFC` to 1,500ft. NTTH is uncontrolled, with the base of NTTT_CTR at 1,500ft.
+
+## Tahiti Approach
+
+<figure markdown>
+  ![NTAA Approach](assets/atah-approach.png)
+</figure>
+
+**NTAA_APP** "Tahiti Approach" on 121.300 provides a service from 2,500ft to `FL195` within the Tahiti TMA, a 50nm radius area centred on NTAA with a southeastern exclusion.
+
+## Tahiti Tower
+
+<figure markdown>
+  ![NTAA Tower](assets/ntaa-tower.png)
+</figure>
+
+**NTAA_TWR** "Tahiti Tower" on 118.100 provides the tower service from `SFC` to 2,500ft within the NTAA control zone. The zone is approximately a 20nm circle centred on the TAF VOR, with exclusions over mainland Tahiti and Moorea.
+
+NTAA_TWR provides the ground service on 121.900. When Moorea Tower is offline, NTAA_TWR provides the tower service for NTTM.
+
+## Moorea Tower
+
+<figure markdown>
+  ![NTTM Tower](assets/tnttm-tower.png)
+</figure>
+
+**NTTM_TWR** "Moorea Tower" on 118.700 provides a tower service from `SFC` to 1,500ft within the NTTM control zone. The control zone sits entirely within NTAA_TWR's airspace.
+
+NTAA_APP provides the approach service above 1,500ft and does not provide a top-down service to NTTM_TWR. Take care when assigning SIDs and STARs: the extended centreline for NTTM RWY 12/30 intersects the NTAA RWY 04/22 centreline. Traffic at NTAA has priority.
+
+## Bora Bora Tower
+
+<figure markdown>
+  ![NTTB Tower](assets/tnttb-tower.png)
+</figure>
+
+**NTTB_TWR** "Bora Tower" on 118.900 provides a tower service from `SFC` to 1,500ft. Its CTR is approximately a 15nm by 10nm area centred on the BB NDB, with the long axis running northwest to southeast. A small area south of the aerodrome has a lower limit of 500ft.
+
+The NTTB CTR sits within NTTT_CTR's airspace; NTTT_CTR provides the approach and enroute service. NTTB_TWR also covers NTUU (Tupai) to the north.
+
+## Raiatea Tower
+
+<figure markdown>
+  ![NTTR Tower](assets/tnttr-tower.png)
+</figure>
+
+**NTTR_TWR** "Raiatea Tower" on 118.500 provides a tower service from `SFC` to 1,500ft. The NTTR CTR interfaces with Bora Bora's CTR to the northwest and extends approximately 10nm east of the aerodrome. Its northern and southern boundaries account for Fareura/Puurauti and Tefatoaiti respectively.
+
+NTTT_CTR provides the approach and enroute service above the NTTR CTR.
+
+## Coordination
+
+Coordinate requests for non-nominated approaches with the relevant tower position as required.
+
+NTAA_TWR provides the NTTM tower service when NTTM_TWR is offline. NTTT_CTR provides the approach and enroute service for NTTB and NTTR above their respective CTRs.
