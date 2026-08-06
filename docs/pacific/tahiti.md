@@ -32,7 +32,7 @@ Tahiti's airspace has several differences from the NZZO FIR:
 - Oceanic Class A airspace starts at `FL195`, rather than `FL245`.
 - Outside tower, approach and enroute CTAs, the NTTT FIR is Class E from `A045` to `FL195`.
     - IFR aircraft above `A045` require an IFR clearance and separation service.
-    - VFR aircraft above `A045` are entitled to a traffic information service.
+    - VFR aircraft above `A045` are entitled to a traffic information service, but are not required to be in contact with anyone.
 - Outside these CTAs, airspace from `SFC` to `A045` is Class G.
 
 ## Tahiti Oceanic
@@ -85,6 +85,8 @@ NTAA_TWR provides the ground service on 121.900. When Moorea Tower is offline, N
 
 NTAA_APP provides the approach service above `A015` and does not provide a top-down service to NTTM_TWR. Take care when assigning SIDs and STARs: the extended centreline for NTTM RWY 12/30 intersects the NTAA RWY 04/22 centreline. Traffic at NTAA has priority.
 
+When NTTM_TWR is offline NTAA_TWR shall provide the TWR service.
+
 ## Bora Bora Tower
 
 <figure markdown>
@@ -109,6 +111,4 @@ NTTT_CTR provides the approach and enroute service above the NTTR CTR.
 
 Coordinate requests for non-nominated approaches with the relevant tower position as required.
 
-NTAA_TWR provides the NTTM tower service when NTTM_TWR is offline. NTTT_CTR provides the approach and enroute service for NTTB and NTTR above their respective CTRs.
-
-TAH/NTAA shall provide a 10-minute warning before an aircraft crosses the common airspace boundary.
+TAH shall provide a 10-minute warning to NTTT before an aircraft crosses the common airspace boundary.
