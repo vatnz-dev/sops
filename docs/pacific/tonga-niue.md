@@ -6,9 +6,8 @@
 
 | Position Name      | Shortcode | Callsign         | Frequency | Login ID | Usage     |
 | ------------------ | --------- | ---------------- | --------- | -------- | --------- |
-| Auckland Radio     | ARO       | Auckland Radio   | 129.000   | NZZO_FSS | Primary   |
-| Fua'amotu TWR      | TTF       | Fua'Amotu Tower  | 118.500   | NFTF_APP | Primary   |
 | Fua'amotu SMC      | GTF       | Fua'Amotu Ground | 121.900   | NFTF_GND | Secondary |
+| Fua'amotu TWR      | TTF       | Fua'Amotu Tower  | 118.500   | NFTF_APP | Primary   |
 
 
 ### Event Only Positions
@@ -43,7 +42,7 @@
 
 - A circle 100nm in diameter, centered on TBH VOR from 9,500ft to 19,500ft.
 
-Fua'Amotu TWR shall instruct aircraft to report passing `FL190` additionally should aircraft be climbing above `FL245` they shall be instructed to contact ARO passing `FL240`. Ie. "Passing `FL240` contact Auckland Radio 129.0"
+Fua'Amotu TWR shall instruct aircraft to report passing `FL190` additionally should aircraft be climbing above `FL245` they shall be instructed to contact ARO passing `FL240`. i.e. "Passing `FL240` contact Auckland Radio 129.0"
 
 
 ## AFIS NFTV/NIUE
@@ -72,8 +71,8 @@ Arriving aircraft will be given clearance to leave Controlled Airspace on descen
 
 ## Coordination
 
-As usual, any requests for a non-nominated approach shall be coordinated with the Tower as needed. In the unlikely case.  
+Any requests for a non-nominated approach shall be coordinated with the Tower as needed.
 
 TTF shall provide a 10-minute warning to ARO before an aircraft crosses the common airspace boundary. ARO shall provide the same warning to TTF for arriving aircraft. 
 
-Flight Services shall call ARO to cancel Flight Plans for arriving aircraft. 
+Flight Services shall call ARO to cancel Flight Plans for arriving aircraft.
