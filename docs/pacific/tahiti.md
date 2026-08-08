@@ -8,13 +8,12 @@
 
 | Position Name   | Shortcode | Callsign        | Frequency | Login ID | Usage     |
 | --------------- | --------- | --------------- | --------- | -------- | --------- |
-| Tahiti Oceanic  | NTTT      | Tahiti Control  | 125.500   | NTTT_FSS | Primary   |
-| Tahiti Control  | TAH       | Tahiti Control  | 134.700   | NTTC_CTR | Primary   |
-| Tahiti Approach | A-TAH     | Tahiti Approach | 121.300   | NTAA_APP | Primary   |
 | Tahiti Tower    | T-TAH     | Tahiti Tower    | 118.100   | NTAA_TWR | Primary   |
-| Tahiti Ground   | G-TAH     | Tahiti Ground   | 121.900   | NTAA_GND | Secondary |
 | Bora Bora Tower | TNTTB     | Bora Tower      | 118.900   | NTTB_TWR | Primary   |
 | Raiatea Tower   | TNTTR     | Raiatea Tower   | 118.500   | NTTR_TWR | Primary   |
+| Tahiti Approach | A-TAH     | Tahiti Approach | 121.300   | NTAA_APP | Primary   |
+| Tahiti Control  | TAH       | Tahiti Control  | 134.700   | NTTC_CTR | Primary   |
+| Tahiti Oceanic  | NTTT      | Tahiti Control  | 125.500   | NTTT_FSS | Primary   |
 
 ### Event Only Positions
 
@@ -81,7 +80,7 @@ NTAA_TWR provides the ground service on 121.900. When Moorea Tower is offline, N
   ![NTTM Tower](assets/tnttm-tower.png)
 </figure>
 
-**NTTM_TWR** "Moorea Tower" on 118.700 provides a tower service from `SFC` to `A015` within the NTTM control zone. The control zone sits entirely within NTAA_TWR's airspace.
+**NTTM_TWR** "Moorea Tower" is an Event Only position on 118.700 that provides a tower service from `SFC` to `A015` within the NTTM control zone. The control zone sits entirely within NTAA_TWR's airspace.
 
 NTAA_APP provides the approach service above `A015` and does not provide a top-down service to NTTM_TWR. Take care when assigning SIDs and STARs: the extended centreline for NTTM RWY 12/30 intersects the NTAA RWY 04/22 centreline. Traffic at NTAA has priority.
 
@@ -93,7 +92,7 @@ When NTTM_TWR is offline NTAA_TWR shall provide the TWR service.
   ![NTTB Tower](assets/tnttb-tower.png)
 </figure>
 
-**NTTB_TWR** "Bora Tower" on 118.900 provides a tower service from `SFC` to `A015`. Its CTR is approximately a 15nm by 10nm area centred on the BB NDB, with the long axis running northwest to southeast. A small area south of the aerodrome has a lower limit of `A005`.
+**NTTB_TWR** "Bora Tower" on 118.900 provides a tower service from `SFC` to `A015`. Its CTR is approximately a 15nm x 10nm area centred on the BB NDB, with the long axis running northwest to southeast. A small area south of the aerodrome has a lower limit of `A005`.
 
 The NTTB CTR sits within NTTT_CTR's airspace; NTTT_CTR provides the approach and enroute service. NTTB_TWR also covers NTUU (Tupai) to the north.
 

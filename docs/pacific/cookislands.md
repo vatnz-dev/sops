@@ -6,9 +6,8 @@
 
 | Position Name      | Shortcode | Callsign                  | Frequency | Login ID | Usage      |
 | ------------------ | --------- | ------------------------- | --------- | -------- | ---------- |
-| Auckland Radio     | ARO       | Auckland Radio            | 129.000   | NZZO_FSS | Primary    |
-| Rarotonga Control  | RAR       | Rarotonga (Raro) Control  | 118.900   | NCRG_CTR | Primary    |
 | Rarotonga Tower    | TRA       | Rarotonga (Raro) Tower    | 118.100   | NCRG_APP | Primary    |
+| Rarotonga Control  | RAR       | Rarotonga (Raro) Control  | 118.900   | NCRG_CTR | Primary    |
 
 
 
@@ -30,8 +29,8 @@
 
 * **NCRG_CTR** "Rarotonga Control" on 118.900
     * **Limits**: 5,500ft to FL245, with the lateral bounds indicated as above. Roughly 340nm by 260nm.
-    * Provides an Enroute radar service within its' lateral bounds.
-    * Additionally acts as the Enroute interface between NCRG_APP and NZZO FSS.
+    * Provides an Enroute radar service within its lateral bounds.
+    * Additionally acts as the Enroute interface between TRA and ARO.
     * Provides a top-down service to NCRG when NCRG_APP is offline.
 
 ## TMA
