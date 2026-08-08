@@ -6,9 +6,8 @@
 
 | Position Name      | Shortcode | Callsign              | Frequency | Login ID | Usage   |
 | ------------------ | --------- | --------------------- | --------- | -------- | ------- |
-| Auckland Radio     | ARO       | Auckland Radio        | 129.000   | NZZO_FSS | Primary |
-| Faleolo Control    | FAL       | Faleolo Control       | 126.900   | NSFA_CTR | Primary |
 | Faleolo Tower      | TFA       | Faleolo Tower         | 118.100   | NSFA_TWR | Primary |
+| Faleolo Control    | FAL       | Faleolo Control       | 126.900   | NSFA_CTR | Primary |
 
 
 ### Event Only Positions
@@ -63,9 +62,7 @@ Since there are no published SIDs TTU shall clear the aircraft by means of a rad
 
 ## Coordination
 
-As usual, any requests for a non-nominated approach shall be coordinated with the Towers as needed. 
-
-TTU shall request release of **ALL** IFR departures with FAL prior to departure.
+Any requests for a non-nominated approach shall be coordinated with the respective Tower as needed.
 
 TFA may conduct auto-release to FAL provided the aircraft are on a RNAV SID off the Nominated Runway. 
 

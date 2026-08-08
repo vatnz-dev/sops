@@ -6,9 +6,8 @@
 
 | Position Name      | Shortcode | Callsign         | Frequency | Login ID | Usage     |
 | ------------------ | --------- | ---------------- | --------- | -------- | --------- |
-| Auckland Radio     | ARO       | Auckland Radio   | 129.000   | NZZO_FSS | Primary   |
-| Fua'amotu TWR      | TTF       | Fua'Amotu Tower  | 118.500   | NFTF_APP | Primary   |
 | Fua'amotu SMC      | GTF       | Fua'Amotu Ground | 121.900   | NFTF_GND | Secondary |
+| Fua'amotu TWR      | TTF       | Fua'Amotu Tower  | 118.500   | NFTF_APP | Primary   |
 
 
 ### Event Only Positions
