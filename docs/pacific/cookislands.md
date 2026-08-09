@@ -51,7 +51,7 @@ ARO is responsible above `FL245`. Aircraft operating above `FL245` should be tra
 - A circle 50nm in diameter, centred on RG VOR from `A055` to `A095`.
 - A circle 70nm in diameter, centred on RG VOR from `A095` to `A145`.
 
-Rarotonga Tower may conduct auto-release to RAR provided the aircraft is departing via a nominated runway and standard departure routing. Any departure requiring a heading, non-standard track or amended level shall be coordinated with RAR before departure.
+Rarotonga Tower may conduct auto-release to RAR provided the aircraft is departing via a nominated runway and SID. Any departure requiring a heading, non-standard track or amended level shall be coordinated with RAR before departure.
 
 Aircraft climbing above RAR's upper limit shall be instructed to contact RAR after departure. RAR will transfer the aircraft to ARO when required.
 
