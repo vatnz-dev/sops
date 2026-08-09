@@ -11,10 +11,12 @@ title: Aerodrome Flight Information Service (AFIS)
 
 ## Positions
 
-| Position Name   | Shortcode | Callsign                                           | Frequency | Login ID   | Usage |
-| --------------- | --------- | ------------------------------------------------   | --------- | --------   | ----- |
-| Paraparaumu FIS | MFS       | Paraparaumu Flight Service   | 118.300   | NZPP_TWR   | Event Only |
-| Milford FIS     | PFS       | Milford Flight Service       | 118.200   | NZMF_TWR   | Event Only |
+| Position Name   | Shortcode | Callsign                   | Frequency | Login ID | Usage      |
+| --------------- | --------- | -------------------------- | --------- | -------- | ---------- |
+| Paraparaumu FIS | MFS       | Paraparaumu Flight Service | 118.300   | NZPP_TWR | Event Only |
+| Milford FIS     | PFS       | Milford Flight Service     | 118.200   | NZMF_TWR | Event Only |
+| Vava'u FIS      | VFS       | Vava'u Flight Service      | 118.100   | NFTV_TWR | Event only |
+| Niue FIS        | NFS       | Niue Flight Service        | 118.100   | NIUE_TWR | Event only |
 
 ## Overview
 
