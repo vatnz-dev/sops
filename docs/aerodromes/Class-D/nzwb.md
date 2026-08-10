@@ -42,7 +42,7 @@ Aircraft may be given a combined taxi/backtrack instruction.
 !!! example "Enter and Backtrack Instruction"
     **ANZ758M**: *"ANZ730L, request taxi."*
 
-    **Dunedin Tower**: *"ANZ730L, via A1 cross all grass runways, enter backtrack and lineup RWY 06."*
+    **Woodbourne Tower**: *"ANZ730L, via A1 cross all grass runways, enter backtrack and lineup RWY 06."*
 
 ## Tower 
 
