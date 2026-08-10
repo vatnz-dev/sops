@@ -38,7 +38,7 @@ No aircraft should require pushback. However a start clearance is still required
 Aircraft may be given a combined taxi/backtrack instruction.
 
 !!! example "Enter and Backtrack Instruction"
-    **ANZ758M**: *"ANZ730L, request taxi."*
+    **ANZ730L**: *"ANZ730L, request taxi."*
 
     **Woodbourne Tower**: *"ANZ730L, via A1 enter backtrack and lineup RWY 06, cross all grass runways."*
 
