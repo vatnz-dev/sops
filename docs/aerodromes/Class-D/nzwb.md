@@ -31,8 +31,6 @@ IFR clearances shall be issued as per normal.
 
 Aircraft bound to NZWN or NZNS should be issued a STAR along side their clearance.
 
-VFR traffic shall be issued one of the published VFR Departures and may be issued plain language in low levels of traffic.
-
 ## Ground Movements
 
 No aircraft should require pushback. However a start clearance is still required for IFR traffic. 
@@ -42,7 +40,7 @@ Aircraft may be given a combined taxi/backtrack instruction.
 !!! example "Enter and Backtrack Instruction"
     **ANZ758M**: *"ANZ730L, request taxi."*
 
-    **Woodbourne Tower**: *"ANZ730L, via A1 cross all grass runways, enter backtrack and lineup RWY 06."*
+    **Woodbourne Tower**: *"ANZ730L, via A1 enter backtrack and lineup RWY 06, cross all grass runways."*
 
 ## Tower 
 
@@ -55,7 +53,7 @@ Arriving IFR traffic shall contact TWB established inbound on an approach or whe
 
 The nominated approach should always be the RNP for 24. 
 
-RWY 06 has a RNP (AR) approach avialvile but can't be nominated as the standard apporach. Controllers should use `Circling RNP RWY 24`
+RWY 06 has a RNP (AR) approach avialvile but can't be nominated as the standard apporach. Controllers should use `RNP 24 Circling 06`
 
 ## Coordination
 
