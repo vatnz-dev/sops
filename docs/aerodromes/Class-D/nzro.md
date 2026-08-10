@@ -33,7 +33,8 @@ Controllers shall assign SIDs as suggested by the client.
 
 No aircraft should require pushback. However a start clearance is still required for IFR traffic. 
 
-Use of `C` can not be used by jet traffic. All jet traffic requires TWY `D`
+!!! note
+    `C` may not be used by jet aircraft
 
 Aircraft may be given a combined taxi/backtrack instruction.
 
@@ -47,7 +48,7 @@ Aircraft may be given a combined taxi/backtrack instruction.
 
 ### IFR Arrivals
 
-Arriving IFR traffic shall contact THN established inbound on an approach or when approaching the `CTR/D` on a visual approach. 
+Arriving IFR traffic shall contact TRO established inbound on an approach or when approaching the `CTR/D` on a visual approach. 
 
 #### Instrument Approaches
 
@@ -55,4 +56,4 @@ The nominated approach for RWY `36` should always be `RNP B` and for RWY `18` it
 
 ## Coordination
 
-TRO shall coordinate any non-nominated approaches including visual approaches with THN. 
+BAY shall coordinate any non-nominated approaches including visual approaches with TRO. 
