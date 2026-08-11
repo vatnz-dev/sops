@@ -29,12 +29,14 @@ The Rotorua CTR follows the lateral boundaries as shown below from `SFC` to `A03
 
 Controllers shall assign SIDs as suggested by the client.
 
+Should aircraft require a Non-RNAV departure (as these are not in the client database). Shall be noted in the strip and issued as required to pilot. 
+
 ## Ground Movements
 
-No aircraft should require pushback. However a start clearance is still required for IFR traffic. 
+No aircraft should require pushback. However a start clearance is required for IFR traffic. 
 
 !!! note
-    `C` may not be used by jet aircraft
+    `C` may **not** be used by jet aircraft
 
 Aircraft may be given a combined taxi/backtrack instruction.
 
@@ -45,6 +47,9 @@ Aircraft may be given a combined taxi/backtrack instruction.
 
 ## Tower 
 
+### VFR
+
+As there are no published VFR procedures, controllers shall issue plain language clearances. As there is no "intrument sector" controllers shall endever to keep 3nm of seperation between VFR aircraft and the approach path. 
 
 ### IFR Arrivals
 
