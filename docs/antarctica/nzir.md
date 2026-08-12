@@ -6,18 +6,18 @@ title: NZIR - Ice Runway
 
 ## Positions
 
-| Position Name         | Shortcode | Callsign          | Frequency | Login ID | Usage      |
-| --------------------- | --------- | ----------------- | --------- | -------- | ---------- |
-| Williams Approach TMA | WTMA      | Williams Approach | 126.200   | NZWD_APP | Primary    |
+| Position Name         | Shortcode | Callsign          | Frequency | Login ID | Usage   |
+| --------------------- | --------- | ----------------- | --------- | -------- | ------- |
+| Williams Approach TMA | WTMA      | Williams Approach | 126.200   | NZWD_APP | Primary |
 
 ### Event Only Positions
 
 !!! Danger "Important"
     The following are designated as Event Only positions, and may only be staffed during a VATNZ event where approved, or if explicitly authorised by the Operations Director.
 
-| Position Name         | Shortcode | Callsign          | Frequency | Login ID | Usage      |
-| --------------------- | --------- | ----------------- | --------- | -------- | ---------- |
-| Ice Runway Tower      | TIR       | Ice Runway Tower  | 126.200   | NZIR_TWR | Event Only |
+| Position Name  | Shortcode | Callsign         | Frequency | Login ID | Usage      |
+| -------------- | --------- | ---------------- | --------- | -------- | ---------- |
+| Ice Runway ADC | TIR       | Ice Runway Tower | 126.200   | NZIR_TWR | Event Only |
 
 !!! note "NZWD_APP coverage"
     `NZIR_TWR` is an event only aerodrome position.
