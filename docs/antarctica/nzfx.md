@@ -6,9 +6,9 @@ title: NZFX - Phoenix Field
 
 ## Positions
 
-| Position Name             | Shortcode | Callsign              | Frequency | Login ID  | Usage      |
-| ------------------------- | --------- | --------------------- | --------- | --------- | ---------- |
-| Williams Approach TMA     | WTMA      | Williams Approach     | 126.200   | NZWD_APP  | Primary    |
+| Position Name         | Shortcode | Callsign              | Frequency | Login ID  | Usage   |
+| --------------------- | --------- | --------------------- | --------- | --------- | ------- |
+| Williams Approach TMA | WTMA      | Williams Approach     | 126.200   | NZWD_APP  | Primary |
 
 
 ### Event Only Positions
@@ -16,11 +16,11 @@ title: NZFX - Phoenix Field
 !!! Danger "Important"
     The following are designated as Event Only positions, and may only be staffed during a VATNZ event where approved, or if explicitly authorised by the Operations Director.
 
-| Position Name    | Shortcode | Callsign            | Frequency | Login ID  | Usage      |
-| ---------------- | --------- | ------------------- | --------- | --------- | ---------- |
-| Phoenix Delivery | DFX       | Phoenix Delivery    | 128.600   | NZFX_DEL  | Event Only |
-| Phoenix Ground   | GFX       | Phoenix Ground      | 121.800   | NZFX_GND  | Event Only |
-| Phoenix Tower    | TFX       | Phoenix Field Tower | 126.200   | NZFX_TWR  | Event Only |
+| Position Name        | Shortcode | Callsign            | Frequency | Login ID  | Usage      |
+| -------------------- | --------- | ------------------- | --------- | --------- | ---------- |
+| Phoenix Delivery DLV | DFX       | Phoenix Delivery    | 128.600   | NZFX_DEL  | Event Only |
+| Phoenix Ground SMC   | GFX       | Phoenix Ground      | 121.800   | NZFX_GND  | Event Only |
+| Phoenix Tower ADC    | TFX       | Phoenix Field Tower | 126.200   | NZFX_TWR  | Event Only |
 
 
 
