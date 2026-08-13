@@ -27,12 +27,12 @@ Williams Field aerodrome traffic remains with `NZWD_APP` for clearance, taxi, ta
 
 The Williams Field terminal area contains controlled airspace around Williams Field, Phoenix Field, Pegasus Field, and McMurdo Station.
 
-The Williams Field CTA/C follows the lateral and vertical boundaries as shown below. 
+The Williams Field CTA/D follows the lateral and vertical boundaries as shown below. 
 
 
 <figure markdown>
   ![Williams Field TMA](./assets/wtma-airspace.png) 
-  <figcaption>Williams Field TMA (CTA/C)</figcaption>
+  <figcaption>Williams Field TMA (CTA/D)</figcaption>
 </figure>
 
 ### Class D
