@@ -45,7 +45,7 @@ Aircraft must establish two-way radio communications with Phoenix Field Tower be
 
 <figure markdown>
   ![Phoenix Field Control Zone](./assets/nzfx-airspace.png) 
-  <figcaption>Phoenix Field Control Zone (CTR/C)</figcaption>
+  <figcaption>Phoenix Field Control Zone (CTR/D)</figcaption>
 </figure>
 
 ### Class E
