@@ -6,9 +6,9 @@ title: NZIR - Ice Runway
 
 ## Positions
 
-| Position Name         | Shortcode | Callsign          | Frequency | Login ID | Usage   |
-| --------------------- | --------- | ----------------- | --------- | -------- | ------- |
-| Williams Approach TMA | WTMA      | Williams Approach | 126.200   | NZWD_APP | Primary |
+| Position Name | Shortcode | Callsign          | Frequency | Login ID | Usage   |
+| ------------- | --------- | ----------------- | --------- | -------- | ------- |
+| Williams TMA  | WTMA      | Williams Approach | 126.200   | NZWD_APP | Primary |
 
 ### Event Only Positions
 
