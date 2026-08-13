@@ -101,7 +101,7 @@ For IFR departures, ensure the aircraft has received its IFR clearance and depar
 
 Arriving aircraft should normally contact Phoenix Field Tower no closer than `10 NM` from the aerodrome for landing instructions, unless otherwise coordinated.
 
-Aircraft operating in the `Class D` airspace should remain at or above `1,000 FT AGL`, or `500 FT AGL` for helicopters, until commencing final descent.
+Aircraft operating in the `Class D` airspace should remain at or above `A010` AGL, or `A005` AGL for helicopters, until commencing final descent.
 
 ## Coordination
 
