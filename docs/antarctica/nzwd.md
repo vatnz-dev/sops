@@ -6,9 +6,9 @@ title: NZWD - Williams Field
 
 ## Positions
 
-| Position Name         | Shortcode | Callsign          | Frequency | Login ID | Usage   |
-| --------------------- | --------- | ----------------- | --------- | -------- | ------- |
-| Williams Approach TMA | WTMA      | Williams Approach | 126.200   | NZWD_APP | Primary |
+| Position Name | Shortcode | Callsign          | Frequency | Login ID | Usage   |
+| ------------- | --------- | ----------------- | --------- | -------- | ------- |
+| Williams TMA  | WTMA      | Williams Approach | 126.200   | NZWD_APP | Primary |
 
 !!! note "NZWD_APP coverage"
     `NZWD_APP` is the normal approach position for the Williams Field terminal area and is not event only.
