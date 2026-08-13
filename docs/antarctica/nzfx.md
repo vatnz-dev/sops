@@ -18,8 +18,8 @@ title: NZFX - Phoenix Field
 
 | Position Name | Shortcode | Callsign            | Frequency | Login ID  | Usage      |
 | ------------- | --------- | ------------------- | --------- | --------- | ---------- |
-| Phoenix DLV   | DFX       | Phoenix Delivery    | 128.600   | NZFX_DEL  | Event Only |
-| Phoenix SMC   | GFX       | Phoenix Ground      | 121.800   | NZFX_GND  | Event Only |
+| Phoenix DLV   | DFX       | Phoenix Delivery    | 128.600   | NZFX_DEL  | Event Only | 
+| Phoenix SMC   | GFX       | Phoenix Ground      | 121.800   | NZFX_GND  | Event Only | 
 | Phoenix ADC   | TFX       | Phoenix Field Tower | 126.200   | NZFX_TWR  | Event Only |
 
 
