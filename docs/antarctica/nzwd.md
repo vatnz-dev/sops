@@ -7,7 +7,7 @@ title: NZWD - Williams Field
 ## Positions
 
 | Position Name | Shortcode | Callsign          | Frequency | Login ID | Usage   |
-| ------------- | --------- | ----------------- | --------- | -------- | ------- |
+| ------------- | --------- | ----------------- | --------- | -------- | ------- | 
 | Williams TMA  | WTMA      | Williams Approach | 126.200   | NZWD_APP | Primary |
 
 !!! note "NZWD_APP coverage"
