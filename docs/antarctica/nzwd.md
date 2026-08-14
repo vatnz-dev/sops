@@ -11,15 +11,15 @@ title: NZWD - Williams Field
 | Williams TMA  | WTMA      | Williams Approach | 126.200   | NZWD_APP | Primary |
 
 !!! note "NZWD_APP coverage"
-    `NZWD_APP` is the normal approach position for the Williams Field terminal area and is not event only.
+    `NZWD_APP` is the normal approach position for the Williams Field TMA and is not event only.
 
-    Williams Field aerodrome operations are fully covered by `NZWD_APP`. No separate NZWD tower, ground, or delivery positions are published in the VATNZ dataset.
+    Williams Field aerodrome operations are currently fully covered by `NZWD_APP`. No separate NZWD tower, ground, or delivery positions are published in the VATNZ dataset.
 
 ## Responsibilities
 
 Williams Approach is responsible for IFR and VFR aircraft operating within the Williams Field terminal area, including aircraft arriving to or departing from Williams Field, Phoenix Field, and the wider McMurdo area.
 
-When no local Phoenix Field aerodrome controller is online, `NZWD_APP` also provides the top-down aerodrome service for NZFX. During events where `NZFX_TWR`, `NZFX_GND`, or `NZFX_DEL` are staffed, those positions manage local Phoenix Field operations and coordinate with `NZWD_APP`.
+When no local Phoenix Field aerodrome controller is online, NZFX is uncontrolled. During events where `NZFX_TWR`, `NZFX_GND`, or `NZFX_DEL` are staffed, those positions manage local Phoenix Field operations and coordinate with `NZWD_APP`.
 
 Williams Field aerodrome traffic remains with `NZWD_APP` for clearance, taxi, takeoff, landing, and approach services.
 
