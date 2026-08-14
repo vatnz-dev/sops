@@ -6,36 +6,22 @@ title: NZWD - Williams Field
 
 ## Positions
 
-| Position Name | Shortcode  | Callsign          | Frequency | Login ID | Usage   |
-| ------------- | ---------- | ----------------- | --------- | -------- | ------- | 
-| Williams TMA  | WDTMA      | Williams Approach | 126.200   | NZWD_APP | Primary |
+| Position Name | Shortcode | Callsign          | Frequency | Login ID | Usage   |
+| ------------- | --------- | ----------------- | --------- | -------- | ------- | 
+| Williams TMA  | WTMA      | Williams Approach | 126.200   | NZWD_APP | Primary |
 
 !!! note "NZWD_APP coverage"
-    `NZWD_APP` is the normal approach position for the Williams Field TMA and is not event only.
+    `NZWD_APP` is the normal approach position for the Williams Field terminal area and is not event only.
 
-    Williams Field aerodrome operations are currently fully covered by `NZWD_APP`. No separate NZWD tower, ground, or delivery positions are published in the VATNZ dataset.
+    Williams Field aerodrome operations are fully covered by `NZWD_APP`. No separate NZWD tower, ground, or delivery positions are published in the VATNZ dataset.
 
 ## Responsibilities
 
 Williams Approach is responsible for IFR and VFR aircraft operating within the Williams Field terminal area, including aircraft arriving to or departing from Williams Field, Phoenix Field, and the wider McMurdo area.
 
-Phoenix Field (NZFX) is uncontrolled unless a Phoenix Field aerodrome position is staffed for an event. During events where `NZFX_TWR`, `NZFX_GND`, or `NZFX_DEL` are staffed, those positions manage Phoenix Field operations and coordinate with `NZWD_APP`.
+When no local Phoenix Field aerodrome controller is online, `NZWD_APP` also provides the top-down aerodrome service for NZFX. During events where `NZFX_TWR`, `NZFX_GND`, or `NZFX_DEL` are staffed, those positions manage local Phoenix Field operations and coordinate with `NZWD_APP`.
 
-Williams Field (NZWD) is the only aerodrome covered by `NZWD_APP` for clearance, taxi, takeoff, landing, and approach services.
-
-## Ice Runway (NZIR)
-
-Ice Runway is an uncontrolled aerodrome. Aircraft operating at NZIR should use UNICOM on `122.800` to coordinate their own ground and runway movements.
-
-`NZIR_TWR` is no longer a published position on the VATSIM network and must not be staffed. `NZWD_APP` continues to provide the surrounding approach service where applicable, but does not provide an aerodrome control service at NZIR.
-
-Aircraft requiring IFR clearance shall call WDTMA on the ground for clearance.
-
-## Ice Runway (NZIR)
-
-Ice Runway is an uncontrolled aerodrome. Aircraft operating at NZIR should use UNICOM on `122.800` to coordinate their own ground and runway movements.
-
-`NZIR_TWR` is no longer a published position on the VATSIM network and must not be staffed. `NZWD_APP` continues to provide the surrounding approach service where applicable, but does not provide an aerodrome control service at NZIR.
+Williams Field aerodrome traffic remains with `NZWD_APP` for clearance, taxi, takeoff, landing, and approach services.
 
 ## Airspace
 
@@ -45,19 +31,19 @@ The Williams Field CTA/D follows the lateral and vertical boundaries as shown be
 
 
 <figure markdown>
-  ![Williams Field TMA](./assets/wdtma-airspace.png) 
+  ![Williams Field TMA](./assets/wtma-airspace.png) 
   <figcaption>Williams Field TMA (CTA/D)</figcaption>
 </figure>
 
 ### Class D
 
-Phoenix Field has `Class D` airspace within a `4 NM` radius of the aerodrome, from the surface up to and including `A025` AGL. When `NZFX_TWR` is online for an event, Phoenix Field Tower is responsible for that airspace.
+Phoenix Field has `Class D` airspace within a `4.3 NM` radius of the aerodrome, from the surface up to and including `A025` AGL. When `NZFX_TWR` is online, Phoenix Field Tower is responsible for that airspace.
 
 Williams Field operations are fully covered by `NZWD_APP`.
 
 ### Class E
 
-The surrounding `Class E` airspace extends within `100 NM` of the Williams Field or Pegasus Field TACANs, excluding `Class D` airspace, from the surface up to `FL245`.
+The surrounding `Class E` airspace extends within `100 NM` of the Williams Field or Pegasus Field TACANs, excluding `Class D` airspace, from the surface up to but not including `FL245`.
 
 Within `Class E` airspace:
 
@@ -72,23 +58,15 @@ VFR aircraft do not require a clearance to enter `Class E` airspace, but should 
 
 ### Clearances
 
-IFR clearances should be issued using FAA phraseology. Controllers may use standard VATNZ IFR phraseology as a backup to FAA. VFR phraseology should remain in line with standard VATNZ practice.
+IFR clearances should be issued using FAA phraseology or standard VATNZ IFR phraseology. VFR phraseology should remain in line with standard VATNZ practice.
 
-Aircraft shall be cleared an inital altitude of `FL250` or lower if required. 
+IFR clearances may include:
 
-Clearances shall be in the format of CRAFT
-
-C Clearance
-R Route
-A Altitude
-F Frequency
-T Transponder
-
-IFR clearances may include additional instructions or information where required.
-
-An example of a clearance is shown below. 
-
-`Cleared to Christchuch, XX departure as filed, climb via SID accept maintain FL250, departure frequency 126.2, squawk 1243`
+- Destination airport.
+- Assigned SID, if applicable.
+- Route, such as `THEN AS FILED` or `AS FILED`.
+- Initial altitude or `CLIMB VIA SID`, as applicable.
+- Additional instructions or information where required.
 
 If no SID is assigned, clear the aircraft to destination as filed and assign the appropriate initial altitude.
 
@@ -102,7 +80,7 @@ Taxi instructions should be issued in plain language and kept simple. Use progre
 
 Williams Approach is responsible for departure sequencing, IFR release, and initial climb.
 
-Departing IFR aircraft should be identified as soon as practicable after departure.
+Departing IFR aircraft should be identified as soon as practicable after departure. Once identified, climb the aircraft in accordance with its clearance and coordinate onward with `NZCM_FSS` when the aircraft will leave the terminal area.
 
 ### Arrivals
 
@@ -110,7 +88,7 @@ Williams Approach is responsible for arrival sequencing, descent, approach clear
 
 Arriving aircraft should be cleared for the nominated approach or a visual approach when conditions and traffic permit. Non-standard approach requests should be handled workload permitting and should not conflict with Phoenix Field operations.
 
-## Phoenix Field
+## Phoenix Field Interface
 
 ### When NZFX_TWR is Online
 
@@ -127,24 +105,20 @@ Departing IFR aircraft should be transferred from Phoenix Field Tower to `NZWD_A
 
 ### When NZFX_TWR is Offline
 
-When Phoenix Field Tower is offline, NZFX is uncontrolled in the same manner as NZIR. Aircraft operating at NZFX should use UNICOM on `122.800` to coordinate their own ground and runway movements.
-
-`NZWD_APP` continues to provide the surrounding approach service where applicable, but does not provide an aerodrome control service, taxi instructions, takeoff clearances, or landing clearances at NZFX.
-
-Aircraft requiring IFR clearance shall call WDTMA on the ground for clearance.
+When Phoenix Field Tower is offline, `NZWD_APP` provides top-down service to NZFX. This includes IFR clearances, ground movement instructions, runway operations, and approach services.
 
 ## Coordination
 
-### WDTMA to MAC
+### NZWD_APP to NZCM_FSS
 
 Coordinate aircraft entering or leaving the Williams Field terminal area with `NZCM_FSS`.
 
-Departures should be handed to Mac Center once clear of the terminal area and climbing to the coordinated level - `FL250`. 
+Departures should be handed to Mac Center once clear of the terminal area and climbing to the coordinated level. Arrivals should be handed from Mac Center to Williams Approach in time for sequencing, descent, and approach clearance.
 
-Arrivals should be handed to Williams Approach approaching `FL250`. 
-
-When MAC is not online, aircraft leaving controlled airspace should be transferred to UNICOM on `122.800` once no further approach service is required.
-
-### WDTMA to TFX
+### NZWD_APP to NZFX_TWR
 
 When an event-only Phoenix Field position is staffed, coordinate IFR arrivals, IFR departure releases, runway changes, missed approaches, and any traffic that may affect Phoenix Field local operations.
+
+### No Overlying Controller
+
+When `NZCM_FSS` is not online, aircraft leaving controlled service should be transferred to UNICOM on `122.800` once no further approach service is required.
