@@ -19,9 +19,9 @@ title: NZWD - Williams Field
 
 Williams Approach is responsible for IFR and VFR aircraft operating within the Williams Field terminal area, including aircraft arriving to or departing from Williams Field, Phoenix Field, and the wider McMurdo area.
 
-When no local Phoenix Field aerodrome controller is online, NZFX is uncontrolled. During events where `NZFX_TWR`, `NZFX_GND`, or `NZFX_DEL` are staffed, those positions manage local Phoenix Field operations and coordinate with `NZWD_APP`.
+Phoenix Field (NZFX) is uncontrolled unless a local Phoenix Field aerodrome position is staffed for an event. During events where `NZFX_TWR`, `NZFX_GND`, or `NZFX_DEL` are staffed, those positions manage local Phoenix Field operations and coordinate with `NZWD_APP`.
 
-Williams Field aerodrome traffic remains with `NZWD_APP` for clearance, taxi, takeoff, landing, and approach services.
+Williams Field (NZWD) is the only aerodrome normally covered by `NZWD_APP` for clearance, taxi, takeoff, landing, and approach services.
 
 ## Ice Runway (NZIR)
 
@@ -43,7 +43,7 @@ The Williams Field CTA/D follows the lateral and vertical boundaries as shown be
 
 ### Class D
 
-Phoenix Field has `Class D` airspace within a `4.3 NM` radius of the aerodrome, from the surface up to and including `A025` AGL. When `NZFX_TWR` is online, Phoenix Field Tower is responsible for that airspace.
+Phoenix Field has `Class D` airspace within a `4.3 NM` radius of the aerodrome, from the surface up to and including `A025` AGL. When `NZFX_TWR` is online for an event, Phoenix Field Tower is responsible for that airspace.
 
 Williams Field operations are fully covered by `NZWD_APP`.
 
@@ -111,7 +111,9 @@ Departing IFR aircraft should be transferred from Phoenix Field Tower to `NZWD_A
 
 ### When NZFX_TWR is Offline
 
-When Phoenix Field Tower is offline, `NZWD_APP` provides top-down service to NZFX. This includes IFR clearances, ground movement instructions, runway operations, and approach services.
+When Phoenix Field Tower is offline, NZFX is uncontrolled in the same manner as NZIR. Aircraft operating at NZFX should use UNICOM on `122.800` to coordinate their own ground and runway movements.
+
+`NZWD_APP` continues to provide the surrounding approach service where applicable, but does not provide an aerodrome control service, IFR clearances on the ground, taxi instructions, takeoff clearances, or landing clearances at NZFX.
 
 ## Coordination
 
