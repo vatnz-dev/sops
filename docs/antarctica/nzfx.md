@@ -27,11 +27,13 @@ title: NZFX - Phoenix Field
 !!! note "Event only aerodrome positions"
     The NZFX local aerodrome positions are event only positions and should only be opened when they are published for an event or otherwise approved.
 
-    `NZWD_APP` is not event only. It provides the overlying approach service for the wider Williams Field terminal area and will be covered in the separate NZWD airport/TMA SOP.
+    When no NZFX local aerodrome position is online, Phoenix Field is uncontrolled in the same manner as NZIR. Aircraft should use UNICOM on `122.800` to coordinate their own ground and runway movements.
+
+    `NZWD_APP` is not event only. It provides the overlying approach service for the wider Williams Field terminal area, but does not provide aerodrome control, ground movement instructions, takeoff clearances, or landing clearances at NZFX. Williams Field (NZWD) is the only aerodrome normally covered by `NZWD_APP`.
 
 ## Responsibilities
 
-Phoenix Field Tower is responsible for aircraft operating within the Phoenix Field `Class D` airspace. This includes aerodrome control, traffic information, IFR departure instructions, VFR operations, and local non-radar arrival/departure services when delegated or required.
+When staffed for an event, Phoenix Field Tower is responsible for aircraft operating within the Phoenix Field `Class D` airspace. This includes aerodrome control, traffic information, IFR departure instructions, VFR operations, and local non-radar arrival/departure services when delegated or required.
 
 Phoenix Field Tower may also provide a non-radar approach service to aircraft operating in the surrounding `Class E` airspace when `NZWD_APP` is not online or where coordinated with the overlying controller.
 
@@ -41,7 +43,7 @@ Phoenix Field Tower may also provide a non-radar approach service to aircraft op
 
 Phoenix Field has `Class D` airspace within a `4.3 NM` radius of the aerodrome, from the surface up to and including `A025` AGL.
 
-Aircraft must establish two-way radio communications with Phoenix Field Tower before entering the `Class D` airspace.
+When Phoenix Field Tower is staffed, aircraft must establish two-way radio communications with Phoenix Field Tower before entering the `Class D` airspace.
 
 <figure markdown>
   ![Phoenix Field Control Zone](./assets/nzfx-airspace.png) 
@@ -67,7 +69,7 @@ IFR clearances should be issued using FAA phraseology or standard VATNZ IFR phra
 
 ### IFR Departures
 
-IFR aircraft will call for clearance before departure. Tower, or Delivery when staffed during an event, shall relay the IFR clearance and issue departure instructions.
+When Phoenix Field aerodrome positions are staffed for an event, IFR aircraft will call for clearance before departure. Tower, or Delivery when staffed during an event, shall relay the IFR clearance and issue departure instructions.
 
 FAA-style IFR clearances may include:
 
@@ -85,9 +87,9 @@ VFR aircraft shall be issued appropriate VFR departure information. Plain langua
 
 ## Ground Movements
 
-Ground movements are normally straightforward and should be managed by Tower unless `NZFX_GND` is staffed during an event.
+When staffed for an event, ground movements are normally straightforward and should be managed by Tower unless `NZFX_GND` is staffed.
 
-Aircraft should obtain start clearance before taxi when operating IFR. Departing aircraft should be taxied to the active runway holding point and transferred to Tower when ready, or instructed to monitor Tower before reaching the holding point during high traffic events.
+When Phoenix Field aerodrome positions are staffed for an event, aircraft should obtain start clearance before taxi when operating IFR. Departing aircraft should be taxied to the active runway holding point and transferred to Tower when ready, or instructed to monitor Tower before reaching the holding point during high traffic events.
 
 ## Tower
 
