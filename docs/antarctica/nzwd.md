@@ -23,6 +23,12 @@ When no local Phoenix Field aerodrome controller is online, `NZWD_APP` also prov
 
 Williams Field aerodrome traffic remains with `NZWD_APP` for clearance, taxi, takeoff, landing, and approach services.
 
+## Ice Runway (NZIR)
+
+Ice Runway is an uncontrolled aerodrome. Aircraft operating at NZIR should use UNICOM on `122.800` to coordinate their own ground and runway movements.
+
+`NZIR_TWR` is no longer a published position on the VATSIM network and must not be staffed. `NZWD_APP` continues to provide the surrounding approach service where applicable, but does not provide an aerodrome control service at NZIR.
+
 ## Airspace
 
 The Williams Field terminal area contains controlled airspace around Williams Field, Phoenix Field, Pegasus Field, and McMurdo Station.
