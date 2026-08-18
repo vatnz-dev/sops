@@ -6,6 +6,9 @@ New Zealand has seven Enroute Sectors, six of which can be staffed routinely on 
 
 VATNZ Controllers are able to staff all six permanent Enroute Sectors at once, in a situation known as Extended Services. [You can find out more about Sector Inheritance and Extended Services here](../controller-skills/inheritance-extending.md).
 
+!!! tip "Interactive Sector Map"
+    Hover over a sector to view basic position information, then click the sector to open the full procedure page.
+
 <style>
   #enroute-map {
     position: relative;
@@ -36,7 +39,7 @@ VATNZ Controllers are able to staff all six permanent Enroute Sectors at once, i
 
   #enroute-map a:hover polygon,
   #enroute-map a:focus polygon {
-    fill-opacity: 0.3;
+    fill-opacity: 0;
   }
 
   #enroute-map .sector-placard {
