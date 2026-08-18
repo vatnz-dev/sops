@@ -29,17 +29,14 @@ VATNZ Controllers are able to staff all six permanent Enroute Sectors at once, i
     cursor: pointer;
     fill: #64748b;
     fill-opacity: 0;
-    stroke: #ffffff;
-    stroke-linejoin: round;
-    stroke-opacity: 0;
-    stroke-width: 4;
-    transition: fill-opacity 160ms ease, stroke-opacity 160ms ease;
+    stroke: transparent;
+    stroke-width: 0;
+    transition: fill-opacity 160ms ease;
   }
 
   #enroute-map a:hover polygon,
   #enroute-map a:focus polygon {
     fill-opacity: 0.3;
-    stroke-opacity: 0.95;
   }
 
   #enroute-map .sector-placard {
@@ -127,7 +124,7 @@ VATNZ Controllers are able to staff all six permanent Enroute Sectors at once, i
       <polygon points="407,404 503,355 558,354 575,391 585,457 626,457 626,501 650,508 630,559 596,551 540,633 495,587 407,560 391,515 392,458" />
     </a>
     <a id="kai-link" href="KAI/" aria-label="Open KAI sector page">
-      <polygon points="495,587 540,633 596,551 650,508 596,643 536,631" />
+      <polygon points="630.5,575.1 560.5,692.1 523.9,657.5 513.4,618.2 506.6,573.7 508.6,569.3 512.9,560 524.5,544.8 527.6,538 554.4,543.5 555.7,543.8 576.1,543.3 592.4,552.8 611.3,549.7" />
     </a>
     <a id="sth-link" href="STH/" aria-label="Open STH sector page">
       <polygon points="407,560 495,587 536,631 596,643 482,953 316,882 324,849 298,798 304,735 333,684 379,650 392,600" />
