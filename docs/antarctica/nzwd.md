@@ -39,7 +39,7 @@ The Williams Field CTA/D follows the lateral and vertical boundaries as shown be
 
 
 <figure markdown>
-  ![Williams Field TMA](./assets/WDTMA-airspace.png) 
+  ![Williams Field TMA](./assets/wdtma-airspace.png) 
   <figcaption>Williams Field TMA (CTA/D)</figcaption>
 </figure>
 
