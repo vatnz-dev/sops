@@ -8,6 +8,7 @@
 
 | Position Name   | Shortcode | Callsign        | Frequency | Login ID | Usage     |
 | --------------- | --------- | --------------- | --------- | -------- | --------- |
+| Tahiti Ground   | G-TAH     | Tahiti Ground   | 121.900   | NTAA_GND | Secondary |
 | Tahiti Tower    | T-TAH     | Tahiti Tower    | 118.100   | NTAA_TWR | Primary   |
 | Bora Bora Tower | TNTTB     | Bora Tower      | 118.900   | NTTB_TWR | Primary   |
 | Raiatea Tower   | TNTTR     | Raiatea Tower   | 118.500   | NTTR_TWR | Primary   |
