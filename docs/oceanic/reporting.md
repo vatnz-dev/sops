@@ -5,7 +5,7 @@
 --8<-- "includes/abbreviations.md"
 
 
-As NZZO is procedural airspace, pilots are required to provide regular position reports to ATC, which can then be entered into the Controller Client software.
+As NZZO and NTTT is procedural airspace, pilots are required to provide regular position reports to ATC, which can then be entered into the Controller Client software.
 
 ## Oceanic Reporting Tool
 
