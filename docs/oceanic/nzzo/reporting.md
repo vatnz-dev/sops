@@ -4,298 +4,237 @@
 
 --8<-- "includes/abbreviations.md"
 
-NZZO is procedural airspace. Pilots must provide regular position reports so controllers can maintain an accurate traffic picture in the Controller Client.
+
+As NZZO is procedural airspace, pilots are required to provide regular position reports to ATC, which can then be entered into the Controller Client software.
 
 ## Oceanic Reporting Tool
 
-Before passing an oceanic position report on HF, establish communication with Auckland Radio. The controller or radio operator can then locate your flight details and amend them while you make your report.
+Before passing oceanic position reports on HF, please first establish communication. The controller/radio operator can then find your details and amend them as you make your report.
 
-!!! example "Initial HF call"
-    **ZK-OGO**: *AUCKLAND RADIO AUCKLAND RADIO ZULU KILO OSCAR GOLF OSCAR POSITION REPORT*  
-    Use the full callsign until the controller abbreviates it.
+!!! example
+    **ZK-OGO**: *AUCKLAND RADIO AUCKLAND RADIO ZULU KILO OSCAR GOLF OSCAR* (note the full call sign is used until the controller abbreviates it) *POSITION REPORT*
 
-    **NZZO_FSS**: *ZULU GOLF OSCAR AUCKLAND RADIO PASS YOUR MESSAGE*  
-    Continue with the position report once instructed.
+    **NZZO_FSS**: *ZULU GOLF OSCAR AUCKLAND RADIO PASS YOUR MESSAGE* (note how the call sign is abbreviated)
 
-!!! info "Edit fields: generate an oceanic position report"
-    <style>
-    #ortInput {
-      width: 100%;
-    }
+    then continue as below. 
+  
+Edit the data in the fields below to produce your position report.
 
-    #ortInput .fieldInfo {
-      display: block;
-      margin-top: 0.15rem;
-      font-size: 0.8em;
-      color: var(--md-default-fg-color--light);
-    }
+<style>
+#ortInput .fieldInfo {
+  font-size: 0.8em;
+  color: #777676;
+}
 
-    #ortInput input,
-    #ortInput select {
-      max-width: 18rem;
-      width: 100%;
-      font: inherit;
-    }
+#ortInput input {
+  border-bottom: 1px solid black;
+  font-size: 1em;
+}
 
-    #ortInput th {
-      width: 25%;
-      min-width: 9rem;
-      text-align: left;
-      vertical-align: top;
-    }
+#ortInput th {
+  width: 25%;
+  text-align: left;
+}
 
-    #ortInput td {
-      vertical-align: top;
-    }
+#report {
+  font-size: 1.5em;
+}
 
-    #ortInput .section label {
-      font-weight: 700;
-    }
+</style>
+!!! success "Oceanic Position Report"
+    <div id="report"><span class="value">New Zealand 83</span> is position <span class="value">ANULI</span> at time <span class="value">1002</span>, flight level <span class="value">350</span>, estimating <span class="value">VIROG</span> at <span class="value">1042</span>, <span class="value">IGEVO</span> next.</div>
 
-    #report {
-      font-size: 1.35em;
-      line-height: 1.5;
-    }
-
-    #report .value {
-      font-weight: 700;
-    }
-
-    #report .missingValue {
-      color: var(--md-code-hl-string-color);
-      font-style: italic;
-    }
-    </style>
-
-    !!! success "Oceanic Position Report"
-        <div id="report"></div>
-
-    <table id="ortInput" class="table" cellspacing="2">
+<table id="ortInput" class="table" cellspacing="2">
   <tbody>
     <tr>
-      <th><label for="callsign">Callsign</label></th>
-      <td><input id="callsign" type="text" value="New Zealand 83"><span class="fieldInfo">Your callsign.</span></td>
+      <th>Callsign</th>
+      <td><input id="callsign" onkeyup="updateReport();" type="text" value="New Zealand 83"><br class="visible-xs-bm"><span class="fieldInfo">Your callsign</span></td>
     </tr>
     <tr>
-      <th><label for="position">Position</label></th>
-      <td><input id="position" type="text" value="ANULI"><span class="fieldInfo">The position you are reporting at.</span></td>
+      <th>Position</th>
+      <td><input id="position" onkeyup="updateReport();" type="text" value="ANULI"><br class="visible-xs-bm"><span class="fieldInfo">The position you're reporting at.</span></td>
     </tr>
     <tr>
-      <th><label for="time">Time at Position</label></th>
-      <td><input id="time" type="text" value="1002" inputmode="numeric"><span class="fieldInfo">The UTC time at the reported position, in HHMM format.</span></td>
+      <th>Time at Position</th>
+      <td><input id="time" onkeyup="updateReport();" type="text" value="1002"><br class="visible-xs-bm"><span class="fieldInfo">The time of your position report. hhmm in UTC.</span></td>
     </tr>
     <tr>
-      <th><label for="flightLevel">Flight Level</label></th>
-      <td><input id="flightLevel" type="text" value="350" inputmode="numeric"><span class="fieldInfo">Your current flight level.</span></td>
+      <th>Flight Level</th>
+      <td><input id="flightLevel" onkeyup="updateReport();" type="text" value="350"><br class="visible-xs-bm"><span class="fieldInfo">Your current flight level.</span></td>
     </tr>
     <tr>
-      <th><label for="next">Next Position</label></th>
-      <td><input id="next" type="text" value="VIROG"><span class="fieldInfo">The position you are tracking to next.</span></td>
+      <th>Next Position</th>
+      <td><input id="next" onkeyup="updateReport();" type="text" value="VIROG"><br class="visible-xs-bm"><span class="fieldInfo">The position you are heading to next.</span></td>
     </tr>
     <tr>
-      <th><label for="nextETA">Next Position ETA</label></th>
-      <td><input id="nextETA" type="text" value="1042" inputmode="numeric"><span class="fieldInfo">Your UTC estimate for the next position, in HHMM format.</span></td>
+      <th>Next Position ETA</th>
+      <td><input id="nextETA" onkeyup="updateReport();" type="text" value="1042"><br class="visible-xs-bm"><span class="fieldInfo">Your estimated arrival time at the next position, hhmm in UTC.</span></td>
     </tr>
     <tr>
-      <th><label for="then">Then</label></th>
-      <td><input id="then" type="text" value="IGEVO"><span class="fieldInfo">The position after your next waypoint.</span></td>
-    </tr>
-    <tr>
-      <td colspan="2">
-        <div class="section">
-          <label for="sectionMach">Assigned Mach speed</label> <input id="sectionMach" type="checkbox">
-          <span class="fieldInfo">Only report Mach and groundspeed when ATC has assigned a Mach speed.</span>
-        </div>
-      </td>
-    </tr>
-    <tr class="sectionMach" style="display: none;">
-      <th><label for="machSpeed">Mach Speed</label></th>
-      <td><input id="machSpeed" type="text" value=".84"><span class="fieldInfo">Your assigned Mach speed. M0.80 is read as "decimal eight zero".</span></td>
-    </tr>
-    <tr class="sectionMach" style="display: none;">
-      <th><label for="groundSpeed">Groundspeed</label></th>
-      <td><input id="groundSpeed" type="text" value="510" inputmode="numeric"><span class="fieldInfo">Your current groundspeed.</span></td>
+      <th>Then</th>
+      <td><input id="then" onkeyup="updateReport();" type="text" value="IGEVO"><br class="visible-xs-bm"><span class="fieldInfo">The position you are planning to head to after your next waypoint.</span></td>
     </tr>
     <tr>
       <td colspan="2">
         <div class="section">
-          <label for="sectionWx">Weather-reporting waypoint</label> <input id="sectionWx" type="checkbox">
-          <span class="fieldInfo">If you are unsure, leave this unticked unless ATC requests weather information.</span>
+          <label>Have you been assigned a Mach speed by ATC?</label> <input id="sectionMach" onclick="updateReport();" type="checkbox">
+          <div class="fieldInfo">Unless you are specifically assigned a mach speed to fly by ATC, you do not need to report your speed.</div>
         </div>
       </td>
     </tr>
-    <tr class="sectionWx" style="display: none;">
-      <th><label for="temperature">Temperature</label></th>
-      <td><input id="temperature" type="text" value="-25" inputmode="numeric"><span class="fieldInfo">The outside air temperature at your current position.</span></td>
+    <tr class="sectionMach" style="display: none;">
+      <th>Mach Speed</th>
+      <td><input id="machSpeed" onkeyup="updateReport();" type="text" value=".84"><br class="visible-xs-bm"><span class="fieldInfo">Your current Mach Speed. M0.80 would be read as "decimal eight zero"</span></td>
     </tr>
-    <tr class="sectionWx" style="display: none;">
-      <th><label for="windDirection">Wind Direction</label></th>
-      <td><input id="windDirection" type="text" value="160" inputmode="numeric"><span class="fieldInfo">The wind direction at your current flight level.</span></td>
+    <tr class="sectionMach" style="display: none;">
+      <th>Ground Speed</th>
+      <td><input id="groundSpeed" onkeyup="updateReport();" type="text" value="510"><br class="visible-xs-bm"><span class="fieldInfo">Your current ground speed.</span></td>
     </tr>
-    <tr class="sectionWx" style="display: none;">
-      <th><label for="windSpeed">Wind Speed</label></th>
-      <td><input id="windSpeed" type="text" value="15" inputmode="numeric"><span class="fieldInfo">The wind speed at your current flight level.</span></td>
+    <tr>
+      <td colspan="2">
+        <div class="section">
+          <label>Are you at a weather-reporting waypoint?</label> <input id="sectionWx" onclick="updateReport();" type="checkbox">
+          <div class="fieldInfo">If you are unsure, assume you are not unless specifically requested for weather info by ATC.</div>
+        </div>
+      </td>
     </tr>
-    <tr class="sectionWx" style="display: none;">
-      <th><label for="turbulence">Turbulence</label></th>
+    <tr style="display: none;">
+      <th>Temperature</th>
+      <td><input id="temperature" onkeyup="updateReport();" type="text" value="-25"><br class="visible-xs-bm"><span class="fieldInfo">The outside air temperature at your current position.</span></td>
+    </tr>
+    <tr style="display: none;">
+      <th>Wind Direction</th>
+      <td><input id="windDirection" onkeyup="updateReport();" type="text" value="160"><br class="visible-xs-bm"><span class="fieldInfo">The direction component of the winds at your current flight level.</span></td>
+    </tr>
+    <tr style="display: none;">
+      <th>Wind Speed</th>
+      <td><input id="windSpeed" onkeyup="updateReport();" type="text" value="15"><br class="visible-xs-bm"><span class="fieldInfo">The speed component of the winds at your current flight level.</span></td>
+    </tr>
+    <tr style="display: none;">
+      <th>Turbulence</th>
       <td>
-        <select id="turbulence">
+        <select id="turbulence" onchange="updateReport();">
           <option value="none">None</option>
           <option value="light">Light</option>
           <option value="moderate">Moderate</option>
           <option value="severe">Severe</option>
         </select>
-        <span class="fieldInfo">The level of turbulence encountered at your current flight level.</span>
+        <br class="visible-xs-bm"><span class="fieldInfo">The level of turbulence encountered at your current flight level.</span>
       </td>
     </tr>
-    <tr class="sectionWx" style="display: none;">
-      <th><label for="icing">Icing</label></th>
+    <tr style="display: none;">
+      <th>Icing</th>
       <td>
-        <select id="icing">
+        <select id="icing" onchange="updateReport();">
           <option value="none">None</option>
           <option value="light">Light</option>
           <option value="moderate">Moderate</option>
           <option value="severe">Severe</option>
         </select>
-        <span class="fieldInfo">The level of icing encountered at your current flight level.</span>
+        <br class="visible-xs-bm"><span class="fieldInfo">The level of icing encountered at your current flight level.</span>
       </td>
     </tr>
-    <tr class="sectionWx" style="display: none;">
-      <th><label for="thunderstorms">Thunderstorms</label></th>
+    <tr style="display: none;">
+      <th>Thunderstorms</th>
       <td>
-        <select id="thunderstorms">
+        <select id="thunderstorms" onchange="updateReport();">
           <option value="none">None</option>
           <option value="active">Yes</option>
-          <option value="active with hail">With hail</option>
+          <option value="active with hail">With Hail</option>
         </select>
-        <span class="fieldInfo">Thunderstorm activity encountered at your current position or flight level.</span>
+        <br class="visible-xs-bm"><span class="fieldInfo">Thunderstorm activity encountered at your current position/flight level.</span>
       </td>
     </tr>
     <tr>
       <td colspan="2">
         <div class="section">
-          <label for="simrate">Sim rate</label>
-          <span class="fieldInfo">2x and 4x sim rates are available at specific altitudes in oceanic airspace, subject to ATC approval. Requests are usually declined during events.</span>
+          <label>Are you travelling at an increased sim rate?</label>
+          <div class="fieldInfo">2x and 4x sim rates are available at specific altitudes in Oceanic airspace, <strong>subject to ATC approval</strong>.<br>Note: Requests for accelerated sim rates will usually be declined during events.</div>
         </div>
       </td>
     </tr>
     <tr>
-      <th><label for="simrate">Current Sim Rate</label></th>
+      <th>Sim Rate</th>
       <td>
-        <select id="simrate">
+        <select id="simrate" onchange="updateReport();">
           <option value="1x">1x</option>
           <option value="2x">2x</option>
           <option value="4x">4x</option>
         </select>
-        <span class="fieldInfo">The sim rate you are currently running.</span>
+        <br class="visible-xs-bm"><span class="fieldInfo">The sim rate you are running your simulator at.</span>
       </td>
     </tr>
   </tbody>
 </table>
-
-<script type="text/javascript">
-function getValue(id, fallback) {
-  const value = document.getElementById(id).value.trim();
-  return value.length > 0 ? value : `(${fallback})`;
+<p>
+<script type="text/javascript">// <![CDATA[
+function v(name,label)
+{
+  var val = document.getElementById(name).value;
+  if (val.length>0) return '<span class="value">'+val+'</span>';
+  return '<span class="missingValue">('+label+')</span>';
 }
-
-function valueSpan(text) {
-  const span = document.createElement('span');
-  span.className = text.startsWith('(') && text.endsWith(')') ? 'missingValue' : 'value';
-  span.textContent = text;
-  return span;
+function sv(name,decorate)
+{
+  var val = document.getElementById(name).options[document.getElementById(name).selectedIndex].value;
+  if (decorate) return '<span class="value">'+val+'</span>';
+  return val;
 }
-
-function appendText(parent, text) {
-  parent.appendChild(document.createTextNode(text));
-}
-
-function appendValue(parent, id, fallback) {
-  parent.appendChild(valueSpan(getValue(id, fallback)));
-}
-
-function selectedValue(id) {
-  return document.getElementById(id).value;
-}
-
-function toggleRows(sectionClass, show) {
-  document.querySelectorAll(`.${sectionClass}`).forEach(function(row) {
-    row.style.display = show ? 'table-row' : 'none';
-  });
-}
-
-function updateReport() {
-  const hasMach = document.getElementById('sectionMach').checked;
-  const hasWeather = document.getElementById('sectionWx').checked;
-  const report = document.getElementById('report');
-
-  toggleRows('sectionMach', hasMach);
-  toggleRows('sectionWx', hasWeather);
-
-  report.replaceChildren();
-
-  appendValue(report, 'callsign', 'Callsign');
-  appendText(report, ' is position ');
-  appendValue(report, 'position', 'Position');
-  appendText(report, ' at time ');
-  appendValue(report, 'time', 'Time');
-  appendText(report, ', flight level ');
-  appendValue(report, 'flightLevel', 'Flight Level');
-  appendText(report, ', estimating ');
-  appendValue(report, 'next', 'Next Position');
-  appendText(report, ' at ');
-  appendValue(report, 'nextETA', 'Next Position ETA');
-  appendText(report, ', ');
-  appendValue(report, 'then', 'Then');
-  appendText(report, ' next');
-
-  if (hasMach) {
-    appendText(report, '. Mach ');
-    appendValue(report, 'machSpeed', 'Mach Speed');
-    appendText(report, ', groundspeed ');
-    appendValue(report, 'groundSpeed', 'Groundspeed');
-  }
-
-  if (hasWeather) {
-    appendText(report, '. Temperature ');
-    appendValue(report, 'temperature', 'Temperature');
-    appendText(report, ', wind ');
-
-    if (selectedValue('windSpeed') !== '0') {
-      appendValue(report, 'windDirection', 'Wind Direction');
-      appendText(report, ' degrees ');
-      appendValue(report, 'windSpeed', 'Wind Speed');
-      appendText(report, ' knots');
-    } else {
-      appendText(report, 'calm');
+function toggleRows(testId,resultIds)
+{
+    var show = document.getElementById(testId).checked;
+    for(var n=0;n<resultIds.length;n++)
+    {
+        var e = document.getElementById(resultIds[n]);
+        while(e!=null&&e.nodeName!='TR')
+        {
+            e = e.parentNode;
+        }
+        if(e!=null)
+        {
+            try{e.style.display=show?'table-row':'none';} catch(err) {e.style.display='block';}
+        }
     }
-
-    if (selectedValue('turbulence') !== 'none') {
-      appendText(report, ', turbulence ');
-      report.appendChild(valueSpan(selectedValue('turbulence')));
-    }
-
-    if (selectedValue('icing') !== 'none') {
-      appendText(report, ', icing ');
-      report.appendChild(valueSpan(selectedValue('icing')));
-    }
-
-    if (selectedValue('thunderstorms') !== 'none') {
-      appendText(report, ', thunderstorms ');
-      report.appendChild(valueSpan(selectedValue('thunderstorms')));
-    }
-  }
-
-  if (selectedValue('simrate') !== '1x') {
-    appendText(report, '. Sim rate ');
-    appendValue(report, 'simrate', 'Sim Rate');
-  }
 }
-
-document.querySelectorAll('#ortInput input, #ortInput select').forEach(function(field) {
-  field.addEventListener('input', updateReport);
-  field.addEventListener('change', updateReport);
-});
-
+function updateReport()
+{
+    toggleRows('sectionMach',['machSpeed','groundSpeed']);
+    toggleRows('sectionWx',['temperature','windDirection','windSpeed','turbulence','icing','thunderstorms']);
+    document.getElementById('report').innerHTML=v('callsign','Callsign')+
+' is position '+
+v('position','Position')+
+' at time '+
+v('time','Time')+
+', flight level '+
+v('flightLevel','Flight Level')+
+', estimating '+
+v('next','Next Position')+
+' at '+
+v('nextETA','Next Position ETA')+
+', '+
+v('then','Then')+
+' next'+
+(document.getElementById('sectionMach').checked?
+'. Mach '+
+v('machSpeed','Mach Speed')+
+', groundspeed '+
+v('groundSpeed','Ground Speed'):'')+
+(document.getElementById('sectionWx').checked?
+'. Temperature '+
+v('temperature','Temperature')+
+', wind '+
+(document.getElementById('windSpeed').value!=0?
+v('windDirection','Wind Direction')+
+' degrees '+
+v('windSpeed','Wind Speed')+
+' knots':
+'calm')+
+(sv('turbulence')!='none'?', turbulence '+sv('turbulence',true):'')+
+(sv('icing')!='none'?', icing '+sv('icing',true):'')+
+(sv('thunderstorms')!='none'?', thunderstorms '+sv('thunderstorms',true):''):'')+
+(/*document.getElementById('sectionSimRate').checked&& */document.getElementById('simrate').value!='1x'?'. Sim rate: '+
+v('simrate','Sim Rate'):'')//+
+//'."</p>';
+}
 updateReport();
-</script>
+// ]]></script></p></div>
