@@ -17,61 +17,60 @@ Before passing an oceanic position report on HF, establish communication with Au
     **NZZO_FSS**: *ZULU GOLF OSCAR AUCKLAND RADIO PASS YOUR MESSAGE*  
     Continue with the position report once instructed.
 
-Edit the fields below to generate a correctly formatted oceanic position report.
+!!! info "Edit fields: generate an oceanic position report"
+    <style>
+    #ortInput {
+      width: 100%;
+    }
 
-<style>
-#ortInput {
-  width: 100%;
-}
+    #ortInput .fieldInfo {
+      display: block;
+      margin-top: 0.15rem;
+      font-size: 0.8em;
+      color: var(--md-default-fg-color--light);
+    }
 
-#ortInput .fieldInfo {
-  display: block;
-  margin-top: 0.15rem;
-  font-size: 0.8em;
-  color: var(--md-default-fg-color--light);
-}
+    #ortInput input,
+    #ortInput select {
+      max-width: 18rem;
+      width: 100%;
+      font: inherit;
+    }
 
-#ortInput input,
-#ortInput select {
-  max-width: 18rem;
-  width: 100%;
-  font: inherit;
-}
+    #ortInput th {
+      width: 25%;
+      min-width: 9rem;
+      text-align: left;
+      vertical-align: top;
+    }
 
-#ortInput th {
-  width: 25%;
-  min-width: 9rem;
-  text-align: left;
-  vertical-align: top;
-}
+    #ortInput td {
+      vertical-align: top;
+    }
 
-#ortInput td {
-  vertical-align: top;
-}
+    #ortInput .section label {
+      font-weight: 700;
+    }
 
-#ortInput .section label {
-  font-weight: 700;
-}
+    #report {
+      font-size: 1.35em;
+      line-height: 1.5;
+    }
 
-#report {
-  font-size: 1.35em;
-  line-height: 1.5;
-}
+    #report .value {
+      font-weight: 700;
+    }
 
-#report .value {
-  font-weight: 700;
-}
+    #report .missingValue {
+      color: var(--md-code-hl-string-color);
+      font-style: italic;
+    }
+    </style>
 
-#report .missingValue {
-  color: var(--md-code-hl-string-color);
-  font-style: italic;
-}
-</style>
+    !!! success "Oceanic Position Report"
+        <div id="report"></div>
 
-!!! success "Oceanic Position Report"
-    <div id="report"></div>
-
-<table id="ortInput" class="table" cellspacing="2">
+    <table id="ortInput" class="table" cellspacing="2">
   <tbody>
     <tr>
       <th><label for="callsign">Callsign</label></th>
