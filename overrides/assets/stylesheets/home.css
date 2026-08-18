@@ -108,6 +108,8 @@
 
 .feature .cards .card {
     margin: 20px 5px 0px;
+    display: flex;
+    flex: 1;
 }
 
 .feature .card a {
