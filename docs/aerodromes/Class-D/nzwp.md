@@ -6,10 +6,10 @@
 
 ## Control Positions and Navaids
 
-| Position Name     | Shortcode  | Callsign          | Frequency   | Login ID       | Usage      |
-| ----------------- | ---------- | ----------------- | ----------- | ---------------| ---------- |
-| Whenuapai Tower   | WTWR       | Whenuapai Tower   | 134.500     | NZWP_TWR       | Primary    | 
-| Auckland Approach | ATMA       | Auckland Approach | 124.300     | NZAA_APP       | Primary    | 
+| Position Name      | Shortcode  | Callsign          | Frequency   | Login ID       | Usage      |
+| ------------------ | ---------- | ----------------- | ----------- | ---------------| ---------- |
+| Whenuapai Tower    | TWP        | Whenuapai Tower   | 134.500     | NZWP_TWR       | Primary    | 
+| Auckland Approach  | ATMA       | Auckland Approach | 124.300     | NZAA_APP       | Primary    | 
 
 
 ## Airspace 
