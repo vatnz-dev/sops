@@ -52,6 +52,8 @@ Helicopters may be departed via any intersection given the nature of flight.
 
 Controllers shall note for `RWY 03/21` the ILS shall always be the nominated approach. `RWY 08/26` shall only be nominated in the case of strong westerlies or easterlies and if so controllers shall nominate the `RNP` approach. 
 
+Controllers shall treat `M107` as normal airspace, since there is no VSOA within New Zealand. 
+
 ### Departures
 
 TWP shall conduct auto release and shall coordinate with ATMA where required for Non-RNAV SIDs etc. 
