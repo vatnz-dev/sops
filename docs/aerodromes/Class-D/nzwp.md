@@ -70,8 +70,8 @@ Aircraft shall be restricted to A030 unless otherwise coordinated with ATMA.
 
 Circuit Altitudes are as follows:
 
-- `B757` `A016`
-- All other fixed and rotary wing `A011`
+- `B757`: `A016`
+- All other fixed and rotary wing: `A011`
 
 ## Coordination
 
