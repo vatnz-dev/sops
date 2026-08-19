@@ -75,6 +75,4 @@ Circuit Altitudes are as follows:
 
 ## Coordination
 
-TWP shall conduct auto release and shall coordinate with ATMA where required for Non-RNAV SIDs etc. 
-
 ATMA shall coordinate any non-nominated approaches with TWP. 
