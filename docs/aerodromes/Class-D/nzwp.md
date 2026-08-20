@@ -75,7 +75,7 @@ Circuit Altitudes are as follows:
 - `B757`: `A016`
 - All other fixed and rotary wing: `A011`
 
-Aircraft may only operate in one circuit at a time ie. If an aircraft is in the `RWY 21` circuit, an aircraft may not operate in the `RWY 26` circuit. 
+Only one circuit may have active aircraft at a time. Ie. If an aircraft is in the `RWY 21` circuit, an aircraft may not operate in the `RWY 26` circuit. 
 
 `Grass 08/26` shall **only** be used for gliders. 
 
