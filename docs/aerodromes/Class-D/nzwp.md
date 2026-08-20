@@ -30,7 +30,7 @@ The Whenuapai CTR follows the lateral boundaries as shown below from `SFC` to `A
 
 ## Clearances
 
-IFR clearances shall be issued as per normal. Controllers shall use the client suggested SID however pilots may request a specific SID. If this is not a RNAV SID it shall be coordinated with ATMA. 
+IFR clearances shall be issued as per normal. Controllers shall use the client suggested SID however pilots may request a specific SID. If a Non-RNAV SID is required/requested TWP shall coordinate approcal with ATMA. 
 
 As there are no published VFR procedures. Plain language clearances shall be used for VFR aircraft. 
 
@@ -46,7 +46,9 @@ Aircraft departing off `RWY 21` shall be taxiied to `Hold 4 A`. A backtrack is n
 
 Aircraft departing off `RWY 03` shall be taxiied to `A1` however may be given an intersection departure if the pilot requests so. 
 
-Helicopters may be departed via any intersection given the nature of flight. 
+Helicopters may be departed via any intersection. 
+
+Code C aircraft or larger may **not** use `RWY 08` for departure due to taxiway restrictions leading to the runway. 
 
 ## Tower
 
@@ -64,14 +66,18 @@ Arriving IFR traffic shall contact TWP established inbound on an approach or whe
 
 ### Visual Approaches
 
-Aircraft shall be restricted to A030 unless otherwise coordinated with ATMA.
+Aircraft shall be restricted to `A030` unless otherwise coordinated with ATMA.
 
-### Circuit Operations
+### VFR Operations
 
 Circuit Altitudes are as follows:
 
 - `B757`: `A016`
 - All other fixed and rotary wing: `A011`
+
+Aircraft may only operate in one circuit at a time ie. If an aircraft is in the `RWY 21` circuit, an aircraft may not operate in the `RWY 26` circuit. 
+
+`Grass 08/26` shall **only** be used for gliders. 
 
 ## Coordination
 
