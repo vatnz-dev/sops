@@ -13,8 +13,8 @@ title: Event Positions
 | Auckland Control (Raglan)          | Auckland Control (Raglan)          | 126.000   | NZAA-R_CTR | Events - Traffic Management |
 | Auckland Approach                  | Auckland Approach                  | 129.600   | NZAA_DEP   | Events - Traffic Management |
 | Christchurch Director              | Christchurch Director              | 129.200   | NZCH-D_CTR | Events - Traffic Management |
-| Christchurch Departures            | Christchurch Departures            | 120.900   | NZCH_DEP   | Events - Traffic Management |
-| Wellington Departures              | Wellington Departures              | 122.300   | NZWN_DEP   | Events - Traffic Management |
+| Christchurch Approach              | Christchurch Departures            | 120.900   | NZCH_DEP   | Events - Traffic Management |
+| Wellington Approach                | Wellington Departures              | 122.300   | NZWN_DEP   | Events - Traffic Management |
 | Milford Flight Service Station     | Milford Flight Service Station     | 118.200   | NZMF_TWR   | Events - Traffic Management |
 | Paraparaumu Flight Service Station | Paraparaumu Flight Service Station | 118.300   | NZPP_TWR   | Events - Traffic Management |
 | Queenstown Ground                  | Queenstown Ground                  | 128.300   | NZQN_GND   | Events - Traffic Management |
