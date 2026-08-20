@@ -19,3 +19,4 @@ This area contains the operational material used when additional positions are a
 
 !!! warning "Event-only positions"
     Event-only positions may only be staffed for an approved VATNZ event or with explicit authorisation from the Operations Director.
+

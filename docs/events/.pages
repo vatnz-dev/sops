@@ -1,8 +1,7 @@
 title: Events
 nav:
   - index.md
-  - aerodromes
-  - terminal-areas
-  - enroute
+  - positions.md
+  - terminal-areas.md
 
 order: asc
