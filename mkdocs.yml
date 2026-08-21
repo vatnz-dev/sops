@@ -16,10 +16,12 @@ theme:
     text: Maven Pro
   palette:
     - scheme: default
+      media: "(prefers-color-scheme: dark)"
       toggle:
         icon: material/weather-sunny
         name: Go to the dark side..
     - scheme: slate
+      media: "(prefers-color-scheme: light)"
       toggle:
         icon: material/weather-night
         name: Shine some light on this!
