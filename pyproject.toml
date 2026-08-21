@@ -1,3 +1,7 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
 [project]
 name = "sops"
 version = "0.1.0"
@@ -19,9 +23,9 @@ dependencies = [
     "urllib3<2.0",
 ]
 
-[project.scripts]
-sops = "sops:main"
+# Tell setuptools NOT to search for Python modules or packages
+[tool.setuptools]
+packages = []
 
-[build-system]
-requires = ["uv_build>=0.12.5,<0.13.0"]
-build-backend = "uv_build"
+[tool.uv]
+package = false
