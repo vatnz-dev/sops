@@ -22,19 +22,19 @@ title: Auckland - Event Procedures
 
 ## Event-only Procedures
 
-The Auckland event split has different procedures depending on the direction of traffic. `ATMA` operates on 129.600 for the event arrival and departure function, while `ATMR` operates on 124.300 for the upper terminal radar and approach function.
+The Auckland event split has different procedures depending on the direction of traffic. `ATMA` operates on 129.600 for the event arrival and departure function, while `ATMR` operates on 124.300 for the upper terminal radar function.
 
 !!! note "Auckland event vertical split"
-  `ATMA` controls the purple area from the surface to `A070`. `ATMR` controls the purple area from `A070` to `A095`, including the airspace around the `ILS DME` and `RNP` approaches.
+  `ATMA` controls the purple area from the surface to `A070`. `ATMR` controls the purple area from `A070` to `A095`, including the upper airspace around the `ILS DME` and `RNP` approaches, and owns the approach clearances issued on 124.300.
 
 ### Arrivals from the south
 
-Arrivals from the south shall initially contact `ATMA` on 129.600. `ATMA` shall retain the aircraft while it is being sequenced and descended into the event terminal area. When the aircraft is descending through `A060`, `ATMA` shall instruct it to contact `ATMR` on 124.300 so that `ATMR` can provide the approach service and issue the clearance for the nominated `RNP Y`, `RNP X` or `ILS DME` approach.
+Arrivals from the south shall initially contact `ATMA` on 129.600. `ATMA` shall retain the aircraft while it is being sequenced and descended into the event terminal area. When the aircraft is passing `A060`, `ATMA` shall transfer it to `ATMR` on 124.300. `ATMR` shall retain responsibility for issuing the clearance for the nominated approach, so that one controller retains approach control and unnecessary coordination is avoided.
 
-!!! example "Southbound arrival transfer"
-  **ATMA**: *"ANZ231L, passing 6000 feet, contact Auckland Approach 124.300."*
+!!! example "Southbound arrival transfer to ATMR"
+  **ATMA**: *"ANZ231L, passing `A060`, contact Auckland Approach 124.300."*
 
-  **ANZ231L**: *"Passing 6000 feet contact Auckland Approach 124.300, ANZ231L."*
+  **ANZ231L**: *"Passing `A060`, contact Auckland Approach 124.300, ANZ231L."*
 
 !!! example "Approach clearance"
   **ATMR**: *"ANZ231L, cleared `ILS DME` approach runway 23L."*
@@ -62,9 +62,9 @@ Departures tracking in other directions shall remain with `ATMA` until they are 
   **ANZ231L**: *"Auckland Approach 129.600, ANZ231L."*
 
 !!! example "Northbound departure transfer"
-  **ATMA**: *"ANZ231L, passing 6000 feet, contact Auckland Approach 124.300."*
+  **ATMA**: *"ANZ231L, passing `A060`, contact Auckland Approach 124.300."*
 
-  **ANZ231L**: *"Passing 6000 feet contact Auckland Approach 124.300, ANZ231L."*
+  **ANZ231L**: *"Passing `A060`, contact Auckland Approach 124.300, ANZ231L."*
 
 !!! example "Northbound departure handoff to the enroute controller"
   **ATMR**: *"ANZ231L, contact Auckland Control 123.900."*
