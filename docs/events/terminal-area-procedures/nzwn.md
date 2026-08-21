@@ -1,5 +1,5 @@
 ---
-title: Wellington - Event Procedures
+title: Wellington
 ---
 
 --8<-- "includes/abbreviations.md"
@@ -48,6 +48,7 @@ All arrivals shall remain with `WTMA` for the duration of the arrival until they
 
 !!! example "Arrival handoff to Tower"
     **WTMA**: *"ANZ231L, contact Wellington Tower 118.800."*
+
     **ANZ231L**: *"Wellington Tower 118.800, ANZ231L."*
 
 Arrivals for another aerodrome shall remain with `WTMA` until transferred to the appropriate tower, flight service station, enroute controller or UNICOM, as applicable.
@@ -58,10 +59,12 @@ All departures shall initially be transferred to `WTMR` after becoming airborne,
 
 !!! example "Departure handoff to WTMR"
     **Wellington Tower**: *"ANZ231L, contact Wellington Approach 122.300."*
+
     **ANZ231L**: *"Wellington Approach 122.300, ANZ231L."*
 
 !!! example "Departure handoff to an enroute controller"
     **WTMR**: *"ANZ231L, contact Christchurch Control 123.700."*
+    
     **ANZ231L**: *"Christchurch Control 123.700, ANZ231L."*
 
 ### Runway 16 - Northern traffic
