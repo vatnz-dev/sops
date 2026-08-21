@@ -13,6 +13,22 @@ Contribution guidelines can be found within the project under [Assist Us](https:
 
 A specific channel for SOP development discussion exists on the VATNZ Discord. Please message the Operations Director to gain access to this channel.
 
+## Getting Started
+
+1. **Install `uv`** (if you don't have it):
+   - Mac/Linux: `curl -LsSf https://astral.sh/uv/install.sh | sh`
+   - Windows: `powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"`
+
+2. **Set up the project**:
+   ```bash
+   uv sync
+   ```
+
+3. **Run mkdocs locally**:
+   ```bash
+   uv run mkdocs serve
+   ```
+
 ## Build and Deployment
 
 This project uses some basic CI to automatically push the latest commits to the `main` branch to GitHub Pages. 
