@@ -15,7 +15,7 @@ This area contains the operational material used when additional positions are a
 ## Event Resources
 
 - [Event positions](positions.md) lists the supplementary positions that may be activated.
-- [Terminal areas](terminal-areas.md) provides the applicable terminal-area split diagrams.
+- [Terminal-area procedures](terminal-area-procedures/) provides the applicable terminal-area split diagrams and event-only SOPs.
 
 !!! warning "Event-only positions"
     Event-only positions may only be staffed for an approved VATNZ event or with explicit authorisation from the Operations Director.
