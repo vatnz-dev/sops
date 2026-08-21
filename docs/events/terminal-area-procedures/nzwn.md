@@ -58,13 +58,13 @@ Arrivals for another aerodrome shall remain with `WTMA` until transferred to the
 All departures shall initially be transferred to `WTMR` after becoming airborne, regardless of their direction of flight. `WTMR` shall retain departures until they are transferred to the appropriate enroute controller, or to UNICOM or another advisory service when the aircraft leaves controlled airspace.
 
 !!! example "Departure handoff to WTMR"
-    **Wellington Tower**: *"ANZ231L, contact Wellington Approach 122.300."*
+    **Wellington Tower**: *"ANZ231L, airbourne contact Wellington Approach 122.300."*
 
-    **ANZ231L**: *"Wellington Approach 122.300, ANZ231L."*
+    **ANZ231L**: *"Airbourne contact Wellington Approach 122.300, ANZ231L."*
 
 !!! example "Departure handoff to an enroute controller"
     **WTMR**: *"ANZ231L, contact Christchurch Control 123.700."*
-    
+
     **ANZ231L**: *"Christchurch Control 123.700, ANZ231L."*
 
 ### Runway 16 - Northern traffic
