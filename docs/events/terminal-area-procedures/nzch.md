@@ -1,5 +1,5 @@
 ---
-title: Christchurch
+title: Christchurch - Event Procedures
 ---
 
 --8<-- "includes/abbreviations.md"
@@ -30,7 +30,6 @@ All arrivals shall remain with `CTMA` for the duration of the arrival until they
 
 !!! example "Arrival handoff to Tower"
     **CTMA**: *"ANZ231L, contact Christchurch Tower 118.400."*
-
     **ANZ231L**: *"Christchurch Tower 118.400, ANZ231L."*
 
 Arrivals for another aerodrome shall remain with `CTMA` until transferred to the appropriate tower, flight service station, enroute controller or UNICOM, as applicable.
@@ -41,12 +40,10 @@ All departures shall initially be transferred to `CTMR` after becoming airborne,
 
 !!! example "Departure handoff to CTMR"
     **Christchurch Tower**: *"ANZ231L, contact Christchurch Approach 120.900."*
-
     **ANZ231L**: *"Christchurch Approach 120.900, ANZ231L."*
 
 !!! example "Departure handoff to an enroute controller"
     **CTMR**: *"ANZ231L, contact Christchurch Control 129.400."*
-    
     **ANZ231L**: *"Christchurch Control 129.400, ANZ231L."*
 
 ### Runway 02

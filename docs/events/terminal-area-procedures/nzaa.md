@@ -1,5 +1,5 @@
 ---
-title: Auckland
+title: Auckland - Event Procedures
 ---
 
 --8<-- "includes/abbreviations.md"
@@ -33,19 +33,16 @@ Arrivals from the south shall initially contact `ATMA` on 129.600. `ATMA` shall 
 
 !!! example "Southbound arrival transfer to ATMR"
     **ATMA**: *"ANZ231L, passing `A060`, contact Auckland Approach 124.300."*
-
     **ANZ231L**: *"Passing `A060`, contact Auckland Approach 124.300, ANZ231L."*
 
 !!! example "Approach clearance"
     **ATMR**: *"ANZ231L, cleared `ILS DME` approach runway 23L."*
-
     **ANZ231L**: *"Cleared `ILS DME` approach runway 23L, ANZ231L."*
 
 `ATMR` shall retain the aircraft until it is transferred to Auckland Tower when established on the approach or at the applicable approach transfer point.
 
 !!! example "Arrival handoff to Tower"
     **ATMR**: *"ANZ231L, contact Auckland Tower 118.700."*
-
     **ANZ231L**: *"Auckland Tower 118.700, ANZ231L."*
 
 ### Departures
@@ -58,17 +55,14 @@ Departures tracking in other directions shall remain with `ATMA` until they are 
 
 !!! example "Departure handoff to ATMA"
     **Auckland Tower**: *"ANZ231L, contact Auckland Approach 129.600."*
-
     **ANZ231L**: *"Auckland Approach 129.600, ANZ231L."*
 
 !!! example "Northbound departure transfer"
     **ATMA**: *"ANZ231L, passing `A060`, contact Auckland Approach 124.300."*
-
     **ANZ231L**: *"Passing `A060`, contact Auckland Approach 124.300, ANZ231L."*
 
 !!! example "Northbound departure handoff to the enroute controller"
     **ATMR**: *"ANZ231L, contact Auckland Control 123.900."*
-    
     **ANZ231L**: *"Auckland Control 123.900, ANZ231L."*
 
 ### Runway 05R
