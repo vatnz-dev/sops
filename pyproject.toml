@@ -1,11 +1,7 @@
-[build-system]
-requires = ["setuptools>=61.0"]
-build-backend = "setuptools.build_meta"
-
 [project]
 name = "sops"
 version = "0.1.0"
-description = "Add your description here"
+description = "VATNZ Standard Operating Procedures"
 readme = "README.md"
 authors = [
     { name = "Richard Bywater", email = "richard.bywater@vatnz.net" }
@@ -23,9 +19,6 @@ dependencies = [
     "urllib3<2.0",
 ]
 
-# Tell setuptools NOT to search for Python modules or packages
-[tool.setuptools]
-packages = []
-
+# This project is a documentation site, not a distributable package.
 [tool.uv]
 package = false
