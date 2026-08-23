@@ -61,7 +61,6 @@ extra_css:
   - stylesheets/admonitions.css
   - stylesheets/navigation.css
   - stylesheets/custom-toc.css
-
 toc:
   - toc_class: custom-toc
 
