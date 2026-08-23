@@ -61,9 +61,6 @@ extra_css:
   - stylesheets/admonitions.css
   - stylesheets/navigation.css
   - stylesheets/custom-toc.css
-extra_javascript:
-  - javascripts/interactive-maps.js
-
 toc:
   - toc_class: custom-toc
 

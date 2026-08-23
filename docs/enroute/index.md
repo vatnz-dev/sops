@@ -16,30 +16,27 @@ VATNZ Controllers are able to staff all six permanent Enroute Sectors at once, i
     margin: 1.5rem auto 2rem;
   }
 
-  #enroute-map img,
-  #enroute-map svg {
+  #enroute-map img {
     display: block;
     width: 100%;
     height: auto;
   }
 
-  #enroute-map svg {
+  #enroute-map .map-hotspots {
     position: absolute;
     inset: 0;
   }
 
-  #enroute-map polygon {
+  #enroute-map .map-hotspots a {
+    position: absolute;
+    inset: 0;
     cursor: pointer;
-    fill: #64748b;
-    fill-opacity: 0;
-    stroke: transparent;
-    stroke-width: 0;
-    transition: fill-opacity 160ms ease;
+    clip-path: polygon(var(--points));
   }
 
-  #enroute-map .interactive-map-link:hover polygon,
-  #enroute-map .interactive-map-link:focus polygon {
-    fill-opacity: 0;
+  #enroute-map .map-hotspots a:focus {
+    outline: 3px solid #ffffff;
+    outline-offset: -3px;
   }
 
   #enroute-map .sector-placard {
@@ -110,29 +107,15 @@ VATNZ Controllers are able to staff all six permanent Enroute Sectors at once, i
 <div id="enroute-map" aria-label="Interactive map of New Zealand FIR enroute sectors">
   <img src="../assets/nz-fir-airspace.png" alt="NZ FIR Airspace Sectors">
 
-  <svg viewBox="0 0 810 1050" role="navigation" aria-label="Enroute sector page links">
-    <g id="ocr-link" class="interactive-map-link" data-href="OCR/" role="link" tabindex="0" aria-label="Open OCR sector page">
-      <polygon points="468,33 554,40 632,81 680,151 700,200 548,213 550,249 565,269 558,354 503,355 484,256 407,404 359,378 326,340 306,285 310,189 330,128 381,72" />
-    </g>
-    <g id="ran-link" class="interactive-map-link" data-href="RAN/" role="link" tabindex="0" aria-label="Open RAN sector page">
-      <polygon points="484,256 548,274 565,295 558,354 503,355 484,322" />
-    </g>
-    <g id="bay-link" class="interactive-map-link" data-href="BAY/" role="link" tabindex="0" aria-label="Open BAY sector page">
-      <polygon points="548,213 700,200 751,242 724,346 680,309 616,318 558,354 565,295 548,274" />
-    </g>
-    <g id="oha-link" class="interactive-map-link" data-href="OHA/" role="link" tabindex="0" aria-label="Open OHA sector page">
-      <polygon points="616,318 680,309 724,346 650,508 626,501 626,457 585,457 575,391 558,354" />
-    </g>
-    <g id="nak-link" class="interactive-map-link" data-href="NAK/" role="link" tabindex="0" aria-label="Open NAK sector page">
-      <polygon points="407,404 503,355 558,354 575,391 585,457 626,457 626,501 650,508 630,559 596,551 540,633 495,587 407,560 391,515 392,458" />
-    </g>
-    <g id="kai-link" class="interactive-map-link" data-href="KAI/" role="link" tabindex="0" aria-label="Open KAI sector page">
-      <polygon points="630.5,575.1 560.5,692.1 523.9,657.5 513.4,618.2 506.6,573.7 508.6,569.3 512.9,560 524.5,544.8 527.6,538 554.4,543.5 555.7,543.8 576.1,543.3 592.4,552.8 611.3,549.7" />
-    </g>
-    <g id="sth-link" class="interactive-map-link" data-href="STH/" role="link" tabindex="0" aria-label="Open STH sector page">
-      <polygon points="407,560 495,587 536,631 596,643 482,953 316,882 324,849 298,798 304,735 333,684 379,650 392,600" />
-    </g>
-  </svg>
+  <div class="map-hotspots" aria-label="Enroute sector page links">
+    <a id="ocr-link" href="OCR/" aria-label="Open OCR sector page" style="--points: 57.78% 3.14%, 68.40% 3.81%, 78.02% 7.71%, 83.95% 14.38%, 86.42% 19.05%, 67.65% 20.29%, 67.90% 23.71%, 69.75% 25.62%, 68.89% 33.71%, 62.10% 33.81%, 59.75% 24.38%, 50.25% 38.48%, 44.32% 36%, 40.25% 32.38%, 37.78% 27.14%, 38.27% 18%, 40.74% 12.19%, 47.04% 6.86%;"></a>
+    <a id="ran-link" href="RAN/" aria-label="Open RAN sector page" style="--points: 59.75% 24.38%, 67.65% 26.10%, 69.75% 28.10%, 68.89% 33.71%, 62.10% 33.81%, 59.75% 30.67%;"></a>
+    <a id="bay-link" href="BAY/" aria-label="Open BAY sector page" style="--points: 67.65% 20.29%, 86.42% 19.05%, 92.72% 23.05%, 89.38% 32.95%, 83.95% 29.43%, 76.05% 30.29%, 68.89% 33.71%, 69.75% 28.10%, 67.65% 26.10%;"></a>
+    <a id="oha-link" href="OHA/" aria-label="Open OHA sector page" style="--points: 76.05% 30.29%, 83.95% 29.43%, 89.38% 32.95%, 80.25% 48.38%, 77.28% 47.71%, 77.28% 43.52%, 72.22% 43.52%, 70.99% 37.24%, 68.89% 33.71%;"></a>
+    <a id="nak-link" href="NAK/" aria-label="Open NAK sector page" style="--points: 50.25% 38.48%, 62.10% 33.81%, 68.89% 33.71%, 70.99% 37.24%, 72.22% 43.52%, 77.28% 43.52%, 77.28% 47.71%, 80.25% 48.38%, 77.78% 53.24%, 73.58% 52.48%, 66.67% 60.29%, 61.11% 55.90%, 50.25% 53.33%, 48.27% 49.05%, 48.40% 43.62%;"></a>
+    <a id="kai-link" href="KAI/" aria-label="Open KAI sector page" style="--points: 77.84% 54.77%, 69.20% 65.91%, 64.68% 62.62%, 63.38% 58.88%, 62.54% 54.64%, 62.79% 54.22%, 63.32% 53.33%, 64.75% 51.89%, 65.14% 51.24%, 68.44% 51.76%, 68.60% 51.79%, 71.12% 51.74%, 73.14% 52.65%, 75.47% 52.35%;"></a>
+    <a id="sth-link" href="STH/" aria-label="Open STH sector page" style="--points: 50.25% 53.33%, 61.11% 55.90%, 66.17% 60.10%, 73.58% 61.24%, 59.51% 90.76%, 39.01% 84%, 40% 80.86%, 36.79% 76%, 37.53% 70%, 41.11% 65.14%, 46.79% 61.90%, 48.40% 57.14%;"></a>
+  </div>
 
   <div id="ocr-card" class="sector-placard" style="display: none;">
     <strong>Auckland - Oceanic Radar (OCR)</strong>
