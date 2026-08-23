@@ -14,11 +14,14 @@ jobs:
         with:
           fetch-depth: 0
 
-      - uses: actions/setup-python@v5
-        name: Setup Python
+      - uses: astral-sh/setup-uv@v10
+        name: Setup uv
         with:
-          python-version: 3.12
-      - run: pip install -r requirements.txt
+          enable-cache: true
+
+      # Installs the Python version pinned in .python-version, and the exact
+      # package versions from uv.lock. Fails if uv.lock is out of date.
+      - run: uv sync --locked
 
       - name: Deploy 
-        run: mkdocs gh-deploy --force --config-file production.yml
+        run: uv run mkdocs gh-deploy --force --config-file production.yml

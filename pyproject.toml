@@ -1,0 +1,24 @@
+[project]
+name = "sops"
+version = "0.1.0"
+description = "VATNZ Standard Operating Procedures"
+readme = "README.md"
+authors = [
+    { name = "Richard Bywater", email = "richard.bywater@vatnz.net" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "cairosvg>=2.9.0",
+    "mkdocs-awesome-pages-plugin>=2.10.1",
+    "mkdocs-embed-external-markdown>=3.0.2",
+    "mkdocs-git-revision-date-localized-plugin>=1.5.3",
+    "mkdocs-glightbox>=0.5.2",
+    "mkdocs-material==9.7.7",
+    "mkdocs-redirects>=1.2.3",
+    "pillow>=12.3.0",
+    "urllib3<2.0",
+]
+
+# This project is a documentation site, not a distributable package.
+[tool.uv]
+package = false
