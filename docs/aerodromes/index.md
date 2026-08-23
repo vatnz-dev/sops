@@ -33,8 +33,8 @@ This section covers aerodrome specific procedures, separated by airspace class.
     stroke-width: 0;
   }
 
-  #aerodrome-map .aerodrome-marker:focus,
-  #aerodrome-map a:hover .aerodrome-marker {
+  #aerodrome-map .interactive-map-link:focus .aerodrome-marker,
+  #aerodrome-map .interactive-map-link:hover .aerodrome-marker {
     fill: #ffffff;
     fill-opacity: 0.22;
     stroke: #ffffff;
@@ -80,6 +80,7 @@ This section covers aerodrome specific procedures, separated by airspace class.
   }
 
   #aerodrome-map #nzaa-card { left: 53%; top: 25%; }
+  #aerodrome-map #nzwp-card { left: 47%; top: 22%; }
   #aerodrome-map #nzhn-card { left: 55%; top: 30%; }
   #aerodrome-map #nztg-card { left: 62%; top: 29%; }
   #aerodrome-map #nzro-card { left: 63%; top: 34%; }
@@ -97,6 +98,8 @@ This section covers aerodrome specific procedures, separated by airspace class.
 
   #aerodrome-map:has(#nzaa-link:hover) #nzaa-card,
   #aerodrome-map:has(#nzaa-link:focus) #nzaa-card,
+  #aerodrome-map:has(#nzwp-link:hover) #nzwp-card,
+  #aerodrome-map:has(#nzwp-link:focus) #nzwp-card,
   #aerodrome-map:has(#nzhn-link:hover) #nzhn-card,
   #aerodrome-map:has(#nzhn-link:focus) #nzhn-card,
   #aerodrome-map:has(#nztg-link:hover) #nztg-card,
@@ -134,24 +137,26 @@ This section covers aerodrome specific procedures, separated by airspace class.
   <img src="../assets/interactive-sops-map.png" alt="New Zealand aerodromes and their controlling sectors">
 
   <svg viewBox="0 0 3563 4500" role="navigation" aria-label="Aerodrome procedure page links">
-    <a id="nzaa-link" href="Class-C/nzaa/" aria-label="Open Auckland procedure page"><circle class="aerodrome-marker" cx="2202" cy="1168" r="42" /></a>
-    <a id="nzhn-link" href="Class-D/nzhn/" aria-label="Open Hamilton procedure page"><circle class="aerodrome-marker" cx="2332" cy="1392" r="42" /></a>
-    <a id="nztg-link" href="Class-D/nztg/" aria-label="Open Tauranga procedure page"><circle class="aerodrome-marker" cx="2516" cy="1364" r="42" /></a>
-    <a id="nzro-link" href="Class-D/nzro/" aria-label="Open Rotorua procedure page"><circle class="aerodrome-marker" cx="2636" cy="1556" r="42" /></a>
-    <a id="nzoh-link" href="Class-D/nzoh/" aria-label="Open Ohakea procedure page"><circle class="aerodrome-marker" cx="2316" cy="2072" r="42" /></a>
-    <a id="nzpm-link" href="Class-D/nzpm/" aria-label="Open Palmerston North procedure page"><circle class="aerodrome-marker" cx="2348" cy="2120" r="42" /></a>
-    <a id="nznr-link" href="Procedural/nznr/" aria-label="Open Napier procedure page"><circle class="aerodrome-marker" cx="2652" cy="1896" r="42" /></a>
-    <a id="nzns-link" href="Procedural/nzns/" aria-label="Open Nelson procedure page"><circle class="aerodrome-marker" cx="1852" cy="2352" r="42" /></a>
-    <a id="nzwb-link" href="Class-D/nzwb/" aria-label="Open Woodbourne procedure page"><circle class="aerodrome-marker" cx="2012" cy="2416" r="42" /></a>
-    <a id="nzwn-link" href="Class-C/nzwn/" aria-label="Open Wellington procedure page"><circle class="aerodrome-marker" cx="2176" cy="2364" r="42" /></a>
-    <a id="nzch-link" href="Class-C/nzch/" aria-label="Open Christchurch procedure page"><circle class="aerodrome-marker" cx="1696" cy="3020" r="42" /></a>
-    <a id="nzqn-link" href="Class-C/nzqn/" aria-label="Open Queenstown procedure page"><circle class="aerodrome-marker" cx="948" cy="3464" r="42" /></a>
-    <a id="nzmf-link" href="Flight%20Service/nzmf/" aria-label="Open Milford Sound procedure page"><circle class="aerodrome-marker" cx="792" cy="3384" r="42" /></a>
-    <a id="nzdn-link" href="Procedural/nzdn/" aria-label="Open Dunedin procedure page"><circle class="aerodrome-marker" cx="1260" cy="3696" r="42" /></a>
-    <a id="nznv-link" href="Procedural/nznv/" aria-label="Open Invercargill procedure page"><circle class="aerodrome-marker" cx="908" cy="3876" r="42" /></a>
+    <g id="nzaa-link" class="interactive-map-link" data-href="Class-C/nzaa/" role="link" tabindex="0" aria-label="Open Auckland procedure page"><circle class="aerodrome-marker" cx="2202" cy="1168" r="42" /></g>
+    <g id="nzwp-link" class="interactive-map-link" data-href="Class-D/nzwp/" role="link" tabindex="0" aria-label="Open Whenuapai procedure page"><circle class="aerodrome-marker" cx="1994" cy="1035" r="42" /></g>
+    <g id="nzhn-link" class="interactive-map-link" data-href="Class-D/nzhn/" role="link" tabindex="0" aria-label="Open Hamilton procedure page"><circle class="aerodrome-marker" cx="2332" cy="1392" r="42" /></g>
+    <g id="nztg-link" class="interactive-map-link" data-href="Class-D/nztg/" role="link" tabindex="0" aria-label="Open Tauranga procedure page"><circle class="aerodrome-marker" cx="2516" cy="1364" r="42" /></g>
+    <g id="nzro-link" class="interactive-map-link" data-href="Class-D/nzro/" role="link" tabindex="0" aria-label="Open Rotorua procedure page"><circle class="aerodrome-marker" cx="2636" cy="1556" r="42" /></g>
+    <g id="nzoh-link" class="interactive-map-link" data-href="Class-D/nzoh/" role="link" tabindex="0" aria-label="Open Ohakea procedure page"><circle class="aerodrome-marker" cx="2316" cy="2072" r="42" /></g>
+    <g id="nzpm-link" class="interactive-map-link" data-href="Class-D/nzpm/" role="link" tabindex="0" aria-label="Open Palmerston North procedure page"><circle class="aerodrome-marker" cx="2348" cy="2120" r="42" /></g>
+    <g id="nznr-link" class="interactive-map-link" data-href="Procedural/nznr/" role="link" tabindex="0" aria-label="Open Napier procedure page"><circle class="aerodrome-marker" cx="2652" cy="1896" r="42" /></g>
+    <g id="nzns-link" class="interactive-map-link" data-href="Procedural/nzns/" role="link" tabindex="0" aria-label="Open Nelson procedure page"><circle class="aerodrome-marker" cx="1852" cy="2352" r="42" /></g>
+    <g id="nzwb-link" class="interactive-map-link" data-href="Class-D/nzwb/" role="link" tabindex="0" aria-label="Open Woodbourne procedure page"><circle class="aerodrome-marker" cx="2012" cy="2416" r="42" /></g>
+    <g id="nzwn-link" class="interactive-map-link" data-href="Class-C/nzwn/" role="link" tabindex="0" aria-label="Open Wellington procedure page"><circle class="aerodrome-marker" cx="2176" cy="2364" r="42" /></g>
+    <g id="nzch-link" class="interactive-map-link" data-href="Class-C/nzch/" role="link" tabindex="0" aria-label="Open Christchurch procedure page"><circle class="aerodrome-marker" cx="1696" cy="3020" r="42" /></g>
+    <g id="nzqn-link" class="interactive-map-link" data-href="Class-C/nzqn/" role="link" tabindex="0" aria-label="Open Queenstown procedure page"><circle class="aerodrome-marker" cx="948" cy="3464" r="42" /></g>
+    <g id="nzmf-link" class="interactive-map-link" data-href="Flight%20Service/nzmf/" role="link" tabindex="0" aria-label="Open Milford Sound procedure page"><circle class="aerodrome-marker" cx="792" cy="3384" r="42" /></g>
+    <g id="nzdn-link" class="interactive-map-link" data-href="Procedural/nzdn/" role="link" tabindex="0" aria-label="Open Dunedin procedure page"><circle class="aerodrome-marker" cx="1260" cy="3696" r="42" /></g>
+    <g id="nznv-link" class="interactive-map-link" data-href="Procedural/nznv/" role="link" tabindex="0" aria-label="Open Invercargill procedure page"><circle class="aerodrome-marker" cx="908" cy="3876" r="42" /></g>
   </svg>
 
   <div id="nzaa-card" class="aerodrome-placard" style="display: none;"><strong>Auckland (NZAA)</strong><span>Class C aerodrome</span><span class="aerodrome-cta">Select for procedure information</span></div>
+  <div id="nzwp-card" class="aerodrome-placard" style="display: none;"><strong>Whenuapai (NZWP)</strong><span>Class D aerodrome</span><span class="aerodrome-cta">Select for procedure information</span></div>
   <div id="nzhn-card" class="aerodrome-placard" style="display: none;"><strong>Hamilton (NZHN)</strong><span>Class D aerodrome</span><span class="aerodrome-cta">Select for procedure information</span></div>
   <div id="nztg-card" class="aerodrome-placard" style="display: none;"><strong>Tauranga (NZTG)</strong><span>Class D aerodrome</span><span class="aerodrome-cta">Select for procedure information</span></div>
   <div id="nzro-card" class="aerodrome-placard" style="display: none;"><strong>Rotorua (NZRO)</strong><span>Class D aerodrome</span><span class="aerodrome-cta">Select for procedure information</span></div>

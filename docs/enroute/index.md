@@ -37,8 +37,8 @@ VATNZ Controllers are able to staff all six permanent Enroute Sectors at once, i
     transition: fill-opacity 160ms ease;
   }
 
-  #enroute-map a:hover polygon,
-  #enroute-map a:focus polygon {
+  #enroute-map .interactive-map-link:hover polygon,
+  #enroute-map .interactive-map-link:focus polygon {
     fill-opacity: 0;
   }
 
@@ -111,27 +111,27 @@ VATNZ Controllers are able to staff all six permanent Enroute Sectors at once, i
   <img src="../assets/nz-fir-airspace.png" alt="NZ FIR Airspace Sectors">
 
   <svg viewBox="0 0 810 1050" role="navigation" aria-label="Enroute sector page links">
-    <a id="ocr-link" href="OCR/" aria-label="Open OCR sector page">
+    <g id="ocr-link" class="interactive-map-link" data-href="OCR/" role="link" tabindex="0" aria-label="Open OCR sector page">
       <polygon points="468,33 554,40 632,81 680,151 700,200 548,213 550,249 565,269 558,354 503,355 484,256 407,404 359,378 326,340 306,285 310,189 330,128 381,72" />
-    </a>
-    <a id="ran-link" href="RAN/" aria-label="Open RAN sector page">
+    </g>
+    <g id="ran-link" class="interactive-map-link" data-href="RAN/" role="link" tabindex="0" aria-label="Open RAN sector page">
       <polygon points="484,256 548,274 565,295 558,354 503,355 484,322" />
-    </a>
-    <a id="bay-link" href="BAY/" aria-label="Open BAY sector page">
+    </g>
+    <g id="bay-link" class="interactive-map-link" data-href="BAY/" role="link" tabindex="0" aria-label="Open BAY sector page">
       <polygon points="548,213 700,200 751,242 724,346 680,309 616,318 558,354 565,295 548,274" />
-    </a>
-    <a id="oha-link" href="OHA/" aria-label="Open OHA sector page">
+    </g>
+    <g id="oha-link" class="interactive-map-link" data-href="OHA/" role="link" tabindex="0" aria-label="Open OHA sector page">
       <polygon points="616,318 680,309 724,346 650,508 626,501 626,457 585,457 575,391 558,354" />
-    </a>
-    <a id="nak-link" href="NAK/" aria-label="Open NAK sector page">
+    </g>
+    <g id="nak-link" class="interactive-map-link" data-href="NAK/" role="link" tabindex="0" aria-label="Open NAK sector page">
       <polygon points="407,404 503,355 558,354 575,391 585,457 626,457 626,501 650,508 630,559 596,551 540,633 495,587 407,560 391,515 392,458" />
-    </a>
-    <a id="kai-link" href="KAI/" aria-label="Open KAI sector page">
+    </g>
+    <g id="kai-link" class="interactive-map-link" data-href="KAI/" role="link" tabindex="0" aria-label="Open KAI sector page">
       <polygon points="630.5,575.1 560.5,692.1 523.9,657.5 513.4,618.2 506.6,573.7 508.6,569.3 512.9,560 524.5,544.8 527.6,538 554.4,543.5 555.7,543.8 576.1,543.3 592.4,552.8 611.3,549.7" />
-    </a>
-    <a id="sth-link" href="STH/" aria-label="Open STH sector page">
+    </g>
+    <g id="sth-link" class="interactive-map-link" data-href="STH/" role="link" tabindex="0" aria-label="Open STH sector page">
       <polygon points="407,560 495,587 536,631 596,643 482,953 316,882 324,849 298,798 304,735 333,684 379,650 392,600" />
-    </a>
+    </g>
   </svg>
 
   <div id="ocr-card" class="sector-placard" style="display: none;">
