@@ -66,4 +66,4 @@ Any requests for a non-nominated approach shall be coordinated with the respecti
 
 TFA may conduct auto-release to FAL provided the aircraft are on a RNAV SID off the Nominated Runway. 
 
-FAL shall provide a 10-minute warning to ARO before an aircraft crosses the common airspace boundary. As FAL provides a radar service no coordination is requried from ARO. 
+FAL shall provide a 10-minute warning to ARO before an aircraft crosses the common airspace boundary. As FAL provides a radar service, no coordination is required from ARO.

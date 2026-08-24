@@ -25,13 +25,6 @@
 | ------------- | --------- | ------------ | --------- | -------- | ---------- |
 | Moorea Tower  | TNTTM     | Moorea Tower | 118.700   | NTTM_TWR | Event only |
 
-!!! danger "Important"
-    The following position may only be staffed during a VATNZ event where approved, or if explicitly authorised by the Operations Director.
-
-| Position Name | Shortcode | Callsign     | Frequency | Login ID | Usage      |
-| ------------- | --------- | ------------ | --------- | -------- | ---------- |
-| Moorea Tower  | TNTTM     | Moorea Tower | 118.700   | NTTM_TWR | Event only |
-
 ## Tahiti Airspace
 
 Tahiti's airspace has several differences from the NZZO FIR:

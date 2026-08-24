@@ -21,17 +21,6 @@
 | Niue FIS      | NFS       | Niue Flight Service   | 118.100   | NIUE_TWR | Event only |
 
 
-### Event Only Positions
-
-!!! Danger "Important"
-    The following are designated as Event Only positions, and may only be staffed during a VATNZ event where approved, or if explicitly authorised by the Operations Director.
-
-| Position Name | Shortcode | Callsign              | Frequency | Login ID | Usage      |
-| ------------- | --------- | --------------------- | --------- | -------- | ---------- |
-| Vava'u FIS    | VFS       | Vava'u Flight Service | 118.100   | NFTV_TWR | Event only |
-| Niue FIS      | NFS       | Niue Flight Service   | 118.100   | NIUE_TWR | Event only |
-
-
 ## Fua'amotu Tower
 
 !!! info "Why is their callsign Tower, not Approach?"
@@ -73,6 +62,8 @@ Refer to the **AFIS** [guide](../../controller-skills/flight-service.md#standard
 
 
 Both Flight Services shall instruct aircraft that are vacating the MBZ to contact ARO. If aircraft are unable to make contact with ARO they shall remain on the AFIS frequency until they are able to make contact with ARO. 
+
+
 
 ### Arrivals
 
