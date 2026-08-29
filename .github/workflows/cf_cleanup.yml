@@ -5,13 +5,17 @@ on:
     - cron: '0 3 * * *' # Runs daily at 03:00 UTC
   workflow_dispatch: # Allows manual trigger from GitHub Actions UI
 
+permissions:
+  contents: read
+
 jobs:
   cleanup:
     runs-on: ubuntu-latest
     steps:
       - name: Clean up old deployments
-        uses: Th3S4mur41/cleanup-cloudflare-deployments@v2
+        uses: Th3S4mur41/cleanup-cloudflare-deployments@v2.0.0
         with:
           cloudflare-account-id: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           cloudflare-api-token: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           cloudflare-project-name: 'sops'
+          github-token: ${{ secrets.GITHUB_TOKEN }}
