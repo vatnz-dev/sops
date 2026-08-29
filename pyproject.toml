@@ -16,7 +16,7 @@ dependencies = [
     "mkdocs-material==9.7.7",
     "mkdocs-redirects>=1.2.3",
     "pillow>=12.3.0",
-    "urllib3<2.0",
+    "urllib3<3.0",
 ]
 
 # This project is a documentation site, not a distributable package.
