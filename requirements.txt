@@ -111,7 +111,7 @@ pycparser==3.0 ; implementation_name != 'PyPy'
     # via cffi
 pygments==2.21.0
     # via mkdocs-material
-pymdown-extensions==10.21.3
+pymdown-extensions==11.0.2
     # via mkdocs-material
 python-dateutil==2.9.0.post0
     # via ghp-import
