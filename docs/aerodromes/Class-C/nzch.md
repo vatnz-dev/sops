@@ -88,7 +88,7 @@ Pushback and startup clearances are managed by the Ground Controller. Due to the
 
 ##### Dakota Apron
 
-Dakota Apron is used for all cargo operations. Aircraft utilising this apron may be instructed to start at their discretion and report ready for taxi at `J1`. Should there be inbound traffic. Departing traffic shall be told to hold on the stand till the arriving traffic is clear. 
+Dakota Apron is used for all cargo operations. Aircraft utilising this apron may be instructed to start at their discretion and report ready for taxi at `J1`. Should there be inbound traffic, departing traffic shall be told to hold on the stand till the arriving traffic is clear. 
 
 When ready for taxi, aircraft taxiing from the Dakota Apron may be instructed to cross Runway 29 and taxi via `F`, or may be given [taxi via Runway 29](#taxi-via-rwy-29). Taxi via Runway 29 is usually preferred, as it allows the Domestic ramp to continue to flow.
 

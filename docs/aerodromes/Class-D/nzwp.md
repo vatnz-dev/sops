@@ -1,5 +1,5 @@
 ---
-  title: NZWP - Whenuapai
+title: NZWP - Whenuapai
 ---
 
 --8<-- "includes/abbreviations.md"

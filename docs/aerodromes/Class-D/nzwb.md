@@ -53,7 +53,7 @@ Arriving IFR traffic shall contact TWB established inbound on an approach or whe
 
 The nominated approach should always be the RNP for 24. 
 
-RWY 06 has a RNP (AR) approach avialvile but can't be nominated as the standard apporach. Controllers should use `RNP 24 Circling 06`
+RWY 06 has a RNP (AR) approach available but can't be nominated as the standard approach. Controllers should use `RNP 24 Circling 06`
 
 ## Coordination
 
