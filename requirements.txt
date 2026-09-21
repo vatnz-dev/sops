@@ -130,7 +130,7 @@ requests==2.34.2
     # via
     #   mkdocs-embed-external-markdown
     #   mkdocs-material
-selectolax==0.4.11
+selectolax==0.4.12
     # via mkdocs-glightbox
 six==1.17.0
     # via python-dateutil
