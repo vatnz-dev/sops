@@ -10,7 +10,7 @@ bracex==3.0.1
     # via wcmatch
 cairocffi==1.7.1
     # via cairosvg
-cairosvg==2.9.0
+cairosvg==2.9.1
     # via sops
 certifi==2026.7.22
     # via requests
