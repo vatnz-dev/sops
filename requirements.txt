@@ -28,7 +28,7 @@ colorama==0.4.6
     #   mkdocs
     #   mkdocs-material
     #   properdocs
-cssselect2==0.9.0
+cssselect2==0.10.1
     # via cairosvg
 defusedxml==0.7.1
     # via cairosvg
