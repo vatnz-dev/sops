@@ -52,10 +52,10 @@ Tahiti's airspace has several differences from the NZZO FIR:
 **NTTC_CTR** "Tahiti Control" on 134.700 provides the following services:
 
 - A radar service within the red Iles Sous le Vent sector shown on the map, from `A015` to `FL195`.
-- A procedural service in the remainder of the area within 200nm of TAF, from `A045` to `FL195`.
+- A Class E service in the remainder of the area within 200nm of TAF, from `A045` to `FL195` where an IFR service is provided, and only a VFR traffic information service is provided.
 - An enroute and approach control service for NTTB (Bora Bora), NTTR (Raiatea), NTTH (Huahine) and NTUU (Tupai).
 
-The red sector is the radar area; all other airspace within the 200nm boundary is procedural. Within the 200nm area, NTTT_CTR provides the Class E service above `A045`; outside it, the service is provided by NTTT_FSS. NTTB and NTTR have tower services from `SFC` to `A015`. NTTH is uncontrolled, with the base of NTTT_CTR at `A015`.
+The red sector is the radar area; all other airspace within the 200nm boundary is Class E which is controlled by NTTC_CTR above `A045`. Outside of this airspace the service is provided by NTTT_FSS. NTTB and NTTR have tower services from `SFC` to `A015`. NTTH is uncontrolled, with the base of NTTT_CTR at `A015`.
 
 ## Tahiti Approach
 
