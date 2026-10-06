@@ -4,38 +4,66 @@
 
 --8<-- "includes/abbreviations.md"
 
-!!! info "This is a work in progress!"
-    This page is currently being worked on by the team. It'll be here soon! If you want to help out, [have a look how you can help](../contribute/index.md)! For the meantime, you should apply the comments made here in line with the skills taught in the VATNZ Controller Training Syllabus.
+| Position Name      | Shortcode | Callsign              | Frequency | Login ID | Usage   |
+| ------------------ | --------- | --------------------- | --------- | -------- | ------- |
+| Faleolo Tower      | TFA       | Faleolo Tower         | 118.100   | NSFA_TWR | Primary |
+| Faleolo Control    | FAL       | Faleolo Control       | 126.900   | NSFA_CTR | Primary |
 
-| Name            | Callsign        | Frequency | Login    | Notes                       |
-| --------------- | --------------- | --------- | -------- | --------------------------- |
-| Faleolo Control | Faleolo Control | 126.900   | NSFA_CTR |                             |
-| Faleolo Tower   | Faleolo Tower   | 118.100   | NSFA_TWR |                             |
-| Pago Pago Tower | Pago Tower      | 122.900   | NSTU_TWR | For use during Events only. |
 
-## Enroute
+### Event Only Positions
 
-There are no real-world Enroute Sectors operating above Samoa, however due to Samoa's complex Approach sectors and large TMAs, we merge them into a single Faleolo Control Sector.
+!!! Danger "Important"
+    The following are designated as Event Only positions, and may only be staffed during a VATNZ event where approved, or if explicitly authorised by the Operations Director.
 
-<center>
-  ![NSFA Enroute](../oceanic/assets/nsfa-control.png){ width="700" }
-</center>
+| Position Name   | Shortcode | Callsign   | Frequency | Login ID | Usage      |
+| --------------- | --------- | ---------- | --------- | -------- | ---------- |
+| Pago Pago Tower | TTU       | Pago Tower | 122.900   | NSTU_TWR | Event only |
+
+## Faleolo Control
+
+There are no real-world Enroute Sectors operating above Samoa, however due to Samoa's complex Approach sectors and large TMAs, we haved merged them into a single Faleolo Control Sector.
+
+<figure markdown>
+  ![NSFA Enroute](../pacific/assets/nsfa-control.png)
+</figure>
 
 * **NSFA_CTR**: "Faleolo Control" on 126.900. 
     * **Limits**: Vertical limits differ. Includes the main sector to the West, and the 'R' sector over Pago Pago.
-        * The West Sector is from SFC to FL245. 
-        * The East Sector is from 3,500ft to FL245.
-    * The West Sector provides an Enroute Service for NSFA, and interfaces directly with NSFA.
-    * The East Sector provides a TMA service to NSTU, but **does not** provide a Tower service, as the lower limit is 3,500ft. 
+        * The West Sector is from `SFC` to `FL245`. 
+        * The East Sector is from `A035` to `FL245`.
+    * The West Sector provides an Enroute Service for NSFA, and interfaces directly with TFA.
+    * The East Sector provides a TMA service to NSTU, but **does not** provide a Tower service, as the lower limit is `A035`. 
 
-## Tower
+## Faeleolo Tower
 
-* **NSFA_TWR** "Faleolo Tower" on 118.100
-    * **Limits**: SFC to 7,500ft. Lateral bounds as shown above.
+<figure markdown>
+  ![NSFA Tower](../pacific/assets/nsfa-tower.png)
+</figure>
+
+* **NSFA_TWR** "Faleolo Tower" on 118.100.
+    * **Limits**: `SFC` to `A075`. Lateral bounds as shown above.
     * Provides a Procedural Approach service for NSFA. Also provides a control service for NSMA to the west.
 
 ## Pago Pago (NSTU)
 
-NSTU (Pago Pago) is an interesting aerodrome. It is normally uncontrolled, with a combined App/Dep above it, starting at 3,500ft. On the network, this service is to be provided by NSFA_CTR. 
+<figure markdown>
+  ![NSTU Tower](../pacific/assets/nstu-tower.png)
+  <figcaption> In this case TTUs airspace is `SFC` to `A035` <figcaption>
+</figure>
 
-A tower position will be established on the network for NSTU, as an Event Only position on 122.900. While not incredibly accurate, it will be helpful when an event in underway in the area. The NSTU Clearance position will not be modelled.
+NSTU (Pago Pago) is normally uncontrolled, with a combined APP/DEP above it, starting at `A035`, provided by FAL.
+
+A tower position has been established on the network for NSTU as an Event Only position on 122.900. While not accurate with the real world, it is intended to provide assistance when an event is underway in the area. The NSTU Clearance position is **not** modelled on the network.
+
+TTU shall request release of **ALL** IFR departures with FAL prior to departure. 
+
+Since there are no published SIDs TTU shall clear the aircraft by means of a radar vector or a means of establishing on track to thier first waypoint. 
+
+
+## Coordination
+
+Any requests for a non-nominated approach shall be coordinated with the respective Tower as needed.
+
+TFA may conduct auto-release to FAL provided the aircraft are on a RNAV SID off the Nominated Runway. 
+
+FAL shall provide a 10-minute warning to ARO before an aircraft crosses the common airspace boundary. As FAL provides a radar service, no coordination is required from ARO.

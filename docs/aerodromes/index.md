@@ -4,6 +4,162 @@
 
 This section covers aerodrome specific procedures, separated by airspace class.
 
+!!! tip "Interactive Aerodrome Map"
+    Hover over an aerodrome marker to view its classification, then select it to open the relevant procedure page.
+
+<style>
+  #aerodrome-map {
+    position: relative;
+    width: min(100%, 46rem);
+    margin: 1.5rem auto 2rem;
+  }
+
+  #aerodrome-map img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  #aerodrome-map .map-hotspots {
+    position: absolute;
+    inset: 0;
+  }
+
+  #aerodrome-map .map-hotspots a {
+    position: absolute;
+    width: 2.36%;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+  #aerodrome-map .map-hotspots a:focus,
+  #aerodrome-map .map-hotspots a:hover {
+    background: rgba(255, 255, 255, 0.22);
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.9);
+    outline: none;
+  }
+
+  #aerodrome-map .aerodrome-placard {
+    position: absolute;
+    z-index: 2;
+    display: block !important;
+    width: min(18rem, 66%);
+    padding: 0.75rem 0.9rem;
+    border: 1px solid #cbd5e1;
+    border-radius: 0.4rem;
+    background: #ffffff;
+    box-shadow: 0 0.75rem 2rem rgba(15, 23, 42, 0.22);
+    color: #111827;
+    font-size: 0.78rem;
+    line-height: 1.35;
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(0.3rem);
+    transition: opacity 160ms ease, transform 160ms ease;
+  }
+
+  #aerodrome-map .aerodrome-placard strong,
+  #aerodrome-map .aerodrome-placard span {
+    display: block;
+  }
+
+  #aerodrome-map .aerodrome-placard strong {
+    margin-bottom: 0.2rem;
+    font-size: 0.9rem;
+  }
+
+  #aerodrome-map .aerodrome-placard .aerodrome-cta {
+    margin-top: 0.35rem;
+    color: #475569;
+    font-size: 0.68rem;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  #aerodrome-map #nzaa-card { left: 53%; top: 25%; }
+  #aerodrome-map #nzwp-card { left: 47%; top: 22%; }
+  #aerodrome-map #nzhn-card { left: 55%; top: 30%; }
+  #aerodrome-map #nztg-card { left: 62%; top: 29%; }
+  #aerodrome-map #nzro-card { left: 63%; top: 34%; }
+  #aerodrome-map #nzoh-card { left: 56%; top: 45%; }
+  #aerodrome-map #nzpm-card { left: 54%; top: 47%; }
+  #aerodrome-map #nznr-card { left: 61%; top: 41%; }
+  #aerodrome-map #nzns-card { left: 37%; top: 51%; }
+  #aerodrome-map #nzwb-card { left: 42%; top: 53%; }
+  #aerodrome-map #nzpp-card { left: 62%; top: 48%; }
+  #aerodrome-map #nzwn-card { left: 49%; top: 51%; }
+  #aerodrome-map #nzch-card { left: 31%; top: 66%; }
+  #aerodrome-map #nzqn-card { left: 15%; top: 76%; }
+  #aerodrome-map #nzmf-card { left: 7%; top: 74%; }
+  #aerodrome-map #nzdn-card { left: 25%; top: 81%; }
+  #aerodrome-map #nznv-card { left: 15%; top: 85%; }
+
+  #aerodrome-map:has(#nzaa-link:hover) #nzaa-card,
+  #aerodrome-map:has(#nzaa-link:focus) #nzaa-card,
+  #aerodrome-map:has(#nzwp-link:hover) #nzwp-card,
+  #aerodrome-map:has(#nzwp-link:focus) #nzwp-card,
+  #aerodrome-map:has(#nzhn-link:hover) #nzhn-card,
+  #aerodrome-map:has(#nzhn-link:focus) #nzhn-card,
+  #aerodrome-map:has(#nztg-link:hover) #nztg-card,
+  #aerodrome-map:has(#nztg-link:focus) #nztg-card,
+  #aerodrome-map:has(#nzro-link:hover) #nzro-card,
+  #aerodrome-map:has(#nzro-link:focus) #nzro-card,
+  #aerodrome-map:has(#nzoh-link:hover) #nzoh-card,
+  #aerodrome-map:has(#nzoh-link:focus) #nzoh-card,
+  #aerodrome-map:has(#nzpm-link:hover) #nzpm-card,
+  #aerodrome-map:has(#nzpm-link:focus) #nzpm-card,
+  #aerodrome-map:has(#nznr-link:hover) #nznr-card,
+  #aerodrome-map:has(#nznr-link:focus) #nznr-card,
+  #aerodrome-map:has(#nzns-link:hover) #nzns-card,
+  #aerodrome-map:has(#nzns-link:focus) #nzns-card,
+  #aerodrome-map:has(#nzwb-link:hover) #nzwb-card,
+  #aerodrome-map:has(#nzwb-link:focus) #nzwb-card,
+  #aerodrome-map:has(#nzpp-link:hover) #nzpp-card,
+  #aerodrome-map:has(#nzpp-link:focus) #nzpp-card,
+  #aerodrome-map:has(#nzwn-link:hover) #nzwn-card,
+  #aerodrome-map:has(#nzwn-link:focus) #nzwn-card,
+  #aerodrome-map:has(#nzch-link:hover) #nzch-card,
+  #aerodrome-map:has(#nzch-link:focus) #nzch-card,
+  #aerodrome-map:has(#nzqn-link:hover) #nzqn-card,
+  #aerodrome-map:has(#nzqn-link:focus) #nzqn-card,
+  #aerodrome-map:has(#nzmf-link:hover) #nzmf-card,
+  #aerodrome-map:has(#nzmf-link:focus) #nzmf-card,
+  #aerodrome-map:has(#nzdn-link:hover) #nzdn-card,
+  #aerodrome-map:has(#nzdn-link:focus) #nzdn-card,
+  #aerodrome-map:has(#nznv-link:hover) #nznv-card,
+  #aerodrome-map:has(#nznv-link:focus) #nznv-card {
+    opacity: 1 !important;
+    transform: translateY(0);
+  }
+</style>
+
+<div id="aerodrome-map" aria-label="Interactive map of New Zealand aerodromes">
+  <img src="../assets/interactive-sops-map.png" alt="New Zealand aerodromes and their controlling sectors">
+
+  <div class="map-hotspots" aria-label="Aerodrome procedure page links">
+    <a id="nzaa-link" href="Class-C/nzaa/" aria-label="Open Auckland procedure page" style="left: 60.62%; top: 25.02%;"></a><a id="nzwp-link" href="Class-D/nzwp/" aria-label="Open Whenuapai procedure page" style="left: 59.25%; top: 24.13%;"></a><a id="nzhn-link" href="Class-D/nzhn/" aria-label="Open Hamilton procedure page" style="left: 64.27%; top: 30%;"></a><a id="nztg-link" href="Class-D/nztg/" aria-label="Open Tauranga procedure page" style="left: 69.44%; top: 29.38%;"></a><a id="nzro-link" href="Class-D/nzro/" aria-label="Open Rotorua procedure page" style="left: 72.80%; top: 33.64%;"></a><a id="nzoh-link" href="Class-D/nzoh/" aria-label="Open Ohakea procedure page" style="left: 63.83%; top: 45.11%;"></a><a id="nzpm-link" href="Class-D/nzpm/" aria-label="Open Palmerston North procedure page" style="left: 64.72%; top: 46.18%;"></a><a id="nznr-link" href="Procedural/nznr/" aria-label="Open Napier procedure page" style="left: 73.25%; top: 41.20%;"></a><a id="nzns-link" href="Procedural/nzns/" aria-label="Open Nelson procedure page" style="left: 50.80%; top: 51.33%;"></a><a id="nzwb-link" href="Class-D/nzwb/" aria-label="Open Woodbourne procedure page" style="left: 55.29%; top: 52.76%;"></a><a id="nzpp-link" href="Flight%20Service/nzpp/" aria-label="Open Paraparaumu procedure page" style="left: 60.93%; top: 50.53%;"></a><a id="nzwn-link" href="Class-C/nzwn/" aria-label="Open Wellington procedure page" style="left: 59.89%; top: 51.60%;"></a><a id="nzch-link" href="Class-C/nzch/" aria-label="Open Christchurch procedure page" style="left: 46.42%; top: 66.18%;"></a><a id="nzqn-link" href="Class-C/nzqn/" aria-label="Open Queenstown procedure page" style="left: 25.43%; top: 76.04%;"></a><a id="nzmf-link" href="Flight%20Service/nzmf/" aria-label="Open Milford Sound procedure page" style="left: 21.05%; top: 74.27%;"></a><a id="nzdn-link" href="Procedural/nzdn/" aria-label="Open Dunedin procedure page" style="left: 34.19%; top: 81.20%;"></a><a id="nznv-link" href="Procedural/nznv/" aria-label="Open Invercargill procedure page" style="left: 24.30%; top: 85.20%;"></a>
+  </div>
+
+  <div id="nzaa-card" class="aerodrome-placard" style="display: none;"><strong>Auckland (NZAA)</strong><span>Class C aerodrome</span><span class="aerodrome-cta">Select for procedure information</span></div>
+  <div id="nzwp-card" class="aerodrome-placard" style="display: none;"><strong>Whenuapai (NZWP)</strong><span>Class D aerodrome</span><span class="aerodrome-cta">Select for procedure information</span></div>
+  <div id="nzhn-card" class="aerodrome-placard" style="display: none;"><strong>Hamilton (NZHN)</strong><span>Class D aerodrome</span><span class="aerodrome-cta">Select for procedure information</span></div>
+  <div id="nztg-card" class="aerodrome-placard" style="display: none;"><strong>Tauranga (NZTG)</strong><span>Class D aerodrome</span><span class="aerodrome-cta">Select for procedure information</span></div>
+  <div id="nzro-card" class="aerodrome-placard" style="display: none;"><strong>Rotorua (NZRO)</strong><span>Class D aerodrome</span><span class="aerodrome-cta">Select for procedure information</span></div>
+  <div id="nzoh-card" class="aerodrome-placard" style="display: none;"><strong>Ohakea (NZOH)</strong><span>Class D aerodrome</span><span class="aerodrome-cta">Select for procedure information</span></div>
+  <div id="nzpm-card" class="aerodrome-placard" style="display: none;"><strong>Palmerston North (NZPM)</strong><span>Class D aerodrome</span><span class="aerodrome-cta">Select for procedure information</span></div>
+  <div id="nznr-card" class="aerodrome-placard" style="display: none;"><strong>Napier (NZNR)</strong><span>Procedural tower aerodrome</span><span class="aerodrome-cta">Select for procedure information</span></div>
+  <div id="nzns-card" class="aerodrome-placard" style="display: none;"><strong>Nelson (NZNS)</strong><span>Procedural tower aerodrome</span><span class="aerodrome-cta">Select for procedure information</span></div>
+  <div id="nzwb-card" class="aerodrome-placard" style="display: none;"><strong>Woodbourne (NZWB)</strong><span>Class D aerodrome</span><span class="aerodrome-cta">Select for procedure information</span></div>
+  <div id="nzpp-card" class="aerodrome-placard" style="display: none;"><strong>Paraparaumu (NZPP)</strong><span>Flight Service aerodrome</span><span class="aerodrome-cta">Select for procedure information</span></div>
+  <div id="nzwn-card" class="aerodrome-placard" style="display: none;"><strong>Wellington (NZWN)</strong><span>Class C aerodrome</span><span class="aerodrome-cta">Select for procedure information</span></div>
+  <div id="nzch-card" class="aerodrome-placard" style="display: none;"><strong>Christchurch (NZCH)</strong><span>Class C aerodrome</span><span class="aerodrome-cta">Select for procedure information</span></div>
+  <div id="nzqn-card" class="aerodrome-placard" style="display: none;"><strong>Queenstown (NZQN)</strong><span>Class C aerodrome</span><span class="aerodrome-cta">Select for procedure information</span></div>
+  <div id="nzmf-card" class="aerodrome-placard" style="display: none;"><strong>Milford Sound (NZMF)</strong><span>Flight Service aerodrome</span><span class="aerodrome-cta">Select for procedure information</span></div>
+  <div id="nzdn-card" class="aerodrome-placard" style="display: none;"><strong>Dunedin (NZDN)</strong><span>Procedural tower aerodrome</span><span class="aerodrome-cta">Select for procedure information</span></div>
+  <div id="nznv-card" class="aerodrome-placard" style="display: none;"><strong>Invercargill (NZNV)</strong><span>Procedural tower aerodrome</span><span class="aerodrome-cta">Select for procedure information</span></div>
+</div>
+
 ## Class C
 
 Class C airspace is applied to CTRs at large international aerodromes, associated CTAs, and en‑route airspace covering principal domestic air routes.
@@ -29,5 +185,4 @@ As per the [VATSIM Global Controller Administration Policy](https://vatsim.net/d
 Our procedural aerodromes are Gisborne (NZGS), Napier (NZNR), New Plymouth (NZNP), Nelson (NZNS), Dunedin (NZDN) and Invercargill (NZNV). These aerodromes are all Class D, therefore Class D airspace rules apply to these aerodromes. 
 
 --8<-- "includes/abbreviations.md"
-
 

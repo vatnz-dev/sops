@@ -51,4 +51,5 @@
 *[RTF]: Radio Telephony
 *[DMAPS]: Divergent Missed Approach Procedures System
 *[WDTMA]: Williams Terminal Area (Williams Tower)
+*[FSD]: Flight Simulator Daemon (Main connection between Pilots and Controllers)
 <!-- ADD Aerodrome Codes -->

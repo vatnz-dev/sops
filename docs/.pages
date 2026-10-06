@@ -5,7 +5,8 @@ nav:
     - enroute
     - oceanic
     - pacific
-    - events
+    - antarctica
+#    - events
     - controller-skills
     - contribute
     - changelog
