@@ -1,5 +1,5 @@
 ---
-  title: Working with MkDocs
+title: Working with MkDocs
 ---
 
 --8<-- "includes/abbreviations.md"
@@ -16,8 +16,8 @@ If context needs to be added, then an image is the way to go - particularly if a
 
 Images also use the default markdown syntax, but can have some additional properties added, similar to links. These are:
 
-  - `align=left` or `align=right`: Does what it says on the tin - applies a `float` to the image either to the left or right. 
-  - `width="xxx"`: Changes the width of an image, where `xxx` is the width in pixels.
+- `align=left` or `align=right`: Does what it says on the tin - applies a `float` to the image either to the left or right.
+- `width="xxx"`: Changes the width of an image, where `xxx` is the width in pixels.
 
 You can also add multiple properties together, with a space between the attributes.
 
@@ -25,13 +25,11 @@ You can also add multiple properties together, with a space between the attribut
 
 Where confusion can arise from the placement or relevance of an image, you can opt to use a caption. Unfortunately these are not natively supported by Markdown, but you can opt to use HTML.
 
-``` md title="Image Caption"
-
+```md title="Image Caption"
 <figure markdown> 
   ![Image title](https://dummyimage.com/600x400/){ width="300" }
   <figcaption>Image caption</figcaption>
 </figure>
-
 ```
 
 ## Emojis
@@ -42,9 +40,7 @@ Yes, they're supported. Why not? :shrug:
 
 Admonitions are enabled and are very handy for delivering extra information that doesn't belong in paragraph format, or that need extra attention drawn to them. They should be used in a way that doesn't distract the user from their reading flow. Feel free to use inline admonition blocks, too.
 
-
-
 You can see a list of [all admonition blocks here](https://squidfunk.github.io/mkdocs-material/reference/admonitions/){target=new}.
 
 !!! note
-    Never use collapsible blocks - if it needs the additional information drawn to it, it should be displayed all the time.
+Never use collapsible blocks - if it needs the additional information drawn to it, it should be displayed all the time.
