@@ -65,29 +65,21 @@ VFR aircraft **do not** require a clearance to enter `Class E` airspace, but sho
 
 ## Clearances
 
-IFR clearances should be issued using FAA phraseology. Controllers may use standard VATNZ IFR phraseology as a backup to FAA. VFR phraseology should remain in line with standard VATNZ practice.
+IFR clearances at NZFX may be delivered using FAA phraseology, [detailed here](../controller-skills/faa.md).
 
-Aircraft shall be cleared an inital altitude of `FL250` or lower if required. 
+The initial climb shall be no higher than `FL250`, with further climb to be expected on contact with the departure controller.  
 
-Clearances shall be in the format of CRAFT
-
-C Clearance
-R Route
-A Altitude
-F Frequency
-T Transponder
+When issuing the Manual SID procedure, controllers shall ensure that pilots confirm the correct departure routing. An 
 
 IFR clearances may include additional instructions or information where required.
-
-An example of a clearance is shown below. 
-
-`Cleared to Christchuch, XX departure as filed, climb via SID accept maintain FL250, departure frequency 126.2, squawk 1243`
-
-If no SID is assigned, clear the aircraft to destination as filed and assign the appropriate initial altitude.
 
 ### IFR Departures
 
 When Phoenix Field aerodrome positions are staffed for an event, IFR aircraft will call for clearance before departure. Tower, or Delivery when staffed during an event, shall relay the IFR clearance and issue departure instructions.
+
+#### NZFX Manual SID
+
+Due to complications with Antarctic navigation data, a [manual SID procedure has been created](../controller-skills/antarctica.md#manual-sid-procedure) for use at NZFX. This shall be the preferred departure.
 
 
 ### VFR Departures
