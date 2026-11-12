@@ -36,7 +36,7 @@ New Plymouth tower only has responsibility from the holding points out to the ru
 
 ## Clearances
 
-Controllers shall use the client suggested SID, however the default SID for northbound traffic when `RWY 05` is the nominated runway, shall be the `HARVO#P`. The `SAVLO#P` may be used when multiple northbound departures exist allowing for seperation on departure. 
+Controllers shall use the client suggested SID, however the default SID for northbound traffic when `RWY 05` is the nominated runway, shall be the `HARVO#P`. The `SAVLO#P` may be used where multiple northbound departures exist allowing for seperation on departure. 
 
 VFR aircraft shall be issued a plain language clearance, however in higher levels of traffic controllers shall utilise the published VFR procedures to ensure seperation. 
 
@@ -49,4 +49,27 @@ Stands 2-4 shall be given to Air NZ aircraft. Stand 5 is available to be used by
 GA parking is located by the tower which is to the east of Stand 5. 
 
 Controllers shall note most taixways are grass, including `TWY C/D` north and south of `RWY 05/23`. 
+
+## Departures
+
+IFR traffic shall be handed to RAN or NAK respectivly passsing `A090`, aircraft may be handed earlier if there are percieved to be no conflicts. 
+
+## Arrivals
+
+TNP should only nominate the `RNP` approach for either runway at all times. 
+
+RAN/NAK will issue STARs without coordination with New Plymouth Tower. Provided it is for the nominated runway and approach. 
+
+RAN shall hand aircraft to TNP at the following points - `DOBBO`, `HARVO` and `BUGNO`. 
+
+NAK shall hand aircraft to TNP at the following points - `VELGA`, `RUPNU`, `MANGA`, `SELTA`, and `IGDOT`. 
+
+VFR arrivals shall be issues a plain language clearance unless there are high levels of traffic in which case published procedures shall be issued. 
+
+## Coordination 
+
+Tower is normally not required to advise RAN/NAK of any departing IFR traffic, and may conduct a silent handover when aircraft crosses the common boundary, or when approaching the top of Tower's CTA. Except where previously coordinated, IFR aircraft shall cross the common airspace boundary overhead an IFR waypoint, or established on an airway.
+
+All VFR traffic handovers shall be coordinated with RAN/NAK. 
+
 

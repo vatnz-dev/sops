@@ -45,6 +45,8 @@ RAN shall ensure that an efficient arrival flow is maintained into AA TMA.
 
 ### NP TWR
 
+RAN shall hand aircraft to TNP at the following points - `DOBBO`, `HARVO` and `BUGNO`. 
+
 When NP TWR is offline, RAN is responsible for all functions of NP TWR, including the Procedural Tower service. 
 
 When responsible for NP TWR, RAN may opt to provide a radar approach service, rather than a procedural approach service. 
