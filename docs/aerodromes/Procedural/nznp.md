@@ -52,7 +52,7 @@ Controllers shall note most taixways are grass, including `TWY C/D` north and so
 
 ## Departures
 
-IFR traffic shall be handed to RAN or NAK respectivly passsing `A090`, aircraft may be handed earlier if there are percieved to be no conflicts. 
+IFR traffic shall be handed to RAN or NAK respectivly passsing `A045`, aircraft may be held onto if there is perceived to be traffic of concern. 
 
 ## Arrivals
 
