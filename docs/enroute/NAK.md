@@ -44,6 +44,8 @@ When responsible for NS TWR, NAK may opt to provide a radar approach service, ra
 
 ### NP TWR
 
+NAK shall hand aircraft to TNP at the following points - `VELGA`, `RUPNU`, `MANGA`, `SELTA`, and `IGDOT`. 
+
 When NP TWR is offline, the NP Procedural Tower service shall be provided by RAN or OCR. If these sectors are offline, NAK may elect to provide the same service, although not mandatory. 
 
 When responsible for NP TWR, NAK may opt to provide a radar approach service, rather than a procedural approach service.
