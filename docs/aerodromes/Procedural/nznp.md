@@ -14,7 +14,7 @@
 
 The New Plymouth CTR/D follows the inner lateral boundaries shown below from `SFC` to `A025`.
 
-The wider New Plymouth CTA/D follows the outer boundaries as shown below, with the vertical boundaries also listed in their respective sector. New Plymouth's airspace tops out at `A095`. 
+The wider New Plymouth CTA/D follows the outer boundaries as shown below, with the vertical boundaries also listed in their respective sector. New Plymouth's airspace tops out at `A065`. 
 
 New Plymouth Tower provides a Procedural Approach service for the wider CTA/D.
 
@@ -25,7 +25,7 @@ New Plymouth Tower provides a Procedural Approach service for the wider CTA/D.
 
 ## Areas of Responsibility
 
-New Plymouth's main apron has seven stands. With Skyline hangars at the northern end. 
+New Plymouth's main apron has 4 main stands. Whilst GA parking is available next to the tower. 
 
 New Plymouth tower only has responsibility from the holding points out to the runway, as depicted below.
 
